@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-25T07:30:16.000Z",
+  "generated_at": "2026-10-25T07:19:05.000Z",
   "api_version": "v1",
   "schema_revision": 2,
-  "status_url": "https://bots.anthonytoday.com/api/v1/status.json",
+  "status_url": "https://moneywithai.net/api/v1/status.json",
   "count": 31,
   "items": [
     {
@@ -20,7 +20,7 @@
         "label": "High",
         "basis": "Assumes you charge per website build or a monthly care plan, so income grows with each client who says yes.",
         "claim_label": "E",
-        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Money tiers are our estimates (E) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "You sell a website build or a monthly care plan to each business that says yes.",
@@ -40,7 +40,7 @@
           "tools": [
             "Grok"
           ],
-          "url": "https://bots.anthonytoday.com/bots/local-business-website-hunter/",
+          "url": "https://moneywithai.net/bots/local-business-website-hunter/",
           "official_share_url": "https://x.ai/bot/U87LeqeLNEIKRe9ctpRxG"
         },
         {
@@ -51,7 +51,7 @@
           "tools": [
             "Grok"
           ],
-          "url": "https://bots.anthonytoday.com/bots/lead-scout/",
+          "url": "https://moneywithai.net/bots/lead-scout/",
           "official_share_url": "https://x.ai/bot/j3Qule6BFplSpVqgLpVnV"
         },
         {
@@ -62,7 +62,7 @@
           "tools": [
             "Grok"
           ],
-          "url": "https://bots.anthonytoday.com/bots/site-research/",
+          "url": "https://moneywithai.net/bots/site-research/",
           "official_share_url": "https://x.ai/bot/zkgCv30YKSJPHc7rUB_6P"
         }
       ],
@@ -136,8 +136,8 @@
       ],
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
-      "url": "https://bots.anthonytoday.com/use-cases/sell-websites-to-local-businesses/",
-      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/sell-websites-to-local-businesses.json"
+      "url": "https://moneywithai.net/use-cases/sell-websites-to-local-businesses/",
+      "json_url": "https://moneywithai.net/api/v1/use-cases/sell-websites-to-local-businesses.json"
     },
     {
       "type": "use-case",
@@ -154,7 +154,7 @@
         "label": "Medium",
         "basis": "Assumes you already sell on Instagram; it adds warm conversations, not a new product.",
         "claim_label": "E",
-        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Money tiers are our estimates (E) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "More conversations with people who already know your brand.",
@@ -172,7 +172,7 @@
           "tools": [
             "Instagram"
           ],
-          "url": "https://bots.anthonytoday.com/bots/engagement-lead-finder/",
+          "url": "https://moneywithai.net/bots/engagement-lead-finder/",
           "official_share_url": null
         }
       ],
@@ -226,8 +226,8 @@
       ],
       "claims": [],
       "latest_bot_added_at": "2026-10-24T08:00:00.000Z",
-      "url": "https://bots.anthonytoday.com/use-cases/instagram-engagers-to-leads/",
-      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/instagram-engagers-to-leads.json"
+      "url": "https://moneywithai.net/use-cases/instagram-engagers-to-leads/",
+      "json_url": "https://moneywithai.net/api/v1/use-cases/instagram-engagers-to-leads.json"
     },
     {
       "type": "use-case",
@@ -244,7 +244,7 @@
         "label": "Medium",
         "basis": "Assumes you sell a B2B service; leads still need your follow-up to close.",
         "claim_label": "E",
-        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Money tiers are our estimates (E) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Each comment becomes a tracked lead you can follow up.",
@@ -263,7 +263,7 @@
             "LinkedIn",
             "Notion"
           ],
-          "url": "https://bots.anthonytoday.com/bots/linkedin-lead-outreach/",
+          "url": "https://moneywithai.net/bots/linkedin-lead-outreach/",
           "official_share_url": "https://x.ai/bot/DEMmOi7SiFhsFtIKuBKRD"
         },
         {
@@ -276,7 +276,7 @@
             "Notion",
             "Slack"
           ],
-          "url": "https://bots.anthonytoday.com/bots/linkedin-profile-audit/",
+          "url": "https://moneywithai.net/bots/linkedin-profile-audit/",
           "official_share_url": null
         }
       ],
@@ -344,8 +344,8 @@
       ],
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
-      "url": "https://bots.anthonytoday.com/use-cases/linkedin-lead-magnet-funnel/",
-      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/linkedin-lead-magnet-funnel.json"
+      "url": "https://moneywithai.net/use-cases/linkedin-lead-magnet-funnel/",
+      "json_url": "https://moneywithai.net/api/v1/use-cases/linkedin-lead-magnet-funnel.json"
     },
     {
       "type": "use-case",
@@ -362,7 +362,7 @@
         "label": "Low",
         "basis": "Assumes replies bring profile visits first; sales come later and depend on your offer.",
         "claim_label": "E",
-        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Money tiers are our estimates (E) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Helpful replies in the right threads bring profile visits and inbound leads.",
@@ -380,7 +380,7 @@
           "tools": [
             "X"
           ],
-          "url": "https://bots.anthonytoday.com/bots/x-reply-scout/",
+          "url": "https://moneywithai.net/bots/x-reply-scout/",
           "official_share_url": "https://x.ai/bot/DRZ2jU1GFwV8HS2_9Y6MA"
         },
         {
@@ -391,7 +391,7 @@
           "tools": [
             "X"
           ],
-          "url": "https://bots.anthonytoday.com/bots/reply-drafter/",
+          "url": "https://moneywithai.net/bots/reply-drafter/",
           "official_share_url": null
         }
       ],
@@ -454,8 +454,8 @@
       ],
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
-      "url": "https://bots.anthonytoday.com/use-cases/x-audience-prospecting/",
-      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/x-audience-prospecting.json"
+      "url": "https://moneywithai.net/use-cases/x-audience-prospecting/",
+      "json_url": "https://moneywithai.net/api/v1/use-cases/x-audience-prospecting.json"
     },
     {
       "type": "use-case",
@@ -472,7 +472,7 @@
         "label": "High",
         "basis": "Assumes you sell SEO retainers; specific pitches can win more paying clients.",
         "claim_label": "E",
-        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Money tiers are our estimates (E) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Specific audits win more discovery calls than generic offers.",
@@ -490,7 +490,7 @@
           "tools": [
             "Grok"
           ],
-          "url": "https://bots.anthonytoday.com/bots/lead-scout/",
+          "url": "https://moneywithai.net/bots/lead-scout/",
           "official_share_url": "https://x.ai/bot/j3Qule6BFplSpVqgLpVnV"
         },
         {
@@ -501,7 +501,7 @@
           "tools": [
             "Grok"
           ],
-          "url": "https://bots.anthonytoday.com/bots/site-research/",
+          "url": "https://moneywithai.net/bots/site-research/",
           "official_share_url": "https://x.ai/bot/zkgCv30YKSJPHc7rUB_6P"
         },
         {
@@ -514,7 +514,7 @@
             "HubSpot",
             "Google Sheets"
           ],
-          "url": "https://bots.anthonytoday.com/bots/kickbox-to-hubspot-importer/",
+          "url": "https://moneywithai.net/bots/kickbox-to-hubspot-importer/",
           "official_share_url": "https://x.ai/bot/PRc9UmcxySAv0UBU4g8fx"
         }
       ],
@@ -592,8 +592,8 @@
       ],
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
-      "url": "https://bots.anthonytoday.com/use-cases/seo-agency-pitch-pack/",
-      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/seo-agency-pitch-pack.json"
+      "url": "https://moneywithai.net/use-cases/seo-agency-pitch-pack/",
+      "json_url": "https://moneywithai.net/api/v1/use-cases/seo-agency-pitch-pack.json"
     },
     {
       "type": "use-case",
@@ -610,7 +610,7 @@
         "label": "High",
         "basis": "Assumes each home-service job is high value, so winning a few more jobs matters.",
         "claim_label": "E",
-        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Money tiers are our estimates (E) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Fast, complete replies win more of the jobs you already paid to attract.",
@@ -629,7 +629,7 @@
             "SMS",
             "Email"
           ],
-          "url": "https://bots.anthonytoday.com/bots/legend-lead-ops/",
+          "url": "https://moneywithai.net/bots/legend-lead-ops/",
           "official_share_url": "https://x.ai/bot/WCZjv-qHMtHz2AdQW136q"
         },
         {
@@ -641,7 +641,7 @@
             "Google Calendar",
             "Bland"
           ],
-          "url": "https://bots.anthonytoday.com/bots/phone-receptionist/",
+          "url": "https://moneywithai.net/bots/phone-receptionist/",
           "official_share_url": "https://x.ai/bot/Z7LfRtBtwfaojaomMrAuX"
         },
         {
@@ -652,7 +652,7 @@
           "tools": [
             "Email"
           ],
-          "url": "https://bots.anthonytoday.com/bots/reply-desk/",
+          "url": "https://moneywithai.net/bots/reply-desk/",
           "official_share_url": "https://x.ai/bot/8lLjBC7bXUqbfh-vLG9jf"
         }
       ],
@@ -747,8 +747,8 @@
         }
       ],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
-      "url": "https://bots.anthonytoday.com/use-cases/contractor-speed-to-lead/",
-      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/contractor-speed-to-lead.json"
+      "url": "https://moneywithai.net/use-cases/contractor-speed-to-lead/",
+      "json_url": "https://moneywithai.net/api/v1/use-cases/contractor-speed-to-lead.json"
     },
     {
       "type": "use-case",
@@ -765,7 +765,7 @@
         "label": "Medium",
         "basis": "Assumes you get more inbound requests than you can answer well.",
         "claim_label": "E",
-        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Money tiers are our estimates (E) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "You spend your time on the leads most likely to pay.",
@@ -784,7 +784,7 @@
             "Email",
             "Slack"
           ],
-          "url": "https://bots.anthonytoday.com/bots/lead-vetting/",
+          "url": "https://moneywithai.net/bots/lead-vetting/",
           "official_share_url": "https://x.ai/bot/eEfAacXdtzHANV5hVhG6o"
         },
         {
@@ -798,7 +798,7 @@
             "LinkedIn",
             "Trello"
           ],
-          "url": "https://bots.anthonytoday.com/bots/inbox-triage/",
+          "url": "https://moneywithai.net/bots/inbox-triage/",
           "official_share_url": null
         }
       ],
@@ -870,8 +870,8 @@
       ],
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
-      "url": "https://bots.anthonytoday.com/use-cases/qualify-inbound-consulting-leads/",
-      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/qualify-inbound-consulting-leads.json"
+      "url": "https://moneywithai.net/use-cases/qualify-inbound-consulting-leads/",
+      "json_url": "https://moneywithai.net/api/v1/use-cases/qualify-inbound-consulting-leads.json"
     },
     {
       "type": "use-case",
@@ -888,7 +888,7 @@
         "label": "Medium",
         "basis": "Assumes technical deals often stall on open questions; it helps calls move, it does not create demand.",
         "claim_label": "E",
-        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Money tiers are our estimates (E) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Fewer deals slip while you wait for an engineer.",
@@ -907,7 +907,7 @@
             "GitHub",
             "Glean"
           ],
-          "url": "https://bots.anthonytoday.com/bots/product-expert/",
+          "url": "https://moneywithai.net/bots/product-expert/",
           "official_share_url": null
         },
         {
@@ -918,7 +918,7 @@
           "tools": [
             "Grok"
           ],
-          "url": "https://bots.anthonytoday.com/bots/scout-competitive-intelligence/",
+          "url": "https://moneywithai.net/bots/scout-competitive-intelligence/",
           "official_share_url": "https://x.ai/bot/rthl9MdskO2f-JCzmyINP"
         }
       ],
@@ -988,8 +988,8 @@
       ],
       "claims": [],
       "latest_bot_added_at": "2026-10-24T08:00:00.000Z",
-      "url": "https://bots.anthonytoday.com/use-cases/product-expert-on-sales-calls/",
-      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/product-expert-on-sales-calls.json"
+      "url": "https://moneywithai.net/use-cases/product-expert-on-sales-calls/",
+      "json_url": "https://moneywithai.net/api/v1/use-cases/product-expert-on-sales-calls.json"
     },
     {
       "type": "use-case",
@@ -1006,7 +1006,7 @@
         "label": "Medium",
         "basis": "Assumes the channel already earns from ads or sponsors; more and better uploads compound over time.",
         "claim_label": "E",
-        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Money tiers are our estimates (E) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "You publish more often with the same hours.",
@@ -1026,7 +1026,7 @@
             "AssemblyAI",
             "Figma"
           ],
-          "url": "https://bots.anthonytoday.com/bots/media-manager/",
+          "url": "https://moneywithai.net/bots/media-manager/",
           "official_share_url": "https://x.ai/bot/qG_ZROllzSSRGKx_iIbsQ"
         },
         {
@@ -1037,7 +1037,7 @@
           "tools": [
             "X"
           ],
-          "url": "https://bots.anthonytoday.com/bots/creator-desk/",
+          "url": "https://moneywithai.net/bots/creator-desk/",
           "official_share_url": "https://x.ai/bot/dM43J1T44OmcRdAsNHsBf"
         }
       ],
@@ -1105,8 +1105,8 @@
       ],
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
-      "url": "https://bots.anthonytoday.com/use-cases/youtube-channel-operations/",
-      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/youtube-channel-operations.json"
+      "url": "https://moneywithai.net/use-cases/youtube-channel-operations/",
+      "json_url": "https://moneywithai.net/api/v1/use-cases/youtube-channel-operations.json"
     },
     {
       "type": "use-case",
@@ -1123,7 +1123,7 @@
         "label": "Low",
         "basis": "Assumes audience growth comes first; income comes later from what you sell or get paid for.",
         "claim_label": "E",
-        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Money tiers are our estimates (E) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "A steady posting rhythm grows the audience you sell to or get paid by.",
@@ -1141,7 +1141,7 @@
           "tools": [
             "X"
           ],
-          "url": "https://bots.anthonytoday.com/bots/creator-desk/",
+          "url": "https://moneywithai.net/bots/creator-desk/",
           "official_share_url": "https://x.ai/bot/dM43J1T44OmcRdAsNHsBf"
         },
         {
@@ -1152,7 +1152,7 @@
           "tools": [
             "X"
           ],
-          "url": "https://bots.anthonytoday.com/bots/x-thread-and-article-writer/",
+          "url": "https://moneywithai.net/bots/x-thread-and-article-writer/",
           "official_share_url": "https://x.ai/bot/xLeBNzgp0Z6IUGxyt8sj4"
         },
         {
@@ -1163,7 +1163,7 @@
           "tools": [
             "X"
           ],
-          "url": "https://bots.anthonytoday.com/bots/reply-drafter/",
+          "url": "https://moneywithai.net/bots/reply-drafter/",
           "official_share_url": null
         }
       ],
@@ -1235,8 +1235,8 @@
       ],
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
-      "url": "https://bots.anthonytoday.com/use-cases/x-creator-desk/",
-      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/x-creator-desk.json"
+      "url": "https://moneywithai.net/use-cases/x-creator-desk/",
+      "json_url": "https://moneywithai.net/api/v1/use-cases/x-creator-desk.json"
     },
     {
       "type": "use-case",
@@ -1253,7 +1253,7 @@
         "label": "Medium",
         "basis": "Assumes you already do brand deals; fair pricing raises what each deal pays.",
         "claim_label": "E",
-        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Money tiers are our estimates (E) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Creators stop underpricing; brands stop overpaying.",
@@ -1272,7 +1272,7 @@
             "Instagram",
             "TikTok"
           ],
-          "url": "https://bots.anthonytoday.com/bots/cpm/",
+          "url": "https://moneywithai.net/bots/cpm/",
           "official_share_url": "https://x.ai/bot/GwmXIfLuPPIPf2hGX2Txf"
         }
       ],
@@ -1326,8 +1326,8 @@
       ],
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
-      "url": "https://bots.anthonytoday.com/use-cases/price-brand-deals/",
-      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/price-brand-deals.json"
+      "url": "https://moneywithai.net/use-cases/price-brand-deals/",
+      "json_url": "https://moneywithai.net/api/v1/use-cases/price-brand-deals.json"
     },
     {
       "type": "use-case",
@@ -1344,7 +1344,7 @@
         "label": "High",
         "basis": "Assumes a store with steady orders; gains scale with your sales volume.",
         "claim_label": "E",
-        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Money tiers are our estimates (E) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Fewer missed orders, stockouts and slow replies.",
@@ -1362,7 +1362,7 @@
           "tools": [
             "Shopify"
           ],
-          "url": "https://bots.anthonytoday.com/bots/shopify-bot/",
+          "url": "https://moneywithai.net/bots/shopify-bot/",
           "official_share_url": "https://x.ai/bot/jhd6Cb9XEPI6b-hs-WCQE"
         },
         {
@@ -1373,7 +1373,7 @@
           "tools": [
             "Grok"
           ],
-          "url": "https://bots.anthonytoday.com/bots/store-manager/",
+          "url": "https://moneywithai.net/bots/store-manager/",
           "official_share_url": "https://x.ai/bot/5axq0n6JtBkqjhMaCDO6d"
         },
         {
@@ -1384,7 +1384,7 @@
           "tools": [
             "Email"
           ],
-          "url": "https://bots.anthonytoday.com/bots/reply-desk/",
+          "url": "https://moneywithai.net/bots/reply-desk/",
           "official_share_url": "https://x.ai/bot/8lLjBC7bXUqbfh-vLG9jf"
         }
       ],
@@ -1459,8 +1459,8 @@
       ],
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
-      "url": "https://bots.anthonytoday.com/use-cases/shopify-store-with-a-bot-team/",
-      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/shopify-store-with-a-bot-team.json"
+      "url": "https://moneywithai.net/use-cases/shopify-store-with-a-bot-team/",
+      "json_url": "https://moneywithai.net/api/v1/use-cases/shopify-store-with-a-bot-team.json"
     },
     {
       "type": "use-case",
@@ -1477,7 +1477,7 @@
         "label": "Low",
         "basis": "Assumes small margins per item; income grows with how many items you source and list.",
         "claim_label": "E",
-        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Money tiers are our estimates (E) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "You list more items per hour.",
@@ -1495,7 +1495,7 @@
           "tools": [
             "eBay"
           ],
-          "url": "https://bots.anthonytoday.com/bots/ebay-lister/",
+          "url": "https://moneywithai.net/bots/ebay-lister/",
           "official_share_url": "https://x.ai/bot/q9Q8EPKFx45CmVwjUAFY5"
         }
       ],
@@ -1547,8 +1547,8 @@
       ],
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
-      "url": "https://bots.anthonytoday.com/use-cases/thrift-flips-on-ebay/",
-      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/thrift-flips-on-ebay.json"
+      "url": "https://moneywithai.net/use-cases/thrift-flips-on-ebay/",
+      "json_url": "https://moneywithai.net/api/v1/use-cases/thrift-flips-on-ebay.json"
     },
     {
       "type": "use-case",
@@ -1565,7 +1565,7 @@
         "label": "Low",
         "basis": "Indirect: it gives you timing and ideas, not income on its own.",
         "claim_label": "E",
-        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Money tiers are our estimates (E) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "React to launches with offers or content while they are fresh.",
@@ -1585,7 +1585,7 @@
             "TikTok Shop",
             "Slack"
           ],
-          "url": "https://bots.anthonytoday.com/bots/drop-radar/",
+          "url": "https://moneywithai.net/bots/drop-radar/",
           "official_share_url": "https://x.ai/bot/KYM0C9BcyfXEP9uIyxlmE"
         },
         {
@@ -1596,7 +1596,7 @@
           "tools": [
             "Grok"
           ],
-          "url": "https://bots.anthonytoday.com/bots/scout-competitive-intelligence/",
+          "url": "https://moneywithai.net/bots/scout-competitive-intelligence/",
           "official_share_url": "https://x.ai/bot/rthl9MdskO2f-JCzmyINP"
         }
       ],
@@ -1662,8 +1662,8 @@
       ],
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
-      "url": "https://bots.anthonytoday.com/use-cases/dtc-competitor-drop-watch/",
-      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/dtc-competitor-drop-watch.json"
+      "url": "https://moneywithai.net/use-cases/dtc-competitor-drop-watch/",
+      "json_url": "https://moneywithai.net/api/v1/use-cases/dtc-competitor-drop-watch.json"
     },
     {
       "type": "use-case",
@@ -1680,7 +1680,7 @@
         "label": "Low",
         "basis": "Mainly saves time and wasted trips; income grows only if you book more shoots.",
         "claim_label": "E",
-        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Money tiers are our estimates (E) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Fewer wasted trips and rained-out shoots.",
@@ -1698,7 +1698,7 @@
           "tools": [
             "Email"
           ],
-          "url": "https://bots.anthonytoday.com/bots/photo-and-video-shoot-confirmations/",
+          "url": "https://moneywithai.net/bots/photo-and-video-shoot-confirmations/",
           "official_share_url": "https://x.ai/bot/iduDVp02VHu06-XddxcSD"
         },
         {
@@ -1710,7 +1710,7 @@
             "Google Drive",
             "Dropbox"
           ],
-          "url": "https://bots.anthonytoday.com/bots/photofix/",
+          "url": "https://moneywithai.net/bots/photofix/",
           "official_share_url": "https://x.ai/bot/PRdnJ63L8h0FVlMAA1UN4"
         },
         {
@@ -1721,7 +1721,7 @@
           "tools": [
             "Grok"
           ],
-          "url": "https://bots.anthonytoday.com/bots/travel-expenses/",
+          "url": "https://moneywithai.net/bots/travel-expenses/",
           "official_share_url": "https://x.ai/bot/Upkn_bUxr___NAvXZB3Dc"
         }
       ],
@@ -1794,8 +1794,8 @@
       ],
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
-      "url": "https://bots.anthonytoday.com/use-cases/photography-back-office/",
-      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/photography-back-office.json"
+      "url": "https://moneywithai.net/use-cases/photography-back-office/",
+      "json_url": "https://moneywithai.net/api/v1/use-cases/photography-back-office.json"
     },
     {
       "type": "use-case",
@@ -1812,7 +1812,7 @@
         "label": "Medium",
         "basis": "Assumes faster, consistent quotes win more small custom orders.",
         "claim_label": "E",
-        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Money tiers are our estimates (E) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Quick quotes win more small jobs.",
@@ -1830,7 +1830,7 @@
           "tools": [
             "Bambu Lab"
           ],
-          "url": "https://bots.anthonytoday.com/bots/precision-3d-helper/",
+          "url": "https://moneywithai.net/bots/precision-3d-helper/",
           "official_share_url": "https://x.ai/bot/bna2wMqlfX6-F4TBmAEBJ"
         },
         {
@@ -1841,7 +1841,7 @@
           "tools": [
             "Email"
           ],
-          "url": "https://bots.anthonytoday.com/bots/reply-desk/",
+          "url": "https://moneywithai.net/bots/reply-desk/",
           "official_share_url": "https://x.ai/bot/8lLjBC7bXUqbfh-vLG9jf"
         }
       ],
@@ -1903,8 +1903,8 @@
       ],
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
-      "url": "https://bots.anthonytoday.com/use-cases/maker-shop-quotes/",
-      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/maker-shop-quotes.json"
+      "url": "https://moneywithai.net/use-cases/maker-shop-quotes/",
+      "json_url": "https://moneywithai.net/api/v1/use-cases/maker-shop-quotes.json"
     },
     {
       "type": "use-case",
@@ -1921,7 +1921,7 @@
         "label": "High",
         "basis": "Assumes you charge clients per application pack or on a retainer.",
         "claim_label": "E",
-        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Money tiers are our estimates (E) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Charge clients for research and application preparation.",
@@ -1939,7 +1939,7 @@
           "tools": [
             "Grok"
           ],
-          "url": "https://bots.anthonytoday.com/bots/grantogre/",
+          "url": "https://moneywithai.net/bots/grantogre/",
           "official_share_url": "https://x.ai/bot/WXC1m-5Iiyu1IyvBEt9Va"
         }
       ],
@@ -1992,8 +1992,8 @@
       ],
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
-      "url": "https://bots.anthonytoday.com/use-cases/grant-writing-service/",
-      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/grant-writing-service.json"
+      "url": "https://moneywithai.net/use-cases/grant-writing-service/",
+      "json_url": "https://moneywithai.net/api/v1/use-cases/grant-writing-service.json"
     },
     {
       "type": "use-case",
@@ -2010,7 +2010,7 @@
         "label": "High",
         "basis": "Assumes you sell it as a monthly retainer to several local businesses.",
         "claim_label": "E",
-        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Money tiers are our estimates (E) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Sell it as a monthly retainer to local businesses.",
@@ -2028,7 +2028,7 @@
           "tools": [
             "Webflow"
           ],
-          "url": "https://bots.anthonytoday.com/bots/content-planner-manager/",
+          "url": "https://moneywithai.net/bots/content-planner-manager/",
           "official_share_url": null
         },
         {
@@ -2039,7 +2039,7 @@
           "tools": [
             "GitHub"
           ],
-          "url": "https://bots.anthonytoday.com/bots/geo-targeted-seo-publisher/",
+          "url": "https://moneywithai.net/bots/geo-targeted-seo-publisher/",
           "official_share_url": null
         },
         {
@@ -2050,7 +2050,7 @@
           "tools": [
             "Grok"
           ],
-          "url": "https://bots.anthonytoday.com/bots/competitor-intel/",
+          "url": "https://moneywithai.net/bots/competitor-intel/",
           "official_share_url": "https://x.ai/bot/PIBCWeB59T-UhxyBNLowR"
         }
       ],
@@ -2124,8 +2124,8 @@
       ],
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
-      "url": "https://bots.anthonytoday.com/use-cases/local-seo-content-engine/",
-      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/local-seo-content-engine.json"
+      "url": "https://moneywithai.net/use-cases/local-seo-content-engine/",
+      "json_url": "https://moneywithai.net/api/v1/use-cases/local-seo-content-engine.json"
     },
     {
       "type": "use-case",
@@ -2142,7 +2142,7 @@
         "label": "High",
         "basis": "Assumes you sell social management to brands on monthly terms.",
         "claim_label": "E",
-        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Money tiers are our estimates (E) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Sell social management to brands at studio quality.",
@@ -2161,7 +2161,7 @@
             "Instagram",
             "Pinterest"
           ],
-          "url": "https://bots.anthonytoday.com/bots/art-director/",
+          "url": "https://moneywithai.net/bots/art-director/",
           "official_share_url": "https://x.ai/bot/CPsMufoHozETWciYoiqvL"
         },
         {
@@ -2172,7 +2172,7 @@
           "tools": [
             "Grok"
           ],
-          "url": "https://bots.anthonytoday.com/bots/sentinel/",
+          "url": "https://moneywithai.net/bots/sentinel/",
           "official_share_url": "https://x.ai/bot/NAFAT-NGrQ7-zLccn4qg1"
         }
       ],
@@ -2239,8 +2239,8 @@
       ],
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
-      "url": "https://bots.anthonytoday.com/use-cases/brand-instagram-studio/",
-      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/brand-instagram-studio.json"
+      "url": "https://moneywithai.net/use-cases/brand-instagram-studio/",
+      "json_url": "https://moneywithai.net/api/v1/use-cases/brand-instagram-studio.json"
     },
     {
       "type": "use-case",
@@ -2257,7 +2257,7 @@
         "label": "Medium",
         "basis": "Assumes steady campaigns bring new clients; you set the ad budget.",
         "claim_label": "E",
-        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Money tiers are our estimates (E) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Steady campaigns bring new patients or clients.",
@@ -2275,7 +2275,7 @@
           "tools": [
             "Google Ads"
           ],
-          "url": "https://bots.anthonytoday.com/bots/consider-it-marketed/",
+          "url": "https://moneywithai.net/bots/consider-it-marketed/",
           "official_share_url": "https://x.ai/bot/ayQYbaHquRM7x7lnBOEoQ"
         },
         {
@@ -2286,7 +2286,7 @@
           "tools": [
             "Grok"
           ],
-          "url": "https://bots.anthonytoday.com/bots/sentinel/",
+          "url": "https://moneywithai.net/bots/sentinel/",
           "official_share_url": "https://x.ai/bot/NAFAT-NGrQ7-zLccn4qg1"
         }
       ],
@@ -2349,8 +2349,8 @@
       ],
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
-      "url": "https://bots.anthonytoday.com/use-cases/practice-marketing-team/",
-      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/practice-marketing-team.json"
+      "url": "https://moneywithai.net/use-cases/practice-marketing-team/",
+      "json_url": "https://moneywithai.net/api/v1/use-cases/practice-marketing-team.json"
     },
     {
       "type": "use-case",
@@ -2367,7 +2367,7 @@
         "label": "Low",
         "basis": "Saves bookkeeping time and catches late rent; it does not add new income.",
         "claim_label": "E",
-        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Money tiers are our estimates (E) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Late rent gets chased sooner.",
@@ -2385,7 +2385,7 @@
           "tools": [
             "Grok"
           ],
-          "url": "https://bots.anthonytoday.com/bots/landlord-ledger/",
+          "url": "https://moneywithai.net/bots/landlord-ledger/",
           "official_share_url": "https://x.ai/bot/sPjI0Dec1DUvTc7H0zxNG"
         },
         {
@@ -2396,7 +2396,7 @@
           "tools": [
             "Grok"
           ],
-          "url": "https://bots.anthonytoday.com/bots/invoice-hunter/",
+          "url": "https://moneywithai.net/bots/invoice-hunter/",
           "official_share_url": "https://x.ai/bot/-kO6HrXokJZANVwUOMZO9"
         }
       ],
@@ -2458,8 +2458,8 @@
       ],
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
-      "url": "https://bots.anthonytoday.com/use-cases/rental-income-bookkeeping/",
-      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/rental-income-bookkeeping.json"
+      "url": "https://moneywithai.net/use-cases/rental-income-bookkeeping/",
+      "json_url": "https://moneywithai.net/api/v1/use-cases/rental-income-bookkeeping.json"
     },
     {
       "type": "use-case",
@@ -2476,7 +2476,7 @@
         "label": "Low",
         "basis": "Recovers money owed to you; the amount depends on your order volume and error rate.",
         "claim_label": "E",
-        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Money tiers are our estimates (E) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Money the platforms owe you comes back.",
@@ -2494,7 +2494,7 @@
           "tools": [
             "Grok"
           ],
-          "url": "https://bots.anthonytoday.com/bots/restaurant-order-recovery/",
+          "url": "https://moneywithai.net/bots/restaurant-order-recovery/",
           "official_share_url": "https://x.ai/bot/wB9H7OSiHYPlRgyCTM5Iq"
         }
       ],
@@ -2546,8 +2546,8 @@
       ],
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
-      "url": "https://bots.anthonytoday.com/use-cases/recover-delivery-refunds/",
-      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/recover-delivery-refunds.json"
+      "url": "https://moneywithai.net/use-cases/recover-delivery-refunds/",
+      "json_url": "https://moneywithai.net/api/v1/use-cases/recover-delivery-refunds.json"
     },
     {
       "type": "use-case",
@@ -2564,7 +2564,7 @@
         "label": "Low",
         "basis": "Mainly saves costs: it finds waste and speeds up the close.",
         "claim_label": "E",
-        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Money tiers are our estimates (E) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Catch unused subscriptions and billing surprises.",
@@ -2585,7 +2585,7 @@
             "QuickBooks",
             "Gmail"
           ],
-          "url": "https://bots.anthonytoday.com/bots/saas-cfo-monitor/",
+          "url": "https://moneywithai.net/bots/saas-cfo-monitor/",
           "official_share_url": null
         },
         {
@@ -2596,7 +2596,7 @@
           "tools": [
             "Grok"
           ],
-          "url": "https://bots.anthonytoday.com/bots/invoice-hunter/",
+          "url": "https://moneywithai.net/bots/invoice-hunter/",
           "official_share_url": "https://x.ai/bot/-kO6HrXokJZANVwUOMZO9"
         }
       ],
@@ -2662,8 +2662,8 @@
       ],
       "claims": [],
       "latest_bot_added_at": "2026-10-24T08:00:00.000Z",
-      "url": "https://bots.anthonytoday.com/use-cases/saas-finance-watch/",
-      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/saas-finance-watch.json"
+      "url": "https://moneywithai.net/use-cases/saas-finance-watch/",
+      "json_url": "https://moneywithai.net/api/v1/use-cases/saas-finance-watch.json"
     },
     {
       "type": "use-case",
@@ -2680,7 +2680,7 @@
         "label": "Medium",
         "basis": "Assumes drafted routine work lets each accountant serve more clients.",
         "claim_label": "E",
-        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Money tiers are our estimates (E) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "More clients per accountant.",
@@ -2698,7 +2698,7 @@
           "tools": [
             "Grok"
           ],
-          "url": "https://bots.anthonytoday.com/bots/tax-firm-os/",
+          "url": "https://moneywithai.net/bots/tax-firm-os/",
           "official_share_url": "https://x.ai/bot/vJqjJphtZRkdBTYBxmWur"
         },
         {
@@ -2712,7 +2712,7 @@
             "LinkedIn",
             "Trello"
           ],
-          "url": "https://bots.anthonytoday.com/bots/inbox-triage/",
+          "url": "https://moneywithai.net/bots/inbox-triage/",
           "official_share_url": null
         }
       ],
@@ -2781,8 +2781,8 @@
       ],
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
-      "url": "https://bots.anthonytoday.com/use-cases/accounting-practice-ops/",
-      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/accounting-practice-ops.json"
+      "url": "https://moneywithai.net/use-cases/accounting-practice-ops/",
+      "json_url": "https://moneywithai.net/api/v1/use-cases/accounting-practice-ops.json"
     },
     {
       "type": "use-case",
@@ -2799,7 +2799,7 @@
         "label": "Medium",
         "basis": "Assumes fewer repeat tickets keep customers paying; it protects revenue more than it adds it.",
         "claim_label": "E",
-        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Money tiers are our estimates (E) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Fewer repeat tickets and faster fixes keep customers paying.",
@@ -2821,7 +2821,7 @@
             "Infisical",
             "Codex"
           ],
-          "url": "https://bots.anthonytoday.com/bots/support-ticket-fixer/",
+          "url": "https://moneywithai.net/bots/support-ticket-fixer/",
           "official_share_url": null
         },
         {
@@ -2833,7 +2833,7 @@
             "Intercom",
             "GitHub"
           ],
-          "url": "https://bots.anthonytoday.com/bots/help-center-updater/",
+          "url": "https://moneywithai.net/bots/help-center-updater/",
           "official_share_url": null
         },
         {
@@ -2844,7 +2844,7 @@
           "tools": [
             "X API"
           ],
-          "url": "https://bots.anthonytoday.com/bots/customer-feedback-watch/",
+          "url": "https://moneywithai.net/bots/customer-feedback-watch/",
           "official_share_url": "https://x.ai/bot/8Snl1TovbMwClPoBiHrWT"
         }
       ],
@@ -2930,8 +2930,8 @@
       ],
       "claims": [],
       "latest_bot_added_at": "2026-10-24T08:00:00.000Z",
-      "url": "https://bots.anthonytoday.com/use-cases/support-that-fixes-bugs/",
-      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/support-that-fixes-bugs.json"
+      "url": "https://moneywithai.net/use-cases/support-that-fixes-bugs/",
+      "json_url": "https://moneywithai.net/api/v1/use-cases/support-that-fixes-bugs.json"
     },
     {
       "type": "use-case",
@@ -2948,7 +2948,7 @@
         "label": "Medium",
         "basis": "Assumes missed calls and slow replies currently lose you bookings.",
         "claim_label": "E",
-        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Money tiers are our estimates (E) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Good replies to reviews win future customers.",
@@ -2966,7 +2966,7 @@
           "tools": [
             "Email"
           ],
-          "url": "https://bots.anthonytoday.com/bots/reply-desk/",
+          "url": "https://moneywithai.net/bots/reply-desk/",
           "official_share_url": "https://x.ai/bot/8lLjBC7bXUqbfh-vLG9jf"
         },
         {
@@ -2978,7 +2978,7 @@
             "Google Calendar",
             "Bland"
           ],
-          "url": "https://bots.anthonytoday.com/bots/phone-receptionist/",
+          "url": "https://moneywithai.net/bots/phone-receptionist/",
           "official_share_url": "https://x.ai/bot/Z7LfRtBtwfaojaomMrAuX"
         }
       ],
@@ -3049,8 +3049,8 @@
         }
       ],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
-      "url": "https://bots.anthonytoday.com/use-cases/local-business-reviews-and-calls/",
-      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/local-business-reviews-and-calls.json"
+      "url": "https://moneywithai.net/use-cases/local-business-reviews-and-calls/",
+      "json_url": "https://moneywithai.net/api/v1/use-cases/local-business-reviews-and-calls.json"
     },
     {
       "type": "use-case",
@@ -3067,7 +3067,7 @@
         "label": "Low",
         "basis": "Research only: income depends on the venture you pick and run.",
         "claim_label": "E",
-        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Money tiers are our estimates (E) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Pick a venture with evidence instead of a hunch.",
@@ -3085,7 +3085,7 @@
           "tools": [
             "Grok"
           ],
-          "url": "https://bots.anthonytoday.com/bots/entrepreneur-scout/",
+          "url": "https://moneywithai.net/bots/entrepreneur-scout/",
           "official_share_url": "https://x.ai/bot/scvcDPnSH2_sj3pH6ONCR"
         },
         {
@@ -3096,7 +3096,7 @@
           "tools": [
             "X"
           ],
-          "url": "https://bots.anthonytoday.com/bots/market-research/",
+          "url": "https://moneywithai.net/bots/market-research/",
           "official_share_url": "https://x.ai/bot/t1l_On1VtkMYddCu5MqQB"
         }
       ],
@@ -3158,8 +3158,8 @@
       ],
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
-      "url": "https://bots.anthonytoday.com/use-cases/find-a-side-venture/",
-      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/find-a-side-venture.json"
+      "url": "https://moneywithai.net/use-cases/find-a-side-venture/",
+      "json_url": "https://moneywithai.net/api/v1/use-cases/find-a-side-venture.json"
     },
     {
       "type": "use-case",
@@ -3176,7 +3176,7 @@
         "label": "Low",
         "basis": "Indirect: it informs your pricing and offers, not income on its own.",
         "claim_label": "E",
-        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Money tiers are our estimates (E) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Respond to price and offer changes quickly.",
@@ -3194,7 +3194,7 @@
           "tools": [
             "Grok"
           ],
-          "url": "https://bots.anthonytoday.com/bots/competitor-intel/",
+          "url": "https://moneywithai.net/bots/competitor-intel/",
           "official_share_url": "https://x.ai/bot/PIBCWeB59T-UhxyBNLowR"
         },
         {
@@ -3205,7 +3205,7 @@
           "tools": [
             "Grok"
           ],
-          "url": "https://bots.anthonytoday.com/bots/scout-competitive-intelligence/",
+          "url": "https://moneywithai.net/bots/scout-competitive-intelligence/",
           "official_share_url": "https://x.ai/bot/rthl9MdskO2f-JCzmyINP"
         }
       ],
@@ -3266,8 +3266,8 @@
       ],
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
-      "url": "https://bots.anthonytoday.com/use-cases/local-competitor-intel/",
-      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/local-competitor-intel.json"
+      "url": "https://moneywithai.net/use-cases/local-competitor-intel/",
+      "json_url": "https://moneywithai.net/api/v1/use-cases/local-competitor-intel.json"
     },
     {
       "type": "use-case",
@@ -3284,7 +3284,7 @@
         "label": "Medium",
         "basis": "Mainly saves costs; gains grow with the number of units you manage.",
         "claim_label": "E",
-        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Money tiers are our estimates (E) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Faster repairs keep tenants and reduce turnover.",
@@ -3302,7 +3302,7 @@
           "tools": [
             "SMS"
           ],
-          "url": "https://bots.anthonytoday.com/bots/maintenance-triage/",
+          "url": "https://moneywithai.net/bots/maintenance-triage/",
           "official_share_url": "https://x.ai/bot/gKgo-_MM29kfcD9qiZf2A"
         },
         {
@@ -3313,7 +3313,7 @@
           "tools": [
             "Grok"
           ],
-          "url": "https://bots.anthonytoday.com/bots/landlord-ledger/",
+          "url": "https://moneywithai.net/bots/landlord-ledger/",
           "official_share_url": "https://x.ai/bot/sPjI0Dec1DUvTc7H0zxNG"
         }
       ],
@@ -3376,8 +3376,8 @@
       ],
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
-      "url": "https://bots.anthonytoday.com/use-cases/property-maintenance-ops/",
-      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/property-maintenance-ops.json"
+      "url": "https://moneywithai.net/use-cases/property-maintenance-ops/",
+      "json_url": "https://moneywithai.net/api/v1/use-cases/property-maintenance-ops.json"
     },
     {
       "type": "use-case",
@@ -3394,7 +3394,7 @@
         "label": "Medium",
         "basis": "Assumes project managers lose hours to the inbox that could go to billable site work.",
         "claim_label": "E",
-        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Money tiers are our estimates (E) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Project managers spend more time on site and less in the inbox.",
@@ -3413,7 +3413,7 @@
             "Email",
             "Google Calendar"
           ],
-          "url": "https://bots.anthonytoday.com/bots/construction-chief-of-staff/",
+          "url": "https://moneywithai.net/bots/construction-chief-of-staff/",
           "official_share_url": "https://x.ai/bot/dZfz-QuarMKqQo_mdPhbb"
         },
         {
@@ -3427,7 +3427,7 @@
             "LinkedIn",
             "Trello"
           ],
-          "url": "https://bots.anthonytoday.com/bots/inbox-triage/",
+          "url": "https://moneywithai.net/bots/inbox-triage/",
           "official_share_url": null
         },
         {
@@ -3438,7 +3438,7 @@
           "tools": [
             "Notion"
           ],
-          "url": "https://bots.anthonytoday.com/bots/notion-memory-keeper/",
+          "url": "https://moneywithai.net/bots/notion-memory-keeper/",
           "official_share_url": null
         }
       ],
@@ -3518,8 +3518,8 @@
       ],
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
-      "url": "https://bots.anthonytoday.com/use-cases/construction-office-chief-of-staff/",
-      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/construction-office-chief-of-staff.json"
+      "url": "https://moneywithai.net/use-cases/construction-office-chief-of-staff/",
+      "json_url": "https://moneywithai.net/api/v1/use-cases/construction-office-chief-of-staff.json"
     },
     {
       "type": "use-case",
@@ -3536,7 +3536,7 @@
         "label": "High",
         "basis": "Assumes public contracts are large, so each extra bid won matters.",
         "claim_label": "E",
-        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Money tiers are our estimates (E) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Bid on more tenders with the same team.",
@@ -3554,7 +3554,7 @@
           "tools": [
             "Grok"
           ],
-          "url": "https://bots.anthonytoday.com/bots/dero/",
+          "url": "https://moneywithai.net/bots/dero/",
           "official_share_url": "https://x.ai/bot/OMpdsLwId7Du5PrjbX8L8"
         },
         {
@@ -3565,7 +3565,7 @@
           "tools": [
             "Grok"
           ],
-          "url": "https://bots.anthonytoday.com/bots/grantogre/",
+          "url": "https://moneywithai.net/bots/grantogre/",
           "official_share_url": "https://x.ai/bot/WXC1m-5Iiyu1IyvBEt9Va"
         }
       ],
@@ -3626,8 +3626,8 @@
       ],
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
-      "url": "https://bots.anthonytoday.com/use-cases/win-public-tenders/",
-      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/win-public-tenders.json"
+      "url": "https://moneywithai.net/use-cases/win-public-tenders/",
+      "json_url": "https://moneywithai.net/api/v1/use-cases/win-public-tenders.json"
     }
   ]
 }

@@ -13,7 +13,7 @@
     "label": "High",
     "basis": "Assumes you sell it as a monthly retainer to several local businesses.",
     "claim_label": "E",
-    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+    "note": "Money tiers are our estimates (E) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
   },
   "how_it_makes_money": [
     "Sell it as a monthly retainer to local businesses.",
@@ -31,7 +31,7 @@
       "tools": [
         "Webflow"
       ],
-      "url": "https://bots.anthonytoday.com/bots/content-planner-manager/",
+      "url": "https://moneywithai.net/bots/content-planner-manager/",
       "official_share_url": null
     },
     {
@@ -42,7 +42,7 @@
       "tools": [
         "GitHub"
       ],
-      "url": "https://bots.anthonytoday.com/bots/geo-targeted-seo-publisher/",
+      "url": "https://moneywithai.net/bots/geo-targeted-seo-publisher/",
       "official_share_url": null
     },
     {
@@ -53,7 +53,7 @@
       "tools": [
         "Grok"
       ],
-      "url": "https://bots.anthonytoday.com/bots/competitor-intel/",
+      "url": "https://moneywithai.net/bots/competitor-intel/",
       "official_share_url": "https://x.ai/bot/PIBCWeB59T-UhxyBNLowR"
     }
   ],
@@ -127,6 +127,6 @@
   ],
   "claims": [],
   "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
-  "url": "https://bots.anthonytoday.com/use-cases/local-seo-content-engine/",
-  "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/local-seo-content-engine.json"
+  "url": "https://moneywithai.net/use-cases/local-seo-content-engine/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/local-seo-content-engine.json"
 }

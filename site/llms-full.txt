@@ -1,14 +1,14 @@
-# Bot Directory: full listing text
+# Money With AI: full listing text
 
-> AI bots for running a business, listed with credit to the people who built them.
+> Copy-ready AI bot setups that make money.
 
-License and credit: Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Bot Directory. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).
+License and credit: Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).
 
 ## Art Director
 
-- URL: https://bots.anthonytoday.com/bots/art-director/
+- URL: https://moneywithai.net/bots/art-director/
 - Category: Content and Marketing
-- Summary (Bot Directory's words): Finds ideas on Pinterest and in company news, makes on-brand images and carousels and runs a brand's Instagram.
+- Summary (Money With AI's words): Finds ideas on Pinterest and in company news, makes on-brand images and carousels and runs a brand's Instagram.
 - Tools: Instagram, Pinterest
 - Creator: @Carlos_Arthurr (https://x.com/Carlos_Arthurr)
 - Original source: https://x.com/Carlos_Arthurr/status/2107422079087706174
@@ -19,9 +19,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Competitor Intel
 
-- URL: https://bots.anthonytoday.com/bots/competitor-intel/
+- URL: https://moneywithai.net/bots/competitor-intel/
 - Category: Research and Ops
-- Summary (Bot Directory's words): Researches a local service business's competitors and files a weekly report with cited moves.
+- Summary (Money With AI's words): Researches a local service business's competitors and files a weekly report with cited moves.
 - Tools: Grok
 - Creator: @TheReal_BCM (https://x.com/TheReal_BCM)
 - Original source: https://x.com/TheReal_BCM/status/2106677552559366225
@@ -32,9 +32,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Consider It Marketed
 
-- URL: https://bots.anthonytoday.com/bots/consider-it-marketed/
+- URL: https://moneywithai.net/bots/consider-it-marketed/
 - Category: Content and Marketing
-- Summary (Bot Directory's words): Directs a bot team for a medical practice's marketing: ads, creative, video and quality checks.
+- Summary (Money With AI's words): Directs a bot team for a medical practice's marketing: ads, creative, video and quality checks.
 - Tools: Google Ads
 - Creator: @CindyH874325640 (https://x.com/CindyH874325640)
 - Original source: https://x.com/CindyH874325640/status/2101866621228785883
@@ -45,9 +45,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Construction Chief of Staff
 
-- URL: https://bots.anthonytoday.com/bots/construction-chief-of-staff/
+- URL: https://moneywithai.net/bots/construction-chief-of-staff/
 - Category: Research and Ops
-- Summary (Bot Directory's words): Reads mail and calendar for a construction team, routes work to specialist bots and never sends or buys alone.
+- Summary (Money With AI's words): Reads mail and calendar for a construction team, routes work to specialist bots and never sends or buys alone.
 - Tools: Email, Google Calendar
 - Creator: @RoggyRyan (https://x.com/RoggyRyan)
 - Original source: https://x.com/RoggyRyan/status/2102183469467975727
@@ -58,9 +58,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Content Planner Manager
 
-- URL: https://bots.anthonytoday.com/bots/content-planner-manager/
+- URL: https://moneywithai.net/bots/content-planner-manager/
 - Category: Content and Marketing
-- Summary (Bot Directory's words): Plans local-search content for a service business and keeps a content calendar in your website builder.
+- Summary (Money With AI's words): Plans local-search content for a service business and keeps a content calendar in your website builder.
 - Tools: Webflow
 - Creator: @HouseHackerJon (https://x.com/HouseHackerJon)
 - Scouted by: @elie2222
@@ -71,9 +71,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## CPM
 
-- URL: https://bots.anthonytoday.com/bots/cpm/
+- URL: https://moneywithai.net/bots/cpm/
 - Category: Content and Marketing
-- Summary (Bot Directory's words): Prices a creator deal from public view counts and drafts a deal menu, rate card and agreement to review.
+- Summary (Money With AI's words): Prices a creator deal from public view counts and drafts a deal menu, rate card and agreement to review.
 - Tools: Instagram, TikTok
 - Creator: @kostahantzis (https://x.com/kostahantzis)
 - Original source: https://x.com/kostahantzis/status/2109965811964051528
@@ -84,9 +84,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Creator Desk
 
-- URL: https://bots.anthonytoday.com/bots/creator-desk/
+- URL: https://moneywithai.net/bots/creator-desk/
 - Category: Content and Marketing
-- Summary (Bot Directory's words): Plans, drafts and schedules X posts and short clips for a creator, and picks the replies worth making.
+- Summary (Money With AI's words): Plans, drafts and schedules X posts and short clips for a creator, and picks the replies worth making.
 - Tools: X
 - Creator: @MadeItHappenX (https://x.com/MadeItHappenX)
 - Original source: https://x.com/MadeItHappenX/status/2104034337771417720
@@ -97,9 +97,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Customer Feedback Watch
 
-- URL: https://bots.anthonytoday.com/bots/customer-feedback-watch/
+- URL: https://moneywithai.net/bots/customer-feedback-watch/
 - Category: Customer Support
-- Summary (Bot Directory's words): Scans public posts on X for complaints and bug reports about your product and flags the few that need action.
+- Summary (Money With AI's words): Scans public posts on X for complaints and bug reports about your product and flags the few that need action.
 - Tools: X API
 - Creator: @egavrilenko11 (https://x.com/egavrilenko11)
 - Scouted by: @elie2222
@@ -111,9 +111,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Dero
 
-- URL: https://bots.anthonytoday.com/bots/dero/
+- URL: https://moneywithai.net/bots/dero/
 - Category: Research and Ops
-- Summary (Bot Directory's words): Coordinates a Spanish-language bot team that prepares bids for Chilean municipal tenders, from spec sheet to QA.
+- Summary (Money With AI's words): Coordinates a Spanish-language bot team that prepares bids for Chilean municipal tenders, from spec sheet to QA.
 - Tools: Grok
 - Creator: @jorgesoffia (https://x.com/jorgesoffia)
 - Original source: https://x.com/jorgesoffia/status/2099936875498627530
@@ -124,9 +124,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Drop Radar
 
-- URL: https://bots.anthonytoday.com/bots/drop-radar/
+- URL: https://moneywithai.net/bots/drop-radar/
 - Category: E-Commerce
-- Summary (Bot Directory's words): Watches competitor brands on Amazon, their sites and TikTok Shop, and alerts you only when something new drops.
+- Summary (Money With AI's words): Watches competitor brands on Amazon, their sites and TikTok Shop, and alerts you only when something new drops.
 - Tools: Amazon, TikTok Shop, Slack
 - Creator: @Steph_Pierson (https://x.com/Steph_Pierson)
 - Original source: https://x.com/Steph_Pierson/status/2102601597557817539
@@ -137,9 +137,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## eBay Lister
 
-- URL: https://bots.anthonytoday.com/bots/ebay-lister/
+- URL: https://moneywithai.net/bots/ebay-lister/
 - Category: E-Commerce
-- Summary (Bot Directory's words): Turns a photo of a thrift find, card or toy into an eBay draft with sold comps, a title and a price.
+- Summary (Money With AI's words): Turns a photo of a thrift find, card or toy into an eBay draft with sold comps, a title and a price.
 - Tools: eBay
 - Creator: @Gabi_Valerio3 (https://x.com/Gabi_Valerio3)
 - Original source: https://x.com/Gabi_Valerio3/status/2105892546245546309
@@ -150,9 +150,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Engagement Lead Finder
 
-- URL: https://bots.anthonytoday.com/bots/engagement-lead-finder/
+- URL: https://moneywithai.net/bots/engagement-lead-finder/
 - Category: Leads and Sales
-- Summary (Bot Directory's words): Reviews who engages with your Instagram posts and shortlists people who match your ideal customer.
+- Summary (Money With AI's words): Reviews who engages with your Instagram posts and shortlists people who match your ideal customer.
 - Tools: Instagram
 - Creator: @aferrari (https://x.com/aferrari)
 - Scouted by: @LBallz77283
@@ -163,9 +163,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Entrepreneur Scout
 
-- URL: https://bots.anthonytoday.com/bots/entrepreneur-scout/
+- URL: https://moneywithai.net/bots/entrepreneur-scout/
 - Category: Research and Ops
-- Summary (Bot Directory's words): Finds and vets side-venture ideas from a short brief, with sources, risks and a next step, and keeps a weekly scorecard.
+- Summary (Money With AI's words): Finds and vets side-venture ideas from a short brief, with sources, risks and a next step, and keeps a weekly scorecard.
 - Tools: Grok
 - Creator: @hjackson2 (https://x.com/hjackson2)
 - Original source: https://x.com/hjackson2/status/2107967069543075893
@@ -176,9 +176,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Geo-Targeted SEO Publisher
 
-- URL: https://bots.anthonytoday.com/bots/geo-targeted-seo-publisher/
+- URL: https://moneywithai.net/bots/geo-targeted-seo-publisher/
 - Category: Content and Marketing
-- Summary (Bot Directory's words): Drafts local SEO articles for a city and topic you choose and publishes them through your repo after approval.
+- Summary (Money With AI's words): Drafts local SEO articles for a city and topic you choose and publishes them through your repo after approval.
 - Tools: GitHub
 - Creator: @coreyganim (https://x.com/coreyganim)
 - Scouted by: @elie2222
@@ -189,9 +189,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## GrantOgre
 
-- URL: https://bots.anthonytoday.com/bots/grantogre/
+- URL: https://moneywithai.net/bots/grantogre/
 - Category: Client Services
-- Summary (Bot Directory's words): Finds live funding programmes for a company or client project and prepares the pack a person files.
+- Summary (Money With AI's words): Finds live funding programmes for a company or client project and prepares the pack a person files.
 - Tools: Grok
 - Creator: @HoneybadgerFan4 (https://x.com/HoneybadgerFan4)
 - Original source: https://x.com/HoneybadgerFan4/status/2105258225922707792
@@ -202,9 +202,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Help Center Updater
 
-- URL: https://bots.anthonytoday.com/bots/help-center-updater/
+- URL: https://moneywithai.net/bots/help-center-updater/
 - Category: Customer Support
-- Summary (Bot Directory's words): After each merged code change, checks whether help articles need an update and drafts the change.
+- Summary (Money With AI's words): After each merged code change, checks whether help articles need an update and drafts the change.
 - Tools: Intercom, GitHub
 - Creator: @damonchen (https://x.com/damonchen)
 - Scouted by: @elie2222
@@ -215,9 +215,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Inbox Triage
 
-- URL: https://bots.anthonytoday.com/bots/inbox-triage/
+- URL: https://moneywithai.net/bots/inbox-triage/
 - Category: Research and Ops
-- Summary (Bot Directory's words): Sorts new email and social DMs, closes what needs no reply and turns the rest into Trello tasks.
+- Summary (Money With AI's words): Sorts new email and social DMs, closes what needs no reply and turns the rest into Trello tasks.
 - Tools: Facebook, X, LinkedIn, Trello
 - Creator: @rchase (https://x.com/rchase)
 - Scouted by: @elie2222
@@ -228,9 +228,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Invoice Hunter
 
-- URL: https://bots.anthonytoday.com/bots/invoice-hunter/
+- URL: https://moneywithai.net/bots/invoice-hunter/
 - Category: Finance
-- Summary (Bot Directory's words): Finds invoices in your email, pulls out the key details and bundles them by month for your accountant, after you approve.
+- Summary (Money With AI's words): Finds invoices in your email, pulls out the key details and bundles them by month for your accountant, after you approve.
 - Tools: Grok
 - Creator: @scheemunai (https://x.com/scheemunai)
 - Original source: https://x.com/scheemunai/status/2093398873247031468
@@ -241,9 +241,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Kickbox to HubSpot Importer
 
-- URL: https://bots.anthonytoday.com/bots/kickbox-to-hubspot-importer/
+- URL: https://moneywithai.net/bots/kickbox-to-hubspot-importer/
 - Category: Leads and Sales
-- Summary (Bot Directory's words): Verifies contact emails with Kickbox and writes the deliverable results back into existing HubSpot records.
+- Summary (Money With AI's words): Verifies contact emails with Kickbox and writes the deliverable results back into existing HubSpot records.
 - Tools: Kickbox, HubSpot, Google Sheets
 - Creator: @pofabro (https://x.com/pofabro)
 - Original source: https://x.com/pofabro/status/2102344924331159835
@@ -254,9 +254,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Landlord Ledger
 
-- URL: https://bots.anthonytoday.com/bots/landlord-ledger/
+- URL: https://moneywithai.net/bots/landlord-ledger/
 - Category: Finance
-- Summary (Bot Directory's words): Matches rent deposits to tenants, flags late or short rent and sorts expenses for tax time. It never moves money.
+- Summary (Money With AI's words): Matches rent deposits to tenants, flags late or short rent and sorts expenses for tax time. It never moves money.
 - Tools: Grok
 - Creator: @Daniel191555486 (https://x.com/Daniel191555486)
 - Original source: https://x.com/Daniel191555486/status/2105082481640980600
@@ -267,9 +267,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Lead Scout
 
-- URL: https://bots.anthonytoday.com/bots/lead-scout/
+- URL: https://moneywithai.net/bots/lead-scout/
 - Category: Leads and Sales
-- Summary (Bot Directory's words): Builds lists of local businesses whose sites show search gaps, so an agency has warm reasons to reach out.
+- Summary (Money With AI's words): Builds lists of local businesses whose sites show search gaps, so an agency has warm reasons to reach out.
 - Tools: Grok
 - Creator: @itsryanlenk (https://x.com/itsryanlenk)
 - Original source: https://x.com/itsryanlenk/status/2101336928134001090
@@ -280,9 +280,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Lead Vetting
 
-- URL: https://bots.anthonytoday.com/bots/lead-vetting/
+- URL: https://moneywithai.net/bots/lead-vetting/
 - Category: Leads and Sales
-- Summary (Bot Directory's words): Screens consulting and collab leads from your inbox and sends a short go or no-go summary to Slack.
+- Summary (Money With AI's words): Screens consulting and collab leads from your inbox and sends a short go or no-go summary to Slack.
 - Tools: Email, Slack
 - Creator: @anzevoje (https://x.com/anzevoje)
 - Original source: https://x.com/anzevoje/status/2102299536513245605
@@ -293,9 +293,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Legend Lead Ops
 
-- URL: https://bots.anthonytoday.com/bots/legend-lead-ops/
+- URL: https://moneywithai.net/bots/legend-lead-ops/
 - Category: Leads and Sales
-- Summary (Bot Directory's words): Qualifies roofing inquiries, drafts SMS and email follow-ups and preps quick-quote handoffs for a contractor.
+- Summary (Money With AI's words): Qualifies roofing inquiries, drafts SMS and email follow-ups and preps quick-quote handoffs for a contractor.
 - Tools: SMS, Email
 - Creator: @legendRoofingCo (https://x.com/legendRoofingCo)
 - Original source: https://x.com/legendRoofingCo/status/2101471064857378821
@@ -306,9 +306,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## LinkedIn Lead Outreach
 
-- URL: https://bots.anthonytoday.com/bots/linkedin-lead-outreach/
+- URL: https://moneywithai.net/bots/linkedin-lead-outreach/
 - Category: Leads and Sales
-- Summary (Bot Directory's words): Turns comments on a LinkedIn lead magnet into tracked leads in Notion, with capped replies and DMs you can review.
+- Summary (Money With AI's words): Turns comments on a LinkedIn lead magnet into tracked leads in Notion, with capped replies and DMs you can review.
 - Tools: LinkedIn, Notion
 - Creator: @ethan_leee9113 (https://x.com/ethan_leee9113)
 - Original source: https://x.com/ethan_leee9113/status/2101189341242376366
@@ -319,9 +319,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## LinkedIn Profile Audit
 
-- URL: https://bots.anthonytoday.com/bots/linkedin-profile-audit/
+- URL: https://moneywithai.net/bots/linkedin-profile-audit/
 - Category: Leads and Sales
-- Summary (Bot Directory's words): Compares your LinkedIn profile with your current work and drafts updates for your approval.
+- Summary (Money With AI's words): Compares your LinkedIn profile with your current work and drafts updates for your approval.
 - Tools: LinkedIn, Notion, Slack
 - Creator: @ericzakariasson (https://x.com/ericzakariasson)
 - Original source: https://x.com/ericzakariasson/status/2087258914060664902
@@ -331,9 +331,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Local Business Website Hunter
 
-- URL: https://bots.anthonytoday.com/bots/local-business-website-hunter/
+- URL: https://moneywithai.net/bots/local-business-website-hunter/
 - Category: Leads and Sales
-- Summary (Bot Directory's words): Spots local businesses with no website, mocks up a demo site and a quote, and holds the pitch for your approval.
+- Summary (Money With AI's words): Spots local businesses with no website, mocks up a demo site and a quote, and holds the pitch for your approval.
 - Tools: Grok
 - Creator: @NewLongMoney (https://x.com/NewLongMoney)
 - Original source: https://x.com/NewLongMoney/status/2108069128846328185
@@ -344,9 +344,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Maintenance Triage
 
-- URL: https://bots.anthonytoday.com/bots/maintenance-triage/
+- URL: https://moneywithai.net/bots/maintenance-triage/
 - Category: Research and Ops
-- Summary (Bot Directory's words): Runs residential maintenance requests from intake and triage to dispatch, resident texts and closeout checks.
+- Summary (Money With AI's words): Runs residential maintenance requests from intake and triage to dispatch, resident texts and closeout checks.
 - Tools: SMS
 - Creator: @Miffy_NYC (https://x.com/Miffy_NYC)
 - Original source: https://x.com/Miffy_NYC/status/2102588454588547504
@@ -357,9 +357,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Market Research
 
-- URL: https://bots.anthonytoday.com/bots/market-research/
+- URL: https://moneywithai.net/bots/market-research/
 - Category: Research and Ops
-- Summary (Bot Directory's words): Reads your watchlist across X, wires and primary sources and writes source-graded market notes. Not advice.
+- Summary (Money With AI's words): Reads your watchlist across X, wires and primary sources and writes source-graded market notes. Not advice.
 - Tools: X
 - Creator: @eyemotors (https://x.com/eyemotors)
 - Original source: https://x.com/eyemotors/status/2105218704904798267
@@ -370,9 +370,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Media Manager
 
-- URL: https://bots.anthonytoday.com/bots/media-manager/
+- URL: https://moneywithai.net/bots/media-manager/
 - Category: Content and Marketing
-- Summary (Bot Directory's words): Handles a YouTube channel's after-upload work: transcripts, chapters, titles, descriptions and thumbnails.
+- Summary (Money With AI's words): Handles a YouTube channel's after-upload work: transcripts, chapters, titles, descriptions and thumbnails.
 - Tools: YouTube, AssemblyAI, Figma
 - Creator: @mattyp (https://x.com/mattyp)
 - Original source: https://x.com/mattyp/status/2102397514792001868
@@ -383,9 +383,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Notion Memory Keeper
 
-- URL: https://bots.anthonytoday.com/bots/notion-memory-keeper/
+- URL: https://moneywithai.net/bots/notion-memory-keeper/
 - Category: Research and Ops
-- Summary (Bot Directory's words): Keeps one Notion page up to date with the notes, decisions and context you hand it.
+- Summary (Money With AI's words): Keeps one Notion page up to date with the notes, decisions and context you hand it.
 - Tools: Notion
 - Creator: @benln (https://x.com/benln)
 - Scouted by: @elie2222
@@ -396,9 +396,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Phone Receptionist
 
-- URL: https://bots.anthonytoday.com/bots/phone-receptionist/
+- URL: https://moneywithai.net/bots/phone-receptionist/
 - Category: Customer Support
-- Summary (Bot Directory's words): Answers a business phone line and books meetings on Google Calendar. The share card lists a paid phone plan.
+- Summary (Money With AI's words): Answers a business phone line and books meetings on Google Calendar. The share card lists a paid phone plan.
 - Tools: Google Calendar, Bland
 - Creator: @SimplyColeB (https://x.com/SimplyColeB)
 - Original source: https://x.com/SimplyColeB/status/2107971762831114461
@@ -409,9 +409,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Photo & Video Shoot Confirmations
 
-- URL: https://bots.anthonytoday.com/bots/photo-and-video-shoot-confirmations/
+- URL: https://moneywithai.net/bots/photo-and-video-shoot-confirmations/
 - Category: Client Services
-- Summary (Bot Directory's words): Emails clients a forecast 48 hours before an outdoor shoot and drafts reschedule options when rain looks likely.
+- Summary (Money With AI's words): Emails clients a forecast 48 hours before an outdoor shoot and drafts reschedule options when rain looks likely.
 - Tools: Email
 - Creator: @TimFPhotography (https://x.com/TimFPhotography)
 - Original source: https://x.com/TimFPhotography/status/2106715972744929301
@@ -422,9 +422,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## PhotoFix
 
-- URL: https://bots.anthonytoday.com/bots/photofix/
+- URL: https://moneywithai.net/bots/photofix/
 - Category: Client Services
-- Summary (Bot Directory's words): Edits real estate listing photos, labels them and files them by address in Drive or Dropbox for client delivery.
+- Summary (Money With AI's words): Edits real estate listing photos, labels them and files them by address in Drive or Dropbox for client delivery.
 - Tools: Google Drive, Dropbox
 - Creator: @MarsHomestead (https://x.com/MarsHomestead)
 - Original source: https://x.com/MarsHomestead/status/2103576228821364833
@@ -435,9 +435,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Precision 3D Helper
 
-- URL: https://bots.anthonytoday.com/bots/precision-3d-helper/
+- URL: https://moneywithai.net/bots/precision-3d-helper/
 - Category: Client Services
-- Summary (Bot Directory's words): Answers customer questions, prices jobs with quantity discounts and helps fix prints for a small 3D print shop.
+- Summary (Money With AI's words): Answers customer questions, prices jobs with quantity discounts and helps fix prints for a small 3D print shop.
 - Tools: Bambu Lab
 - Creator: @srinimaram (https://x.com/srinimaram)
 - Original source: https://x.com/srinimaram/status/2106655043843674335
@@ -448,9 +448,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Product Expert
 
-- URL: https://bots.anthonytoday.com/bots/product-expert/
+- URL: https://moneywithai.net/bots/product-expert/
 - Category: Leads and Sales
-- Summary (Bot Directory's words): Answers deep product questions during customer calls from your code or company knowledge base.
+- Summary (Money With AI's words): Answers deep product questions during customer calls from your code or company knowledge base.
 - Tools: GitHub, Glean
 - Creator: @kristaletz (https://x.com/kristaletz)
 - Original source: https://x.com/kristaletz/status/2089103618121314689
@@ -460,9 +460,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Reply Desk
 
-- URL: https://bots.anthonytoday.com/bots/reply-desk/
+- URL: https://moneywithai.net/bots/reply-desk/
 - Category: Customer Support
-- Summary (Bot Directory's words): Drafts replies to customer emails, messages and public reviews for local service businesses. You send them.
+- Summary (Money With AI's words): Drafts replies to customer emails, messages and public reviews for local service businesses. You send them.
 - Tools: Email
 - Creator: @lonzom10 (https://x.com/lonzom10)
 - Original source: https://x.com/lonzom10/status/2103749418457681951
@@ -473,9 +473,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Reply Drafter
 
-- URL: https://bots.anthonytoday.com/bots/reply-drafter/
+- URL: https://moneywithai.net/bots/reply-drafter/
 - Category: Content and Marketing
-- Summary (Bot Directory's words): Finds posts on X worth replying to and drafts a first take in your voice. You post every reply yourself.
+- Summary (Money With AI's words): Finds posts on X worth replying to and drafts a first take in your voice. You post every reply yourself.
 - Tools: X
 - Creator: @kevinace (https://x.com/kevinace)
 - Original source: https://x.com/kevinace/status/2089074419175977004
@@ -485,9 +485,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Restaurant Order Recovery
 
-- URL: https://bots.anthonytoday.com/bots/restaurant-order-recovery/
+- URL: https://moneywithai.net/bots/restaurant-order-recovery/
 - Category: Finance
-- Summary (Bot Directory's words): Finds canceled delivery orders and error charges in a restaurant's merchant portals and files reimbursement requests.
+- Summary (Money With AI's words): Finds canceled delivery orders and error charges in a restaurant's merchant portals and files reimbursement requests.
 - Tools: Grok
 - Creator: @pattyshack (https://x.com/pattyshack)
 - Original source: https://x.com/pattyshack/status/2101396887219908999
@@ -498,9 +498,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## SaaS CFO Monitor
 
-- URL: https://bots.anthonytoday.com/bots/saas-cfo-monitor/
+- URL: https://moneywithai.net/bots/saas-cfo-monitor/
 - Category: Finance
-- Summary (Bot Directory's words): Weekly check of SaaS spend and revenue across billing, accounting and email, with a monthly finance summary.
+- Summary (Money With AI's words): Weekly check of SaaS spend and revenue across billing, accounting and email, with a monthly finance summary.
 - Tools: Stripe, Xero, QuickBooks, Gmail
 - Creator: @jessethanley (https://x.com/jessethanley)
 - Scouted by: @elie2222
@@ -511,9 +511,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Scout (Competitive Intelligence)
 
-- URL: https://bots.anthonytoday.com/bots/scout-competitive-intelligence/
+- URL: https://moneywithai.net/bots/scout-competitive-intelligence/
 - Category: Research and Ops
-- Summary (Bot Directory's words): Tracks competitor sites, search rankings and AI answer visibility, and sends a weekly brief when something moves.
+- Summary (Money With AI's words): Tracks competitor sites, search rankings and AI answer visibility, and sends a weekly brief when something moves.
 - Tools: Grok
 - Creator: @adamta (https://x.com/adamta)
 - Original source: https://x.com/adamta/status/2093388517044830237
@@ -524,9 +524,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Sentinel
 
-- URL: https://bots.anthonytoday.com/bots/sentinel/
+- URL: https://moneywithai.net/bots/sentinel/
 - Category: Content and Marketing
-- Summary (Bot Directory's words): Reviews insurance marketing emails, pages and posts before they go out and flags fixes for disclosures and claims.
+- Summary (Money With AI's words): Reviews insurance marketing emails, pages and posts before they go out and flags fixes for disclosures and claims.
 - Tools: Grok
 - Creator: @CluSloan (https://x.com/CluSloan)
 - Original source: https://x.com/CluSloan/status/2101119026453705089
@@ -537,9 +537,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Shopify Bot
 
-- URL: https://bots.anthonytoday.com/bots/shopify-bot/
+- URL: https://moneywithai.net/bots/shopify-bot/
 - Category: E-Commerce
-- Summary (Bot Directory's words): Runs catalog, inventory, conversion and customer service tasks on a Shopify store, alone or with a bot team.
+- Summary (Money With AI's words): Runs catalog, inventory, conversion and customer service tasks on a Shopify store, alone or with a bot team.
 - Tools: Shopify
 - Creator: @nick_nehaul (https://x.com/nick_nehaul)
 - Original source: https://x.com/nick_nehaul/status/2108304525866193171
@@ -550,9 +550,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Site Research
 
-- URL: https://bots.anthonytoday.com/bots/site-research/
+- URL: https://moneywithai.net/bots/site-research/
 - Category: Leads and Sales
-- Summary (Bot Directory's words): Turns a lead dossier into an evidence-backed brief on a local site's search gaps, ready for a sales draft.
+- Summary (Money With AI's words): Turns a lead dossier into an evidence-backed brief on a local site's search gaps, ready for a sales draft.
 - Tools: Grok
 - Creator: @itsryanlenk (https://x.com/itsryanlenk)
 - Original source: https://x.com/itsryanlenk/status/2101336929539076518
@@ -563,9 +563,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Store Manager
 
-- URL: https://bots.anthonytoday.com/bots/store-manager/
+- URL: https://moneywithai.net/bots/store-manager/
 - Category: E-Commerce
-- Summary (Bot Directory's words): Coordinates a team of store bots across orders, ads health, low stock and disputes, without spending money.
+- Summary (Money With AI's words): Coordinates a team of store bots across orders, ads health, low stock and disputes, without spending money.
 - Tools: Grok
 - Creator: @ColinMcDermott (https://x.com/ColinMcDermott)
 - Original source: https://x.com/ColinMcDermott/status/2105790823682003017
@@ -576,9 +576,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Support Ticket Fixer
 
-- URL: https://bots.anthonytoday.com/bots/support-ticket-fixer/
+- URL: https://moneywithai.net/bots/support-ticket-fixer/
 - Category: Customer Support
-- Summary (Bot Directory's words): Investigates new support tickets against docs, code and logs, then prepares a likely cause and fix.
+- Summary (Money With AI's words): Investigates new support tickets against docs, code and logs, then prepares a likely cause and fix.
 - Tools: Ferndesk, Axiom, GitHub, Infisical, Codex
 - Creator: @euboid (https://x.com/euboid)
 - Scouted by: @elie2222
@@ -589,9 +589,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Talent Matchmaker
 
-- URL: https://bots.anthonytoday.com/bots/talent-matchmaker/
+- URL: https://moneywithai.net/bots/talent-matchmaker/
 - Category: Research and Ops
-- Summary (Bot Directory's words): Spots hiring needs and job seekers in your inbox and suggests matches between them.
+- Summary (Money With AI's words): Spots hiring needs and job seekers in your inbox and suggests matches between them.
 - Tools: Grok
 - Creator: @lennysan (https://x.com/lennysan)
 - Original source: https://x.com/lennysan/status/2093428147194847238
@@ -602,9 +602,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Tax Firm OS
 
-- URL: https://bots.anthonytoday.com/bots/tax-firm-os/
+- URL: https://moneywithai.net/bots/tax-firm-os/
 - Category: Finance
-- Summary (Bot Directory's words): Keeps a tax or accounting office on track with client replies, document chasing and early due-date notices.
+- Summary (Money With AI's words): Keeps a tax or accounting office on track with client replies, document chasing and early due-date notices.
 - Tools: Grok
 - Creator: @Amervim (https://x.com/Amervim)
 - Original source: https://x.com/Amervim/status/2105949306025128186
@@ -615,9 +615,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Travel Expenses
 
-- URL: https://bots.anthonytoday.com/bots/travel-expenses/
+- URL: https://moneywithai.net/bots/travel-expenses/
 - Category: Finance
-- Summary (Bot Directory's words): Logs trip spending in any currency from text or receipt photos and exports an Excel and PDF expense report.
+- Summary (Money With AI's words): Logs trip spending in any currency from text or receipt photos and exports an Excel and PDF expense report.
 - Tools: Grok
 - Creator: @shareitround (https://x.com/shareitround)
 - Original source: https://x.com/shareitround/status/2106934155615572405
@@ -628,9 +628,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## X Reply Scout
 
-- URL: https://bots.anthonytoday.com/bots/x-reply-scout/
+- URL: https://moneywithai.net/bots/x-reply-scout/
 - Category: Leads and Sales
-- Summary (Bot Directory's words): Suggests accounts and posts on X worth engaging with, tuned by your feedback. It never replies for you.
+- Summary (Money With AI's words): Suggests accounts and posts on X worth engaging with, tuned by your feedback. It never replies for you.
 - Tools: X
 - Creator: @scientists_blog (https://x.com/scientists_blog)
 - Original source: https://x.com/scientists_blog/status/2101542606769463504
@@ -641,9 +641,9 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## X Thread & Article Writer
 
-- URL: https://bots.anthonytoday.com/bots/x-thread-and-article-writer/
+- URL: https://moneywithai.net/bots/x-thread-and-article-writer/
 - Category: Content and Marketing
-- Summary (Bot Directory's words): Turns rough notes or a link into an X thread and article draft in your tone. You paste and post.
+- Summary (Money With AI's words): Turns rough notes or a link into an X thread and article draft in your tone. You paste and post.
 - Tools: X
 - Creator: @sigarellano (https://x.com/sigarellano)
 - Original source: https://x.com/sigarellano/status/2103737235413860615

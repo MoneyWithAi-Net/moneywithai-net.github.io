@@ -13,7 +13,7 @@
     "label": "Medium",
     "basis": "Assumes the channel already earns from ads or sponsors; more and better uploads compound over time.",
     "claim_label": "E",
-    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+    "note": "Money tiers are our estimates (E) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
   },
   "how_it_makes_money": [
     "You publish more often with the same hours.",
@@ -33,7 +33,7 @@
         "AssemblyAI",
         "Figma"
       ],
-      "url": "https://bots.anthonytoday.com/bots/media-manager/",
+      "url": "https://moneywithai.net/bots/media-manager/",
       "official_share_url": "https://x.ai/bot/qG_ZROllzSSRGKx_iIbsQ"
     },
     {
@@ -44,7 +44,7 @@
       "tools": [
         "X"
       ],
-      "url": "https://bots.anthonytoday.com/bots/creator-desk/",
+      "url": "https://moneywithai.net/bots/creator-desk/",
       "official_share_url": "https://x.ai/bot/dM43J1T44OmcRdAsNHsBf"
     }
   ],
@@ -112,6 +112,6 @@
   ],
   "claims": [],
   "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
-  "url": "https://bots.anthonytoday.com/use-cases/youtube-channel-operations/",
-  "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/youtube-channel-operations.json"
+  "url": "https://moneywithai.net/use-cases/youtube-channel-operations/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/youtube-channel-operations.json"
 }

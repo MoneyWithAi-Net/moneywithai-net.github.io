@@ -22,10 +22,10 @@
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-24",
-  "url": "https://bots.anthonytoday.com/bots/notion-memory-keeper/",
-  "json_url": "https://bots.anthonytoday.com/api/v1/bots/notion-memory-keeper.json",
+  "url": "https://moneywithai.net/bots/notion-memory-keeper/",
+  "json_url": "https://moneywithai.net/api/v1/bots/notion-memory-keeper.json",
   "use_cases": [
-    "https://bots.anthonytoday.com/use-cases/construction-office-chief-of-staff/"
+    "https://moneywithai.net/use-cases/construction-office-chief-of-staff/"
   ],
   "added_at": "2026-10-24T08:00:00.000Z"
 }

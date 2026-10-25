@@ -1,9 +1,9 @@
 {
-  "name": "Bot Directory",
-  "url": "https://bots.anthonytoday.com",
-  "generated_at": "2026-10-25T07:30:16.000Z",
+  "name": "Money With AI",
+  "url": "https://moneywithai.net",
+  "generated_at": "2026-10-25T07:19:05.000Z",
   "count": 50,
-  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Bot Directory. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
   "proof_levels": {
     "source_verified": "Source verified: the original post exists and is by the named creator.",
     "creator_confirmed": "Creator confirmed: the creator confirmed the listing details.",
@@ -34,8 +34,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/art-director/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/art-director.json"
+      "url": "https://moneywithai.net/bots/art-director/",
+      "json_url": "https://moneywithai.net/api/bots/art-director.json"
     },
     {
       "slug": "competitor-intel",
@@ -60,8 +60,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/competitor-intel/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/competitor-intel.json"
+      "url": "https://moneywithai.net/bots/competitor-intel/",
+      "json_url": "https://moneywithai.net/api/bots/competitor-intel.json"
     },
     {
       "slug": "consider-it-marketed",
@@ -86,8 +86,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/consider-it-marketed/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/consider-it-marketed.json"
+      "url": "https://moneywithai.net/bots/consider-it-marketed/",
+      "json_url": "https://moneywithai.net/api/bots/consider-it-marketed.json"
     },
     {
       "slug": "construction-chief-of-staff",
@@ -113,8 +113,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/construction-chief-of-staff/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/construction-chief-of-staff.json"
+      "url": "https://moneywithai.net/bots/construction-chief-of-staff/",
+      "json_url": "https://moneywithai.net/api/bots/construction-chief-of-staff.json"
     },
     {
       "slug": "content-planner-manager",
@@ -139,8 +139,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/content-planner-manager/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/content-planner-manager.json"
+      "url": "https://moneywithai.net/bots/content-planner-manager/",
+      "json_url": "https://moneywithai.net/api/bots/content-planner-manager.json"
     },
     {
       "slug": "cpm",
@@ -166,8 +166,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/cpm/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/cpm.json"
+      "url": "https://moneywithai.net/bots/cpm/",
+      "json_url": "https://moneywithai.net/api/bots/cpm.json"
     },
     {
       "slug": "creator-desk",
@@ -192,8 +192,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/creator-desk/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/creator-desk.json"
+      "url": "https://moneywithai.net/bots/creator-desk/",
+      "json_url": "https://moneywithai.net/api/bots/creator-desk.json"
     },
     {
       "slug": "customer-feedback-watch",
@@ -218,8 +218,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/customer-feedback-watch/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/customer-feedback-watch.json"
+      "url": "https://moneywithai.net/bots/customer-feedback-watch/",
+      "json_url": "https://moneywithai.net/api/bots/customer-feedback-watch.json"
     },
     {
       "slug": "dero",
@@ -244,8 +244,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/dero/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/dero.json"
+      "url": "https://moneywithai.net/bots/dero/",
+      "json_url": "https://moneywithai.net/api/bots/dero.json"
     },
     {
       "slug": "drop-radar",
@@ -272,8 +272,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/drop-radar/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/drop-radar.json"
+      "url": "https://moneywithai.net/bots/drop-radar/",
+      "json_url": "https://moneywithai.net/api/bots/drop-radar.json"
     },
     {
       "slug": "ebay-lister",
@@ -298,8 +298,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/ebay-lister/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/ebay-lister.json"
+      "url": "https://moneywithai.net/bots/ebay-lister/",
+      "json_url": "https://moneywithai.net/api/bots/ebay-lister.json"
     },
     {
       "slug": "engagement-lead-finder",
@@ -324,8 +324,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/engagement-lead-finder/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/engagement-lead-finder.json"
+      "url": "https://moneywithai.net/bots/engagement-lead-finder/",
+      "json_url": "https://moneywithai.net/api/bots/engagement-lead-finder.json"
     },
     {
       "slug": "entrepreneur-scout",
@@ -350,8 +350,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/entrepreneur-scout/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/entrepreneur-scout.json"
+      "url": "https://moneywithai.net/bots/entrepreneur-scout/",
+      "json_url": "https://moneywithai.net/api/bots/entrepreneur-scout.json"
     },
     {
       "slug": "geo-targeted-seo-publisher",
@@ -376,8 +376,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/geo-targeted-seo-publisher/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/geo-targeted-seo-publisher.json"
+      "url": "https://moneywithai.net/bots/geo-targeted-seo-publisher/",
+      "json_url": "https://moneywithai.net/api/bots/geo-targeted-seo-publisher.json"
     },
     {
       "slug": "grantogre",
@@ -402,8 +402,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/grantogre/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/grantogre.json"
+      "url": "https://moneywithai.net/bots/grantogre/",
+      "json_url": "https://moneywithai.net/api/bots/grantogre.json"
     },
     {
       "slug": "help-center-updater",
@@ -429,8 +429,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/help-center-updater/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/help-center-updater.json"
+      "url": "https://moneywithai.net/bots/help-center-updater/",
+      "json_url": "https://moneywithai.net/api/bots/help-center-updater.json"
     },
     {
       "slug": "inbox-triage",
@@ -458,8 +458,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/inbox-triage/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/inbox-triage.json"
+      "url": "https://moneywithai.net/bots/inbox-triage/",
+      "json_url": "https://moneywithai.net/api/bots/inbox-triage.json"
     },
     {
       "slug": "invoice-hunter",
@@ -484,8 +484,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/invoice-hunter/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/invoice-hunter.json"
+      "url": "https://moneywithai.net/bots/invoice-hunter/",
+      "json_url": "https://moneywithai.net/api/bots/invoice-hunter.json"
     },
     {
       "slug": "kickbox-to-hubspot-importer",
@@ -512,8 +512,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/kickbox-to-hubspot-importer/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/kickbox-to-hubspot-importer.json"
+      "url": "https://moneywithai.net/bots/kickbox-to-hubspot-importer/",
+      "json_url": "https://moneywithai.net/api/bots/kickbox-to-hubspot-importer.json"
     },
     {
       "slug": "landlord-ledger",
@@ -538,8 +538,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/landlord-ledger/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/landlord-ledger.json"
+      "url": "https://moneywithai.net/bots/landlord-ledger/",
+      "json_url": "https://moneywithai.net/api/bots/landlord-ledger.json"
     },
     {
       "slug": "lead-scout",
@@ -564,8 +564,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/lead-scout/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/lead-scout.json"
+      "url": "https://moneywithai.net/bots/lead-scout/",
+      "json_url": "https://moneywithai.net/api/bots/lead-scout.json"
     },
     {
       "slug": "lead-vetting",
@@ -591,8 +591,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/lead-vetting/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/lead-vetting.json"
+      "url": "https://moneywithai.net/bots/lead-vetting/",
+      "json_url": "https://moneywithai.net/api/bots/lead-vetting.json"
     },
     {
       "slug": "legend-lead-ops",
@@ -618,8 +618,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/legend-lead-ops/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/legend-lead-ops.json"
+      "url": "https://moneywithai.net/bots/legend-lead-ops/",
+      "json_url": "https://moneywithai.net/api/bots/legend-lead-ops.json"
     },
     {
       "slug": "linkedin-lead-outreach",
@@ -645,8 +645,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/linkedin-lead-outreach/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/linkedin-lead-outreach.json"
+      "url": "https://moneywithai.net/bots/linkedin-lead-outreach/",
+      "json_url": "https://moneywithai.net/api/bots/linkedin-lead-outreach.json"
     },
     {
       "slug": "linkedin-profile-audit",
@@ -673,8 +673,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/linkedin-profile-audit/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/linkedin-profile-audit.json"
+      "url": "https://moneywithai.net/bots/linkedin-profile-audit/",
+      "json_url": "https://moneywithai.net/api/bots/linkedin-profile-audit.json"
     },
     {
       "slug": "local-business-website-hunter",
@@ -699,8 +699,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/local-business-website-hunter/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/local-business-website-hunter.json"
+      "url": "https://moneywithai.net/bots/local-business-website-hunter/",
+      "json_url": "https://moneywithai.net/api/bots/local-business-website-hunter.json"
     },
     {
       "slug": "maintenance-triage",
@@ -725,8 +725,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/maintenance-triage/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/maintenance-triage.json"
+      "url": "https://moneywithai.net/bots/maintenance-triage/",
+      "json_url": "https://moneywithai.net/api/bots/maintenance-triage.json"
     },
     {
       "slug": "market-research",
@@ -751,8 +751,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/market-research/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/market-research.json"
+      "url": "https://moneywithai.net/bots/market-research/",
+      "json_url": "https://moneywithai.net/api/bots/market-research.json"
     },
     {
       "slug": "media-manager",
@@ -779,8 +779,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/media-manager/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/media-manager.json"
+      "url": "https://moneywithai.net/bots/media-manager/",
+      "json_url": "https://moneywithai.net/api/bots/media-manager.json"
     },
     {
       "slug": "notion-memory-keeper",
@@ -805,8 +805,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/notion-memory-keeper/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/notion-memory-keeper.json"
+      "url": "https://moneywithai.net/bots/notion-memory-keeper/",
+      "json_url": "https://moneywithai.net/api/bots/notion-memory-keeper.json"
     },
     {
       "slug": "phone-receptionist",
@@ -832,8 +832,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/phone-receptionist/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/phone-receptionist.json"
+      "url": "https://moneywithai.net/bots/phone-receptionist/",
+      "json_url": "https://moneywithai.net/api/bots/phone-receptionist.json"
     },
     {
       "slug": "photo-and-video-shoot-confirmations",
@@ -858,8 +858,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/photo-and-video-shoot-confirmations/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/photo-and-video-shoot-confirmations.json"
+      "url": "https://moneywithai.net/bots/photo-and-video-shoot-confirmations/",
+      "json_url": "https://moneywithai.net/api/bots/photo-and-video-shoot-confirmations.json"
     },
     {
       "slug": "photofix",
@@ -885,8 +885,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/photofix/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/photofix.json"
+      "url": "https://moneywithai.net/bots/photofix/",
+      "json_url": "https://moneywithai.net/api/bots/photofix.json"
     },
     {
       "slug": "precision-3d-helper",
@@ -911,8 +911,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/precision-3d-helper/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/precision-3d-helper.json"
+      "url": "https://moneywithai.net/bots/precision-3d-helper/",
+      "json_url": "https://moneywithai.net/api/bots/precision-3d-helper.json"
     },
     {
       "slug": "product-expert",
@@ -938,8 +938,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/product-expert/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/product-expert.json"
+      "url": "https://moneywithai.net/bots/product-expert/",
+      "json_url": "https://moneywithai.net/api/bots/product-expert.json"
     },
     {
       "slug": "reply-desk",
@@ -964,8 +964,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/reply-desk/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/reply-desk.json"
+      "url": "https://moneywithai.net/bots/reply-desk/",
+      "json_url": "https://moneywithai.net/api/bots/reply-desk.json"
     },
     {
       "slug": "reply-drafter",
@@ -990,8 +990,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/reply-drafter/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/reply-drafter.json"
+      "url": "https://moneywithai.net/bots/reply-drafter/",
+      "json_url": "https://moneywithai.net/api/bots/reply-drafter.json"
     },
     {
       "slug": "restaurant-order-recovery",
@@ -1016,8 +1016,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/restaurant-order-recovery/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/restaurant-order-recovery.json"
+      "url": "https://moneywithai.net/bots/restaurant-order-recovery/",
+      "json_url": "https://moneywithai.net/api/bots/restaurant-order-recovery.json"
     },
     {
       "slug": "saas-cfo-monitor",
@@ -1045,8 +1045,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/saas-cfo-monitor/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/saas-cfo-monitor.json"
+      "url": "https://moneywithai.net/bots/saas-cfo-monitor/",
+      "json_url": "https://moneywithai.net/api/bots/saas-cfo-monitor.json"
     },
     {
       "slug": "scout-competitive-intelligence",
@@ -1071,8 +1071,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/scout-competitive-intelligence/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/scout-competitive-intelligence.json"
+      "url": "https://moneywithai.net/bots/scout-competitive-intelligence/",
+      "json_url": "https://moneywithai.net/api/bots/scout-competitive-intelligence.json"
     },
     {
       "slug": "sentinel",
@@ -1097,8 +1097,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/sentinel/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/sentinel.json"
+      "url": "https://moneywithai.net/bots/sentinel/",
+      "json_url": "https://moneywithai.net/api/bots/sentinel.json"
     },
     {
       "slug": "shopify-bot",
@@ -1123,8 +1123,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/shopify-bot/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/shopify-bot.json"
+      "url": "https://moneywithai.net/bots/shopify-bot/",
+      "json_url": "https://moneywithai.net/api/bots/shopify-bot.json"
     },
     {
       "slug": "site-research",
@@ -1149,8 +1149,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/site-research/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/site-research.json"
+      "url": "https://moneywithai.net/bots/site-research/",
+      "json_url": "https://moneywithai.net/api/bots/site-research.json"
     },
     {
       "slug": "store-manager",
@@ -1175,8 +1175,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/store-manager/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/store-manager.json"
+      "url": "https://moneywithai.net/bots/store-manager/",
+      "json_url": "https://moneywithai.net/api/bots/store-manager.json"
     },
     {
       "slug": "support-ticket-fixer",
@@ -1205,8 +1205,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/support-ticket-fixer/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/support-ticket-fixer.json"
+      "url": "https://moneywithai.net/bots/support-ticket-fixer/",
+      "json_url": "https://moneywithai.net/api/bots/support-ticket-fixer.json"
     },
     {
       "slug": "talent-matchmaker",
@@ -1231,8 +1231,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/talent-matchmaker/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/talent-matchmaker.json"
+      "url": "https://moneywithai.net/bots/talent-matchmaker/",
+      "json_url": "https://moneywithai.net/api/bots/talent-matchmaker.json"
     },
     {
       "slug": "tax-firm-os",
@@ -1257,8 +1257,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/tax-firm-os/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/tax-firm-os.json"
+      "url": "https://moneywithai.net/bots/tax-firm-os/",
+      "json_url": "https://moneywithai.net/api/bots/tax-firm-os.json"
     },
     {
       "slug": "travel-expenses",
@@ -1283,8 +1283,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/travel-expenses/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/travel-expenses.json"
+      "url": "https://moneywithai.net/bots/travel-expenses/",
+      "json_url": "https://moneywithai.net/api/bots/travel-expenses.json"
     },
     {
       "slug": "x-reply-scout",
@@ -1309,8 +1309,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/x-reply-scout/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/x-reply-scout.json"
+      "url": "https://moneywithai.net/bots/x-reply-scout/",
+      "json_url": "https://moneywithai.net/api/bots/x-reply-scout.json"
     },
     {
       "slug": "x-thread-and-article-writer",
@@ -1335,8 +1335,8 @@
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-24",
-      "url": "https://bots.anthonytoday.com/bots/x-thread-and-article-writer/",
-      "json_url": "https://bots.anthonytoday.com/api/bots/x-thread-and-article-writer.json"
+      "url": "https://moneywithai.net/bots/x-thread-and-article-writer/",
+      "json_url": "https://moneywithai.net/api/bots/x-thread-and-article-writer.json"
     }
   ]
 }

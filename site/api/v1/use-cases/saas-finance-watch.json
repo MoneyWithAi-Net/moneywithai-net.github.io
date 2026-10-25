@@ -13,7 +13,7 @@
     "label": "Low",
     "basis": "Mainly saves costs: it finds waste and speeds up the close.",
     "claim_label": "E",
-    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+    "note": "Money tiers are our estimates (E) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
   },
   "how_it_makes_money": [
     "Catch unused subscriptions and billing surprises.",
@@ -34,7 +34,7 @@
         "QuickBooks",
         "Gmail"
       ],
-      "url": "https://bots.anthonytoday.com/bots/saas-cfo-monitor/",
+      "url": "https://moneywithai.net/bots/saas-cfo-monitor/",
       "official_share_url": null
     },
     {
@@ -45,7 +45,7 @@
       "tools": [
         "Grok"
       ],
-      "url": "https://bots.anthonytoday.com/bots/invoice-hunter/",
+      "url": "https://moneywithai.net/bots/invoice-hunter/",
       "official_share_url": "https://x.ai/bot/-kO6HrXokJZANVwUOMZO9"
     }
   ],
@@ -111,6 +111,6 @@
   ],
   "claims": [],
   "latest_bot_added_at": "2026-10-24T08:00:00.000Z",
-  "url": "https://bots.anthonytoday.com/use-cases/saas-finance-watch/",
-  "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/saas-finance-watch.json"
+  "url": "https://moneywithai.net/use-cases/saas-finance-watch/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/saas-finance-watch.json"
 }

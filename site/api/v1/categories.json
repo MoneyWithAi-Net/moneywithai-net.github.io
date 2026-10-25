@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-25T07:30:16.000Z",
+  "generated_at": "2026-10-25T07:19:05.000Z",
   "api_version": "v1",
   "schema_revision": 2,
-  "status_url": "https://bots.anthonytoday.com/api/v1/status.json",
+  "status_url": "https://moneywithai.net/api/v1/status.json",
   "count": 7,
   "items": [
     {
@@ -62,7 +62,7 @@
           "bots": 1
         }
       ],
-      "url": "https://bots.anthonytoday.com/?category=leads-and-sales"
+      "url": "https://moneywithai.net/?category=leads-and-sales"
     },
     {
       "slug": "content-and-marketing",
@@ -111,7 +111,7 @@
           "bots": 1
         }
       ],
-      "url": "https://bots.anthonytoday.com/?category=content-and-marketing"
+      "url": "https://moneywithai.net/?category=content-and-marketing"
     },
     {
       "slug": "e-commerce",
@@ -140,7 +140,7 @@
           "bots": 1
         }
       ],
-      "url": "https://bots.anthonytoday.com/?category=e-commerce"
+      "url": "https://moneywithai.net/?category=e-commerce"
     },
     {
       "slug": "client-services",
@@ -169,7 +169,7 @@
           "bots": 1
         }
       ],
-      "url": "https://bots.anthonytoday.com/?category=client-services"
+      "url": "https://moneywithai.net/?category=client-services"
     },
     {
       "slug": "finance",
@@ -208,7 +208,7 @@
           "bots": 1
         }
       ],
-      "url": "https://bots.anthonytoday.com/?category=finance"
+      "url": "https://moneywithai.net/?category=finance"
     },
     {
       "slug": "customer-support",
@@ -242,7 +242,7 @@
           "bots": 1
         }
       ],
-      "url": "https://bots.anthonytoday.com/?category=customer-support"
+      "url": "https://moneywithai.net/?category=customer-support"
     },
     {
       "slug": "research-and-ops",
@@ -296,7 +296,7 @@
           "bots": 1
         }
       ],
-      "url": "https://bots.anthonytoday.com/?category=research-and-ops"
+      "url": "https://moneywithai.net/?category=research-and-ops"
     }
   ]
 }

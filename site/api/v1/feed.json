@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-25T07:30:16.000Z",
+  "generated_at": "2026-10-25T07:19:05.000Z",
   "api_version": "v1",
   "schema_revision": 2,
-  "status_url": "https://bots.anthonytoday.com/api/v1/status.json",
+  "status_url": "https://moneywithai.net/api/v1/status.json",
   "count": 81,
   "items": [
     {
@@ -13,8 +13,8 @@
       "sub_use_case": "Brand social",
       "summary": "Finds ideas on Pinterest and in company news, makes on-brand images and carousels and runs a brand's Instagram.",
       "creator": "Carlos_Arthurr",
-      "url": "https://bots.anthonytoday.com/bots/art-director/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/art-director.json",
+      "url": "https://moneywithai.net/bots/art-director/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/art-director.json",
       "official_share_url": "https://x.ai/bot/CPsMufoHozETWciYoiqvL",
       "added_at": "2026-10-24T09:30:00.000Z"
     },
@@ -26,8 +26,8 @@
       "sub_use_case": "Competitor intel",
       "summary": "Researches a local service business's competitors and files a weekly report with cited moves.",
       "creator": "TheReal_BCM",
-      "url": "https://bots.anthonytoday.com/bots/competitor-intel/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/competitor-intel.json",
+      "url": "https://moneywithai.net/bots/competitor-intel/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/competitor-intel.json",
       "official_share_url": "https://x.ai/bot/PIBCWeB59T-UhxyBNLowR",
       "added_at": "2026-10-24T09:30:00.000Z"
     },
@@ -39,8 +39,8 @@
       "sub_use_case": "Practice marketing",
       "summary": "Directs a bot team for a medical practice's marketing: ads, creative, video and quality checks.",
       "creator": "CindyH874325640",
-      "url": "https://bots.anthonytoday.com/bots/consider-it-marketed/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/consider-it-marketed.json",
+      "url": "https://moneywithai.net/bots/consider-it-marketed/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/consider-it-marketed.json",
       "official_share_url": "https://x.ai/bot/ayQYbaHquRM7x7lnBOEoQ",
       "added_at": "2026-10-24T09:30:00.000Z"
     },
@@ -52,8 +52,8 @@
       "sub_use_case": "Construction office",
       "summary": "Reads mail and calendar for a construction team, routes work to specialist bots and never sends or buys alone.",
       "creator": "RoggyRyan",
-      "url": "https://bots.anthonytoday.com/bots/construction-chief-of-staff/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/construction-chief-of-staff.json",
+      "url": "https://moneywithai.net/bots/construction-chief-of-staff/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/construction-chief-of-staff.json",
       "official_share_url": "https://x.ai/bot/dZfz-QuarMKqQo_mdPhbb",
       "added_at": "2026-10-24T09:30:00.000Z"
     },
@@ -65,8 +65,8 @@
       "sub_use_case": "Brand-deal pricing",
       "summary": "Prices a creator deal from public view counts and drafts a deal menu, rate card and agreement to review.",
       "creator": "kostahantzis",
-      "url": "https://bots.anthonytoday.com/bots/cpm/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/cpm.json",
+      "url": "https://moneywithai.net/bots/cpm/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/cpm.json",
       "official_share_url": "https://x.ai/bot/GwmXIfLuPPIPf2hGX2Txf",
       "added_at": "2026-10-24T09:30:00.000Z"
     },
@@ -78,8 +78,8 @@
       "sub_use_case": "X posting",
       "summary": "Plans, drafts and schedules X posts and short clips for a creator, and picks the replies worth making.",
       "creator": "MadeItHappenX",
-      "url": "https://bots.anthonytoday.com/bots/creator-desk/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/creator-desk.json",
+      "url": "https://moneywithai.net/bots/creator-desk/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/creator-desk.json",
       "official_share_url": "https://x.ai/bot/dM43J1T44OmcRdAsNHsBf",
       "added_at": "2026-10-24T09:30:00.000Z"
     },
@@ -91,8 +91,8 @@
       "sub_use_case": "Tender bids",
       "summary": "Coordinates a Spanish-language bot team that prepares bids for Chilean municipal tenders, from spec sheet to QA.",
       "creator": "jorgesoffia",
-      "url": "https://bots.anthonytoday.com/bots/dero/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/dero.json",
+      "url": "https://moneywithai.net/bots/dero/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/dero.json",
       "official_share_url": "https://x.ai/bot/OMpdsLwId7Du5PrjbX8L8",
       "added_at": "2026-10-24T09:30:00.000Z"
     },
@@ -104,8 +104,8 @@
       "sub_use_case": "Competitor drops",
       "summary": "Watches competitor brands on Amazon, their sites and TikTok Shop, and alerts you only when something new drops.",
       "creator": "Steph_Pierson",
-      "url": "https://bots.anthonytoday.com/bots/drop-radar/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/drop-radar.json",
+      "url": "https://moneywithai.net/bots/drop-radar/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/drop-radar.json",
       "official_share_url": "https://x.ai/bot/KYM0C9BcyfXEP9uIyxlmE",
       "added_at": "2026-10-24T09:30:00.000Z"
     },
@@ -117,8 +117,8 @@
       "sub_use_case": "Resale listings",
       "summary": "Turns a photo of a thrift find, card or toy into an eBay draft with sold comps, a title and a price.",
       "creator": "Gabi_Valerio3",
-      "url": "https://bots.anthonytoday.com/bots/ebay-lister/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/ebay-lister.json",
+      "url": "https://moneywithai.net/bots/ebay-lister/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/ebay-lister.json",
       "official_share_url": "https://x.ai/bot/q9Q8EPKFx45CmVwjUAFY5",
       "added_at": "2026-10-24T09:30:00.000Z"
     },
@@ -130,8 +130,8 @@
       "sub_use_case": "Opportunity scouting",
       "summary": "Finds and vets side-venture ideas from a short brief, with sources, risks and a next step, and keeps a weekly scorecard.",
       "creator": "hjackson2",
-      "url": "https://bots.anthonytoday.com/bots/entrepreneur-scout/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/entrepreneur-scout.json",
+      "url": "https://moneywithai.net/bots/entrepreneur-scout/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/entrepreneur-scout.json",
       "official_share_url": "https://x.ai/bot/scvcDPnSH2_sj3pH6ONCR",
       "added_at": "2026-10-24T09:30:00.000Z"
     },
@@ -143,8 +143,8 @@
       "sub_use_case": "Grant packs",
       "summary": "Finds live funding programmes for a company or client project and prepares the pack a person files.",
       "creator": "HoneybadgerFan4",
-      "url": "https://bots.anthonytoday.com/bots/grantogre/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/grantogre.json",
+      "url": "https://moneywithai.net/bots/grantogre/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/grantogre.json",
       "official_share_url": "https://x.ai/bot/WXC1m-5Iiyu1IyvBEt9Va",
       "added_at": "2026-10-24T09:30:00.000Z"
     },
@@ -156,8 +156,8 @@
       "sub_use_case": "CRM hygiene",
       "summary": "Verifies contact emails with Kickbox and writes the deliverable results back into existing HubSpot records.",
       "creator": "pofabro",
-      "url": "https://bots.anthonytoday.com/bots/kickbox-to-hubspot-importer/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/kickbox-to-hubspot-importer.json",
+      "url": "https://moneywithai.net/bots/kickbox-to-hubspot-importer/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/kickbox-to-hubspot-importer.json",
       "official_share_url": "https://x.ai/bot/PRc9UmcxySAv0UBU4g8fx",
       "added_at": "2026-10-24T09:30:00.000Z"
     },
@@ -169,8 +169,8 @@
       "sub_use_case": "Rental bookkeeping",
       "summary": "Matches rent deposits to tenants, flags late or short rent and sorts expenses for tax time. It never moves money.",
       "creator": "Daniel191555486",
-      "url": "https://bots.anthonytoday.com/bots/landlord-ledger/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/landlord-ledger.json",
+      "url": "https://moneywithai.net/bots/landlord-ledger/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/landlord-ledger.json",
       "official_share_url": "https://x.ai/bot/sPjI0Dec1DUvTc7H0zxNG",
       "added_at": "2026-10-24T09:30:00.000Z"
     },
@@ -182,8 +182,8 @@
       "sub_use_case": "Local SEO prospect lists",
       "summary": "Builds lists of local businesses whose sites show search gaps, so an agency has warm reasons to reach out.",
       "creator": "itsryanlenk",
-      "url": "https://bots.anthonytoday.com/bots/lead-scout/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/lead-scout.json",
+      "url": "https://moneywithai.net/bots/lead-scout/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/lead-scout.json",
       "official_share_url": "https://x.ai/bot/j3Qule6BFplSpVqgLpVnV",
       "added_at": "2026-10-24T09:30:00.000Z"
     },
@@ -195,8 +195,8 @@
       "sub_use_case": "Inbound qualification",
       "summary": "Screens consulting and collab leads from your inbox and sends a short go or no-go summary to Slack.",
       "creator": "anzevoje",
-      "url": "https://bots.anthonytoday.com/bots/lead-vetting/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/lead-vetting.json",
+      "url": "https://moneywithai.net/bots/lead-vetting/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/lead-vetting.json",
       "official_share_url": "https://x.ai/bot/eEfAacXdtzHANV5hVhG6o",
       "added_at": "2026-10-24T09:30:00.000Z"
     },
@@ -208,8 +208,8 @@
       "sub_use_case": "Speed-to-lead and quotes",
       "summary": "Qualifies roofing inquiries, drafts SMS and email follow-ups and preps quick-quote handoffs for a contractor.",
       "creator": "legendRoofingCo",
-      "url": "https://bots.anthonytoday.com/bots/legend-lead-ops/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/legend-lead-ops.json",
+      "url": "https://moneywithai.net/bots/legend-lead-ops/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/legend-lead-ops.json",
       "official_share_url": "https://x.ai/bot/WCZjv-qHMtHz2AdQW136q",
       "added_at": "2026-10-24T09:30:00.000Z"
     },
@@ -221,8 +221,8 @@
       "sub_use_case": "LinkedIn funnels",
       "summary": "Turns comments on a LinkedIn lead magnet into tracked leads in Notion, with capped replies and DMs you can review.",
       "creator": "ethan_leee9113",
-      "url": "https://bots.anthonytoday.com/bots/linkedin-lead-outreach/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/linkedin-lead-outreach.json",
+      "url": "https://moneywithai.net/bots/linkedin-lead-outreach/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/linkedin-lead-outreach.json",
       "official_share_url": "https://x.ai/bot/DEMmOi7SiFhsFtIKuBKRD",
       "added_at": "2026-10-24T09:30:00.000Z"
     },
@@ -234,8 +234,8 @@
       "sub_use_case": "No-website prospects",
       "summary": "Spots local businesses with no website, mocks up a demo site and a quote, and holds the pitch for your approval.",
       "creator": "NewLongMoney",
-      "url": "https://bots.anthonytoday.com/bots/local-business-website-hunter/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/local-business-website-hunter.json",
+      "url": "https://moneywithai.net/bots/local-business-website-hunter/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/local-business-website-hunter.json",
       "official_share_url": "https://x.ai/bot/U87LeqeLNEIKRe9ctpRxG",
       "added_at": "2026-10-24T09:30:00.000Z"
     },
@@ -247,8 +247,8 @@
       "sub_use_case": "Property maintenance",
       "summary": "Runs residential maintenance requests from intake and triage to dispatch, resident texts and closeout checks.",
       "creator": "Miffy_NYC",
-      "url": "https://bots.anthonytoday.com/bots/maintenance-triage/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/maintenance-triage.json",
+      "url": "https://moneywithai.net/bots/maintenance-triage/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/maintenance-triage.json",
       "official_share_url": "https://x.ai/bot/gKgo-_MM29kfcD9qiZf2A",
       "added_at": "2026-10-24T09:30:00.000Z"
     },
@@ -260,8 +260,8 @@
       "sub_use_case": "Market notes",
       "summary": "Reads your watchlist across X, wires and primary sources and writes source-graded market notes. Not advice.",
       "creator": "eyemotors",
-      "url": "https://bots.anthonytoday.com/bots/market-research/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/market-research.json",
+      "url": "https://moneywithai.net/bots/market-research/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/market-research.json",
       "official_share_url": "https://x.ai/bot/t1l_On1VtkMYddCu5MqQB",
       "added_at": "2026-10-24T09:30:00.000Z"
     },
@@ -273,8 +273,8 @@
       "sub_use_case": "YouTube operations",
       "summary": "Handles a YouTube channel's after-upload work: transcripts, chapters, titles, descriptions and thumbnails.",
       "creator": "mattyp",
-      "url": "https://bots.anthonytoday.com/bots/media-manager/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/media-manager.json",
+      "url": "https://moneywithai.net/bots/media-manager/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/media-manager.json",
       "official_share_url": "https://x.ai/bot/qG_ZROllzSSRGKx_iIbsQ",
       "added_at": "2026-10-24T09:30:00.000Z"
     },
@@ -286,8 +286,8 @@
       "sub_use_case": "Phone answering",
       "summary": "Answers a business phone line and books meetings on Google Calendar. The share card lists a paid phone plan.",
       "creator": "SimplyColeB",
-      "url": "https://bots.anthonytoday.com/bots/phone-receptionist/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/phone-receptionist.json",
+      "url": "https://moneywithai.net/bots/phone-receptionist/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/phone-receptionist.json",
       "official_share_url": "https://x.ai/bot/Z7LfRtBtwfaojaomMrAuX",
       "added_at": "2026-10-24T09:30:00.000Z"
     },
@@ -299,8 +299,8 @@
       "sub_use_case": "Client confirmations",
       "summary": "Emails clients a forecast 48 hours before an outdoor shoot and drafts reschedule options when rain looks likely.",
       "creator": "TimFPhotography",
-      "url": "https://bots.anthonytoday.com/bots/photo-and-video-shoot-confirmations/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/photo-and-video-shoot-confirmations.json",
+      "url": "https://moneywithai.net/bots/photo-and-video-shoot-confirmations/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/photo-and-video-shoot-confirmations.json",
       "official_share_url": "https://x.ai/bot/iduDVp02VHu06-XddxcSD",
       "added_at": "2026-10-24T09:30:00.000Z"
     },
@@ -312,8 +312,8 @@
       "sub_use_case": "Client delivery",
       "summary": "Edits real estate listing photos, labels them and files them by address in Drive or Dropbox for client delivery.",
       "creator": "MarsHomestead",
-      "url": "https://bots.anthonytoday.com/bots/photofix/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/photofix.json",
+      "url": "https://moneywithai.net/bots/photofix/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/photofix.json",
       "official_share_url": "https://x.ai/bot/PRdnJ63L8h0FVlMAA1UN4",
       "added_at": "2026-10-24T09:30:00.000Z"
     },
@@ -325,8 +325,8 @@
       "sub_use_case": "Quotes",
       "summary": "Answers customer questions, prices jobs with quantity discounts and helps fix prints for a small 3D print shop.",
       "creator": "srinimaram",
-      "url": "https://bots.anthonytoday.com/bots/precision-3d-helper/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/precision-3d-helper.json",
+      "url": "https://moneywithai.net/bots/precision-3d-helper/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/precision-3d-helper.json",
       "official_share_url": "https://x.ai/bot/bna2wMqlfX6-F4TBmAEBJ",
       "added_at": "2026-10-24T09:30:00.000Z"
     },
@@ -338,8 +338,8 @@
       "sub_use_case": "Review replies",
       "summary": "Drafts replies to customer emails, messages and public reviews for local service businesses. You send them.",
       "creator": "lonzom10",
-      "url": "https://bots.anthonytoday.com/bots/reply-desk/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/reply-desk.json",
+      "url": "https://moneywithai.net/bots/reply-desk/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/reply-desk.json",
       "official_share_url": "https://x.ai/bot/8lLjBC7bXUqbfh-vLG9jf",
       "added_at": "2026-10-24T09:30:00.000Z"
     },
@@ -351,8 +351,8 @@
       "sub_use_case": "Revenue recovery",
       "summary": "Finds canceled delivery orders and error charges in a restaurant's merchant portals and files reimbursement requests.",
       "creator": "pattyshack",
-      "url": "https://bots.anthonytoday.com/bots/restaurant-order-recovery/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/restaurant-order-recovery.json",
+      "url": "https://moneywithai.net/bots/restaurant-order-recovery/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/restaurant-order-recovery.json",
       "official_share_url": "https://x.ai/bot/wB9H7OSiHYPlRgyCTM5Iq",
       "added_at": "2026-10-24T09:30:00.000Z"
     },
@@ -364,8 +364,8 @@
       "sub_use_case": "Compliance review",
       "summary": "Reviews insurance marketing emails, pages and posts before they go out and flags fixes for disclosures and claims.",
       "creator": "CluSloan",
-      "url": "https://bots.anthonytoday.com/bots/sentinel/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/sentinel.json",
+      "url": "https://moneywithai.net/bots/sentinel/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/sentinel.json",
       "official_share_url": "https://x.ai/bot/NAFAT-NGrQ7-zLccn4qg1",
       "added_at": "2026-10-24T09:30:00.000Z"
     },
@@ -377,8 +377,8 @@
       "sub_use_case": "Store operations",
       "summary": "Runs catalog, inventory, conversion and customer service tasks on a Shopify store, alone or with a bot team.",
       "creator": "nick_nehaul",
-      "url": "https://bots.anthonytoday.com/bots/shopify-bot/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/shopify-bot.json",
+      "url": "https://moneywithai.net/bots/shopify-bot/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/shopify-bot.json",
       "official_share_url": "https://x.ai/bot/jhd6Cb9XEPI6b-hs-WCQE",
       "added_at": "2026-10-24T09:30:00.000Z"
     },
@@ -390,8 +390,8 @@
       "sub_use_case": "Pre-pitch audits",
       "summary": "Turns a lead dossier into an evidence-backed brief on a local site's search gaps, ready for a sales draft.",
       "creator": "itsryanlenk",
-      "url": "https://bots.anthonytoday.com/bots/site-research/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/site-research.json",
+      "url": "https://moneywithai.net/bots/site-research/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/site-research.json",
       "official_share_url": "https://x.ai/bot/zkgCv30YKSJPHc7rUB_6P",
       "added_at": "2026-10-24T09:30:00.000Z"
     },
@@ -403,8 +403,8 @@
       "sub_use_case": "Store chief of staff",
       "summary": "Coordinates a team of store bots across orders, ads health, low stock and disputes, without spending money.",
       "creator": "ColinMcDermott",
-      "url": "https://bots.anthonytoday.com/bots/store-manager/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/store-manager.json",
+      "url": "https://moneywithai.net/bots/store-manager/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/store-manager.json",
       "official_share_url": "https://x.ai/bot/5axq0n6JtBkqjhMaCDO6d",
       "added_at": "2026-10-24T09:30:00.000Z"
     },
@@ -416,8 +416,8 @@
       "sub_use_case": "Accounting office ops",
       "summary": "Keeps a tax or accounting office on track with client replies, document chasing and early due-date notices.",
       "creator": "Amervim",
-      "url": "https://bots.anthonytoday.com/bots/tax-firm-os/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/tax-firm-os.json",
+      "url": "https://moneywithai.net/bots/tax-firm-os/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/tax-firm-os.json",
       "official_share_url": "https://x.ai/bot/vJqjJphtZRkdBTYBxmWur",
       "added_at": "2026-10-24T09:30:00.000Z"
     },
@@ -429,8 +429,8 @@
       "sub_use_case": "Expense reports",
       "summary": "Logs trip spending in any currency from text or receipt photos and exports an Excel and PDF expense report.",
       "creator": "shareitround",
-      "url": "https://bots.anthonytoday.com/bots/travel-expenses/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/travel-expenses.json",
+      "url": "https://moneywithai.net/bots/travel-expenses/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/travel-expenses.json",
       "official_share_url": "https://x.ai/bot/Upkn_bUxr___NAvXZB3Dc",
       "added_at": "2026-10-24T09:30:00.000Z"
     },
@@ -442,8 +442,8 @@
       "sub_use_case": "X prospecting",
       "summary": "Suggests accounts and posts on X worth engaging with, tuned by your feedback. It never replies for you.",
       "creator": "scientists_blog",
-      "url": "https://bots.anthonytoday.com/bots/x-reply-scout/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/x-reply-scout.json",
+      "url": "https://moneywithai.net/bots/x-reply-scout/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/x-reply-scout.json",
       "official_share_url": "https://x.ai/bot/DRZ2jU1GFwV8HS2_9Y6MA",
       "added_at": "2026-10-24T09:30:00.000Z"
     },
@@ -455,8 +455,8 @@
       "sub_use_case": "Threads and articles",
       "summary": "Turns rough notes or a link into an X thread and article draft in your tone. You paste and post.",
       "creator": "sigarellano",
-      "url": "https://bots.anthonytoday.com/bots/x-thread-and-article-writer/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/x-thread-and-article-writer.json",
+      "url": "https://moneywithai.net/bots/x-thread-and-article-writer/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/x-thread-and-article-writer.json",
       "official_share_url": "https://x.ai/bot/xLeBNzgp0Z6IUGxyt8sj4",
       "added_at": "2026-10-24T09:30:00.000Z"
     },
@@ -468,8 +468,8 @@
       "sub_use_case": "Local SEO content",
       "summary": "Plans local-search content for a service business and keeps a content calendar in your website builder.",
       "creator": "HouseHackerJon",
-      "url": "https://bots.anthonytoday.com/bots/content-planner-manager/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/content-planner-manager.json",
+      "url": "https://moneywithai.net/bots/content-planner-manager/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/content-planner-manager.json",
       "official_share_url": null,
       "added_at": "2026-10-24T08:00:00.000Z"
     },
@@ -481,8 +481,8 @@
       "sub_use_case": "Feedback watch",
       "summary": "Scans public posts on X for complaints and bug reports about your product and flags the few that need action.",
       "creator": "egavrilenko11",
-      "url": "https://bots.anthonytoday.com/bots/customer-feedback-watch/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/customer-feedback-watch.json",
+      "url": "https://moneywithai.net/bots/customer-feedback-watch/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/customer-feedback-watch.json",
       "official_share_url": "https://x.ai/bot/8Snl1TovbMwClPoBiHrWT",
       "added_at": "2026-10-24T08:00:00.000Z"
     },
@@ -494,8 +494,8 @@
       "sub_use_case": "Social engagement leads",
       "summary": "Reviews who engages with your Instagram posts and shortlists people who match your ideal customer.",
       "creator": "aferrari",
-      "url": "https://bots.anthonytoday.com/bots/engagement-lead-finder/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/engagement-lead-finder.json",
+      "url": "https://moneywithai.net/bots/engagement-lead-finder/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/engagement-lead-finder.json",
       "official_share_url": null,
       "added_at": "2026-10-24T08:00:00.000Z"
     },
@@ -507,8 +507,8 @@
       "sub_use_case": "Local SEO content",
       "summary": "Drafts local SEO articles for a city and topic you choose and publishes them through your repo after approval.",
       "creator": "coreyganim",
-      "url": "https://bots.anthonytoday.com/bots/geo-targeted-seo-publisher/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/geo-targeted-seo-publisher.json",
+      "url": "https://moneywithai.net/bots/geo-targeted-seo-publisher/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/geo-targeted-seo-publisher.json",
       "official_share_url": null,
       "added_at": "2026-10-24T08:00:00.000Z"
     },
@@ -520,8 +520,8 @@
       "sub_use_case": "Help center",
       "summary": "After each merged code change, checks whether help articles need an update and drafts the change.",
       "creator": "damonchen",
-      "url": "https://bots.anthonytoday.com/bots/help-center-updater/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/help-center-updater.json",
+      "url": "https://moneywithai.net/bots/help-center-updater/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/help-center-updater.json",
       "official_share_url": null,
       "added_at": "2026-10-24T08:00:00.000Z"
     },
@@ -533,8 +533,8 @@
       "sub_use_case": "Inbox triage",
       "summary": "Sorts new email and social DMs, closes what needs no reply and turns the rest into Trello tasks.",
       "creator": "rchase",
-      "url": "https://bots.anthonytoday.com/bots/inbox-triage/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/inbox-triage.json",
+      "url": "https://moneywithai.net/bots/inbox-triage/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/inbox-triage.json",
       "official_share_url": null,
       "added_at": "2026-10-24T08:00:00.000Z"
     },
@@ -546,8 +546,8 @@
       "sub_use_case": "Invoices",
       "summary": "Finds invoices in your email, pulls out the key details and bundles them by month for your accountant, after you approve.",
       "creator": "scheemunai",
-      "url": "https://bots.anthonytoday.com/bots/invoice-hunter/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/invoice-hunter.json",
+      "url": "https://moneywithai.net/bots/invoice-hunter/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/invoice-hunter.json",
       "official_share_url": "https://x.ai/bot/-kO6HrXokJZANVwUOMZO9",
       "added_at": "2026-10-24T08:00:00.000Z"
     },
@@ -559,8 +559,8 @@
       "sub_use_case": "LinkedIn funnels",
       "summary": "Compares your LinkedIn profile with your current work and drafts updates for your approval.",
       "creator": "ericzakariasson",
-      "url": "https://bots.anthonytoday.com/bots/linkedin-profile-audit/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/linkedin-profile-audit.json",
+      "url": "https://moneywithai.net/bots/linkedin-profile-audit/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/linkedin-profile-audit.json",
       "official_share_url": null,
       "added_at": "2026-10-24T08:00:00.000Z"
     },
@@ -572,8 +572,8 @@
       "sub_use_case": "Team memory",
       "summary": "Keeps one Notion page up to date with the notes, decisions and context you hand it.",
       "creator": "benln",
-      "url": "https://bots.anthonytoday.com/bots/notion-memory-keeper/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/notion-memory-keeper.json",
+      "url": "https://moneywithai.net/bots/notion-memory-keeper/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/notion-memory-keeper.json",
       "official_share_url": null,
       "added_at": "2026-10-24T08:00:00.000Z"
     },
@@ -585,8 +585,8 @@
       "sub_use_case": "Sales-call support",
       "summary": "Answers deep product questions during customer calls from your code or company knowledge base.",
       "creator": "kristaletz",
-      "url": "https://bots.anthonytoday.com/bots/product-expert/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/product-expert.json",
+      "url": "https://moneywithai.net/bots/product-expert/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/product-expert.json",
       "official_share_url": null,
       "added_at": "2026-10-24T08:00:00.000Z"
     },
@@ -598,8 +598,8 @@
       "sub_use_case": "X posting",
       "summary": "Finds posts on X worth replying to and drafts a first take in your voice. You post every reply yourself.",
       "creator": "kevinace",
-      "url": "https://bots.anthonytoday.com/bots/reply-drafter/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/reply-drafter.json",
+      "url": "https://moneywithai.net/bots/reply-drafter/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/reply-drafter.json",
       "official_share_url": null,
       "added_at": "2026-10-24T08:00:00.000Z"
     },
@@ -611,8 +611,8 @@
       "sub_use_case": "SaaS spend",
       "summary": "Weekly check of SaaS spend and revenue across billing, accounting and email, with a monthly finance summary.",
       "creator": "jessethanley",
-      "url": "https://bots.anthonytoday.com/bots/saas-cfo-monitor/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/saas-cfo-monitor.json",
+      "url": "https://moneywithai.net/bots/saas-cfo-monitor/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/saas-cfo-monitor.json",
       "official_share_url": null,
       "added_at": "2026-10-24T08:00:00.000Z"
     },
@@ -624,8 +624,8 @@
       "sub_use_case": "Competitor intel",
       "summary": "Tracks competitor sites, search rankings and AI answer visibility, and sends a weekly brief when something moves.",
       "creator": "adamta",
-      "url": "https://bots.anthonytoday.com/bots/scout-competitive-intelligence/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/scout-competitive-intelligence.json",
+      "url": "https://moneywithai.net/bots/scout-competitive-intelligence/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/scout-competitive-intelligence.json",
       "official_share_url": "https://x.ai/bot/rthl9MdskO2f-JCzmyINP",
       "added_at": "2026-10-24T08:00:00.000Z"
     },
@@ -637,8 +637,8 @@
       "sub_use_case": "Ticket fixing",
       "summary": "Investigates new support tickets against docs, code and logs, then prepares a likely cause and fix.",
       "creator": "euboid",
-      "url": "https://bots.anthonytoday.com/bots/support-ticket-fixer/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/support-ticket-fixer.json",
+      "url": "https://moneywithai.net/bots/support-ticket-fixer/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/support-ticket-fixer.json",
       "official_share_url": null,
       "added_at": "2026-10-24T08:00:00.000Z"
     },
@@ -650,8 +650,8 @@
       "sub_use_case": "Hiring",
       "summary": "Spots hiring needs and job seekers in your inbox and suggests matches between them.",
       "creator": "lennysan",
-      "url": "https://bots.anthonytoday.com/bots/talent-matchmaker/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/bots/talent-matchmaker.json",
+      "url": "https://moneywithai.net/bots/talent-matchmaker/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/talent-matchmaker.json",
       "official_share_url": "https://x.ai/bot/l8p6rXw-lalL-UNiHySnJ",
       "added_at": "2026-10-24T08:00:00.000Z"
     },
@@ -665,8 +665,8 @@
         "tax-firm-os",
         "inbox-triage"
       ],
-      "url": "https://bots.anthonytoday.com/use-cases/accounting-practice-ops/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/use-cases/accounting-practice-ops.json",
+      "url": "https://moneywithai.net/use-cases/accounting-practice-ops/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/accounting-practice-ops.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {
@@ -679,8 +679,8 @@
         "art-director",
         "sentinel"
       ],
-      "url": "https://bots.anthonytoday.com/use-cases/brand-instagram-studio/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/use-cases/brand-instagram-studio.json",
+      "url": "https://moneywithai.net/use-cases/brand-instagram-studio/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/brand-instagram-studio.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {
@@ -694,8 +694,8 @@
         "inbox-triage",
         "notion-memory-keeper"
       ],
-      "url": "https://bots.anthonytoday.com/use-cases/construction-office-chief-of-staff/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/use-cases/construction-office-chief-of-staff.json",
+      "url": "https://moneywithai.net/use-cases/construction-office-chief-of-staff/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/construction-office-chief-of-staff.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {
@@ -709,8 +709,8 @@
         "phone-receptionist",
         "reply-desk"
       ],
-      "url": "https://bots.anthonytoday.com/use-cases/contractor-speed-to-lead/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/use-cases/contractor-speed-to-lead.json",
+      "url": "https://moneywithai.net/use-cases/contractor-speed-to-lead/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/contractor-speed-to-lead.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {
@@ -723,8 +723,8 @@
         "drop-radar",
         "scout-competitive-intelligence"
       ],
-      "url": "https://bots.anthonytoday.com/use-cases/dtc-competitor-drop-watch/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/use-cases/dtc-competitor-drop-watch.json",
+      "url": "https://moneywithai.net/use-cases/dtc-competitor-drop-watch/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/dtc-competitor-drop-watch.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {
@@ -737,8 +737,8 @@
         "entrepreneur-scout",
         "market-research"
       ],
-      "url": "https://bots.anthonytoday.com/use-cases/find-a-side-venture/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/use-cases/find-a-side-venture.json",
+      "url": "https://moneywithai.net/use-cases/find-a-side-venture/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/find-a-side-venture.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {
@@ -750,8 +750,8 @@
       "bots": [
         "grantogre"
       ],
-      "url": "https://bots.anthonytoday.com/use-cases/grant-writing-service/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/use-cases/grant-writing-service.json",
+      "url": "https://moneywithai.net/use-cases/grant-writing-service/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/grant-writing-service.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {
@@ -763,8 +763,8 @@
       "bots": [
         "engagement-lead-finder"
       ],
-      "url": "https://bots.anthonytoday.com/use-cases/instagram-engagers-to-leads/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/use-cases/instagram-engagers-to-leads.json",
+      "url": "https://moneywithai.net/use-cases/instagram-engagers-to-leads/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/instagram-engagers-to-leads.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {
@@ -777,8 +777,8 @@
         "linkedin-lead-outreach",
         "linkedin-profile-audit"
       ],
-      "url": "https://bots.anthonytoday.com/use-cases/linkedin-lead-magnet-funnel/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/use-cases/linkedin-lead-magnet-funnel.json",
+      "url": "https://moneywithai.net/use-cases/linkedin-lead-magnet-funnel/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/linkedin-lead-magnet-funnel.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {
@@ -791,8 +791,8 @@
         "reply-desk",
         "phone-receptionist"
       ],
-      "url": "https://bots.anthonytoday.com/use-cases/local-business-reviews-and-calls/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/use-cases/local-business-reviews-and-calls.json",
+      "url": "https://moneywithai.net/use-cases/local-business-reviews-and-calls/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/local-business-reviews-and-calls.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {
@@ -805,8 +805,8 @@
         "competitor-intel",
         "scout-competitive-intelligence"
       ],
-      "url": "https://bots.anthonytoday.com/use-cases/local-competitor-intel/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/use-cases/local-competitor-intel.json",
+      "url": "https://moneywithai.net/use-cases/local-competitor-intel/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/local-competitor-intel.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {
@@ -820,8 +820,8 @@
         "geo-targeted-seo-publisher",
         "competitor-intel"
       ],
-      "url": "https://bots.anthonytoday.com/use-cases/local-seo-content-engine/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/use-cases/local-seo-content-engine.json",
+      "url": "https://moneywithai.net/use-cases/local-seo-content-engine/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/local-seo-content-engine.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {
@@ -834,8 +834,8 @@
         "precision-3d-helper",
         "reply-desk"
       ],
-      "url": "https://bots.anthonytoday.com/use-cases/maker-shop-quotes/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/use-cases/maker-shop-quotes.json",
+      "url": "https://moneywithai.net/use-cases/maker-shop-quotes/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/maker-shop-quotes.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {
@@ -849,8 +849,8 @@
         "photofix",
         "travel-expenses"
       ],
-      "url": "https://bots.anthonytoday.com/use-cases/photography-back-office/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/use-cases/photography-back-office.json",
+      "url": "https://moneywithai.net/use-cases/photography-back-office/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/photography-back-office.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {
@@ -863,8 +863,8 @@
         "consider-it-marketed",
         "sentinel"
       ],
-      "url": "https://bots.anthonytoday.com/use-cases/practice-marketing-team/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/use-cases/practice-marketing-team.json",
+      "url": "https://moneywithai.net/use-cases/practice-marketing-team/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/practice-marketing-team.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {
@@ -876,8 +876,8 @@
       "bots": [
         "cpm"
       ],
-      "url": "https://bots.anthonytoday.com/use-cases/price-brand-deals/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/use-cases/price-brand-deals.json",
+      "url": "https://moneywithai.net/use-cases/price-brand-deals/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/price-brand-deals.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {
@@ -890,8 +890,8 @@
         "product-expert",
         "scout-competitive-intelligence"
       ],
-      "url": "https://bots.anthonytoday.com/use-cases/product-expert-on-sales-calls/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/use-cases/product-expert-on-sales-calls.json",
+      "url": "https://moneywithai.net/use-cases/product-expert-on-sales-calls/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/product-expert-on-sales-calls.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {
@@ -904,8 +904,8 @@
         "maintenance-triage",
         "landlord-ledger"
       ],
-      "url": "https://bots.anthonytoday.com/use-cases/property-maintenance-ops/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/use-cases/property-maintenance-ops.json",
+      "url": "https://moneywithai.net/use-cases/property-maintenance-ops/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/property-maintenance-ops.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {
@@ -918,8 +918,8 @@
         "lead-vetting",
         "inbox-triage"
       ],
-      "url": "https://bots.anthonytoday.com/use-cases/qualify-inbound-consulting-leads/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/use-cases/qualify-inbound-consulting-leads.json",
+      "url": "https://moneywithai.net/use-cases/qualify-inbound-consulting-leads/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/qualify-inbound-consulting-leads.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {
@@ -931,8 +931,8 @@
       "bots": [
         "restaurant-order-recovery"
       ],
-      "url": "https://bots.anthonytoday.com/use-cases/recover-delivery-refunds/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/use-cases/recover-delivery-refunds.json",
+      "url": "https://moneywithai.net/use-cases/recover-delivery-refunds/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/recover-delivery-refunds.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {
@@ -945,8 +945,8 @@
         "landlord-ledger",
         "invoice-hunter"
       ],
-      "url": "https://bots.anthonytoday.com/use-cases/rental-income-bookkeeping/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/use-cases/rental-income-bookkeeping.json",
+      "url": "https://moneywithai.net/use-cases/rental-income-bookkeeping/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/rental-income-bookkeeping.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {
@@ -959,8 +959,8 @@
         "saas-cfo-monitor",
         "invoice-hunter"
       ],
-      "url": "https://bots.anthonytoday.com/use-cases/saas-finance-watch/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/use-cases/saas-finance-watch.json",
+      "url": "https://moneywithai.net/use-cases/saas-finance-watch/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/saas-finance-watch.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {
@@ -974,8 +974,8 @@
         "lead-scout",
         "site-research"
       ],
-      "url": "https://bots.anthonytoday.com/use-cases/sell-websites-to-local-businesses/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/use-cases/sell-websites-to-local-businesses.json",
+      "url": "https://moneywithai.net/use-cases/sell-websites-to-local-businesses/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/sell-websites-to-local-businesses.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {
@@ -989,8 +989,8 @@
         "site-research",
         "kickbox-to-hubspot-importer"
       ],
-      "url": "https://bots.anthonytoday.com/use-cases/seo-agency-pitch-pack/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/use-cases/seo-agency-pitch-pack.json",
+      "url": "https://moneywithai.net/use-cases/seo-agency-pitch-pack/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/seo-agency-pitch-pack.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {
@@ -1004,8 +1004,8 @@
         "store-manager",
         "reply-desk"
       ],
-      "url": "https://bots.anthonytoday.com/use-cases/shopify-store-with-a-bot-team/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/use-cases/shopify-store-with-a-bot-team.json",
+      "url": "https://moneywithai.net/use-cases/shopify-store-with-a-bot-team/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/shopify-store-with-a-bot-team.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {
@@ -1019,8 +1019,8 @@
         "help-center-updater",
         "customer-feedback-watch"
       ],
-      "url": "https://bots.anthonytoday.com/use-cases/support-that-fixes-bugs/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/use-cases/support-that-fixes-bugs.json",
+      "url": "https://moneywithai.net/use-cases/support-that-fixes-bugs/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/support-that-fixes-bugs.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {
@@ -1032,8 +1032,8 @@
       "bots": [
         "ebay-lister"
       ],
-      "url": "https://bots.anthonytoday.com/use-cases/thrift-flips-on-ebay/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/use-cases/thrift-flips-on-ebay.json",
+      "url": "https://moneywithai.net/use-cases/thrift-flips-on-ebay/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/thrift-flips-on-ebay.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {
@@ -1046,8 +1046,8 @@
         "dero",
         "grantogre"
       ],
-      "url": "https://bots.anthonytoday.com/use-cases/win-public-tenders/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/use-cases/win-public-tenders.json",
+      "url": "https://moneywithai.net/use-cases/win-public-tenders/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/win-public-tenders.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {
@@ -1060,8 +1060,8 @@
         "x-reply-scout",
         "reply-drafter"
       ],
-      "url": "https://bots.anthonytoday.com/use-cases/x-audience-prospecting/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/use-cases/x-audience-prospecting.json",
+      "url": "https://moneywithai.net/use-cases/x-audience-prospecting/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/x-audience-prospecting.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {
@@ -1075,8 +1075,8 @@
         "x-thread-and-article-writer",
         "reply-drafter"
       ],
-      "url": "https://bots.anthonytoday.com/use-cases/x-creator-desk/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/use-cases/x-creator-desk.json",
+      "url": "https://moneywithai.net/use-cases/x-creator-desk/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/x-creator-desk.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {
@@ -1089,8 +1089,8 @@
         "media-manager",
         "creator-desk"
       ],
-      "url": "https://bots.anthonytoday.com/use-cases/youtube-channel-operations/",
-      "detail_url": "https://bots.anthonytoday.com/api/v1/use-cases/youtube-channel-operations.json",
+      "url": "https://moneywithai.net/use-cases/youtube-channel-operations/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/youtube-channel-operations.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     }
   ]

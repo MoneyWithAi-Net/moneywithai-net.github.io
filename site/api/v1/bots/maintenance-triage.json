@@ -22,10 +22,10 @@
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-24",
-  "url": "https://bots.anthonytoday.com/bots/maintenance-triage/",
-  "json_url": "https://bots.anthonytoday.com/api/v1/bots/maintenance-triage.json",
+  "url": "https://moneywithai.net/bots/maintenance-triage/",
+  "json_url": "https://moneywithai.net/api/v1/bots/maintenance-triage.json",
   "use_cases": [
-    "https://bots.anthonytoday.com/use-cases/property-maintenance-ops/"
+    "https://moneywithai.net/use-cases/property-maintenance-ops/"
   ],
   "added_at": "2026-10-24T09:30:00.000Z"
 }

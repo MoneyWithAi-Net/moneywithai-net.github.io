@@ -13,7 +13,7 @@
     "label": "Low",
     "basis": "Research only: income depends on the venture you pick and run.",
     "claim_label": "E",
-    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+    "note": "Money tiers are our estimates (E) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
   },
   "how_it_makes_money": [
     "Pick a venture with evidence instead of a hunch.",
@@ -31,7 +31,7 @@
       "tools": [
         "Grok"
       ],
-      "url": "https://bots.anthonytoday.com/bots/entrepreneur-scout/",
+      "url": "https://moneywithai.net/bots/entrepreneur-scout/",
       "official_share_url": "https://x.ai/bot/scvcDPnSH2_sj3pH6ONCR"
     },
     {
@@ -42,7 +42,7 @@
       "tools": [
         "X"
       ],
-      "url": "https://bots.anthonytoday.com/bots/market-research/",
+      "url": "https://moneywithai.net/bots/market-research/",
       "official_share_url": "https://x.ai/bot/t1l_On1VtkMYddCu5MqQB"
     }
   ],
@@ -104,6 +104,6 @@
   ],
   "claims": [],
   "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
-  "url": "https://bots.anthonytoday.com/use-cases/find-a-side-venture/",
-  "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/find-a-side-venture.json"
+  "url": "https://moneywithai.net/use-cases/find-a-side-venture/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/find-a-side-venture.json"
 }

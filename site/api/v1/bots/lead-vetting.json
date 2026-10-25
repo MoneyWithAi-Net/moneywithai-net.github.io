@@ -23,10 +23,10 @@
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-24",
-  "url": "https://bots.anthonytoday.com/bots/lead-vetting/",
-  "json_url": "https://bots.anthonytoday.com/api/v1/bots/lead-vetting.json",
+  "url": "https://moneywithai.net/bots/lead-vetting/",
+  "json_url": "https://moneywithai.net/api/v1/bots/lead-vetting.json",
   "use_cases": [
-    "https://bots.anthonytoday.com/use-cases/qualify-inbound-consulting-leads/"
+    "https://moneywithai.net/use-cases/qualify-inbound-consulting-leads/"
   ],
   "added_at": "2026-10-24T09:30:00.000Z"
 }

@@ -13,7 +13,7 @@
     "label": "Medium",
     "basis": "Assumes you already sell on Instagram; it adds warm conversations, not a new product.",
     "claim_label": "E",
-    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+    "note": "Money tiers are our estimates (E) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
   },
   "how_it_makes_money": [
     "More conversations with people who already know your brand.",
@@ -31,7 +31,7 @@
       "tools": [
         "Instagram"
       ],
-      "url": "https://bots.anthonytoday.com/bots/engagement-lead-finder/",
+      "url": "https://moneywithai.net/bots/engagement-lead-finder/",
       "official_share_url": null
     }
   ],
@@ -85,6 +85,6 @@
   ],
   "claims": [],
   "latest_bot_added_at": "2026-10-24T08:00:00.000Z",
-  "url": "https://bots.anthonytoday.com/use-cases/instagram-engagers-to-leads/",
-  "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/instagram-engagers-to-leads.json"
+  "url": "https://moneywithai.net/use-cases/instagram-engagers-to-leads/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/instagram-engagers-to-leads.json"
 }

@@ -13,7 +13,7 @@
     "label": "Low",
     "basis": "Mainly saves time and wasted trips; income grows only if you book more shoots.",
     "claim_label": "E",
-    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+    "note": "Money tiers are our estimates (E) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
   },
   "how_it_makes_money": [
     "Fewer wasted trips and rained-out shoots.",
@@ -31,7 +31,7 @@
       "tools": [
         "Email"
       ],
-      "url": "https://bots.anthonytoday.com/bots/photo-and-video-shoot-confirmations/",
+      "url": "https://moneywithai.net/bots/photo-and-video-shoot-confirmations/",
       "official_share_url": "https://x.ai/bot/iduDVp02VHu06-XddxcSD"
     },
     {
@@ -43,7 +43,7 @@
         "Google Drive",
         "Dropbox"
       ],
-      "url": "https://bots.anthonytoday.com/bots/photofix/",
+      "url": "https://moneywithai.net/bots/photofix/",
       "official_share_url": "https://x.ai/bot/PRdnJ63L8h0FVlMAA1UN4"
     },
     {
@@ -54,7 +54,7 @@
       "tools": [
         "Grok"
       ],
-      "url": "https://bots.anthonytoday.com/bots/travel-expenses/",
+      "url": "https://moneywithai.net/bots/travel-expenses/",
       "official_share_url": "https://x.ai/bot/Upkn_bUxr___NAvXZB3Dc"
     }
   ],
@@ -127,6 +127,6 @@
   ],
   "claims": [],
   "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
-  "url": "https://bots.anthonytoday.com/use-cases/photography-back-office/",
-  "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/photography-back-office.json"
+  "url": "https://moneywithai.net/use-cases/photography-back-office/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/photography-back-office.json"
 }

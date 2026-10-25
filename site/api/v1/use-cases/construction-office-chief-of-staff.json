@@ -13,7 +13,7 @@
     "label": "Medium",
     "basis": "Assumes project managers lose hours to the inbox that could go to billable site work.",
     "claim_label": "E",
-    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+    "note": "Money tiers are our estimates (E) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
   },
   "how_it_makes_money": [
     "Project managers spend more time on site and less in the inbox.",
@@ -32,7 +32,7 @@
         "Email",
         "Google Calendar"
       ],
-      "url": "https://bots.anthonytoday.com/bots/construction-chief-of-staff/",
+      "url": "https://moneywithai.net/bots/construction-chief-of-staff/",
       "official_share_url": "https://x.ai/bot/dZfz-QuarMKqQo_mdPhbb"
     },
     {
@@ -46,7 +46,7 @@
         "LinkedIn",
         "Trello"
       ],
-      "url": "https://bots.anthonytoday.com/bots/inbox-triage/",
+      "url": "https://moneywithai.net/bots/inbox-triage/",
       "official_share_url": null
     },
     {
@@ -57,7 +57,7 @@
       "tools": [
         "Notion"
       ],
-      "url": "https://bots.anthonytoday.com/bots/notion-memory-keeper/",
+      "url": "https://moneywithai.net/bots/notion-memory-keeper/",
       "official_share_url": null
     }
   ],
@@ -137,6 +137,6 @@
   ],
   "claims": [],
   "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
-  "url": "https://bots.anthonytoday.com/use-cases/construction-office-chief-of-staff/",
-  "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/construction-office-chief-of-staff.json"
+  "url": "https://moneywithai.net/use-cases/construction-office-chief-of-staff/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/construction-office-chief-of-staff.json"
 }

@@ -13,7 +13,7 @@
     "label": "Low",
     "basis": "Indirect: it informs your pricing and offers, not income on its own.",
     "claim_label": "E",
-    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+    "note": "Money tiers are our estimates (E) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
   },
   "how_it_makes_money": [
     "Respond to price and offer changes quickly.",
@@ -31,7 +31,7 @@
       "tools": [
         "Grok"
       ],
-      "url": "https://bots.anthonytoday.com/bots/competitor-intel/",
+      "url": "https://moneywithai.net/bots/competitor-intel/",
       "official_share_url": "https://x.ai/bot/PIBCWeB59T-UhxyBNLowR"
     },
     {
@@ -42,7 +42,7 @@
       "tools": [
         "Grok"
       ],
-      "url": "https://bots.anthonytoday.com/bots/scout-competitive-intelligence/",
+      "url": "https://moneywithai.net/bots/scout-competitive-intelligence/",
       "official_share_url": "https://x.ai/bot/rthl9MdskO2f-JCzmyINP"
     }
   ],
@@ -103,6 +103,6 @@
   ],
   "claims": [],
   "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
-  "url": "https://bots.anthonytoday.com/use-cases/local-competitor-intel/",
-  "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/local-competitor-intel.json"
+  "url": "https://moneywithai.net/use-cases/local-competitor-intel/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/local-competitor-intel.json"
 }

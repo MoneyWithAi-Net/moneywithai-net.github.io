@@ -13,7 +13,7 @@
     "label": "High",
     "basis": "Assumes you sell SEO retainers; specific pitches can win more paying clients.",
     "claim_label": "E",
-    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+    "note": "Money tiers are our estimates (E) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
   },
   "how_it_makes_money": [
     "Specific audits win more discovery calls than generic offers.",
@@ -31,7 +31,7 @@
       "tools": [
         "Grok"
       ],
-      "url": "https://bots.anthonytoday.com/bots/lead-scout/",
+      "url": "https://moneywithai.net/bots/lead-scout/",
       "official_share_url": "https://x.ai/bot/j3Qule6BFplSpVqgLpVnV"
     },
     {
@@ -42,7 +42,7 @@
       "tools": [
         "Grok"
       ],
-      "url": "https://bots.anthonytoday.com/bots/site-research/",
+      "url": "https://moneywithai.net/bots/site-research/",
       "official_share_url": "https://x.ai/bot/zkgCv30YKSJPHc7rUB_6P"
     },
     {
@@ -55,7 +55,7 @@
         "HubSpot",
         "Google Sheets"
       ],
-      "url": "https://bots.anthonytoday.com/bots/kickbox-to-hubspot-importer/",
+      "url": "https://moneywithai.net/bots/kickbox-to-hubspot-importer/",
       "official_share_url": "https://x.ai/bot/PRc9UmcxySAv0UBU4g8fx"
     }
   ],
@@ -133,6 +133,6 @@
   ],
   "claims": [],
   "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
-  "url": "https://bots.anthonytoday.com/use-cases/seo-agency-pitch-pack/",
-  "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/seo-agency-pitch-pack.json"
+  "url": "https://moneywithai.net/use-cases/seo-agency-pitch-pack/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/seo-agency-pitch-pack.json"
 }

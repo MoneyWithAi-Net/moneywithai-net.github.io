@@ -13,7 +13,7 @@
     "label": "Medium",
     "basis": "Assumes steady campaigns bring new clients; you set the ad budget.",
     "claim_label": "E",
-    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+    "note": "Money tiers are our estimates (E) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
   },
   "how_it_makes_money": [
     "Steady campaigns bring new patients or clients.",
@@ -31,7 +31,7 @@
       "tools": [
         "Google Ads"
       ],
-      "url": "https://bots.anthonytoday.com/bots/consider-it-marketed/",
+      "url": "https://moneywithai.net/bots/consider-it-marketed/",
       "official_share_url": "https://x.ai/bot/ayQYbaHquRM7x7lnBOEoQ"
     },
     {
@@ -42,7 +42,7 @@
       "tools": [
         "Grok"
       ],
-      "url": "https://bots.anthonytoday.com/bots/sentinel/",
+      "url": "https://moneywithai.net/bots/sentinel/",
       "official_share_url": "https://x.ai/bot/NAFAT-NGrQ7-zLccn4qg1"
     }
   ],
@@ -105,6 +105,6 @@
   ],
   "claims": [],
   "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
-  "url": "https://bots.anthonytoday.com/use-cases/practice-marketing-team/",
-  "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/practice-marketing-team.json"
+  "url": "https://moneywithai.net/use-cases/practice-marketing-team/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/practice-marketing-team.json"
 }

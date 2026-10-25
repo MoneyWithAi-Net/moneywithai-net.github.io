@@ -13,7 +13,7 @@
     "label": "Medium",
     "basis": "Mainly saves costs; gains grow with the number of units you manage.",
     "claim_label": "E",
-    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+    "note": "Money tiers are our estimates (E) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
   },
   "how_it_makes_money": [
     "Faster repairs keep tenants and reduce turnover.",
@@ -31,7 +31,7 @@
       "tools": [
         "SMS"
       ],
-      "url": "https://bots.anthonytoday.com/bots/maintenance-triage/",
+      "url": "https://moneywithai.net/bots/maintenance-triage/",
       "official_share_url": "https://x.ai/bot/gKgo-_MM29kfcD9qiZf2A"
     },
     {
@@ -42,7 +42,7 @@
       "tools": [
         "Grok"
       ],
-      "url": "https://bots.anthonytoday.com/bots/landlord-ledger/",
+      "url": "https://moneywithai.net/bots/landlord-ledger/",
       "official_share_url": "https://x.ai/bot/sPjI0Dec1DUvTc7H0zxNG"
     }
   ],
@@ -105,6 +105,6 @@
   ],
   "claims": [],
   "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
-  "url": "https://bots.anthonytoday.com/use-cases/property-maintenance-ops/",
-  "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/property-maintenance-ops.json"
+  "url": "https://moneywithai.net/use-cases/property-maintenance-ops/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/property-maintenance-ops.json"
 }

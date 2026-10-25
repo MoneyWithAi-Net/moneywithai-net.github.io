@@ -13,7 +13,7 @@
     "label": "High",
     "basis": "Assumes you charge per website build or a monthly care plan, so income grows with each client who says yes.",
     "claim_label": "E",
-    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+    "note": "Money tiers are our estimates (E) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
   },
   "how_it_makes_money": [
     "You sell a website build or a monthly care plan to each business that says yes.",
@@ -33,7 +33,7 @@
       "tools": [
         "Grok"
       ],
-      "url": "https://bots.anthonytoday.com/bots/local-business-website-hunter/",
+      "url": "https://moneywithai.net/bots/local-business-website-hunter/",
       "official_share_url": "https://x.ai/bot/U87LeqeLNEIKRe9ctpRxG"
     },
     {
@@ -44,7 +44,7 @@
       "tools": [
         "Grok"
       ],
-      "url": "https://bots.anthonytoday.com/bots/lead-scout/",
+      "url": "https://moneywithai.net/bots/lead-scout/",
       "official_share_url": "https://x.ai/bot/j3Qule6BFplSpVqgLpVnV"
     },
     {
@@ -55,7 +55,7 @@
       "tools": [
         "Grok"
       ],
-      "url": "https://bots.anthonytoday.com/bots/site-research/",
+      "url": "https://moneywithai.net/bots/site-research/",
       "official_share_url": "https://x.ai/bot/zkgCv30YKSJPHc7rUB_6P"
     }
   ],
@@ -129,6 +129,6 @@
   ],
   "claims": [],
   "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
-  "url": "https://bots.anthonytoday.com/use-cases/sell-websites-to-local-businesses/",
-  "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/sell-websites-to-local-businesses.json"
+  "url": "https://moneywithai.net/use-cases/sell-websites-to-local-businesses/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/sell-websites-to-local-businesses.json"
 }

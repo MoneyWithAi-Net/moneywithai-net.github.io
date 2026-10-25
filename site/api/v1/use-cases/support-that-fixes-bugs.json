@@ -13,7 +13,7 @@
     "label": "Medium",
     "basis": "Assumes fewer repeat tickets keep customers paying; it protects revenue more than it adds it.",
     "claim_label": "E",
-    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+    "note": "Money tiers are our estimates (E) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
   },
   "how_it_makes_money": [
     "Fewer repeat tickets and faster fixes keep customers paying.",
@@ -35,7 +35,7 @@
         "Infisical",
         "Codex"
       ],
-      "url": "https://bots.anthonytoday.com/bots/support-ticket-fixer/",
+      "url": "https://moneywithai.net/bots/support-ticket-fixer/",
       "official_share_url": null
     },
     {
@@ -47,7 +47,7 @@
         "Intercom",
         "GitHub"
       ],
-      "url": "https://bots.anthonytoday.com/bots/help-center-updater/",
+      "url": "https://moneywithai.net/bots/help-center-updater/",
       "official_share_url": null
     },
     {
@@ -58,7 +58,7 @@
       "tools": [
         "X API"
       ],
-      "url": "https://bots.anthonytoday.com/bots/customer-feedback-watch/",
+      "url": "https://moneywithai.net/bots/customer-feedback-watch/",
       "official_share_url": "https://x.ai/bot/8Snl1TovbMwClPoBiHrWT"
     }
   ],
@@ -144,6 +144,6 @@
   ],
   "claims": [],
   "latest_bot_added_at": "2026-10-24T08:00:00.000Z",
-  "url": "https://bots.anthonytoday.com/use-cases/support-that-fixes-bugs/",
-  "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/support-that-fixes-bugs.json"
+  "url": "https://moneywithai.net/use-cases/support-that-fixes-bugs/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/support-that-fixes-bugs.json"
 }

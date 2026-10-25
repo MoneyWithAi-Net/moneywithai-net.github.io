@@ -22,11 +22,11 @@
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-24",
-  "url": "https://bots.anthonytoday.com/bots/site-research/",
-  "json_url": "https://bots.anthonytoday.com/api/v1/bots/site-research.json",
+  "url": "https://moneywithai.net/bots/site-research/",
+  "json_url": "https://moneywithai.net/api/v1/bots/site-research.json",
   "use_cases": [
-    "https://bots.anthonytoday.com/use-cases/sell-websites-to-local-businesses/",
-    "https://bots.anthonytoday.com/use-cases/seo-agency-pitch-pack/"
+    "https://moneywithai.net/use-cases/sell-websites-to-local-businesses/",
+    "https://moneywithai.net/use-cases/seo-agency-pitch-pack/"
   ],
   "added_at": "2026-10-24T09:30:00.000Z"
 }

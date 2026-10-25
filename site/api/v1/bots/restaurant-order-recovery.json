@@ -22,10 +22,10 @@
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-24",
-  "url": "https://bots.anthonytoday.com/bots/restaurant-order-recovery/",
-  "json_url": "https://bots.anthonytoday.com/api/v1/bots/restaurant-order-recovery.json",
+  "url": "https://moneywithai.net/bots/restaurant-order-recovery/",
+  "json_url": "https://moneywithai.net/api/v1/bots/restaurant-order-recovery.json",
   "use_cases": [
-    "https://bots.anthonytoday.com/use-cases/recover-delivery-refunds/"
+    "https://moneywithai.net/use-cases/recover-delivery-refunds/"
   ],
   "added_at": "2026-10-24T09:30:00.000Z"
 }

@@ -22,11 +22,11 @@
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-24",
-  "url": "https://bots.anthonytoday.com/bots/sentinel/",
-  "json_url": "https://bots.anthonytoday.com/api/v1/bots/sentinel.json",
+  "url": "https://moneywithai.net/bots/sentinel/",
+  "json_url": "https://moneywithai.net/api/v1/bots/sentinel.json",
   "use_cases": [
-    "https://bots.anthonytoday.com/use-cases/brand-instagram-studio/",
-    "https://bots.anthonytoday.com/use-cases/practice-marketing-team/"
+    "https://moneywithai.net/use-cases/brand-instagram-studio/",
+    "https://moneywithai.net/use-cases/practice-marketing-team/"
   ],
   "added_at": "2026-10-24T09:30:00.000Z"
 }
