@@ -1,0 +1,201 @@
+{
+  "type": "use-case",
+  "slug": "podcast-everywhere-pipeline",
+  "title": "Publish Each Podcast Episode Everywhere",
+  "category": "Content and Marketing",
+  "category_slug": "content-and-marketing",
+  "money_model": "Creator income",
+  "difficulty": "Intermediate",
+  "summary": "Brief the guest, launch the episode, cut clips, post highlights and turn the episode into a newsletter.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes sponsor or client income that grows with listeners.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "More reach per episode without more recording.",
+    "A newsletter builds an audience you own."
+  ],
+  "who_its_for": [
+    "Podcasters and B2B shows."
+  ],
+  "stack": [
+    {
+      "bot": "podcast-guest-briefer",
+      "name": "Podcast Guest Briefer",
+      "role": "Researches guests before recording.",
+      "creator": "lennysan",
+      "tools": [
+        "Gmail",
+        "Google Docs"
+      ],
+      "url": "https://moneywithai.net/bots/podcast-guest-briefer/",
+      "official_share_url": null
+    },
+    {
+      "bot": "episode-launch-crew",
+      "name": "Episode Launch Crew",
+      "role": "Publishes to Castos and YouTube.",
+      "creator": "elie2222",
+      "tools": [
+        "Castos",
+        "Google Drive",
+        "YouTube",
+        "Slack"
+      ],
+      "url": "https://moneywithai.net/bots/episode-launch-crew/",
+      "official_share_url": null
+    },
+    {
+      "bot": "clip-bot",
+      "name": "Clip Bot",
+      "role": "Cuts captioned highlights.",
+      "creator": "ThisWeeknAI",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/clip-bot/",
+      "official_share_url": "https://x.ai/bot/Vk0cnF2c364QxNv-Xip1M"
+    },
+    {
+      "bot": "podcast-clip-publisher",
+      "name": "Podcast Clip Publisher",
+      "role": "Turns highlights into X posts.",
+      "creator": "GavinSBaker",
+      "tools": [
+        "X"
+      ],
+      "url": "https://moneywithai.net/bots/podcast-clip-publisher/",
+      "official_share_url": null
+    },
+    {
+      "bot": "article-and-newsletter-writer",
+      "name": "Article and Newsletter Writer",
+      "role": "Writes the episode newsletter.",
+      "creator": "farzyness",
+      "tools": [
+        "Google Docs",
+        "Gmail",
+        "Squarespace"
+      ],
+      "url": "https://moneywithai.net/bots/article-and-newsletter-writer/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Gmail",
+    "Google Docs",
+    "Castos",
+    "Google Drive",
+    "YouTube",
+    "Slack",
+    "Grok",
+    "X",
+    "Squarespace"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Episode audio",
+        "tool": "Castos"
+      },
+      {
+        "label": "Guest list",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "podcast-guest-briefer",
+        "name": "Podcast Guest Briefer",
+        "does": "Briefs the guest",
+        "tools": [
+          "Gmail",
+          "Google Docs"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "episode-launch-crew",
+        "name": "Episode Launch Crew",
+        "does": "Launches the episode",
+        "tools": [
+          "Castos",
+          "Google Drive",
+          "YouTube",
+          "Slack"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "clip-bot",
+        "name": "Clip Bot",
+        "does": "Cuts highlights",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "podcast-clip-publisher",
+        "name": "Podcast Clip Publisher",
+        "does": "Posts highlights",
+        "tools": [
+          "X"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "article-and-newsletter-writer",
+        "name": "Article and Newsletter Writer",
+        "does": "Writes the newsletter",
+        "tools": [
+          "Google Docs",
+          "Gmail",
+          "Squarespace"
+        ]
+      },
+      {
+        "order": 6,
+        "by": "you",
+        "name": "You",
+        "does": "Record and approve",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Launched episodes",
+      "Clips and posts",
+      "Newsletter"
+    ]
+  },
+  "steps": [
+    "Brief each guest before recording.",
+    "Approve the launch checklist.",
+    "Pick clips and posts.",
+    "Send the newsletter after review."
+  ],
+  "guardrails": [
+    "Nothing is posted publicly without your OK.",
+    "Do not reuse other people's images, words or likeness without permission."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 57,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/podcast-everywhere-pipeline/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/podcast-everywhere-pipeline.json"
+}

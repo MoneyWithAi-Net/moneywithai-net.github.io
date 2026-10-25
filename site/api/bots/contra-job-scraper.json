@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "contra-job-scraper",
+    "name": "Contra Job Scraper",
+    "category": "Leads and Sales",
+    "sub_use_case": "Outbound prospecting",
+    "summary": "Checks Contra's job feed every six hours, archives listings in Notion and emails a digest of new and closed gigs.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "techking_007",
+      "url": "https://x.com/techking_007"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/techking_007/status/2093415230932177139"
+    },
+    "official_share_url": "https://x.ai/bot/__sNWxlx-8H08UluQuOeo",
+    "found_via": "https://botdirectory.ai/bots/contra-job-scraper/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/contra-job-scraper/",
+    "json_url": "https://moneywithai.net/api/bots/contra-job-scraper.json"
+  }
+}

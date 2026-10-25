@@ -1,0 +1,162 @@
+{
+  "type": "use-case",
+  "slug": "store-conversion-audit-service",
+  "title": "Sell Conversion Audits to Online Stores",
+  "category": "E-Commerce",
+  "category_slug": "e-commerce",
+  "money_model": "Sell a service",
+  "difficulty": "Intermediate",
+  "summary": "Mystery-shop the store, review screens, fix tracking and deliver a ranked fix list.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes fixed audit fees.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Fixed-price audits are easy to sell.",
+    "Clear evidence makes fixes happen."
+  ],
+  "who_its_for": [
+    "UX freelancers and e-commerce consultants."
+  ],
+  "stack": [
+    {
+      "bot": "mystery-eshopper",
+      "name": "Mystery eShopper",
+      "role": "Shops the store end to end.",
+      "creator": "VicGellon",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/mystery-eshopper/",
+      "official_share_url": "https://x.ai/bot/tc-aGvnjjvatdp_8LK-Ad"
+    },
+    {
+      "bot": "fresh-eyes-product-auditor",
+      "name": "Fresh Eyes Product Auditor",
+      "role": "Ranks UX fixes with mock-ups.",
+      "creator": "Evoputa",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/fresh-eyes-product-auditor/",
+      "official_share_url": "https://x.ai/bot/jASNu2J_6nCtKvKf4v_Sd"
+    },
+    {
+      "bot": "critiquito",
+      "name": "Critiquito",
+      "role": "Critiques key screens.",
+      "creator": "Manuel",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/critiquito/",
+      "official_share_url": "https://x.ai/bot/rt9m-FTkJoGsZzAjsKLPM"
+    },
+    {
+      "bot": "conversion-tracking-setup",
+      "name": "Conversion Tracking Setup",
+      "role": "Checks conversion tracking.",
+      "creator": "converlyio",
+      "tools": [
+        "Converly"
+      ],
+      "url": "https://moneywithai.net/bots/conversion-tracking-setup/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Grok",
+    "Converly"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Client store",
+        "tool": null
+      },
+      {
+        "label": "Analytics",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "mystery-eshopper",
+        "name": "Mystery eShopper",
+        "does": "Mystery-shops",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "fresh-eyes-product-auditor",
+        "name": "Fresh Eyes Product Auditor",
+        "does": "Ranks UX fixes",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "critiquito",
+        "name": "Critiquito",
+        "does": "Critiques screens",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "conversion-tracking-setup",
+        "name": "Conversion Tracking Setup",
+        "does": "Checks tracking",
+        "tools": [
+          "Converly"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Sell and present",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Scorecard",
+      "Ranked fixes",
+      "Fix sprints"
+    ]
+  },
+  "steps": [
+    "Audit one store free for a case study.",
+    "Sell a fixed-price audit.",
+    "Deliver a ranked list.",
+    "Offer a fix sprint."
+  ],
+  "guardrails": [
+    "Check every number and claim before it goes public.",
+    "Connect only accounts you own and give the least access needed."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 74,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/store-conversion-audit-service/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/store-conversion-audit-service.json"
+}

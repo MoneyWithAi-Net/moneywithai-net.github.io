@@ -1,0 +1,32 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "quote-request-router",
+    "name": "Quote Request Router",
+    "category": "Client Services",
+    "sub_use_case": "Quotes",
+    "summary": "Routes quote requests from a Tally form into Airtable, alerts Slack and emails the client.",
+    "tools": [
+      "n8n",
+      "Airtable",
+      "Gmail",
+      "Slack"
+    ],
+    "creator": {
+      "handle": "Baptiste Fort",
+      "url": "https://n8n.io/creators/baptistefort/"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://n8n.io/workflows/5458/"
+    },
+    "official_share_url": null,
+    "found_via": "https://n8n.io/workflows/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/quote-request-router/",
+    "json_url": "https://moneywithai.net/api/bots/quote-request-router.json"
+  }
+}

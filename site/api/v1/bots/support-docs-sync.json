@@ -1,0 +1,43 @@
+{
+  "type": "bot",
+  "slug": "support-docs-sync",
+  "name": "Support Docs Sync",
+  "category": "Customer Support",
+  "sub_use_case": "Help center",
+  "summary": "Watches approved GitHub pull requests for UI changes and drafts the matching Intercom help-center updates.",
+  "tools": [
+    "Intercom",
+    "GitHub"
+  ],
+  "creator": {
+    "handle": "BotDirectoryAI",
+    "url": "https://x.com/BotDirectoryAI"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/BotDirectoryAI/status/2095460497042588104"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/support-docs-sync/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/support-docs-sync/",
+  "json_url": "https://moneywithai.net/api/v1/bots/support-docs-sync.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/incident-early-warning/",
+    "https://moneywithai.net/use-cases/telegram-support-knowledge-base/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 135,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

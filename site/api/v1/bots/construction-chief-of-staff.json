@@ -26,7 +26,18 @@
   "url": "https://moneywithai.net/bots/construction-chief-of-staff/",
   "json_url": "https://moneywithai.net/api/v1/bots/construction-chief-of-staff.json",
   "use_cases": [
-    "https://moneywithai.net/use-cases/construction-office-chief-of-staff/"
+    "https://moneywithai.net/use-cases/construction-office-chief-of-staff/",
+    "https://moneywithai.net/use-cases/construction-field-office/"
   ],
-  "added_at": "2026-10-24T09:30:00.000Z"
+  "added_at": "2026-10-24T09:30:00.000Z",
+  "featured": {
+    "rank": 147,
+    "score": 83,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
 }

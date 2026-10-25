@@ -1,0 +1,177 @@
+{
+  "type": "use-case",
+  "slug": "telegram-chat-to-closed-deal",
+  "title": "Qualify Chat Leads on Telegram and Hand Off to a Closer",
+  "category": "Leads and Sales",
+  "category_slug": "leads-and-sales",
+  "money_model": "Grow sales",
+  "difficulty": "Intermediate",
+  "summary": "A chat bot qualifies leads, answers fast, books the call and the closer follows up with notes.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes a mid-ticket offer sold over a call.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "No lead waits hours for a first answer.",
+    "Closers only talk to qualified people."
+  ],
+  "who_its_for": [
+    "Coaches, agencies and info-product sellers using chat."
+  ],
+  "stack": [
+    {
+      "bot": "telegram-sales-handoff-bot",
+      "name": "Telegram Sales Handoff Bot",
+      "role": "Qualifies chat leads and hands warm ones to a human.",
+      "creator": "Jimleuk",
+      "tools": [
+        "n8n",
+        "OpenAI",
+        "Redis",
+        "Telegram"
+      ],
+      "url": "https://moneywithai.net/bots/telegram-sales-handoff-bot/",
+      "official_share_url": null
+    },
+    {
+      "bot": "speed-to-lead-closer",
+      "name": "Speed-to-Lead Closer",
+      "role": "Sends approved answers and a payment link.",
+      "creator": "coreyganim",
+      "tools": [
+        "Stripe"
+      ],
+      "url": "https://moneywithai.net/bots/speed-to-lead-closer/",
+      "official_share_url": null
+    },
+    {
+      "bot": "prospect-meeting-booker",
+      "name": "Prospect Meeting Booker",
+      "role": "Books the sales call.",
+      "creator": "benln",
+      "tools": [
+        "Gmail",
+        "Google Calendar"
+      ],
+      "url": "https://moneywithai.net/bots/prospect-meeting-booker/",
+      "official_share_url": null
+    },
+    {
+      "bot": "post-call-assistant",
+      "name": "Post Call Assistant",
+      "role": "Drafts the follow-up after the call.",
+      "creator": "itspriyaptl",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/post-call-assistant/",
+      "official_share_url": "https://x.ai/bot/xF12c5y4LVe7nf7IFguWI"
+    }
+  ],
+  "tools": [
+    "n8n",
+    "OpenAI",
+    "Redis",
+    "Telegram",
+    "Stripe",
+    "Gmail",
+    "Google Calendar",
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Chat messages",
+        "tool": "Telegram"
+      },
+      {
+        "label": "Approved answers",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "telegram-sales-handoff-bot",
+        "name": "Telegram Sales Handoff Bot",
+        "does": "Qualifies chat leads",
+        "tools": [
+          "n8n",
+          "OpenAI",
+          "Redis",
+          "Telegram"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "speed-to-lead-closer",
+        "name": "Speed-to-Lead Closer",
+        "does": "Sends answers and payment link",
+        "tools": [
+          "Stripe"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "prospect-meeting-booker",
+        "name": "Prospect Meeting Booker",
+        "does": "Books the call",
+        "tools": [
+          "Gmail",
+          "Google Calendar"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "post-call-assistant",
+        "name": "Post Call Assistant",
+        "does": "Drafts follow-up",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Run sales calls",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Qualified leads",
+      "Booked calls",
+      "Payments"
+    ]
+  },
+  "steps": [
+    "Write qualifying questions and approved answers.",
+    "Run the chat bot on a test group.",
+    "Let it book calls for a week.",
+    "Send follow-ups after each call."
+  ],
+  "guardrails": [
+    "A person stays reachable for anything the bot is unsure about.",
+    "Every message and document stays a draft until you approve it.",
+    "The bots never pay, sign or accept terms for you."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 58,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/telegram-chat-to-closed-deal/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/telegram-chat-to-closed-deal.json"
+}

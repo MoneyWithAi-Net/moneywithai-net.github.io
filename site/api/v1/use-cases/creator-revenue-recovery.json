@@ -1,0 +1,165 @@
+{
+  "type": "use-case",
+  "slug": "creator-revenue-recovery",
+  "title": "Recover Money Creators Are Owed",
+  "category": "Finance",
+  "category_slug": "finance",
+  "money_model": "Recover money",
+  "difficulty": "Beginner",
+  "summary": "Catch uncredited photo use, missing affiliate commissions, unclear payout fees and unpaid invoices.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Assumes some leakage exists; amounts vary widely.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Money you earned but never collected.",
+    "Clear records for disputes."
+  ],
+  "who_its_for": [
+    "Photographers, affiliates and freelance creators."
+  ],
+  "stack": [
+    {
+      "bot": "photo-credit-watch",
+      "name": "Photo Credit Watch",
+      "role": "Finds uncredited use of your photos.",
+      "creator": "gzikry",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/photo-credit-watch/",
+      "official_share_url": "https://x.ai/bot/fXV8CXfn8_l4Q1ktMrrF2"
+    },
+    {
+      "bot": "commission-leak-auditor",
+      "name": "Commission Leak Auditor",
+      "role": "Finds missing commissions.",
+      "creator": "alexandr-belogubov",
+      "tools": [
+        "Refgrow"
+      ],
+      "url": "https://moneywithai.net/bots/commission-leak-auditor/",
+      "official_share_url": null
+    },
+    {
+      "bot": "cross-border-money-desk",
+      "name": "Cross-Border Money Desk",
+      "role": "Explains payout fees.",
+      "creator": "BankrolledInc",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/cross-border-money-desk/",
+      "official_share_url": "https://x.ai/bot/RgivaqZM6x_meep2iaobm"
+    },
+    {
+      "bot": "invoice-hunter",
+      "name": "Invoice Hunter",
+      "role": "Chases unpaid invoices.",
+      "creator": "scheemunai",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/invoice-hunter/",
+      "official_share_url": "https://x.ai/bot/-kO6HrXokJZANVwUOMZO9"
+    }
+  ],
+  "tools": [
+    "Grok",
+    "Refgrow"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Portfolio",
+        "tool": null
+      },
+      {
+        "label": "Affiliate data",
+        "tool": "Refgrow"
+      },
+      {
+        "label": "Payout emails",
+        "tool": "Gmail"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "photo-credit-watch",
+        "name": "Photo Credit Watch",
+        "does": "Finds photo misuse",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "commission-leak-auditor",
+        "name": "Commission Leak Auditor",
+        "does": "Finds missing commissions",
+        "tools": [
+          "Refgrow"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "cross-border-money-desk",
+        "name": "Cross-Border Money Desk",
+        "does": "Explains fees",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "invoice-hunter",
+        "name": "Invoice Hunter",
+        "does": "Chases invoices",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Send requests",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Recovery requests",
+      "Recovered money"
+    ]
+  },
+  "steps": [
+    "Run each check once.",
+    "Review the findings.",
+    "Send polite requests.",
+    "Track what gets paid."
+  ],
+  "guardrails": [
+    "This is admin help, not legal, tax or financial advice.",
+    "Every message and document stays a draft until you approve it."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 111,
+    "score": 69,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/creator-revenue-recovery/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/creator-revenue-recovery.json"
+}

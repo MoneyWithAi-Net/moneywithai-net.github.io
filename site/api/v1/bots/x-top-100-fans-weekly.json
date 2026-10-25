@@ -1,0 +1,42 @@
+{
+  "type": "bot",
+  "slug": "x-top-100-fans-weekly",
+  "name": "X Top 100 Fans (Weekly)",
+  "category": "Content and Marketing",
+  "sub_use_case": "Brand social",
+  "summary": "Ranks your top 100 X fans each week by engagement so you know whom to thank and nurture.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "AdamLowisz",
+    "url": "https://botdirectory.ai/bots/x-top-100-fans-weekly/"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/HU7XArfGhUgLnzVcr7neB"
+  },
+  "official_share_url": "https://x.ai/bot/HU7XArfGhUgLnzVcr7neB",
+  "found_via": "https://botdirectory.ai/bots/x-top-100-fans-weekly/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/x-top-100-fans-weekly/",
+  "json_url": "https://moneywithai.net/api/v1/bots/x-top-100-fans-weekly.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/six-bot-content-calendar/",
+    "https://moneywithai.net/use-cases/founder-x-growth-loop/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 99,
+    "score": 87,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

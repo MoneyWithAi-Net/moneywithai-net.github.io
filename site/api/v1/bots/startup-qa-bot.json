@@ -1,0 +1,42 @@
+{
+  "type": "bot",
+  "slug": "startup-qa-bot",
+  "name": "Startup QA Bot",
+  "category": "Research and Ops",
+  "sub_use_case": "Product and engineering",
+  "summary": "Tests each release of your product and files reproducible bug reports to GitHub and Slack before customers hit them.",
+  "tools": [
+    "GitHub",
+    "Slack"
+  ],
+  "creator": {
+    "handle": "BotDirectoryAI",
+    "url": "https://x.com/BotDirectoryAI"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/BotDirectoryAI/status/2114131736862842880"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/startup-qa-bot/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/startup-qa-bot/",
+  "json_url": "https://moneywithai.net/api/v1/bots/startup-qa-bot.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/saas-ship-quality-loop/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 240,
+    "score": 76,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 3,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

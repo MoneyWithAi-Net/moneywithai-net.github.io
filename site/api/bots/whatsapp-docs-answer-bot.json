@@ -1,0 +1,33 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "whatsapp-docs-answer-bot",
+    "name": "WhatsApp Docs Answer Bot",
+    "category": "Customer Support",
+    "sub_use_case": "Chat and messaging support",
+    "summary": "A WhatsApp chatbot that answers from your own Google Drive documents for a business help line.",
+    "tools": [
+      "n8n",
+      "Google Drive",
+      "OpenAI",
+      "Qdrant",
+      "WhatsApp"
+    ],
+    "creator": {
+      "handle": "Davide Boizza",
+      "url": "https://n8n.io/creators/n3witalia/"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://n8n.io/workflows/2845/"
+    },
+    "official_share_url": null,
+    "found_via": "https://n8n.io/workflows/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/whatsapp-docs-answer-bot/",
+    "json_url": "https://moneywithai.net/api/bots/whatsapp-docs-answer-bot.json"
+  }
+}

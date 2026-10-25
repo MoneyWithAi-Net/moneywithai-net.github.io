@@ -1,0 +1,40 @@
+{
+  "type": "bot",
+  "slug": "phonezero-operator",
+  "name": "PhoneZero Operator",
+  "category": "Leads and Sales",
+  "sub_use_case": "Outbound prospecting",
+  "summary": "Runs outbound phone calls through PhoneZero and Telnyx following the project's documented setup.",
+  "tools": [
+    "Grok",
+    "Telnyx"
+  ],
+  "creator": {
+    "handle": "ibelevy",
+    "url": "https://x.com/ibelevy"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/ibelevy/status/2093395583809785868"
+  },
+  "official_share_url": "https://x.ai/bot/vB2o6vvmHjDQRM5yFH9vn",
+  "found_via": "https://botdirectory.ai/bots/phonezero-operator/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/phonezero-operator/",
+  "json_url": "https://moneywithai.net/api/v1/bots/phonezero-operator.json",
+  "use_cases": [],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 284,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

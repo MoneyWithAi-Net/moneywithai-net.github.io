@@ -1,0 +1,169 @@
+{
+  "type": "use-case",
+  "slug": "podcast-hook-account-selling",
+  "title": "Open Enterprise Deals with Hooks from Their Own Podcasts",
+  "category": "Leads and Sales",
+  "category_slug": "leads-and-sales",
+  "money_model": "Grow sales",
+  "difficulty": "Advanced",
+  "summary": "Research target buyers through their podcasts and posts, prep each call, send recap slides and keep deals moving.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes large deal sizes where a single extra win is meaningful.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Personal hooks lift reply rates with senior buyers.",
+    "Recap slides keep the champion selling inside."
+  ],
+  "who_its_for": [
+    "Founders and account executives selling to larger companies."
+  ],
+  "stack": [
+    {
+      "bot": "pg",
+      "name": "PG",
+      "role": "Finds personal hooks from podcasts, webinars and posts.",
+      "creator": "kristaletz",
+      "tools": [
+        "X",
+        "LinkedIn"
+      ],
+      "url": "https://moneywithai.net/bots/pg/",
+      "official_share_url": "https://x.ai/bot/fcJJMM58AdXSTBdW3xWyW"
+    },
+    {
+      "bot": "meeting-brief",
+      "name": "Meeting Brief",
+      "role": "Preps each call with attendees and open loops.",
+      "creator": "Limok_igit",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/meeting-brief/",
+      "official_share_url": "https://x.ai/bot/JN9e1WggIKVWhCEZrySlj"
+    },
+    {
+      "bot": "echo",
+      "name": "Echo",
+      "role": "Turns the call into recap slides.",
+      "creator": "kristaletz",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/echo/",
+      "official_share_url": "https://x.ai/bot/ph5mcXqVy2p176Br7BJYi"
+    },
+    {
+      "bot": "deal-desk-autopilot",
+      "name": "Deal Desk Autopilot",
+      "role": "Flags stalled steps and drafts follow-ups.",
+      "creator": "ericosiu",
+      "tools": [
+        "Gmail",
+        "Google Calendar"
+      ],
+      "url": "https://moneywithai.net/bots/deal-desk-autopilot/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "X",
+    "LinkedIn",
+    "Grok",
+    "Gmail",
+    "Google Calendar"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Target accounts",
+        "tool": null
+      },
+      {
+        "label": "Public podcasts and posts",
+        "tool": "YouTube"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "pg",
+        "name": "PG",
+        "does": "Finds personal hooks",
+        "tools": [
+          "X",
+          "LinkedIn"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "meeting-brief",
+        "name": "Meeting Brief",
+        "does": "Preps each call",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "echo",
+        "name": "Echo",
+        "does": "Builds recap slides",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "deal-desk-autopilot",
+        "name": "Deal Desk Autopilot",
+        "does": "Flags stalled steps",
+        "tools": [
+          "Gmail",
+          "Google Calendar"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Run calls and close",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Hooked openers",
+      "Call recaps",
+      "Advancing deals"
+    ]
+  },
+  "steps": [
+    "Choose ten target accounts.",
+    "Review hooks and write your own openers.",
+    "Use the brief before each call.",
+    "Send recap slides and check the deal desk weekly."
+  ],
+  "guardrails": [
+    "Every message and document stays a draft until you approve it.",
+    "Handle customer and candidate data under your local privacy rules."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 92,
+    "score": 76,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 3,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/podcast-hook-account-selling/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/podcast-hook-account-selling.json"
+}

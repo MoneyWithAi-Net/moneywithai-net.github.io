@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "redreplier",
+  "name": "RedReplier",
+  "category": "Leads and Sales",
+  "sub_use_case": "Outbound prospecting",
+  "summary": "Watches Reddit, X, Hacker News and Bluesky for buying-signal mentions of your product or rivals and ranks them by intent.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Grok_Hub_IO",
+    "url": "https://x.com/Grok_Hub_IO"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/Grok_Hub_IO/status/2093750130763764016"
+  },
+  "official_share_url": "https://x.ai/bot/8aU6ly_uunnMabpybs3hB",
+  "found_via": "https://botdirectory.ai/bots/redreplier/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/redreplier/",
+  "json_url": "https://moneywithai.net/api/v1/bots/redreplier.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/switchers-from-competitor-complaints/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 92,
+    "score": 87,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

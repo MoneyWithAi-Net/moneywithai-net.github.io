@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "clip-bot",
+    "name": "Clip Bot",
+    "category": "Content and Marketing",
+    "sub_use_case": "Podcasts",
+    "summary": "Cuts captioned podcast highlights from YouTube with a source card, saved to your computer ready to post.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "ThisWeeknAI",
+      "url": "https://x.com/ThisWeeknAI"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/ThisWeeknAI/status/2093465404303720846"
+    },
+    "official_share_url": "https://x.ai/bot/Vk0cnF2c364QxNv-Xip1M",
+    "found_via": "https://botdirectory.ai/bots/clip-bot/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/clip-bot/",
+    "json_url": "https://moneywithai.net/api/bots/clip-bot.json"
+  }
+}

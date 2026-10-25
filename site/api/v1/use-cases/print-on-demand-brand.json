@@ -1,0 +1,207 @@
+{
+  "type": "use-case",
+  "slug": "print-on-demand-brand",
+  "title": "Launch a Print-on-Demand Brand",
+  "category": "E-Commerce",
+  "category_slug": "e-commerce",
+  "money_model": "Grow sales",
+  "difficulty": "Beginner",
+  "summary": "Shape a quote-based brand, design products, make product images and run small ad tests.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Assumes thin margins per item, so income grows slowly with volume.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "No inventory risk.",
+    "Small tests show which designs sell."
+  ],
+  "who_its_for": [
+    "Side-hustlers and designers."
+  ],
+  "stack": [
+    {
+      "bot": "t-shirt-brand-builder",
+      "name": "T-Shirt Brand Builder",
+      "role": "Builds the brand and listings.",
+      "creator": "LBallz77283",
+      "tools": [
+        "Canva",
+        "Shopify"
+      ],
+      "url": "https://moneywithai.net/bots/t-shirt-brand-builder/",
+      "official_share_url": null
+    },
+    {
+      "bot": "graphic-design-assistant",
+      "name": "Graphic Design Assistant",
+      "role": "Makes designs in Canva.",
+      "creator": "shubgaur",
+      "tools": [
+        "Canva",
+        "Google Drive"
+      ],
+      "url": "https://moneywithai.net/bots/graphic-design-assistant/",
+      "official_share_url": null
+    },
+    {
+      "bot": "shopify-product-image-maker",
+      "name": "Shopify Product Image Maker",
+      "role": "Generates product images.",
+      "creator": "deAPI Team",
+      "tools": [
+        "n8n",
+        "Claude",
+        "Shopify"
+      ],
+      "url": "https://moneywithai.net/bots/shopify-product-image-maker/",
+      "official_share_url": null
+    },
+    {
+      "bot": "carousel-publisher",
+      "name": "Carousel Publisher",
+      "role": "Posts carousels.",
+      "creator": "postnitro",
+      "tools": [
+        "PostNitro",
+        "LinkedIn",
+        "Instagram",
+        "Threads",
+        "TikTok"
+      ],
+      "url": "https://moneywithai.net/bots/carousel-publisher/",
+      "official_share_url": null
+    },
+    {
+      "bot": "ad-creative-generator",
+      "name": "Ad Creative Generator",
+      "role": "Makes ad tests.",
+      "creator": "mightyking",
+      "tools": [
+        "MaxFusion"
+      ],
+      "url": "https://moneywithai.net/bots/ad-creative-generator/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Canva",
+    "Shopify",
+    "Google Drive",
+    "n8n",
+    "Claude",
+    "PostNitro",
+    "LinkedIn",
+    "Instagram",
+    "Threads",
+    "TikTok",
+    "MaxFusion"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Store",
+        "tool": "Shopify"
+      },
+      {
+        "label": "Design tool",
+        "tool": "Canva"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "t-shirt-brand-builder",
+        "name": "T-Shirt Brand Builder",
+        "does": "Builds the brand",
+        "tools": [
+          "Canva",
+          "Shopify"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "graphic-design-assistant",
+        "name": "Graphic Design Assistant",
+        "does": "Makes designs",
+        "tools": [
+          "Canva",
+          "Google Drive"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "shopify-product-image-maker",
+        "name": "Shopify Product Image Maker",
+        "does": "Makes product images",
+        "tools": [
+          "n8n",
+          "Claude",
+          "Shopify"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "carousel-publisher",
+        "name": "Carousel Publisher",
+        "does": "Posts carousels",
+        "tools": [
+          "PostNitro",
+          "LinkedIn",
+          "Instagram",
+          "Threads",
+          "TikTok"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "ad-creative-generator",
+        "name": "Ad Creative Generator",
+        "does": "Makes ad tests",
+        "tools": [
+          "MaxFusion"
+        ]
+      },
+      {
+        "order": 6,
+        "by": "you",
+        "name": "You",
+        "does": "Approve designs and ads",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Live listings",
+      "Posts and ads",
+      "First sales"
+    ]
+  },
+  "steps": [
+    "Pick an audience and tone.",
+    "Launch ten designs.",
+    "Post daily and test small ads.",
+    "Keep only designs that sell."
+  ],
+  "guardrails": [
+    "Do not reuse other people's images, words or likeness without permission.",
+    "The bots never pay, sign or accept terms for you."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 109,
+    "score": 69,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/print-on-demand-brand/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/print-on-demand-brand.json"
+}

@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "cross-platform-publisher",
+  "name": "Cross-Platform Publisher",
+  "category": "Content and Marketing",
+  "sub_use_case": "Brand social",
+  "summary": "Publishes one piece of content to every platform at once through Post Bridge.",
+  "tools": [
+    "PostBridge"
+  ],
+  "creator": {
+    "handle": "jackfriks",
+    "url": "https://botdirectory.ai/bots/cross-platform-publisher/"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://botdirectory.ai/bots/cross-platform-publisher/"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/cross-platform-publisher/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/cross-platform-publisher/",
+  "json_url": "https://moneywithai.net/api/v1/bots/cross-platform-publisher.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/six-bot-content-calendar/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 237,
+    "score": 76,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 3,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

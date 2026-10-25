@@ -1,0 +1,46 @@
+{
+  "type": "bot",
+  "slug": "sms-property-lead-qualifier",
+  "name": "SMS Property Lead Qualifier",
+  "category": "Leads and Sales",
+  "sub_use_case": "Real estate leads",
+  "summary": "Qualifies real estate leads over SMS with Twilio and records the answers in Google Sheets.",
+  "tools": [
+    "n8n",
+    "Google Sheets",
+    "OpenAI",
+    "Postgres",
+    "Twilio"
+  ],
+  "creator": {
+    "handle": "Robert Breen",
+    "url": "https://n8n.io/creators/rbreen/"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://n8n.io/workflows/6332/"
+  },
+  "official_share_url": null,
+  "found_via": "https://n8n.io/workflows/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/sms-property-lead-qualifier/",
+  "json_url": "https://moneywithai.net/api/v1/bots/sms-property-lead-qualifier.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/motivated-seller-pipeline/",
+    "https://moneywithai.net/use-cases/listing-marketing-for-agents/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 50,
+    "score": 92,
+    "money": 40,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

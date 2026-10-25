@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T09:24:23.000Z",
+  "generated_at": "2026-10-25T09:36:52.000Z",
   "api_version": "v1",
   "schema_revision": 2,
   "status_url": "https://moneywithai.net/api/v1/status.json",
@@ -8,13 +8,13 @@
     {
       "slug": "leads-and-sales",
       "label": "Leads and Sales",
-      "bots": 11,
-      "use_cases": 8,
+      "bots": 71,
+      "use_cases": 31,
       "sub_use_cases": [
         {
           "slug": "local-seo-prospect-lists",
           "label": "Local SEO prospect lists",
-          "bots": 1
+          "bots": 3
         },
         {
           "slug": "no-website-prospects",
@@ -24,42 +24,57 @@
         {
           "slug": "social-engagement-leads",
           "label": "Social engagement leads",
-          "bots": 1
+          "bots": 3
         },
         {
           "slug": "linkedin-funnels",
           "label": "LinkedIn funnels",
-          "bots": 2
+          "bots": 7
         },
         {
           "slug": "x-prospecting",
           "label": "X prospecting",
-          "bots": 1
+          "bots": 2
         },
         {
           "slug": "inbound-qualification",
           "label": "Inbound qualification",
-          "bots": 1
+          "bots": 2
         },
         {
           "slug": "speed-to-lead-and-quotes",
           "label": "Speed-to-lead and quotes",
-          "bots": 1
+          "bots": 3
         },
         {
           "slug": "crm-hygiene",
           "label": "CRM hygiene",
-          "bots": 1
+          "bots": 3
         },
         {
           "slug": "pre-pitch-audits",
           "label": "Pre-pitch audits",
-          "bots": 1
+          "bots": 3
         },
         {
           "slug": "sales-call-support",
           "label": "Sales-call support",
-          "bots": 1
+          "bots": 8
+        },
+        {
+          "slug": "outbound-prospecting",
+          "label": "Outbound prospecting",
+          "bots": 23
+        },
+        {
+          "slug": "real-estate-leads",
+          "label": "Real estate leads",
+          "bots": 6
+        },
+        {
+          "slug": "partnerships-and-sponsors",
+          "label": "Partnerships and sponsors",
+          "bots": 7
         }
       ],
       "url": "https://moneywithai.net/?category=leads-and-sales"
@@ -67,23 +82,23 @@
     {
       "slug": "content-and-marketing",
       "label": "Content and Marketing",
-      "bots": 10,
-      "use_cases": 6,
+      "bots": 82,
+      "use_cases": 28,
       "sub_use_cases": [
         {
           "slug": "x-posting",
           "label": "X posting",
-          "bots": 2
+          "bots": 9
         },
         {
           "slug": "threads-and-articles",
           "label": "Threads and articles",
-          "bots": 1
+          "bots": 3
         },
         {
           "slug": "youtube-operations",
           "label": "YouTube operations",
-          "bots": 1
+          "bots": 4
         },
         {
           "slug": "brand-deal-pricing",
@@ -93,22 +108,57 @@
         {
           "slug": "local-seo-content",
           "label": "Local SEO content",
-          "bots": 2
+          "bots": 3
         },
         {
           "slug": "brand-social",
           "label": "Brand social",
-          "bots": 1
+          "bots": 15
         },
         {
           "slug": "compliance-review",
           "label": "Compliance review",
-          "bots": 1
+          "bots": 2
         },
         {
           "slug": "practice-marketing",
           "label": "Practice marketing",
           "bots": 1
+        },
+        {
+          "slug": "paid-ads",
+          "label": "Paid ads",
+          "bots": 7
+        },
+        {
+          "slug": "seo-and-ai-search",
+          "label": "SEO and AI search",
+          "bots": 10
+        },
+        {
+          "slug": "newsletters-and-email",
+          "label": "Newsletters and email",
+          "bots": 4
+        },
+        {
+          "slug": "copy-and-creative",
+          "label": "Copy and creative",
+          "bots": 5
+        },
+        {
+          "slug": "video-production",
+          "label": "Video production",
+          "bots": 9
+        },
+        {
+          "slug": "podcasts",
+          "label": "Podcasts",
+          "bots": 5
+        },
+        {
+          "slug": "analytics-and-monitoring",
+          "label": "Analytics and monitoring",
+          "bots": 4
         }
       ],
       "url": "https://moneywithai.net/?category=content-and-marketing"
@@ -116,13 +166,13 @@
     {
       "slug": "e-commerce",
       "label": "E-Commerce",
-      "bots": 4,
-      "use_cases": 3,
+      "bots": 20,
+      "use_cases": 15,
       "sub_use_cases": [
         {
           "slug": "store-operations",
           "label": "Store operations",
-          "bots": 1
+          "bots": 11
         },
         {
           "slug": "store-chief-of-staff",
@@ -132,12 +182,17 @@
         {
           "slug": "resale-listings",
           "label": "Resale listings",
-          "bots": 1
+          "bots": 2
         },
         {
           "slug": "competitor-drops",
           "label": "Competitor drops",
-          "bots": 1
+          "bots": 2
+        },
+        {
+          "slug": "product-listings-and-creative",
+          "label": "Product listings and creative",
+          "bots": 4
         }
       ],
       "url": "https://moneywithai.net/?category=e-commerce"
@@ -145,28 +200,33 @@
     {
       "slug": "client-services",
       "label": "Client Services",
-      "bots": 4,
-      "use_cases": 3,
+      "bots": 20,
+      "use_cases": 15,
       "sub_use_cases": [
         {
           "slug": "client-confirmations",
           "label": "Client confirmations",
-          "bots": 1
+          "bots": 3
         },
         {
           "slug": "quotes",
           "label": "Quotes",
-          "bots": 1
+          "bots": 4
         },
         {
           "slug": "client-delivery",
           "label": "Client delivery",
-          "bots": 1
+          "bots": 8
         },
         {
           "slug": "grant-packs",
           "label": "Grant packs",
-          "bots": 1
+          "bots": 2
+        },
+        {
+          "slug": "meetings-and-follow-up",
+          "label": "Meetings and follow-up",
+          "bots": 3
         }
       ],
       "url": "https://moneywithai.net/?category=client-services"
@@ -174,13 +234,13 @@
     {
       "slug": "finance",
       "label": "Finance",
-      "bots": 6,
-      "use_cases": 4,
+      "bots": 28,
+      "use_cases": 14,
       "sub_use_cases": [
         {
           "slug": "invoices",
           "label": "Invoices",
-          "bots": 1
+          "bots": 3
         },
         {
           "slug": "rental-bookkeeping",
@@ -190,22 +250,27 @@
         {
           "slug": "accounting-office-ops",
           "label": "Accounting office ops",
-          "bots": 1
+          "bots": 2
         },
         {
           "slug": "expense-reports",
           "label": "Expense reports",
-          "bots": 1
+          "bots": 3
         },
         {
           "slug": "revenue-recovery",
           "label": "Revenue recovery",
-          "bots": 1
+          "bots": 5
         },
         {
           "slug": "saas-spend",
           "label": "SaaS spend",
-          "bots": 1
+          "bots": 7
+        },
+        {
+          "slug": "bookkeeping-and-reporting",
+          "label": "Bookkeeping and reporting",
+          "bots": 7
         }
       ],
       "url": "https://moneywithai.net/?category=finance"
@@ -213,23 +278,23 @@
     {
       "slug": "customer-support",
       "label": "Customer Support",
-      "bots": 5,
-      "use_cases": 2,
+      "bots": 33,
+      "use_cases": 10,
       "sub_use_cases": [
         {
           "slug": "ticket-fixing",
           "label": "Ticket fixing",
-          "bots": 1
+          "bots": 5
         },
         {
           "slug": "help-center",
           "label": "Help center",
-          "bots": 1
+          "bots": 3
         },
         {
           "slug": "feedback-watch",
           "label": "Feedback watch",
-          "bots": 1
+          "bots": 4
         },
         {
           "slug": "review-replies",
@@ -239,7 +304,17 @@
         {
           "slug": "phone-answering",
           "label": "Phone answering",
-          "bots": 1
+          "bots": 7
+        },
+        {
+          "slug": "support-triage",
+          "label": "Support triage",
+          "bots": 7
+        },
+        {
+          "slug": "chat-and-messaging-support",
+          "label": "Chat and messaging support",
+          "bots": 6
         }
       ],
       "url": "https://moneywithai.net/?category=customer-support"
@@ -247,33 +322,33 @@
     {
       "slug": "research-and-ops",
       "label": "Research and Ops",
-      "bots": 10,
-      "use_cases": 5,
+      "bots": 53,
+      "use_cases": 18,
       "sub_use_cases": [
         {
           "slug": "competitor-intel",
           "label": "Competitor intel",
-          "bots": 2
+          "bots": 7
         },
         {
           "slug": "market-notes",
           "label": "Market notes",
-          "bots": 1
+          "bots": 4
         },
         {
           "slug": "opportunity-scouting",
           "label": "Opportunity scouting",
-          "bots": 1
+          "bots": 6
         },
         {
           "slug": "inbox-triage",
           "label": "Inbox triage",
-          "bots": 1
+          "bots": 4
         },
         {
           "slug": "team-memory",
           "label": "Team memory",
-          "bots": 1
+          "bots": 3
         },
         {
           "slug": "property-maintenance",
@@ -283,17 +358,37 @@
         {
           "slug": "construction-office",
           "label": "Construction office",
-          "bots": 1
+          "bots": 5
         },
         {
           "slug": "tender-bids",
           "label": "Tender bids",
-          "bots": 1
+          "bots": 2
         },
         {
           "slug": "hiring",
           "label": "Hiring",
-          "bots": 1
+          "bots": 5
+        },
+        {
+          "slug": "planning-and-projects",
+          "label": "Planning and projects",
+          "bots": 7
+        },
+        {
+          "slug": "product-and-engineering",
+          "label": "Product and engineering",
+          "bots": 3
+        },
+        {
+          "slug": "compliance-and-admin",
+          "label": "Compliance and admin",
+          "bots": 2
+        },
+        {
+          "slug": "real-estate-analysis",
+          "label": "Real estate analysis",
+          "bots": 4
         }
       ],
       "url": "https://moneywithai.net/?category=research-and-ops"

@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "account-growth-planner",
+  "name": "Account Growth Planner",
+  "category": "Content and Marketing",
+  "sub_use_case": "X posting",
+  "summary": "Reviews your niche and recent X posts and plans topics and formats to grow the account.",
+  "tools": [
+    "X"
+  ],
+  "creator": {
+    "handle": "Cavire19",
+    "url": "https://x.com/Cavire19"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/Cavire19/status/2090218549759377596"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/account-growth-planner/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/account-growth-planner/",
+  "json_url": "https://moneywithai.net/api/v1/bots/account-growth-planner.json",
+  "use_cases": [],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 286,
+    "score": 36,
+    "money": 0,
+    "profile": 26,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

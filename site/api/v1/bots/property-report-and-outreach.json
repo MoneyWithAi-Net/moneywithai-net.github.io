@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "property-report-and-outreach",
+  "name": "Property Report and Outreach",
+  "category": "Leads and Sales",
+  "sub_use_case": "Real estate leads",
+  "summary": "Builds property research reports with Exa and PandaDoc and queues outreach in Instantly.",
+  "tools": [
+    "n8n",
+    "Google Sheets",
+    "Slack"
+  ],
+  "creator": {
+    "handle": "Devon Toh",
+    "url": "https://n8n.io/creators/devontoh/"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://n8n.io/workflows/14053/"
+  },
+  "official_share_url": null,
+  "found_via": "https://n8n.io/workflows/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/property-report-and-outreach/",
+  "json_url": "https://moneywithai.net/api/v1/bots/property-report-and-outreach.json",
+  "use_cases": [],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 298,
+    "score": 36,
+    "money": 0,
+    "profile": 26,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "john-wick",
+  "name": "John Wick",
+  "category": "Leads and Sales",
+  "sub_use_case": "Outbound prospecting",
+  "summary": "Finds the person inside a target company who can move the decision and helps you get the conversation.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "liam_fallen",
+    "url": "https://x.com/liam_fallen"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/liam_fallen/status/2093383148906184985"
+  },
+  "official_share_url": "https://x.ai/bot/_OlL8LPI6lc2xi82F4Gf7",
+  "found_via": "https://botdirectory.ai/bots/john-wick/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/john-wick/",
+  "json_url": "https://moneywithai.net/api/v1/bots/john-wick.json",
+  "use_cases": [],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 280,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

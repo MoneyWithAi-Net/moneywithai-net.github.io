@@ -1,0 +1,185 @@
+{
+  "type": "use-case",
+  "slug": "consulting-meeting-system",
+  "title": "Run a Consulting Practice from Tidy Meetings",
+  "category": "Client Services",
+  "category_slug": "client-services",
+  "money_model": "Save costs",
+  "difficulty": "Beginner",
+  "summary": "Prep every call, capture notes and actions, book follow-ups and invoice on time.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes admin time saved becomes billable time.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "More billable hours, less admin.",
+    "Clients see a professional process."
+  ],
+  "who_its_for": [
+    "Independent consultants and coaches."
+  ],
+  "stack": [
+    {
+      "bot": "meeting-brief",
+      "name": "Meeting Brief",
+      "role": "Preps each call.",
+      "creator": "Limok_igit",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/meeting-brief/",
+      "official_share_url": "https://x.ai/bot/JN9e1WggIKVWhCEZrySlj"
+    },
+    {
+      "bot": "meeting-notes-assistant",
+      "name": "Meeting Notes Assistant",
+      "role": "Writes notes and actions.",
+      "creator": "mvanhorn",
+      "tools": [
+        "Google Calendar",
+        "Google Docs"
+      ],
+      "url": "https://moneywithai.net/bots/meeting-notes-assistant/",
+      "official_share_url": null
+    },
+    {
+      "bot": "post-call-assistant",
+      "name": "Post Call Assistant",
+      "role": "Drafts follow-ups.",
+      "creator": "itspriyaptl",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/post-call-assistant/",
+      "official_share_url": "https://x.ai/bot/xF12c5y4LVe7nf7IFguWI"
+    },
+    {
+      "bot": "dispatch",
+      "name": "Dispatch",
+      "role": "Books agreed calls.",
+      "creator": "FilippoFonseca",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/dispatch/",
+      "official_share_url": "https://x.ai/bot/YkmZEZYBk-BqylyQbM3kq"
+    },
+    {
+      "bot": "invoice-hunter",
+      "name": "Invoice Hunter",
+      "role": "Chases invoices.",
+      "creator": "scheemunai",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/invoice-hunter/",
+      "official_share_url": "https://x.ai/bot/-kO6HrXokJZANVwUOMZO9"
+    }
+  ],
+  "tools": [
+    "Grok",
+    "Google Calendar",
+    "Google Docs"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Calendar",
+        "tool": "Google Calendar"
+      },
+      {
+        "label": "Docs",
+        "tool": "Google Docs"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "meeting-brief",
+        "name": "Meeting Brief",
+        "does": "Preps calls",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "meeting-notes-assistant",
+        "name": "Meeting Notes Assistant",
+        "does": "Writes notes",
+        "tools": [
+          "Google Calendar",
+          "Google Docs"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "post-call-assistant",
+        "name": "Post Call Assistant",
+        "does": "Drafts follow-ups",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "dispatch",
+        "name": "Dispatch",
+        "does": "Books calls",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "invoice-hunter",
+        "name": "Invoice Hunter",
+        "does": "Chases invoices",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 6,
+        "by": "you",
+        "name": "You",
+        "does": "Run calls",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Call briefs",
+      "Notes and follow-ups",
+      "Paid invoices"
+    ]
+  },
+  "steps": [
+    "Connect calendar and docs.",
+    "Review briefs before calls.",
+    "Send follow-ups the same day.",
+    "Invoice monthly."
+  ],
+  "guardrails": [
+    "Every message and document stays a draft until you approve it.",
+    "Handle customer and candidate data under your local privacy rules."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 33,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/consulting-meeting-system/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/consulting-meeting-system.json"
+}

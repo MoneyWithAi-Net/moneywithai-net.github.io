@@ -28,7 +28,22 @@
     "https://moneywithai.net/use-cases/contractor-speed-to-lead/",
     "https://moneywithai.net/use-cases/shopify-store-with-a-bot-team/",
     "https://moneywithai.net/use-cases/maker-shop-quotes/",
-    "https://moneywithai.net/use-cases/local-business-reviews-and-calls/"
+    "https://moneywithai.net/use-cases/local-business-reviews-and-calls/",
+    "https://moneywithai.net/use-cases/home-services-speed-to-quote/",
+    "https://moneywithai.net/use-cases/local-review-service-agency/",
+    "https://moneywithai.net/use-cases/brand-mention-watch-service/",
+    "https://moneywithai.net/use-cases/local-seo-agency-in-a-box/",
+    "https://moneywithai.net/use-cases/restaurant-orders-calls-recovery/"
   ],
-  "added_at": "2026-10-24T09:30:00.000Z"
+  "added_at": "2026-10-24T09:30:00.000Z",
+  "featured": {
+    "rank": 7,
+    "score": 100,
+    "money": 40,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
 }

@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "case-skeleton",
+    "name": "Case Skeleton",
+    "category": "Client Services",
+    "sub_use_case": "Client delivery",
+    "summary": "Builds the problem, solution and result outline of an automation case study for you to fill in.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "paulopierrondi",
+      "url": "https://x.com/paulopierrondi"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/paulopierrondi/status/2107045225399296230"
+    },
+    "official_share_url": "https://x.ai/bot/_7yFKwQCYR_mi_oVmKOEN",
+    "found_via": "https://grokbot101.org/bots/case-skeleton/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/case-skeleton/",
+    "json_url": "https://moneywithai.net/api/bots/case-skeleton.json"
+  }
+}

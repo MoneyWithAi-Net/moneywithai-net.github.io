@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "chief-of-staff-aryaman",
+  "name": "Chief of Staff (Aryaman)",
+  "category": "Research and Ops",
+  "sub_use_case": "Planning and projects",
+  "summary": "A low-noise chief of staff across Slack, inbox and calendar that surfaces only decisions and drafts email without sending.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "aryamankhawow",
+    "url": "https://x.com/aryamankhawow"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/aryamankhawow/status/2093385343928033312"
+  },
+  "official_share_url": "https://x.ai/bot/XjQ-AZTMrGLmQOTeMu3LF",
+  "found_via": "https://botdirectory.ai/bots/chief-of-staff-aryaman/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/chief-of-staff-aryaman/",
+  "json_url": "https://moneywithai.net/api/v1/bots/chief-of-staff-aryaman.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/founder-chief-of-staff-stack/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 144,
+    "score": 83,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

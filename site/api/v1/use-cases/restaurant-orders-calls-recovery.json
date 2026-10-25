@@ -1,0 +1,173 @@
+{
+  "type": "use-case",
+  "slug": "restaurant-orders-calls-recovery",
+  "title": "Take Restaurant Orders and Calls, and Recover Lost Money",
+  "category": "E-Commerce",
+  "category_slug": "e-commerce",
+  "money_model": "Recover money",
+  "difficulty": "Intermediate",
+  "summary": "Chat ordering, a voice booking line, delivery-error recovery and review replies for one restaurant.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes recovered refunds plus a few extra bookings.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "No missed calls at rush hour.",
+    "Refunds you were owed come back."
+  ],
+  "who_its_for": [
+    "Independent restaurants."
+  ],
+  "stack": [
+    {
+      "bot": "restaurant-order-chatbot",
+      "name": "Restaurant Order Chatbot",
+      "role": "Turns chat orders into POS tickets.",
+      "creator": "Kumar Shivam",
+      "tools": [
+        "n8n",
+        "Google Sheets",
+        "OpenAI"
+      ],
+      "url": "https://moneywithai.net/bots/restaurant-order-chatbot/",
+      "official_share_url": null
+    },
+    {
+      "bot": "restaurant-phone-table-booker",
+      "name": "Restaurant Phone Table Booker",
+      "role": "Answers calls and books tables.",
+      "creator": "Oneclick AI Squad",
+      "tools": [
+        "n8n",
+        "Postgres"
+      ],
+      "url": "https://moneywithai.net/bots/restaurant-phone-table-booker/",
+      "official_share_url": null
+    },
+    {
+      "bot": "restaurant-order-recovery",
+      "name": "Restaurant Order Recovery",
+      "role": "Finds canceled orders and error charges.",
+      "creator": "pattyshack",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/restaurant-order-recovery/",
+      "official_share_url": "https://x.ai/bot/wB9H7OSiHYPlRgyCTM5Iq"
+    },
+    {
+      "bot": "reply-desk",
+      "name": "Reply Desk",
+      "role": "Drafts review replies.",
+      "creator": "lonzom10",
+      "tools": [
+        "Email"
+      ],
+      "url": "https://moneywithai.net/bots/reply-desk/",
+      "official_share_url": "https://x.ai/bot/8lLjBC7bXUqbfh-vLG9jf"
+    }
+  ],
+  "tools": [
+    "n8n",
+    "Google Sheets",
+    "OpenAI",
+    "Postgres",
+    "Grok",
+    "Email"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Merchant portals",
+        "tool": null
+      },
+      {
+        "label": "Phone line",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "restaurant-order-chatbot",
+        "name": "Restaurant Order Chatbot",
+        "does": "Takes chat orders",
+        "tools": [
+          "n8n",
+          "Google Sheets",
+          "OpenAI"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "restaurant-phone-table-booker",
+        "name": "Restaurant Phone Table Booker",
+        "does": "Books tables",
+        "tools": [
+          "n8n",
+          "Postgres"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "restaurant-order-recovery",
+        "name": "Restaurant Order Recovery",
+        "does": "Recovers lost orders",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "reply-desk",
+        "name": "Reply Desk",
+        "does": "Drafts review replies",
+        "tools": [
+          "Email"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Approve and serve",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Orders and bookings",
+      "Recovered refunds",
+      "Review replies"
+    ]
+  },
+  "steps": [
+    "Start with the recovery bot.",
+    "Add the phone line after testing.",
+    "Pilot chat ordering.",
+    "Reply to reviews weekly."
+  ],
+  "guardrails": [
+    "A person stays reachable for anything the bot is unsure about.",
+    "You need your own accounts for the connected tools; check their current plans first.",
+    "Every message and document stays a draft until you approve it."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 76,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/restaurant-orders-calls-recovery/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/restaurant-orders-calls-recovery.json"
+}

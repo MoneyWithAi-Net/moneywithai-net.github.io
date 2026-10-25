@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "x-agent",
+  "name": "X Agent",
+  "category": "Content and Marketing",
+  "sub_use_case": "X posting",
+  "summary": "Scouts AI and coding conversations on X and drafts replies in your voice for approval.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "MikkoUusitalo1",
+    "url": "https://x.com/MikkoUusitalo1"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/MikkoUusitalo1/status/2101311997757243739"
+  },
+  "official_share_url": "https://x.ai/bot/7V6XbVZRZ04eHej3tJIAQ",
+  "found_via": "https://grokbot101.org/bots/x-agent/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/x-agent/",
+  "json_url": "https://moneywithai.net/api/v1/bots/x-agent.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/x-relationship-selling/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 260,
+    "score": 73,
+    "money": 13,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

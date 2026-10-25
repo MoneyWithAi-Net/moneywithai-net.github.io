@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "ship-note",
+    "name": "Ship Note",
+    "category": "Content and Marketing",
+    "sub_use_case": "Newsletters and email",
+    "summary": "Turns a list of what shipped into a public changelog and a customer what's-new email draft.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "sol_wright7",
+      "url": "https://x.com/sol_wright7"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/sol_wright7/status/2093809370958098813"
+    },
+    "official_share_url": "https://x.ai/bot/xMCiRCmOCYLeRzW8nS6EL",
+    "found_via": "https://botdirectory.ai/bots/ship-note/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/ship-note/",
+    "json_url": "https://moneywithai.net/api/bots/ship-note.json"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "regulatory-compliance-navigator",
+  "name": "Regulatory Compliance Navigator",
+  "category": "Research and Ops",
+  "sub_use_case": "Compliance and admin",
+  "summary": "Reads regulations and your documents in Drive and explains what applies to you and what to do.",
+  "tools": [
+    "Google Drive"
+  ],
+  "creator": {
+    "handle": "elonmusk",
+    "url": "https://x.com/elonmusk"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/elonmusk/status/2089719862880780588"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/regulatory-compliance-navigator/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/regulatory-compliance-navigator/",
+  "json_url": "https://moneywithai.net/api/v1/bots/regulatory-compliance-navigator.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/regulated-small-business-admin/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 274,
+    "score": 65,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

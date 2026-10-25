@@ -1,0 +1,31 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "telegram-shopify-order-check",
+    "name": "Telegram Shopify Order Check",
+    "category": "E-Commerce",
+    "sub_use_case": "Store operations",
+    "summary": "Lets you check and monitor Shopify orders by sending simple commands to a Telegram bot.",
+    "tools": [
+      "n8n",
+      "Shopify",
+      "Telegram"
+    ],
+    "creator": {
+      "handle": "Roninimous",
+      "url": "https://n8n.io/creators/roninimous/"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://n8n.io/workflows/4714/"
+    },
+    "official_share_url": null,
+    "found_via": "https://n8n.io/workflows/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/telegram-shopify-order-check/",
+    "json_url": "https://moneywithai.net/api/bots/telegram-shopify-order-check.json"
+  }
+}

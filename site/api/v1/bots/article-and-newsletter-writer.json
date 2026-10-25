@@ -1,0 +1,44 @@
+{
+  "type": "bot",
+  "slug": "article-and-newsletter-writer",
+  "name": "Article and Newsletter Writer",
+  "category": "Content and Marketing",
+  "sub_use_case": "Newsletters and email",
+  "summary": "Writes articles and newsletters from your source material and stages them in Squarespace.",
+  "tools": [
+    "Google Docs",
+    "Gmail",
+    "Squarespace"
+  ],
+  "creator": {
+    "handle": "farzyness",
+    "url": "https://x.com/farzyness"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/farzyness/status/2087340859138224540"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/article-and-newsletter-writer/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/article-and-newsletter-writer/",
+  "json_url": "https://moneywithai.net/api/v1/bots/article-and-newsletter-writer.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/podcast-everywhere-pipeline/",
+    "https://moneywithai.net/use-cases/niche-newsletter-business/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 184,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

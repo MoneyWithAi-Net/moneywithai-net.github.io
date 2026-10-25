@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "bookkeeping-auditor",
+    "name": "Bookkeeping Auditor",
+    "category": "Finance",
+    "sub_use_case": "Bookkeeping and reporting",
+    "summary": "Audits your books against bank, card and check records and lists the errors to fix.",
+    "tools": [
+      "QuickBooks"
+    ],
+    "creator": {
+      "handle": "mrfundman",
+      "url": "https://x.com/mrfundman"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/mrfundman/status/2089338947201569187"
+    },
+    "official_share_url": null,
+    "found_via": "https://botdirectory.ai/bots/bookkeeping-auditor/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/bookkeeping-auditor/",
+    "json_url": "https://moneywithai.net/api/bots/bookkeeping-auditor.json"
+  }
+}

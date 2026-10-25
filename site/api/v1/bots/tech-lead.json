@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "tech-lead",
+  "name": "Tech Lead",
+  "category": "Research and Ops",
+  "sub_use_case": "Product and engineering",
+  "summary": "Holds pull requests until the diff matches the claim and real tests pass, for small teams shipping fast.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "inqusit",
+    "url": null
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/inqusit/status/2094021157213348277"
+  },
+  "official_share_url": "https://x.ai/bot/RfFPxQ_rfEGcUncrJ6g_W",
+  "found_via": "https://botdirectory.ai/bots/tech-lead/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/tech-lead/",
+  "json_url": "https://moneywithai.net/api/v1/bots/tech-lead.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/saas-ship-quality-loop/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 244,
+    "score": 74,
+    "money": 27,
+    "profile": 24,
+    "visuals": 20,
+    "difficulty": 3,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

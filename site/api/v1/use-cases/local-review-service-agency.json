@@ -1,0 +1,166 @@
+{
+  "type": "use-case",
+  "slug": "local-review-service-agency",
+  "title": "Sell Review Management to Local Businesses",
+  "category": "Leads and Sales",
+  "category_slug": "leads-and-sales",
+  "money_model": "Sell a service",
+  "difficulty": "Beginner",
+  "summary": "Find local businesses with weak reviews, show them drafted replies and sell a monthly review-care plan.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes a low monthly fee per business, so income builds with client count.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "A simple, recurring offer many local owners need.",
+    "Drafted replies show value before they pay."
+  ],
+  "who_its_for": [
+    "New agency owners and freelancers."
+  ],
+  "stack": [
+    {
+      "bot": "bbb-business-lead-collector",
+      "name": "BBB Business Lead Collector",
+      "role": "Collects local business leads from public listings.",
+      "creator": "Bakir Ali",
+      "tools": [
+        "n8n",
+        "Gemini"
+      ],
+      "url": "https://moneywithai.net/bots/bbb-business-lead-collector/",
+      "official_share_url": null
+    },
+    {
+      "bot": "lead-scout",
+      "name": "Lead Scout",
+      "role": "Adds businesses with weak search presence.",
+      "creator": "itsryanlenk",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/lead-scout/",
+      "official_share_url": "https://x.ai/bot/j3Qule6BFplSpVqgLpVnV"
+    },
+    {
+      "bot": "site-research",
+      "name": "Site Research",
+      "role": "Writes a short brief on each prospect.",
+      "creator": "itsryanlenk",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/site-research/",
+      "official_share_url": "https://x.ai/bot/zkgCv30YKSJPHc7rUB_6P"
+    },
+    {
+      "bot": "reply-desk",
+      "name": "Reply Desk",
+      "role": "Drafts replies to reviews for clients.",
+      "creator": "lonzom10",
+      "tools": [
+        "Email"
+      ],
+      "url": "https://moneywithai.net/bots/reply-desk/",
+      "official_share_url": "https://x.ai/bot/8lLjBC7bXUqbfh-vLG9jf"
+    }
+  ],
+  "tools": [
+    "n8n",
+    "Gemini",
+    "Grok",
+    "Email"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Public listings",
+        "tool": null
+      },
+      {
+        "label": "Public reviews",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "bbb-business-lead-collector",
+        "name": "BBB Business Lead Collector",
+        "does": "Collects local leads",
+        "tools": [
+          "n8n",
+          "Gemini"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "lead-scout",
+        "name": "Lead Scout",
+        "does": "Adds weak-presence leads",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "site-research",
+        "name": "Site Research",
+        "does": "Briefs each prospect",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "reply-desk",
+        "name": "Reply Desk",
+        "does": "Drafts review replies",
+        "tools": [
+          "Email"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Pitch and approve replies",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Prospect list",
+      "Sample replies",
+      "Monthly clients"
+    ]
+  },
+  "steps": [
+    "Pick one trade and town.",
+    "Build a list of 20 businesses with unanswered reviews.",
+    "Show three a sample of drafted replies.",
+    "Run monthly review care for those who sign."
+  ],
+  "guardrails": [
+    "Check local rules on cold outreach, calls and texts before contacting anyone.",
+    "Every message and document stays a draft until you approve it."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 38,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/local-review-service-agency/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/local-review-service-agency.json"
+}

@@ -1,0 +1,199 @@
+{
+  "type": "use-case",
+  "slug": "evergreen-repurposing-engine",
+  "title": "Repurpose Your Best Posts on a Schedule",
+  "category": "Content and Marketing",
+  "category_slug": "content-and-marketing",
+  "money_model": "Grow sales",
+  "difficulty": "Beginner",
+  "summary": "Find posts that already worked and bring them back across platforms without writing from scratch.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Assumes social reach supports sales you already make.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Proven posts reach new followers.",
+    "Less time writing new content."
+  ],
+  "who_its_for": [
+    "Busy owners who post sometimes."
+  ],
+  "stack": [
+    {
+      "bot": "evergreen-content-flywheel",
+      "name": "Evergreen Content Flywheel",
+      "role": "Finds evergreen winners weekly.",
+      "creator": "elie2222",
+      "tools": [
+        "FeedHive",
+        "Notion",
+        "Slack"
+      ],
+      "url": "https://moneywithai.net/bots/evergreen-content-flywheel/",
+      "official_share_url": null
+    },
+    {
+      "bot": "top-post-crossposter",
+      "name": "Top Post Crossposter",
+      "role": "Refreshes top X posts for other networks.",
+      "creator": "jackfriks",
+      "tools": [
+        "X",
+        "Threads",
+        "LinkedIn",
+        "Bluesky",
+        "PostBridge"
+      ],
+      "url": "https://moneywithai.net/bots/top-post-crossposter/",
+      "official_share_url": null
+    },
+    {
+      "bot": "blog-to-social-publisher",
+      "name": "Blog to Social Publisher",
+      "role": "Turns new blog posts into social posts.",
+      "creator": "Davide Boizza",
+      "tools": [
+        "n8n",
+        "Facebook",
+        "Google Sheets",
+        "LinkedIn",
+        "OpenAI",
+        "OpenRouter",
+        "WordPress",
+        "X"
+      ],
+      "url": "https://moneywithai.net/bots/blog-to-social-publisher/",
+      "official_share_url": null
+    },
+    {
+      "bot": "blog-to-x-posts",
+      "name": "Blog to X Posts",
+      "role": "Splits posts into threads.",
+      "creator": "Shachi_Pratibha",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/blog-to-x-posts/",
+      "official_share_url": "https://x.ai/bot/zgQuwpX78Yn09ddfIJkzU"
+    }
+  ],
+  "tools": [
+    "FeedHive",
+    "Notion",
+    "Slack",
+    "X",
+    "Threads",
+    "LinkedIn",
+    "Bluesky",
+    "PostBridge",
+    "n8n",
+    "Facebook",
+    "Google Sheets",
+    "OpenAI",
+    "OpenRouter",
+    "WordPress",
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Past posts",
+        "tool": "X"
+      },
+      {
+        "label": "Blog",
+        "tool": "WordPress"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "evergreen-content-flywheel",
+        "name": "Evergreen Content Flywheel",
+        "does": "Finds winners",
+        "tools": [
+          "FeedHive",
+          "Notion",
+          "Slack"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "top-post-crossposter",
+        "name": "Top Post Crossposter",
+        "does": "Refreshes for other networks",
+        "tools": [
+          "X",
+          "Threads",
+          "LinkedIn",
+          "Bluesky",
+          "PostBridge"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "blog-to-social-publisher",
+        "name": "Blog to Social Publisher",
+        "does": "Shares blog posts",
+        "tools": [
+          "n8n",
+          "Facebook",
+          "Google Sheets",
+          "LinkedIn",
+          "OpenAI",
+          "OpenRouter",
+          "WordPress",
+          "X"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "blog-to-x-posts",
+        "name": "Blog to X Posts",
+        "does": "Makes threads",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Approve the queue",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Weekly reposts",
+      "Threads"
+    ]
+  },
+  "steps": [
+    "Set a performance threshold.",
+    "Approve the weekly queue.",
+    "Let blog posts auto-draft social posts.",
+    "Review results monthly."
+  ],
+  "guardrails": [
+    "Nothing is posted publicly without your OK."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 112,
+    "score": 69,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/evergreen-repurposing-engine/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/evergreen-repurposing-engine.json"
+}

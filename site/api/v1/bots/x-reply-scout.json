@@ -25,7 +25,19 @@
   "url": "https://moneywithai.net/bots/x-reply-scout/",
   "json_url": "https://moneywithai.net/api/v1/bots/x-reply-scout.json",
   "use_cases": [
-    "https://moneywithai.net/use-cases/x-audience-prospecting/"
+    "https://moneywithai.net/use-cases/x-audience-prospecting/",
+    "https://moneywithai.net/use-cases/x-relationship-selling/",
+    "https://moneywithai.net/use-cases/founder-x-growth-loop/"
   ],
-  "added_at": "2026-10-24T09:30:00.000Z"
+  "added_at": "2026-10-24T09:30:00.000Z",
+  "featured": {
+    "rank": 98,
+    "score": 87,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
 }

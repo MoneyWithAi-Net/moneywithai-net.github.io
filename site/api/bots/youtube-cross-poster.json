@@ -1,0 +1,30 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "youtube-cross-poster",
+    "name": "YouTube Cross Poster",
+    "category": "Content and Marketing",
+    "sub_use_case": "Brand social",
+    "summary": "Reposts each new YouTube video to Facebook and Instagram with captions written for each platform.",
+    "tools": [
+      "n8n",
+      "OpenAI"
+    ],
+    "creator": {
+      "handle": "Yaron Been",
+      "url": "https://n8n.io/creators/yaron-nofluff/"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://n8n.io/workflows/4478/"
+    },
+    "official_share_url": null,
+    "found_via": "https://n8n.io/workflows/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/youtube-cross-poster/",
+    "json_url": "https://moneywithai.net/api/bots/youtube-cross-poster.json"
+  }
+}

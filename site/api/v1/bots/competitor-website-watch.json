@@ -1,0 +1,42 @@
+{
+  "type": "bot",
+  "slug": "competitor-website-watch",
+  "name": "Competitor Website Watch",
+  "category": "Research and Ops",
+  "sub_use_case": "Competitor intel",
+  "summary": "Screenshots competitor pages on a schedule and alerts Slack when something meaningful changes.",
+  "tools": [
+    "ScreenshotOne",
+    "Slack"
+  ],
+  "creator": {
+    "handle": "elie2222",
+    "url": "https://botdirectory.ai/bots/competitor-website-watch/"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://botdirectory.ai/bots/competitor-website-watch/"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/competitor-website-watch/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/competitor-website-watch/",
+  "json_url": "https://moneywithai.net/api/v1/bots/competitor-website-watch.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/competitor-intel-subscription/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 192,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

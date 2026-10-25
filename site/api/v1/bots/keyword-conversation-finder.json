@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "keyword-conversation-finder",
+  "name": "Keyword Conversation Finder",
+  "category": "Leads and Sales",
+  "sub_use_case": "Outbound prospecting",
+  "summary": "Finds LinkedIn posts and comments that mention the problems you solve, giving you warm conversations to join.",
+  "tools": [
+    "Signado"
+  ],
+  "creator": {
+    "handle": "19Ash82",
+    "url": "https://botdirectory.ai/bots/keyword-conversation-finder/"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://botdirectory.ai/bots/keyword-conversation-finder/"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/keyword-conversation-finder/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/keyword-conversation-finder/",
+  "json_url": "https://moneywithai.net/api/v1/bots/keyword-conversation-finder.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/switchers-from-competitor-complaints/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 119,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

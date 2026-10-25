@@ -1,0 +1,161 @@
+{
+  "type": "use-case",
+  "slug": "compliant-content-for-regulated-firms",
+  "title": "Ship Marketing for Regulated Firms with a Compliance Check",
+  "category": "Content and Marketing",
+  "category_slug": "content-and-marketing",
+  "money_model": "Sell a service",
+  "difficulty": "Advanced",
+  "summary": "Draft human-sounding copy, fact-check claims and run a compliance review before any email goes out.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes monthly retainers from firms that need careful marketing.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Regulated firms pay for safe, steady marketing.",
+    "Fewer compliance surprises."
+  ],
+  "who_its_for": [
+    "Marketers serving insurance, finance or health firms."
+  ],
+  "stack": [
+    {
+      "bot": "human-copywriter",
+      "name": "Human Copywriter",
+      "role": "Drafts human-sounding copy.",
+      "creator": "massimodeluisa",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/human-copywriter/",
+      "official_share_url": "https://x.ai/bot/JZAccYtlRFvDSU2CnMnkZ"
+    },
+    {
+      "bot": "crosscheck",
+      "name": "Crosscheck",
+      "role": "Checks claims against sources.",
+      "creator": "the_Arow_H",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/crosscheck/",
+      "official_share_url": "https://x.ai/bot/U4E-bNBzYlVcl_hMYf-kZ"
+    },
+    {
+      "bot": "sentinel",
+      "name": "Sentinel",
+      "role": "Reviews for disclosure and claim issues.",
+      "creator": "CluSloan",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/sentinel/",
+      "official_share_url": "https://x.ai/bot/NAFAT-NGrQ7-zLccn4qg1"
+    },
+    {
+      "bot": "mailchimp-monthly-blast",
+      "name": "Mailchimp Monthly Blast",
+      "role": "Drafts the monthly member email.",
+      "creator": "_lovablecurves",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/mailchimp-monthly-blast/",
+      "official_share_url": "https://x.ai/bot/lcGQv8_I7UvJEWs3833LR"
+    }
+  ],
+  "tools": [
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Client rules",
+        "tool": null
+      },
+      {
+        "label": "Email list",
+        "tool": "Mailchimp"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "human-copywriter",
+        "name": "Human Copywriter",
+        "does": "Drafts copy",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "crosscheck",
+        "name": "Crosscheck",
+        "does": "Checks claims",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "sentinel",
+        "name": "Sentinel",
+        "does": "Reviews compliance",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "mailchimp-monthly-blast",
+        "name": "Mailchimp Monthly Blast",
+        "does": "Drafts the email",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Get sign-off and send",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Checked emails and posts",
+      "Compliance notes"
+    ]
+  },
+  "steps": [
+    "Collect the client's rules and disclosures.",
+    "Draft and check each piece.",
+    "Get the client's compliance sign-off.",
+    "Send on schedule."
+  ],
+  "guardrails": [
+    "This is admin help, not legal, tax or financial advice.",
+    "Check every number and claim before it goes public.",
+    "Every message and document stays a draft until you approve it."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 97,
+    "score": 76,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 3,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/compliant-content-for-regulated-firms/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/compliant-content-for-regulated-firms.json"
+}

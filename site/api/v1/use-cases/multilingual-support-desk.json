@@ -1,0 +1,185 @@
+{
+  "type": "use-case",
+  "slug": "multilingual-support-desk",
+  "title": "Offer Support in Several Languages",
+  "category": "Customer Support",
+  "category_slug": "customer-support",
+  "money_model": "Grow sales",
+  "difficulty": "Intermediate",
+  "summary": "Translate and answer across WhatsApp and email, escalate unsure cases and check quality.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes new-market sales that need local-language support.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Serve buyers in new markets.",
+    "No extra hires per language."
+  ],
+  "who_its_for": [
+    "Stores and SaaS selling abroad."
+  ],
+  "stack": [
+    {
+      "bot": "multilingual-support-inbox",
+      "name": "Multilingual Support Inbox",
+      "role": "Handles WhatsApp and email with translation.",
+      "creator": "Oneclick AI Squad",
+      "tools": [
+        "n8n",
+        "Google Sheets",
+        "Google Translate",
+        "WhatsApp"
+      ],
+      "url": "https://moneywithai.net/bots/multilingual-support-inbox/",
+      "official_share_url": null
+    },
+    {
+      "bot": "multi-source-support-agent",
+      "name": "Multi Source Support Agent",
+      "role": "Answers from several knowledge bases with escalation.",
+      "creator": "Nev",
+      "tools": [
+        "n8n",
+        "Gmail",
+        "Ollama",
+        "Slack",
+        "Supabase",
+        "Wikipedia"
+      ],
+      "url": "https://moneywithai.net/bots/multi-source-support-agent/",
+      "official_share_url": null
+    },
+    {
+      "bot": "support-reply-drafter",
+      "name": "Support Reply Drafter",
+      "role": "Drafts email replies.",
+      "creator": "lennysan",
+      "tools": [
+        "Gmail"
+      ],
+      "url": "https://moneywithai.net/bots/support-reply-drafter/",
+      "official_share_url": null
+    },
+    {
+      "bot": "support-quality-coach",
+      "name": "Support Quality Coach",
+      "role": "Reviews quality weekly.",
+      "creator": "BotDirectoryAI",
+      "tools": [
+        "Plain"
+      ],
+      "url": "https://moneywithai.net/bots/support-quality-coach/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "n8n",
+    "Google Sheets",
+    "Google Translate",
+    "WhatsApp",
+    "Gmail",
+    "Ollama",
+    "Slack",
+    "Supabase",
+    "Wikipedia",
+    "Plain"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Messages",
+        "tool": "WhatsApp"
+      },
+      {
+        "label": "Support email",
+        "tool": "Gmail"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "multilingual-support-inbox",
+        "name": "Multilingual Support Inbox",
+        "does": "Translates and answers",
+        "tools": [
+          "n8n",
+          "Google Sheets",
+          "Google Translate",
+          "WhatsApp"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "multi-source-support-agent",
+        "name": "Multi Source Support Agent",
+        "does": "Answers from knowledge bases",
+        "tools": [
+          "n8n",
+          "Gmail",
+          "Ollama",
+          "Slack",
+          "Supabase",
+          "Wikipedia"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "support-reply-drafter",
+        "name": "Support Reply Drafter",
+        "does": "Drafts replies",
+        "tools": [
+          "Gmail"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "support-quality-coach",
+        "name": "Support Quality Coach",
+        "does": "Reviews quality",
+        "tools": [
+          "Plain"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Handle escalations",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Answered customers",
+      "Quality reviews"
+    ]
+  },
+  "steps": [
+    "Pick two languages.",
+    "Load your knowledge base.",
+    "Approve replies for a week.",
+    "Review quality weekly."
+  ],
+  "guardrails": [
+    "A person stays reachable for anything the bot is unsure about.",
+    "Handle customer and candidate data under your local privacy rules."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 55,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/multilingual-support-desk/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/multilingual-support-desk.json"
+}

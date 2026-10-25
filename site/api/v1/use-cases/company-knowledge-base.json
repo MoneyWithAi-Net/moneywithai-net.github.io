@@ -1,0 +1,168 @@
+{
+  "type": "use-case",
+  "slug": "company-knowledge-base",
+  "title": "Build a Company Knowledge Base Your Bots Can Use",
+  "category": "Research and Ops",
+  "category_slug": "research-and-ops",
+  "money_model": "Save costs",
+  "difficulty": "Beginner",
+  "summary": "Interview the owner, rebuild messy folders into a wiki, keep memory current and publish help articles.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Assumes time saved answering questions.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "New staff and bots ramp faster.",
+    "Fewer repeated questions."
+  ],
+  "who_its_for": [
+    "Small teams."
+  ],
+  "stack": [
+    {
+      "bot": "business-context-interviewer",
+      "name": "Business Context Interviewer",
+      "role": "Interviews you about the business.",
+      "creator": "nateherk",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/business-context-interviewer/",
+      "official_share_url": null
+    },
+    {
+      "bot": "drive-wiki-rebuilder",
+      "name": "Drive Wiki Rebuilder",
+      "role": "Rebuilds Drive folders into a wiki.",
+      "creator": "ericzakariasson",
+      "tools": [
+        "Google Drive",
+        "Notion"
+      ],
+      "url": "https://moneywithai.net/bots/drive-wiki-rebuilder/",
+      "official_share_url": null
+    },
+    {
+      "bot": "notion-memory-keeper",
+      "name": "Notion Memory Keeper",
+      "role": "Keeps team memory current.",
+      "creator": "benln",
+      "tools": [
+        "Notion"
+      ],
+      "url": "https://moneywithai.net/bots/notion-memory-keeper/",
+      "official_share_url": null
+    },
+    {
+      "bot": "help-center-updater",
+      "name": "Help Center Updater",
+      "role": "Publishes help articles.",
+      "creator": "damonchen",
+      "tools": [
+        "Intercom",
+        "GitHub"
+      ],
+      "url": "https://moneywithai.net/bots/help-center-updater/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Grok",
+    "Google Drive",
+    "Notion",
+    "Intercom",
+    "GitHub"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Drive folders",
+        "tool": "Google Drive"
+      },
+      {
+        "label": "Notion",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "business-context-interviewer",
+        "name": "Business Context Interviewer",
+        "does": "Captures context",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "drive-wiki-rebuilder",
+        "name": "Drive Wiki Rebuilder",
+        "does": "Builds wiki",
+        "tools": [
+          "Google Drive",
+          "Notion"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "notion-memory-keeper",
+        "name": "Notion Memory Keeper",
+        "does": "Keeps memory",
+        "tools": [
+          "Notion"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "help-center-updater",
+        "name": "Help Center Updater",
+        "does": "Publishes help",
+        "tools": [
+          "Intercom",
+          "GitHub"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Approve pages",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Wiki",
+      "Help articles"
+    ]
+  },
+  "steps": [
+    "Run the interview.",
+    "Rebuild one messy folder.",
+    "Assign owners.",
+    "Publish customer-facing pieces."
+  ],
+  "guardrails": [
+    "Connect only accounts you own and give the least access needed.",
+    "Handle customer and candidate data under your local privacy rules."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 101,
+    "score": 69,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/company-knowledge-base/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/company-knowledge-base.json"
+}

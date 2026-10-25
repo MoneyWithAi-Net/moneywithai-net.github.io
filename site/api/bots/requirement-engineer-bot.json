@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "requirement-engineer-bot",
+    "name": "Requirement Engineer Bot",
+    "category": "Client Services",
+    "sub_use_case": "Client delivery",
+    "summary": "Turns a project brief into a structured requirements spec a developer or bot can build from.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "FishxCD",
+      "url": "https://x.com/FishxCD"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/FishxCD/status/2103810502510215640"
+    },
+    "official_share_url": "https://x.ai/bot/5KADFS8AIIDOlow5tS34Z",
+    "found_via": "https://grokbot101.org/bots/requirement-engineer/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/requirement-engineer-bot/",
+    "json_url": "https://moneywithai.net/api/bots/requirement-engineer-bot.json"
+  }
+}

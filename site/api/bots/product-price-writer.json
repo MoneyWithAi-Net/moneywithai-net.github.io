@@ -1,0 +1,30 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "product-price-writer",
+    "name": "Product Price Writer",
+    "category": "E-Commerce",
+    "sub_use_case": "Store operations",
+    "summary": "Reads product costs from Google Sheets and suggests retail prices for each Shopify product and variant.",
+    "tools": [
+      "Google Sheets",
+      "Shopify"
+    ],
+    "creator": {
+      "handle": "LBallz77283",
+      "url": "https://x.com/LBallz77283"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/LBallz77283/status/2093526095769350349"
+    },
+    "official_share_url": null,
+    "found_via": "https://botdirectory.ai/bots/product-price-writer/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/product-price-writer/",
+    "json_url": "https://moneywithai.net/api/bots/product-price-writer.json"
+  }
+}

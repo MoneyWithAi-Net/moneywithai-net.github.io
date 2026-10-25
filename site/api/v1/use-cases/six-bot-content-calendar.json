@@ -1,0 +1,206 @@
+{
+  "type": "use-case",
+  "slug": "six-bot-content-calendar",
+  "title": "Run a Content Calendar with a Six-Bot Team",
+  "category": "Content and Marketing",
+  "category_slug": "content-and-marketing",
+  "money_model": "Creator income",
+  "difficulty": "Advanced",
+  "summary": "Ideas, scripts, shorts, fact-checked posts and cross-posting run as one team; you review once a day.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes income from sponsors, ads or products that grows with audience.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Consistent output without hiring a team.",
+    "Fan tracking shows which posts build loyalty."
+  ],
+  "who_its_for": [
+    "Solo creators and founders who publish daily."
+  ],
+  "stack": [
+    {
+      "bot": "content-idea-generator",
+      "name": "Content Idea Generator",
+      "role": "Suggests ideas from your content and trends.",
+      "creator": "farzyness",
+      "tools": [
+        "YouTube",
+        "Google Trends"
+      ],
+      "url": "https://moneywithai.net/bots/content-idea-generator/",
+      "official_share_url": null
+    },
+    {
+      "bot": "scripter-orc",
+      "name": "Scripter Orc",
+      "role": "Writes scripts in your channel's style.",
+      "creator": "orcdev",
+      "tools": [
+        "Notion"
+      ],
+      "url": "https://moneywithai.net/bots/scripter-orc/",
+      "official_share_url": null
+    },
+    {
+      "bot": "shorty",
+      "name": "Shorty",
+      "role": "Cuts Shorts from long videos.",
+      "creator": "farzyness",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/shorty/",
+      "official_share_url": "https://x.ai/bot/32fHIBw9Yz-s_o35KycGX"
+    },
+    {
+      "bot": "x-posting-curator",
+      "name": "X Posting Curator",
+      "role": "Sources, hooks and fact-checks X posts.",
+      "creator": "PixelRainbowNFT",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/x-posting-curator/",
+      "official_share_url": "https://x.ai/bot/fJoloWNDTl7ee9VwxNJxH"
+    },
+    {
+      "bot": "cross-platform-publisher",
+      "name": "Cross-Platform Publisher",
+      "role": "Publishes to every platform at once.",
+      "creator": "jackfriks",
+      "tools": [
+        "PostBridge"
+      ],
+      "url": "https://moneywithai.net/bots/cross-platform-publisher/",
+      "official_share_url": null
+    },
+    {
+      "bot": "x-top-100-fans-weekly",
+      "name": "X Top 100 Fans (Weekly)",
+      "role": "Ranks your top fans weekly.",
+      "creator": "AdamLowisz",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/x-top-100-fans-weekly/",
+      "official_share_url": "https://x.ai/bot/HU7XArfGhUgLnzVcr7neB"
+    }
+  ],
+  "tools": [
+    "YouTube",
+    "Google Trends",
+    "Notion",
+    "Grok",
+    "PostBridge"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Your channel",
+        "tool": "YouTube"
+      },
+      {
+        "label": "Trends",
+        "tool": "Google Trends"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "content-idea-generator",
+        "name": "Content Idea Generator",
+        "does": "Suggests ideas",
+        "tools": [
+          "YouTube",
+          "Google Trends"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "scripter-orc",
+        "name": "Scripter Orc",
+        "does": "Writes scripts",
+        "tools": [
+          "Notion"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "shorty",
+        "name": "Shorty",
+        "does": "Cuts Shorts",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "x-posting-curator",
+        "name": "X Posting Curator",
+        "does": "Fact-checks posts",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "cross-platform-publisher",
+        "name": "Cross-Platform Publisher",
+        "does": "Publishes everywhere",
+        "tools": [
+          "PostBridge"
+        ]
+      },
+      {
+        "order": 6,
+        "by": "x-top-100-fans-weekly",
+        "name": "X Top 100 Fans (Weekly)",
+        "does": "Ranks top fans",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 7,
+        "by": "you",
+        "name": "You",
+        "does": "Review and approve",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Daily posts and clips",
+      "Fan list"
+    ]
+  },
+  "steps": [
+    "Set your themes and posting rhythm.",
+    "Approve ideas each Monday.",
+    "Review scripts, clips and posts daily.",
+    "Thank top fans weekly."
+  ],
+  "guardrails": [
+    "Nothing is posted publicly without your OK.",
+    "Check every number and claim before it goes public."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 93,
+    "score": 76,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 3,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/six-bot-content-calendar/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/six-bot-content-calendar.json"
+}

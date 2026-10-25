@@ -1,0 +1,46 @@
+{
+  "type": "bot",
+  "slug": "multi-source-support-agent",
+  "name": "Multi Source Support Agent",
+  "category": "Customer Support",
+  "sub_use_case": "Ticket fixing",
+  "summary": "A support agent that answers from several knowledge bases and escalates to a human when unsure.",
+  "tools": [
+    "n8n",
+    "Gmail",
+    "Ollama",
+    "Slack",
+    "Supabase",
+    "Wikipedia"
+  ],
+  "creator": {
+    "handle": "Nev",
+    "url": "https://n8n.io/creators/nene/"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://n8n.io/workflows/19217/"
+  },
+  "official_share_url": null,
+  "found_via": "https://n8n.io/workflows/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/multi-source-support-agent/",
+  "json_url": "https://moneywithai.net/api/v1/bots/multi-source-support-agent.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/multilingual-support-desk/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 207,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

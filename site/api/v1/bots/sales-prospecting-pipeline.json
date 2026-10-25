@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "sales-prospecting-pipeline",
+  "name": "Sales Prospecting Pipeline",
+  "category": "Leads and Sales",
+  "sub_use_case": "Outbound prospecting",
+  "summary": "Builds a prospect pipeline for a market you name, logs it in HubSpot and drafts Gmail and LinkedIn outreach.",
+  "tools": [
+    "HubSpot",
+    "Gmail",
+    "LinkedIn"
+  ],
+  "creator": {
+    "handle": "BotDirectoryAI",
+    "url": "https://x.com/BotDirectoryAI"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/BotDirectoryAI/status/2095783224907563296"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/sales-prospecting-pipeline/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/sales-prospecting-pipeline/",
+  "json_url": "https://moneywithai.net/api/v1/bots/sales-prospecting-pipeline.json",
+  "use_cases": [],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 300,
+    "score": 36,
+    "money": 0,
+    "profile": 26,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

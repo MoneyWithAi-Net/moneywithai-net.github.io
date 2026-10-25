@@ -1,0 +1,42 @@
+{
+  "type": "bot",
+  "slug": "influencer-outreach-filter",
+  "name": "Influencer Outreach Filter",
+  "category": "Leads and Sales",
+  "sub_use_case": "Partnerships and sponsors",
+  "summary": "Filters influencers for a product campaign with Treg and drafts Gmail outreach tracked in Google Sheets.",
+  "tools": [
+    "Grok",
+    "Treg",
+    "Gmail",
+    "Google Sheets"
+  ],
+  "creator": {
+    "handle": "jasonzhou1993",
+    "url": "https://x.com/jasonzhou1993"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/jasonzhou1993/status/2092216190555091358"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/influencer-outreach-filter/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/influencer-outreach-filter/",
+  "json_url": "https://moneywithai.net/api/v1/bots/influencer-outreach-filter.json",
+  "use_cases": [],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 293,
+    "score": 36,
+    "money": 0,
+    "profile": 26,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

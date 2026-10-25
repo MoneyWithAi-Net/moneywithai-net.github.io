@@ -1,0 +1,42 @@
+{
+  "type": "bot",
+  "slug": "restaurant-phone-table-booker",
+  "name": "Restaurant Phone Table Booker",
+  "category": "Customer Support",
+  "sub_use_case": "Phone answering",
+  "summary": "Answers restaurant calls with a Vapi voice agent and books tables into a database.",
+  "tools": [
+    "n8n",
+    "Postgres"
+  ],
+  "creator": {
+    "handle": "Oneclick AI Squad",
+    "url": "https://n8n.io/creators/oneclick-ai/"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://n8n.io/workflows/5466/"
+  },
+  "official_share_url": null,
+  "found_via": "https://n8n.io/workflows/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/restaurant-phone-table-booker/",
+  "json_url": "https://moneywithai.net/api/v1/bots/restaurant-phone-table-booker.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/restaurant-orders-calls-recovery/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 218,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "type": "bot",
+  "slug": "inbox-to-asana",
+  "name": "Inbox to Asana",
+  "category": "Research and Ops",
+  "sub_use_case": "Inbox triage",
+  "summary": "Turns action items in a company Gmail inbox into Asana tasks so requests do not slip.",
+  "tools": [
+    "Gmail",
+    "Asana"
+  ],
+  "creator": {
+    "handle": "lennysan",
+    "url": "https://x.com/lennysan"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/lennysan/status/2095975395602710779"
+  },
+  "official_share_url": "https://x.ai/bot/Ka18PTTKUNtDDPg0HpYva",
+  "found_via": "https://botdirectory.ai/bots/inbox-to-asana/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/inbox-to-asana/",
+  "json_url": "https://moneywithai.net/api/v1/bots/inbox-to-asana.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/ceo-morning-ops/",
+    "https://moneywithai.net/use-cases/agency-inbox-to-projects/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 248,
+    "score": 73,
+    "money": 13,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

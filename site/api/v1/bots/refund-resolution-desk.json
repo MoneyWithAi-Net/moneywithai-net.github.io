@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "refund-resolution-desk",
+  "name": "Refund Resolution Desk",
+  "category": "Customer Support",
+  "sub_use_case": "Support triage",
+  "summary": "Checks routine refund requests in Plain against account context and prepares a resolution for you to approve.",
+  "tools": [
+    "Plain"
+  ],
+  "creator": {
+    "handle": "BotDirectoryAI",
+    "url": "https://x.com/BotDirectoryAI"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/BotDirectoryAI/status/2104348042279141557"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/refund-resolution-desk/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/refund-resolution-desk/",
+  "json_url": "https://moneywithai.net/api/v1/bots/refund-resolution-desk.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/support-desk-with-refund-gate/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 215,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

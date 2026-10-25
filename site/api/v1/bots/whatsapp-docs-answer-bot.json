@@ -1,0 +1,45 @@
+{
+  "type": "bot",
+  "slug": "whatsapp-docs-answer-bot",
+  "name": "WhatsApp Docs Answer Bot",
+  "category": "Customer Support",
+  "sub_use_case": "Chat and messaging support",
+  "summary": "A WhatsApp chatbot that answers from your own Google Drive documents for a business help line.",
+  "tools": [
+    "n8n",
+    "Google Drive",
+    "OpenAI",
+    "Qdrant",
+    "WhatsApp"
+  ],
+  "creator": {
+    "handle": "Davide Boizza",
+    "url": "https://n8n.io/creators/n3witalia/"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://n8n.io/workflows/2845/"
+  },
+  "official_share_url": null,
+  "found_via": "https://n8n.io/workflows/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/whatsapp-docs-answer-bot/",
+  "json_url": "https://moneywithai.net/api/v1/bots/whatsapp-docs-answer-bot.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/whatsapp-support-bot-service/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 233,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

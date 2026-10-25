@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "peekaboo-mac",
+  "name": "Peekaboo Mac",
+  "category": "Leads and Sales",
+  "sub_use_case": "Outbound prospecting",
+  "summary": "Runs outbound with the tools you already use: lists, email, LinkedIn, replies and meetings.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "brandon_ai",
+    "url": "https://x.com/brandon_ai"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/brandon_ai/status/2093410540559470920"
+  },
+  "official_share_url": "https://x.ai/bot/zY0fbKG9UqTMWIu1NcudB",
+  "found_via": "https://botdirectory.ai/bots/peekaboo-mac/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/peekaboo-mac/",
+  "json_url": "https://moneywithai.net/api/v1/bots/peekaboo-mac.json",
+  "use_cases": [],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 283,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

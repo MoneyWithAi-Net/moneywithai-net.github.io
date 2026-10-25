@@ -1,0 +1,43 @@
+{
+  "type": "bot",
+  "slug": "competitor-ad-watch",
+  "name": "Competitor Ad Watch",
+  "category": "Research and Ops",
+  "sub_use_case": "Competitor intel",
+  "summary": "Watches competitors' ads through Adlicio and posts new creatives and angles to Slack.",
+  "tools": [
+    "Adlicio",
+    "Slack"
+  ],
+  "creator": {
+    "handle": "daniel-ddtech",
+    "url": "https://botdirectory.ai/bots/competitor-ad-watch/"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://botdirectory.ai/bots/competitor-ad-watch/"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/competitor-ad-watch/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/competitor-ad-watch/",
+  "json_url": "https://moneywithai.net/api/v1/bots/competitor-ad-watch.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/competitor-price-and-drop-watch/",
+    "https://moneywithai.net/use-cases/competitor-intel-subscription/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 106,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

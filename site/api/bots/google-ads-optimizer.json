@@ -1,0 +1,30 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "google-ads-optimizer",
+    "name": "Google Ads Optimizer",
+    "category": "Content and Marketing",
+    "sub_use_case": "Paid ads",
+    "summary": "Runs a daily scheduled review that keeps improving your Google Ads account.",
+    "tools": [
+      "Cursor",
+      "Google Ads"
+    ],
+    "creator": {
+      "handle": "codyschneider",
+      "url": "https://x.com/codyschneider"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/codyschneider/status/2089729039158088042"
+    },
+    "official_share_url": null,
+    "found_via": "https://botdirectory.ai/bots/google-ads-optimizer/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/google-ads-optimizer/",
+    "json_url": "https://moneywithai.net/api/bots/google-ads-optimizer.json"
+  }
+}

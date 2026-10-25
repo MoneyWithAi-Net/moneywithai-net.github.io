@@ -1,0 +1,166 @@
+{
+  "type": "use-case",
+  "slug": "creator-sponsor-sales-desk",
+  "title": "Run a Sponsor Sales Desk for Your Channel or Newsletter",
+  "category": "Leads and Sales",
+  "category_slug": "leads-and-sales",
+  "money_model": "Creator income",
+  "difficulty": "Beginner",
+  "summary": "Score sponsor emails, price the deal from real numbers, reply with a rate and invoice once it runs.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you already get some inbound brand interest.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Legit sponsors get a fast, confident answer.",
+    "Pricing from real view counts avoids underselling."
+  ],
+  "who_its_for": [
+    "Creators, podcasters and newsletter owners getting brand emails."
+  ],
+  "stack": [
+    {
+      "bot": "sponsor-inbound-scout",
+      "name": "Sponsor Inbound Scout",
+      "role": "Flags real sponsor emails and screens out scams.",
+      "creator": "startupideaspod",
+      "tools": [
+        "Gmail"
+      ],
+      "url": "https://moneywithai.net/bots/sponsor-inbound-scout/",
+      "official_share_url": null
+    },
+    {
+      "bot": "sponsorship-negotiator",
+      "name": "Sponsorship Negotiator",
+      "role": "Researches the brand and drafts a rate reply.",
+      "creator": "AlexFinn",
+      "tools": [
+        "Gmail"
+      ],
+      "url": "https://moneywithai.net/bots/sponsorship-negotiator/",
+      "official_share_url": null
+    },
+    {
+      "bot": "cpm",
+      "name": "CPM",
+      "role": "Prices the deal from public view counts.",
+      "creator": "kostahantzis",
+      "tools": [
+        "Instagram",
+        "TikTok"
+      ],
+      "url": "https://moneywithai.net/bots/cpm/",
+      "official_share_url": "https://x.ai/bot/GwmXIfLuPPIPf2hGX2Txf"
+    },
+    {
+      "bot": "invoice-hunter",
+      "name": "Invoice Hunter",
+      "role": "Chases the invoice after the post runs.",
+      "creator": "scheemunai",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/invoice-hunter/",
+      "official_share_url": "https://x.ai/bot/-kO6HrXokJZANVwUOMZO9"
+    }
+  ],
+  "tools": [
+    "Gmail",
+    "Instagram",
+    "TikTok",
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Business inbox",
+        "tool": "Gmail"
+      },
+      {
+        "label": "Your audience numbers",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "sponsor-inbound-scout",
+        "name": "Sponsor Inbound Scout",
+        "does": "Flags real sponsor emails",
+        "tools": [
+          "Gmail"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "sponsorship-negotiator",
+        "name": "Sponsorship Negotiator",
+        "does": "Drafts the rate reply",
+        "tools": [
+          "Gmail"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "cpm",
+        "name": "CPM",
+        "does": "Prices the deal",
+        "tools": [
+          "Instagram",
+          "TikTok"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "invoice-hunter",
+        "name": "Invoice Hunter",
+        "does": "Chases payment",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Approve rates and deliverables",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Scored sponsor inbox",
+      "Priced replies",
+      "Paid invoices"
+    ]
+  },
+  "steps": [
+    "Connect only the inbox you use for business.",
+    "Set your floor price and deal types.",
+    "Review each flagged email and the drafted reply.",
+    "Send, deliver, then let the invoice follow-up run."
+  ],
+  "guardrails": [
+    "The bots never pay, sign or accept terms for you.",
+    "Every message and document stays a draft until you approve it."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 34,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/creator-sponsor-sales-desk/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/creator-sponsor-sales-desk.json"
+}

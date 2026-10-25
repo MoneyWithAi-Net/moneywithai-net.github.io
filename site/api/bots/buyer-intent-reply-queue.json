@@ -1,0 +1,30 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "buyer-intent-reply-queue",
+    "name": "Buyer Intent Reply Queue",
+    "category": "Leads and Sales",
+    "sub_use_case": "Outbound prospecting",
+    "summary": "Queues social posts that show buyer intent from HotMention, with draft replies sent to Slack.",
+    "tools": [
+      "HotMention",
+      "Slack"
+    ],
+    "creator": {
+      "handle": "alexandr-belogubov",
+      "url": "https://botdirectory.ai/bots/buyer-intent-reply-queue/"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://botdirectory.ai/bots/buyer-intent-reply-queue/"
+    },
+    "official_share_url": null,
+    "found_via": "https://botdirectory.ai/bots/buyer-intent-reply-queue/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/buyer-intent-reply-queue/",
+    "json_url": "https://moneywithai.net/api/bots/buyer-intent-reply-queue.json"
+  }
+}

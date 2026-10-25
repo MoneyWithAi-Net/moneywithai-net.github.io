@@ -1,0 +1,182 @@
+{
+  "type": "use-case",
+  "slug": "instagram-trend-to-sales",
+  "title": "Turn Instagram Trends into Posts That Sell",
+  "category": "Content and Marketing",
+  "category_slug": "content-and-marketing",
+  "money_model": "Grow sales",
+  "difficulty": "Beginner",
+  "summary": "Find what works in your niche, design on-brand versions, publish on schedule and shortlist warm engagers.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you already sell to an Instagram audience.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Posts based on proven formats.",
+    "Engagers become a lead list."
+  ],
+  "who_its_for": [
+    "Brands and coaches selling on Instagram."
+  ],
+  "stack": [
+    {
+      "bot": "instagram-idea-repurposer",
+      "name": "Instagram Idea Repurposer",
+      "role": "Finds top niche content and drafts versions.",
+      "creator": "Nick Saraev",
+      "tools": [
+        "n8n",
+        "Google Sheets",
+        "OpenAI"
+      ],
+      "url": "https://moneywithai.net/bots/instagram-idea-repurposer/",
+      "official_share_url": null
+    },
+    {
+      "bot": "social-design-agent",
+      "name": "Social Design Agent",
+      "role": "Designs on-brand carousels.",
+      "creator": "CONTENTDRIPS",
+      "tools": [
+        "ContentDrips",
+        "LinkedIn",
+        "Instagram"
+      ],
+      "url": "https://moneywithai.net/bots/social-design-agent/",
+      "official_share_url": null
+    },
+    {
+      "bot": "sheet-to-instagram-publisher",
+      "name": "Sheet to Instagram Publisher",
+      "role": "Publishes from a Google Sheet.",
+      "creator": "Onur",
+      "tools": [
+        "n8n",
+        "Facebook",
+        "Gemini",
+        "Google Sheets"
+      ],
+      "url": "https://moneywithai.net/bots/sheet-to-instagram-publisher/",
+      "official_share_url": null
+    },
+    {
+      "bot": "engagement-lead-finder",
+      "name": "Engagement Lead Finder",
+      "role": "Shortlists engagers who fit.",
+      "creator": "aferrari",
+      "tools": [
+        "Instagram"
+      ],
+      "url": "https://moneywithai.net/bots/engagement-lead-finder/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "n8n",
+    "Google Sheets",
+    "OpenAI",
+    "ContentDrips",
+    "LinkedIn",
+    "Instagram",
+    "Facebook",
+    "Gemini"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Niche accounts",
+        "tool": "Instagram"
+      },
+      {
+        "label": "Content sheet",
+        "tool": "Google Sheets"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "instagram-idea-repurposer",
+        "name": "Instagram Idea Repurposer",
+        "does": "Finds top content",
+        "tools": [
+          "n8n",
+          "Google Sheets",
+          "OpenAI"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "social-design-agent",
+        "name": "Social Design Agent",
+        "does": "Designs carousels",
+        "tools": [
+          "ContentDrips",
+          "LinkedIn",
+          "Instagram"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "sheet-to-instagram-publisher",
+        "name": "Sheet to Instagram Publisher",
+        "does": "Publishes posts",
+        "tools": [
+          "n8n",
+          "Facebook",
+          "Gemini",
+          "Google Sheets"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "engagement-lead-finder",
+        "name": "Engagement Lead Finder",
+        "does": "Shortlists engagers",
+        "tools": [
+          "Instagram"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Approve and reach out",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Scheduled posts",
+      "Warm lead shortlist"
+    ]
+  },
+  "steps": [
+    "Pick five accounts to learn from.",
+    "Approve designs weekly.",
+    "Schedule posts from the sheet.",
+    "Reach out by hand to the best engagers."
+  ],
+  "guardrails": [
+    "Do not reuse other people's images, words or likeness without permission.",
+    "Nothing is posted publicly without your OK.",
+    "Keep daily sending caps low and follow each platform's rules on automation."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 39,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/instagram-trend-to-sales/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/instagram-trend-to-sales.json"
+}

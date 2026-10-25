@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "plant-field-os",
+    "name": "Plant Field OS",
+    "category": "Leads and Sales",
+    "sub_use_case": "Sales-call support",
+    "summary": "A field sales cockpit with a daily plan, installed-base map, site audit and a leadership dashboard.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Quantumcowgirl1",
+      "url": "https://x.com/Quantumcowgirl1"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/Quantumcowgirl1/status/2101353721116426502"
+    },
+    "official_share_url": "https://x.ai/bot/rAdegh2szovJbQjFsdxYa",
+    "found_via": "https://grokbot101.org/bots/plant-field-os/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/plant-field-os/",
+    "json_url": "https://moneywithai.net/api/bots/plant-field-os.json"
+  }
+}

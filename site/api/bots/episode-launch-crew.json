@@ -1,0 +1,32 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "episode-launch-crew",
+    "name": "Episode Launch Crew",
+    "category": "Content and Marketing",
+    "sub_use_case": "Podcasts",
+    "summary": "Publishes approved podcast episodes to Castos and YouTube and posts launch notes to Slack.",
+    "tools": [
+      "Castos",
+      "Google Drive",
+      "YouTube",
+      "Slack"
+    ],
+    "creator": {
+      "handle": "elie2222",
+      "url": "https://botdirectory.ai/bots/episode-launch-crew/"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://botdirectory.ai/bots/episode-launch-crew/"
+    },
+    "official_share_url": null,
+    "found_via": "https://botdirectory.ai/bots/episode-launch-crew/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/episode-launch-crew/",
+    "json_url": "https://moneywithai.net/api/bots/episode-launch-crew.json"
+  }
+}

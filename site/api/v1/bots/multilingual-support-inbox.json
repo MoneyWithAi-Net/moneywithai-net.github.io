@@ -1,0 +1,44 @@
+{
+  "type": "bot",
+  "slug": "multilingual-support-inbox",
+  "name": "Multilingual Support Inbox",
+  "category": "Customer Support",
+  "sub_use_case": "Support triage",
+  "summary": "Handles support across WhatsApp and email with automatic translation and a shared log.",
+  "tools": [
+    "n8n",
+    "Google Sheets",
+    "Google Translate",
+    "WhatsApp"
+  ],
+  "creator": {
+    "handle": "Oneclick AI Squad",
+    "url": "https://n8n.io/creators/oneclick-ai/"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://n8n.io/workflows/5194/"
+  },
+  "official_share_url": null,
+  "found_via": "https://n8n.io/workflows/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/multilingual-support-inbox/",
+  "json_url": "https://moneywithai.net/api/v1/bots/multilingual-support-inbox.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/multilingual-support-desk/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 208,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

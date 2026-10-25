@@ -1,0 +1,42 @@
+{
+  "type": "bot",
+  "slug": "harvey-specter",
+  "name": "Harvey Specter",
+  "category": "Finance",
+  "sub_use_case": "SaaS spend",
+  "summary": "Negotiates deals, renewals and quotes by email for better price and terms, never signing or paying for you.",
+  "tools": [
+    "Grok",
+    "Gmail"
+  ],
+  "creator": {
+    "handle": "liam_fallen",
+    "url": "https://x.com/liam_fallen"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/liam_fallen/status/2093382733019939198"
+  },
+  "official_share_url": "https://x.ai/bot/lkkCqhC1jBFp6ouZOQd9m",
+  "found_via": "https://botdirectory.ai/bots/harvey-specter/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/harvey-specter/",
+  "json_url": "https://moneywithai.net/api/v1/bots/harvey-specter.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/vendor-and-contractor-negotiation/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 156,
+    "score": 83,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

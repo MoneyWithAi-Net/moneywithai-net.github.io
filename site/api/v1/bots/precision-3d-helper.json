@@ -27,5 +27,15 @@
   "use_cases": [
     "https://moneywithai.net/use-cases/maker-shop-quotes/"
   ],
-  "added_at": "2026-10-24T09:30:00.000Z"
+  "added_at": "2026-10-24T09:30:00.000Z",
+  "featured": {
+    "rank": 89,
+    "score": 87,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
 }

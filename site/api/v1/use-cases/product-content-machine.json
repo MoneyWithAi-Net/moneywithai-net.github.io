@@ -1,0 +1,188 @@
+{
+  "type": "use-case",
+  "slug": "product-content-machine",
+  "title": "Turn Product Listings into Content That Ranks",
+  "category": "E-Commerce",
+  "category_slug": "e-commerce",
+  "money_model": "Grow sales",
+  "difficulty": "Intermediate",
+  "summary": "Write blog posts from products, make images and 3D videos, and refresh pages that slip in search.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes organic traffic converts to orders over months.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "More pages for buyers to find.",
+    "Better visuals help conversion."
+  ],
+  "who_its_for": [
+    "Shopify store owners."
+  ],
+  "stack": [
+    {
+      "bot": "shopify-product-blog-writer",
+      "name": "Shopify Product Blog Writer",
+      "role": "Writes blog posts from listings.",
+      "creator": "Kumar Shivam",
+      "tools": [
+        "n8n",
+        "OpenAI",
+        "Shopify"
+      ],
+      "url": "https://moneywithai.net/bots/shopify-product-blog-writer/",
+      "official_share_url": null
+    },
+    {
+      "bot": "shopify-product-image-maker",
+      "name": "Shopify Product Image Maker",
+      "role": "Generates product images.",
+      "creator": "deAPI Team",
+      "tools": [
+        "n8n",
+        "Claude",
+        "Shopify"
+      ],
+      "url": "https://moneywithai.net/bots/shopify-product-image-maker/",
+      "official_share_url": null
+    },
+    {
+      "bot": "photo-to-3d-product-video",
+      "name": "Photo to 3D Product Video",
+      "role": "Makes 3D videos from photos.",
+      "creator": "InfyOm Technologies",
+      "tools": [
+        "n8n",
+        "Gmail",
+        "Google Drive",
+        "Google Sheets"
+      ],
+      "url": "https://moneywithai.net/bots/photo-to-3d-product-video/",
+      "official_share_url": null
+    },
+    {
+      "bot": "seo-improver",
+      "name": "SEO Improver",
+      "role": "Fixes pages losing impressions.",
+      "creator": "elie2222",
+      "tools": [
+        "GitHub",
+        "DataForSEO",
+        "Google Search Console"
+      ],
+      "url": "https://moneywithai.net/bots/seo-improver/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "n8n",
+    "OpenAI",
+    "Shopify",
+    "Claude",
+    "Gmail",
+    "Google Drive",
+    "Google Sheets",
+    "GitHub",
+    "DataForSEO",
+    "Google Search Console"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Product listings",
+        "tool": "Shopify"
+      },
+      {
+        "label": "Search data",
+        "tool": "Google Search Console"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "shopify-product-blog-writer",
+        "name": "Shopify Product Blog Writer",
+        "does": "Writes product posts",
+        "tools": [
+          "n8n",
+          "OpenAI",
+          "Shopify"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "shopify-product-image-maker",
+        "name": "Shopify Product Image Maker",
+        "does": "Makes images",
+        "tools": [
+          "n8n",
+          "Claude",
+          "Shopify"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "photo-to-3d-product-video",
+        "name": "Photo to 3D Product Video",
+        "does": "Makes 3D videos",
+        "tools": [
+          "n8n",
+          "Gmail",
+          "Google Drive",
+          "Google Sheets"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "seo-improver",
+        "name": "SEO Improver",
+        "does": "Refreshes pages",
+        "tools": [
+          "GitHub",
+          "DataForSEO",
+          "Google Search Console"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Approve content",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Product blog posts",
+      "Images and videos",
+      "Refreshed pages"
+    ]
+  },
+  "steps": [
+    "Pick your top 20 products.",
+    "Approve posts before publishing.",
+    "Add images and videos.",
+    "Let the improver run biweekly."
+  ],
+  "guardrails": [
+    "Check every number and claim before it goes public.",
+    "Do not reuse other people's images, words or likeness without permission."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 81,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/product-content-machine/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/product-content-machine.json"
+}

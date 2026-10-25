@@ -1,0 +1,167 @@
+{
+  "type": "use-case",
+  "slug": "sell-editing-to-youtubers",
+  "title": "Sell Video Editing to YouTubers Who Are Growing",
+  "category": "Leads and Sales",
+  "category_slug": "leads-and-sales",
+  "money_model": "Sell a service",
+  "difficulty": "Intermediate",
+  "summary": "Find channels in a niche, show them clips cut from their own outlier videos and pitch a monthly editing package.",
+  "money_potential": {
+    "tier": 3,
+    "symbol": "$$$",
+    "label": "High",
+    "basis": "Assumes a monthly package per channel, so each client repeats.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "A free sample made from their content is hard to ignore.",
+    "Monthly packages give steady income."
+  ],
+  "who_its_for": [
+    "Video editors and small post-production studios."
+  ],
+  "stack": [
+    {
+      "bot": "youtube-creator-outreach-finder",
+      "name": "YouTube Creator Outreach Finder",
+      "role": "Finds YouTube channels and verified emails in a niche.",
+      "creator": "Yaron Been",
+      "tools": [
+        "n8n",
+        "Gmail"
+      ],
+      "url": "https://moneywithai.net/bots/youtube-creator-outreach-finder/",
+      "official_share_url": null
+    },
+    {
+      "bot": "youtube-outlier-finder",
+      "name": "YouTube Outlier Finder",
+      "role": "Spots each channel's best-performing videos.",
+      "creator": "petergyang",
+      "tools": [
+        "YouTube"
+      ],
+      "url": "https://moneywithai.net/bots/youtube-outlier-finder/",
+      "official_share_url": null
+    },
+    {
+      "bot": "shorty",
+      "name": "Shorty",
+      "role": "Cuts sample Shorts from those videos.",
+      "creator": "farzyness",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/shorty/",
+      "official_share_url": "https://x.ai/bot/32fHIBw9Yz-s_o35KycGX"
+    },
+    {
+      "bot": "best-video-editor",
+      "name": "Best Video Editor",
+      "role": "Helps finish review-ready edits once hired.",
+      "creator": "X",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/best-video-editor/",
+      "official_share_url": "https://x.ai/bot/Do4CujP_kqnnc1KYnpOfI"
+    }
+  ],
+  "tools": [
+    "n8n",
+    "Gmail",
+    "YouTube",
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "A niche",
+        "tool": null
+      },
+      {
+        "label": "Public channels",
+        "tool": "YouTube"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "youtube-creator-outreach-finder",
+        "name": "YouTube Creator Outreach Finder",
+        "does": "Finds channels and emails",
+        "tools": [
+          "n8n",
+          "Gmail"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "youtube-outlier-finder",
+        "name": "YouTube Outlier Finder",
+        "does": "Spots outlier videos",
+        "tools": [
+          "YouTube"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "shorty",
+        "name": "Shorty",
+        "does": "Cuts sample Shorts",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "best-video-editor",
+        "name": "Best Video Editor",
+        "does": "Finishes client edits",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Pitch and deliver edits",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Sample clips",
+      "Pitches sent",
+      "Monthly editing clients"
+    ]
+  },
+  "steps": [
+    "Pick a niche you know.",
+    "Find ten channels and their outliers.",
+    "Cut one sample per channel and pitch it privately.",
+    "Deliver monthly edits for clients who sign."
+  ],
+  "guardrails": [
+    "Do not reuse other people's images, words or likeness without permission.",
+    "Check local rules on cold outreach, calls and texts before contacting anyone.",
+    "Every message and document stays a draft until you approve it."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 11,
+    "score": 92,
+    "money": 40,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/sell-editing-to-youtubers/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/sell-editing-to-youtubers.json"
+}

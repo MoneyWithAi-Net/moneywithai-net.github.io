@@ -1,0 +1,42 @@
+{
+  "type": "bot",
+  "slug": "video-editor",
+  "name": "Video Editor",
+  "category": "Content and Marketing",
+  "sub_use_case": "Video production",
+  "summary": "Edits footage for creators and small teams into shorts, titles, thumbnails and product videos.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "john_a_isaacson",
+    "url": null
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/john_a_isaacson/status/2107037040445661621"
+  },
+  "official_share_url": "https://x.ai/bot/TUBFpf9exUG-qi7RYKZLs",
+  "found_via": "https://grokbot101.org/bots/video-editor/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/video-editor/",
+  "json_url": "https://moneywithai.net/api/v1/bots/video-editor.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/podcast-production-service/",
+    "https://moneywithai.net/use-cases/faceless-youtube-channel/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 60,
+    "score": 90,
+    "money": 40,
+    "profile": 24,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

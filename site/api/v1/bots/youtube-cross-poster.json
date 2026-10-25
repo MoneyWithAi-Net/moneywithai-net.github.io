@@ -1,0 +1,40 @@
+{
+  "type": "bot",
+  "slug": "youtube-cross-poster",
+  "name": "YouTube Cross Poster",
+  "category": "Content and Marketing",
+  "sub_use_case": "Brand social",
+  "summary": "Reposts each new YouTube video to Facebook and Instagram with captions written for each platform.",
+  "tools": [
+    "n8n",
+    "OpenAI"
+  ],
+  "creator": {
+    "handle": "Yaron Been",
+    "url": "https://n8n.io/creators/yaron-nofluff/"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://n8n.io/workflows/4478/"
+  },
+  "official_share_url": null,
+  "found_via": "https://n8n.io/workflows/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/youtube-cross-poster/",
+  "json_url": "https://moneywithai.net/api/v1/bots/youtube-cross-poster.json",
+  "use_cases": [],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 307,
+    "score": 36,
+    "money": 0,
+    "profile": 26,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

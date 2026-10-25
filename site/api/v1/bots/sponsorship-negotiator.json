@@ -1,0 +1,44 @@
+{
+  "type": "bot",
+  "slug": "sponsorship-negotiator",
+  "name": "Sponsorship Negotiator",
+  "category": "Leads and Sales",
+  "sub_use_case": "Partnerships and sponsors",
+  "summary": "Checks business and sponsor inquiries in Gmail for legitimacy, researches the brand and drafts a rate reply.",
+  "tools": [
+    "Gmail"
+  ],
+  "creator": {
+    "handle": "AlexFinn",
+    "url": "https://x.com/AlexFinn"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/AlexFinn/status/2090939211159650633"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/sponsorship-negotiator/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/sponsorship-negotiator/",
+  "json_url": "https://moneywithai.net/api/v1/bots/sponsorship-negotiator.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/creator-sponsor-sales-desk/",
+    "https://moneywithai.net/use-cases/niche-newsletter-business/",
+    "https://moneywithai.net/use-cases/live-music-booking-agency/",
+    "https://moneywithai.net/use-cases/niche-ai-directory-business/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 133,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

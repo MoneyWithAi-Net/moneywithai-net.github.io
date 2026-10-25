@@ -1,0 +1,199 @@
+{
+  "type": "use-case",
+  "slug": "content-agency-delivery",
+  "title": "Deliver Content for Agency Clients on Time",
+  "category": "Client Services",
+  "category_slug": "client-services",
+  "money_model": "Sell a service",
+  "difficulty": "Intermediate",
+  "summary": "Pick up client requests, match each voice, fact-check and deliver with a clear lead in charge.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes monthly retainers per client.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "More clients per writer.",
+    "Fewer revision rounds."
+  ],
+  "who_its_for": [
+    "Content agencies and freelance writers."
+  ],
+  "stack": [
+    {
+      "bot": "content-request-fulfillment",
+      "name": "Content Request Fulfillment",
+      "role": "Picks up requests and drafts in Docs.",
+      "creator": "fatjoedavies",
+      "tools": [
+        "Gmail",
+        "Claude",
+        "Google Docs"
+      ],
+      "url": "https://moneywithai.net/bots/content-request-fulfillment/",
+      "official_share_url": null
+    },
+    {
+      "bot": "marketing-team-lead",
+      "name": "Marketing Team Lead",
+      "role": "Assigns and reviews work.",
+      "creator": "BotDirectoryAI",
+      "tools": [
+        "Meta"
+      ],
+      "url": "https://moneywithai.net/bots/marketing-team-lead/",
+      "official_share_url": "https://x.ai/bot/k-keodk82Xq6in9aQY_jT"
+    },
+    {
+      "bot": "voice-matched-content-pipeline",
+      "name": "Voice-Matched Content Pipeline",
+      "role": "Learns each client's voice.",
+      "creator": "siyabuilt",
+      "tools": [
+        "X",
+        "Grok",
+        "Claude",
+        "Notion",
+        "Whop"
+      ],
+      "url": "https://moneywithai.net/bots/voice-matched-content-pipeline/",
+      "official_share_url": null
+    },
+    {
+      "bot": "crosscheck",
+      "name": "Crosscheck",
+      "role": "Checks claims.",
+      "creator": "the_Arow_H",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/crosscheck/",
+      "official_share_url": "https://x.ai/bot/U4E-bNBzYlVcl_hMYf-kZ"
+    },
+    {
+      "bot": "invoice-hunter",
+      "name": "Invoice Hunter",
+      "role": "Chases invoices.",
+      "creator": "scheemunai",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/invoice-hunter/",
+      "official_share_url": "https://x.ai/bot/-kO6HrXokJZANVwUOMZO9"
+    }
+  ],
+  "tools": [
+    "Gmail",
+    "Claude",
+    "Google Docs",
+    "Meta",
+    "X",
+    "Grok",
+    "Notion",
+    "Whop"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Client email",
+        "tool": "Gmail"
+      },
+      {
+        "label": "Docs",
+        "tool": "Google Docs"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "content-request-fulfillment",
+        "name": "Content Request Fulfillment",
+        "does": "Drafts requests",
+        "tools": [
+          "Gmail",
+          "Claude",
+          "Google Docs"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "marketing-team-lead",
+        "name": "Marketing Team Lead",
+        "does": "Assigns work",
+        "tools": [
+          "Meta"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "voice-matched-content-pipeline",
+        "name": "Voice-Matched Content Pipeline",
+        "does": "Matches voice",
+        "tools": [
+          "X",
+          "Grok",
+          "Claude",
+          "Notion",
+          "Whop"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "crosscheck",
+        "name": "Crosscheck",
+        "does": "Checks claims",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "invoice-hunter",
+        "name": "Invoice Hunter",
+        "does": "Chases invoices",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 6,
+        "by": "you",
+        "name": "You",
+        "does": "Approve and deliver",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Delivered content",
+      "Paid invoices"
+    ]
+  },
+  "steps": [
+    "Set a request inbox per client.",
+    "Approve every draft.",
+    "Deliver on a set day.",
+    "Invoice monthly."
+  ],
+  "guardrails": [
+    "Check every number and claim before it goes public.",
+    "Every message and document stays a draft until you approve it."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 48,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/content-agency-delivery/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/content-agency-delivery.json"
+}

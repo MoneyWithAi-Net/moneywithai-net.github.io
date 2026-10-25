@@ -1,0 +1,42 @@
+{
+  "type": "bot",
+  "slug": "x-posting-curator",
+  "name": "X Posting Curator",
+  "category": "Content and Marketing",
+  "sub_use_case": "X posting",
+  "summary": "An X growth team in one bot: sourcing, hooks, fact-checking and your approval on every post.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "PixelRainbowNFT",
+    "url": "https://x.com/PixelRainbowNFT"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/PixelRainbowNFT/status/2108638163425972316"
+  },
+  "official_share_url": "https://x.ai/bot/fJoloWNDTl7ee9VwxNJxH",
+  "found_via": "https://grokbot101.org/bots/x-posting-curator/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/x-posting-curator/",
+  "json_url": "https://moneywithai.net/api/v1/bots/x-posting-curator.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/six-bot-content-calendar/",
+    "https://moneywithai.net/use-cases/x-ghostwriting-agency/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 37,
+    "score": 93,
+    "money": 40,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 3,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

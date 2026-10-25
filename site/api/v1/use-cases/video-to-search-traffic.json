@@ -1,0 +1,187 @@
+{
+  "type": "use-case",
+  "slug": "video-to-search-traffic",
+  "title": "Turn Every Video into Search and Answer-Engine Traffic",
+  "category": "Content and Marketing",
+  "category_slug": "content-and-marketing",
+  "money_model": "Grow sales",
+  "difficulty": "Intermediate",
+  "summary": "Each new video becomes an article, gets checked in AI answers, and older pages get refreshed when they slip.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes traffic converts to leads or sales on your site over time.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "One recording feeds several channels.",
+    "Search traffic compounds over months."
+  ],
+  "who_its_for": [
+    "Creators and businesses that already publish video."
+  ],
+  "stack": [
+    {
+      "bot": "aeo-content-autopilot",
+      "name": "AEO Content Autopilot",
+      "role": "Turns new videos into answer-ready articles.",
+      "creator": "ericosiu",
+      "tools": [
+        "YouTube",
+        "ClickFlow",
+        "Google Analytics",
+        "Ahrefs",
+        "Google Search Console"
+      ],
+      "url": "https://moneywithai.net/bots/aeo-content-autopilot/",
+      "official_share_url": null
+    },
+    {
+      "bot": "seo-improver",
+      "name": "SEO Improver",
+      "role": "Fixes pages losing impressions.",
+      "creator": "elie2222",
+      "tools": [
+        "GitHub",
+        "DataForSEO",
+        "Google Search Console"
+      ],
+      "url": "https://moneywithai.net/bots/seo-improver/",
+      "official_share_url": null
+    },
+    {
+      "bot": "presence-lab",
+      "name": "Presence Lab",
+      "role": "Checks how AI assistants mention you.",
+      "creator": "DELLIGHT_AI",
+      "tools": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "url": "https://moneywithai.net/bots/presence-lab/",
+      "official_share_url": null
+    },
+    {
+      "bot": "blog-to-x-posts",
+      "name": "Blog to X Posts",
+      "role": "Splits articles into X threads.",
+      "creator": "Shachi_Pratibha",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/blog-to-x-posts/",
+      "official_share_url": "https://x.ai/bot/zgQuwpX78Yn09ddfIJkzU"
+    }
+  ],
+  "tools": [
+    "YouTube",
+    "ClickFlow",
+    "Google Analytics",
+    "Ahrefs",
+    "Google Search Console",
+    "GitHub",
+    "DataForSEO",
+    "ChatGPT",
+    "Claude",
+    "Gemini",
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "New videos",
+        "tool": "YouTube"
+      },
+      {
+        "label": "Search data",
+        "tool": "Google Search Console"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "aeo-content-autopilot",
+        "name": "AEO Content Autopilot",
+        "does": "Writes articles from videos",
+        "tools": [
+          "YouTube",
+          "ClickFlow",
+          "Google Analytics",
+          "Ahrefs",
+          "Google Search Console"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "seo-improver",
+        "name": "SEO Improver",
+        "does": "Refreshes slipping pages",
+        "tools": [
+          "GitHub",
+          "DataForSEO",
+          "Google Search Console"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "presence-lab",
+        "name": "Presence Lab",
+        "does": "Checks AI answers",
+        "tools": [
+          "ChatGPT",
+          "Claude",
+          "Gemini"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "blog-to-x-posts",
+        "name": "Blog to X Posts",
+        "does": "Makes X threads",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Approve articles",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Articles",
+      "Refreshed pages",
+      "X threads"
+    ]
+  },
+  "steps": [
+    "Connect Search Console and your site.",
+    "Run one video through the article flow.",
+    "Check AI answers monthly.",
+    "Let the improver run every two weeks."
+  ],
+  "guardrails": [
+    "Check every number and claim before it goes public.",
+    "Review a sample by hand before you trust a scheduled run."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 79,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/video-to-search-traffic/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/video-to-search-traffic.json"
+}

@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "telegram-seo-blog-writer",
+  "name": "Telegram SEO Blog Writer",
+  "category": "Content and Marketing",
+  "sub_use_case": "SEO and AI search",
+  "summary": "Researches a topic with Perplexity and writes an SEO blog draft you request from Telegram.",
+  "tools": [
+    "n8n",
+    "OpenAI",
+    "Telegram"
+  ],
+  "creator": {
+    "handle": "HoangSP",
+    "url": "https://n8n.io/creators/hoangsp/"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://n8n.io/workflows/3672/"
+  },
+  "official_share_url": null,
+  "found_via": "https://n8n.io/workflows/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/telegram-seo-blog-writer/",
+  "json_url": "https://moneywithai.net/api/v1/bots/telegram-seo-blog-writer.json",
+  "use_cases": [],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 305,
+    "score": 36,
+    "money": 0,
+    "profile": 26,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "clip-bot",
+  "name": "Clip Bot",
+  "category": "Content and Marketing",
+  "sub_use_case": "Podcasts",
+  "summary": "Cuts captioned podcast highlights from YouTube with a source card, saved to your computer ready to post.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "ThisWeeknAI",
+    "url": "https://x.com/ThisWeeknAI"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/ThisWeeknAI/status/2093465404303720846"
+  },
+  "official_share_url": "https://x.ai/bot/Vk0cnF2c364QxNv-Xip1M",
+  "found_via": "https://botdirectory.ai/bots/clip-bot/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/clip-bot/",
+  "json_url": "https://moneywithai.net/api/v1/bots/clip-bot.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/podcast-everywhere-pipeline/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 145,
+    "score": 83,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

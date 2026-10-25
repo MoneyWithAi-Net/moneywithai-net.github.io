@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "slack-stand-in",
+  "name": "Slack Stand-In",
+  "category": "Customer Support",
+  "sub_use_case": "Support triage",
+  "summary": "Covers a Slack channel by answering routine questions in your voice and passing on the rest.",
+  "tools": [
+    "Slack"
+  ],
+  "creator": {
+    "handle": "ericzakariasson",
+    "url": "https://x.com/ericzakariasson"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/ericzakariasson/status/2087258964131979423"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/slack-stand-in/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/slack-stand-in/",
+  "json_url": "https://moneywithai.net/api/v1/bots/slack-stand-in.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/after-hours-phone-and-chat/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 227,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

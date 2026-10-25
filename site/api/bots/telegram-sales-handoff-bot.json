@@ -1,0 +1,32 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "telegram-sales-handoff-bot",
+    "name": "Telegram Sales Handoff Bot",
+    "category": "Leads and Sales",
+    "sub_use_case": "Inbound qualification",
+    "summary": "A Telegram sales bot that qualifies inbound chats and hands warm leads to a human for the call.",
+    "tools": [
+      "n8n",
+      "OpenAI",
+      "Redis",
+      "Telegram"
+    ],
+    "creator": {
+      "handle": "Jimleuk",
+      "url": "https://n8n.io/creators/jimleuk/"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://n8n.io/workflows/3350/"
+    },
+    "official_share_url": null,
+    "found_via": "https://n8n.io/workflows/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/telegram-sales-handoff-bot/",
+    "json_url": "https://moneywithai.net/api/bots/telegram-sales-handoff-bot.json"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "marketing-context-collector",
+    "name": "Marketing Context Collector",
+    "category": "Content and Marketing",
+    "sub_use_case": "Analytics and monitoring",
+    "summary": "Builds a current marketing brief from Gmail, Slack, Notion, Analytics and HubSpot before you decide.",
+    "tools": [
+      "Gmail",
+      "Slack",
+      "Notion",
+      "Google Analytics",
+      "HubSpot",
+      "Google Ads"
+    ],
+    "creator": {
+      "handle": "codyschneider",
+      "url": "https://x.com/codyschneider"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/codyschneider/status/2089759262171967951"
+    },
+    "official_share_url": null,
+    "found_via": "https://botdirectory.ai/bots/marketing-context-collector/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/marketing-context-collector/",
+    "json_url": "https://moneywithai.net/api/bots/marketing-context-collector.json"
+  }
+}

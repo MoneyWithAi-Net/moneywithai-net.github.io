@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "situation-monitor",
+  "name": "Situation monitor",
+  "category": "Content and Marketing",
+  "sub_use_case": "Threads and articles",
+  "summary": "Turns what you save on X into a weekly roundup thread in your voice, held until you approve it.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "ChaseMc67",
+    "url": "https://x.com/ChaseMc67"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/ChaseMc67/status/2093878821078573520"
+  },
+  "official_share_url": "https://x.ai/bot/lkHayxdQjNzVVJIDh7qaF",
+  "found_via": "https://botdirectory.ai/bots/situation-monitor/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/situation-monitor/",
+  "json_url": "https://moneywithai.net/api/v1/bots/situation-monitor.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/niche-newsletter-business/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 168,
+    "score": 83,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

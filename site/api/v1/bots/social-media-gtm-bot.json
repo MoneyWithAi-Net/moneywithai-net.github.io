@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "social-media-gtm-bot",
+  "name": "Social Media GTM Bot",
+  "category": "Content and Marketing",
+  "sub_use_case": "Brand social",
+  "summary": "Acts as head of content across Instagram, TikTok, YouTube, X and LinkedIn, recycling winners and preparing comment-to-DM offers.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Grok_Hub_IO",
+    "url": "https://x.com/Grok_Hub_IO"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/Grok_Hub_IO/status/2093826224879747387"
+  },
+  "official_share_url": "https://x.ai/bot/rwdXTWNa0eGPFzyTWlRKJ",
+  "found_via": "https://botdirectory.ai/bots/social-media-gtm-bot/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/social-media-gtm-bot/",
+  "json_url": "https://moneywithai.net/api/v1/bots/social-media-gtm-bot.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/one-person-marketing-department/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 169,
+    "score": 83,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

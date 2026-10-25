@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "plan-precheck-bot",
+  "name": "Plan Precheck Bot",
+  "category": "Research and Ops",
+  "sub_use_case": "Construction office",
+  "summary": "Checks an uploaded plan set for likely issues and prepares markups for a licensed reviewer.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "TinaDS61",
+    "url": "https://x.com/TinaDS61"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/TinaDS61/status/2103338911821111325"
+  },
+  "official_share_url": "https://x.ai/bot/2AX61eyWkS5Z2JzMrgv7E",
+  "found_via": "https://grokbot101.org/bots/plan-precheck/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/plan-precheck-bot/",
+  "json_url": "https://moneywithai.net/api/v1/bots/plan-precheck-bot.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/construction-field-office/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 164,
+    "score": 83,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "type": "bot",
+  "slug": "receipt-scanner-expense-tracking",
+  "name": "Receipt Scanner / Expense Tracking",
+  "category": "Finance",
+  "sub_use_case": "Expense reports",
+  "summary": "Turns forwarded receipt emails and photos into line items in a Google Sheet, with files saved to Drive.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "limeunfiltered",
+    "url": "https://x.com/limeunfiltered"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/limeunfiltered/status/2093890810966339803"
+  },
+  "official_share_url": "https://x.ai/bot/qod4CrNQBlDIMm5wFYVQp",
+  "found_via": "https://botdirectory.ai/bots/receipt-scanner-expense-tracking/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/receipt-scanner-expense-tracking/",
+  "json_url": "https://moneywithai.net/api/v1/bots/receipt-scanner-expense-tracking.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/bookkeeping-cleanup-service/",
+    "https://moneywithai.net/use-cases/team-expense-reconcile/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 6,
+    "score": 100,
+    "money": 40,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

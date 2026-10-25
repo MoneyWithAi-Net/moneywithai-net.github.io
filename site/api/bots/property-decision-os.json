@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "property-decision-os",
+    "name": "Property Decision OS",
+    "category": "Research and Ops",
+    "sub_use_case": "Real estate analysis",
+    "summary": "Walks a buyer or small landlord through a property decision from listing to close and tenant selection.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Amervim",
+      "url": "https://x.com/Amervim"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/Amervim/status/2105949142426288483"
+    },
+    "official_share_url": "https://x.ai/bot/PD7LPOk0HP53QxxWWEN8R",
+    "found_via": "https://grokbot101.org/bots/property-decision-os/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/property-decision-os/",
+    "json_url": "https://moneywithai.net/api/bots/property-decision-os.json"
+  }
+}

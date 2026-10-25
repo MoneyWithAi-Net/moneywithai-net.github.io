@@ -1,0 +1,30 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "support-docs-sync",
+    "name": "Support Docs Sync",
+    "category": "Customer Support",
+    "sub_use_case": "Help center",
+    "summary": "Watches approved GitHub pull requests for UI changes and drafts the matching Intercom help-center updates.",
+    "tools": [
+      "Intercom",
+      "GitHub"
+    ],
+    "creator": {
+      "handle": "BotDirectoryAI",
+      "url": "https://x.com/BotDirectoryAI"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/BotDirectoryAI/status/2095460497042588104"
+    },
+    "official_share_url": null,
+    "found_via": "https://botdirectory.ai/bots/support-docs-sync/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/support-docs-sync/",
+    "json_url": "https://moneywithai.net/api/bots/support-docs-sync.json"
+  }
+}

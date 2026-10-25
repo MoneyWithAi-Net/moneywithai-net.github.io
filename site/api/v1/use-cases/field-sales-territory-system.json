@@ -1,0 +1,165 @@
+{
+  "type": "use-case",
+  "slug": "field-sales-territory-system",
+  "title": "Run a Field Sales Territory with a Daily Plan",
+  "category": "Leads and Sales",
+  "category_slug": "leads-and-sales",
+  "money_model": "Grow sales",
+  "difficulty": "Intermediate",
+  "summary": "Plan each day in the territory, prep visits, log follow-ups and keep the pipeline honest.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes commission or margin per account, so more visits convert to more orders.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "More good visits per day and fewer forgotten follow-ups.",
+    "Managers see the same picture as reps."
+  ],
+  "who_its_for": [
+    "Field reps and owners who sell in person."
+  ],
+  "stack": [
+    {
+      "bot": "plant-field-os",
+      "name": "Plant Field OS",
+      "role": "Builds the daily plan, base map and site audits.",
+      "creator": "Quantumcowgirl1",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/plant-field-os/",
+      "official_share_url": "https://x.ai/bot/rAdegh2szovJbQjFsdxYa"
+    },
+    {
+      "bot": "meeting-brief",
+      "name": "Meeting Brief",
+      "role": "Preps each visit.",
+      "creator": "Limok_igit",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/meeting-brief/",
+      "official_share_url": "https://x.ai/bot/JN9e1WggIKVWhCEZrySlj"
+    },
+    {
+      "bot": "post-call-assistant",
+      "name": "Post Call Assistant",
+      "role": "Drafts follow-ups after each visit.",
+      "creator": "itspriyaptl",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/post-call-assistant/",
+      "official_share_url": "https://x.ai/bot/xF12c5y4LVe7nf7IFguWI"
+    },
+    {
+      "bot": "deal-desk-autopilot",
+      "name": "Deal Desk Autopilot",
+      "role": "Flags stalled opportunities.",
+      "creator": "ericosiu",
+      "tools": [
+        "Gmail",
+        "Google Calendar"
+      ],
+      "url": "https://moneywithai.net/bots/deal-desk-autopilot/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Grok",
+    "Gmail",
+    "Google Calendar"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Account list",
+        "tool": null
+      },
+      {
+        "label": "Calendar",
+        "tool": "Google Calendar"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "plant-field-os",
+        "name": "Plant Field OS",
+        "does": "Plans the day",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "meeting-brief",
+        "name": "Meeting Brief",
+        "does": "Preps each visit",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "post-call-assistant",
+        "name": "Post Call Assistant",
+        "does": "Drafts follow-ups",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "deal-desk-autopilot",
+        "name": "Deal Desk Autopilot",
+        "does": "Flags stalled deals",
+        "tools": [
+          "Gmail",
+          "Google Calendar"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Visit customers",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Daily visit plans",
+      "Timely follow-ups",
+      "Cleaner pipeline"
+    ]
+  },
+  "steps": [
+    "Load your accounts and territory.",
+    "Follow the daily plan for a week.",
+    "Send follow-ups after each visit.",
+    "Review stalled deals every Friday."
+  ],
+  "guardrails": [
+    "Every message and document stays a draft until you approve it.",
+    "Connect only accounts you own and give the least access needed."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 62,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/field-sales-territory-system/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/field-sales-territory-system.json"
+}

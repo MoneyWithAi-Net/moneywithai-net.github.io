@@ -1,0 +1,42 @@
+{
+  "type": "bot",
+  "slug": "last30days",
+  "name": "last30days",
+  "category": "Research and Ops",
+  "sub_use_case": "Market notes",
+  "summary": "Researches what people actually said about any topic over the last 30 days across social and the web.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "mvanhorn",
+    "url": "https://x.com/mvanhorn"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/mvanhorn/status/2093466618718245198"
+  },
+  "official_share_url": "https://x.ai/bot/ANv3NrqPfRcS9PdXku7h8",
+  "found_via": "https://botdirectory.ai/bots/last30days/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/last30days/",
+  "json_url": "https://moneywithai.net/api/v1/bots/last30days.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/idea-validation-sprint/",
+    "https://moneywithai.net/use-cases/niche-ai-directory-business/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 250,
+    "score": 73,
+    "money": 13,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

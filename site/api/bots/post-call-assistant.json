@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "post-call-assistant",
+    "name": "Post Call Assistant",
+    "category": "Client Services",
+    "sub_use_case": "Meetings and follow-up",
+    "summary": "After each meeting, drops your to-dos and a follow-up draft without sending anything.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "itspriyaptl",
+      "url": "https://x.com/itspriyaptl"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/itspriyaptl/status/2093389586864988661"
+    },
+    "official_share_url": "https://x.ai/bot/xF12c5y4LVe7nf7IFguWI",
+    "found_via": "https://botdirectory.ai/bots/post-call-assistant/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/post-call-assistant/",
+    "json_url": "https://moneywithai.net/api/bots/post-call-assistant.json"
+  }
+}

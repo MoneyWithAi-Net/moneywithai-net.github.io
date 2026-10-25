@@ -1,0 +1,195 @@
+{
+  "type": "use-case",
+  "slug": "listing-marketing-for-agents",
+  "title": "Market Property Listings with Video and Fast Follow-Up",
+  "category": "Leads and Sales",
+  "category_slug": "leads-and-sales",
+  "money_model": "Grow sales",
+  "difficulty": "Intermediate",
+  "summary": "Make listing videos and carousels, answer rental and buyer leads, and qualify them by text.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes commission per closed deal.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Listings get more attention.",
+    "Leads get answered in minutes."
+  ],
+  "who_its_for": [
+    "Real estate agents and property managers."
+  ],
+  "stack": [
+    {
+      "bot": "listing-video-maker",
+      "name": "Listing Video Maker",
+      "role": "Creates listing videos from records.",
+      "creator": "Orshot",
+      "tools": [
+        "n8n",
+        "Airtable",
+        "Gmail",
+        "OpenAI"
+      ],
+      "url": "https://moneywithai.net/bots/listing-video-maker/",
+      "official_share_url": null
+    },
+    {
+      "bot": "carousel-publisher",
+      "name": "Carousel Publisher",
+      "role": "Builds and queues carousels.",
+      "creator": "postnitro",
+      "tools": [
+        "PostNitro",
+        "LinkedIn",
+        "Instagram",
+        "Threads",
+        "TikTok"
+      ],
+      "url": "https://moneywithai.net/bots/carousel-publisher/",
+      "official_share_url": null
+    },
+    {
+      "bot": "rentals",
+      "name": "RENTALS",
+      "role": "Answers Marketplace leads.",
+      "creator": "HandsomeHenry6",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/rentals/",
+      "official_share_url": "https://x.ai/bot/JrnQAM0z-7SNI9UtIO3-Z"
+    },
+    {
+      "bot": "sms-property-lead-qualifier",
+      "name": "SMS Property Lead Qualifier",
+      "role": "Qualifies leads by SMS.",
+      "creator": "Robert Breen",
+      "tools": [
+        "n8n",
+        "Google Sheets",
+        "OpenAI",
+        "Postgres",
+        "Twilio"
+      ],
+      "url": "https://moneywithai.net/bots/sms-property-lead-qualifier/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "n8n",
+    "Airtable",
+    "Gmail",
+    "OpenAI",
+    "PostNitro",
+    "LinkedIn",
+    "Instagram",
+    "Threads",
+    "TikTok",
+    "Grok",
+    "Google Sheets",
+    "Postgres",
+    "Twilio"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Listings",
+        "tool": "Airtable"
+      },
+      {
+        "label": "SMS",
+        "tool": "Twilio"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "listing-video-maker",
+        "name": "Listing Video Maker",
+        "does": "Makes listing videos",
+        "tools": [
+          "n8n",
+          "Airtable",
+          "Gmail",
+          "OpenAI"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "carousel-publisher",
+        "name": "Carousel Publisher",
+        "does": "Posts carousels",
+        "tools": [
+          "PostNitro",
+          "LinkedIn",
+          "Instagram",
+          "Threads",
+          "TikTok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "rentals",
+        "name": "RENTALS",
+        "does": "Answers leads",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "sms-property-lead-qualifier",
+        "name": "SMS Property Lead Qualifier",
+        "does": "Qualifies by SMS",
+        "tools": [
+          "n8n",
+          "Google Sheets",
+          "OpenAI",
+          "Postgres",
+          "Twilio"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Show and close",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Listing videos",
+      "Qualified leads"
+    ]
+  },
+  "steps": [
+    "Add listings to the base.",
+    "Approve videos and posts.",
+    "Let the desk answer leads.",
+    "Call qualified leads."
+  ],
+  "guardrails": [
+    "Check local rules on cold outreach, calls and texts before contacting anyone.",
+    "Nothing is posted publicly without your OK.",
+    "Handle customer and candidate data under your local privacy rules."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 53,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/listing-marketing-for-agents/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/listing-marketing-for-agents.json"
+}

@@ -1,0 +1,42 @@
+{
+  "type": "bot",
+  "slug": "autonomous-seo-engineer",
+  "name": "Autonomous SEO Engineer",
+  "category": "Content and Marketing",
+  "sub_use_case": "SEO and AI search",
+  "summary": "Uses Search Console, Analytics and Ahrefs to plan and ship ongoing SEO fixes to a WordPress site.",
+  "tools": [
+    "Google Search Console",
+    "Google Analytics",
+    "Ahrefs",
+    "WordPress"
+  ],
+  "creator": {
+    "handle": "SEOAgent_",
+    "url": "https://x.com/SEOAgent_"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/SEOAgent_/status/2094510412431573427"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/autonomous-seo-engineer/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/autonomous-seo-engineer/",
+  "json_url": "https://moneywithai.net/api/v1/bots/autonomous-seo-engineer.json",
+  "use_cases": [],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 287,
+    "score": 36,
+    "money": 0,
+    "profile": 26,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "resume-and-voice-interview-screener",
+    "name": "Resume and Voice Interview Screener",
+    "category": "Research and Ops",
+    "sub_use_case": "Hiring",
+    "summary": "Screens resumes against a role and runs a voice behavioral interview, logging candidates in a Notion ATS.",
+    "tools": [
+      "n8n",
+      "Google Drive",
+      "Gemini",
+      "Google Sheets",
+      "Notion"
+    ],
+    "creator": {
+      "handle": "Brian Coyle",
+      "url": "https://n8n.io/creators/brianpcoyle/"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://n8n.io/workflows/3765/"
+    },
+    "official_share_url": null,
+    "found_via": "https://n8n.io/workflows/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/resume-and-voice-interview-screener/",
+    "json_url": "https://moneywithai.net/api/bots/resume-and-voice-interview-screener.json"
+  }
+}

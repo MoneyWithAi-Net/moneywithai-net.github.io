@@ -1,0 +1,180 @@
+{
+  "type": "use-case",
+  "slug": "amazon-associates-guide-site",
+  "title": "Build an Honest Affiliate Guide Site",
+  "category": "E-Commerce",
+  "category_slug": "e-commerce",
+  "money_model": "Creator income",
+  "difficulty": "Advanced",
+  "summary": "Publish buying guides, check every claim, track conversions and keep pages ranking.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Assumes slow traffic growth and small commissions.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Commission income from useful guides.",
+    "Fact checks protect trust."
+  ],
+  "who_its_for": [
+    "Writers and niche experts."
+  ],
+  "stack": [
+    {
+      "bot": "seo-finisher",
+      "name": "SEO Finisher",
+      "role": "Keeps target pages improving until they rank.",
+      "creator": "Nicolas Lecocq",
+      "tools": [
+        "GitHub",
+        "Google Search Console",
+        "DataForSEO"
+      ],
+      "url": "https://moneywithai.net/bots/seo-finisher/",
+      "official_share_url": null
+    },
+    {
+      "bot": "aeo-content-autopilot",
+      "name": "AEO Content Autopilot",
+      "role": "Turns research into articles.",
+      "creator": "ericosiu",
+      "tools": [
+        "YouTube",
+        "ClickFlow",
+        "Google Analytics",
+        "Ahrefs",
+        "Google Search Console"
+      ],
+      "url": "https://moneywithai.net/bots/aeo-content-autopilot/",
+      "official_share_url": null
+    },
+    {
+      "bot": "crosscheck",
+      "name": "Crosscheck",
+      "role": "Checks claims before publishing.",
+      "creator": "the_Arow_H",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/crosscheck/",
+      "official_share_url": "https://x.ai/bot/U4E-bNBzYlVcl_hMYf-kZ"
+    },
+    {
+      "bot": "conversion-tracking-setup",
+      "name": "Conversion Tracking Setup",
+      "role": "Sets up conversion tracking.",
+      "creator": "converlyio",
+      "tools": [
+        "Converly"
+      ],
+      "url": "https://moneywithai.net/bots/conversion-tracking-setup/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "GitHub",
+    "Google Search Console",
+    "DataForSEO",
+    "YouTube",
+    "ClickFlow",
+    "Google Analytics",
+    "Ahrefs",
+    "Grok",
+    "Converly"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Niche research",
+        "tool": null
+      },
+      {
+        "label": "Search data",
+        "tool": "Google Search Console"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "seo-finisher",
+        "name": "SEO Finisher",
+        "does": "Works target pages",
+        "tools": [
+          "GitHub",
+          "Google Search Console",
+          "DataForSEO"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "aeo-content-autopilot",
+        "name": "AEO Content Autopilot",
+        "does": "Writes guides",
+        "tools": [
+          "YouTube",
+          "ClickFlow",
+          "Google Analytics",
+          "Ahrefs",
+          "Google Search Console"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "crosscheck",
+        "name": "Crosscheck",
+        "does": "Checks claims",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "conversion-tracking-setup",
+        "name": "Conversion Tracking Setup",
+        "does": "Tracks conversions",
+        "tools": [
+          "Converly"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Approve guides",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Ranked guides",
+      "Affiliate clicks"
+    ]
+  },
+  "steps": [
+    "Pick a narrow niche.",
+    "Publish five deep guides.",
+    "Check every claim.",
+    "Track and improve monthly."
+  ],
+  "guardrails": [
+    "Check every number and claim before it goes public.",
+    "This is admin help, not legal, tax or financial advice."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 131,
+    "score": 62,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 3,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/amazon-associates-guide-site/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/amazon-associates-guide-site.json"
+}

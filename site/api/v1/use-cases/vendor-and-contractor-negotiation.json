@@ -1,0 +1,170 @@
+{
+  "type": "use-case",
+  "slug": "vendor-and-contractor-negotiation",
+  "title": "Negotiate Vendor and Contractor Prices",
+  "category": "Finance",
+  "category_slug": "finance",
+  "money_model": "Save costs",
+  "difficulty": "Intermediate",
+  "summary": "Compare quotes, negotiate renewals and contracts by email and track expenses.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes regular spend on vendors and contractors.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Better prices without awkward calls.",
+    "Quotes compared side by side."
+  ],
+  "who_its_for": [
+    "Owners buying services and supplies."
+  ],
+  "stack": [
+    {
+      "bot": "contractor-quote-negotiator",
+      "name": "Contractor Quote Negotiator",
+      "role": "Compares contractor quotes.",
+      "creator": "benln",
+      "tools": [
+        "Gmail",
+        "Google Sheets"
+      ],
+      "url": "https://moneywithai.net/bots/contractor-quote-negotiator/",
+      "official_share_url": null
+    },
+    {
+      "bot": "harvey-specter",
+      "name": "Harvey Specter",
+      "role": "Negotiates deals and renewals.",
+      "creator": "liam_fallen",
+      "tools": [
+        "Grok",
+        "Gmail"
+      ],
+      "url": "https://moneywithai.net/bots/harvey-specter/",
+      "official_share_url": "https://x.ai/bot/lkkCqhC1jBFp6ouZOQd9m"
+    },
+    {
+      "bot": "haggle-bot",
+      "name": "Haggle Bot",
+      "role": "Reviews monthly vendor bills.",
+      "creator": "lennysan",
+      "tools": [
+        "Gmail",
+        "Google Sheets"
+      ],
+      "url": "https://moneywithai.net/bots/haggle-bot/",
+      "official_share_url": null
+    },
+    {
+      "bot": "expense-manager",
+      "name": "Expense Manager",
+      "role": "Builds expense reports.",
+      "creator": "BotDirectoryAI",
+      "tools": [
+        "Gmail",
+        "Google Sheets"
+      ],
+      "url": "https://moneywithai.net/bots/expense-manager/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Gmail",
+    "Google Sheets",
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Quotes",
+        "tool": "Gmail"
+      },
+      {
+        "label": "Bills",
+        "tool": "Google Sheets"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "contractor-quote-negotiator",
+        "name": "Contractor Quote Negotiator",
+        "does": "Compares quotes",
+        "tools": [
+          "Gmail",
+          "Google Sheets"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "harvey-specter",
+        "name": "Harvey Specter",
+        "does": "Negotiates terms",
+        "tools": [
+          "Grok",
+          "Gmail"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "haggle-bot",
+        "name": "Haggle Bot",
+        "does": "Reviews bills",
+        "tools": [
+          "Gmail",
+          "Google Sheets"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "expense-manager",
+        "name": "Expense Manager",
+        "does": "Tracks expenses",
+        "tools": [
+          "Gmail",
+          "Google Sheets"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Approve terms",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Compared quotes",
+      "Negotiated savings"
+    ]
+  },
+  "steps": [
+    "Gather current quotes and bills.",
+    "Set walk-away prices.",
+    "Approve each negotiation email.",
+    "Track savings."
+  ],
+  "guardrails": [
+    "The bots never pay, sign or accept terms for you.",
+    "Every message and document stays a draft until you approve it."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 54,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/vendor-and-contractor-negotiation/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/vendor-and-contractor-negotiation.json"
+}

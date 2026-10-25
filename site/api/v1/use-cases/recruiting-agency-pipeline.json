@@ -1,0 +1,209 @@
+{
+  "type": "use-case",
+  "slug": "recruiting-agency-pipeline",
+  "title": "Run a Niche Recruiting Agency",
+  "category": "Research and Ops",
+  "category_slug": "research-and-ops",
+  "money_model": "Sell a service",
+  "difficulty": "Advanced",
+  "summary": "Map target companies, source and score candidates, run first interviews and match the best.",
+  "money_potential": {
+    "tier": 3,
+    "symbol": "$$$",
+    "label": "High",
+    "basis": "Assumes a placement fee per hire.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Placement fees are large per hire.",
+    "Screening time drops."
+  ],
+  "who_its_for": [
+    "Independent recruiters."
+  ],
+  "stack": [
+    {
+      "bot": "job-to-shortlist-recruiter",
+      "name": "Job to Shortlist Recruiter",
+      "role": "Turns a job into a candidate shortlist.",
+      "creator": "Fabian Herhold",
+      "tools": [
+        "n8n",
+        "Airtable",
+        "Claude",
+        "OpenAI"
+      ],
+      "url": "https://moneywithai.net/bots/job-to-shortlist-recruiter/",
+      "official_share_url": null
+    },
+    {
+      "bot": "mappy-talent-map",
+      "name": "Mappy (Talent Map)",
+      "role": "Maps people at target companies.",
+      "creator": "NickRoman",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/mappy-talent-map/",
+      "official_share_url": "https://x.ai/bot/spIXb6rwPJq_iFlu1L-_l"
+    },
+    {
+      "bot": "resume-ranking-sheet",
+      "name": "Resume Ranking Sheet",
+      "role": "Scores resumes against the job.",
+      "creator": "Tharwat Mohamed",
+      "tools": [
+        "n8n",
+        "Google Drive",
+        "Gemini",
+        "Google Sheets"
+      ],
+      "url": "https://moneywithai.net/bots/resume-ranking-sheet/",
+      "official_share_url": null
+    },
+    {
+      "bot": "resume-and-voice-interview-screener",
+      "name": "Resume and Voice Interview Screener",
+      "role": "Runs a first behavioral interview.",
+      "creator": "Brian Coyle",
+      "tools": [
+        "n8n",
+        "Google Drive",
+        "Gemini",
+        "Google Sheets",
+        "Notion"
+      ],
+      "url": "https://moneywithai.net/bots/resume-and-voice-interview-screener/",
+      "official_share_url": null
+    },
+    {
+      "bot": "talent-matchmaker",
+      "name": "Talent Matchmaker",
+      "role": "Matches candidates and roles.",
+      "creator": "lennysan",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/talent-matchmaker/",
+      "official_share_url": "https://x.ai/bot/l8p6rXw-lalL-UNiHySnJ"
+    }
+  ],
+  "tools": [
+    "n8n",
+    "Airtable",
+    "Claude",
+    "OpenAI",
+    "Grok",
+    "Google Drive",
+    "Gemini",
+    "Google Sheets",
+    "Notion"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Job description",
+        "tool": null
+      },
+      {
+        "label": "Candidate data",
+        "tool": "Airtable"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "job-to-shortlist-recruiter",
+        "name": "Job to Shortlist Recruiter",
+        "does": "Builds shortlist",
+        "tools": [
+          "n8n",
+          "Airtable",
+          "Claude",
+          "OpenAI"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "mappy-talent-map",
+        "name": "Mappy (Talent Map)",
+        "does": "Maps talent",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "resume-ranking-sheet",
+        "name": "Resume Ranking Sheet",
+        "does": "Scores resumes",
+        "tools": [
+          "n8n",
+          "Google Drive",
+          "Gemini",
+          "Google Sheets"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "resume-and-voice-interview-screener",
+        "name": "Resume and Voice Interview Screener",
+        "does": "Runs first interview",
+        "tools": [
+          "n8n",
+          "Google Drive",
+          "Gemini",
+          "Google Sheets",
+          "Notion"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "talent-matchmaker",
+        "name": "Talent Matchmaker",
+        "does": "Matches candidates",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 6,
+        "by": "you",
+        "name": "You",
+        "does": "Interview and place",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Shortlists",
+      "Interview notes",
+      "Placements"
+    ]
+  },
+  "steps": [
+    "Pick one niche.",
+    "Sign one hiring client.",
+    "Review every shortlist by hand.",
+    "Present three candidates."
+  ],
+  "guardrails": [
+    "Handle customer and candidate data under your local privacy rules.",
+    "A person stays reachable for anything the bot is unsure about."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 18,
+    "score": 89,
+    "money": 40,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 3,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/recruiting-agency-pipeline/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/recruiting-agency-pipeline.json"
+}

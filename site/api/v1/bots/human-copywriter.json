@@ -1,0 +1,43 @@
+{
+  "type": "bot",
+  "slug": "human-copywriter",
+  "name": "Human Copywriter",
+  "category": "Content and Marketing",
+  "sub_use_case": "Copy and creative",
+  "summary": "Rewrites emails, posts and landing copy so they sound human while keeping your meaning and facts.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "massimodeluisa",
+    "url": "https://botdirectory.ai/bots/human-copywriter/"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/JZAccYtlRFvDSU2CnMnkZ"
+  },
+  "official_share_url": "https://x.ai/bot/JZAccYtlRFvDSU2CnMnkZ",
+  "found_via": "https://botdirectory.ai/bots/human-copywriter/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/human-copywriter/",
+  "json_url": "https://moneywithai.net/api/v1/bots/human-copywriter.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/one-person-marketing-department/",
+    "https://moneywithai.net/use-cases/x-ghostwriting-agency/",
+    "https://moneywithai.net/use-cases/compliant-content-for-regulated-firms/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 19,
+    "score": 96,
+    "money": 40,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

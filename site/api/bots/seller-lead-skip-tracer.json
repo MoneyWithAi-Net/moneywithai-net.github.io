@@ -1,0 +1,30 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "seller-lead-skip-tracer",
+    "name": "Seller Lead Skip Tracer",
+    "category": "Leads and Sales",
+    "sub_use_case": "Real estate leads",
+    "summary": "Finds property owners with BatchData skip tracing and pushes qualified seller leads into HubSpot.",
+    "tools": [
+      "n8n",
+      "HubSpot"
+    ],
+    "creator": {
+      "handle": "Preston Zeller",
+      "url": "https://n8n.io/creators/zellerhaus/"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://n8n.io/workflows/3666/"
+    },
+    "official_share_url": null,
+    "found_via": "https://n8n.io/workflows/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/seller-lead-skip-tracer/",
+    "json_url": "https://moneywithai.net/api/bots/seller-lead-skip-tracer.json"
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "type": "use-case",
+  "slug": "competitor-intel-subscription",
+  "title": "Sell a Monthly Competitor Intel Report",
+  "category": "Research and Ops",
+  "category_slug": "research-and-ops",
+  "money_model": "Sell a service",
+  "difficulty": "Intermediate",
+  "summary": "Watch rivals' sites, ads, videos and funding for clients, then send a monthly brief.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes a monthly fee per client.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Recurring reports with low delivery time.",
+    "Clients act on real changes."
+  ],
+  "who_its_for": [
+    "Consultants and analysts."
+  ],
+  "stack": [
+    {
+      "bot": "rival-watch-desk",
+      "name": "Rival Watch Desk",
+      "role": "Tracks funding, hiring and news.",
+      "creator": "Treg team",
+      "tools": [
+        "Treg"
+      ],
+      "url": "https://moneywithai.net/bots/rival-watch-desk/",
+      "official_share_url": "https://x.ai/bot/WKRY_T1y-KOmOn2q5vpRW"
+    },
+    {
+      "bot": "competitor-website-watch",
+      "name": "Competitor Website Watch",
+      "role": "Alerts on page changes.",
+      "creator": "elie2222",
+      "tools": [
+        "ScreenshotOne",
+        "Slack"
+      ],
+      "url": "https://moneywithai.net/bots/competitor-website-watch/",
+      "official_share_url": null
+    },
+    {
+      "bot": "competitor-ad-watch",
+      "name": "Competitor Ad Watch",
+      "role": "Logs new ads.",
+      "creator": "daniel-ddtech",
+      "tools": [
+        "Adlicio",
+        "Slack"
+      ],
+      "url": "https://moneywithai.net/bots/competitor-ad-watch/",
+      "official_share_url": null
+    },
+    {
+      "bot": "youtube-competitor-tracker",
+      "name": "YouTube Competitor Tracker",
+      "role": "Summarizes rival videos.",
+      "creator": "scheemunai",
+      "tools": [
+        "TranscriptAPI"
+      ],
+      "url": "https://moneywithai.net/bots/youtube-competitor-tracker/",
+      "official_share_url": null
+    },
+    {
+      "bot": "competitor-watching",
+      "name": "Competitor Watching",
+      "role": "Compares pricing and features.",
+      "creator": "scheemunai",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/competitor-watching/",
+      "official_share_url": "https://x.ai/bot/5PKSzU0ruN_DQbNXc7m0N"
+    }
+  ],
+  "tools": [
+    "Treg",
+    "ScreenshotOne",
+    "Slack",
+    "Adlicio",
+    "TranscriptAPI",
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Rival list",
+        "tool": null
+      },
+      {
+        "label": "Alerts",
+        "tool": "Slack"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "rival-watch-desk",
+        "name": "Rival Watch Desk",
+        "does": "Tracks company moves",
+        "tools": [
+          "Treg"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "competitor-website-watch",
+        "name": "Competitor Website Watch",
+        "does": "Watches sites",
+        "tools": [
+          "ScreenshotOne",
+          "Slack"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "competitor-ad-watch",
+        "name": "Competitor Ad Watch",
+        "does": "Watches ads",
+        "tools": [
+          "Adlicio",
+          "Slack"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "youtube-competitor-tracker",
+        "name": "YouTube Competitor Tracker",
+        "does": "Watches videos",
+        "tools": [
+          "TranscriptAPI"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "competitor-watching",
+        "name": "Competitor Watching",
+        "does": "Compares offers",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 6,
+        "by": "you",
+        "name": "You",
+        "does": "Write the brief",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Monthly intel brief"
+    ]
+  },
+  "steps": [
+    "Sign one client.",
+    "Set five rivals.",
+    "Review alerts weekly.",
+    "Send a monthly brief."
+  ],
+  "guardrails": [
+    "Check every number and claim before it goes public.",
+    "You need your own accounts for the connected tools; check their current plans first."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 72,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/competitor-intel-subscription/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/competitor-intel-subscription.json"
+}

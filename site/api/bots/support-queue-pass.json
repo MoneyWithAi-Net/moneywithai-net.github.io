@@ -1,0 +1,30 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "support-queue-pass",
+    "name": "Support Queue Pass",
+    "category": "Customer Support",
+    "sub_use_case": "Support triage",
+    "summary": "Passes over the Zendesk queue hourly and drafts replies on the tickets it is confident about.",
+    "tools": [
+      "Zendesk",
+      "Slack"
+    ],
+    "creator": {
+      "handle": "ericzakariasson",
+      "url": "https://x.com/ericzakariasson"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/ericzakariasson/status/2087258964131979423"
+    },
+    "official_share_url": null,
+    "found_via": "https://botdirectory.ai/bots/support-queue-pass/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/support-queue-pass/",
+    "json_url": "https://moneywithai.net/api/bots/support-queue-pass.json"
+  }
+}

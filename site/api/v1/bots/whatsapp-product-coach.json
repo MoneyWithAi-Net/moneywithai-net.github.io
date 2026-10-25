@@ -1,0 +1,44 @@
+{
+  "type": "bot",
+  "slug": "whatsapp-product-coach",
+  "name": "WhatsApp Product Coach",
+  "category": "Customer Support",
+  "sub_use_case": "Chat and messaging support",
+  "summary": "Answers product training and customer questions on WhatsApp from a product sheet in Google Sheets.",
+  "tools": [
+    "n8n",
+    "Google Sheets",
+    "OpenAI",
+    "WhatsApp"
+  ],
+  "creator": {
+    "handle": "Dr. Firas",
+    "url": "https://n8n.io/creators/drfiras/"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://n8n.io/workflows/3379/"
+  },
+  "official_share_url": null,
+  "found_via": "https://n8n.io/workflows/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/whatsapp-product-coach/",
+  "json_url": "https://moneywithai.net/api/v1/bots/whatsapp-product-coach.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/whatsapp-support-bot-service/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 235,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

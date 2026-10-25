@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "growth-desk",
+  "name": "Growth Desk",
+  "category": "Content and Marketing",
+  "sub_use_case": "X posting",
+  "summary": "A draft-only X growth desk for one account that locks topic, audience and voice, then drafts posts for approval.",
+  "tools": [
+    "X"
+  ],
+  "creator": {
+    "handle": "Avid",
+    "url": "https://botdirectory.ai/bots/growth-desk/"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/YYCOE-YeGxnGLb4Mbv7dO"
+  },
+  "official_share_url": "https://x.ai/bot/YYCOE-YeGxnGLb4Mbv7dO",
+  "found_via": "https://botdirectory.ai/bots/growth-desk/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/growth-desk/",
+  "json_url": "https://moneywithai.net/api/v1/bots/growth-desk.json",
+  "use_cases": [],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 278,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

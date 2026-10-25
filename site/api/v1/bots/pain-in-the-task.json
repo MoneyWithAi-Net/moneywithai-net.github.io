@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "pain-in-the-task",
+  "name": "Pain in the Task",
+  "category": "Research and Ops",
+  "sub_use_case": "Planning and projects",
+  "summary": "Interviews you to find repetitive work slowing the business down and recommends the right kind of help to fix it.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "gambrill",
+    "url": "https://x.com/gambrill"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/gambrill/status/2093807558792503663"
+  },
+  "official_share_url": "https://x.ai/bot/yztAMds3EQ2J5OjG_tBgw",
+  "found_via": "https://botdirectory.ai/bots/pain-in-the-task/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/pain-in-the-task/",
+  "json_url": "https://moneywithai.net/api/v1/bots/pain-in-the-task.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/automation-agency-discovery/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 33,
+    "score": 93,
+    "money": 40,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 3,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

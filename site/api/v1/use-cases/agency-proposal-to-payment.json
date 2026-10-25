@@ -1,0 +1,205 @@
+{
+  "type": "use-case",
+  "slug": "agency-proposal-to-payment",
+  "title": "Go from Sales Call to Signed Proposal to Paid Invoice",
+  "category": "Client Services",
+  "category_slug": "client-services",
+  "money_model": "Grow sales",
+  "difficulty": "Beginner",
+  "summary": "After each call, get to-dos, a proposal deck, a quote routed for approval and invoice chasing.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes faster proposals win a few more deals.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Proposals go out while the call is fresh.",
+    "Less chasing for payment."
+  ],
+  "who_its_for": [
+    "Agencies and consultants."
+  ],
+  "stack": [
+    {
+      "bot": "post-call-assistant",
+      "name": "Post Call Assistant",
+      "role": "Drops to-dos and a follow-up draft.",
+      "creator": "itspriyaptl",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/post-call-assistant/",
+      "official_share_url": "https://x.ai/bot/xF12c5y4LVe7nf7IFguWI"
+    },
+    {
+      "bot": "post-call-proposal-builder",
+      "name": "Post Call Proposal Builder",
+      "role": "Builds the proposal deck.",
+      "creator": "Gerald Denor",
+      "tools": [
+        "n8n",
+        "Gmail",
+        "Google Drive",
+        "Google Slides",
+        "OpenAI"
+      ],
+      "url": "https://moneywithai.net/bots/post-call-proposal-builder/",
+      "official_share_url": null
+    },
+    {
+      "bot": "quote-request-router",
+      "name": "Quote Request Router",
+      "role": "Routes the quote for approval.",
+      "creator": "Baptiste Fort",
+      "tools": [
+        "n8n",
+        "Airtable",
+        "Gmail",
+        "Slack"
+      ],
+      "url": "https://moneywithai.net/bots/quote-request-router/",
+      "official_share_url": null
+    },
+    {
+      "bot": "deal-desk-autopilot",
+      "name": "Deal Desk Autopilot",
+      "role": "Flags stalled deals.",
+      "creator": "ericosiu",
+      "tools": [
+        "Gmail",
+        "Google Calendar"
+      ],
+      "url": "https://moneywithai.net/bots/deal-desk-autopilot/",
+      "official_share_url": null
+    },
+    {
+      "bot": "invoice-hunter",
+      "name": "Invoice Hunter",
+      "role": "Chases invoices.",
+      "creator": "scheemunai",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/invoice-hunter/",
+      "official_share_url": "https://x.ai/bot/-kO6HrXokJZANVwUOMZO9"
+    }
+  ],
+  "tools": [
+    "Grok",
+    "n8n",
+    "Gmail",
+    "Google Drive",
+    "Google Slides",
+    "OpenAI",
+    "Airtable",
+    "Slack",
+    "Google Calendar"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Call notes",
+        "tool": null
+      },
+      {
+        "label": "Slides",
+        "tool": "Google Slides"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "post-call-assistant",
+        "name": "Post Call Assistant",
+        "does": "Drafts follow-up",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "post-call-proposal-builder",
+        "name": "Post Call Proposal Builder",
+        "does": "Builds the proposal",
+        "tools": [
+          "n8n",
+          "Gmail",
+          "Google Drive",
+          "Google Slides",
+          "OpenAI"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "quote-request-router",
+        "name": "Quote Request Router",
+        "does": "Routes the quote",
+        "tools": [
+          "n8n",
+          "Airtable",
+          "Gmail",
+          "Slack"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "deal-desk-autopilot",
+        "name": "Deal Desk Autopilot",
+        "does": "Flags stalled deals",
+        "tools": [
+          "Gmail",
+          "Google Calendar"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "invoice-hunter",
+        "name": "Invoice Hunter",
+        "does": "Chases invoices",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 6,
+        "by": "you",
+        "name": "You",
+        "does": "Approve and sign",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Proposals",
+      "Signed deals",
+      "Paid invoices"
+    ]
+  },
+  "steps": [
+    "Set your proposal template.",
+    "Run it after every call.",
+    "Approve quotes.",
+    "Let invoice follow-ups run."
+  ],
+  "guardrails": [
+    "Every message and document stays a draft until you approve it.",
+    "The bots never pay, sign or accept terms for you."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 28,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/agency-proposal-to-payment/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/agency-proposal-to-payment.json"
+}

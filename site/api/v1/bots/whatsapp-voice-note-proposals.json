@@ -1,0 +1,42 @@
+{
+  "type": "bot",
+  "slug": "whatsapp-voice-note-proposals",
+  "name": "WhatsApp Voice Note Proposals",
+  "category": "Client Services",
+  "sub_use_case": "Quotes",
+  "summary": "Turns a voice note or text on WhatsApp into a priced PDF proposal for the customer.",
+  "tools": [
+    "n8n",
+    "APITemplate.io",
+    "OpenAI",
+    "WhatsApp"
+  ],
+  "creator": {
+    "handle": "Floyd Mahou",
+    "url": "https://n8n.io/creators/floyd/"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://n8n.io/workflows/5656/"
+  },
+  "official_share_url": null,
+  "found_via": "https://n8n.io/workflows/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/whatsapp-voice-note-proposals/",
+  "json_url": "https://moneywithai.net/api/v1/bots/whatsapp-voice-note-proposals.json",
+  "use_cases": [],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 306,
+    "score": 36,
+    "money": 0,
+    "profile": 26,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "type": "bot",
+  "slug": "support-reply-drafter",
+  "name": "Support Reply Drafter",
+  "category": "Customer Support",
+  "sub_use_case": "Support triage",
+  "summary": "Reads incoming support emails, finds the answer and drafts a reply for approval.",
+  "tools": [
+    "Gmail"
+  ],
+  "creator": {
+    "handle": "lennysan",
+    "url": "https://x.com/lennysan"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/lennysan/status/2087241423792087518"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/support-reply-drafter/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/support-reply-drafter/",
+  "json_url": "https://moneywithai.net/api/v1/bots/support-reply-drafter.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/multilingual-support-desk/",
+    "https://moneywithai.net/use-cases/churn-save-program/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 136,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

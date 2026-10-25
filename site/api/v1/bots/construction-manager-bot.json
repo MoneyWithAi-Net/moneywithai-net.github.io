@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "construction-manager-bot",
+  "name": "Construction Manager Bot",
+  "category": "Research and Ops",
+  "sub_use_case": "Construction office",
+  "summary": "A field construction manager on your phone that turns site photos into issues, RFIs and daily notes.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "HenryBeagle808",
+    "url": "https://x.com/HenryBeagle808"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/HenryBeagle808/status/2103749805625536556"
+  },
+  "official_share_url": "https://x.ai/bot/QrJpjStFV2WBIaI8wirO6",
+  "found_via": "https://grokbot101.org/bots/construction-manager/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/construction-manager-bot/",
+  "json_url": "https://moneywithai.net/api/v1/bots/construction-manager-bot.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/construction-field-office/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 148,
+    "score": 83,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

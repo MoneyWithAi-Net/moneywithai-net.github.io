@@ -1,0 +1,43 @@
+{
+  "type": "bot",
+  "slug": "content-idea-generator",
+  "name": "Content Idea Generator",
+  "category": "Content and Marketing",
+  "sub_use_case": "YouTube operations",
+  "summary": "Studies your content, audience and Google Trends to suggest video and post ideas.",
+  "tools": [
+    "YouTube",
+    "Google Trends"
+  ],
+  "creator": {
+    "handle": "farzyness",
+    "url": "https://x.com/farzyness"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/farzyness/status/2087340859138224540"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/content-idea-generator/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/content-idea-generator/",
+  "json_url": "https://moneywithai.net/api/v1/bots/content-idea-generator.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/six-bot-content-calendar/",
+    "https://moneywithai.net/use-cases/faceless-youtube-channel/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 193,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

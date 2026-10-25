@@ -1,0 +1,44 @@
+{
+  "type": "bot",
+  "slug": "ship-note",
+  "name": "Ship Note",
+  "category": "Content and Marketing",
+  "sub_use_case": "Newsletters and email",
+  "summary": "Turns a list of what shipped into a public changelog and a customer what's-new email draft.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "sol_wright7",
+    "url": "https://x.com/sol_wright7"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/sol_wright7/status/2093809370958098813"
+  },
+  "official_share_url": "https://x.ai/bot/xMCiRCmOCYLeRzW8nS6EL",
+  "found_via": "https://botdirectory.ai/bots/ship-note/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/ship-note/",
+  "json_url": "https://moneywithai.net/api/v1/bots/ship-note.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/saas-founder-gtm-week/",
+    "https://moneywithai.net/use-cases/product-launch-campaign/",
+    "https://moneywithai.net/use-cases/incident-early-warning/",
+    "https://moneywithai.net/use-cases/saas-ship-quality-loop/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 26,
+    "score": 96,
+    "money": 40,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

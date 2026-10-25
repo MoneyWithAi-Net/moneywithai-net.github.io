@@ -1,0 +1,42 @@
+{
+  "type": "bot",
+  "slug": "cold-email-campaign-team",
+  "name": "Cold Email Campaign Team",
+  "category": "Leads and Sales",
+  "sub_use_case": "Outbound prospecting",
+  "summary": "A multi-agent setup where a director model briefs specialist models to build a full cold email campaign.",
+  "tools": [
+    "n8n",
+    "OpenAI"
+  ],
+  "creator": {
+    "handle": "Yaron Been",
+    "url": "https://n8n.io/creators/yaron-nofluff/"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://n8n.io/workflows/6909/"
+  },
+  "official_share_url": null,
+  "found_via": "https://n8n.io/workflows/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/cold-email-campaign-team/",
+  "json_url": "https://moneywithai.net/api/v1/bots/cold-email-campaign-team.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/lookalike-accounts-to-pipeline/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 189,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "video-editor",
+    "name": "Video Editor",
+    "category": "Content and Marketing",
+    "sub_use_case": "Video production",
+    "summary": "Edits footage for creators and small teams into shorts, titles, thumbnails and product videos.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "john_a_isaacson",
+      "url": null
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/john_a_isaacson/status/2107037040445661621"
+    },
+    "official_share_url": "https://x.ai/bot/TUBFpf9exUG-qi7RYKZLs",
+    "found_via": "https://grokbot101.org/bots/video-editor/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/video-editor/",
+    "json_url": "https://moneywithai.net/api/bots/video-editor.json"
+  }
+}

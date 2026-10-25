@@ -26,7 +26,18 @@
   "json_url": "https://moneywithai.net/api/v1/bots/reply-drafter.json",
   "use_cases": [
     "https://moneywithai.net/use-cases/x-audience-prospecting/",
-    "https://moneywithai.net/use-cases/x-creator-desk/"
+    "https://moneywithai.net/use-cases/x-creator-desk/",
+    "https://moneywithai.net/use-cases/switchers-from-competitor-complaints/"
   ],
-  "added_at": "2026-10-24T08:00:00.000Z"
+  "added_at": "2026-10-24T08:00:00.000Z",
+  "featured": {
+    "rank": 126,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
 }

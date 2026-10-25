@@ -1,0 +1,44 @@
+{
+  "type": "bot",
+  "slug": "haggle-bot",
+  "name": "Haggle Bot",
+  "category": "Finance",
+  "sub_use_case": "SaaS spend",
+  "summary": "Reviews vendor and SaaS bills every month, then drafts negotiation emails to cut prices or move you to a better plan.",
+  "tools": [
+    "Gmail",
+    "Google Sheets"
+  ],
+  "creator": {
+    "handle": "lennysan",
+    "url": "https://x.com/lennysan"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/lennysan/status/2095975395602710779"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/haggle-bot/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/haggle-bot/",
+  "json_url": "https://moneywithai.net/api/v1/bots/haggle-bot.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/accounts-payable-autopilot/",
+    "https://moneywithai.net/use-cases/saas-spend-cleanup/",
+    "https://moneywithai.net/use-cases/vendor-and-contractor-negotiation/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 114,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

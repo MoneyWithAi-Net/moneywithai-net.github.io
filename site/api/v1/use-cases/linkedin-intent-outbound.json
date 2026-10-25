@@ -1,0 +1,171 @@
+{
+  "type": "use-case",
+  "slug": "linkedin-intent-outbound",
+  "title": "Run LinkedIn Outbound Only to People Showing Intent",
+  "category": "Leads and Sales",
+  "category_slug": "leads-and-sales",
+  "money_model": "Grow sales",
+  "difficulty": "Intermediate",
+  "summary": "Find buyers showing intent, research their company, open with something they said and learn which messages convert.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes a B2B offer where a few extra meetings a month matter.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Intent-based lists waste fewer messages than bought lists.",
+    "Weekly analysis shows which segments to drop."
+  ],
+  "who_its_for": [
+    "B2B founders and small sales teams."
+  ],
+  "stack": [
+    {
+      "bot": "buying-signal-hunter",
+      "name": "Buying Signal Hunter",
+      "role": "Finds prospects showing intent each morning.",
+      "creator": "romanbuildsaas",
+      "tools": [
+        "Gojiberry AI",
+        "LinkedIn"
+      ],
+      "url": "https://moneywithai.net/bots/buying-signal-hunter/",
+      "official_share_url": null
+    },
+    {
+      "bot": "account-researcher",
+      "name": "Account Researcher",
+      "role": "Researches each company and person.",
+      "creator": "romanbuildsaas",
+      "tools": [
+        "Gojiberry AI",
+        "LinkedIn"
+      ],
+      "url": "https://moneywithai.net/bots/account-researcher/",
+      "official_share_url": null
+    },
+    {
+      "bot": "cold-email-opener-writer",
+      "name": "Cold Email Opener Writer",
+      "role": "Writes an opener from each prospect's recent posts.",
+      "creator": "Dajeel Dulal",
+      "tools": [
+        "n8n",
+        "OpenAI"
+      ],
+      "url": "https://moneywithai.net/bots/cold-email-opener-writer/",
+      "official_share_url": null
+    },
+    {
+      "bot": "sales-pipeline-analyst",
+      "name": "Sales Pipeline Analyst",
+      "role": "Reports which profiles and messages convert.",
+      "creator": "romanbuildsaas",
+      "tools": [
+        "Gojiberry AI",
+        "LinkedIn"
+      ],
+      "url": "https://moneywithai.net/bots/sales-pipeline-analyst/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Gojiberry AI",
+    "LinkedIn",
+    "n8n",
+    "OpenAI"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Prospect activity",
+        "tool": "LinkedIn"
+      },
+      {
+        "label": "Your ideal customer notes",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "buying-signal-hunter",
+        "name": "Buying Signal Hunter",
+        "does": "Finds intent signals",
+        "tools": [
+          "Gojiberry AI",
+          "LinkedIn"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "account-researcher",
+        "name": "Account Researcher",
+        "does": "Researches accounts",
+        "tools": [
+          "Gojiberry AI",
+          "LinkedIn"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "cold-email-opener-writer",
+        "name": "Cold Email Opener Writer",
+        "does": "Writes personal openers",
+        "tools": [
+          "n8n",
+          "OpenAI"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "sales-pipeline-analyst",
+        "name": "Sales Pipeline Analyst",
+        "does": "Reports what converts",
+        "tools": [
+          "Gojiberry AI",
+          "LinkedIn"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Approve and send messages",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Short daily intent list",
+      "Replies and meetings"
+    ]
+  },
+  "steps": [
+    "Define your ideal customer in a few lines.",
+    "Review the morning intent list and approve who to contact.",
+    "Edit openers and send in small batches.",
+    "Read the weekly conversion report and adjust."
+  ],
+  "guardrails": [
+    "Keep daily sending caps low and follow each platform's rules on automation.",
+    "Every message and document stays a draft until you approve it."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 70,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/linkedin-intent-outbound/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/linkedin-intent-outbound.json"
+}

@@ -1,0 +1,33 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "ad-active-lead-finder",
+    "name": "Ad-Active Lead Finder",
+    "category": "Leads and Sales",
+    "sub_use_case": "Outbound prospecting",
+    "summary": "Finds B2B companies currently running ads in your niche via public ad libraries and Maps, then pushes them to your CRM.",
+    "tools": [
+      "Meta Ad Library",
+      "Google Ads Transparency",
+      "Google Maps",
+      "GoHighLevel",
+      "HubSpot"
+    ],
+    "creator": {
+      "handle": "aferrari",
+      "url": "https://botdirectory.ai/bots/ad-active-lead-finder/"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/nHDuTEJd3mC91rtLLPN0p"
+    },
+    "official_share_url": "https://x.ai/bot/nHDuTEJd3mC91rtLLPN0p",
+    "found_via": "https://botdirectory.ai/bots/ad-active-lead-finder/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/ad-active-lead-finder/",
+    "json_url": "https://moneywithai.net/api/bots/ad-active-lead-finder.json"
+  }
+}

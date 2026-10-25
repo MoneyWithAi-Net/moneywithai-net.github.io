@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "watchdog-receipts",
+    "name": "Watchdog Receipts",
+    "category": "Finance",
+    "sub_use_case": "SaaS spend",
+    "summary": "Scans email for receipts, renewals and trials and lists what is charging you and what is due in the next two weeks.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Grok_Hub_IO",
+      "url": "https://x.com/Grok_Hub_IO"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/Grok_Hub_IO/status/2093907045254906327"
+    },
+    "official_share_url": "https://x.ai/bot/PuAEE57P58Df5zskFY3pg",
+    "found_via": "https://botdirectory.ai/bots/watchdog-receipts/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/watchdog-receipts/",
+    "json_url": "https://moneywithai.net/api/bots/watchdog-receipts.json"
+  }
+}

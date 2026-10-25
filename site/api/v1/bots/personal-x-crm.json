@@ -1,0 +1,43 @@
+{
+  "type": "bot",
+  "slug": "personal-x-crm",
+  "name": "Personal X CRM",
+  "category": "Leads and Sales",
+  "sub_use_case": "X prospecting",
+  "summary": "Builds a CRM in Notion from your X relationships and ongoing conversations so warm contacts get followed up.",
+  "tools": [
+    "X",
+    "Notion"
+  ],
+  "creator": {
+    "handle": "mattyp",
+    "url": "https://x.com/mattyp"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/mattyp/status/2094833468400447618"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/personal-x-crm/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/personal-x-crm/",
+  "json_url": "https://moneywithai.net/api/v1/bots/personal-x-crm.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/switchers-from-competitor-complaints/",
+    "https://moneywithai.net/use-cases/x-relationship-selling/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 122,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

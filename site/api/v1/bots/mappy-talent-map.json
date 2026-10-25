@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "mappy-talent-map",
+  "name": "Mappy (Talent Map)",
+  "category": "Research and Ops",
+  "sub_use_case": "Hiring",
+  "summary": "Builds a map of the people working at a target company, useful for recruiting and account planning.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "NickRoman",
+    "url": "https://x.com/NickRoman"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/NickRoman/status/2093426904950833178"
+  },
+  "official_share_url": "https://x.ai/bot/spIXb6rwPJq_iFlu1L-_l",
+  "found_via": "https://botdirectory.ai/bots/mappy-talent-map/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/mappy-talent-map/",
+  "json_url": "https://moneywithai.net/api/v1/bots/mappy-talent-map.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/recruiting-agency-pipeline/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 32,
+    "score": 93,
+    "money": 40,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 3,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

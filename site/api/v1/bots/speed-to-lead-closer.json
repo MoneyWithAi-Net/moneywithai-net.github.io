@@ -1,0 +1,42 @@
+{
+  "type": "bot",
+  "slug": "speed-to-lead-closer",
+  "name": "Speed-to-Lead Closer",
+  "category": "Leads and Sales",
+  "sub_use_case": "Speed-to-lead and quotes",
+  "summary": "Answers inbound sales leads the moment they arrive with approved answers and a Stripe payment link.",
+  "tools": [
+    "Stripe"
+  ],
+  "creator": {
+    "handle": "coreyganim",
+    "url": "https://x.com/coreyganim"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/coreyganim/status/2092031293370294316"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/speed-to-lead-closer/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/speed-to-lead-closer/",
+  "json_url": "https://moneywithai.net/api/v1/bots/speed-to-lead-closer.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/home-services-speed-to-quote/",
+    "https://moneywithai.net/use-cases/telegram-chat-to-closed-deal/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 51,
+    "score": 92,
+    "money": 40,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

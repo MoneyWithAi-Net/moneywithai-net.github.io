@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "reaper",
+  "name": "Reaper",
+  "category": "Finance",
+  "sub_use_case": "SaaS spend",
+  "summary": "Finds recurring tools, processes and obligations that no longer earn their keep so you can cut them.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "liam_fallen",
+    "url": "https://x.com/liam_fallen"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/liam_fallen/status/2093383144334348374"
+  },
+  "official_share_url": "https://x.ai/bot/Gd-cqXG8xG_RPmKGixa73",
+  "found_via": "https://botdirectory.ai/bots/reaper/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/reaper/",
+  "json_url": "https://moneywithai.net/api/v1/bots/reaper.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/saas-spend-cleanup/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 91,
+    "score": 87,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

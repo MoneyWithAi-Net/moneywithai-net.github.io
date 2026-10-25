@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "salesforce-administrator",
+    "name": "Salesforce Administrator",
+    "category": "Leads and Sales",
+    "sub_use_case": "CRM hygiene",
+    "summary": "Acts as a careful Salesforce admin through the Salesforce CLI, asking one question at a time.",
+    "tools": [
+      "Salesforce"
+    ],
+    "creator": {
+      "handle": "alnandr",
+      "url": "https://botdirectory.ai/bots/salesforce-administrator/"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://botdirectory.ai/bots/salesforce-administrator/"
+    },
+    "official_share_url": null,
+    "found_via": "https://botdirectory.ai/bots/salesforce-administrator/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/salesforce-administrator/",
+    "json_url": "https://moneywithai.net/api/bots/salesforce-administrator.json"
+  }
+}

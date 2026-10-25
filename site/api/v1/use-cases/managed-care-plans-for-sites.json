@@ -1,0 +1,167 @@
+{
+  "type": "use-case",
+  "slug": "managed-care-plans-for-sites",
+  "title": "Sell Managed Care Plans for Client Websites",
+  "category": "Client Services",
+  "category_slug": "client-services",
+  "money_model": "Sell a service",
+  "difficulty": "Intermediate",
+  "summary": "Monitor hosting, audit sites monthly and fix SEO slips under one monthly plan.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes a monthly plan per site.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Predictable monthly income.",
+    "Clients see a monthly report."
+  ],
+  "who_its_for": [
+    "Web freelancers with existing clients."
+  ],
+  "stack": [
+    {
+      "bot": "whm-multi-site-ops-bot",
+      "name": "WHM Multi-Site Ops Bot",
+      "role": "Watches server health across sites.",
+      "creator": "brainflollc",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/whm-multi-site-ops-bot/",
+      "official_share_url": "https://x.ai/bot/ARg7G2NtVZWu1TT05oS2w"
+    },
+    {
+      "bot": "site-audit",
+      "name": "Site Audit",
+      "role": "Audits each site monthly.",
+      "creator": "scheemunai",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/site-audit/",
+      "official_share_url": "https://x.ai/bot/s6JVFYDIDMsCQMBeTcznW"
+    },
+    {
+      "bot": "seo-improver",
+      "name": "SEO Improver",
+      "role": "Fixes pages losing impressions.",
+      "creator": "elie2222",
+      "tools": [
+        "GitHub",
+        "DataForSEO",
+        "Google Search Console"
+      ],
+      "url": "https://moneywithai.net/bots/seo-improver/",
+      "official_share_url": null
+    },
+    {
+      "bot": "invoice-hunter",
+      "name": "Invoice Hunter",
+      "role": "Chases invoices.",
+      "creator": "scheemunai",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/invoice-hunter/",
+      "official_share_url": "https://x.ai/bot/-kO6HrXokJZANVwUOMZO9"
+    }
+  ],
+  "tools": [
+    "Grok",
+    "GitHub",
+    "DataForSEO",
+    "Google Search Console"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Hosting",
+        "tool": "cPanel"
+      },
+      {
+        "label": "Search data",
+        "tool": "Google Search Console"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "whm-multi-site-ops-bot",
+        "name": "WHM Multi-Site Ops Bot",
+        "does": "Watches servers",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "site-audit",
+        "name": "Site Audit",
+        "does": "Audits sites",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "seo-improver",
+        "name": "SEO Improver",
+        "does": "Fixes SEO slips",
+        "tools": [
+          "GitHub",
+          "DataForSEO",
+          "Google Search Console"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "invoice-hunter",
+        "name": "Invoice Hunter",
+        "does": "Chases invoices",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Approve fixes",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Healthy sites",
+      "Monthly reports"
+    ]
+  },
+  "steps": [
+    "Offer the plan to past clients.",
+    "Approve fixes before applying.",
+    "Send monthly reports.",
+    "Invoice monthly."
+  ],
+  "guardrails": [
+    "Review a sample by hand before you trust a scheduled run.",
+    "The bots never pay, sign or accept terms for you."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 75,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/managed-care-plans-for-sites/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/managed-care-plans-for-sites.json"
+}

@@ -1,0 +1,42 @@
+{
+  "type": "bot",
+  "slug": "cross-border-money-desk",
+  "name": "Cross-Border Money Desk",
+  "category": "Finance",
+  "sub_use_case": "Revenue recovery",
+  "summary": "Explains how a cross-border payment moved and where fees were taken, from an invoice or payout email.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "BankrolledInc",
+    "url": "https://x.com/BankrolledInc"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/BankrolledInc/status/2108951740045472237"
+  },
+  "official_share_url": "https://x.ai/bot/RgivaqZM6x_meep2iaobm",
+  "found_via": "https://grokbot101.org/bots/cross-border-money-desk/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/cross-border-money-desk/",
+  "json_url": "https://moneywithai.net/api/v1/bots/cross-border-money-desk.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/get-paid-faster/",
+    "https://moneywithai.net/use-cases/creator-revenue-recovery/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 76,
+    "score": 87,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

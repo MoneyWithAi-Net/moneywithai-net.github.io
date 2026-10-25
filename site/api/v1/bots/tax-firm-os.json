@@ -25,7 +25,19 @@
   "url": "https://moneywithai.net/bots/tax-firm-os/",
   "json_url": "https://moneywithai.net/api/v1/bots/tax-firm-os.json",
   "use_cases": [
-    "https://moneywithai.net/use-cases/accounting-practice-ops/"
+    "https://moneywithai.net/use-cases/accounting-practice-ops/",
+    "https://moneywithai.net/use-cases/bookkeeping-cleanup-service/",
+    "https://moneywithai.net/use-cases/accountant-office-latam/"
   ],
-  "added_at": "2026-10-24T09:30:00.000Z"
+  "added_at": "2026-10-24T09:30:00.000Z",
+  "featured": {
+    "rank": 28,
+    "score": 96,
+    "money": 40,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
 }

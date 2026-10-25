@@ -1,0 +1,44 @@
+{
+  "type": "bot",
+  "slug": "campaign-autopilot",
+  "name": "Campaign Autopilot",
+  "category": "Content and Marketing",
+  "sub_use_case": "Paid ads",
+  "summary": "Reviews your Google Analytics, Meta Ads and LinkedIn results on a set schedule and posts campaign fixes to Slack for your approval.",
+  "tools": [
+    "Google Analytics",
+    "Meta Ads",
+    "LinkedIn",
+    "Slack"
+  ],
+  "creator": {
+    "handle": "BotDirectoryAI",
+    "url": "https://x.com/BotDirectoryAI"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/BotDirectoryAI/status/2114131736862842880"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/campaign-autopilot/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/campaign-autopilot/",
+  "json_url": "https://moneywithai.net/api/v1/bots/campaign-autopilot.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/ads-and-tracking-audit-service/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 187,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

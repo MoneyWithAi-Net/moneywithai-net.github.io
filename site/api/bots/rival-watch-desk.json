@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "rival-watch-desk",
+    "name": "Rival Watch Desk",
+    "category": "Research and Ops",
+    "sub_use_case": "Competitor intel",
+    "summary": "Watches rival companies for funding, hiring, news and ad moves and keeps a current competitive brief.",
+    "tools": [
+      "Treg"
+    ],
+    "creator": {
+      "handle": "Treg team",
+      "url": "https://botdirectory.ai/bots/rival-watch-desk/"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/WKRY_T1y-KOmOn2q5vpRW"
+    },
+    "official_share_url": "https://x.ai/bot/WKRY_T1y-KOmOn2q5vpRW",
+    "found_via": "https://botdirectory.ai/bots/rival-watch-desk/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/rival-watch-desk/",
+    "json_url": "https://moneywithai.net/api/bots/rival-watch-desk.json"
+  }
+}

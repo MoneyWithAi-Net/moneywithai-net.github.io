@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "travel-influencer-outreach",
+  "name": "Travel Influencer Outreach",
+  "category": "Leads and Sales",
+  "sub_use_case": "Partnerships and sponsors",
+  "summary": "Pitches hotels, tourism boards and travel brands on stay-for-content deals and tracks the replies.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "_lovablecurves",
+    "url": "https://x.com/_lovablecurves"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/_lovablecurves/status/2101139367091736589"
+  },
+  "official_share_url": "https://x.ai/bot/1MwL5s1o4YeJ1jA8ejdhd",
+  "found_via": "https://grokbot101.org/bots/travel-ugc/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/travel-influencer-outreach/",
+  "json_url": "https://moneywithai.net/api/v1/bots/travel-influencer-outreach.json",
+  "use_cases": [],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 285,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

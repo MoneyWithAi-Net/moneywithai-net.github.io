@@ -1,0 +1,42 @@
+{
+  "type": "bot",
+  "slug": "support-queue-pass",
+  "name": "Support Queue Pass",
+  "category": "Customer Support",
+  "sub_use_case": "Support triage",
+  "summary": "Passes over the Zendesk queue hourly and drafts replies on the tickets it is confident about.",
+  "tools": [
+    "Zendesk",
+    "Slack"
+  ],
+  "creator": {
+    "handle": "ericzakariasson",
+    "url": "https://x.com/ericzakariasson"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/ericzakariasson/status/2087258964131979423"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/support-queue-pass/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/support-queue-pass/",
+  "json_url": "https://moneywithai.net/api/v1/bots/support-queue-pass.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/zendesk-autopilot-with-changelog/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 229,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

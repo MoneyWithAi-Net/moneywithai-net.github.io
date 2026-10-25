@@ -27,7 +27,18 @@
   "url": "https://moneywithai.net/bots/drop-radar/",
   "json_url": "https://moneywithai.net/api/v1/bots/drop-radar.json",
   "use_cases": [
-    "https://moneywithai.net/use-cases/dtc-competitor-drop-watch/"
+    "https://moneywithai.net/use-cases/dtc-competitor-drop-watch/",
+    "https://moneywithai.net/use-cases/competitor-price-and-drop-watch/"
   ],
-  "added_at": "2026-10-24T09:30:00.000Z"
+  "added_at": "2026-10-24T09:30:00.000Z",
+  "featured": {
+    "rank": 79,
+    "score": 87,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
 }

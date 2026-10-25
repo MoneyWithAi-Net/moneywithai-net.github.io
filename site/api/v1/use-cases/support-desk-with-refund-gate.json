@@ -1,0 +1,171 @@
+{
+  "type": "use-case",
+  "slug": "support-desk-with-refund-gate",
+  "title": "Run a Support Desk with a Refund Approval Gate",
+  "category": "Customer Support",
+  "category_slug": "customer-support",
+  "money_model": "Save costs",
+  "difficulty": "Intermediate",
+  "summary": "Investigate every ticket, prepare refunds for approval, keep the help center current and coach quality weekly.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes fewer support hours per ticket.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Faster answers with fewer escalations.",
+    "No refund goes out without a person."
+  ],
+  "who_its_for": [
+    "SaaS and e-commerce support teams."
+  ],
+  "stack": [
+    {
+      "bot": "support-ticket-investigator",
+      "name": "Support Ticket Investigator",
+      "role": "Investigates and routes each ticket.",
+      "creator": "BotDirectoryAI",
+      "tools": [
+        "Plain",
+        "Linear",
+        "Datadog"
+      ],
+      "url": "https://moneywithai.net/bots/support-ticket-investigator/",
+      "official_share_url": null
+    },
+    {
+      "bot": "refund-resolution-desk",
+      "name": "Refund Resolution Desk",
+      "role": "Prepares refunds for approval.",
+      "creator": "BotDirectoryAI",
+      "tools": [
+        "Plain"
+      ],
+      "url": "https://moneywithai.net/bots/refund-resolution-desk/",
+      "official_share_url": null
+    },
+    {
+      "bot": "help-center-updater",
+      "name": "Help Center Updater",
+      "role": "Updates help articles.",
+      "creator": "damonchen",
+      "tools": [
+        "Intercom",
+        "GitHub"
+      ],
+      "url": "https://moneywithai.net/bots/help-center-updater/",
+      "official_share_url": null
+    },
+    {
+      "bot": "support-quality-coach",
+      "name": "Support Quality Coach",
+      "role": "Scores conversations weekly.",
+      "creator": "BotDirectoryAI",
+      "tools": [
+        "Plain"
+      ],
+      "url": "https://moneywithai.net/bots/support-quality-coach/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Plain",
+    "Linear",
+    "Datadog",
+    "Intercom",
+    "GitHub"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Tickets",
+        "tool": "Plain"
+      },
+      {
+        "label": "Issue tracker",
+        "tool": "Linear"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "support-ticket-investigator",
+        "name": "Support Ticket Investigator",
+        "does": "Investigates tickets",
+        "tools": [
+          "Plain",
+          "Linear",
+          "Datadog"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "refund-resolution-desk",
+        "name": "Refund Resolution Desk",
+        "does": "Prepares refunds",
+        "tools": [
+          "Plain"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "help-center-updater",
+        "name": "Help Center Updater",
+        "does": "Updates help center",
+        "tools": [
+          "Intercom",
+          "GitHub"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "support-quality-coach",
+        "name": "Support Quality Coach",
+        "does": "Coaches quality",
+        "tools": [
+          "Plain"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Approve refunds",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Routed tickets",
+      "Approved refunds",
+      "Updated articles"
+    ]
+  },
+  "steps": [
+    "Connect your helpdesk.",
+    "Set refund rules.",
+    "Approve refunds daily.",
+    "Review quality scores weekly."
+  ],
+  "guardrails": [
+    "The bots never pay, sign or accept terms for you.",
+    "A person stays reachable for anything the bot is unsure about."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 68,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/support-desk-with-refund-gate/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/support-desk-with-refund-gate.json"
+}

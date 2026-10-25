@@ -1,0 +1,30 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "buy-to-rent-property",
+    "name": "Buy to Rent Property",
+    "category": "Research and Ops",
+    "sub_use_case": "Real estate analysis",
+    "summary": "Underwrites a short-term rental purchase from a listing using Zillow and rental market data.",
+    "tools": [
+      "Zillapi",
+      "StayingAPI"
+    ],
+    "creator": {
+      "handle": "scheemunai",
+      "url": "https://botdirectory.ai/bots/buy-to-rent-property/"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://botdirectory.ai/bots/buy-to-rent-property/"
+    },
+    "official_share_url": null,
+    "found_via": "https://botdirectory.ai/bots/buy-to-rent-property/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/buy-to-rent-property/",
+    "json_url": "https://moneywithai.net/api/bots/buy-to-rent-property.json"
+  }
+}

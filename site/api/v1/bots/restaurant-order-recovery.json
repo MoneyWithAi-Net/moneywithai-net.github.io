@@ -25,7 +25,18 @@
   "url": "https://moneywithai.net/bots/restaurant-order-recovery/",
   "json_url": "https://moneywithai.net/api/v1/bots/restaurant-order-recovery.json",
   "use_cases": [
-    "https://moneywithai.net/use-cases/recover-delivery-refunds/"
+    "https://moneywithai.net/use-cases/recover-delivery-refunds/",
+    "https://moneywithai.net/use-cases/restaurant-orders-calls-recovery/"
   ],
-  "added_at": "2026-10-24T09:30:00.000Z"
+  "added_at": "2026-10-24T09:30:00.000Z",
+  "featured": {
+    "rank": 93,
+    "score": 87,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
 }

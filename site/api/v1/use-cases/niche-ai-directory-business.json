@@ -1,0 +1,187 @@
+{
+  "type": "use-case",
+  "slug": "niche-ai-directory-business",
+  "title": "Run a Niche AI Tools Directory",
+  "category": "Research and Ops",
+  "category_slug": "research-and-ops",
+  "money_model": "Creator income",
+  "difficulty": "Intermediate",
+  "summary": "Curate use cases, track what is new, write threads about the best finds and sell sponsor slots.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Assumes sponsor income once traffic is steady.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "A useful directory attracts steady visitors.",
+    "Sponsors pay for targeted placement."
+  ],
+  "who_its_for": [
+    "Niche experts and indie builders."
+  ],
+  "stack": [
+    {
+      "bot": "use-case-directory-curator",
+      "name": "Use Case Directory Curator",
+      "role": "Builds and maintains the directory.",
+      "creator": "startupideaspod",
+      "tools": [
+        "X",
+        "YouTube"
+      ],
+      "url": "https://moneywithai.net/bots/use-case-directory-curator/",
+      "official_share_url": null
+    },
+    {
+      "bot": "last30days",
+      "name": "last30days",
+      "role": "Finds what people discussed lately.",
+      "creator": "mvanhorn",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/last30days/",
+      "official_share_url": "https://x.ai/bot/ANv3NrqPfRcS9PdXku7h8"
+    },
+    {
+      "bot": "x-thread-and-article-writer",
+      "name": "X Thread & Article Writer",
+      "role": "Writes threads about top finds.",
+      "creator": "sigarellano",
+      "tools": [
+        "X"
+      ],
+      "url": "https://moneywithai.net/bots/x-thread-and-article-writer/",
+      "official_share_url": "https://x.ai/bot/xLeBNzgp0Z6IUGxyt8sj4"
+    },
+    {
+      "bot": "sponsor-inbound-scout",
+      "name": "Sponsor Inbound Scout",
+      "role": "Flags real sponsor emails.",
+      "creator": "startupideaspod",
+      "tools": [
+        "Gmail"
+      ],
+      "url": "https://moneywithai.net/bots/sponsor-inbound-scout/",
+      "official_share_url": null
+    },
+    {
+      "bot": "sponsorship-negotiator",
+      "name": "Sponsorship Negotiator",
+      "role": "Drafts rate replies.",
+      "creator": "AlexFinn",
+      "tools": [
+        "Gmail"
+      ],
+      "url": "https://moneywithai.net/bots/sponsorship-negotiator/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "X",
+    "YouTube",
+    "Grok",
+    "Gmail"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Sources",
+        "tool": "X"
+      },
+      {
+        "label": "Sources",
+        "tool": "YouTube"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "use-case-directory-curator",
+        "name": "Use Case Directory Curator",
+        "does": "Curates listings",
+        "tools": [
+          "X",
+          "YouTube"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "last30days",
+        "name": "last30days",
+        "does": "Finds new topics",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "x-thread-and-article-writer",
+        "name": "X Thread & Article Writer",
+        "does": "Writes threads",
+        "tools": [
+          "X"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "sponsor-inbound-scout",
+        "name": "Sponsor Inbound Scout",
+        "does": "Flags sponsors",
+        "tools": [
+          "Gmail"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "sponsorship-negotiator",
+        "name": "Sponsorship Negotiator",
+        "does": "Drafts rates",
+        "tools": [
+          "Gmail"
+        ]
+      },
+      {
+        "order": 6,
+        "by": "you",
+        "name": "You",
+        "does": "Approve listings",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Curated directory",
+      "Weekly threads",
+      "Sponsor deals"
+    ]
+  },
+  "steps": [
+    "Pick a narrow niche.",
+    "Curate the first 50 listings.",
+    "Post weekly threads.",
+    "Publish a sponsor page."
+  ],
+  "guardrails": [
+    "Check every number and claim before it goes public.",
+    "The bots never pay, sign or accept terms for you.",
+    "Do not reuse other people's images, words or likeness without permission."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 125,
+    "score": 65,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/niche-ai-directory-business/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/niche-ai-directory-business.json"
+}

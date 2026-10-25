@@ -1,0 +1,192 @@
+{
+  "type": "use-case",
+  "slug": "short-term-rental-investing-desk",
+  "title": "Analyze and Run a Short-Term Rental",
+  "category": "Research and Ops",
+  "category_slug": "research-and-ops",
+  "money_model": "Grow sales",
+  "difficulty": "Advanced",
+  "summary": "Underwrite a purchase, track the market, set nightly prices and keep the books.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes an owned or planned rental.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Better buy decisions.",
+    "Higher nightly revenue."
+  ],
+  "who_its_for": [
+    "Small real estate investors."
+  ],
+  "stack": [
+    {
+      "bot": "buy-to-rent-property",
+      "name": "Buy to Rent Property",
+      "role": "Underwrites a listing.",
+      "creator": "scheemunai",
+      "tools": [
+        "Zillapi",
+        "StayingAPI"
+      ],
+      "url": "https://moneywithai.net/bots/buy-to-rent-property/",
+      "official_share_url": null
+    },
+    {
+      "bot": "property-market-tracker",
+      "name": "Property Market Tracker",
+      "role": "Tracks the local market.",
+      "creator": "Ranjan Dailata",
+      "tools": [
+        "n8n",
+        "Google Sheets",
+        "OpenAI"
+      ],
+      "url": "https://moneywithai.net/bots/property-market-tracker/",
+      "official_share_url": null
+    },
+    {
+      "bot": "property-decision-os",
+      "name": "Property Decision OS",
+      "role": "Guides the decision to close.",
+      "creator": "Amervim",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/property-decision-os/",
+      "official_share_url": "https://x.ai/bot/PD7LPOk0HP53QxxWWEN8R"
+    },
+    {
+      "bot": "nightly-rate-optimizer",
+      "name": "Nightly Rate Optimizer",
+      "role": "Sets nightly prices.",
+      "creator": "scheemunai",
+      "tools": [
+        "StayingAPI"
+      ],
+      "url": "https://moneywithai.net/bots/nightly-rate-optimizer/",
+      "official_share_url": null
+    },
+    {
+      "bot": "landlord-ledger",
+      "name": "Landlord Ledger",
+      "role": "Keeps the books.",
+      "creator": "Daniel191555486",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/landlord-ledger/",
+      "official_share_url": "https://x.ai/bot/sPjI0Dec1DUvTc7H0zxNG"
+    }
+  ],
+  "tools": [
+    "Zillapi",
+    "StayingAPI",
+    "n8n",
+    "Google Sheets",
+    "OpenAI",
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Listings",
+        "tool": null
+      },
+      {
+        "label": "Rental data",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "buy-to-rent-property",
+        "name": "Buy to Rent Property",
+        "does": "Underwrites",
+        "tools": [
+          "Zillapi",
+          "StayingAPI"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "property-market-tracker",
+        "name": "Property Market Tracker",
+        "does": "Tracks the market",
+        "tools": [
+          "n8n",
+          "Google Sheets",
+          "OpenAI"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "property-decision-os",
+        "name": "Property Decision OS",
+        "does": "Guides decision",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "nightly-rate-optimizer",
+        "name": "Nightly Rate Optimizer",
+        "does": "Sets prices",
+        "tools": [
+          "StayingAPI"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "landlord-ledger",
+        "name": "Landlord Ledger",
+        "does": "Keeps books",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 6,
+        "by": "you",
+        "name": "You",
+        "does": "Decide and buy",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Underwriting",
+      "Nightly prices",
+      "Books"
+    ]
+  },
+  "steps": [
+    "Set your buy box.",
+    "Underwrite three listings.",
+    "Decide with the guide.",
+    "Price nightly once live."
+  ],
+  "guardrails": [
+    "The bots never pay, sign or accept terms for you.",
+    "This is admin help, not legal, tax or financial advice."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 87,
+    "score": 76,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 3,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/short-term-rental-investing-desk/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/short-term-rental-investing-desk.json"
+}

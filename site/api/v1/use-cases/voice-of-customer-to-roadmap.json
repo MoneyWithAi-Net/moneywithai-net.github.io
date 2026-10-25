@@ -1,0 +1,172 @@
+{
+  "type": "use-case",
+  "slug": "voice-of-customer-to-roadmap",
+  "title": "Turn Customer Feedback into a Roadmap and Ads",
+  "category": "Customer Support",
+  "category_slug": "customer-support",
+  "money_model": "Grow sales",
+  "difficulty": "Intermediate",
+  "summary": "Code feedback into themes, watch new feedback, file product themes and reuse the words in ads.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes better retention and ad returns.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Build what customers ask for.",
+    "Ads in customer language."
+  ],
+  "who_its_for": [
+    "Product teams and founders."
+  ],
+  "stack": [
+    {
+      "bot": "feedback-theme-tally",
+      "name": "Feedback Theme Tally",
+      "role": "Codes feedback against a theme list.",
+      "creator": "HJGameStudios",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/feedback-theme-tally/",
+      "official_share_url": "https://x.ai/bot/ETwbAVBi1bweFPvBqWC2E"
+    },
+    {
+      "bot": "customer-feedback-theme-analyst",
+      "name": "Customer Feedback Theme Analyst",
+      "role": "Files product themes in Linear.",
+      "creator": "BotDirectoryAI",
+      "tools": [
+        "Plain",
+        "X",
+        "Linear"
+      ],
+      "url": "https://moneywithai.net/bots/customer-feedback-theme-analyst/",
+      "official_share_url": null
+    },
+    {
+      "bot": "customer-feedback-watch",
+      "name": "Customer Feedback Watch",
+      "role": "Watches new feedback.",
+      "creator": "egavrilenko11",
+      "tools": [
+        "X API"
+      ],
+      "url": "https://moneywithai.net/bots/customer-feedback-watch/",
+      "official_share_url": "https://x.ai/bot/8Snl1TovbMwClPoBiHrWT"
+    },
+    {
+      "bot": "voc-ad-angle-generator",
+      "name": "VOC Ad Angle Generator",
+      "role": "Turns feedback into ad angles.",
+      "creator": "elie2222",
+      "tools": [
+        "Gmail",
+        "Google Sheets"
+      ],
+      "url": "https://moneywithai.net/bots/voc-ad-angle-generator/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Grok",
+    "Plain",
+    "X",
+    "Linear",
+    "X API",
+    "Gmail",
+    "Google Sheets"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Feedback",
+        "tool": "Gmail"
+      },
+      {
+        "label": "Issue tracker",
+        "tool": "Linear"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "feedback-theme-tally",
+        "name": "Feedback Theme Tally",
+        "does": "Codes feedback",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "customer-feedback-theme-analyst",
+        "name": "Customer Feedback Theme Analyst",
+        "does": "Files themes",
+        "tools": [
+          "Plain",
+          "X",
+          "Linear"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "customer-feedback-watch",
+        "name": "Customer Feedback Watch",
+        "does": "Watches feedback",
+        "tools": [
+          "X API"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "voc-ad-angle-generator",
+        "name": "VOC Ad Angle Generator",
+        "does": "Writes ad angles",
+        "tools": [
+          "Gmail",
+          "Google Sheets"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Prioritize",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Themes with evidence",
+      "Ad angles"
+    ]
+  },
+  "steps": [
+    "Approve a theme list.",
+    "Code last quarter's feedback.",
+    "Review themes monthly.",
+    "Test the top ad angle."
+  ],
+  "guardrails": [
+    "Check every number and claim before it goes public.",
+    "Handle customer and candidate data under your local privacy rules."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 77,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/voice-of-customer-to-roadmap/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/voice-of-customer-to-roadmap.json"
+}

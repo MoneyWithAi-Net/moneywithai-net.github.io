@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "aio-specialist-aeo-geo",
+  "name": "AIO Specialist (AEO/GEO)",
+  "category": "Content and Marketing",
+  "sub_use_case": "SEO and AI search",
+  "summary": "Runs AI Overviews, answer-engine and generative-engine optimization as one ongoing program for your site.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "mathiasnoyez",
+    "url": "https://x.com/mathiasnoyez"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/mathiasnoyez/status/2093445450388893813"
+  },
+  "official_share_url": "https://x.ai/bot/wOvqAFpr3o8VB3g4Tmpxr",
+  "found_via": "https://botdirectory.ai/bots/aio-specialist-aeo-geo/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/aio-specialist-aeo-geo/",
+  "json_url": "https://moneywithai.net/api/v1/bots/aio-specialist-aeo-geo.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/ai-search-visibility-retainer/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 30,
+    "score": 93,
+    "money": 40,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 3,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

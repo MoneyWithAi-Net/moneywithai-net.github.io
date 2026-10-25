@@ -1,0 +1,30 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "sales-outbound",
+    "name": "Sales Outbound",
+    "category": "Leads and Sales",
+    "sub_use_case": "Outbound prospecting",
+    "summary": "Researches prospects on your schedule, logs them in Google Sheets and drafts follow-up emails in Gmail for you to send.",
+    "tools": [
+      "Gmail",
+      "Google Sheets"
+    ],
+    "creator": {
+      "handle": "BotDirectoryAI",
+      "url": "https://x.com/BotDirectoryAI"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/BotDirectoryAI/status/2113620573125284213"
+    },
+    "official_share_url": null,
+    "found_via": "https://botdirectory.ai/bots/sales-outbound/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/sales-outbound/",
+    "json_url": "https://moneywithai.net/api/bots/sales-outbound.json"
+  }
+}

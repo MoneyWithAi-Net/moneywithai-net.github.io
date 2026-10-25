@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "x-agent",
+    "name": "X Agent",
+    "category": "Content and Marketing",
+    "sub_use_case": "X posting",
+    "summary": "Scouts AI and coding conversations on X and drafts replies in your voice for approval.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "MikkoUusitalo1",
+      "url": "https://x.com/MikkoUusitalo1"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/MikkoUusitalo1/status/2101311997757243739"
+    },
+    "official_share_url": "https://x.ai/bot/7V6XbVZRZ04eHej3tJIAQ",
+    "found_via": "https://grokbot101.org/bots/x-agent/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/x-agent/",
+    "json_url": "https://moneywithai.net/api/bots/x-agent.json"
+  }
+}

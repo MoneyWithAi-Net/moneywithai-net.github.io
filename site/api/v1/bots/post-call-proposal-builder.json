@@ -1,0 +1,46 @@
+{
+  "type": "bot",
+  "slug": "post-call-proposal-builder",
+  "name": "Post Call Proposal Builder",
+  "category": "Client Services",
+  "sub_use_case": "Quotes",
+  "summary": "After a sales call, drafts a tailored proposal in Google Slides and emails it for your review.",
+  "tools": [
+    "n8n",
+    "Gmail",
+    "Google Drive",
+    "Google Slides",
+    "OpenAI"
+  ],
+  "creator": {
+    "handle": "Gerald Denor",
+    "url": "https://n8n.io/creators/dominixai/"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://n8n.io/workflows/4359/"
+  },
+  "official_share_url": null,
+  "found_via": "https://n8n.io/workflows/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/post-call-proposal-builder/",
+  "json_url": "https://moneywithai.net/api/v1/bots/post-call-proposal-builder.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/freelance-gig-to-proposal/",
+    "https://moneywithai.net/use-cases/agency-proposal-to-payment/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 123,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

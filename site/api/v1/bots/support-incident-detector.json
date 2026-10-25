@@ -1,0 +1,43 @@
+{
+  "type": "bot",
+  "slug": "support-incident-detector",
+  "name": "Support Incident Detector",
+  "category": "Customer Support",
+  "sub_use_case": "Support triage",
+  "summary": "Spots emerging incidents early by clustering repeat support reports with Datadog signals and X chatter.",
+  "tools": [
+    "Plain",
+    "Datadog",
+    "X"
+  ],
+  "creator": {
+    "handle": "BotDirectoryAI",
+    "url": "https://x.com/BotDirectoryAI"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/BotDirectoryAI/status/2104348042279141557"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/support-incident-detector/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/support-incident-detector/",
+  "json_url": "https://moneywithai.net/api/v1/bots/support-incident-detector.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/incident-early-warning/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 241,
+    "score": 76,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 3,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "fresh-eyes-product-auditor",
+    "name": "Fresh Eyes Product Auditor",
+    "category": "E-Commerce",
+    "sub_use_case": "Store operations",
+    "summary": "Walks your site or app as a first-time customer and ranks the biggest UX fixes with mock-ups.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Evoputa",
+      "url": "https://x.com/Evoputa"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/Evoputa/status/2105961977977991260"
+    },
+    "official_share_url": "https://x.ai/bot/jASNu2J_6nCtKvKf4v_Sd",
+    "found_via": "https://grokbot101.org/bots/fresh-eyes/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/fresh-eyes-product-auditor/",
+    "json_url": "https://moneywithai.net/api/bots/fresh-eyes-product-auditor.json"
+  }
+}

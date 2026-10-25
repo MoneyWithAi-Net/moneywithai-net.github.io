@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "asistente-contable-colombia",
+  "name": "Asistente Contable - Colombia",
+  "category": "Finance",
+  "sub_use_case": "Accounting office ops",
+  "summary": "Back-office help for independent accountants in Colombia: tax due dates, client files, email triage and form drafts.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "KatheTrivinoG",
+    "url": "https://x.com/KatheTrivinoG"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/KatheTrivinoG/status/2101094063915323642"
+  },
+  "official_share_url": "https://x.ai/bot/roAIOBqaMNIijMjrAaI7C",
+  "found_via": "https://grokbot101.org/bots/asistente-contable-colombia/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/asistente-contable-colombia/",
+  "json_url": "https://moneywithai.net/api/v1/bots/asistente-contable-colombia.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/accountant-office-latam/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 143,
+    "score": 83,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

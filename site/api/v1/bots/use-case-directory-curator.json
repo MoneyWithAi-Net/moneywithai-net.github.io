@@ -1,0 +1,42 @@
+{
+  "type": "bot",
+  "slug": "use-case-directory-curator",
+  "name": "Use Case Directory Curator",
+  "category": "Research and Ops",
+  "sub_use_case": "Market notes",
+  "summary": "Builds and maintains a curated directory of agent use cases for a topic from X and YouTube.",
+  "tools": [
+    "X",
+    "YouTube"
+  ],
+  "creator": {
+    "handle": "startupideaspod",
+    "url": "https://x.com/startupideaspod"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/startupideaspod/status/2091238981337858473"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/use-case-directory-curator/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/use-case-directory-curator/",
+  "json_url": "https://moneywithai.net/api/v1/bots/use-case-directory-curator.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/niche-ai-directory-business/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 275,
+    "score": 65,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

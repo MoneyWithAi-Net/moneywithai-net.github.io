@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "inbox-manager",
+  "name": "Inbox Manager",
+  "category": "Research and Ops",
+  "sub_use_case": "Inbox triage",
+  "summary": "Scans new Gmail, labels and prioritizes it, and drafts replies for the messages that need you.",
+  "tools": [
+    "Gmail"
+  ],
+  "creator": {
+    "handle": "mvanhorn",
+    "url": "https://x.com/mvanhorn"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/mvanhorn/status/2092629522717737284"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/inbox-manager/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/inbox-manager/",
+  "json_url": "https://moneywithai.net/api/v1/bots/inbox-manager.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/agency-inbox-to-projects/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 266,
+    "score": 69,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

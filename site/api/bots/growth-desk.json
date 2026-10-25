@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "growth-desk",
+    "name": "Growth Desk",
+    "category": "Content and Marketing",
+    "sub_use_case": "X posting",
+    "summary": "A draft-only X growth desk for one account that locks topic, audience and voice, then drafts posts for approval.",
+    "tools": [
+      "X"
+    ],
+    "creator": {
+      "handle": "Avid",
+      "url": "https://botdirectory.ai/bots/growth-desk/"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/YYCOE-YeGxnGLb4Mbv7dO"
+    },
+    "official_share_url": "https://x.ai/bot/YYCOE-YeGxnGLb4Mbv7dO",
+    "found_via": "https://botdirectory.ai/bots/growth-desk/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/growth-desk/",
+    "json_url": "https://moneywithai.net/api/bots/growth-desk.json"
+  }
+}

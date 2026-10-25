@@ -1,0 +1,171 @@
+{
+  "type": "use-case",
+  "slug": "zendesk-autopilot-with-changelog",
+  "title": "Clear the Zendesk Queue Faster",
+  "category": "Customer Support",
+  "category_slug": "customer-support",
+  "money_model": "Save costs",
+  "difficulty": "Intermediate",
+  "summary": "Draft confident replies hourly, answer from your docs, turn fixes into a changelog and review quality.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes support time saved.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Shorter queues.",
+    "Customers see what got fixed."
+  ],
+  "who_its_for": [
+    "Support leads on Zendesk."
+  ],
+  "stack": [
+    {
+      "bot": "support-queue-pass",
+      "name": "Support Queue Pass",
+      "role": "Drafts replies on tickets it is sure about.",
+      "creator": "ericzakariasson",
+      "tools": [
+        "Zendesk",
+        "Slack"
+      ],
+      "url": "https://moneywithai.net/bots/support-queue-pass/",
+      "official_share_url": null
+    },
+    {
+      "bot": "docs-powered-ticket-answerer",
+      "name": "Docs Powered Ticket Answerer",
+      "role": "Answers from Mintlify docs.",
+      "creator": "Alex Gurinovich",
+      "tools": [
+        "n8n",
+        "OpenRouter"
+      ],
+      "url": "https://moneywithai.net/bots/docs-powered-ticket-answerer/",
+      "official_share_url": null
+    },
+    {
+      "bot": "tickets-to-changelog",
+      "name": "Tickets To Changelog",
+      "role": "Turns fixed tickets into changelog entries.",
+      "creator": "ericzakariasson",
+      "tools": [
+        "Zendesk",
+        "Notion"
+      ],
+      "url": "https://moneywithai.net/bots/tickets-to-changelog/",
+      "official_share_url": null
+    },
+    {
+      "bot": "support-quality-coach",
+      "name": "Support Quality Coach",
+      "role": "Reviews quality weekly.",
+      "creator": "BotDirectoryAI",
+      "tools": [
+        "Plain"
+      ],
+      "url": "https://moneywithai.net/bots/support-quality-coach/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Zendesk",
+    "Slack",
+    "n8n",
+    "OpenRouter",
+    "Notion",
+    "Plain"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Tickets",
+        "tool": "Zendesk"
+      },
+      {
+        "label": "Docs",
+        "tool": "Mintlify"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "support-queue-pass",
+        "name": "Support Queue Pass",
+        "does": "Drafts replies",
+        "tools": [
+          "Zendesk",
+          "Slack"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "docs-powered-ticket-answerer",
+        "name": "Docs Powered Ticket Answerer",
+        "does": "Answers from docs",
+        "tools": [
+          "n8n",
+          "OpenRouter"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "tickets-to-changelog",
+        "name": "Tickets To Changelog",
+        "does": "Writes changelog",
+        "tools": [
+          "Zendesk",
+          "Notion"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "support-quality-coach",
+        "name": "Support Quality Coach",
+        "does": "Reviews quality",
+        "tools": [
+          "Plain"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Approve replies",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Drafted replies",
+      "Weekly changelog"
+    ]
+  },
+  "steps": [
+    "Start in draft-only mode.",
+    "Approve replies for two weeks.",
+    "Publish the changelog weekly.",
+    "Review quality."
+  ],
+  "guardrails": [
+    "A person stays reachable for anything the bot is unsure about.",
+    "Review a sample by hand before you trust a scheduled run."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 46,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/zendesk-autopilot-with-changelog/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/zendesk-autopilot-with-changelog.json"
+}

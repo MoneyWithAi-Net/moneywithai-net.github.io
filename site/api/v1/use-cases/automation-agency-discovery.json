@@ -1,0 +1,191 @@
+{
+  "type": "use-case",
+  "slug": "automation-agency-discovery",
+  "title": "Sell Automation Projects from a Discovery Audit",
+  "category": "Client Services",
+  "category_slug": "client-services",
+  "money_model": "Sell a service",
+  "difficulty": "Advanced",
+  "summary": "Interview the owner, mine their tools for repetitive work, write a spec and close a build project.",
+  "money_potential": {
+    "tier": 3,
+    "symbol": "$$$",
+    "label": "High",
+    "basis": "Assumes discovery fees plus project builds.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Paid discovery leads to bigger builds.",
+    "Specs make delivery predictable."
+  ],
+  "who_its_for": [
+    "Automation consultants and n8n builders."
+  ],
+  "stack": [
+    {
+      "bot": "pain-in-the-task",
+      "name": "Pain in the Task",
+      "role": "Interviews the owner about repetitive work.",
+      "creator": "gambrill",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/pain-in-the-task/",
+      "official_share_url": "https://x.ai/bot/yztAMds3EQ2J5OjG_tBgw"
+    },
+    {
+      "bot": "automation-scout",
+      "name": "Automation Scout",
+      "role": "Mines their tools for repeat work.",
+      "creator": "ericzakariasson",
+      "tools": [
+        "Slack",
+        "Notion",
+        "GitHub",
+        "Linear"
+      ],
+      "url": "https://moneywithai.net/bots/automation-scout/",
+      "official_share_url": null
+    },
+    {
+      "bot": "business-context-interviewer",
+      "name": "Business Context Interviewer",
+      "role": "Captures business context.",
+      "creator": "nateherk",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/business-context-interviewer/",
+      "official_share_url": null
+    },
+    {
+      "bot": "requirement-engineer-bot",
+      "name": "Requirement Engineer Bot",
+      "role": "Writes the build spec.",
+      "creator": "FishxCD",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/requirement-engineer-bot/",
+      "official_share_url": "https://x.ai/bot/5KADFS8AIIDOlow5tS34Z"
+    },
+    {
+      "bot": "case-skeleton",
+      "name": "Case Skeleton",
+      "role": "Outlines the case study.",
+      "creator": "paulopierrondi",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/case-skeleton/",
+      "official_share_url": "https://x.ai/bot/_7yFKwQCYR_mi_oVmKOEN"
+    }
+  ],
+  "tools": [
+    "Grok",
+    "Slack",
+    "Notion",
+    "GitHub",
+    "Linear"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Client tools",
+        "tool": "Slack"
+      },
+      {
+        "label": "Owner interview",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "pain-in-the-task",
+        "name": "Pain in the Task",
+        "does": "Finds pain points",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "automation-scout",
+        "name": "Automation Scout",
+        "does": "Mines tool history",
+        "tools": [
+          "Slack",
+          "Notion",
+          "GitHub",
+          "Linear"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "business-context-interviewer",
+        "name": "Business Context Interviewer",
+        "does": "Captures context",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "requirement-engineer-bot",
+        "name": "Requirement Engineer Bot",
+        "does": "Writes the spec",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "case-skeleton",
+        "name": "Case Skeleton",
+        "does": "Outlines case study",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 6,
+        "by": "you",
+        "name": "You",
+        "does": "Sell and deliver",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Discovery report",
+      "Build spec",
+      "Projects"
+    ]
+  },
+  "steps": [
+    "Sell a fixed-price discovery.",
+    "Run the interview and tool scan.",
+    "Deliver a spec with priorities.",
+    "Quote the build."
+  ],
+  "guardrails": [
+    "Connect only accounts you own and give the least access needed.",
+    "Handle customer and candidate data under your local privacy rules."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 22,
+    "score": 89,
+    "money": 40,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 3,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/automation-agency-discovery/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/automation-agency-discovery.json"
+}

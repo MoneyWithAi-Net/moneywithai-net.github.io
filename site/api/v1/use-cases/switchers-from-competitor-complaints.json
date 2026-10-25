@@ -1,0 +1,169 @@
+{
+  "type": "use-case",
+  "slug": "switchers-from-competitor-complaints",
+  "title": "Win Customers Who Are Unhappy with a Competitor",
+  "category": "Leads and Sales",
+  "category_slug": "leads-and-sales",
+  "money_model": "Grow sales",
+  "difficulty": "Beginner",
+  "summary": "Find people publicly complaining about a rival, reply helpfully and track the conversations that turn warm.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you already have a product people switch to; it adds conversations, not a new offer.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "People already shopping for a switch convert faster than cold leads.",
+    "A simple CRM keeps follow-ups from slipping."
+  ],
+  "who_its_for": [
+    "SaaS founders and service businesses with a clear rival."
+  ],
+  "stack": [
+    {
+      "bot": "redreplier",
+      "name": "RedReplier",
+      "role": "Ranks fresh mentions of your rivals by buying intent.",
+      "creator": "Grok_Hub_IO",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/redreplier/",
+      "official_share_url": "https://x.ai/bot/8aU6ly_uunnMabpybs3hB"
+    },
+    {
+      "bot": "keyword-conversation-finder",
+      "name": "Keyword Conversation Finder",
+      "role": "Finds LinkedIn posts about the problem you solve.",
+      "creator": "19Ash82",
+      "tools": [
+        "Signado"
+      ],
+      "url": "https://moneywithai.net/bots/keyword-conversation-finder/",
+      "official_share_url": null
+    },
+    {
+      "bot": "reply-drafter",
+      "name": "Reply Drafter",
+      "role": "Drafts a helpful, non-pushy reply in your voice.",
+      "creator": "kevinace",
+      "tools": [
+        "X"
+      ],
+      "url": "https://moneywithai.net/bots/reply-drafter/",
+      "official_share_url": null
+    },
+    {
+      "bot": "personal-x-crm",
+      "name": "Personal X CRM",
+      "role": "Logs each conversation in Notion for follow-up.",
+      "creator": "mattyp",
+      "tools": [
+        "X",
+        "Notion"
+      ],
+      "url": "https://moneywithai.net/bots/personal-x-crm/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Grok",
+    "Signado",
+    "X",
+    "Notion"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Public posts",
+        "tool": "X"
+      },
+      {
+        "label": "Public posts",
+        "tool": "LinkedIn"
+      },
+      {
+        "label": "Rival names",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "redreplier",
+        "name": "RedReplier",
+        "does": "Ranks rival mentions by intent",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "keyword-conversation-finder",
+        "name": "Keyword Conversation Finder",
+        "does": "Finds LinkedIn problem posts",
+        "tools": [
+          "Signado"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "reply-drafter",
+        "name": "Reply Drafter",
+        "does": "Drafts helpful replies",
+        "tools": [
+          "X"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "personal-x-crm",
+        "name": "Personal X CRM",
+        "does": "Logs conversations",
+        "tools": [
+          "X",
+          "Notion"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Edit and post replies",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Warm conversations",
+      "Trials or demos booked"
+    ]
+  },
+  "steps": [
+    "List your top two rivals and the problems you fix better.",
+    "Review the ranked mentions each morning.",
+    "Pick a few and edit the drafted replies.",
+    "Follow up from the CRM a few days later."
+  ],
+  "guardrails": [
+    "Nothing is posted publicly without your OK.",
+    "Keep daily sending caps low and follow each platform's rules on automation."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 41,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/switchers-from-competitor-complaints/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/switchers-from-competitor-complaints.json"
+}

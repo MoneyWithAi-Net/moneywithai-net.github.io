@@ -1,0 +1,165 @@
+{
+  "type": "use-case",
+  "slug": "photographer-licensing-and-open-calls",
+  "title": "Earn More from Your Photos with Open Calls and Licensing",
+  "category": "Client Services",
+  "category_slug": "client-services",
+  "money_model": "Creator income",
+  "difficulty": "Beginner",
+  "summary": "Find open calls, prepare submissions, catch uncredited use and invoice licensing fees.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Assumes occasional prizes and licensing fees.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "New income from work you already shot.",
+    "Uncredited use becomes paid licensing."
+  ],
+  "who_its_for": [
+    "Photographers."
+  ],
+  "stack": [
+    {
+      "bot": "open-call-producer",
+      "name": "Open Call Producer",
+      "role": "Finds open calls and drafts submissions.",
+      "creator": "sashanaria",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/open-call-producer/",
+      "official_share_url": "https://x.ai/bot/BONR6QrctxFQWXdHzT1Ro"
+    },
+    {
+      "bot": "photo-credit-watch",
+      "name": "Photo Credit Watch",
+      "role": "Finds uncredited use of your photos.",
+      "creator": "gzikry",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/photo-credit-watch/",
+      "official_share_url": "https://x.ai/bot/fXV8CXfn8_l4Q1ktMrrF2"
+    },
+    {
+      "bot": "photofix",
+      "name": "PhotoFix",
+      "role": "Cleans up images.",
+      "creator": "MarsHomestead",
+      "tools": [
+        "Google Drive",
+        "Dropbox"
+      ],
+      "url": "https://moneywithai.net/bots/photofix/",
+      "official_share_url": "https://x.ai/bot/PRdnJ63L8h0FVlMAA1UN4"
+    },
+    {
+      "bot": "invoice-hunter",
+      "name": "Invoice Hunter",
+      "role": "Chases licensing invoices.",
+      "creator": "scheemunai",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/invoice-hunter/",
+      "official_share_url": "https://x.ai/bot/-kO6HrXokJZANVwUOMZO9"
+    }
+  ],
+  "tools": [
+    "Grok",
+    "Google Drive",
+    "Dropbox"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Portfolio",
+        "tool": null
+      },
+      {
+        "label": "Open-call sites",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "open-call-producer",
+        "name": "Open Call Producer",
+        "does": "Drafts submissions",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "photo-credit-watch",
+        "name": "Photo Credit Watch",
+        "does": "Finds uncredited use",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "photofix",
+        "name": "PhotoFix",
+        "does": "Cleans images",
+        "tools": [
+          "Google Drive",
+          "Dropbox"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "invoice-hunter",
+        "name": "Invoice Hunter",
+        "does": "Chases invoices",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Approve submissions and requests",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Submissions",
+      "Licensing requests",
+      "Paid invoices"
+    ]
+  },
+  "steps": [
+    "Pick a portfolio of 50 images.",
+    "Submit to two open calls a month.",
+    "Review uncredited finds weekly.",
+    "Invoice politely."
+  ],
+  "guardrails": [
+    "This is admin help, not legal, tax or financial advice.",
+    "Every message and document stays a draft until you approve it."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 103,
+    "score": 69,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/photographer-licensing-and-open-calls/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/photographer-licensing-and-open-calls.json"
+}

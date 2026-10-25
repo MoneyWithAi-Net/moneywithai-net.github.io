@@ -1,0 +1,43 @@
+{
+  "type": "bot",
+  "slug": "shorty",
+  "name": "Shorty",
+  "category": "Content and Marketing",
+  "sub_use_case": "Video production",
+  "summary": "Cuts YouTube Shorts from your proven long-form videos with hooks, captions and vertical framing in weekday batches.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "farzyness",
+    "url": "https://x.com/farzyness"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/farzyness/status/2093485851606929592"
+  },
+  "official_share_url": "https://x.ai/bot/32fHIBw9Yz-s_o35KycGX",
+  "found_via": "https://botdirectory.ai/bots/shorty/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/shorty/",
+  "json_url": "https://moneywithai.net/api/v1/bots/shorty.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/sell-editing-to-youtubers/",
+    "https://moneywithai.net/use-cases/six-bot-content-calendar/",
+    "https://moneywithai.net/use-cases/short-form-clipping-agency/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 9,
+    "score": 100,
+    "money": 40,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

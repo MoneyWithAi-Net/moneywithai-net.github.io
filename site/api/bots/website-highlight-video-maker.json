@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "website-highlight-video-maker",
+    "name": "Website Highlight Video Maker",
+    "category": "Content and Marketing",
+    "sub_use_case": "Video production",
+    "summary": "Turns your product pages into narrated tutorial videos and a vertical short with YouTube copy.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "DaroFrostad",
+      "url": "https://x.com/DaroFrostad"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/DaroFrostad/status/2107971032351207747"
+    },
+    "official_share_url": "https://x.ai/bot/knt08ohuspBYhQ6ohXtKt",
+    "found_via": "https://grokbot101.org/bots/website-highlight-video-maker/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/website-highlight-video-maker/",
+    "json_url": "https://moneywithai.net/api/bots/website-highlight-video-maker.json"
+  }
+}

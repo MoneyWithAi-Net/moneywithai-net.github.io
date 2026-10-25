@@ -26,7 +26,19 @@
   "json_url": "https://moneywithai.net/api/v1/bots/site-research.json",
   "use_cases": [
     "https://moneywithai.net/use-cases/sell-websites-to-local-businesses/",
-    "https://moneywithai.net/use-cases/seo-agency-pitch-pack/"
+    "https://moneywithai.net/use-cases/seo-agency-pitch-pack/",
+    "https://moneywithai.net/use-cases/maps-leads-to-booked-calls/",
+    "https://moneywithai.net/use-cases/local-review-service-agency/"
   ],
-  "added_at": "2026-10-24T09:30:00.000Z"
+  "added_at": "2026-10-24T09:30:00.000Z",
+  "featured": {
+    "rank": 10,
+    "score": 100,
+    "money": 40,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
 }

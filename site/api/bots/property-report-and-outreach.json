@@ -1,0 +1,31 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "property-report-and-outreach",
+    "name": "Property Report and Outreach",
+    "category": "Leads and Sales",
+    "sub_use_case": "Real estate leads",
+    "summary": "Builds property research reports with Exa and PandaDoc and queues outreach in Instantly.",
+    "tools": [
+      "n8n",
+      "Google Sheets",
+      "Slack"
+    ],
+    "creator": {
+      "handle": "Devon Toh",
+      "url": "https://n8n.io/creators/devontoh/"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://n8n.io/workflows/14053/"
+    },
+    "official_share_url": null,
+    "found_via": "https://n8n.io/workflows/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/property-report-and-outreach/",
+    "json_url": "https://moneywithai.net/api/bots/property-report-and-outreach.json"
+  }
+}

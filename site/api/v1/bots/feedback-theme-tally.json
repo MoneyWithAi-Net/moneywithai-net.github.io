@@ -1,0 +1,44 @@
+{
+  "type": "bot",
+  "slug": "feedback-theme-tally",
+  "name": "Feedback Theme Tally",
+  "category": "Customer Support",
+  "sub_use_case": "Feedback watch",
+  "summary": "Codes a batch of customer feedback against an approved theme list, with every count linked to the exact words.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "HJGameStudios",
+    "url": "https://x.com/HJGameStudios"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/HJGameStudios/status/2108623223759782211"
+  },
+  "official_share_url": "https://x.ai/bot/ETwbAVBi1bweFPvBqWC2E",
+  "found_via": "https://grokbot101.org/bots/feedback-theme-tally/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/feedback-theme-tally/",
+  "json_url": "https://moneywithai.net/api/v1/bots/feedback-theme-tally.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/member-email-program/",
+    "https://moneywithai.net/use-cases/store-vip-and-winback/",
+    "https://moneywithai.net/use-cases/voice-of-customer-to-roadmap/",
+    "https://moneywithai.net/use-cases/churn-save-program/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 80,
+    "score": 87,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

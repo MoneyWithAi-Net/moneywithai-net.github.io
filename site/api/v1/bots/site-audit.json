@@ -1,0 +1,44 @@
+{
+  "type": "bot",
+  "slug": "site-audit",
+  "name": "Site Audit",
+  "category": "Leads and Sales",
+  "sub_use_case": "Pre-pitch audits",
+  "summary": "Scores a site on SEO, content, speed, accessibility, conversion and schema, with priorities and evidence links.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "scheemunai",
+    "url": "https://x.com/scheemunai"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/scheemunai/status/2093397637487596019"
+  },
+  "official_share_url": "https://x.ai/bot/s6JVFYDIDMsCQMBeTcznW",
+  "found_via": "https://botdirectory.ai/bots/site-audit/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/site-audit/",
+  "json_url": "https://moneywithai.net/api/v1/bots/site-audit.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/pitch-ad-management-to-active-advertisers/",
+    "https://moneywithai.net/use-cases/ai-search-visibility-retainer/",
+    "https://moneywithai.net/use-cases/local-seo-agency-in-a-box/",
+    "https://moneywithai.net/use-cases/managed-care-plans-for-sites/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 27,
+    "score": 96,
+    "money": 40,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

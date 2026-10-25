@@ -1,0 +1,43 @@
+{
+  "type": "bot",
+  "slug": "competitor-price-alert",
+  "name": "Competitor Price Alert",
+  "category": "E-Commerce",
+  "sub_use_case": "Competitor drops",
+  "summary": "Monitors competitor product prices with Bright Data and emails you when they change.",
+  "tools": [
+    "n8n",
+    "Gmail",
+    "Google Sheets"
+  ],
+  "creator": {
+    "handle": "Yaron Been",
+    "url": "https://n8n.io/creators/yaron-nofluff/"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://n8n.io/workflows/5219/"
+  },
+  "official_share_url": null,
+  "found_via": "https://n8n.io/workflows/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/competitor-price-alert/",
+  "json_url": "https://moneywithai.net/api/v1/bots/competitor-price-alert.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/competitor-price-and-drop-watch/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 107,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

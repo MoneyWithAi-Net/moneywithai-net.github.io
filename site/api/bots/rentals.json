@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "rentals",
+    "name": "RENTALS",
+    "category": "Leads and Sales",
+    "sub_use_case": "Real estate leads",
+    "summary": "Manages Facebook Marketplace rental listings for owners: answers leads in your voice, books showings and reports back.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "HandsomeHenry6",
+      "url": "https://x.com/HandsomeHenry6"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/HandsomeHenry6/status/2093905948637114427"
+    },
+    "official_share_url": "https://x.ai/bot/JrnQAM0z-7SNI9UtIO3-Z",
+    "found_via": "https://botdirectory.ai/bots/rentals/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/rentals/",
+    "json_url": "https://moneywithai.net/api/bots/rentals.json"
+  }
+}

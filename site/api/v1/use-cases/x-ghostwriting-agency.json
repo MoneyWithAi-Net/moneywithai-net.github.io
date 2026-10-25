@@ -1,0 +1,194 @@
+{
+  "type": "use-case",
+  "slug": "x-ghostwriting-agency",
+  "title": "Run a Ghostwriting Agency on X",
+  "category": "Content and Marketing",
+  "category_slug": "content-and-marketing",
+  "money_model": "Sell a service",
+  "difficulty": "Advanced",
+  "summary": "Learn each client's voice, draft daily posts across accounts, fact-check them and bill monthly.",
+  "money_potential": {
+    "tier": 3,
+    "symbol": "$$$",
+    "label": "High",
+    "basis": "Assumes a monthly retainer per client.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Recurring retainers from busy founders.",
+    "One workflow serves several clients."
+  ],
+  "who_its_for": [
+    "Writers who want to productize."
+  ],
+  "stack": [
+    {
+      "bot": "voice-matched-content-pipeline",
+      "name": "Voice-Matched Content Pipeline",
+      "role": "Builds a voice-matched plan from a client's X history.",
+      "creator": "siyabuilt",
+      "tools": [
+        "X",
+        "Grok",
+        "Claude",
+        "Notion",
+        "Whop"
+      ],
+      "url": "https://moneywithai.net/bots/voice-matched-content-pipeline/",
+      "official_share_url": null
+    },
+    {
+      "bot": "multi-account-content-desk",
+      "name": "Multi-Account Content Desk",
+      "role": "Runs a content desk across accounts.",
+      "creator": "Voxyz_ai",
+      "tools": [
+        "X"
+      ],
+      "url": "https://moneywithai.net/bots/multi-account-content-desk/",
+      "official_share_url": null
+    },
+    {
+      "bot": "x-posting-curator",
+      "name": "X Posting Curator",
+      "role": "Fact-checks every claim.",
+      "creator": "PixelRainbowNFT",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/x-posting-curator/",
+      "official_share_url": "https://x.ai/bot/fJoloWNDTl7ee9VwxNJxH"
+    },
+    {
+      "bot": "human-copywriter",
+      "name": "Human Copywriter",
+      "role": "Polishes drafts.",
+      "creator": "massimodeluisa",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/human-copywriter/",
+      "official_share_url": "https://x.ai/bot/JZAccYtlRFvDSU2CnMnkZ"
+    },
+    {
+      "bot": "invoice-hunter",
+      "name": "Invoice Hunter",
+      "role": "Chases monthly invoices.",
+      "creator": "scheemunai",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/invoice-hunter/",
+      "official_share_url": "https://x.ai/bot/-kO6HrXokJZANVwUOMZO9"
+    }
+  ],
+  "tools": [
+    "X",
+    "Grok",
+    "Claude",
+    "Notion",
+    "Whop"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Client X history",
+        "tool": "X"
+      },
+      {
+        "label": "Client notes",
+        "tool": "Notion"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "voice-matched-content-pipeline",
+        "name": "Voice-Matched Content Pipeline",
+        "does": "Learns each voice",
+        "tools": [
+          "X",
+          "Grok",
+          "Claude",
+          "Notion",
+          "Whop"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "multi-account-content-desk",
+        "name": "Multi-Account Content Desk",
+        "does": "Drafts across accounts",
+        "tools": [
+          "X"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "x-posting-curator",
+        "name": "X Posting Curator",
+        "does": "Fact-checks",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "human-copywriter",
+        "name": "Human Copywriter",
+        "does": "Polishes drafts",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "invoice-hunter",
+        "name": "Invoice Hunter",
+        "does": "Chases invoices",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 6,
+        "by": "you",
+        "name": "You",
+        "does": "Manage clients and approve",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Daily drafts per client",
+      "Approved posts",
+      "Paid retainers"
+    ]
+  },
+  "steps": [
+    "Sign one client and study their history.",
+    "Send a week of drafts for feedback.",
+    "Run daily drafts with client approval.",
+    "Invoice monthly."
+  ],
+  "guardrails": [
+    "Nothing is posted publicly without your OK.",
+    "Check every number and claim before it goes public.",
+    "The bots never pay, sign or accept terms for you."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 16,
+    "score": 89,
+    "money": 40,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 3,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/x-ghostwriting-agency/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/x-ghostwriting-agency.json"
+}

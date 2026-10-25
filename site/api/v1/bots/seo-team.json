@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "seo-team",
+  "name": "SEO Team",
+  "category": "Content and Marketing",
+  "sub_use_case": "Local SEO content",
+  "summary": "Runs a five-role local SEO team covering strategy, keywords, technical fixes, content and links.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "fatjoedavies",
+    "url": "https://x.com/fatjoedavies"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/fatjoedavies/status/2088727116313506208"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/seo-team/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/seo-team/",
+  "json_url": "https://moneywithai.net/api/v1/bots/seo-team.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/local-seo-agency-in-a-box/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 70,
+    "score": 89,
+    "money": 40,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 3,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

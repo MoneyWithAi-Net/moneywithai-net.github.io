@@ -1,0 +1,44 @@
+{
+  "type": "bot",
+  "slug": "meeting-notes-assistant",
+  "name": "Meeting Notes Assistant",
+  "category": "Client Services",
+  "sub_use_case": "Meetings and follow-up",
+  "summary": "Finds a meeting's transcript and writes notes, decisions and action items to Google Docs.",
+  "tools": [
+    "Google Calendar",
+    "Google Docs"
+  ],
+  "creator": {
+    "handle": "mvanhorn",
+    "url": "https://x.com/mvanhorn"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/mvanhorn/status/2092629522717737284"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/meeting-notes-assistant/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/meeting-notes-assistant/",
+  "json_url": "https://moneywithai.net/api/v1/bots/meeting-notes-assistant.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/virtual-assistant-business/",
+    "https://moneywithai.net/use-cases/consulting-meeting-system/",
+    "https://moneywithai.net/use-cases/ceo-morning-ops/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 120,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

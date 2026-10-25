@@ -1,0 +1,42 @@
+{
+  "type": "bot",
+  "slug": "short-form-content-creator",
+  "name": "Short-Form Content Creator",
+  "category": "Content and Marketing",
+  "sub_use_case": "Video production",
+  "summary": "Finds the best moments in your YouTube videos and cuts short-form clips in CapCut.",
+  "tools": [
+    "YouTube",
+    "CapCut"
+  ],
+  "creator": {
+    "handle": "farzyness",
+    "url": "https://x.com/farzyness"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/farzyness/status/2087340859138224540"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/short-form-content-creator/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/short-form-content-creator/",
+  "json_url": "https://moneywithai.net/api/v1/bots/short-form-content-creator.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/short-form-clipping-agency/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 130,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

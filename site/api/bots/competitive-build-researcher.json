@@ -1,0 +1,30 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "competitive-build-researcher",
+    "name": "Competitive Build Researcher",
+    "category": "Research and Ops",
+    "sub_use_case": "Product and engineering",
+    "summary": "Researches competitors with Perplexity before a build and turns the findings into a GitHub plan.",
+    "tools": [
+      "Perplexity",
+      "GitHub"
+    ],
+    "creator": {
+      "handle": "LBallz77283",
+      "url": "https://x.com/LBallz77283"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/LBallz77283/status/2094585730085404914"
+    },
+    "official_share_url": null,
+    "found_via": "https://botdirectory.ai/bots/competitive-build-researcher/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/competitive-build-researcher/",
+    "json_url": "https://moneywithai.net/api/bots/competitive-build-researcher.json"
+  }
+}

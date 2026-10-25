@@ -27,7 +27,19 @@
   "json_url": "https://moneywithai.net/api/v1/bots/phone-receptionist.json",
   "use_cases": [
     "https://moneywithai.net/use-cases/contractor-speed-to-lead/",
-    "https://moneywithai.net/use-cases/local-business-reviews-and-calls/"
+    "https://moneywithai.net/use-cases/local-business-reviews-and-calls/",
+    "https://moneywithai.net/use-cases/rental-listing-lead-desk/",
+    "https://moneywithai.net/use-cases/ai-receptionist-agency/"
   ],
-  "added_at": "2026-10-24T09:30:00.000Z"
+  "added_at": "2026-10-24T09:30:00.000Z",
+  "featured": {
+    "rank": 5,
+    "score": 100,
+    "money": 40,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
 }

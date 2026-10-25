@@ -1,0 +1,204 @@
+{
+  "type": "use-case",
+  "slug": "maps-leads-to-booked-calls",
+  "title": "Turn Map Listings into Booked Discovery Calls",
+  "category": "Leads and Sales",
+  "category_slug": "leads-and-sales",
+  "money_model": "Sell a service",
+  "difficulty": "Intermediate",
+  "summary": "Pull local businesses from the map, audit their sites, enrich the contacts and book calls with the ones that need help.",
+  "money_potential": {
+    "tier": 3,
+    "symbol": "$$$",
+    "label": "High",
+    "basis": "Assumes you sell builds or monthly retainers, so each client who signs adds recurring income.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Each booked call is a shot at a website, SEO or care-plan client.",
+    "Audits make the first message specific instead of generic."
+  ],
+  "who_its_for": [
+    "Freelance web and SEO providers who sell to local businesses."
+  ],
+  "stack": [
+    {
+      "bot": "maps-lead-list-builder",
+      "name": "Maps Lead List Builder",
+      "role": "Pulls businesses for one niche and city into a sheet.",
+      "creator": "Dr. Firas",
+      "tools": [
+        "n8n",
+        "Google Sheets",
+        "OpenAI",
+        "SerpApi"
+      ],
+      "url": "https://moneywithai.net/bots/maps-lead-list-builder/",
+      "official_share_url": null
+    },
+    {
+      "bot": "websiteaudit",
+      "name": "WebsiteAudit",
+      "role": "Runs a quick audit on each site and lists the top issues.",
+      "creator": "websiteaudit_20261003",
+      "tools": [
+        "WebsiteAudit"
+      ],
+      "url": "https://moneywithai.net/bots/websiteaudit/",
+      "official_share_url": null
+    },
+    {
+      "bot": "site-research",
+      "name": "Site Research",
+      "role": "Writes a short evidence brief for the best prospects.",
+      "creator": "itsryanlenk",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/site-research/",
+      "official_share_url": "https://x.ai/bot/zkgCv30YKSJPHc7rUB_6P"
+    },
+    {
+      "bot": "lead-enricher",
+      "name": "Lead Enricher",
+      "role": "Finds verified emails and a recent hook for each contact.",
+      "creator": "Nittarab",
+      "tools": [
+        "Weft",
+        "OneShot Agent",
+        "Google Sheets",
+        "Slack"
+      ],
+      "url": "https://moneywithai.net/bots/lead-enricher/",
+      "official_share_url": null
+    },
+    {
+      "bot": "prospect-meeting-booker",
+      "name": "Prospect Meeting Booker",
+      "role": "Drafts a meeting request with times that suit you.",
+      "creator": "benln",
+      "tools": [
+        "Gmail",
+        "Google Calendar"
+      ],
+      "url": "https://moneywithai.net/bots/prospect-meeting-booker/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "n8n",
+    "Google Sheets",
+    "OpenAI",
+    "SerpApi",
+    "WebsiteAudit",
+    "Grok",
+    "Weft",
+    "OneShot Agent",
+    "Slack",
+    "Gmail",
+    "Google Calendar"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "A niche and a city",
+        "tool": null
+      },
+      {
+        "label": "Public map listings",
+        "tool": "Google Maps"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "maps-lead-list-builder",
+        "name": "Maps Lead List Builder",
+        "does": "Pulls local businesses into a sheet",
+        "tools": [
+          "n8n",
+          "Google Sheets",
+          "OpenAI",
+          "SerpApi"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "websiteaudit",
+        "name": "WebsiteAudit",
+        "does": "Audits each site",
+        "tools": [
+          "WebsiteAudit"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "site-research",
+        "name": "Site Research",
+        "does": "Briefs the best prospects",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "lead-enricher",
+        "name": "Lead Enricher",
+        "does": "Verifies contacts",
+        "tools": [
+          "Weft",
+          "OneShot Agent",
+          "Google Sheets",
+          "Slack"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "prospect-meeting-booker",
+        "name": "Prospect Meeting Booker",
+        "does": "Drafts meeting requests",
+        "tools": [
+          "Gmail",
+          "Google Calendar"
+        ]
+      },
+      {
+        "order": 6,
+        "by": "you",
+        "name": "You",
+        "does": "Edit and send each request",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Audited prospect list",
+      "Booked discovery calls"
+    ]
+  },
+  "steps": [
+    "Pick one niche and one city.",
+    "Run the map pull and audits, then shortlist ten businesses by hand.",
+    "Have Site Research brief the shortlist and enrich the contacts.",
+    "Send the meeting requests yourself after editing."
+  ],
+  "guardrails": [
+    "Every message and document stays a draft until you approve it.",
+    "Check local rules on cold outreach, calls and texts before contacting anyone."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 13,
+    "score": 92,
+    "money": 40,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/maps-leads-to-booked-calls/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/maps-leads-to-booked-calls.json"
+}

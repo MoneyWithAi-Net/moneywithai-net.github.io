@@ -24,6 +24,18 @@
   "last_checked": "2026-10-24",
   "url": "https://moneywithai.net/bots/talent-matchmaker/",
   "json_url": "https://moneywithai.net/api/v1/bots/talent-matchmaker.json",
-  "use_cases": [],
-  "added_at": "2026-10-24T08:00:00.000Z"
+  "use_cases": [
+    "https://moneywithai.net/use-cases/recruiting-agency-pipeline/"
+  ],
+  "added_at": "2026-10-24T08:00:00.000Z",
+  "featured": {
+    "rank": 36,
+    "score": 93,
+    "money": 40,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 3,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
 }

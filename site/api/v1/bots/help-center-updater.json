@@ -26,7 +26,20 @@
   "url": "https://moneywithai.net/bots/help-center-updater/",
   "json_url": "https://moneywithai.net/api/v1/bots/help-center-updater.json",
   "use_cases": [
-    "https://moneywithai.net/use-cases/support-that-fixes-bugs/"
+    "https://moneywithai.net/use-cases/support-that-fixes-bugs/",
+    "https://moneywithai.net/use-cases/support-desk-with-refund-gate/",
+    "https://moneywithai.net/use-cases/telegram-support-knowledge-base/",
+    "https://moneywithai.net/use-cases/company-knowledge-base/"
   ],
-  "added_at": "2026-10-24T08:00:00.000Z"
+  "added_at": "2026-10-24T08:00:00.000Z",
+  "featured": {
+    "rank": 115,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
 }

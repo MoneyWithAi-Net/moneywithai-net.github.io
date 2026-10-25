@@ -1,0 +1,31 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "whatsapp-help-desk-assistant",
+    "name": "WhatsApp Help Desk Assistant",
+    "category": "Customer Support",
+    "sub_use_case": "Chat and messaging support",
+    "summary": "A WhatsApp support assistant for any small business that answers common questions with memory of each chat.",
+    "tools": [
+      "n8n",
+      "OpenAI",
+      "WhatsApp"
+    ],
+    "creator": {
+      "handle": "Matt F.",
+      "url": "https://n8n.io/creators/lemolex/"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://n8n.io/workflows/3859/"
+    },
+    "official_share_url": null,
+    "found_via": "https://n8n.io/workflows/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/whatsapp-help-desk-assistant/",
+    "json_url": "https://moneywithai.net/api/bots/whatsapp-help-desk-assistant.json"
+  }
+}

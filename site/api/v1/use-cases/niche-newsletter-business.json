@@ -1,0 +1,198 @@
+{
+  "type": "use-case",
+  "slug": "niche-newsletter-business",
+  "title": "Run a Niche Newsletter Business",
+  "category": "Content and Marketing",
+  "category_slug": "content-and-marketing",
+  "money_model": "Creator income",
+  "difficulty": "Intermediate",
+  "summary": "Write and send a regular newsletter, turn the week's saves into a roundup and sell sponsor slots.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes sponsor income once the list reaches a few thousand readers.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Owned audience plus sponsor income.",
+    "Bots cut writing time per issue."
+  ],
+  "who_its_for": [
+    "Writers and niche experts."
+  ],
+  "stack": [
+    {
+      "bot": "daily-newsletter-sender",
+      "name": "Daily Newsletter Sender",
+      "role": "Writes and sends the issue to your list.",
+      "creator": "Jimleuk",
+      "tools": [
+        "n8n",
+        "Microsoft Excel",
+        "Microsoft Outlook",
+        "OpenAI"
+      ],
+      "url": "https://moneywithai.net/bots/daily-newsletter-sender/",
+      "official_share_url": null
+    },
+    {
+      "bot": "article-and-newsletter-writer",
+      "name": "Article and Newsletter Writer",
+      "role": "Drafts long pieces from your sources.",
+      "creator": "farzyness",
+      "tools": [
+        "Google Docs",
+        "Gmail",
+        "Squarespace"
+      ],
+      "url": "https://moneywithai.net/bots/article-and-newsletter-writer/",
+      "official_share_url": null
+    },
+    {
+      "bot": "situation-monitor",
+      "name": "Situation monitor",
+      "role": "Turns your saves into a weekly roundup.",
+      "creator": "ChaseMc67",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/situation-monitor/",
+      "official_share_url": "https://x.ai/bot/lkHayxdQjNzVVJIDh7qaF"
+    },
+    {
+      "bot": "sponsor-inbound-scout",
+      "name": "Sponsor Inbound Scout",
+      "role": "Flags real sponsor emails.",
+      "creator": "startupideaspod",
+      "tools": [
+        "Gmail"
+      ],
+      "url": "https://moneywithai.net/bots/sponsor-inbound-scout/",
+      "official_share_url": null
+    },
+    {
+      "bot": "sponsorship-negotiator",
+      "name": "Sponsorship Negotiator",
+      "role": "Drafts rate replies.",
+      "creator": "AlexFinn",
+      "tools": [
+        "Gmail"
+      ],
+      "url": "https://moneywithai.net/bots/sponsorship-negotiator/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "n8n",
+    "Microsoft Excel",
+    "Microsoft Outlook",
+    "OpenAI",
+    "Google Docs",
+    "Gmail",
+    "Squarespace",
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Subscriber list",
+        "tool": "Microsoft Excel"
+      },
+      {
+        "label": "Saved posts",
+        "tool": "X"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "daily-newsletter-sender",
+        "name": "Daily Newsletter Sender",
+        "does": "Writes and sends issues",
+        "tools": [
+          "n8n",
+          "Microsoft Excel",
+          "Microsoft Outlook",
+          "OpenAI"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "article-and-newsletter-writer",
+        "name": "Article and Newsletter Writer",
+        "does": "Drafts long pieces",
+        "tools": [
+          "Google Docs",
+          "Gmail",
+          "Squarespace"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "situation-monitor",
+        "name": "Situation monitor",
+        "does": "Builds the roundup",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "sponsor-inbound-scout",
+        "name": "Sponsor Inbound Scout",
+        "does": "Flags sponsors",
+        "tools": [
+          "Gmail"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "sponsorship-negotiator",
+        "name": "Sponsorship Negotiator",
+        "does": "Drafts rate replies",
+        "tools": [
+          "Gmail"
+        ]
+      },
+      {
+        "order": 6,
+        "by": "you",
+        "name": "You",
+        "does": "Approve issues",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Weekly issues",
+      "Sponsor deals"
+    ]
+  },
+  "steps": [
+    "Pick a niche and a weekly day.",
+    "Approve each issue before it sends.",
+    "Publish a media kit.",
+    "Answer sponsors with drafted replies."
+  ],
+  "guardrails": [
+    "Check every number and claim before it goes public.",
+    "The bots never pay, sign or accept terms for you.",
+    "Handle customer and candidate data under your local privacy rules."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 64,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/niche-newsletter-business/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/niche-newsletter-business.json"
+}

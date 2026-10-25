@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "nightly-rate-optimizer",
+  "name": "Nightly Rate Optimizer",
+  "category": "Research and Ops",
+  "sub_use_case": "Real estate analysis",
+  "summary": "Sets nightly prices for a short-term rental from market data, the way a revenue manager would.",
+  "tools": [
+    "StayingAPI"
+  ],
+  "creator": {
+    "handle": "scheemunai",
+    "url": "https://botdirectory.ai/bots/nightly-rate-optimizer/"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://botdirectory.ai/bots/nightly-rate-optimizer/"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/nightly-rate-optimizer/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/nightly-rate-optimizer/",
+  "json_url": "https://moneywithai.net/api/v1/bots/nightly-rate-optimizer.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/short-term-rental-investing-desk/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 238,
+    "score": 76,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 3,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

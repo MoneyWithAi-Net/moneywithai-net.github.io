@@ -1,0 +1,179 @@
+{
+  "type": "use-case",
+  "slug": "linkedin-content-to-pipeline",
+  "title": "Turn LinkedIn Posts into a Lead Pipeline",
+  "category": "Leads and Sales",
+  "category_slug": "leads-and-sales",
+  "money_model": "Grow sales",
+  "difficulty": "Intermediate",
+  "summary": "Post approved content, catch who engages with you and your rivals, vet invites and follow up in a tracked list.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes a B2B service where a few calls a month lead to deals.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Content builds trust; tracking turns it into meetings.",
+    "Competitor engagement shows who is shopping."
+  ],
+  "who_its_for": [
+    "B2B consultants and founders."
+  ],
+  "stack": [
+    {
+      "bot": "linkedin-post-approval-flow",
+      "name": "LinkedIn Post Approval Flow",
+      "role": "Drafts posts and publishes only after email approval.",
+      "creator": "Aryan Shinde",
+      "tools": [
+        "n8n",
+        "Gmail",
+        "Google Sheets",
+        "LinkedIn",
+        "OpenAI"
+      ],
+      "url": "https://moneywithai.net/bots/linkedin-post-approval-flow/",
+      "official_share_url": null
+    },
+    {
+      "bot": "competitor-audience-watch",
+      "name": "Competitor Audience Watch",
+      "role": "Tracks who engages with rivals' posts.",
+      "creator": "19Ash82",
+      "tools": [
+        "Signado"
+      ],
+      "url": "https://moneywithai.net/bots/competitor-audience-watch/",
+      "official_share_url": null
+    },
+    {
+      "bot": "linkedin-desk",
+      "name": "LinkedIn Desk",
+      "role": "Vets incoming invitations.",
+      "creator": "SEO",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/linkedin-desk/",
+      "official_share_url": "https://x.ai/bot/tQuoQ94ErUfXNJu4xPqZi"
+    },
+    {
+      "bot": "linkedin-lead-outreach",
+      "name": "LinkedIn Lead Outreach",
+      "role": "Logs comments into Notion and drafts capped replies.",
+      "creator": "ethan_leee9113",
+      "tools": [
+        "LinkedIn",
+        "Notion"
+      ],
+      "url": "https://moneywithai.net/bots/linkedin-lead-outreach/",
+      "official_share_url": "https://x.ai/bot/DEMmOi7SiFhsFtIKuBKRD"
+    }
+  ],
+  "tools": [
+    "n8n",
+    "Gmail",
+    "Google Sheets",
+    "LinkedIn",
+    "OpenAI",
+    "Signado",
+    "Grok",
+    "Notion"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Your posts",
+        "tool": "LinkedIn"
+      },
+      {
+        "label": "Rival accounts",
+        "tool": "LinkedIn"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "linkedin-post-approval-flow",
+        "name": "LinkedIn Post Approval Flow",
+        "does": "Drafts and posts with approval",
+        "tools": [
+          "n8n",
+          "Gmail",
+          "Google Sheets",
+          "LinkedIn",
+          "OpenAI"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "competitor-audience-watch",
+        "name": "Competitor Audience Watch",
+        "does": "Tracks rival engagement",
+        "tools": [
+          "Signado"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "linkedin-desk",
+        "name": "LinkedIn Desk",
+        "does": "Vets invites",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "linkedin-lead-outreach",
+        "name": "LinkedIn Lead Outreach",
+        "does": "Logs leads and drafts replies",
+        "tools": [
+          "LinkedIn",
+          "Notion"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Approve posts and replies",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Steady posts",
+      "Lead list in Notion",
+      "Booked calls"
+    ]
+  },
+  "steps": [
+    "Plan two posts a week.",
+    "Approve each post by email.",
+    "Review new engagers and invites weekly.",
+    "Reply and DM in small batches."
+  ],
+  "guardrails": [
+    "Keep daily sending caps low and follow each platform's rules on automation.",
+    "Nothing is posted publicly without your OK.",
+    "Every message and document stays a draft until you approve it."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 80,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/linkedin-content-to-pipeline/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/linkedin-content-to-pipeline.json"
+}

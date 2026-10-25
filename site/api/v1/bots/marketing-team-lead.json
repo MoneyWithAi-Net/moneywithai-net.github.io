@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "marketing-team-lead",
+  "name": "Marketing Team Lead",
+  "category": "Client Services",
+  "sub_use_case": "Client delivery",
+  "summary": "Acts as head of marketing for a small agency, assigning SEO, email and content work and reviewing Meta results.",
+  "tools": [
+    "Meta"
+  ],
+  "creator": {
+    "handle": "BotDirectoryAI",
+    "url": "https://botdirectory.ai/bots/marketing-team-lead/"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/k-keodk82Xq6in9aQY_jT"
+  },
+  "official_share_url": "https://x.ai/bot/k-keodk82Xq6in9aQY_jT",
+  "found_via": "https://botdirectory.ai/bots/marketing-team-lead/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/marketing-team-lead/",
+  "json_url": "https://moneywithai.net/api/v1/bots/marketing-team-lead.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/content-agency-delivery/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 160,
+    "score": 83,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

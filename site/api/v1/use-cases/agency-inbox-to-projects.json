@@ -1,0 +1,166 @@
+{
+  "type": "use-case",
+  "slug": "agency-inbox-to-projects",
+  "title": "Turn an Agency Inbox into Tracked Projects",
+  "category": "Research and Ops",
+  "category_slug": "research-and-ops",
+  "money_model": "Save costs",
+  "difficulty": "Beginner",
+  "summary": "Label and draft replies, turn requests into tasks, run projects and book the calls people agreed to.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Assumes admin time saved.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Client requests never get lost.",
+    "Less time in the inbox."
+  ],
+  "who_its_for": [
+    "Small agencies."
+  ],
+  "stack": [
+    {
+      "bot": "inbox-manager",
+      "name": "Inbox Manager",
+      "role": "Labels and drafts replies.",
+      "creator": "mvanhorn",
+      "tools": [
+        "Gmail"
+      ],
+      "url": "https://moneywithai.net/bots/inbox-manager/",
+      "official_share_url": null
+    },
+    {
+      "bot": "inbox-to-asana",
+      "name": "Inbox to Asana",
+      "role": "Turns requests into tasks.",
+      "creator": "lennysan",
+      "tools": [
+        "Gmail",
+        "Asana"
+      ],
+      "url": "https://moneywithai.net/bots/inbox-to-asana/",
+      "official_share_url": "https://x.ai/bot/Ka18PTTKUNtDDPg0HpYva"
+    },
+    {
+      "bot": "projects-manager",
+      "name": "Projects Manager",
+      "role": "Runs projects in Notion.",
+      "creator": "ericzakariasson",
+      "tools": [
+        "Notion"
+      ],
+      "url": "https://moneywithai.net/bots/projects-manager/",
+      "official_share_url": "https://x.ai/bot/FU-Ev6_Ju4lFGWwWRD0GD"
+    },
+    {
+      "bot": "dispatch",
+      "name": "Dispatch",
+      "role": "Books agreed calls.",
+      "creator": "FilippoFonseca",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/dispatch/",
+      "official_share_url": "https://x.ai/bot/YkmZEZYBk-BqylyQbM3kq"
+    }
+  ],
+  "tools": [
+    "Gmail",
+    "Asana",
+    "Notion",
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Inbox",
+        "tool": "Gmail"
+      },
+      {
+        "label": "Tasks",
+        "tool": "Asana"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "inbox-manager",
+        "name": "Inbox Manager",
+        "does": "Labels and drafts",
+        "tools": [
+          "Gmail"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "inbox-to-asana",
+        "name": "Inbox to Asana",
+        "does": "Makes tasks",
+        "tools": [
+          "Gmail",
+          "Asana"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "projects-manager",
+        "name": "Projects Manager",
+        "does": "Runs projects",
+        "tools": [
+          "Notion"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "dispatch",
+        "name": "Dispatch",
+        "does": "Books calls",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Approve and deliver",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Tasks",
+      "Project board",
+      "Booked calls"
+    ]
+  },
+  "steps": [
+    "Connect the shared inbox.",
+    "Approve drafts daily.",
+    "Run projects weekly.",
+    "Let dispatch book calls."
+  ],
+  "guardrails": [
+    "Connect only accounts you own and give the least access needed.",
+    "Every message and document stays a draft until you approve it."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 122,
+    "score": 69,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/agency-inbox-to-projects/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/agency-inbox-to-projects.json"
+}

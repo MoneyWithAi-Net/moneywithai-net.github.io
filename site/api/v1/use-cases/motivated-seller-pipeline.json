@@ -1,0 +1,184 @@
+{
+  "type": "use-case",
+  "slug": "motivated-seller-pipeline",
+  "title": "Build a Motivated-Seller Pipeline for Real Estate Deals",
+  "category": "Leads and Sales",
+  "category_slug": "leads-and-sales",
+  "money_model": "Grow sales",
+  "difficulty": "Advanced",
+  "summary": "Spot likely sellers, find owner contacts, qualify them by text and underwrite the ones that answer.",
+  "money_potential": {
+    "tier": 3,
+    "symbol": "$$$",
+    "label": "High",
+    "basis": "Assumes a commission or assignment fee per closed deal, which is large but infrequent.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Earlier contact with motivated sellers means better deals.",
+    "Underwriting filters out deals that do not pencil."
+  ],
+  "who_its_for": [
+    "Real estate agents, wholesalers and small investors."
+  ],
+  "stack": [
+    {
+      "bot": "motivated-seller-finder",
+      "name": "Motivated Seller Finder",
+      "role": "Flags likely motivated sellers from property data.",
+      "creator": "scheemunai",
+      "tools": [
+        "Zillapi"
+      ],
+      "url": "https://moneywithai.net/bots/motivated-seller-finder/",
+      "official_share_url": null
+    },
+    {
+      "bot": "seller-lead-skip-tracer",
+      "name": "Seller Lead Skip Tracer",
+      "role": "Skip-traces owners and pushes leads to HubSpot.",
+      "creator": "Preston Zeller",
+      "tools": [
+        "n8n",
+        "HubSpot"
+      ],
+      "url": "https://moneywithai.net/bots/seller-lead-skip-tracer/",
+      "official_share_url": null
+    },
+    {
+      "bot": "sms-property-lead-qualifier",
+      "name": "SMS Property Lead Qualifier",
+      "role": "Qualifies replies over SMS and logs answers.",
+      "creator": "Robert Breen",
+      "tools": [
+        "n8n",
+        "Google Sheets",
+        "OpenAI",
+        "Postgres",
+        "Twilio"
+      ],
+      "url": "https://moneywithai.net/bots/sms-property-lead-qualifier/",
+      "official_share_url": null
+    },
+    {
+      "bot": "buy-to-rent-property",
+      "name": "Buy to Rent Property",
+      "role": "Underwrites the deal as a rental.",
+      "creator": "scheemunai",
+      "tools": [
+        "Zillapi",
+        "StayingAPI"
+      ],
+      "url": "https://moneywithai.net/bots/buy-to-rent-property/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Zillapi",
+    "n8n",
+    "HubSpot",
+    "Google Sheets",
+    "OpenAI",
+    "Postgres",
+    "Twilio",
+    "StayingAPI"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Property data",
+        "tool": null
+      },
+      {
+        "label": "Your buy box",
+        "tool": null
+      },
+      {
+        "label": "SMS line",
+        "tool": "Twilio"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "motivated-seller-finder",
+        "name": "Motivated Seller Finder",
+        "does": "Flags likely sellers",
+        "tools": [
+          "Zillapi"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "seller-lead-skip-tracer",
+        "name": "Seller Lead Skip Tracer",
+        "does": "Finds owner contacts",
+        "tools": [
+          "n8n",
+          "HubSpot"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "sms-property-lead-qualifier",
+        "name": "SMS Property Lead Qualifier",
+        "does": "Qualifies by SMS",
+        "tools": [
+          "n8n",
+          "Google Sheets",
+          "OpenAI",
+          "Postgres",
+          "Twilio"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "buy-to-rent-property",
+        "name": "Buy to Rent Property",
+        "does": "Underwrites the deal",
+        "tools": [
+          "Zillapi",
+          "StayingAPI"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Talk to sellers and make offers",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Qualified seller leads",
+      "Underwritten deals"
+    ]
+  },
+  "steps": [
+    "Pick one market and your buy box.",
+    "Review the flagged list before any contact.",
+    "Approve the SMS script and send in small batches.",
+    "Underwrite every qualified lead before an offer."
+  ],
+  "guardrails": [
+    "Check local rules on cold outreach, calls and texts before contacting anyone.",
+    "The bots never pay, sign or accept terms for you.",
+    "Handle customer and candidate data under your local privacy rules."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 14,
+    "score": 89,
+    "money": 40,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 3,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/motivated-seller-pipeline/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/motivated-seller-pipeline.json"
+}

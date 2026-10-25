@@ -27,5 +27,15 @@
   "use_cases": [
     "https://moneywithai.net/use-cases/local-seo-content-engine/"
   ],
-  "added_at": "2026-10-24T08:00:00.000Z"
+  "added_at": "2026-10-24T08:00:00.000Z",
+  "featured": {
+    "rank": 39,
+    "score": 92,
+    "money": 40,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
 }

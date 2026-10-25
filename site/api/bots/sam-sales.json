@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "sam-sales",
+    "name": "Sam (Sales)",
+    "category": "E-Commerce",
+    "sub_use_case": "Resale listings",
+    "summary": "Turns item photos into eBay and Facebook Marketplace listings and posts only after you approve.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "SrCaptainThrawn",
+      "url": "https://x.com/SrCaptainThrawn"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/SrCaptainThrawn/status/2110155191387668934"
+    },
+    "official_share_url": "https://x.ai/bot/ihsZKnZJay7kLayMUfAV1",
+    "found_via": "https://grokbot101.org/bots/sam-sales/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/sam-sales/",
+    "json_url": "https://moneywithai.net/api/bots/sam-sales.json"
+  }
+}

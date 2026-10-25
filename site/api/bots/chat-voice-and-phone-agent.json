@@ -1,0 +1,33 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "chat-voice-and-phone-agent",
+    "name": "Chat Voice and Phone Agent",
+    "category": "Customer Support",
+    "sub_use_case": "Phone answering",
+    "summary": "A chat, voice and phone agent built on Voiceflow that answers from your documents and books on Google Calendar.",
+    "tools": [
+      "n8n",
+      "Google Calendar",
+      "Google Drive",
+      "OpenAI",
+      "Qdrant"
+    ],
+    "creator": {
+      "handle": "Davide Boizza",
+      "url": "https://n8n.io/creators/n3witalia/"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://n8n.io/workflows/3657/"
+    },
+    "official_share_url": null,
+    "found_via": "https://n8n.io/workflows/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/chat-voice-and-phone-agent/",
+    "json_url": "https://moneywithai.net/api/bots/chat-voice-and-phone-agent.json"
+  }
+}

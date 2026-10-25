@@ -1,0 +1,30 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "gig-books-closer",
+    "name": "Gig Books Closer",
+    "category": "Finance",
+    "sub_use_case": "Bookkeeping and reporting",
+    "summary": "Closes the books after live events by reconciling Soundcheck gigs with QuickBooks.",
+    "tools": [
+      "Soundcheck",
+      "QuickBooks"
+    ],
+    "creator": {
+      "handle": "steventt07",
+      "url": "https://botdirectory.ai/bots/gig-books-closer/"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://botdirectory.ai/bots/gig-books-closer/"
+    },
+    "official_share_url": null,
+    "found_via": "https://botdirectory.ai/bots/gig-books-closer/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/gig-books-closer/",
+    "json_url": "https://moneywithai.net/api/bots/gig-books-closer.json"
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "type": "use-case",
+  "slug": "sales-call-insights-to-product",
+  "title": "Turn Sales Calls into Product Insights",
+  "category": "Leads and Sales",
+  "category_slug": "leads-and-sales",
+  "money_model": "Grow sales",
+  "difficulty": "Intermediate",
+  "summary": "Log what buyers say on calls, send recap slides, theme the feedback and arm the product expert.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes better win rates from product fit.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Product builds what closes deals.",
+    "Buyers get a clear recap."
+  ],
+  "who_its_for": [
+    "B2B founders and sales teams."
+  ],
+  "stack": [
+    {
+      "bot": "sales-call-insight-logger",
+      "name": "Sales Call Insight Logger",
+      "role": "Pulls product insights from calls into Notion.",
+      "creator": "Angel Menendez",
+      "tools": [
+        "n8n",
+        "Notion"
+      ],
+      "url": "https://moneywithai.net/bots/sales-call-insight-logger/",
+      "official_share_url": null
+    },
+    {
+      "bot": "echo",
+      "name": "Echo",
+      "role": "Builds recap slides.",
+      "creator": "kristaletz",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/echo/",
+      "official_share_url": "https://x.ai/bot/ph5mcXqVy2p176Br7BJYi"
+    },
+    {
+      "bot": "customer-feedback-theme-analyst",
+      "name": "Customer Feedback Theme Analyst",
+      "role": "Groups insights into themes.",
+      "creator": "BotDirectoryAI",
+      "tools": [
+        "Plain",
+        "X",
+        "Linear"
+      ],
+      "url": "https://moneywithai.net/bots/customer-feedback-theme-analyst/",
+      "official_share_url": null
+    },
+    {
+      "bot": "product-expert",
+      "name": "Product Expert",
+      "role": "Answers deep product questions.",
+      "creator": "kristaletz",
+      "tools": [
+        "GitHub",
+        "Glean"
+      ],
+      "url": "https://moneywithai.net/bots/product-expert/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "n8n",
+    "Notion",
+    "Grok",
+    "Plain",
+    "X",
+    "Linear",
+    "GitHub",
+    "Glean"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Call recordings",
+        "tool": null
+      },
+      {
+        "label": "Notion",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "sales-call-insight-logger",
+        "name": "Sales Call Insight Logger",
+        "does": "Logs call insights",
+        "tools": [
+          "n8n",
+          "Notion"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "echo",
+        "name": "Echo",
+        "does": "Builds recaps",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "customer-feedback-theme-analyst",
+        "name": "Customer Feedback Theme Analyst",
+        "does": "Groups themes",
+        "tools": [
+          "Plain",
+          "X",
+          "Linear"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "product-expert",
+        "name": "Product Expert",
+        "does": "Answers questions",
+        "tools": [
+          "GitHub",
+          "Glean"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Prioritize",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Call insights",
+      "Recaps",
+      "Product themes"
+    ]
+  },
+  "steps": [
+    "Record calls with consent.",
+    "Review insights weekly.",
+    "Send recaps after calls.",
+    "Share themes with product."
+  ],
+  "guardrails": [
+    "Handle customer and candidate data under your local privacy rules.",
+    "Check local rules on cold outreach, calls and texts before contacting anyone."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 82,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/sales-call-insights-to-product/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/sales-call-insights-to-product.json"
+}

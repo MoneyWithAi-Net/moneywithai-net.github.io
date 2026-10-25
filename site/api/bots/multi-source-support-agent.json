@@ -1,0 +1,34 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "multi-source-support-agent",
+    "name": "Multi Source Support Agent",
+    "category": "Customer Support",
+    "sub_use_case": "Ticket fixing",
+    "summary": "A support agent that answers from several knowledge bases and escalates to a human when unsure.",
+    "tools": [
+      "n8n",
+      "Gmail",
+      "Ollama",
+      "Slack",
+      "Supabase",
+      "Wikipedia"
+    ],
+    "creator": {
+      "handle": "Nev",
+      "url": "https://n8n.io/creators/nene/"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://n8n.io/workflows/19217/"
+    },
+    "official_share_url": null,
+    "found_via": "https://n8n.io/workflows/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/multi-source-support-agent/",
+    "json_url": "https://moneywithai.net/api/bots/multi-source-support-agent.json"
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "type": "use-case",
+  "slug": "freelance-gig-to-proposal",
+  "title": "Go from Gig Listing to Proposal in One Afternoon",
+  "category": "Leads and Sales",
+  "category_slug": "leads-and-sales",
+  "money_model": "Sell a service",
+  "difficulty": "Beginner",
+  "summary": "Watch freelance boards, screen the good gigs, send a case study and turn calls into proposals fast.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes project-based freelance work at a set day or project rate.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "You answer high-fit gigs first, while competition is low.",
+    "Ready case studies and proposals shorten the sale."
+  ],
+  "who_its_for": [
+    "Freelance designers, developers and marketers."
+  ],
+  "stack": [
+    {
+      "bot": "contra-job-scraper",
+      "name": "Contra Job Scraper",
+      "role": "Checks Contra every six hours and logs new gigs.",
+      "creator": "techking_007",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/contra-job-scraper/",
+      "official_share_url": "https://x.ai/bot/__sNWxlx-8H08UluQuOeo"
+    },
+    {
+      "bot": "lead-vetting",
+      "name": "Lead Vetting",
+      "role": "Scores each gig against your fit rules.",
+      "creator": "anzevoje",
+      "tools": [
+        "Email",
+        "Slack"
+      ],
+      "url": "https://moneywithai.net/bots/lead-vetting/",
+      "official_share_url": "https://x.ai/bot/eEfAacXdtzHANV5hVhG6o"
+    },
+    {
+      "bot": "case-skeleton",
+      "name": "Case Skeleton",
+      "role": "Outlines a matching case study for you to fill.",
+      "creator": "paulopierrondi",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/case-skeleton/",
+      "official_share_url": "https://x.ai/bot/_7yFKwQCYR_mi_oVmKOEN"
+    },
+    {
+      "bot": "post-call-assistant",
+      "name": "Post Call Assistant",
+      "role": "Drops to-dos and a follow-up after the call.",
+      "creator": "itspriyaptl",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/post-call-assistant/",
+      "official_share_url": "https://x.ai/bot/xF12c5y4LVe7nf7IFguWI"
+    },
+    {
+      "bot": "post-call-proposal-builder",
+      "name": "Post Call Proposal Builder",
+      "role": "Turns call notes into a proposal deck.",
+      "creator": "Gerald Denor",
+      "tools": [
+        "n8n",
+        "Gmail",
+        "Google Drive",
+        "Google Slides",
+        "OpenAI"
+      ],
+      "url": "https://moneywithai.net/bots/post-call-proposal-builder/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Grok",
+    "Email",
+    "Slack",
+    "n8n",
+    "Gmail",
+    "Google Drive",
+    "Google Slides",
+    "OpenAI"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Gig feed",
+        "tool": "Contra"
+      },
+      {
+        "label": "Your fit rules",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "contra-job-scraper",
+        "name": "Contra Job Scraper",
+        "does": "Logs new gigs",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "lead-vetting",
+        "name": "Lead Vetting",
+        "does": "Scores each gig",
+        "tools": [
+          "Email",
+          "Slack"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "case-skeleton",
+        "name": "Case Skeleton",
+        "does": "Outlines a case study",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "post-call-assistant",
+        "name": "Post Call Assistant",
+        "does": "Drafts the follow-up",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "post-call-proposal-builder",
+        "name": "Post Call Proposal Builder",
+        "does": "Drafts the proposal",
+        "tools": [
+          "n8n",
+          "Gmail",
+          "Google Drive",
+          "Google Slides",
+          "OpenAI"
+        ]
+      },
+      {
+        "order": 6,
+        "by": "you",
+        "name": "You",
+        "does": "Pitch, run calls, send proposals",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Shortlisted gigs",
+      "Proposals sent",
+      "Paid projects"
+    ]
+  },
+  "steps": [
+    "Write your fit rules and day rate.",
+    "Review new gigs daily and pick two or three.",
+    "Send the pitch with a case study you completed.",
+    "After each call, edit the proposal and send it."
+  ],
+  "guardrails": [
+    "Every message and document stays a draft until you approve it.",
+    "Review a sample by hand before you trust a scheduled run."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 27,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/freelance-gig-to-proposal/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/freelance-gig-to-proposal.json"
+}

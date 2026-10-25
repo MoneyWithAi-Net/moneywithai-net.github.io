@@ -1,0 +1,43 @@
+{
+  "type": "bot",
+  "slug": "seo-finisher",
+  "name": "SEO Finisher",
+  "category": "Content and Marketing",
+  "sub_use_case": "SEO and AI search",
+  "summary": "Builds an SEO agent inside your repo that keeps working the same target pages until they climb, using Search Console data.",
+  "tools": [
+    "GitHub",
+    "Google Search Console",
+    "DataForSEO"
+  ],
+  "creator": {
+    "handle": "Nicolas Lecocq",
+    "url": "https://botdirectory.ai/bots/seo-finisher/"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://botdirectory.ai/bots/seo-finisher/"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/seo-finisher/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/seo-finisher/",
+  "json_url": "https://moneywithai.net/api/v1/bots/seo-finisher.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/amazon-associates-guide-site/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 276,
+    "score": 62,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 3,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

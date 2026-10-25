@@ -1,0 +1,42 @@
+{
+  "type": "bot",
+  "slug": "blog-to-x-posts",
+  "name": "Blog to X Posts",
+  "category": "Content and Marketing",
+  "sub_use_case": "Threads and articles",
+  "summary": "Splits saved blog posts into X threads by topic and schedules them morning and night.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Shachi_Pratibha",
+    "url": "https://x.com/Shachi_Pratibha"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/Shachi_Pratibha/status/2107705856284656018"
+  },
+  "official_share_url": "https://x.ai/bot/zgQuwpX78Yn09ddfIJkzU",
+  "found_via": "https://grokbot101.org/bots/blog-to-x-posts/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/blog-to-x-posts/",
+  "json_url": "https://moneywithai.net/api/v1/bots/blog-to-x-posts.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/video-to-search-traffic/",
+    "https://moneywithai.net/use-cases/evergreen-repurposing-engine/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 71,
+    "score": 87,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

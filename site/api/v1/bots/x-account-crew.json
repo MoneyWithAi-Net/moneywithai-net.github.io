@@ -1,0 +1,44 @@
+{
+  "type": "bot",
+  "slug": "x-account-crew",
+  "name": "X Account Crew",
+  "category": "Content and Marketing",
+  "sub_use_case": "X posting",
+  "summary": "Runs an X account as a crew of five agents covering ideas, drafting, editing, posting and review.",
+  "tools": [
+    "X",
+    "Hacker News",
+    "GitHub",
+    "Reddit"
+  ],
+  "creator": {
+    "handle": "Axel_bitblaze69",
+    "url": "https://x.com/Axel_bitblaze69"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/Axel_bitblaze69/status/2077861372109705657"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/x-account-crew/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/x-account-crew/",
+  "json_url": "https://moneywithai.net/api/v1/bots/x-account-crew.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/founder-x-growth-loop/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 140,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

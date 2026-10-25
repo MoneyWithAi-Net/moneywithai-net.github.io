@@ -1,0 +1,42 @@
+{
+  "type": "bot",
+  "slug": "watchdog-receipts",
+  "name": "Watchdog Receipts",
+  "category": "Finance",
+  "sub_use_case": "SaaS spend",
+  "summary": "Scans email for receipts, renewals and trials and lists what is charging you and what is due in the next two weeks.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Grok_Hub_IO",
+    "url": "https://x.com/Grok_Hub_IO"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/Grok_Hub_IO/status/2093907045254906327"
+  },
+  "official_share_url": "https://x.ai/bot/PuAEE57P58Df5zskFY3pg",
+  "found_via": "https://botdirectory.ai/bots/watchdog-receipts/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/watchdog-receipts/",
+  "json_url": "https://moneywithai.net/api/v1/bots/watchdog-receipts.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/saas-spend-cleanup/",
+    "https://moneywithai.net/use-cases/founder-finance-weekly/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 96,
+    "score": 87,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "type": "use-case",
+  "slug": "multi-marketplace-resale",
+  "title": "Resell Items Across eBay and Marketplace",
+  "category": "E-Commerce",
+  "category_slug": "e-commerce",
+  "money_model": "Creator income",
+  "difficulty": "Beginner",
+  "summary": "Clean up photos, price from comps and list on two marketplaces after you approve.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Assumes small margins per item.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "More buyers see each item.",
+    "Listing time drops."
+  ],
+  "who_its_for": [
+    "Resellers and declutterers."
+  ],
+  "stack": [
+    {
+      "bot": "photofix",
+      "name": "PhotoFix",
+      "role": "Cleans up item photos.",
+      "creator": "MarsHomestead",
+      "tools": [
+        "Google Drive",
+        "Dropbox"
+      ],
+      "url": "https://moneywithai.net/bots/photofix/",
+      "official_share_url": "https://x.ai/bot/PRdnJ63L8h0FVlMAA1UN4"
+    },
+    {
+      "bot": "product-price-writer",
+      "name": "Product Price Writer",
+      "role": "Suggests a price from costs.",
+      "creator": "LBallz77283",
+      "tools": [
+        "Google Sheets",
+        "Shopify"
+      ],
+      "url": "https://moneywithai.net/bots/product-price-writer/",
+      "official_share_url": null
+    },
+    {
+      "bot": "ebay-lister",
+      "name": "eBay Lister",
+      "role": "Drafts eBay listings.",
+      "creator": "Gabi_Valerio3",
+      "tools": [
+        "eBay"
+      ],
+      "url": "https://moneywithai.net/bots/ebay-lister/",
+      "official_share_url": "https://x.ai/bot/q9Q8EPKFx45CmVwjUAFY5"
+    },
+    {
+      "bot": "sam-sales",
+      "name": "Sam (Sales)",
+      "role": "Drafts Marketplace listings.",
+      "creator": "SrCaptainThrawn",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/sam-sales/",
+      "official_share_url": "https://x.ai/bot/ihsZKnZJay7kLayMUfAV1"
+    }
+  ],
+  "tools": [
+    "Google Drive",
+    "Dropbox",
+    "Google Sheets",
+    "Shopify",
+    "eBay",
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Item photos",
+        "tool": null
+      },
+      {
+        "label": "Accounts",
+        "tool": "eBay"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "photofix",
+        "name": "PhotoFix",
+        "does": "Cleans photos",
+        "tools": [
+          "Google Drive",
+          "Dropbox"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "product-price-writer",
+        "name": "Product Price Writer",
+        "does": "Suggests prices",
+        "tools": [
+          "Google Sheets",
+          "Shopify"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "ebay-lister",
+        "name": "eBay Lister",
+        "does": "Drafts eBay listings",
+        "tools": [
+          "eBay"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "sam-sales",
+        "name": "Sam (Sales)",
+        "does": "Drafts Marketplace listings",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Approve and ship",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Listings on two marketplaces",
+      "Sales"
+    ]
+  },
+  "steps": [
+    "Photograph ten items.",
+    "Approve prices and listings.",
+    "Answer buyers yourself.",
+    "Relist what does not sell."
+  ],
+  "guardrails": [
+    "Every message and document stays a draft until you approve it.",
+    "The bots never pay, sign or accept terms for you."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 113,
+    "score": 69,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/multi-marketplace-resale/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/multi-marketplace-resale.json"
+}

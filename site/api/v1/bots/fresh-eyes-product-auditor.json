@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "fresh-eyes-product-auditor",
+  "name": "Fresh Eyes Product Auditor",
+  "category": "E-Commerce",
+  "sub_use_case": "Store operations",
+  "summary": "Walks your site or app as a first-time customer and ranks the biggest UX fixes with mock-ups.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Evoputa",
+    "url": "https://x.com/Evoputa"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/Evoputa/status/2105961977977991260"
+  },
+  "official_share_url": "https://x.ai/bot/jASNu2J_6nCtKvKf4v_Sd",
+  "found_via": "https://grokbot101.org/bots/fresh-eyes/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/fresh-eyes-product-auditor/",
+  "json_url": "https://moneywithai.net/api/v1/bots/fresh-eyes-product-auditor.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/store-conversion-audit-service/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 154,
+    "score": 83,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

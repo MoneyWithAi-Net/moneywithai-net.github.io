@@ -13,7 +13,7 @@
     "label": "Medium",
     "basis": "Assumes project managers lose hours to the inbox that could go to billable site work.",
     "claim_label": "E",
-    "note": "Money tiers are our estimates (E) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
   },
   "how_it_makes_money": [
     "Project managers spend more time on site and less in the inbox.",
@@ -137,6 +137,16 @@
   ],
   "claims": [],
   "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+  "featured": {
+    "rank": 50,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
   "url": "https://moneywithai.net/use-cases/construction-office-chief-of-staff/",
   "json_url": "https://moneywithai.net/api/v1/use-cases/construction-office-chief-of-staff.json"
 }

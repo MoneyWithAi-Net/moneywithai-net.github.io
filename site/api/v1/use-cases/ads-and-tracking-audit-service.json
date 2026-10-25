@@ -1,0 +1,208 @@
+{
+  "type": "use-case",
+  "slug": "ads-and-tracking-audit-service",
+  "title": "Sell an Ads and Tracking Audit",
+  "category": "Content and Marketing",
+  "category_slug": "content-and-marketing",
+  "money_model": "Sell a service",
+  "difficulty": "Intermediate",
+  "summary": "Fix conversion tracking, audit ad accounts and hand over a prioritized plan, with optional monthly management.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes fixed audit fees plus some monthly retainers.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "A fixed-price audit is an easy first sale.",
+    "Audits often turn into retainers."
+  ],
+  "who_its_for": [
+    "Freelance marketers."
+  ],
+  "stack": [
+    {
+      "bot": "conversion-tracking-setup",
+      "name": "Conversion Tracking Setup",
+      "role": "Gets conversion tracking working.",
+      "creator": "converlyio",
+      "tools": [
+        "Converly"
+      ],
+      "url": "https://moneywithai.net/bots/conversion-tracking-setup/",
+      "official_share_url": null
+    },
+    {
+      "bot": "google-ads-performance-analyst",
+      "name": "Google Ads Performance Analyst",
+      "role": "Audits the ad account.",
+      "creator": "benln",
+      "tools": [
+        "Google Ads"
+      ],
+      "url": "https://moneywithai.net/bots/google-ads-performance-analyst/",
+      "official_share_url": null
+    },
+    {
+      "bot": "campaign-autopilot",
+      "name": "Campaign Autopilot",
+      "role": "Reviews cross-channel results.",
+      "creator": "BotDirectoryAI",
+      "tools": [
+        "Google Analytics",
+        "Meta Ads",
+        "LinkedIn",
+        "Slack"
+      ],
+      "url": "https://moneywithai.net/bots/campaign-autopilot/",
+      "official_share_url": null
+    },
+    {
+      "bot": "marketing-context-collector",
+      "name": "Marketing Context Collector",
+      "role": "Builds the context brief.",
+      "creator": "codyschneider",
+      "tools": [
+        "Gmail",
+        "Slack",
+        "Notion",
+        "Google Analytics",
+        "HubSpot",
+        "Google Ads"
+      ],
+      "url": "https://moneywithai.net/bots/marketing-context-collector/",
+      "official_share_url": null
+    },
+    {
+      "bot": "google-ads-optimizer",
+      "name": "Google Ads Optimizer",
+      "role": "Runs daily optimization if retained.",
+      "creator": "codyschneider",
+      "tools": [
+        "Cursor",
+        "Google Ads"
+      ],
+      "url": "https://moneywithai.net/bots/google-ads-optimizer/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Converly",
+    "Google Ads",
+    "Google Analytics",
+    "Meta Ads",
+    "LinkedIn",
+    "Slack",
+    "Gmail",
+    "Notion",
+    "HubSpot",
+    "Cursor"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Client ad account",
+        "tool": "Google Ads"
+      },
+      {
+        "label": "Client site",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "conversion-tracking-setup",
+        "name": "Conversion Tracking Setup",
+        "does": "Fixes tracking",
+        "tools": [
+          "Converly"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "google-ads-performance-analyst",
+        "name": "Google Ads Performance Analyst",
+        "does": "Audits ads",
+        "tools": [
+          "Google Ads"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "campaign-autopilot",
+        "name": "Campaign Autopilot",
+        "does": "Reviews channels",
+        "tools": [
+          "Google Analytics",
+          "Meta Ads",
+          "LinkedIn",
+          "Slack"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "marketing-context-collector",
+        "name": "Marketing Context Collector",
+        "does": "Builds the brief",
+        "tools": [
+          "Gmail",
+          "Slack",
+          "Notion",
+          "Google Analytics",
+          "HubSpot",
+          "Google Ads"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "google-ads-optimizer",
+        "name": "Google Ads Optimizer",
+        "does": "Optimizes daily",
+        "tools": [
+          "Cursor",
+          "Google Ads"
+        ]
+      },
+      {
+        "order": 6,
+        "by": "you",
+        "name": "You",
+        "does": "Sell and present",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Working tracking",
+      "Audit report",
+      "Optional retainer"
+    ]
+  },
+  "steps": [
+    "Sell a fixed-price audit.",
+    "Fix tracking first.",
+    "Deliver a ranked plan.",
+    "Offer monthly management."
+  ],
+  "guardrails": [
+    "You need your own accounts for the connected tools; check their current plans first.",
+    "The bots never pay, sign or accept terms for you."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 73,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/ads-and-tracking-audit-service/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/ads-and-tracking-audit-service.json"
+}

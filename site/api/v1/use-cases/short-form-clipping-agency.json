@@ -1,0 +1,184 @@
+{
+  "type": "use-case",
+  "slug": "short-form-clipping-agency",
+  "title": "Sell a Short-Form Clipping Service",
+  "category": "Content and Marketing",
+  "category_slug": "content-and-marketing",
+  "money_model": "Sell a service",
+  "difficulty": "Beginner",
+  "summary": "Turn clients' long videos into daily shorts, scout trends for new angles and bill monthly.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes a monthly fee per client.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Simple, repeatable monthly offer.",
+    "Clients see output every day."
+  ],
+  "who_its_for": [
+    "New editors and social managers."
+  ],
+  "stack": [
+    {
+      "bot": "shorty",
+      "name": "Shorty",
+      "role": "Cuts Shorts from long videos.",
+      "creator": "farzyness",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/shorty/",
+      "official_share_url": "https://x.ai/bot/32fHIBw9Yz-s_o35KycGX"
+    },
+    {
+      "bot": "clipper",
+      "name": "Clipper",
+      "role": "Makes clips and captioned GIFs.",
+      "creator": "thesoragirls",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/clipper/",
+      "official_share_url": "https://x.ai/bot/ozEfaAFJMDGoB-ysym8_V"
+    },
+    {
+      "bot": "short-form-content-creator",
+      "name": "Short-Form Content Creator",
+      "role": "Cuts clips in CapCut.",
+      "creator": "farzyness",
+      "tools": [
+        "YouTube",
+        "CapCut"
+      ],
+      "url": "https://moneywithai.net/bots/short-form-content-creator/",
+      "official_share_url": null
+    },
+    {
+      "bot": "socials-short-form-scout",
+      "name": "Socials (Short-Form Scout)",
+      "role": "Finds trending angles.",
+      "creator": "ashen_one",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/socials-short-form-scout/",
+      "official_share_url": "https://x.ai/bot/bjsbaj_a2ds2pQY1YiXqE"
+    },
+    {
+      "bot": "invoice-hunter",
+      "name": "Invoice Hunter",
+      "role": "Chases invoices.",
+      "creator": "scheemunai",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/invoice-hunter/",
+      "official_share_url": "https://x.ai/bot/-kO6HrXokJZANVwUOMZO9"
+    }
+  ],
+  "tools": [
+    "Grok",
+    "YouTube",
+    "CapCut"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Client videos",
+        "tool": "YouTube"
+      },
+      {
+        "label": "Trends",
+        "tool": "X"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "shorty",
+        "name": "Shorty",
+        "does": "Cuts Shorts",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "clipper",
+        "name": "Clipper",
+        "does": "Makes clips",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "short-form-content-creator",
+        "name": "Short-Form Content Creator",
+        "does": "Edits in CapCut",
+        "tools": [
+          "YouTube",
+          "CapCut"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "socials-short-form-scout",
+        "name": "Socials (Short-Form Scout)",
+        "does": "Finds trends",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "invoice-hunter",
+        "name": "Invoice Hunter",
+        "does": "Chases invoices",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 6,
+        "by": "you",
+        "name": "You",
+        "does": "Deliver and approve",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Daily clips",
+      "Paid retainers"
+    ]
+  },
+  "steps": [
+    "Pick clients with weekly long videos.",
+    "Agree a clip count per week.",
+    "Deliver and post with approval.",
+    "Invoice monthly."
+  ],
+  "guardrails": [
+    "Do not reuse other people's images, words or likeness without permission.",
+    "Nothing is posted publicly without your OK."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 37,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/short-form-clipping-agency/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/short-form-clipping-agency.json"
+}

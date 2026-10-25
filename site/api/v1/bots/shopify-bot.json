@@ -25,7 +25,20 @@
   "url": "https://moneywithai.net/bots/shopify-bot/",
   "json_url": "https://moneywithai.net/api/v1/bots/shopify-bot.json",
   "use_cases": [
-    "https://moneywithai.net/use-cases/shopify-store-with-a-bot-team/"
+    "https://moneywithai.net/use-cases/shopify-store-with-a-bot-team/",
+    "https://moneywithai.net/use-cases/shopify-ops-roster/",
+    "https://moneywithai.net/use-cases/custom-maker-shop-ops/",
+    "https://moneywithai.net/use-cases/telegram-store-command-center/"
   ],
-  "added_at": "2026-10-24T09:30:00.000Z"
+  "added_at": "2026-10-24T09:30:00.000Z",
+  "featured": {
+    "rank": 8,
+    "score": 100,
+    "money": 40,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
 }

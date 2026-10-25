@@ -1,0 +1,43 @@
+{
+  "type": "bot",
+  "slug": "slowbooks-cutover",
+  "name": "SlowBooks Cutover",
+  "category": "Finance",
+  "sub_use_case": "Bookkeeping and reporting",
+  "summary": "Moves a QuickBooks Desktop company into SlowBooks with the source kept read-only, carrying accounts, classes and history.",
+  "tools": [
+    "QuickBooks Desktop",
+    "Conductor",
+    "SlowBooksPro"
+  ],
+  "creator": {
+    "handle": "jschnett",
+    "url": "https://x.com/jschnett"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/jschnett/status/2105406714564452731"
+  },
+  "official_share_url": "https://x.ai/bot/IpwtPuGwCQ-y24b4loSBh",
+  "found_via": "https://botdirectory.ai/bots/slowbooks-cutover/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/slowbooks-cutover/",
+  "json_url": "https://moneywithai.net/api/v1/bots/slowbooks-cutover.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/quickbooks-migration-service/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 180,
+    "score": 80,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 3,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "type": "use-case",
+  "slug": "dtc-launch-creative-studio",
+  "title": "Produce Launch Creative for a DTC Product",
+  "category": "E-Commerce",
+  "category_slug": "e-commerce",
+  "money_model": "Grow sales",
+  "difficulty": "Intermediate",
+  "summary": "Make product images, 3D videos, avatar-free ad scripts and carousels for each launch.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes creative quality lifts conversion on existing traffic.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Fresh creative for every launch.",
+    "Lower creative costs."
+  ],
+  "who_its_for": [
+    "DTC founders."
+  ],
+  "stack": [
+    {
+      "bot": "shopify-product-image-maker",
+      "name": "Shopify Product Image Maker",
+      "role": "Generates product images.",
+      "creator": "deAPI Team",
+      "tools": [
+        "n8n",
+        "Claude",
+        "Shopify"
+      ],
+      "url": "https://moneywithai.net/bots/shopify-product-image-maker/",
+      "official_share_url": null
+    },
+    {
+      "bot": "photo-to-3d-product-video",
+      "name": "Photo to 3D Product Video",
+      "role": "Makes 3D product videos.",
+      "creator": "InfyOm Technologies",
+      "tools": [
+        "n8n",
+        "Gmail",
+        "Google Drive",
+        "Google Sheets"
+      ],
+      "url": "https://moneywithai.net/bots/photo-to-3d-product-video/",
+      "official_share_url": null
+    },
+    {
+      "bot": "ad-creative-generator",
+      "name": "Ad Creative Generator",
+      "role": "Makes ad creatives.",
+      "creator": "mightyking",
+      "tools": [
+        "MaxFusion"
+      ],
+      "url": "https://moneywithai.net/bots/ad-creative-generator/",
+      "official_share_url": null
+    },
+    {
+      "bot": "carousel-publisher",
+      "name": "Carousel Publisher",
+      "role": "Builds and queues carousels.",
+      "creator": "postnitro",
+      "tools": [
+        "PostNitro",
+        "LinkedIn",
+        "Instagram",
+        "Threads",
+        "TikTok"
+      ],
+      "url": "https://moneywithai.net/bots/carousel-publisher/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "n8n",
+    "Claude",
+    "Shopify",
+    "Gmail",
+    "Google Drive",
+    "Google Sheets",
+    "MaxFusion",
+    "PostNitro",
+    "LinkedIn",
+    "Instagram",
+    "Threads",
+    "TikTok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Product photos",
+        "tool": null
+      },
+      {
+        "label": "Store",
+        "tool": "Shopify"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "shopify-product-image-maker",
+        "name": "Shopify Product Image Maker",
+        "does": "Makes images",
+        "tools": [
+          "n8n",
+          "Claude",
+          "Shopify"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "photo-to-3d-product-video",
+        "name": "Photo to 3D Product Video",
+        "does": "Makes 3D video",
+        "tools": [
+          "n8n",
+          "Gmail",
+          "Google Drive",
+          "Google Sheets"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "ad-creative-generator",
+        "name": "Ad Creative Generator",
+        "does": "Makes ads",
+        "tools": [
+          "MaxFusion"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "carousel-publisher",
+        "name": "Carousel Publisher",
+        "does": "Queues carousels",
+        "tools": [
+          "PostNitro",
+          "LinkedIn",
+          "Instagram",
+          "Threads",
+          "TikTok"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Approve assets",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Images and videos",
+      "Ads",
+      "Carousels"
+    ]
+  },
+  "steps": [
+    "Shoot clean product photos.",
+    "Generate assets.",
+    "Approve the best.",
+    "Launch small tests."
+  ],
+  "guardrails": [
+    "Do not reuse other people's images, words or likeness without permission.",
+    "The bots never pay, sign or accept terms for you."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 56,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/dtc-launch-creative-studio/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/dtc-launch-creative-studio.json"
+}

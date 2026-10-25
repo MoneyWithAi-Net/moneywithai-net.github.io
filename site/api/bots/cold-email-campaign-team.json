@@ -1,0 +1,30 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "cold-email-campaign-team",
+    "name": "Cold Email Campaign Team",
+    "category": "Leads and Sales",
+    "sub_use_case": "Outbound prospecting",
+    "summary": "A multi-agent setup where a director model briefs specialist models to build a full cold email campaign.",
+    "tools": [
+      "n8n",
+      "OpenAI"
+    ],
+    "creator": {
+      "handle": "Yaron Been",
+      "url": "https://n8n.io/creators/yaron-nofluff/"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://n8n.io/workflows/6909/"
+    },
+    "official_share_url": null,
+    "found_via": "https://n8n.io/workflows/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/cold-email-campaign-team/",
+    "json_url": "https://moneywithai.net/api/bots/cold-email-campaign-team.json"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "deal-desk-autopilot",
+    "name": "Deal Desk Autopilot",
+    "category": "Leads and Sales",
+    "sub_use_case": "Sales-call support",
+    "summary": "Reviews every open deal, spots stalled steps and drafts the next follow-up.",
+    "tools": [
+      "Gmail",
+      "Google Calendar"
+    ],
+    "creator": {
+      "handle": "ericosiu",
+      "url": "https://botdirectory.ai/bots/deal-desk-autopilot/"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://botdirectory.ai/bots/deal-desk-autopilot/"
+    },
+    "official_share_url": null,
+    "found_via": "https://botdirectory.ai/bots/deal-desk-autopilot/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/deal-desk-autopilot/",
+    "json_url": "https://moneywithai.net/api/bots/deal-desk-autopilot.json"
+  }
+}

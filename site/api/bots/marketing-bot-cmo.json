@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "marketing-bot-cmo",
+    "name": "Marketing Bot (CMO)",
+    "category": "Content and Marketing",
+    "sub_use_case": "Copy and creative",
+    "summary": "A CMO-style bot that works from your product context to write copy, offers, cold emails and conversion fixes.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "tymarsha",
+      "url": "https://x.com/tymarsha"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/tymarsha/status/2093448136396095754"
+    },
+    "official_share_url": "https://x.ai/bot/37ZOM10GzlSOQpMjRp7KB",
+    "found_via": "https://botdirectory.ai/bots/marketing-bot-cmo/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/marketing-bot-cmo/",
+    "json_url": "https://moneywithai.net/api/bots/marketing-bot-cmo.json"
+  }
+}

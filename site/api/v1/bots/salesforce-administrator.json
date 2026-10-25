@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "salesforce-administrator",
+  "name": "Salesforce Administrator",
+  "category": "Leads and Sales",
+  "sub_use_case": "CRM hygiene",
+  "summary": "Acts as a careful Salesforce admin through the Salesforce CLI, asking one question at a time.",
+  "tools": [
+    "Salesforce"
+  ],
+  "creator": {
+    "handle": "alnandr",
+    "url": "https://botdirectory.ai/bots/salesforce-administrator/"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://botdirectory.ai/bots/salesforce-administrator/"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/salesforce-administrator/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/salesforce-administrator/",
+  "json_url": "https://moneywithai.net/api/v1/bots/salesforce-administrator.json",
+  "use_cases": [],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 301,
+    "score": 36,
+    "money": 0,
+    "profile": 26,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "type": "use-case",
+  "slug": "bookkeeping-cleanup-service",
+  "title": "Sell Bookkeeping Cleanups to Small Businesses",
+  "category": "Finance",
+  "category_slug": "finance",
+  "money_model": "Sell a service",
+  "difficulty": "Intermediate",
+  "summary": "Audit messy books, validate invoices, log receipts and hand off to monthly bookkeeping.",
+  "money_potential": {
+    "tier": 3,
+    "symbol": "$$$",
+    "label": "High",
+    "basis": "Assumes cleanup fees plus monthly retainers.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Cleanups are a clear, paid first project.",
+    "Monthly bookkeeping follows."
+  ],
+  "who_its_for": [
+    "Bookkeepers and accounting freelancers."
+  ],
+  "stack": [
+    {
+      "bot": "bookkeeping-auditor",
+      "name": "Bookkeeping Auditor",
+      "role": "Audits books against bank and card records.",
+      "creator": "mrfundman",
+      "tools": [
+        "QuickBooks"
+      ],
+      "url": "https://moneywithai.net/bots/bookkeeping-auditor/",
+      "official_share_url": null
+    },
+    {
+      "bot": "invoice-ocr-checker",
+      "name": "Invoice OCR Checker",
+      "role": "Validates invoice PDFs into Sheets.",
+      "creator": "Dhrumil Patel",
+      "tools": [
+        "n8n",
+        "Google Sheets",
+        "OpenRouter"
+      ],
+      "url": "https://moneywithai.net/bots/invoice-ocr-checker/",
+      "official_share_url": null
+    },
+    {
+      "bot": "receipt-scanner-expense-tracking",
+      "name": "Receipt Scanner / Expense Tracking",
+      "role": "Logs receipts into a sheet.",
+      "creator": "limeunfiltered",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/receipt-scanner-expense-tracking/",
+      "official_share_url": "https://x.ai/bot/qod4CrNQBlDIMm5wFYVQp"
+    },
+    {
+      "bot": "ledger",
+      "name": "Ledger",
+      "role": "Handles recurring finance admin.",
+      "creator": "Voxyz_ai",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/ledger/",
+      "official_share_url": null
+    },
+    {
+      "bot": "tax-firm-os",
+      "name": "Tax Firm OS",
+      "role": "Runs the practice back office.",
+      "creator": "Amervim",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/tax-firm-os/",
+      "official_share_url": "https://x.ai/bot/vJqjJphtZRkdBTYBxmWur"
+    }
+  ],
+  "tools": [
+    "QuickBooks",
+    "n8n",
+    "Google Sheets",
+    "OpenRouter",
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Bank and card records",
+        "tool": null
+      },
+      {
+        "label": "Bookkeeping system",
+        "tool": "QuickBooks"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "bookkeeping-auditor",
+        "name": "Bookkeeping Auditor",
+        "does": "Audits the books",
+        "tools": [
+          "QuickBooks"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "invoice-ocr-checker",
+        "name": "Invoice OCR Checker",
+        "does": "Validates invoices",
+        "tools": [
+          "n8n",
+          "Google Sheets",
+          "OpenRouter"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "receipt-scanner-expense-tracking",
+        "name": "Receipt Scanner / Expense Tracking",
+        "does": "Logs receipts",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "ledger",
+        "name": "Ledger",
+        "does": "Runs monthly admin",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "tax-firm-os",
+        "name": "Tax Firm OS",
+        "does": "Runs practice ops",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 6,
+        "by": "you",
+        "name": "You",
+        "does": "Approve fixes",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Clean books",
+      "Monthly clients"
+    ]
+  },
+  "steps": [
+    "Sell a fixed-price cleanup.",
+    "Audit and list fixes.",
+    "Fix with the client's approval.",
+    "Offer monthly bookkeeping."
+  ],
+  "guardrails": [
+    "This is admin help, not legal, tax or financial advice.",
+    "Connect only accounts you own and give the least access needed.",
+    "Review a sample by hand before you trust a scheduled run."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 9,
+    "score": 92,
+    "money": 40,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/bookkeeping-cleanup-service/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/bookkeeping-cleanup-service.json"
+}

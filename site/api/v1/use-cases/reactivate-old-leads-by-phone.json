@@ -1,0 +1,179 @@
+{
+  "type": "use-case",
+  "slug": "reactivate-old-leads-by-phone",
+  "title": "Reactivate Old Leads with Calls and a Win-Back Email",
+  "category": "Leads and Sales",
+  "category_slug": "leads-and-sales",
+  "money_model": "Recover money",
+  "difficulty": "Intermediate",
+  "summary": "Clean an old lead list, call it with a voice agent, book the interested ones and email the rest.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes a list of past inquiries that never bought.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Old leads you already paid for get a second chance.",
+    "Interested people land on your calendar."
+  ],
+  "who_its_for": [
+    "Service businesses and agencies with a stale lead list."
+  ],
+  "stack": [
+    {
+      "bot": "lead-enricher",
+      "name": "Lead Enricher",
+      "role": "Refreshes contact details.",
+      "creator": "Nittarab",
+      "tools": [
+        "Weft",
+        "OneShot Agent",
+        "Google Sheets",
+        "Slack"
+      ],
+      "url": "https://moneywithai.net/bots/lead-enricher/",
+      "official_share_url": null
+    },
+    {
+      "bot": "sheet-to-voice-sales-caller",
+      "name": "Sheet to Voice Sales Caller",
+      "role": "Calls the list with a voice agent and logs outcomes.",
+      "creator": "Marcus Taylor",
+      "tools": [
+        "n8n",
+        "Google Sheets"
+      ],
+      "url": "https://moneywithai.net/bots/sheet-to-voice-sales-caller/",
+      "official_share_url": null
+    },
+    {
+      "bot": "prospect-meeting-booker",
+      "name": "Prospect Meeting Booker",
+      "role": "Books calls with interested leads.",
+      "creator": "benln",
+      "tools": [
+        "Gmail",
+        "Google Calendar"
+      ],
+      "url": "https://moneywithai.net/bots/prospect-meeting-booker/",
+      "official_share_url": null
+    },
+    {
+      "bot": "churn-win-back-loop",
+      "name": "Churn Win-Back Loop",
+      "role": "Drafts a win-back email for the rest.",
+      "creator": "liam_fallen",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/churn-win-back-loop/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Weft",
+    "OneShot Agent",
+    "Google Sheets",
+    "Slack",
+    "n8n",
+    "Gmail",
+    "Google Calendar",
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Old lead list",
+        "tool": "Google Sheets"
+      },
+      {
+        "label": "Call script",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "lead-enricher",
+        "name": "Lead Enricher",
+        "does": "Refreshes contacts",
+        "tools": [
+          "Weft",
+          "OneShot Agent",
+          "Google Sheets",
+          "Slack"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "sheet-to-voice-sales-caller",
+        "name": "Sheet to Voice Sales Caller",
+        "does": "Calls the list",
+        "tools": [
+          "n8n",
+          "Google Sheets"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "prospect-meeting-booker",
+        "name": "Prospect Meeting Booker",
+        "does": "Books calls",
+        "tools": [
+          "Gmail",
+          "Google Calendar"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "churn-win-back-loop",
+        "name": "Churn Win-Back Loop",
+        "does": "Drafts win-back emails",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Approve script and take calls",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Call outcomes",
+      "Booked calls",
+      "Win-back emails"
+    ]
+  },
+  "steps": [
+    "Export leads older than 90 days.",
+    "Refresh contacts and remove anyone who opted out.",
+    "Approve the call script and run a small batch.",
+    "Book the warm ones and email the rest."
+  ],
+  "guardrails": [
+    "Check local rules on cold outreach, calls and texts before contacting anyone.",
+    "Handle customer and candidate data under your local privacy rules.",
+    "Every message and document stays a draft until you approve it."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 59,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/reactivate-old-leads-by-phone/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/reactivate-old-leads-by-phone.json"
+}

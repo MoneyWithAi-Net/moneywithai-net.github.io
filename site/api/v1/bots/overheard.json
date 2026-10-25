@@ -1,0 +1,43 @@
+{
+  "type": "bot",
+  "slug": "overheard",
+  "name": "Overheard",
+  "category": "Content and Marketing",
+  "sub_use_case": "Analytics and monitoring",
+  "summary": "Checks Reddit, Hacker News, X and chosen news sites for mentions of your brand and ranks them each weekday.",
+  "tools": [
+    "Reddit",
+    "Hacker News",
+    "X"
+  ],
+  "creator": {
+    "handle": "lennysan",
+    "url": "https://botdirectory.ai/bots/overheard/"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://botdirectory.ai/bots/overheard/"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/overheard/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/overheard/",
+  "json_url": "https://moneywithai.net/api/v1/bots/overheard.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/brand-mention-watch-service/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 268,
+    "score": 69,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

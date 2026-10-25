@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "creator-shortlist-crew",
+    "name": "Creator Shortlist Crew",
+    "category": "Leads and Sales",
+    "sub_use_case": "Partnerships and sponsors",
+    "summary": "Finds creators by niche and platform, adds contact details and keeps a shortlist ready for partnership outreach.",
+    "tools": [
+      "Treg"
+    ],
+    "creator": {
+      "handle": "Treg team",
+      "url": "https://botdirectory.ai/bots/creator-shortlist-crew/"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/6IU2bm7uuSPk6ETC-gC4D"
+    },
+    "official_share_url": "https://x.ai/bot/6IU2bm7uuSPk6ETC-gC4D",
+    "found_via": "https://botdirectory.ai/bots/creator-shortlist-crew/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/creator-shortlist-crew/",
+    "json_url": "https://moneywithai.net/api/bots/creator-shortlist-crew.json"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "sherpa-bot",
+    "name": "Sherpa Bot",
+    "category": "Research and Ops",
+    "sub_use_case": "Opportunity scouting",
+    "summary": "Helps a would-be founder find a real problem, a real customer and one next action within 14 days.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "MorganWKhan",
+      "url": "https://x.com/MorganWKhan"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/MorganWKhan/status/2105256392256893076"
+    },
+    "official_share_url": "https://x.ai/bot/CGmwZlk_FVNYJO_VruSFZ",
+    "found_via": "https://grokbot101.org/bots/sherpa-bot/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/sherpa-bot/",
+    "json_url": "https://moneywithai.net/api/bots/sherpa-bot.json"
+  }
+}

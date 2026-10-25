@@ -1,0 +1,30 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "buying-signal-hunter",
+    "name": "Buying Signal Hunter",
+    "category": "Leads and Sales",
+    "sub_use_case": "Outbound prospecting",
+    "summary": "Each morning finds LinkedIn prospects showing buying intent for what you sell.",
+    "tools": [
+      "Gojiberry AI",
+      "LinkedIn"
+    ],
+    "creator": {
+      "handle": "romanbuildsaas",
+      "url": "https://x.com/romanbuildsaas"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/romanbuildsaas/status/2094758876834938964"
+    },
+    "official_share_url": null,
+    "found_via": "https://botdirectory.ai/bots/buying-signal-hunter/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/buying-signal-hunter/",
+    "json_url": "https://moneywithai.net/api/bots/buying-signal-hunter.json"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "business",
+  "name": "Business",
+  "category": "Finance",
+  "sub_use_case": "Bookkeeping and reporting",
+  "summary": "Runs books, customers and sign-ups on an open-source business SQL schema that keeps full history.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "ArtJazd",
+    "url": "https://x.com/ArtJazd"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/ArtJazd/status/2105237507675931133"
+  },
+  "official_share_url": "https://x.ai/bot/90lHQMpkeUT1ZWIw6dxkB",
+  "found_via": "https://grokbot101.org/bots/business-books/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/business/",
+  "json_url": "https://moneywithai.net/api/v1/bots/business.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/quickbooks-migration-service/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 174,
+    "score": 80,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 3,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

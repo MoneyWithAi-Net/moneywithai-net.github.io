@@ -1,0 +1,32 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "autonomous-seo-engineer",
+    "name": "Autonomous SEO Engineer",
+    "category": "Content and Marketing",
+    "sub_use_case": "SEO and AI search",
+    "summary": "Uses Search Console, Analytics and Ahrefs to plan and ship ongoing SEO fixes to a WordPress site.",
+    "tools": [
+      "Google Search Console",
+      "Google Analytics",
+      "Ahrefs",
+      "WordPress"
+    ],
+    "creator": {
+      "handle": "SEOAgent_",
+      "url": "https://x.com/SEOAgent_"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/SEOAgent_/status/2094510412431573427"
+    },
+    "official_share_url": null,
+    "found_via": "https://botdirectory.ai/bots/autonomous-seo-engineer/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/autonomous-seo-engineer/",
+    "json_url": "https://moneywithai.net/api/bots/autonomous-seo-engineer.json"
+  }
+}

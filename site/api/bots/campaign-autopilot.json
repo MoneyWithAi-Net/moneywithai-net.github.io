@@ -1,0 +1,32 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "campaign-autopilot",
+    "name": "Campaign Autopilot",
+    "category": "Content and Marketing",
+    "sub_use_case": "Paid ads",
+    "summary": "Reviews your Google Analytics, Meta Ads and LinkedIn results on a set schedule and posts campaign fixes to Slack for your approval.",
+    "tools": [
+      "Google Analytics",
+      "Meta Ads",
+      "LinkedIn",
+      "Slack"
+    ],
+    "creator": {
+      "handle": "BotDirectoryAI",
+      "url": "https://x.com/BotDirectoryAI"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/BotDirectoryAI/status/2114131736862842880"
+    },
+    "official_share_url": null,
+    "found_via": "https://botdirectory.ai/bots/campaign-autopilot/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/campaign-autopilot/",
+    "json_url": "https://moneywithai.net/api/bots/campaign-autopilot.json"
+  }
+}

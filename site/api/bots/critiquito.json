@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "critiquito",
+    "name": "Critiquito",
+    "category": "E-Commerce",
+    "sub_use_case": "Store operations",
+    "summary": "Critiques interface screenshots from a customer's point of view and picks the single highest-impact fix.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Manuel",
+      "url": "https://botdirectory.ai/bots/critiquito/"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/rt9m-FTkJoGsZzAjsKLPM"
+    },
+    "official_share_url": "https://x.ai/bot/rt9m-FTkJoGsZzAjsKLPM",
+    "found_via": "https://botdirectory.ai/bots/critiquito/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/critiquito/",
+    "json_url": "https://moneywithai.net/api/bots/critiquito.json"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "type": "bot",
+  "slug": "customer-feedback-theme-analyst",
+  "name": "Customer Feedback Theme Analyst",
+  "category": "Customer Support",
+  "sub_use_case": "Feedback watch",
+  "summary": "Groups large volumes of customer feedback from Plain and X into product themes and files them in Linear.",
+  "tools": [
+    "Plain",
+    "X",
+    "Linear"
+  ],
+  "creator": {
+    "handle": "BotDirectoryAI",
+    "url": "https://x.com/BotDirectoryAI"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/BotDirectoryAI/status/2104348042279141557"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/customer-feedback-theme-analyst/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/customer-feedback-theme-analyst/",
+  "json_url": "https://moneywithai.net/api/v1/bots/customer-feedback-theme-analyst.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/brand-mention-watch-service/",
+    "https://moneywithai.net/use-cases/incident-early-warning/",
+    "https://moneywithai.net/use-cases/voice-of-customer-to-roadmap/",
+    "https://moneywithai.net/use-cases/sales-call-insights-to-product/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 109,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

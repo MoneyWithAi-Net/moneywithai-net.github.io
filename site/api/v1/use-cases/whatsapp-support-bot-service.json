@@ -1,0 +1,205 @@
+{
+  "type": "use-case",
+  "slug": "whatsapp-support-bot-service",
+  "title": "Build WhatsApp Support Bots for Small Businesses",
+  "category": "Client Services",
+  "category_slug": "client-services",
+  "money_model": "Sell a service",
+  "difficulty": "Intermediate",
+  "summary": "Set up a WhatsApp assistant that answers from the business's own documents, then bill a monthly fee.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes a setup fee plus monthly support per client.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "WhatsApp is where many customers already ask.",
+    "Setup plus monthly support pays twice."
+  ],
+  "who_its_for": [
+    "Freelancers serving local and online businesses."
+  ],
+  "stack": [
+    {
+      "bot": "whatsapp-help-desk-assistant",
+      "name": "WhatsApp Help Desk Assistant",
+      "role": "General WhatsApp support assistant.",
+      "creator": "Matt F.",
+      "tools": [
+        "n8n",
+        "OpenAI",
+        "WhatsApp"
+      ],
+      "url": "https://moneywithai.net/bots/whatsapp-help-desk-assistant/",
+      "official_share_url": null
+    },
+    {
+      "bot": "whatsapp-docs-answer-bot",
+      "name": "WhatsApp Docs Answer Bot",
+      "role": "Answers from the client's Drive documents.",
+      "creator": "Davide Boizza",
+      "tools": [
+        "n8n",
+        "Google Drive",
+        "OpenAI",
+        "Qdrant",
+        "WhatsApp"
+      ],
+      "url": "https://moneywithai.net/bots/whatsapp-docs-answer-bot/",
+      "official_share_url": null
+    },
+    {
+      "bot": "whatsapp-product-coach",
+      "name": "WhatsApp Product Coach",
+      "role": "Answers product questions from a sheet.",
+      "creator": "Dr. Firas",
+      "tools": [
+        "n8n",
+        "Google Sheets",
+        "OpenAI",
+        "WhatsApp"
+      ],
+      "url": "https://moneywithai.net/bots/whatsapp-product-coach/",
+      "official_share_url": null
+    },
+    {
+      "bot": "case-skeleton",
+      "name": "Case Skeleton",
+      "role": "Outlines your case study.",
+      "creator": "paulopierrondi",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/case-skeleton/",
+      "official_share_url": "https://x.ai/bot/_7yFKwQCYR_mi_oVmKOEN"
+    },
+    {
+      "bot": "invoice-hunter",
+      "name": "Invoice Hunter",
+      "role": "Chases invoices.",
+      "creator": "scheemunai",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/invoice-hunter/",
+      "official_share_url": "https://x.ai/bot/-kO6HrXokJZANVwUOMZO9"
+    }
+  ],
+  "tools": [
+    "n8n",
+    "OpenAI",
+    "WhatsApp",
+    "Google Drive",
+    "Qdrant",
+    "Google Sheets",
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Client documents",
+        "tool": "Google Drive"
+      },
+      {
+        "label": "WhatsApp Business",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "whatsapp-help-desk-assistant",
+        "name": "WhatsApp Help Desk Assistant",
+        "does": "Answers questions",
+        "tools": [
+          "n8n",
+          "OpenAI",
+          "WhatsApp"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "whatsapp-docs-answer-bot",
+        "name": "WhatsApp Docs Answer Bot",
+        "does": "Answers from documents",
+        "tools": [
+          "n8n",
+          "Google Drive",
+          "OpenAI",
+          "Qdrant",
+          "WhatsApp"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "whatsapp-product-coach",
+        "name": "WhatsApp Product Coach",
+        "does": "Answers product questions",
+        "tools": [
+          "n8n",
+          "Google Sheets",
+          "OpenAI",
+          "WhatsApp"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "case-skeleton",
+        "name": "Case Skeleton",
+        "does": "Outlines case study",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "invoice-hunter",
+        "name": "Invoice Hunter",
+        "does": "Chases invoices",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 6,
+        "by": "you",
+        "name": "You",
+        "does": "Sell and maintain",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Live support bot",
+      "Monthly fees"
+    ]
+  },
+  "steps": [
+    "Pick one client type.",
+    "Load their FAQs and documents.",
+    "Test with real questions.",
+    "Bill setup plus monthly care."
+  ],
+  "guardrails": [
+    "A person stays reachable for anything the bot is unsure about.",
+    "Handle customer and candidate data under your local privacy rules.",
+    "You need your own accounts for the connected tools; check their current plans first."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 45,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/whatsapp-support-bot-service/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/whatsapp-support-bot-service.json"
+}

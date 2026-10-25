@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "socials-short-form-scout",
+  "name": "Socials (Short-Form Scout)",
+  "category": "Content and Marketing",
+  "sub_use_case": "Video production",
+  "summary": "Scouts X and Reddit hourly for AI and tech stories worth filming for TikTok, Reels and Shorts.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "ashen_one",
+    "url": "https://x.com/ashen_one"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/ashen_one/status/2093416120371835232"
+  },
+  "official_share_url": "https://x.ai/bot/bjsbaj_a2ds2pQY1YiXqE",
+  "found_via": "https://botdirectory.ai/bots/socials-short-form-scout/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/socials-short-form-scout/",
+  "json_url": "https://moneywithai.net/api/v1/bots/socials-short-form-scout.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/short-form-clipping-agency/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 95,
+    "score": 87,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

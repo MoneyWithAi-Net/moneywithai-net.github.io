@@ -1,0 +1,161 @@
+{
+  "type": "use-case",
+  "slug": "member-email-program",
+  "title": "Run a Member Email Program That Keeps People",
+  "category": "Content and Marketing",
+  "category_slug": "content-and-marketing",
+  "money_model": "Grow sales",
+  "difficulty": "Beginner",
+  "summary": "Send a monthly member email, win back lapsed members and learn what people want.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Assumes recurring membership fees, so retention matters.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Members stay longer.",
+    "Lapsed members come back."
+  ],
+  "who_its_for": [
+    "Gyms, clubs, associations and memberships."
+  ],
+  "stack": [
+    {
+      "bot": "mailchimp-monthly-blast",
+      "name": "Mailchimp Monthly Blast",
+      "role": "Drafts the monthly email.",
+      "creator": "_lovablecurves",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/mailchimp-monthly-blast/",
+      "official_share_url": "https://x.ai/bot/lcGQv8_I7UvJEWs3833LR"
+    },
+    {
+      "bot": "churn-win-back-loop",
+      "name": "Churn Win-Back Loop",
+      "role": "Drafts win-back emails.",
+      "creator": "liam_fallen",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/churn-win-back-loop/",
+      "official_share_url": null
+    },
+    {
+      "bot": "feedback-theme-tally",
+      "name": "Feedback Theme Tally",
+      "role": "Codes member feedback into themes.",
+      "creator": "HJGameStudios",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/feedback-theme-tally/",
+      "official_share_url": "https://x.ai/bot/ETwbAVBi1bweFPvBqWC2E"
+    },
+    {
+      "bot": "crosscheck",
+      "name": "Crosscheck",
+      "role": "Checks facts before sending.",
+      "creator": "the_Arow_H",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/crosscheck/",
+      "official_share_url": "https://x.ai/bot/U4E-bNBzYlVcl_hMYf-kZ"
+    }
+  ],
+  "tools": [
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Member list",
+        "tool": "Mailchimp"
+      },
+      {
+        "label": "Feedback",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "mailchimp-monthly-blast",
+        "name": "Mailchimp Monthly Blast",
+        "does": "Drafts monthly email",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "churn-win-back-loop",
+        "name": "Churn Win-Back Loop",
+        "does": "Drafts win-backs",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "feedback-theme-tally",
+        "name": "Feedback Theme Tally",
+        "does": "Codes feedback",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "crosscheck",
+        "name": "Crosscheck",
+        "does": "Checks facts",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Approve emails",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Monthly emails",
+      "Win-backs",
+      "Feedback themes"
+    ]
+  },
+  "steps": [
+    "Set the monthly sections.",
+    "Approve each email.",
+    "Run win-backs quarterly.",
+    "Review themes and act on one."
+  ],
+  "guardrails": [
+    "Every message and document stays a draft until you approve it.",
+    "Handle customer and candidate data under your local privacy rules."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 114,
+    "score": 69,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/member-email-program/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/member-email-program.json"
+}

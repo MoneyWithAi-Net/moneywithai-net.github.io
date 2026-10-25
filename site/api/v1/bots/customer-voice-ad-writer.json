@@ -1,0 +1,43 @@
+{
+  "type": "bot",
+  "slug": "customer-voice-ad-writer",
+  "name": "Customer-Voice Ad Writer",
+  "category": "Content and Marketing",
+  "sub_use_case": "Paid ads",
+  "summary": "Mines Reddit for your customers' exact words and turns them into ad copy.",
+  "tools": [
+    "Reddit"
+  ],
+  "creator": {
+    "handle": "buildingadlicio",
+    "url": "https://x.com/buildingadlicio"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/buildingadlicio/status/2090187146816807371"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/customer-voice-ad-writer/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/customer-voice-ad-writer/",
+  "json_url": "https://moneywithai.net/api/v1/bots/customer-voice-ad-writer.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/pitch-ad-management-to-active-advertisers/",
+    "https://moneywithai.net/use-cases/reddit-to-revenue/",
+    "https://moneywithai.net/use-cases/customer-voice-ad-engine/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 13,
+    "score": 96,
+    "money": 40,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

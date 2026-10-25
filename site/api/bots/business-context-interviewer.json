@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "business-context-interviewer",
+    "name": "Business Context Interviewer",
+    "category": "Research and Ops",
+    "sub_use_case": "Team memory",
+    "summary": "Runs a deep interview about your business so your bots work from accurate context.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "nateherk",
+      "url": "https://x.com/nateherk"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/nateherk/status/2089917020087210160"
+    },
+    "official_share_url": null,
+    "found_via": "https://botdirectory.ai/bots/business-context-interviewer/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/business-context-interviewer/",
+    "json_url": "https://moneywithai.net/api/bots/business-context-interviewer.json"
+  }
+}

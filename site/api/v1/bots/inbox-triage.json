@@ -32,5 +32,15 @@
     "https://moneywithai.net/use-cases/accounting-practice-ops/",
     "https://moneywithai.net/use-cases/construction-office-chief-of-staff/"
   ],
-  "added_at": "2026-10-24T08:00:00.000Z"
+  "added_at": "2026-10-24T08:00:00.000Z",
+  "featured": {
+    "rank": 116,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
 }

@@ -1,0 +1,46 @@
+{
+  "type": "bot",
+  "slug": "invoice-approval-router",
+  "name": "Invoice Approval Router",
+  "category": "Finance",
+  "sub_use_case": "Invoices",
+  "summary": "Picks up PDF invoices from Gmail, extracts the data and routes each one through an approval step in Sheets.",
+  "tools": [
+    "n8n",
+    "Gmail",
+    "Google Drive",
+    "Google Sheets",
+    "OpenAI"
+  ],
+  "creator": {
+    "handle": "Billy Christi",
+    "url": "https://n8n.io/creators/billy/"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://n8n.io/workflows/4452/"
+  },
+  "official_share_url": null,
+  "found_via": "https://n8n.io/workflows/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/invoice-approval-router/",
+  "json_url": "https://moneywithai.net/api/v1/bots/invoice-approval-router.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/accounts-payable-autopilot/",
+    "https://moneywithai.net/use-cases/team-expense-reconcile/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 118,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

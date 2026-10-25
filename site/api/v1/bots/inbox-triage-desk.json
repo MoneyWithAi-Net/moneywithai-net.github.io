@@ -1,0 +1,44 @@
+{
+  "type": "bot",
+  "slug": "inbox-triage-desk",
+  "name": "Inbox Triage Desk",
+  "category": "Research and Ops",
+  "sub_use_case": "Inbox triage",
+  "summary": "Sorts messages into Reply, Delegate, Schedule and FYI lanes with the ask, deadline and a short draft.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Cypher0x9",
+    "url": "https://x.com/Cypher0x9"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/Cypher0x9/status/2105189988979896469"
+  },
+  "official_share_url": "https://x.ai/bot/soRR-1IslCTX7U4YiBg3Y",
+  "found_via": "https://grokbot101.org/bots/inbox-triage-desk/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/inbox-triage-desk/",
+  "json_url": "https://moneywithai.net/api/v1/bots/inbox-triage-desk.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/virtual-assistant-business/",
+    "https://moneywithai.net/use-cases/accountant-office-latam/",
+    "https://moneywithai.net/use-cases/founder-chief-of-staff-stack/",
+    "https://moneywithai.net/use-cases/regulated-small-business-admin/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 82,
+    "score": 87,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "type": "use-case",
+  "slug": "trade-bid-desk",
+  "title": "Find and Price Public Bids for a Trade",
+  "category": "Research and Ops",
+  "category_slug": "research-and-ops",
+  "money_model": "Grow sales",
+  "difficulty": "Advanced",
+  "summary": "Find bids in your trade, pull grants as a second source, compare subcontractor quotes and prepare the bid.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes a few won contracts a year.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "More qualified bids each month.",
+    "Better subcontractor pricing."
+  ],
+  "who_its_for": [
+    "Electrical, civil and specialty contractors."
+  ],
+  "stack": [
+    {
+      "bot": "airfield-electrical-bid-scout",
+      "name": "Airfield Electrical Bid Scout",
+      "role": "Finds and qualifies trade bids.",
+      "creator": "thefit24couple",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/airfield-electrical-bid-scout/",
+      "official_share_url": "https://x.ai/bot/PWBPqcCqUbEUPozXozRc3"
+    },
+    {
+      "bot": "grantogre",
+      "name": "GrantOgre",
+      "role": "Finds grant opportunities.",
+      "creator": "HoneybadgerFan4",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/grantogre/",
+      "official_share_url": "https://x.ai/bot/WXC1m-5Iiyu1IyvBEt9Va"
+    },
+    {
+      "bot": "contractor-quote-negotiator",
+      "name": "Contractor Quote Negotiator",
+      "role": "Compares subcontractor quotes.",
+      "creator": "benln",
+      "tools": [
+        "Gmail",
+        "Google Sheets"
+      ],
+      "url": "https://moneywithai.net/bots/contractor-quote-negotiator/",
+      "official_share_url": null
+    },
+    {
+      "bot": "dero",
+      "name": "Dero",
+      "role": "Coordinates bid preparation.",
+      "creator": "jorgesoffia",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/dero/",
+      "official_share_url": "https://x.ai/bot/OMpdsLwId7Du5PrjbX8L8"
+    }
+  ],
+  "tools": [
+    "Grok",
+    "Gmail",
+    "Google Sheets"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Public bid sites",
+        "tool": null
+      },
+      {
+        "label": "Sub quotes",
+        "tool": "Gmail"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "airfield-electrical-bid-scout",
+        "name": "Airfield Electrical Bid Scout",
+        "does": "Finds bids",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "grantogre",
+        "name": "GrantOgre",
+        "does": "Finds grants",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "contractor-quote-negotiator",
+        "name": "Contractor Quote Negotiator",
+        "does": "Compares quotes",
+        "tools": [
+          "Gmail",
+          "Google Sheets"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "dero",
+        "name": "Dero",
+        "does": "Prepares bids",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Submit bids",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Qualified bids",
+      "Compared quotes",
+      "Submitted bids"
+    ]
+  },
+  "steps": [
+    "Set your trade and region.",
+    "Review the weekly recap.",
+    "Collect sub quotes.",
+    "Prepare and submit yourself."
+  ],
+  "guardrails": [
+    "This is admin help, not legal, tax or financial advice.",
+    "The bots never pay, sign or accept terms for you."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 89,
+    "score": 76,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 3,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/trade-bid-desk/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/trade-bid-desk.json"
+}

@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "sales-orchestrator",
+  "name": "Sales Orchestrator",
+  "category": "Leads and Sales",
+  "sub_use_case": "Outbound prospecting",
+  "summary": "Routes each sales request in a group chat to the right specialist bot so your sales bots do not overlap.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "idleshubh",
+    "url": "https://x.com/idleshubh"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/idleshubh/status/2098352807858626561"
+  },
+  "official_share_url": "https://x.ai/bot/AMFF7LG8gxX1bLIH-_D3A",
+  "found_via": "https://grokbot101.org/bots/sales-orchestrator/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/sales-orchestrator/",
+  "json_url": "https://moneywithai.net/api/v1/bots/sales-orchestrator.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/saas-founder-gtm-week/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 35,
+    "score": 93,
+    "money": 40,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 3,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

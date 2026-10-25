@@ -1,0 +1,204 @@
+{
+  "type": "use-case",
+  "slug": "shopify-ops-roster",
+  "title": "Run a Shopify Store with an Ops Roster",
+  "category": "E-Commerce",
+  "category_slug": "e-commerce",
+  "money_model": "Save costs",
+  "difficulty": "Intermediate",
+  "summary": "Fulfillment, big-order alerts, WhatsApp support and pricing each have one bot; you handle exceptions.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes time saved and a few extra repeat orders.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Fewer hours on routine store work.",
+    "Big customers get noticed."
+  ],
+  "who_its_for": [
+    "Small Shopify store owners."
+  ],
+  "stack": [
+    {
+      "bot": "shopify-bot",
+      "name": "Shopify Bot",
+      "role": "Handles routine store tasks.",
+      "creator": "nick_nehaul",
+      "tools": [
+        "Shopify"
+      ],
+      "url": "https://moneywithai.net/bots/shopify-bot/",
+      "official_share_url": "https://x.ai/bot/jhd6Cb9XEPI6b-hs-WCQE"
+    },
+    {
+      "bot": "shopify-fulfillment-runner",
+      "name": "Shopify Fulfillment Runner",
+      "role": "Moves paid orders through fulfillment.",
+      "creator": "bangank36",
+      "tools": [
+        "n8n",
+        "Shopify"
+      ],
+      "url": "https://moneywithai.net/bots/shopify-fulfillment-runner/",
+      "official_share_url": null
+    },
+    {
+      "bot": "big-order-slack-alert",
+      "name": "Big Order Slack Alert",
+      "role": "Alerts Slack about big orders.",
+      "creator": "Yaron Been",
+      "tools": [
+        "n8n",
+        "OpenAI",
+        "Slack"
+      ],
+      "url": "https://moneywithai.net/bots/big-order-slack-alert/",
+      "official_share_url": null
+    },
+    {
+      "bot": "shopify-whatsapp-support-agent",
+      "name": "Shopify WhatsApp Support Agent",
+      "role": "Answers order questions on WhatsApp.",
+      "creator": "Ruthwik",
+      "tools": [
+        "n8n",
+        "OpenAI",
+        "OpenRouter",
+        "Slack",
+        "WhatsApp"
+      ],
+      "url": "https://moneywithai.net/bots/shopify-whatsapp-support-agent/",
+      "official_share_url": null
+    },
+    {
+      "bot": "product-price-writer",
+      "name": "Product Price Writer",
+      "role": "Suggests prices from costs.",
+      "creator": "LBallz77283",
+      "tools": [
+        "Google Sheets",
+        "Shopify"
+      ],
+      "url": "https://moneywithai.net/bots/product-price-writer/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Shopify",
+    "n8n",
+    "OpenAI",
+    "Slack",
+    "OpenRouter",
+    "WhatsApp",
+    "Google Sheets"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Store",
+        "tool": "Shopify"
+      },
+      {
+        "label": "Product costs",
+        "tool": "Google Sheets"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "shopify-bot",
+        "name": "Shopify Bot",
+        "does": "Handles store tasks",
+        "tools": [
+          "Shopify"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "shopify-fulfillment-runner",
+        "name": "Shopify Fulfillment Runner",
+        "does": "Fulfills orders",
+        "tools": [
+          "n8n",
+          "Shopify"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "big-order-slack-alert",
+        "name": "Big Order Slack Alert",
+        "does": "Flags big orders",
+        "tools": [
+          "n8n",
+          "OpenAI",
+          "Slack"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "shopify-whatsapp-support-agent",
+        "name": "Shopify WhatsApp Support Agent",
+        "does": "Answers WhatsApp questions",
+        "tools": [
+          "n8n",
+          "OpenAI",
+          "OpenRouter",
+          "Slack",
+          "WhatsApp"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "product-price-writer",
+        "name": "Product Price Writer",
+        "does": "Suggests prices",
+        "tools": [
+          "Google Sheets",
+          "Shopify"
+        ]
+      },
+      {
+        "order": 6,
+        "by": "you",
+        "name": "You",
+        "does": "Handle exceptions",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Fulfilled orders",
+      "VIP alerts",
+      "Answered customers"
+    ]
+  },
+  "steps": [
+    "Start with fulfillment and alerts.",
+    "Add WhatsApp support after a test week.",
+    "Review prices monthly.",
+    "Check exceptions daily."
+  ],
+  "guardrails": [
+    "A person stays reachable for anything the bot is unsure about.",
+    "The bots never pay, sign or accept terms for you.",
+    "Review a sample by hand before you trust a scheduled run."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 65,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/shopify-ops-roster/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/shopify-ops-roster.json"
+}

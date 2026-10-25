@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "mailchimp-monthly-blast",
+    "name": "Mailchimp Monthly Blast",
+    "category": "Content and Marketing",
+    "sub_use_case": "Newsletters and email",
+    "summary": "Drafts a monthly member email covering last month, this month, upcoming events and calls to action.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "_lovablecurves",
+      "url": "https://x.com/_lovablecurves"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/_lovablecurves/status/2101138021428965531"
+    },
+    "official_share_url": "https://x.ai/bot/lcGQv8_I7UvJEWs3833LR",
+    "found_via": "https://grokbot101.org/bots/mailchimp-bot/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/mailchimp-monthly-blast/",
+    "json_url": "https://moneywithai.net/api/bots/mailchimp-monthly-blast.json"
+  }
+}

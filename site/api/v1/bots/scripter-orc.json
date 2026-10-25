@@ -1,0 +1,42 @@
+{
+  "type": "bot",
+  "slug": "scripter-orc",
+  "name": "Scripter Orc",
+  "category": "Content and Marketing",
+  "sub_use_case": "YouTube operations",
+  "summary": "Writes YouTube scripts that follow your channel's process, audience and style, stored in Notion.",
+  "tools": [
+    "Notion"
+  ],
+  "creator": {
+    "handle": "orcdev",
+    "url": "https://botdirectory.ai/bots/scripter-orc/"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://botdirectory.ai/bots/scripter-orc/"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/scripter-orc/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/scripter-orc/",
+  "json_url": "https://moneywithai.net/api/v1/bots/scripter-orc.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/six-bot-content-calendar/",
+    "https://moneywithai.net/use-cases/faceless-youtube-channel/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 221,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

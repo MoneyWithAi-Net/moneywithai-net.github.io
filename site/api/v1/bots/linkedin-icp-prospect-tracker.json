@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "linkedin-icp-prospect-tracker",
+  "name": "LinkedIn ICP Prospect Tracker",
+  "category": "Leads and Sales",
+  "sub_use_case": "LinkedIn funnels",
+  "summary": "Searches Google for LinkedIn profiles that match your ideal customer and tracks them in a CSV.",
+  "tools": [
+    "Google Search"
+  ],
+  "creator": {
+    "handle": "kr0der",
+    "url": "https://x.com/kr0der"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/kr0der/status/2089458244934881567"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/linkedin-icp-prospect-tracker/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/linkedin-icp-prospect-tracker/",
+  "json_url": "https://moneywithai.net/api/v1/bots/linkedin-icp-prospect-tracker.json",
+  "use_cases": [],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 294,
+    "score": 36,
+    "money": 0,
+    "profile": 26,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

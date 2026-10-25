@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "mappy-talent-map",
+    "name": "Mappy (Talent Map)",
+    "category": "Research and Ops",
+    "sub_use_case": "Hiring",
+    "summary": "Builds a map of the people working at a target company, useful for recruiting and account planning.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "NickRoman",
+      "url": "https://x.com/NickRoman"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/NickRoman/status/2093426904950833178"
+    },
+    "official_share_url": "https://x.ai/bot/spIXb6rwPJq_iFlu1L-_l",
+    "found_via": "https://botdirectory.ai/bots/mappy-talent-map/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/mappy-talent-map/",
+    "json_url": "https://moneywithai.net/api/bots/mappy-talent-map.json"
+  }
+}

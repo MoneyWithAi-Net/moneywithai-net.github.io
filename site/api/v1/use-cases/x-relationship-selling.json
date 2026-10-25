@@ -1,0 +1,168 @@
+{
+  "type": "use-case",
+  "slug": "x-relationship-selling",
+  "title": "Sell Through Relationships You Build on X",
+  "category": "Leads and Sales",
+  "category_slug": "leads-and-sales",
+  "money_model": "Grow sales",
+  "difficulty": "Beginner",
+  "summary": "Find the right accounts, reply well, track relationships and vet the inbound that follows.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Assumes sales come from relationships over months, not days.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Relationships turn into referrals and inbound deals.",
+    "A CRM keeps you from forgetting warm contacts."
+  ],
+  "who_its_for": [
+    "Founders, consultants and creators selling on X."
+  ],
+  "stack": [
+    {
+      "bot": "x-reply-scout",
+      "name": "X Reply Scout",
+      "role": "Recommends accounts and posts to engage.",
+      "creator": "scientists_blog",
+      "tools": [
+        "X"
+      ],
+      "url": "https://moneywithai.net/bots/x-reply-scout/",
+      "official_share_url": "https://x.ai/bot/DRZ2jU1GFwV8HS2_9Y6MA"
+    },
+    {
+      "bot": "x-agent",
+      "name": "X Agent",
+      "role": "Drafts replies in your voice for approval.",
+      "creator": "MikkoUusitalo1",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/x-agent/",
+      "official_share_url": "https://x.ai/bot/7V6XbVZRZ04eHej3tJIAQ"
+    },
+    {
+      "bot": "personal-x-crm",
+      "name": "Personal X CRM",
+      "role": "Tracks relationships in Notion.",
+      "creator": "mattyp",
+      "tools": [
+        "X",
+        "Notion"
+      ],
+      "url": "https://moneywithai.net/bots/personal-x-crm/",
+      "official_share_url": null
+    },
+    {
+      "bot": "lead-vetting",
+      "name": "Lead Vetting",
+      "role": "Screens inbound requests.",
+      "creator": "anzevoje",
+      "tools": [
+        "Email",
+        "Slack"
+      ],
+      "url": "https://moneywithai.net/bots/lead-vetting/",
+      "official_share_url": "https://x.ai/bot/eEfAacXdtzHANV5hVhG6o"
+    }
+  ],
+  "tools": [
+    "X",
+    "Grok",
+    "Notion",
+    "Email",
+    "Slack"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Public posts",
+        "tool": "X"
+      },
+      {
+        "label": "Your ideal audience",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "x-reply-scout",
+        "name": "X Reply Scout",
+        "does": "Recommends accounts",
+        "tools": [
+          "X"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "x-agent",
+        "name": "X Agent",
+        "does": "Drafts replies",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "personal-x-crm",
+        "name": "Personal X CRM",
+        "does": "Tracks relationships",
+        "tools": [
+          "X",
+          "Notion"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "lead-vetting",
+        "name": "Lead Vetting",
+        "does": "Screens inbound",
+        "tools": [
+          "Email",
+          "Slack"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Post replies and follow up",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Warm relationships",
+      "Inbound requests"
+    ]
+  },
+  "steps": [
+    "Describe who you want to know.",
+    "Reply to a few posts daily.",
+    "Review the CRM weekly and follow up.",
+    "Screen inbound with lead vetting."
+  ],
+  "guardrails": [
+    "Nothing is posted publicly without your OK.",
+    "Keep daily sending caps low and follow each platform's rules on automation."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 120,
+    "score": 69,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/x-relationship-selling/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/x-relationship-selling.json"
+}

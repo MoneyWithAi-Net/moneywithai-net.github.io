@@ -1,0 +1,189 @@
+{
+  "type": "use-case",
+  "slug": "virtual-assistant-business",
+  "title": "Run a Virtual Assistant Business with Bot Backup",
+  "category": "Client Services",
+  "category_slug": "client-services",
+  "money_model": "Sell a service",
+  "difficulty": "Beginner",
+  "summary": "Handle client inboxes, calendars, meeting notes and follow-ups with bots doing the first pass.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes a monthly retainer per client.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Serve more clients per assistant.",
+    "Faster turnaround."
+  ],
+  "who_its_for": [
+    "Virtual assistants and small VA agencies."
+  ],
+  "stack": [
+    {
+      "bot": "harper-executive-assistant",
+      "name": "Harper Executive Assistant",
+      "role": "Triages inbox, invites and texts.",
+      "creator": "BotDirectoryAI",
+      "tools": [
+        "Email",
+        "SMS"
+      ],
+      "url": "https://moneywithai.net/bots/harper-executive-assistant/",
+      "official_share_url": "https://x.ai/bot/A6er8L662aOk-vYUrRY9_"
+    },
+    {
+      "bot": "inbox-triage-desk",
+      "name": "Inbox Triage Desk",
+      "role": "Sorts mail into lanes with drafts.",
+      "creator": "Cypher0x9",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/inbox-triage-desk/",
+      "official_share_url": "https://x.ai/bot/soRR-1IslCTX7U4YiBg3Y"
+    },
+    {
+      "bot": "meeting-notes-assistant",
+      "name": "Meeting Notes Assistant",
+      "role": "Writes notes and actions.",
+      "creator": "mvanhorn",
+      "tools": [
+        "Google Calendar",
+        "Google Docs"
+      ],
+      "url": "https://moneywithai.net/bots/meeting-notes-assistant/",
+      "official_share_url": null
+    },
+    {
+      "bot": "dispatch",
+      "name": "Dispatch",
+      "role": "Books calls people agreed to.",
+      "creator": "FilippoFonseca",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/dispatch/",
+      "official_share_url": "https://x.ai/bot/YkmZEZYBk-BqylyQbM3kq"
+    },
+    {
+      "bot": "invoice-hunter",
+      "name": "Invoice Hunter",
+      "role": "Chases your invoices.",
+      "creator": "scheemunai",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/invoice-hunter/",
+      "official_share_url": "https://x.ai/bot/-kO6HrXokJZANVwUOMZO9"
+    }
+  ],
+  "tools": [
+    "Email",
+    "SMS",
+    "Grok",
+    "Google Calendar",
+    "Google Docs"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Client inbox",
+        "tool": "Gmail"
+      },
+      {
+        "label": "Client calendar",
+        "tool": "Google Calendar"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "harper-executive-assistant",
+        "name": "Harper Executive Assistant",
+        "does": "Triages inbox",
+        "tools": [
+          "Email",
+          "SMS"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "inbox-triage-desk",
+        "name": "Inbox Triage Desk",
+        "does": "Sorts mail",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "meeting-notes-assistant",
+        "name": "Meeting Notes Assistant",
+        "does": "Writes notes",
+        "tools": [
+          "Google Calendar",
+          "Google Docs"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "dispatch",
+        "name": "Dispatch",
+        "does": "Books agreed calls",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "invoice-hunter",
+        "name": "Invoice Hunter",
+        "does": "Chases invoices",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 6,
+        "by": "you",
+        "name": "You",
+        "does": "Approve sends",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Clear inboxes",
+      "Notes and follow-ups"
+    ]
+  },
+  "steps": [
+    "Start with one client.",
+    "Agree what you may send.",
+    "Review drafts daily.",
+    "Bill monthly."
+  ],
+  "guardrails": [
+    "Connect only accounts you own and give the least access needed.",
+    "Every message and document stays a draft until you approve it.",
+    "Handle customer and candidate data under your local privacy rules."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 35,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/virtual-assistant-business/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/virtual-assistant-business.json"
+}

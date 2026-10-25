@@ -1,0 +1,166 @@
+{
+  "type": "use-case",
+  "slug": "reddit-to-revenue",
+  "title": "Sell Through Reddit by Being Genuinely Useful",
+  "category": "Leads and Sales",
+  "category_slug": "leads-and-sales",
+  "money_model": "Grow sales",
+  "difficulty": "Beginner",
+  "summary": "Find threads where you can help, learn customer language and catch buyer-intent posts early.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Assumes a product that Reddit users already ask about; growth is slow and steady.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Helpful answers in the right threads bring steady inbound.",
+    "Customer language improves your site copy."
+  ],
+  "who_its_for": [
+    "Indie founders and niche product sellers."
+  ],
+  "stack": [
+    {
+      "bot": "reddit-comment-finder",
+      "name": "Reddit Comment Finder",
+      "role": "Finds threads where a helpful comment fits.",
+      "creator": "kr0der",
+      "tools": [
+        "Reddit"
+      ],
+      "url": "https://moneywithai.net/bots/reddit-comment-finder/",
+      "official_share_url": null
+    },
+    {
+      "bot": "lurk-reddit-researcher",
+      "name": "Lurk (Reddit Researcher)",
+      "role": "Pulls pain points from your keywords.",
+      "creator": "tinkerersanky",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/lurk-reddit-researcher/",
+      "official_share_url": "https://x.ai/bot/12Gbp1lPVsfTVAHPXKd3B"
+    },
+    {
+      "bot": "buyer-intent-reply-queue",
+      "name": "Buyer Intent Reply Queue",
+      "role": "Queues buyer-intent posts with draft replies.",
+      "creator": "alexandr-belogubov",
+      "tools": [
+        "HotMention",
+        "Slack"
+      ],
+      "url": "https://moneywithai.net/bots/buyer-intent-reply-queue/",
+      "official_share_url": null
+    },
+    {
+      "bot": "customer-voice-ad-writer",
+      "name": "Customer-Voice Ad Writer",
+      "role": "Turns customer words into copy.",
+      "creator": "buildingadlicio",
+      "tools": [
+        "Reddit"
+      ],
+      "url": "https://moneywithai.net/bots/customer-voice-ad-writer/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Reddit",
+    "Grok",
+    "HotMention",
+    "Slack"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Public threads",
+        "tool": "Reddit"
+      },
+      {
+        "label": "Seed keywords",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "reddit-comment-finder",
+        "name": "Reddit Comment Finder",
+        "does": "Finds helpful threads",
+        "tools": [
+          "Reddit"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "lurk-reddit-researcher",
+        "name": "Lurk (Reddit Researcher)",
+        "does": "Pulls pain points",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "buyer-intent-reply-queue",
+        "name": "Buyer Intent Reply Queue",
+        "does": "Queues intent posts",
+        "tools": [
+          "HotMention",
+          "Slack"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "customer-voice-ad-writer",
+        "name": "Customer-Voice Ad Writer",
+        "does": "Writes copy from customer words",
+        "tools": [
+          "Reddit"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Write and post comments",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Helpful comments",
+      "Sharper copy",
+      "Inbound buyers"
+    ]
+  },
+  "steps": [
+    "Pick three subreddits where your buyers ask questions.",
+    "Answer a few threads a week by hand.",
+    "Use the pain points to rewrite your homepage.",
+    "Watch the intent queue daily."
+  ],
+  "guardrails": [
+    "Nothing is posted publicly without your OK.",
+    "Keep daily sending caps low and follow each platform's rules on automation."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 119,
+    "score": 69,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/reddit-to-revenue/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/reddit-to-revenue.json"
+}

@@ -1,0 +1,42 @@
+{
+  "type": "bot",
+  "slug": "youtube-outlier-finder",
+  "name": "YouTube Outlier Finder",
+  "category": "Content and Marketing",
+  "sub_use_case": "YouTube operations",
+  "summary": "Finds outlier videos performing far above their channel average in your niches.",
+  "tools": [
+    "YouTube"
+  ],
+  "creator": {
+    "handle": "petergyang",
+    "url": "https://x.com/petergyang"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/petergyang/status/2089401696946634801"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/youtube-outlier-finder/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/youtube-outlier-finder/",
+  "json_url": "https://moneywithai.net/api/v1/bots/youtube-outlier-finder.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/sell-editing-to-youtubers/",
+    "https://moneywithai.net/use-cases/faceless-youtube-channel/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 59,
+    "score": 92,
+    "money": 40,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

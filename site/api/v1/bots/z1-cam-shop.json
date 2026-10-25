@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "z1-cam-shop",
+  "name": "Z1 CAM Shop",
+  "category": "E-Commerce",
+  "sub_use_case": "Store operations",
+  "summary": "Plans CNC toolpaths, feeds, fixturing and setup sheets for a desktop CNC production shop.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "msmage",
+    "url": "https://x.com/msmage"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/msmage/status/2107254461324554713"
+  },
+  "official_share_url": "https://x.ai/bot/4TxZ2KVW5aM6bfOleofNb",
+  "found_via": "https://grokbot101.org/bots/z1-cam-shop/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/z1-cam-shop/",
+  "json_url": "https://moneywithai.net/api/v1/bots/z1-cam-shop.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/custom-maker-shop-ops/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 172,
+    "score": 83,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

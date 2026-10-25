@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "property-decision-os",
+  "name": "Property Decision OS",
+  "category": "Research and Ops",
+  "sub_use_case": "Real estate analysis",
+  "summary": "Walks a buyer or small landlord through a property decision from listing to close and tenant selection.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Amervim",
+    "url": "https://x.com/Amervim"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/Amervim/status/2105949142426288483"
+  },
+  "official_share_url": "https://x.ai/bot/PD7LPOk0HP53QxxWWEN8R",
+  "found_via": "https://grokbot101.org/bots/property-decision-os/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/property-decision-os/",
+  "json_url": "https://moneywithai.net/api/v1/bots/property-decision-os.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/short-term-rental-investing-desk/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 179,
+    "score": 80,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 3,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

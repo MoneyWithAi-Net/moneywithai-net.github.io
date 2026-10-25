@@ -25,7 +25,18 @@
   "url": "https://moneywithai.net/bots/dero/",
   "json_url": "https://moneywithai.net/api/v1/bots/dero.json",
   "use_cases": [
-    "https://moneywithai.net/use-cases/win-public-tenders/"
+    "https://moneywithai.net/use-cases/win-public-tenders/",
+    "https://moneywithai.net/use-cases/trade-bid-desk/"
   ],
-  "added_at": "2026-10-24T09:30:00.000Z"
+  "added_at": "2026-10-24T09:30:00.000Z",
+  "featured": {
+    "rank": 31,
+    "score": 93,
+    "money": 40,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 3,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
 }

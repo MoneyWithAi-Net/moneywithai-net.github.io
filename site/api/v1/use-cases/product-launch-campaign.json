@@ -1,0 +1,181 @@
+{
+  "type": "use-case",
+  "slug": "product-launch-campaign",
+  "title": "Turn Each Product Release into a Launch Campaign",
+  "category": "Content and Marketing",
+  "category_slug": "content-and-marketing",
+  "money_model": "Grow sales",
+  "difficulty": "Intermediate",
+  "summary": "Release notes become an email, a video walkthrough, carousels and scheduled posts.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes releases can win back or upsell existing users.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Customers learn what is new and come back.",
+    "Every release markets itself."
+  ],
+  "who_its_for": [
+    "SaaS teams and app makers."
+  ],
+  "stack": [
+    {
+      "bot": "release-to-social-campaign",
+      "name": "Release To Social Campaign",
+      "role": "Turns releases into social posts.",
+      "creator": "elie2222",
+      "tools": [
+        "GitHub",
+        "Postiz",
+        "Slack"
+      ],
+      "url": "https://moneywithai.net/bots/release-to-social-campaign/",
+      "official_share_url": null
+    },
+    {
+      "bot": "ship-note",
+      "name": "Ship Note",
+      "role": "Writes the changelog and email.",
+      "creator": "sol_wright7",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/ship-note/",
+      "official_share_url": "https://x.ai/bot/xMCiRCmOCYLeRzW8nS6EL"
+    },
+    {
+      "bot": "website-highlight-video-maker",
+      "name": "Website Highlight Video Maker",
+      "role": "Makes a narrated walkthrough.",
+      "creator": "DaroFrostad",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/website-highlight-video-maker/",
+      "official_share_url": "https://x.ai/bot/knt08ohuspBYhQ6ohXtKt"
+    },
+    {
+      "bot": "carousel-publisher",
+      "name": "Carousel Publisher",
+      "role": "Builds carousels and queues them.",
+      "creator": "postnitro",
+      "tools": [
+        "PostNitro",
+        "LinkedIn",
+        "Instagram",
+        "Threads",
+        "TikTok"
+      ],
+      "url": "https://moneywithai.net/bots/carousel-publisher/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "GitHub",
+    "Postiz",
+    "Slack",
+    "Grok",
+    "PostNitro",
+    "LinkedIn",
+    "Instagram",
+    "Threads",
+    "TikTok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Releases",
+        "tool": "GitHub"
+      },
+      {
+        "label": "Product pages",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "release-to-social-campaign",
+        "name": "Release To Social Campaign",
+        "does": "Drafts social posts",
+        "tools": [
+          "GitHub",
+          "Postiz",
+          "Slack"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "ship-note",
+        "name": "Ship Note",
+        "does": "Writes the email",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "website-highlight-video-maker",
+        "name": "Website Highlight Video Maker",
+        "does": "Makes a walkthrough",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "carousel-publisher",
+        "name": "Carousel Publisher",
+        "does": "Builds carousels",
+        "tools": [
+          "PostNitro",
+          "LinkedIn",
+          "Instagram",
+          "Threads",
+          "TikTok"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Approve launch assets",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Launch email",
+      "Walkthrough video",
+      "Social posts"
+    ]
+  },
+  "steps": [
+    "Tag which releases count.",
+    "Approve drafts in Slack.",
+    "Publish the walkthrough.",
+    "Send the email."
+  ],
+  "guardrails": [
+    "Nothing is posted publicly without your OK.",
+    "Check every number and claim before it goes public."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 78,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/product-launch-campaign/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/product-launch-campaign.json"
+}

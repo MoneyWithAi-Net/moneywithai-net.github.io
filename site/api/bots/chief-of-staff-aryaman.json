@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "chief-of-staff-aryaman",
+    "name": "Chief of Staff (Aryaman)",
+    "category": "Research and Ops",
+    "sub_use_case": "Planning and projects",
+    "summary": "A low-noise chief of staff across Slack, inbox and calendar that surfaces only decisions and drafts email without sending.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "aryamankhawow",
+      "url": "https://x.com/aryamankhawow"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/aryamankhawow/status/2093385343928033312"
+    },
+    "official_share_url": "https://x.ai/bot/XjQ-AZTMrGLmQOTeMu3LF",
+    "found_via": "https://botdirectory.ai/bots/chief-of-staff-aryaman/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/chief-of-staff-aryaman/",
+    "json_url": "https://moneywithai.net/api/bots/chief-of-staff-aryaman.json"
+  }
+}

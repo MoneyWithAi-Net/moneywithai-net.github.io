@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "commission-leak-auditor",
+    "name": "Commission Leak Auditor",
+    "category": "Finance",
+    "sub_use_case": "Revenue recovery",
+    "summary": "Audits an affiliate program for missing or wrong commissions, read-only unless you approve a change.",
+    "tools": [
+      "Refgrow"
+    ],
+    "creator": {
+      "handle": "alexandr-belogubov",
+      "url": "https://botdirectory.ai/bots/commission-leak-auditor/"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://botdirectory.ai/bots/commission-leak-auditor/"
+    },
+    "official_share_url": null,
+    "found_via": "https://botdirectory.ai/bots/commission-leak-auditor/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/commission-leak-auditor/",
+    "json_url": "https://moneywithai.net/api/bots/commission-leak-auditor.json"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "type": "bot",
+  "slug": "linkedin-post-approval-flow",
+  "name": "LinkedIn Post Approval Flow",
+  "category": "Content and Marketing",
+  "sub_use_case": "Brand social",
+  "summary": "Drafts LinkedIn posts from topics in Google Sheets and posts each one only after email approval.",
+  "tools": [
+    "n8n",
+    "Gmail",
+    "Google Sheets",
+    "LinkedIn",
+    "OpenAI"
+  ],
+  "creator": {
+    "handle": "Aryan Shinde",
+    "url": "https://n8n.io/creators/shindearyan/"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://n8n.io/workflows/4005/"
+  },
+  "official_share_url": null,
+  "found_via": "https://n8n.io/workflows/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/linkedin-post-approval-flow/",
+  "json_url": "https://moneywithai.net/api/v1/bots/linkedin-post-approval-flow.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/linkedin-content-to-pipeline/",
+    "https://moneywithai.net/use-cases/linkedin-thought-leadership-engine/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 203,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

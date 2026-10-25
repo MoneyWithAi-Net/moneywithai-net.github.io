@@ -29,5 +29,15 @@
     "https://moneywithai.net/use-cases/dtc-competitor-drop-watch/",
     "https://moneywithai.net/use-cases/local-competitor-intel/"
   ],
-  "added_at": "2026-10-24T08:00:00.000Z"
+  "added_at": "2026-10-24T08:00:00.000Z",
+  "featured": {
+    "rank": 94,
+    "score": 87,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
 }

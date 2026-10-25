@@ -1,0 +1,42 @@
+{
+  "type": "bot",
+  "slug": "x-assistant",
+  "name": "X assistant",
+  "category": "Content and Marketing",
+  "sub_use_case": "Analytics and monitoring",
+  "summary": "Watches your X mentions, topics and product names and sends a short weekday rundown.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "dragosroua",
+    "url": "https://x.com/dragosroua"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/dragosroua/status/2108930574274769191"
+  },
+  "official_share_url": "https://x.ai/bot/J7OPBxlsIUZB7IoXoB5wE",
+  "found_via": "https://grokbot101.org/bots/x-assistant/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/x-assistant/",
+  "json_url": "https://moneywithai.net/api/v1/bots/x-assistant.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/founder-x-growth-loop/",
+    "https://moneywithai.net/use-cases/brand-mention-watch-service/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 97,
+    "score": 87,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "type": "use-case",
+  "slug": "saas-spend-cleanup",
+  "title": "Cut SaaS and Subscription Waste",
+  "category": "Finance",
+  "category_slug": "finance",
+  "money_model": "Save costs",
+  "difficulty": "Beginner",
+  "summary": "Find every charge and renewal, flag what is unused, negotiate or cancel, and keep watching.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes some unused or overpriced subscriptions exist.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Immediate savings on forgotten tools.",
+    "No more surprise renewals."
+  ],
+  "who_its_for": [
+    "Founders and small teams."
+  ],
+  "stack": [
+    {
+      "bot": "watchdog-receipts",
+      "name": "Watchdog Receipts",
+      "role": "Lists charges and upcoming renewals.",
+      "creator": "Grok_Hub_IO",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/watchdog-receipts/",
+      "official_share_url": "https://x.ai/bot/PuAEE57P58Df5zskFY3pg"
+    },
+    {
+      "bot": "reaper",
+      "name": "Reaper",
+      "role": "Flags tools that no longer earn their keep.",
+      "creator": "liam_fallen",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/reaper/",
+      "official_share_url": "https://x.ai/bot/Gd-cqXG8xG_RPmKGixa73"
+    },
+    {
+      "bot": "haggle-bot",
+      "name": "Haggle Bot",
+      "role": "Drafts negotiation emails.",
+      "creator": "lennysan",
+      "tools": [
+        "Gmail",
+        "Google Sheets"
+      ],
+      "url": "https://moneywithai.net/bots/haggle-bot/",
+      "official_share_url": null
+    },
+    {
+      "bot": "contract-renewal-reminder",
+      "name": "Contract Renewal Reminder",
+      "role": "Reminds you before renewals.",
+      "creator": "Trung Tran",
+      "tools": [
+        "n8n",
+        "Google Sheets",
+        "OpenAI",
+        "Slack"
+      ],
+      "url": "https://moneywithai.net/bots/contract-renewal-reminder/",
+      "official_share_url": null
+    },
+    {
+      "bot": "saas-cfo-monitor",
+      "name": "SaaS CFO Monitor",
+      "role": "Watches SaaS spend.",
+      "creator": "jessethanley",
+      "tools": [
+        "Stripe",
+        "Xero",
+        "QuickBooks",
+        "Gmail"
+      ],
+      "url": "https://moneywithai.net/bots/saas-cfo-monitor/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Grok",
+    "Gmail",
+    "Google Sheets",
+    "n8n",
+    "OpenAI",
+    "Slack",
+    "Stripe",
+    "Xero",
+    "QuickBooks"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Email receipts",
+        "tool": "Gmail"
+      },
+      {
+        "label": "Card statements",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "watchdog-receipts",
+        "name": "Watchdog Receipts",
+        "does": "Lists charges",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "reaper",
+        "name": "Reaper",
+        "does": "Flags waste",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "haggle-bot",
+        "name": "Haggle Bot",
+        "does": "Drafts negotiations",
+        "tools": [
+          "Gmail",
+          "Google Sheets"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "contract-renewal-reminder",
+        "name": "Contract Renewal Reminder",
+        "does": "Reminds on renewals",
+        "tools": [
+          "n8n",
+          "Google Sheets",
+          "OpenAI",
+          "Slack"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "saas-cfo-monitor",
+        "name": "SaaS CFO Monitor",
+        "does": "Watches spend",
+        "tools": [
+          "Stripe",
+          "Xero",
+          "QuickBooks",
+          "Gmail"
+        ]
+      },
+      {
+        "order": 6,
+        "by": "you",
+        "name": "You",
+        "does": "Cancel and approve",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Charge list",
+      "Cancellations",
+      "Better prices"
+    ]
+  },
+  "steps": [
+    "Run a first scan.",
+    "Mark keep, cut or negotiate.",
+    "Send negotiation emails.",
+    "Let reminders run."
+  ],
+  "guardrails": [
+    "The bots never pay, sign or accept terms for you.",
+    "Connect only accounts you own and give the least access needed."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 25,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/saas-spend-cleanup/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/saas-spend-cleanup.json"
+}

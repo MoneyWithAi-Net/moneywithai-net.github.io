@@ -1,0 +1,45 @@
+{
+  "type": "bot",
+  "slug": "case-skeleton",
+  "name": "Case Skeleton",
+  "category": "Client Services",
+  "sub_use_case": "Client delivery",
+  "summary": "Builds the problem, solution and result outline of an automation case study for you to fill in.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "paulopierrondi",
+    "url": "https://x.com/paulopierrondi"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/paulopierrondi/status/2107045225399296230"
+  },
+  "official_share_url": "https://x.ai/bot/_7yFKwQCYR_mi_oVmKOEN",
+  "found_via": "https://grokbot101.org/bots/case-skeleton/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/case-skeleton/",
+  "json_url": "https://moneywithai.net/api/v1/bots/case-skeleton.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/freelance-gig-to-proposal/",
+    "https://moneywithai.net/use-cases/ai-search-visibility-retainer/",
+    "https://moneywithai.net/use-cases/ai-receptionist-agency/",
+    "https://moneywithai.net/use-cases/whatsapp-support-bot-service/",
+    "https://moneywithai.net/use-cases/automation-agency-discovery/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 1,
+    "score": 100,
+    "money": 40,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

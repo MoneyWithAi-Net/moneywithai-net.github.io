@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "mystery-eshopper",
+    "name": "Mystery eShopper",
+    "category": "E-Commerce",
+    "sub_use_case": "Store operations",
+    "summary": "Mystery-shops an online store end to end and returns an evidence-backed quality scorecard.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "VicGellon",
+      "url": "https://x.com/VicGellon"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/VicGellon/status/2104124777850081574"
+    },
+    "official_share_url": "https://x.ai/bot/tc-aGvnjjvatdp_8LK-Ad",
+    "found_via": "https://grokbot101.org/bots/mystery-eshopper/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/mystery-eshopper/",
+    "json_url": "https://moneywithai.net/api/bots/mystery-eshopper.json"
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "type": "use-case",
+  "slug": "churn-save-program",
+  "title": "Save Customers Before They Cancel",
+  "category": "Customer Support",
+  "category_slug": "customer-support",
+  "money_model": "Recover money",
+  "difficulty": "Beginner",
+  "summary": "Spot unhappy themes, answer quickly and run win-back emails for those who left.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes recurring revenue where saves add up.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Each saved customer keeps paying.",
+    "You learn why people leave."
+  ],
+  "who_its_for": [
+    "Subscription businesses."
+  ],
+  "stack": [
+    {
+      "bot": "feedback-theme-tally",
+      "name": "Feedback Theme Tally",
+      "role": "Codes cancel reasons into themes.",
+      "creator": "HJGameStudios",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/feedback-theme-tally/",
+      "official_share_url": "https://x.ai/bot/ETwbAVBi1bweFPvBqWC2E"
+    },
+    {
+      "bot": "support-reply-drafter",
+      "name": "Support Reply Drafter",
+      "role": "Drafts fast replies.",
+      "creator": "lennysan",
+      "tools": [
+        "Gmail"
+      ],
+      "url": "https://moneywithai.net/bots/support-reply-drafter/",
+      "official_share_url": null
+    },
+    {
+      "bot": "churn-win-back-loop",
+      "name": "Churn Win-Back Loop",
+      "role": "Runs win-back emails.",
+      "creator": "liam_fallen",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/churn-win-back-loop/",
+      "official_share_url": null
+    },
+    {
+      "bot": "mailchimp-monthly-blast",
+      "name": "Mailchimp Monthly Blast",
+      "role": "Sends a monthly member update.",
+      "creator": "_lovablecurves",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/mailchimp-monthly-blast/",
+      "official_share_url": "https://x.ai/bot/lcGQv8_I7UvJEWs3833LR"
+    }
+  ],
+  "tools": [
+    "Grok",
+    "Gmail"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Cancel reasons",
+        "tool": null
+      },
+      {
+        "label": "Customer list",
+        "tool": "Mailchimp"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "feedback-theme-tally",
+        "name": "Feedback Theme Tally",
+        "does": "Codes reasons",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "support-reply-drafter",
+        "name": "Support Reply Drafter",
+        "does": "Drafts replies",
+        "tools": [
+          "Gmail"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "churn-win-back-loop",
+        "name": "Churn Win-Back Loop",
+        "does": "Runs win-backs",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "mailchimp-monthly-blast",
+        "name": "Mailchimp Monthly Blast",
+        "does": "Sends updates",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Approve emails",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Saved customers",
+      "Win-backs"
+    ]
+  },
+  "steps": [
+    "Collect cancel reasons.",
+    "Fix one top reason.",
+    "Run win-backs monthly.",
+    "Keep members updated."
+  ],
+  "guardrails": [
+    "Every message and document stays a draft until you approve it.",
+    "Handle customer and candidate data under your local privacy rules."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 36,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/churn-save-program/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/churn-save-program.json"
+}

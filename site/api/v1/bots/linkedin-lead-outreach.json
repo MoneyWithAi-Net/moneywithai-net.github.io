@@ -26,7 +26,19 @@
   "url": "https://moneywithai.net/bots/linkedin-lead-outreach/",
   "json_url": "https://moneywithai.net/api/v1/bots/linkedin-lead-outreach.json",
   "use_cases": [
-    "https://moneywithai.net/use-cases/linkedin-lead-magnet-funnel/"
+    "https://moneywithai.net/use-cases/linkedin-lead-magnet-funnel/",
+    "https://moneywithai.net/use-cases/linkedin-content-to-pipeline/",
+    "https://moneywithai.net/use-cases/linkedin-thought-leadership-engine/"
   ],
-  "added_at": "2026-10-24T09:30:00.000Z"
+  "added_at": "2026-10-24T09:30:00.000Z",
+  "featured": {
+    "rank": 158,
+    "score": 83,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
 }

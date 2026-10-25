@@ -1,0 +1,172 @@
+{
+  "type": "use-case",
+  "slug": "quickbooks-migration-service",
+  "title": "Sell QuickBooks Desktop Migrations",
+  "category": "Finance",
+  "category_slug": "finance",
+  "money_model": "Sell a service",
+  "difficulty": "Advanced",
+  "summary": "Migrate a QuickBooks Desktop company, audit the result and set up a simple ongoing books system.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes fixed migration fees.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Fixed-price projects for businesses forced to move.",
+    "Audits prove the migration."
+  ],
+  "who_its_for": [
+    "Bookkeepers and accounting consultants."
+  ],
+  "stack": [
+    {
+      "bot": "slowbooks-cutover",
+      "name": "SlowBooks Cutover",
+      "role": "Moves the company file read-only.",
+      "creator": "jschnett",
+      "tools": [
+        "QuickBooks Desktop",
+        "Conductor",
+        "SlowBooksPro"
+      ],
+      "url": "https://moneywithai.net/bots/slowbooks-cutover/",
+      "official_share_url": "https://x.ai/bot/IpwtPuGwCQ-y24b4loSBh"
+    },
+    {
+      "bot": "bookkeeping-auditor",
+      "name": "Bookkeeping Auditor",
+      "role": "Audits balances after migration.",
+      "creator": "mrfundman",
+      "tools": [
+        "QuickBooks"
+      ],
+      "url": "https://moneywithai.net/bots/bookkeeping-auditor/",
+      "official_share_url": null
+    },
+    {
+      "bot": "business",
+      "name": "Business",
+      "role": "Runs books and customers on a SQL schema.",
+      "creator": "ArtJazd",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/business/",
+      "official_share_url": "https://x.ai/bot/90lHQMpkeUT1ZWIw6dxkB"
+    },
+    {
+      "bot": "financial-document-analyst",
+      "name": "Financial Document Analyst",
+      "role": "Rebuilds statements for checks.",
+      "creator": "BotDirectoryAI",
+      "tools": [
+        "Grok",
+        "Microsoft Excel"
+      ],
+      "url": "https://moneywithai.net/bots/financial-document-analyst/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "QuickBooks Desktop",
+    "Conductor",
+    "SlowBooksPro",
+    "QuickBooks",
+    "Grok",
+    "Microsoft Excel"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Company file",
+        "tool": "QuickBooks Desktop"
+      },
+      {
+        "label": "Bank records",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "slowbooks-cutover",
+        "name": "SlowBooks Cutover",
+        "does": "Migrates the file",
+        "tools": [
+          "QuickBooks Desktop",
+          "Conductor",
+          "SlowBooksPro"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "bookkeeping-auditor",
+        "name": "Bookkeeping Auditor",
+        "does": "Audits balances",
+        "tools": [
+          "QuickBooks"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "business",
+        "name": "Business",
+        "does": "Sets up books",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "financial-document-analyst",
+        "name": "Financial Document Analyst",
+        "does": "Checks statements",
+        "tools": [
+          "Grok",
+          "Microsoft Excel"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Approve cutover",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Migrated books",
+      "Audit report"
+    ]
+  },
+  "steps": [
+    "Back up the source file.",
+    "Run a test migration.",
+    "Audit balances with the client.",
+    "Cut over and train."
+  ],
+  "guardrails": [
+    "This is admin help, not legal, tax or financial advice.",
+    "Connect only accounts you own and give the least access needed.",
+    "Review a sample by hand before you trust a scheduled run."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 96,
+    "score": 76,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 3,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/quickbooks-migration-service/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/quickbooks-migration-service.json"
+}

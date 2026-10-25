@@ -1,0 +1,173 @@
+{
+  "type": "use-case",
+  "slug": "telegram-store-command-center",
+  "title": "Run Your Store from a Telegram Chat",
+  "category": "E-Commerce",
+  "category_slug": "e-commerce",
+  "money_model": "Save costs",
+  "difficulty": "Beginner",
+  "summary": "Check orders, get big-order alerts and coordinate store bots from one chat on your phone.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Assumes time saved rather than new revenue.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Less time in dashboards.",
+    "Fast answers on the go."
+  ],
+  "who_its_for": [
+    "Solo store owners."
+  ],
+  "stack": [
+    {
+      "bot": "telegram-shopify-order-check",
+      "name": "Telegram Shopify Order Check",
+      "role": "Answers order commands in Telegram.",
+      "creator": "Roninimous",
+      "tools": [
+        "n8n",
+        "Shopify",
+        "Telegram"
+      ],
+      "url": "https://moneywithai.net/bots/telegram-shopify-order-check/",
+      "official_share_url": null
+    },
+    {
+      "bot": "big-order-slack-alert",
+      "name": "Big Order Slack Alert",
+      "role": "Alerts on big orders.",
+      "creator": "Yaron Been",
+      "tools": [
+        "n8n",
+        "OpenAI",
+        "Slack"
+      ],
+      "url": "https://moneywithai.net/bots/big-order-slack-alert/",
+      "official_share_url": null
+    },
+    {
+      "bot": "store-manager",
+      "name": "Store Manager",
+      "role": "Coordinates store bots.",
+      "creator": "ColinMcDermott",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/store-manager/",
+      "official_share_url": "https://x.ai/bot/5axq0n6JtBkqjhMaCDO6d"
+    },
+    {
+      "bot": "shopify-bot",
+      "name": "Shopify Bot",
+      "role": "Handles routine tasks.",
+      "creator": "nick_nehaul",
+      "tools": [
+        "Shopify"
+      ],
+      "url": "https://moneywithai.net/bots/shopify-bot/",
+      "official_share_url": "https://x.ai/bot/jhd6Cb9XEPI6b-hs-WCQE"
+    }
+  ],
+  "tools": [
+    "n8n",
+    "Shopify",
+    "Telegram",
+    "OpenAI",
+    "Slack",
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Store",
+        "tool": "Shopify"
+      },
+      {
+        "label": "Chat",
+        "tool": "Telegram"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "telegram-shopify-order-check",
+        "name": "Telegram Shopify Order Check",
+        "does": "Answers order commands",
+        "tools": [
+          "n8n",
+          "Shopify",
+          "Telegram"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "big-order-slack-alert",
+        "name": "Big Order Slack Alert",
+        "does": "Alerts big orders",
+        "tools": [
+          "n8n",
+          "OpenAI",
+          "Slack"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "store-manager",
+        "name": "Store Manager",
+        "does": "Coordinates store bots",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "shopify-bot",
+        "name": "Shopify Bot",
+        "does": "Handles tasks",
+        "tools": [
+          "Shopify"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Act on exceptions",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Order answers",
+      "Daily summary"
+    ]
+  },
+  "steps": [
+    "Set up the Telegram bot.",
+    "Add alerts.",
+    "Let the manager summarize daily.",
+    "Act on exceptions."
+  ],
+  "guardrails": [
+    "Connect only accounts you own and give the least access needed.",
+    "The bots never pay, sign or accept terms for you."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 117,
+    "score": 69,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/telegram-store-command-center/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/telegram-store-command-center.json"
+}

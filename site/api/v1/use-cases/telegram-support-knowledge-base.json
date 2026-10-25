@@ -1,0 +1,176 @@
+{
+  "type": "use-case",
+  "slug": "telegram-support-knowledge-base",
+  "title": "Run Support from a Living Knowledge Base",
+  "category": "Customer Support",
+  "category_slug": "customer-support",
+  "money_model": "Save costs",
+  "difficulty": "Beginner",
+  "summary": "A Telegram bot answers from docs that stay current with releases and fixed tickets.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Assumes support time saved.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Answers stay accurate as the product changes.",
+    "Fewer repeat questions."
+  ],
+  "who_its_for": [
+    "Communities and small SaaS teams."
+  ],
+  "stack": [
+    {
+      "bot": "telegram-docs-support-bot",
+      "name": "Telegram Docs Support Bot",
+      "role": "Answers on Telegram from Google Docs.",
+      "creator": "Automate With Marc",
+      "tools": [
+        "n8n",
+        "OpenAI",
+        "Telegram"
+      ],
+      "url": "https://moneywithai.net/bots/telegram-docs-support-bot/",
+      "official_share_url": null
+    },
+    {
+      "bot": "help-center-updater",
+      "name": "Help Center Updater",
+      "role": "Updates help articles.",
+      "creator": "damonchen",
+      "tools": [
+        "Intercom",
+        "GitHub"
+      ],
+      "url": "https://moneywithai.net/bots/help-center-updater/",
+      "official_share_url": null
+    },
+    {
+      "bot": "tickets-to-changelog",
+      "name": "Tickets To Changelog",
+      "role": "Turns fixes into changelog entries.",
+      "creator": "ericzakariasson",
+      "tools": [
+        "Zendesk",
+        "Notion"
+      ],
+      "url": "https://moneywithai.net/bots/tickets-to-changelog/",
+      "official_share_url": null
+    },
+    {
+      "bot": "support-docs-sync",
+      "name": "Support Docs Sync",
+      "role": "Syncs docs with releases.",
+      "creator": "BotDirectoryAI",
+      "tools": [
+        "Intercom",
+        "GitHub"
+      ],
+      "url": "https://moneywithai.net/bots/support-docs-sync/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "n8n",
+    "OpenAI",
+    "Telegram",
+    "Intercom",
+    "GitHub",
+    "Zendesk",
+    "Notion"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Docs",
+        "tool": "Google Docs"
+      },
+      {
+        "label": "Releases",
+        "tool": "GitHub"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "telegram-docs-support-bot",
+        "name": "Telegram Docs Support Bot",
+        "does": "Answers questions",
+        "tools": [
+          "n8n",
+          "OpenAI",
+          "Telegram"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "help-center-updater",
+        "name": "Help Center Updater",
+        "does": "Updates articles",
+        "tools": [
+          "Intercom",
+          "GitHub"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "tickets-to-changelog",
+        "name": "Tickets To Changelog",
+        "does": "Writes changelog",
+        "tools": [
+          "Zendesk",
+          "Notion"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "support-docs-sync",
+        "name": "Support Docs Sync",
+        "does": "Syncs docs",
+        "tools": [
+          "Intercom",
+          "GitHub"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Review docs",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Answered questions",
+      "Current docs"
+    ]
+  },
+  "steps": [
+    "Move FAQs into one doc.",
+    "Launch the bot in your group.",
+    "Update docs weekly.",
+    "Post the changelog."
+  ],
+  "guardrails": [
+    "A person stays reachable for anything the bot is unsure about.",
+    "Check every number and claim before it goes public."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 116,
+    "score": 69,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/telegram-support-knowledge-base/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/telegram-support-knowledge-base.json"
+}

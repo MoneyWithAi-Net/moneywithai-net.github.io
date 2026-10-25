@@ -1,0 +1,197 @@
+{
+  "type": "use-case",
+  "slug": "ai-receptionist-agency",
+  "title": "Sell AI Receptionists to Local Businesses",
+  "category": "Client Services",
+  "category_slug": "client-services",
+  "money_model": "Sell a service",
+  "difficulty": "Intermediate",
+  "summary": "Set up voice and chat receptionists that book appointments, then charge a monthly fee.",
+  "money_potential": {
+    "tier": 3,
+    "symbol": "$$$",
+    "label": "High",
+    "basis": "Assumes a monthly fee per business.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Missed calls are lost revenue for local owners.",
+    "Monthly fees stack up."
+  ],
+  "who_its_for": [
+    "Automation freelancers."
+  ],
+  "stack": [
+    {
+      "bot": "voice-receptionist-call-booker",
+      "name": "Voice Receptionist Call Booker",
+      "role": "Voice receptionist that books into Calendar.",
+      "creator": "SuperAgent",
+      "tools": [
+        "n8n",
+        "Airtable",
+        "Google Calendar"
+      ],
+      "url": "https://moneywithai.net/bots/voice-receptionist-call-booker/",
+      "official_share_url": null
+    },
+    {
+      "bot": "voice-booking-line",
+      "name": "Voice Booking Line",
+      "role": "Voice booking into Cal.com.",
+      "creator": "InfyOm Technologies",
+      "tools": [
+        "n8n"
+      ],
+      "url": "https://moneywithai.net/bots/voice-booking-line/",
+      "official_share_url": null
+    },
+    {
+      "bot": "virtual-front-desk-booker",
+      "name": "Virtual Front Desk Booker",
+      "role": "Chat receptionist with a booking log.",
+      "creator": "Risper",
+      "tools": [
+        "n8n",
+        "Google Sheets",
+        "OpenAI"
+      ],
+      "url": "https://moneywithai.net/bots/virtual-front-desk-booker/",
+      "official_share_url": null
+    },
+    {
+      "bot": "phone-receptionist",
+      "name": "Phone Receptionist",
+      "role": "Grok Bot phone answering.",
+      "creator": "SimplyColeB",
+      "tools": [
+        "Google Calendar",
+        "Bland"
+      ],
+      "url": "https://moneywithai.net/bots/phone-receptionist/",
+      "official_share_url": "https://x.ai/bot/Z7LfRtBtwfaojaomMrAuX"
+    },
+    {
+      "bot": "case-skeleton",
+      "name": "Case Skeleton",
+      "role": "Outlines case studies.",
+      "creator": "paulopierrondi",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/case-skeleton/",
+      "official_share_url": "https://x.ai/bot/_7yFKwQCYR_mi_oVmKOEN"
+    }
+  ],
+  "tools": [
+    "n8n",
+    "Airtable",
+    "Google Calendar",
+    "Google Sheets",
+    "OpenAI",
+    "Bland",
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Client phone line",
+        "tool": null
+      },
+      {
+        "label": "Client calendar",
+        "tool": "Google Calendar"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "voice-receptionist-call-booker",
+        "name": "Voice Receptionist Call Booker",
+        "does": "Answers calls",
+        "tools": [
+          "n8n",
+          "Airtable",
+          "Google Calendar"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "voice-booking-line",
+        "name": "Voice Booking Line",
+        "does": "Books into Cal.com",
+        "tools": [
+          "n8n"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "virtual-front-desk-booker",
+        "name": "Virtual Front Desk Booker",
+        "does": "Answers chats",
+        "tools": [
+          "n8n",
+          "Google Sheets",
+          "OpenAI"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "phone-receptionist",
+        "name": "Phone Receptionist",
+        "does": "Answers the line",
+        "tools": [
+          "Google Calendar",
+          "Bland"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "case-skeleton",
+        "name": "Case Skeleton",
+        "does": "Outlines case studies",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 6,
+        "by": "you",
+        "name": "You",
+        "does": "Sell and support clients",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Booked appointments",
+      "Monthly clients"
+    ]
+  },
+  "steps": [
+    "Build one demo for a clinic or salon.",
+    "Offer a two-week trial.",
+    "Charge monthly after the trial.",
+    "Write a case study."
+  ],
+  "guardrails": [
+    "A person stays reachable for anything the bot is unsure about.",
+    "You need your own accounts for the connected tools; check their current plans first.",
+    "Check local rules on cold outreach, calls and texts before contacting anyone."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 8,
+    "score": 92,
+    "money": 40,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/ai-receptionist-agency/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/ai-receptionist-agency.json"
+}

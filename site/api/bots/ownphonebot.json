@@ -1,0 +1,31 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "ownphonebot",
+    "name": "OwnPhoneBot",
+    "category": "Customer Support",
+    "sub_use_case": "Phone answering",
+    "summary": "Gives your bot a real phone number through VoIP.ms and Asterisk so it can handle voice calls.",
+    "tools": [
+      "VoIP.ms",
+      "OpenAI",
+      "Grok"
+    ],
+    "creator": {
+      "handle": "claudia_cardume",
+      "url": "https://botdirectory.ai/bots/ownphonebot/"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://botdirectory.ai/bots/ownphonebot/"
+    },
+    "official_share_url": null,
+    "found_via": "https://botdirectory.ai/bots/ownphonebot/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/ownphonebot/",
+    "json_url": "https://moneywithai.net/api/bots/ownphonebot.json"
+  }
+}

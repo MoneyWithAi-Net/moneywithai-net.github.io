@@ -1,0 +1,43 @@
+{
+  "type": "bot",
+  "slug": "booking-pipeline-runner",
+  "name": "Booking Pipeline Runner",
+  "category": "Client Services",
+  "sub_use_case": "Client confirmations",
+  "summary": "Keeps HubSpot deals and Soundcheck gig records in step for live music bookers.",
+  "tools": [
+    "Soundcheck",
+    "HubSpot"
+  ],
+  "creator": {
+    "handle": "steventt07",
+    "url": "https://botdirectory.ai/bots/booking-pipeline-runner/"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://botdirectory.ai/bots/booking-pipeline-runner/"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/booking-pipeline-runner/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/booking-pipeline-runner/",
+  "json_url": "https://moneywithai.net/api/v1/bots/booking-pipeline-runner.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/event-production-desk/",
+    "https://moneywithai.net/use-cases/live-music-booking-agency/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 185,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

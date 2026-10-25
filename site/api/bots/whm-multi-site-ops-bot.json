@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "whm-multi-site-ops-bot",
+    "name": "WHM Multi-Site Ops Bot",
+    "category": "Client Services",
+    "sub_use_case": "Client delivery",
+    "summary": "Watches cPanel and WHM server health across client sites and drafts priority digests with proposed fixes.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "brainflollc",
+      "url": "https://x.com/brainflollc"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/brainflollc/status/2101525270503256265"
+    },
+    "official_share_url": "https://x.ai/bot/ARg7G2NtVZWu1TT05oS2w",
+    "found_via": "https://grokbot101.org/bots/whm-multi-site-ops/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/whm-multi-site-ops-bot/",
+    "json_url": "https://moneywithai.net/api/bots/whm-multi-site-ops-bot.json"
+  }
+}

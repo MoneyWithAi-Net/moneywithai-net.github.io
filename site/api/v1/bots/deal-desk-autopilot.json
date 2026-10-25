@@ -1,0 +1,47 @@
+{
+  "type": "bot",
+  "slug": "deal-desk-autopilot",
+  "name": "Deal Desk Autopilot",
+  "category": "Leads and Sales",
+  "sub_use_case": "Sales-call support",
+  "summary": "Reviews every open deal, spots stalled steps and drafts the next follow-up.",
+  "tools": [
+    "Gmail",
+    "Google Calendar"
+  ],
+  "creator": {
+    "handle": "ericosiu",
+    "url": "https://botdirectory.ai/bots/deal-desk-autopilot/"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://botdirectory.ai/bots/deal-desk-autopilot/"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/deal-desk-autopilot/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/deal-desk-autopilot/",
+  "json_url": "https://moneywithai.net/api/v1/bots/deal-desk-autopilot.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/lookalike-accounts-to-pipeline/",
+    "https://moneywithai.net/use-cases/podcast-hook-account-selling/",
+    "https://moneywithai.net/use-cases/field-sales-territory-system/",
+    "https://moneywithai.net/use-cases/security-review-deal-acceleration/",
+    "https://moneywithai.net/use-cases/saas-founder-gtm-week/",
+    "https://moneywithai.net/use-cases/agency-proposal-to-payment/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 14,
+    "score": 96,
+    "money": 40,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "type": "use-case",
+  "slug": "pitch-ad-management-to-active-advertisers",
+  "title": "Sell Ad Management to Businesses Already Running Ads",
+  "category": "Leads and Sales",
+  "category_slug": "leads-and-sales",
+  "money_model": "Sell a service",
+  "difficulty": "Intermediate",
+  "summary": "Target companies that already spend on ads, show them better angles from their own customers and pitch a managed retainer.",
+  "money_potential": {
+    "tier": 3,
+    "symbol": "$$$",
+    "label": "High",
+    "basis": "Assumes a monthly management fee per client, so each signed account repeats.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Active advertisers already have a budget, so the pitch is about results, not convincing.",
+    "Sample angles make the pitch concrete."
+  ],
+  "who_its_for": [
+    "Freelance media buyers and small performance agencies."
+  ],
+  "stack": [
+    {
+      "bot": "ad-active-lead-finder",
+      "name": "Ad-Active Lead Finder",
+      "role": "Finds companies running ads in your niche.",
+      "creator": "aferrari",
+      "tools": [
+        "Meta Ad Library",
+        "Google Ads Transparency",
+        "Google Maps",
+        "GoHighLevel",
+        "HubSpot"
+      ],
+      "url": "https://moneywithai.net/bots/ad-active-lead-finder/",
+      "official_share_url": "https://x.ai/bot/nHDuTEJd3mC91rtLLPN0p"
+    },
+    {
+      "bot": "site-audit",
+      "name": "Site Audit",
+      "role": "Scores each landing page and lists fixes.",
+      "creator": "scheemunai",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/site-audit/",
+      "official_share_url": "https://x.ai/bot/s6JVFYDIDMsCQMBeTcznW"
+    },
+    {
+      "bot": "customer-voice-ad-writer",
+      "name": "Customer-Voice Ad Writer",
+      "role": "Writes sample ad copy from real customer words.",
+      "creator": "buildingadlicio",
+      "tools": [
+        "Reddit"
+      ],
+      "url": "https://moneywithai.net/bots/customer-voice-ad-writer/",
+      "official_share_url": null
+    },
+    {
+      "bot": "prospect-meeting-booker",
+      "name": "Prospect Meeting Booker",
+      "role": "Drafts a meeting request to the decision-maker.",
+      "creator": "benln",
+      "tools": [
+        "Gmail",
+        "Google Calendar"
+      ],
+      "url": "https://moneywithai.net/bots/prospect-meeting-booker/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Meta Ad Library",
+    "Google Ads Transparency",
+    "Google Maps",
+    "GoHighLevel",
+    "HubSpot",
+    "Grok",
+    "Reddit",
+    "Gmail",
+    "Google Calendar"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Public ad libraries",
+        "tool": "Meta Ad Library"
+      },
+      {
+        "label": "A target niche",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "ad-active-lead-finder",
+        "name": "Ad-Active Lead Finder",
+        "does": "Finds active advertisers",
+        "tools": [
+          "Meta Ad Library",
+          "Google Ads Transparency",
+          "Google Maps",
+          "GoHighLevel",
+          "HubSpot"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "site-audit",
+        "name": "Site Audit",
+        "does": "Scores landing pages",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "customer-voice-ad-writer",
+        "name": "Customer-Voice Ad Writer",
+        "does": "Writes sample ad copy",
+        "tools": [
+          "Reddit"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "prospect-meeting-booker",
+        "name": "Prospect Meeting Booker",
+        "does": "Drafts meeting requests",
+        "tools": [
+          "Gmail",
+          "Google Calendar"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Send pitches and run calls",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Pitch packs with sample ads",
+      "Retainer clients"
+    ]
+  },
+  "steps": [
+    "Choose a niche where you have results.",
+    "Run the lead finder and audit the top landing pages.",
+    "Build a one-page pitch with three sample angles.",
+    "Send it yourself and book calls."
+  ],
+  "guardrails": [
+    "Every message and document stays a draft until you approve it.",
+    "Check local rules on cold outreach, calls and texts before contacting anyone."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 7,
+    "score": 92,
+    "money": 40,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/pitch-ad-management-to-active-advertisers/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/pitch-ad-management-to-active-advertisers.json"
+}

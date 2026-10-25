@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "grant-general-manager",
+  "name": "Grant (General Manager)",
+  "category": "Research and Ops",
+  "sub_use_case": "Construction office",
+  "summary": "Oversees a team of agents running dispatch and back-office work for a construction company.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "HouseHackerJon",
+    "url": "https://x.com/HouseHackerJon"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/HouseHackerJon/status/2093435306255220830"
+  },
+  "official_share_url": "https://x.ai/bot/fkM4b8n4RqZTbrq5fw5L_",
+  "found_via": "https://botdirectory.ai/bots/grant-general-manager/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/grant-general-manager/",
+  "json_url": "https://moneywithai.net/api/v1/bots/grant-general-manager.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/construction-field-office/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 155,
+    "score": 83,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

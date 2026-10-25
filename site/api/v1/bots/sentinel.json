@@ -26,7 +26,18 @@
   "json_url": "https://moneywithai.net/api/v1/bots/sentinel.json",
   "use_cases": [
     "https://moneywithai.net/use-cases/brand-instagram-studio/",
-    "https://moneywithai.net/use-cases/practice-marketing-team/"
+    "https://moneywithai.net/use-cases/practice-marketing-team/",
+    "https://moneywithai.net/use-cases/compliant-content-for-regulated-firms/"
   ],
-  "added_at": "2026-10-24T09:30:00.000Z"
+  "added_at": "2026-10-24T09:30:00.000Z",
+  "featured": {
+    "rank": 25,
+    "score": 96,
+    "money": 40,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
 }

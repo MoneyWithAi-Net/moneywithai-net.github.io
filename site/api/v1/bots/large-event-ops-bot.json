@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "large-event-ops-bot",
+  "name": "Large Event Ops Bot",
+  "category": "Client Services",
+  "sub_use_case": "Client confirmations",
+  "summary": "Runs big fundraisers and award nights: partner inbox, commitments, day-of sheets and deadline reminders.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "_lovablecurves",
+    "url": "https://x.com/_lovablecurves"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/_lovablecurves/status/2101142291289079859"
+  },
+  "official_share_url": "https://x.ai/bot/93Z51EAVqzp-YOvbHFjN3",
+  "found_via": "https://grokbot101.org/bots/large-event-ops/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/large-event-ops-bot/",
+  "json_url": "https://moneywithai.net/api/v1/bots/large-event-ops-bot.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/event-production-desk/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 176,
+    "score": 80,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 3,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

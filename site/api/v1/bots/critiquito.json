@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "critiquito",
+  "name": "Critiquito",
+  "category": "E-Commerce",
+  "sub_use_case": "Store operations",
+  "summary": "Critiques interface screenshots from a customer's point of view and picks the single highest-impact fix.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Manuel",
+    "url": "https://botdirectory.ai/bots/critiquito/"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/rt9m-FTkJoGsZzAjsKLPM"
+  },
+  "official_share_url": "https://x.ai/bot/rt9m-FTkJoGsZzAjsKLPM",
+  "found_via": "https://botdirectory.ai/bots/critiquito/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/critiquito/",
+  "json_url": "https://moneywithai.net/api/v1/bots/critiquito.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/store-conversion-audit-service/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 151,
+    "score": 83,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

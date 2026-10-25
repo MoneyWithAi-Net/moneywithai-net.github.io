@@ -1,0 +1,44 @@
+{
+  "type": "bot",
+  "slug": "maps-lead-list-builder",
+  "name": "Maps Lead List Builder",
+  "category": "Leads and Sales",
+  "sub_use_case": "Local SEO prospect lists",
+  "summary": "Pulls local businesses from Google Maps for a niche and city, then cleans and stores them in Google Sheets.",
+  "tools": [
+    "n8n",
+    "Google Sheets",
+    "OpenAI",
+    "SerpApi"
+  ],
+  "creator": {
+    "handle": "Dr. Firas",
+    "url": "https://n8n.io/creators/drfiras/"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://n8n.io/workflows/3443/"
+  },
+  "official_share_url": null,
+  "found_via": "https://n8n.io/workflows/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/maps-lead-list-builder/",
+  "json_url": "https://moneywithai.net/api/v1/bots/maps-lead-list-builder.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/maps-leads-to-booked-calls/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 45,
+    "score": 92,
+    "money": 40,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

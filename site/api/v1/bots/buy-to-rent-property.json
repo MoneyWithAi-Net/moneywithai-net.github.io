@@ -1,0 +1,43 @@
+{
+  "type": "bot",
+  "slug": "buy-to-rent-property",
+  "name": "Buy to Rent Property",
+  "category": "Research and Ops",
+  "sub_use_case": "Real estate analysis",
+  "summary": "Underwrites a short-term rental purchase from a listing using Zillow and rental market data.",
+  "tools": [
+    "Zillapi",
+    "StayingAPI"
+  ],
+  "creator": {
+    "handle": "scheemunai",
+    "url": "https://botdirectory.ai/bots/buy-to-rent-property/"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://botdirectory.ai/bots/buy-to-rent-property/"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/buy-to-rent-property/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/buy-to-rent-property/",
+  "json_url": "https://moneywithai.net/api/v1/bots/buy-to-rent-property.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/motivated-seller-pipeline/",
+    "https://moneywithai.net/use-cases/short-term-rental-investing-desk/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 62,
+    "score": 89,
+    "money": 40,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 3,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

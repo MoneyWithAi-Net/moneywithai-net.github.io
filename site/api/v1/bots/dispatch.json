@@ -1,0 +1,43 @@
+{
+  "type": "bot",
+  "slug": "dispatch",
+  "name": "Dispatch",
+  "category": "Client Services",
+  "sub_use_case": "Meetings and follow-up",
+  "summary": "Scans email, Slack, LinkedIn and X DMs nightly and books calls that people agreed to but never got an invite for.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "FilippoFonseca",
+    "url": "https://x.com/FilippoFonseca"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/FilippoFonseca/status/2093402774704914915"
+  },
+  "official_share_url": "https://x.ai/bot/YkmZEZYBk-BqylyQbM3kq",
+  "found_via": "https://botdirectory.ai/bots/dispatch/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/dispatch/",
+  "json_url": "https://moneywithai.net/api/v1/bots/dispatch.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/virtual-assistant-business/",
+    "https://moneywithai.net/use-cases/consulting-meeting-system/",
+    "https://moneywithai.net/use-cases/agency-inbox-to-projects/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 78,
+    "score": 87,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

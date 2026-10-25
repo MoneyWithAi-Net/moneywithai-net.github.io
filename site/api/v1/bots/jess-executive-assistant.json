@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "jess-executive-assistant",
+  "name": "Jess (Executive Assistant)",
+  "category": "Research and Ops",
+  "sub_use_case": "Planning and projects",
+  "summary": "Recaps email, calendar, Notion and Slack on weekdays and answers staff questions from a written playbook.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "LoganARobison",
+    "url": "https://x.com/LoganARobison"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/LoganARobison/status/2093380304891167113"
+  },
+  "official_share_url": "https://x.ai/bot/Nmv2fCQEcQc3EHzVXJZKN",
+  "found_via": "https://botdirectory.ai/bots/jess-executive-assistant/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/jess-executive-assistant/",
+  "json_url": "https://moneywithai.net/api/v1/bots/jess-executive-assistant.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/ceo-morning-ops/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 249,
+    "score": 73,
+    "money": 13,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

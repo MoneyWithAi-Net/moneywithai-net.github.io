@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "index-seo-aeo-teammate",
+    "name": "Index (SEO/AEO Teammate)",
+    "category": "Content and Marketing",
+    "sub_use_case": "SEO and AI search",
+    "summary": "An SEO and answer-engine teammate that reads your connected tools, recommends a stack and runs the program.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "adamta",
+      "url": "https://x.com/adamta"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/adamta/status/2093387269356785800"
+    },
+    "official_share_url": "https://x.ai/bot/Viv2NbC5skPslV1WH9Fs7",
+    "found_via": "https://botdirectory.ai/bots/index-seo-aeo-teammate/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/index-seo-aeo-teammate/",
+    "json_url": "https://moneywithai.net/api/bots/index-seo-aeo-teammate.json"
+  }
+}

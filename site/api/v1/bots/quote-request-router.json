@@ -1,0 +1,45 @@
+{
+  "type": "bot",
+  "slug": "quote-request-router",
+  "name": "Quote Request Router",
+  "category": "Client Services",
+  "sub_use_case": "Quotes",
+  "summary": "Routes quote requests from a Tally form into Airtable, alerts Slack and emails the client.",
+  "tools": [
+    "n8n",
+    "Airtable",
+    "Gmail",
+    "Slack"
+  ],
+  "creator": {
+    "handle": "Baptiste Fort",
+    "url": "https://n8n.io/creators/baptistefort/"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://n8n.io/workflows/5458/"
+  },
+  "official_share_url": null,
+  "found_via": "https://n8n.io/workflows/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/quote-request-router/",
+  "json_url": "https://moneywithai.net/api/v1/bots/quote-request-router.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/custom-maker-shop-ops/",
+    "https://moneywithai.net/use-cases/agency-proposal-to-payment/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 125,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

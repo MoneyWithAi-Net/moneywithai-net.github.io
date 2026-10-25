@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "last30days",
+    "name": "last30days",
+    "category": "Research and Ops",
+    "sub_use_case": "Market notes",
+    "summary": "Researches what people actually said about any topic over the last 30 days across social and the web.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "mvanhorn",
+      "url": "https://x.com/mvanhorn"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/mvanhorn/status/2093466618718245198"
+    },
+    "official_share_url": "https://x.ai/bot/ANv3NrqPfRcS9PdXku7h8",
+    "found_via": "https://botdirectory.ai/bots/last30days/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/last30days/",
+    "json_url": "https://moneywithai.net/api/bots/last30days.json"
+  }
+}

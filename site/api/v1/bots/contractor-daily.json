@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "contractor-daily",
+  "name": "Contractor Daily",
+  "category": "Research and Ops",
+  "sub_use_case": "Construction office",
+  "summary": "Collects a small contractor's jobsite notes into one clean daily business packet.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Openminded187A",
+    "url": "https://x.com/Openminded187A"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/Openminded187A/status/2105229850894295414"
+  },
+  "official_share_url": "https://x.ai/bot/ZNhFnMcPTQQDn3uLXbffi",
+  "found_via": "https://grokbot101.org/bots/contractor-daily/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/contractor-daily/",
+  "json_url": "https://moneywithai.net/api/v1/bots/contractor-daily.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/construction-field-office/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 149,
+    "score": 83,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

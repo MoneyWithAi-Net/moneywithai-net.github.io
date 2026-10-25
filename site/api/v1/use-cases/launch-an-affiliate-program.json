@@ -1,0 +1,166 @@
+{
+  "type": "use-case",
+  "slug": "launch-an-affiliate-program",
+  "title": "Launch and Run an Affiliate Program",
+  "category": "Content and Marketing",
+  "category_slug": "content-and-marketing",
+  "money_model": "Grow sales",
+  "difficulty": "Intermediate",
+  "summary": "Recruit affiliates and creators, run the program and catch missing commissions before partners complain.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes partners drive sales you pay for only when they happen.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Partners sell for you on commission only.",
+    "Accurate payouts keep good partners."
+  ],
+  "who_its_for": [
+    "SaaS and e-commerce brands."
+  ],
+  "stack": [
+    {
+      "bot": "affiliate-recruiter",
+      "name": "Affiliate Recruiter",
+      "role": "Finds and qualifies affiliates.",
+      "creator": "zilvestro",
+      "tools": [
+        "Grok",
+        "Affonso"
+      ],
+      "url": "https://moneywithai.net/bots/affiliate-recruiter/",
+      "official_share_url": "https://x.ai/bot/TaCAhCtPGCvObAaK7ZDQQ"
+    },
+    {
+      "bot": "creator-shortlist-crew",
+      "name": "Creator Shortlist Crew",
+      "role": "Builds a creator shortlist.",
+      "creator": "Treg team",
+      "tools": [
+        "Treg"
+      ],
+      "url": "https://moneywithai.net/bots/creator-shortlist-crew/",
+      "official_share_url": "https://x.ai/bot/6IU2bm7uuSPk6ETC-gC4D"
+    },
+    {
+      "bot": "affiliate-program-manager",
+      "name": "Affiliate Program Manager",
+      "role": "Runs the program day to day.",
+      "creator": "affonso-io",
+      "tools": [
+        "Affonso"
+      ],
+      "url": "https://moneywithai.net/bots/affiliate-program-manager/",
+      "official_share_url": null
+    },
+    {
+      "bot": "commission-leak-auditor",
+      "name": "Commission Leak Auditor",
+      "role": "Audits for missing commissions.",
+      "creator": "alexandr-belogubov",
+      "tools": [
+        "Refgrow"
+      ],
+      "url": "https://moneywithai.net/bots/commission-leak-auditor/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Grok",
+    "Affonso",
+    "Treg",
+    "Refgrow"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Affiliate platform",
+        "tool": "Affonso"
+      },
+      {
+        "label": "Commission terms",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "affiliate-recruiter",
+        "name": "Affiliate Recruiter",
+        "does": "Finds affiliates",
+        "tools": [
+          "Grok",
+          "Affonso"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "creator-shortlist-crew",
+        "name": "Creator Shortlist Crew",
+        "does": "Builds creator list",
+        "tools": [
+          "Treg"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "affiliate-program-manager",
+        "name": "Affiliate Program Manager",
+        "does": "Runs the program",
+        "tools": [
+          "Affonso"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "commission-leak-auditor",
+        "name": "Commission Leak Auditor",
+        "does": "Audits commissions",
+        "tools": [
+          "Refgrow"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Approve partners and payouts",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Active partners",
+      "Clean payouts"
+    ]
+  },
+  "steps": [
+    "Set commission terms.",
+    "Recruit ten partners.",
+    "Review weekly reports.",
+    "Audit commissions monthly."
+  ],
+  "guardrails": [
+    "The bots never pay, sign or accept terms for you.",
+    "You need your own accounts for the connected tools; check their current plans first.",
+    "Check local rules on cold outreach, calls and texts before contacting anyone."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 52,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/launch-an-affiliate-program/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/launch-an-affiliate-program.json"
+}

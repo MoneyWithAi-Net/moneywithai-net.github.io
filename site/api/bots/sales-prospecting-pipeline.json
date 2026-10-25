@@ -1,0 +1,31 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "sales-prospecting-pipeline",
+    "name": "Sales Prospecting Pipeline",
+    "category": "Leads and Sales",
+    "sub_use_case": "Outbound prospecting",
+    "summary": "Builds a prospect pipeline for a market you name, logs it in HubSpot and drafts Gmail and LinkedIn outreach.",
+    "tools": [
+      "HubSpot",
+      "Gmail",
+      "LinkedIn"
+    ],
+    "creator": {
+      "handle": "BotDirectoryAI",
+      "url": "https://x.com/BotDirectoryAI"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/BotDirectoryAI/status/2095783224907563296"
+    },
+    "official_share_url": null,
+    "found_via": "https://botdirectory.ai/bots/sales-prospecting-pipeline/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/sales-prospecting-pipeline/",
+    "json_url": "https://moneywithai.net/api/bots/sales-prospecting-pipeline.json"
+  }
+}

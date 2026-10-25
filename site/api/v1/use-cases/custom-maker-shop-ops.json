@@ -1,0 +1,192 @@
+{
+  "type": "use-case",
+  "slug": "custom-maker-shop-ops",
+  "title": "Run a Custom Laser or CNC Shop with Bots",
+  "category": "E-Commerce",
+  "category_slug": "e-commerce",
+  "money_model": "Save costs",
+  "difficulty": "Intermediate",
+  "summary": "Coordinate artwork and machine work, process quote requests, sell online and get paid.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes custom jobs with healthy margins.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Quotes go out the same day.",
+    "Less time on admin, more on making."
+  ],
+  "who_its_for": [
+    "Laser engraving, CNC and small maker shops."
+  ],
+  "stack": [
+    {
+      "bot": "mr-laser",
+      "name": "Mr. Laser",
+      "role": "Coordinates artwork and machine work.",
+      "creator": "RichSilver",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/mr-laser/",
+      "official_share_url": "https://x.ai/bot/GU4KJSYtPZeiLf8ubPMXY"
+    },
+    {
+      "bot": "z1-cam-shop",
+      "name": "Z1 CAM Shop",
+      "role": "Plans CNC toolpaths and setups.",
+      "creator": "msmage",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/z1-cam-shop/",
+      "official_share_url": "https://x.ai/bot/4TxZ2KVW5aM6bfOleofNb"
+    },
+    {
+      "bot": "quote-request-router",
+      "name": "Quote Request Router",
+      "role": "Routes quote requests to Airtable and Slack.",
+      "creator": "Baptiste Fort",
+      "tools": [
+        "n8n",
+        "Airtable",
+        "Gmail",
+        "Slack"
+      ],
+      "url": "https://moneywithai.net/bots/quote-request-router/",
+      "official_share_url": null
+    },
+    {
+      "bot": "shopify-bot",
+      "name": "Shopify Bot",
+      "role": "Handles store tasks.",
+      "creator": "nick_nehaul",
+      "tools": [
+        "Shopify"
+      ],
+      "url": "https://moneywithai.net/bots/shopify-bot/",
+      "official_share_url": "https://x.ai/bot/jhd6Cb9XEPI6b-hs-WCQE"
+    },
+    {
+      "bot": "invoice-hunter",
+      "name": "Invoice Hunter",
+      "role": "Chases unpaid invoices.",
+      "creator": "scheemunai",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/invoice-hunter/",
+      "official_share_url": "https://x.ai/bot/-kO6HrXokJZANVwUOMZO9"
+    }
+  ],
+  "tools": [
+    "Grok",
+    "n8n",
+    "Airtable",
+    "Gmail",
+    "Slack",
+    "Shopify"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Quote form",
+        "tool": "Tally"
+      },
+      {
+        "label": "Store",
+        "tool": "Shopify"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "mr-laser",
+        "name": "Mr. Laser",
+        "does": "Coordinates jobs",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "z1-cam-shop",
+        "name": "Z1 CAM Shop",
+        "does": "Plans CNC setups",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "quote-request-router",
+        "name": "Quote Request Router",
+        "does": "Routes quote requests",
+        "tools": [
+          "n8n",
+          "Airtable",
+          "Gmail",
+          "Slack"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "shopify-bot",
+        "name": "Shopify Bot",
+        "does": "Handles the store",
+        "tools": [
+          "Shopify"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "invoice-hunter",
+        "name": "Invoice Hunter",
+        "does": "Chases invoices",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 6,
+        "by": "you",
+        "name": "You",
+        "does": "Approve quotes and make",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Fast quotes",
+      "Planned jobs",
+      "Paid invoices"
+    ]
+  },
+  "steps": [
+    "Set up the quote form.",
+    "Approve each quote.",
+    "Plan jobs with the shop bots.",
+    "Invoice on delivery."
+  ],
+  "guardrails": [
+    "The bots never pay, sign or accept terms for you.",
+    "Review a sample by hand before you trust a scheduled run."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 61,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/custom-maker-shop-ops/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/custom-maker-shop-ops.json"
+}

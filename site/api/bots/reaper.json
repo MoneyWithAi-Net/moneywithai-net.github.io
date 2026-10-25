@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "reaper",
+    "name": "Reaper",
+    "category": "Finance",
+    "sub_use_case": "SaaS spend",
+    "summary": "Finds recurring tools, processes and obligations that no longer earn their keep so you can cut them.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "liam_fallen",
+      "url": "https://x.com/liam_fallen"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/liam_fallen/status/2093383144334348374"
+    },
+    "official_share_url": "https://x.ai/bot/Gd-cqXG8xG_RPmKGixa73",
+    "found_via": "https://botdirectory.ai/bots/reaper/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/reaper/",
+    "json_url": "https://moneywithai.net/api/bots/reaper.json"
+  }
+}

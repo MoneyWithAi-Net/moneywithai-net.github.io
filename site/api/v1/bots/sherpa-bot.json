@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "sherpa-bot",
+  "name": "Sherpa Bot",
+  "category": "Research and Ops",
+  "sub_use_case": "Opportunity scouting",
+  "summary": "Helps a would-be founder find a real problem, a real customer and one next action within 14 days.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "MorganWKhan",
+    "url": "https://x.com/MorganWKhan"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/MorganWKhan/status/2105256392256893076"
+  },
+  "official_share_url": "https://x.ai/bot/CGmwZlk_FVNYJO_VruSFZ",
+  "found_via": "https://grokbot101.org/bots/sherpa-bot/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/sherpa-bot/",
+  "json_url": "https://moneywithai.net/api/v1/bots/sherpa-bot.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/idea-validation-sprint/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 257,
+    "score": 73,
+    "money": 13,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

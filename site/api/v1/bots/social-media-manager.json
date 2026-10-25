@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "social-media-manager",
+  "name": "Social Media Manager",
+  "category": "Content and Marketing",
+  "sub_use_case": "Brand social",
+  "summary": "Manages social posting and the social inbox through OmniSocials.",
+  "tools": [
+    "OmniSocials"
+  ],
+  "creator": {
+    "handle": "Lighthart99",
+    "url": "https://botdirectory.ai/bots/social-media-manager/"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://botdirectory.ai/bots/social-media-manager/"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/social-media-manager/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/social-media-manager/",
+  "json_url": "https://moneywithai.net/api/v1/bots/social-media-manager.json",
+  "use_cases": [],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 303,
+    "score": 36,
+    "money": 0,
+    "profile": 26,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

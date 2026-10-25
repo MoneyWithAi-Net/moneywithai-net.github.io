@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "youtube-outlier-finder",
+    "name": "YouTube Outlier Finder",
+    "category": "Content and Marketing",
+    "sub_use_case": "YouTube operations",
+    "summary": "Finds outlier videos performing far above their channel average in your niches.",
+    "tools": [
+      "YouTube"
+    ],
+    "creator": {
+      "handle": "petergyang",
+      "url": "https://x.com/petergyang"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/petergyang/status/2089401696946634801"
+    },
+    "official_share_url": null,
+    "found_via": "https://botdirectory.ai/bots/youtube-outlier-finder/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/youtube-outlier-finder/",
+    "json_url": "https://moneywithai.net/api/bots/youtube-outlier-finder.json"
+  }
+}

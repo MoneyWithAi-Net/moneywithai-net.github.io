@@ -26,7 +26,33 @@
   "json_url": "https://moneywithai.net/api/v1/bots/invoice-hunter.json",
   "use_cases": [
     "https://moneywithai.net/use-cases/rental-income-bookkeeping/",
-    "https://moneywithai.net/use-cases/saas-finance-watch/"
+    "https://moneywithai.net/use-cases/saas-finance-watch/",
+    "https://moneywithai.net/use-cases/creator-sponsor-sales-desk/",
+    "https://moneywithai.net/use-cases/podcast-production-service/",
+    "https://moneywithai.net/use-cases/x-ghostwriting-agency/",
+    "https://moneywithai.net/use-cases/short-form-clipping-agency/",
+    "https://moneywithai.net/use-cases/custom-maker-shop-ops/",
+    "https://moneywithai.net/use-cases/whatsapp-support-bot-service/",
+    "https://moneywithai.net/use-cases/virtual-assistant-business/",
+    "https://moneywithai.net/use-cases/agency-proposal-to-payment/",
+    "https://moneywithai.net/use-cases/web-studio-delivery-pipeline/",
+    "https://moneywithai.net/use-cases/managed-care-plans-for-sites/",
+    "https://moneywithai.net/use-cases/live-music-booking-agency/",
+    "https://moneywithai.net/use-cases/photographer-licensing-and-open-calls/",
+    "https://moneywithai.net/use-cases/content-agency-delivery/",
+    "https://moneywithai.net/use-cases/consulting-meeting-system/",
+    "https://moneywithai.net/use-cases/get-paid-faster/",
+    "https://moneywithai.net/use-cases/creator-revenue-recovery/"
   ],
-  "added_at": "2026-10-24T08:00:00.000Z"
+  "added_at": "2026-10-24T08:00:00.000Z",
+  "featured": {
+    "rank": 3,
+    "score": 100,
+    "money": 40,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
 }

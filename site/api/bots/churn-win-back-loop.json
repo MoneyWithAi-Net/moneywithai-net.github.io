@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "churn-win-back-loop",
+    "name": "Churn Win-Back Loop",
+    "category": "Customer Support",
+    "sub_use_case": "Feedback watch",
+    "summary": "Runs a win-back campaign for lapsed customers from your records, drafting tailored emails for approval.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "liam_fallen",
+      "url": "https://x.com/liam_fallen"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/liam_fallen/status/2090355235751379002"
+    },
+    "official_share_url": null,
+    "found_via": "https://botdirectory.ai/bots/churn-win-back-loop/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/churn-win-back-loop/",
+    "json_url": "https://moneywithai.net/api/bots/churn-win-back-loop.json"
+  }
+}

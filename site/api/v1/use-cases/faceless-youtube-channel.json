@@ -1,0 +1,192 @@
+{
+  "type": "use-case",
+  "slug": "faceless-youtube-channel",
+  "title": "Start a Faceless YouTube Channel with a Bot Crew",
+  "category": "Content and Marketing",
+  "category_slug": "content-and-marketing",
+  "money_model": "Creator income",
+  "difficulty": "Intermediate",
+  "summary": "Find outlier topics, script them, produce shorts and long edits, and grow on a schedule.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Assumes slow growth; ad income usually takes months to start.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Ad and sponsor income once the channel qualifies.",
+    "Outlier research lowers the guesswork."
+  ],
+  "who_its_for": [
+    "Creators who prefer not to be on camera."
+  ],
+  "stack": [
+    {
+      "bot": "youtube-outlier-finder",
+      "name": "YouTube Outlier Finder",
+      "role": "Finds outlier videos in your niche.",
+      "creator": "petergyang",
+      "tools": [
+        "YouTube"
+      ],
+      "url": "https://moneywithai.net/bots/youtube-outlier-finder/",
+      "official_share_url": null
+    },
+    {
+      "bot": "content-idea-generator",
+      "name": "Content Idea Generator",
+      "role": "Turns outliers into your own ideas.",
+      "creator": "farzyness",
+      "tools": [
+        "YouTube",
+        "Google Trends"
+      ],
+      "url": "https://moneywithai.net/bots/content-idea-generator/",
+      "official_share_url": null
+    },
+    {
+      "bot": "scripter-orc",
+      "name": "Scripter Orc",
+      "role": "Writes the script.",
+      "creator": "orcdev",
+      "tools": [
+        "Notion"
+      ],
+      "url": "https://moneywithai.net/bots/scripter-orc/",
+      "official_share_url": null
+    },
+    {
+      "bot": "ai-faceless-shorts-factory",
+      "name": "AI Faceless Shorts Factory",
+      "role": "Produces shorts.",
+      "creator": "dhivalogu",
+      "tools": [
+        "AITuber",
+        "YouTube",
+        "TikTok"
+      ],
+      "url": "https://moneywithai.net/bots/ai-faceless-shorts-factory/",
+      "official_share_url": null
+    },
+    {
+      "bot": "video-editor",
+      "name": "Video Editor",
+      "role": "Edits longer videos.",
+      "creator": "john_a_isaacson",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/video-editor/",
+      "official_share_url": "https://x.ai/bot/TUBFpf9exUG-qi7RYKZLs"
+    }
+  ],
+  "tools": [
+    "YouTube",
+    "Google Trends",
+    "Notion",
+    "AITuber",
+    "TikTok",
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "A niche",
+        "tool": null
+      },
+      {
+        "label": "Channel",
+        "tool": "YouTube"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "youtube-outlier-finder",
+        "name": "YouTube Outlier Finder",
+        "does": "Finds outlier topics",
+        "tools": [
+          "YouTube"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "content-idea-generator",
+        "name": "Content Idea Generator",
+        "does": "Shapes ideas",
+        "tools": [
+          "YouTube",
+          "Google Trends"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "scripter-orc",
+        "name": "Scripter Orc",
+        "does": "Writes scripts",
+        "tools": [
+          "Notion"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "ai-faceless-shorts-factory",
+        "name": "AI Faceless Shorts Factory",
+        "does": "Produces shorts",
+        "tools": [
+          "AITuber",
+          "YouTube",
+          "TikTok"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "video-editor",
+        "name": "Video Editor",
+        "does": "Edits long videos",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 6,
+        "by": "you",
+        "name": "You",
+        "does": "Approve and upload",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Regular uploads",
+      "Growing channel"
+    ]
+  },
+  "steps": [
+    "Pick a niche you can stick with for months.",
+    "Script and publish two pieces a week.",
+    "Review analytics monthly.",
+    "Keep only formats that hold viewers."
+  ],
+  "guardrails": [
+    "Do not reuse other people's images, words or likeness without permission.",
+    "Nothing is posted publicly without your OK.",
+    "You need your own accounts for the connected tools; check their current plans first."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 126,
+    "score": 65,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/faceless-youtube-channel/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/faceless-youtube-channel.json"
+}

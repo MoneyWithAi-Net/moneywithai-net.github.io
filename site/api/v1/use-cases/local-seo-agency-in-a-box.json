@@ -1,0 +1,183 @@
+{
+  "type": "use-case",
+  "slug": "local-seo-agency-in-a-box",
+  "title": "Run a Local SEO Agency with a Bot Team",
+  "category": "Content and Marketing",
+  "category_slug": "content-and-marketing",
+  "money_model": "Sell a service",
+  "difficulty": "Advanced",
+  "summary": "Prospect, audit, publish local pages and handle reviews for each client under one monthly plan.",
+  "money_potential": {
+    "tier": 3,
+    "symbol": "$$$",
+    "label": "High",
+    "basis": "Assumes monthly retainers per client.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Recurring local SEO retainers.",
+    "Clients see pages and replies every month."
+  ],
+  "who_its_for": [
+    "SEO freelancers growing into an agency."
+  ],
+  "stack": [
+    {
+      "bot": "lead-scout",
+      "name": "Lead Scout",
+      "role": "Finds local businesses with search gaps.",
+      "creator": "itsryanlenk",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/lead-scout/",
+      "official_share_url": "https://x.ai/bot/j3Qule6BFplSpVqgLpVnV"
+    },
+    {
+      "bot": "site-audit",
+      "name": "Site Audit",
+      "role": "Audits each prospect.",
+      "creator": "scheemunai",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/site-audit/",
+      "official_share_url": "https://x.ai/bot/s6JVFYDIDMsCQMBeTcznW"
+    },
+    {
+      "bot": "seo-team",
+      "name": "SEO Team",
+      "role": "Runs the five-role SEO team per client.",
+      "creator": "fatjoedavies",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/seo-team/",
+      "official_share_url": null
+    },
+    {
+      "bot": "geo-targeted-seo-publisher",
+      "name": "Geo-Targeted SEO Publisher",
+      "role": "Publishes local pages.",
+      "creator": "coreyganim",
+      "tools": [
+        "GitHub"
+      ],
+      "url": "https://moneywithai.net/bots/geo-targeted-seo-publisher/",
+      "official_share_url": null
+    },
+    {
+      "bot": "reply-desk",
+      "name": "Reply Desk",
+      "role": "Drafts review replies.",
+      "creator": "lonzom10",
+      "tools": [
+        "Email"
+      ],
+      "url": "https://moneywithai.net/bots/reply-desk/",
+      "official_share_url": "https://x.ai/bot/8lLjBC7bXUqbfh-vLG9jf"
+    }
+  ],
+  "tools": [
+    "Grok",
+    "GitHub",
+    "Email"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Client sites",
+        "tool": null
+      },
+      {
+        "label": "Search data",
+        "tool": "Google Search Console"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "lead-scout",
+        "name": "Lead Scout",
+        "does": "Finds prospects",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "site-audit",
+        "name": "Site Audit",
+        "does": "Audits sites",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "seo-team",
+        "name": "SEO Team",
+        "does": "Runs SEO work",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "geo-targeted-seo-publisher",
+        "name": "Geo-Targeted SEO Publisher",
+        "does": "Publishes pages",
+        "tools": [
+          "GitHub"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "reply-desk",
+        "name": "Reply Desk",
+        "does": "Drafts review replies",
+        "tools": [
+          "Email"
+        ]
+      },
+      {
+        "order": 6,
+        "by": "you",
+        "name": "You",
+        "does": "Sell and review work",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Local pages",
+      "Review replies",
+      "Monthly reports"
+    ]
+  },
+  "steps": [
+    "Pick one trade.",
+    "Audit five prospects and pitch two.",
+    "Run monthly work per client.",
+    "Send a monthly report."
+  ],
+  "guardrails": [
+    "Check local rules on cold outreach, calls and texts before contacting anyone.",
+    "Check every number and claim before it goes public."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 17,
+    "score": 89,
+    "money": 40,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 3,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/local-seo-agency-in-a-box/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/local-seo-agency-in-a-box.json"
+}

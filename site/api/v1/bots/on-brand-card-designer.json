@@ -1,0 +1,43 @@
+{
+  "type": "bot",
+  "slug": "on-brand-card-designer",
+  "name": "On-Brand Card Designer",
+  "category": "Content and Marketing",
+  "sub_use_case": "Copy and creative",
+  "summary": "Creates on-brand visual cards for social posts and product updates through Monocards.",
+  "tools": [
+    "Monocards",
+    "Claude Desktop",
+    "Claude Code"
+  ],
+  "creator": {
+    "handle": "elie2222",
+    "url": "https://botdirectory.ai/bots/on-brand-card-designer/"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://botdirectory.ai/bots/on-brand-card-designer/"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/on-brand-card-designer/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/on-brand-card-designer/",
+  "json_url": "https://moneywithai.net/api/v1/bots/on-brand-card-designer.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/linkedin-thought-leadership-engine/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 209,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

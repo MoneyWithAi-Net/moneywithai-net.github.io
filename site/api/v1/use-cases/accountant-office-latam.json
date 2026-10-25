@@ -1,0 +1,160 @@
+{
+  "type": "use-case",
+  "slug": "accountant-office-latam",
+  "title": "Run an Accounting Office for Latin American Clients",
+  "category": "Finance",
+  "category_slug": "finance",
+  "money_model": "Sell a service",
+  "difficulty": "Intermediate",
+  "summary": "Track tax due dates, help clients form US LLCs and keep the office inbox moving.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes more clients served per month.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "More clients per accountant.",
+    "New US LLC formation service."
+  ],
+  "who_its_for": [
+    "Independent accountants in Latin America."
+  ],
+  "stack": [
+    {
+      "bot": "asistente-contable-colombia",
+      "name": "Asistente Contable - Colombia",
+      "role": "Tracks due dates and drafts forms.",
+      "creator": "KatheTrivinoG",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/asistente-contable-colombia/",
+      "official_share_url": "https://x.ai/bot/roAIOBqaMNIijMjrAaI7C"
+    },
+    {
+      "bot": "us-llc-assistant",
+      "name": "US LLC Assistant",
+      "role": "Guides clients through US LLC setup.",
+      "creator": "KarinaGeigner",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/us-llc-assistant/",
+      "official_share_url": "https://x.ai/bot/P1SKFe9QcGTtxhngNMtig"
+    },
+    {
+      "bot": "tax-firm-os",
+      "name": "Tax Firm OS",
+      "role": "Runs practice back office.",
+      "creator": "Amervim",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/tax-firm-os/",
+      "official_share_url": "https://x.ai/bot/vJqjJphtZRkdBTYBxmWur"
+    },
+    {
+      "bot": "inbox-triage-desk",
+      "name": "Inbox Triage Desk",
+      "role": "Sorts the office inbox.",
+      "creator": "Cypher0x9",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/inbox-triage-desk/",
+      "official_share_url": "https://x.ai/bot/soRR-1IslCTX7U4YiBg3Y"
+    }
+  ],
+  "tools": [
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Client files",
+        "tool": "Google Drive"
+      },
+      {
+        "label": "Office inbox",
+        "tool": "Gmail"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "asistente-contable-colombia",
+        "name": "Asistente Contable - Colombia",
+        "does": "Tracks due dates",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "us-llc-assistant",
+        "name": "US LLC Assistant",
+        "does": "Guides LLC setup",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "tax-firm-os",
+        "name": "Tax Firm OS",
+        "does": "Runs the office",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "inbox-triage-desk",
+        "name": "Inbox Triage Desk",
+        "does": "Sorts inbox",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "File and advise",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "On-time filings",
+      "LLC packages"
+    ]
+  },
+  "steps": [
+    "Load client list and deadlines.",
+    "Review the weekly due list.",
+    "Offer LLC setup as a package.",
+    "Triage the inbox daily."
+  ],
+  "guardrails": [
+    "This is admin help, not legal, tax or financial advice.",
+    "Handle customer and candidate data under your local privacy rules."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 69,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/accountant-office-latam/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/accountant-office-latam.json"
+}

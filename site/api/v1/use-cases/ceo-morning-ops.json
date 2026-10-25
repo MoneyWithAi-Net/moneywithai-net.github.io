@@ -1,0 +1,169 @@
+{
+  "type": "use-case",
+  "slug": "ceo-morning-ops",
+  "title": "Start Every CEO Day with One Brief",
+  "category": "Research and Ops",
+  "category_slug": "research-and-ops",
+  "money_model": "Save costs",
+  "difficulty": "Beginner",
+  "summary": "Morning brief, staff answers from a playbook, inbox items as tasks and notes from every meeting.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Assumes executive time saved.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "A calmer start to the day.",
+    "Fewer interruptions from routine questions."
+  ],
+  "who_its_for": [
+    "CEOs of small companies."
+  ],
+  "stack": [
+    {
+      "bot": "ceo-morning-secretary",
+      "name": "CEO Morning Secretary",
+      "role": "Writes and reads the morning brief.",
+      "creator": "JyKim90832",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/ceo-morning-secretary/",
+      "official_share_url": "https://x.ai/bot/Xs4d8TKbYwAGEY3voOBaX"
+    },
+    {
+      "bot": "jess-executive-assistant",
+      "name": "Jess (Executive Assistant)",
+      "role": "Answers staff from a playbook.",
+      "creator": "LoganARobison",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/jess-executive-assistant/",
+      "official_share_url": "https://x.ai/bot/Nmv2fCQEcQc3EHzVXJZKN"
+    },
+    {
+      "bot": "inbox-to-asana",
+      "name": "Inbox to Asana",
+      "role": "Turns mail into Asana tasks.",
+      "creator": "lennysan",
+      "tools": [
+        "Gmail",
+        "Asana"
+      ],
+      "url": "https://moneywithai.net/bots/inbox-to-asana/",
+      "official_share_url": "https://x.ai/bot/Ka18PTTKUNtDDPg0HpYva"
+    },
+    {
+      "bot": "meeting-notes-assistant",
+      "name": "Meeting Notes Assistant",
+      "role": "Writes meeting notes.",
+      "creator": "mvanhorn",
+      "tools": [
+        "Google Calendar",
+        "Google Docs"
+      ],
+      "url": "https://moneywithai.net/bots/meeting-notes-assistant/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Grok",
+    "Gmail",
+    "Asana",
+    "Google Calendar",
+    "Google Docs"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Calendar",
+        "tool": "Google Calendar"
+      },
+      {
+        "label": "Mail",
+        "tool": "Gmail"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "ceo-morning-secretary",
+        "name": "CEO Morning Secretary",
+        "does": "Writes morning brief",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "jess-executive-assistant",
+        "name": "Jess (Executive Assistant)",
+        "does": "Answers staff",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "inbox-to-asana",
+        "name": "Inbox to Asana",
+        "does": "Makes tasks",
+        "tools": [
+          "Gmail",
+          "Asana"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "meeting-notes-assistant",
+        "name": "Meeting Notes Assistant",
+        "does": "Writes notes",
+        "tools": [
+          "Google Calendar",
+          "Google Docs"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Decide",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Morning brief",
+      "Tasks",
+      "Meeting notes"
+    ]
+  },
+  "steps": [
+    "Write a short playbook.",
+    "Connect calendar and mail.",
+    "Read the brief daily.",
+    "Review tasks weekly."
+  ],
+  "guardrails": [
+    "Connect only accounts you own and give the least access needed.",
+    "Handle customer and candidate data under your local privacy rules."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 121,
+    "score": 69,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/ceo-morning-ops/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/ceo-morning-ops.json"
+}

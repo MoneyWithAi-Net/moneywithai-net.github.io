@@ -1,0 +1,187 @@
+{
+  "type": "use-case",
+  "slug": "saas-founder-gtm-week",
+  "title": "Run a SaaS Founder's Go-to-Market Week with Bots",
+  "category": "Leads and Sales",
+  "category_slug": "leads-and-sales",
+  "money_model": "Grow sales",
+  "difficulty": "Advanced",
+  "summary": "One orchestrator routes the week: outbound, lookalikes, deal follow-up and ship notes for customers.",
+  "money_potential": {
+    "tier": 3,
+    "symbol": "$$$",
+    "label": "High",
+    "basis": "Assumes subscription revenue, so each new customer adds monthly income.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "A solo founder keeps outbound and follow-up going every week.",
+    "Release notes give sales a reason to reach out."
+  ],
+  "who_its_for": [
+    "Solo and two-person SaaS teams."
+  ],
+  "stack": [
+    {
+      "bot": "sales-orchestrator",
+      "name": "Sales Orchestrator",
+      "role": "Routes each request to one specialist bot.",
+      "creator": "idleshubh",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/sales-orchestrator/",
+      "official_share_url": "https://x.ai/bot/AMFF7LG8gxX1bLIH-_D3A"
+    },
+    {
+      "bot": "saasbot",
+      "name": "SaaSbot",
+      "role": "Runs morning prep, outbound and reply handling.",
+      "creator": "Grok_Hub_IO",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/saasbot/",
+      "official_share_url": "https://x.ai/bot/X6RbSbeyLvQ_I5k3zU4IM"
+    },
+    {
+      "bot": "lookalike-scout",
+      "name": "Lookalike Scout",
+      "role": "Adds lookalike accounts to the list.",
+      "creator": "Treg team",
+      "tools": [
+        "Treg"
+      ],
+      "url": "https://moneywithai.net/bots/lookalike-scout/",
+      "official_share_url": "https://x.ai/bot/mfaurGq6eY9rIvIpMfUFI"
+    },
+    {
+      "bot": "deal-desk-autopilot",
+      "name": "Deal Desk Autopilot",
+      "role": "Keeps open deals moving.",
+      "creator": "ericosiu",
+      "tools": [
+        "Gmail",
+        "Google Calendar"
+      ],
+      "url": "https://moneywithai.net/bots/deal-desk-autopilot/",
+      "official_share_url": null
+    },
+    {
+      "bot": "ship-note",
+      "name": "Ship Note",
+      "role": "Turns releases into customer emails.",
+      "creator": "sol_wright7",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/ship-note/",
+      "official_share_url": "https://x.ai/bot/xMCiRCmOCYLeRzW8nS6EL"
+    }
+  ],
+  "tools": [
+    "Grok",
+    "Treg",
+    "Gmail",
+    "Google Calendar"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Your CRM",
+        "tool": null
+      },
+      {
+        "label": "Release notes",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "sales-orchestrator",
+        "name": "Sales Orchestrator",
+        "does": "Routes requests",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "saasbot",
+        "name": "SaaSbot",
+        "does": "Runs outbound",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "lookalike-scout",
+        "name": "Lookalike Scout",
+        "does": "Adds lookalikes",
+        "tools": [
+          "Treg"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "deal-desk-autopilot",
+        "name": "Deal Desk Autopilot",
+        "does": "Moves deals",
+        "tools": [
+          "Gmail",
+          "Google Calendar"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "ship-note",
+        "name": "Ship Note",
+        "does": "Writes release emails",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 6,
+        "by": "you",
+        "name": "You",
+        "does": "Approve sends and run demos",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Weekly outbound",
+      "Deal follow-ups",
+      "Release emails"
+    ]
+  },
+  "steps": [
+    "Put the bots in one group with the orchestrator.",
+    "Set your ideal customer and weekly targets.",
+    "Approve outbound and replies each morning.",
+    "Send ship notes after each release."
+  ],
+  "guardrails": [
+    "Keep daily sending caps low and follow each platform's rules on automation.",
+    "Every message and document stays a draft until you approve it.",
+    "Review a sample by hand before you trust a scheduled run."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 19,
+    "score": 89,
+    "money": 40,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 3,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/saas-founder-gtm-week/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/saas-founder-gtm-week.json"
+}

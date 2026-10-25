@@ -1,0 +1,205 @@
+{
+  "type": "use-case",
+  "slug": "one-person-marketing-department",
+  "title": "Build a One-Person Marketing Department",
+  "category": "Content and Marketing",
+  "category_slug": "content-and-marketing",
+  "money_model": "Grow sales",
+  "difficulty": "Intermediate",
+  "summary": "A CMO bot plans, copy and design bots produce, and a context bot keeps every decision grounded in your numbers.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes marketing output drives sales you already make.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Marketing keeps shipping while you run the business.",
+    "Decisions come from your data, not guesses."
+  ],
+  "who_its_for": [
+    "Founders without a marketing hire."
+  ],
+  "stack": [
+    {
+      "bot": "marketing-bot-cmo",
+      "name": "Marketing Bot (CMO)",
+      "role": "Plans offers, copy and conversion fixes.",
+      "creator": "tymarsha",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/marketing-bot-cmo/",
+      "official_share_url": "https://x.ai/bot/37ZOM10GzlSOQpMjRp7KB"
+    },
+    {
+      "bot": "human-copywriter",
+      "name": "Human Copywriter",
+      "role": "Rewrites copy so it sounds human.",
+      "creator": "massimodeluisa",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/human-copywriter/",
+      "official_share_url": "https://x.ai/bot/JZAccYtlRFvDSU2CnMnkZ"
+    },
+    {
+      "bot": "social-media-gtm-bot",
+      "name": "Social Media GTM Bot",
+      "role": "Runs social across platforms.",
+      "creator": "Grok_Hub_IO",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/social-media-gtm-bot/",
+      "official_share_url": "https://x.ai/bot/rwdXTWNa0eGPFzyTWlRKJ"
+    },
+    {
+      "bot": "graphic-design-assistant",
+      "name": "Graphic Design Assistant",
+      "role": "Makes on-brand graphics in Canva.",
+      "creator": "shubgaur",
+      "tools": [
+        "Canva",
+        "Google Drive"
+      ],
+      "url": "https://moneywithai.net/bots/graphic-design-assistant/",
+      "official_share_url": null
+    },
+    {
+      "bot": "marketing-context-collector",
+      "name": "Marketing Context Collector",
+      "role": "Pulls numbers and notes into a brief.",
+      "creator": "codyschneider",
+      "tools": [
+        "Gmail",
+        "Slack",
+        "Notion",
+        "Google Analytics",
+        "HubSpot",
+        "Google Ads"
+      ],
+      "url": "https://moneywithai.net/bots/marketing-context-collector/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Grok",
+    "Canva",
+    "Google Drive",
+    "Gmail",
+    "Slack",
+    "Notion",
+    "Google Analytics",
+    "HubSpot",
+    "Google Ads"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Analytics",
+        "tool": "Google Analytics"
+      },
+      {
+        "label": "CRM",
+        "tool": "HubSpot"
+      },
+      {
+        "label": "Brand assets",
+        "tool": "Canva"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "marketing-bot-cmo",
+        "name": "Marketing Bot (CMO)",
+        "does": "Plans the work",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "human-copywriter",
+        "name": "Human Copywriter",
+        "does": "Polishes copy",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "social-media-gtm-bot",
+        "name": "Social Media GTM Bot",
+        "does": "Runs social",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "graphic-design-assistant",
+        "name": "Graphic Design Assistant",
+        "does": "Makes graphics",
+        "tools": [
+          "Canva",
+          "Google Drive"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "marketing-context-collector",
+        "name": "Marketing Context Collector",
+        "does": "Builds the context brief",
+        "tools": [
+          "Gmail",
+          "Slack",
+          "Notion",
+          "Google Analytics",
+          "HubSpot",
+          "Google Ads"
+        ]
+      },
+      {
+        "order": 6,
+        "by": "you",
+        "name": "You",
+        "does": "Approve plans and posts",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Weekly marketing plan",
+      "Copy and graphics",
+      "Social posts"
+    ]
+  },
+  "steps": [
+    "Give the CMO your product, buyer and goals.",
+    "Build a context brief first.",
+    "Approve a weekly plan.",
+    "Review copy and graphics before anything ships."
+  ],
+  "guardrails": [
+    "Nothing is posted publicly without your OK.",
+    "Check every number and claim before it goes public."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 44,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/one-person-marketing-department/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/one-person-marketing-department.json"
+}

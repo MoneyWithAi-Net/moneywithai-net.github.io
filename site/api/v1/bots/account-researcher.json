@@ -1,0 +1,42 @@
+{
+  "type": "bot",
+  "slug": "account-researcher",
+  "name": "Account Researcher",
+  "category": "Leads and Sales",
+  "sub_use_case": "Outbound prospecting",
+  "summary": "Researches each target company and prospect on LinkedIn so every outreach message starts from real context.",
+  "tools": [
+    "Gojiberry AI",
+    "LinkedIn"
+  ],
+  "creator": {
+    "handle": "romanbuildsaas",
+    "url": "https://x.com/romanbuildsaas"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/romanbuildsaas/status/2094758876834938964"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/account-researcher/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/account-researcher/",
+  "json_url": "https://moneywithai.net/api/v1/bots/account-researcher.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/linkedin-intent-outbound/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 181,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

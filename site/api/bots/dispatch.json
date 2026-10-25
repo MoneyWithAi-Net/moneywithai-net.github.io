@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "dispatch",
+    "name": "Dispatch",
+    "category": "Client Services",
+    "sub_use_case": "Meetings and follow-up",
+    "summary": "Scans email, Slack, LinkedIn and X DMs nightly and books calls that people agreed to but never got an invite for.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "FilippoFonseca",
+      "url": "https://x.com/FilippoFonseca"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/FilippoFonseca/status/2093402774704914915"
+    },
+    "official_share_url": "https://x.ai/bot/YkmZEZYBk-BqylyQbM3kq",
+    "found_via": "https://botdirectory.ai/bots/dispatch/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/dispatch/",
+    "json_url": "https://moneywithai.net/api/bots/dispatch.json"
+  }
+}

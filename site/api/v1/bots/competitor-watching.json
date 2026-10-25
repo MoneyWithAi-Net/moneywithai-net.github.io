@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "competitor-watching",
+  "name": "Competitor Watching",
+  "category": "Research and Ops",
+  "sub_use_case": "Competitor intel",
+  "summary": "Compares you with three to eight competitors on pricing, features, jobs and messaging and alerts only on real changes.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "scheemunai",
+    "url": "https://x.com/scheemunai"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/scheemunai/status/2093398377056678001"
+  },
+  "official_share_url": "https://x.ai/bot/5PKSzU0ruN_DQbNXc7m0N",
+  "found_via": "https://botdirectory.ai/bots/competitor-watching/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/competitor-watching/",
+  "json_url": "https://moneywithai.net/api/v1/bots/competitor-watching.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/competitor-intel-subscription/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 146,
+    "score": 83,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

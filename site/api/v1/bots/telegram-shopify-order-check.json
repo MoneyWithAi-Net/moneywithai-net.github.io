@@ -1,0 +1,43 @@
+{
+  "type": "bot",
+  "slug": "telegram-shopify-order-check",
+  "name": "Telegram Shopify Order Check",
+  "category": "E-Commerce",
+  "sub_use_case": "Store operations",
+  "summary": "Lets you check and monitor Shopify orders by sending simple commands to a Telegram bot.",
+  "tools": [
+    "n8n",
+    "Shopify",
+    "Telegram"
+  ],
+  "creator": {
+    "handle": "Roninimous",
+    "url": "https://n8n.io/creators/roninimous/"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://n8n.io/workflows/4714/"
+  },
+  "official_share_url": null,
+  "found_via": "https://n8n.io/workflows/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/telegram-shopify-order-check/",
+  "json_url": "https://moneywithai.net/api/v1/bots/telegram-shopify-order-check.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/telegram-store-command-center/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 271,
+    "score": 69,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "type": "use-case",
+  "slug": "podcast-production-service",
+  "title": "Sell Done-for-You Podcast Production",
+  "category": "Content and Marketing",
+  "category_slug": "content-and-marketing",
+  "money_model": "Sell a service",
+  "difficulty": "Intermediate",
+  "summary": "Edit episodes, cut clips, launch them and invoice clients monthly.",
+  "money_potential": {
+    "tier": 3,
+    "symbol": "$$$",
+    "label": "High",
+    "basis": "Assumes a monthly package per show.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Recurring monthly work per show.",
+    "Clips give clients visible value."
+  ],
+  "who_its_for": [
+    "Editors and audio producers."
+  ],
+  "stack": [
+    {
+      "bot": "video-editor",
+      "name": "Video Editor",
+      "role": "Edits episodes and shorts.",
+      "creator": "john_a_isaacson",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/video-editor/",
+      "official_share_url": "https://x.ai/bot/TUBFpf9exUG-qi7RYKZLs"
+    },
+    {
+      "bot": "podcast-clipmaker",
+      "name": "Podcast Clipmaker",
+      "role": "Picks the strongest moments.",
+      "creator": "BotDirectoryAI",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/podcast-clipmaker/",
+      "official_share_url": null
+    },
+    {
+      "bot": "episode-launch-crew",
+      "name": "Episode Launch Crew",
+      "role": "Publishes episodes for clients.",
+      "creator": "elie2222",
+      "tools": [
+        "Castos",
+        "Google Drive",
+        "YouTube",
+        "Slack"
+      ],
+      "url": "https://moneywithai.net/bots/episode-launch-crew/",
+      "official_share_url": null
+    },
+    {
+      "bot": "invoice-hunter",
+      "name": "Invoice Hunter",
+      "role": "Chases monthly invoices.",
+      "creator": "scheemunai",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/invoice-hunter/",
+      "official_share_url": "https://x.ai/bot/-kO6HrXokJZANVwUOMZO9"
+    }
+  ],
+  "tools": [
+    "Grok",
+    "Castos",
+    "Google Drive",
+    "YouTube",
+    "Slack"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Raw recordings",
+        "tool": "Google Drive"
+      },
+      {
+        "label": "Client brief",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "video-editor",
+        "name": "Video Editor",
+        "does": "Edits episodes",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "podcast-clipmaker",
+        "name": "Podcast Clipmaker",
+        "does": "Picks moments",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "episode-launch-crew",
+        "name": "Episode Launch Crew",
+        "does": "Publishes episodes",
+        "tools": [
+          "Castos",
+          "Google Drive",
+          "YouTube",
+          "Slack"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "invoice-hunter",
+        "name": "Invoice Hunter",
+        "does": "Chases invoices",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Sell and QC deliveries",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Edited episodes",
+      "Clips",
+      "Paid invoices"
+    ]
+  },
+  "steps": [
+    "Offer one show a free edited episode.",
+    "Agree a monthly package.",
+    "Deliver edits and clips on a set day.",
+    "Invoice monthly."
+  ],
+  "guardrails": [
+    "Do not reuse other people's images, words or likeness without permission.",
+    "The bots never pay, sign or accept terms for you."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 10,
+    "score": 92,
+    "money": 40,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/podcast-production-service/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/podcast-production-service.json"
+}

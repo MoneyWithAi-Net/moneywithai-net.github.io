@@ -1,0 +1,169 @@
+{
+  "type": "use-case",
+  "slug": "event-production-desk",
+  "title": "Run Event Production with a Bot Desk",
+  "category": "Client Services",
+  "category_slug": "client-services",
+  "money_model": "Sell a service",
+  "difficulty": "Advanced",
+  "summary": "Track partners and commitments, sync bookings, confirm crews and close the books after each event.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes event fees with fewer costly mistakes.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Fewer dropped details on event day.",
+    "Books close fast."
+  ],
+  "who_its_for": [
+    "Event producers and planners."
+  ],
+  "stack": [
+    {
+      "bot": "large-event-ops-bot",
+      "name": "Large Event Ops Bot",
+      "role": "Runs partner inbox, commitments and day-of sheets.",
+      "creator": "_lovablecurves",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/large-event-ops-bot/",
+      "official_share_url": "https://x.ai/bot/93Z51EAVqzp-YOvbHFjN3"
+    },
+    {
+      "bot": "booking-pipeline-runner",
+      "name": "Booking Pipeline Runner",
+      "role": "Keeps deals and gig records in sync.",
+      "creator": "steventt07",
+      "tools": [
+        "Soundcheck",
+        "HubSpot"
+      ],
+      "url": "https://moneywithai.net/bots/booking-pipeline-runner/",
+      "official_share_url": null
+    },
+    {
+      "bot": "photo-and-video-shoot-confirmations",
+      "name": "Photo & Video Shoot Confirmations",
+      "role": "Confirms crew and shoot details.",
+      "creator": "TimFPhotography",
+      "tools": [
+        "Email"
+      ],
+      "url": "https://moneywithai.net/bots/photo-and-video-shoot-confirmations/",
+      "official_share_url": "https://x.ai/bot/iduDVp02VHu06-XddxcSD"
+    },
+    {
+      "bot": "gig-books-closer",
+      "name": "Gig Books Closer",
+      "role": "Closes the books after the event.",
+      "creator": "steventt07",
+      "tools": [
+        "Soundcheck",
+        "QuickBooks"
+      ],
+      "url": "https://moneywithai.net/bots/gig-books-closer/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Grok",
+    "Soundcheck",
+    "HubSpot",
+    "Email",
+    "QuickBooks"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Partner inbox",
+        "tool": "Gmail"
+      },
+      {
+        "label": "CRM",
+        "tool": "HubSpot"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "large-event-ops-bot",
+        "name": "Large Event Ops Bot",
+        "does": "Runs event ops",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "booking-pipeline-runner",
+        "name": "Booking Pipeline Runner",
+        "does": "Syncs bookings",
+        "tools": [
+          "Soundcheck",
+          "HubSpot"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "photo-and-video-shoot-confirmations",
+        "name": "Photo & Video Shoot Confirmations",
+        "does": "Confirms crews",
+        "tools": [
+          "Email"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "gig-books-closer",
+        "name": "Gig Books Closer",
+        "does": "Closes books",
+        "tools": [
+          "Soundcheck",
+          "QuickBooks"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Run the event",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Day-of sheets",
+      "Confirmed crews",
+      "Closed books"
+    ]
+  },
+  "steps": [
+    "Load the event plan.",
+    "Review commitments weekly.",
+    "Confirm crews two days out.",
+    "Close books within a week."
+  ],
+  "guardrails": [
+    "The bots never pay, sign or accept terms for you.",
+    "A person stays reachable for anything the bot is unsure about."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 94,
+    "score": 76,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 3,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/event-production-desk/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/event-production-desk.json"
+}

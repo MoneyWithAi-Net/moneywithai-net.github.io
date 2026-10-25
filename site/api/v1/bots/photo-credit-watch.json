@@ -1,0 +1,42 @@
+{
+  "type": "bot",
+  "slug": "photo-credit-watch",
+  "name": "Photo Credit Watch",
+  "category": "Finance",
+  "sub_use_case": "Revenue recovery",
+  "summary": "Runs weekly reverse-image searches on your portfolio and drafts credit or licensing requests for uncredited use.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "gzikry",
+    "url": "https://x.com/gzikry"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/gzikry/status/2110158736618832217"
+  },
+  "official_share_url": "https://x.ai/bot/fXV8CXfn8_l4Q1ktMrrF2",
+  "found_via": "https://grokbot101.org/bots/photo-credit-watch/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/photo-credit-watch/",
+  "json_url": "https://moneywithai.net/api/v1/bots/photo-credit-watch.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/photographer-licensing-and-open-calls/",
+    "https://moneywithai.net/use-cases/creator-revenue-recovery/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 254,
+    "score": 73,
+    "money": 13,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

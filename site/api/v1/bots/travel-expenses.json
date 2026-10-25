@@ -25,7 +25,18 @@
   "url": "https://moneywithai.net/bots/travel-expenses/",
   "json_url": "https://moneywithai.net/api/v1/bots/travel-expenses.json",
   "use_cases": [
-    "https://moneywithai.net/use-cases/photography-back-office/"
+    "https://moneywithai.net/use-cases/photography-back-office/",
+    "https://moneywithai.net/use-cases/team-expense-reconcile/"
   ],
-  "added_at": "2026-10-24T09:30:00.000Z"
+  "added_at": "2026-10-24T09:30:00.000Z",
+  "featured": {
+    "rank": 259,
+    "score": 73,
+    "money": 13,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
 }

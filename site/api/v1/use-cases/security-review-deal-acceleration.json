@@ -1,0 +1,177 @@
+{
+  "type": "use-case",
+  "slug": "security-review-deal-acceleration",
+  "title": "Keep Enterprise Deals Moving Through Security Review",
+  "category": "Leads and Sales",
+  "category_slug": "leads-and-sales",
+  "money_model": "Grow sales",
+  "difficulty": "Advanced",
+  "summary": "Answer trust and security requests quickly, handle deep product questions and keep every step of the deal visible.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes annual contracts where one saved deal is worth a lot.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Deals stall less in security review.",
+    "Technical buyers get real answers on the first call."
+  ],
+  "who_its_for": [
+    "B2B SaaS founders selling to mid-size companies."
+  ],
+  "stack": [
+    {
+      "bot": "trust-center-deal-desk",
+      "name": "Trust Center Deal Desk",
+      "role": "Handles trust-center and NDA requests.",
+      "creator": "elie2222",
+      "tools": [
+        "Comp AI",
+        "Slack"
+      ],
+      "url": "https://moneywithai.net/bots/trust-center-deal-desk/",
+      "official_share_url": null
+    },
+    {
+      "bot": "product-expert",
+      "name": "Product Expert",
+      "role": "Answers deep product questions.",
+      "creator": "kristaletz",
+      "tools": [
+        "GitHub",
+        "Glean"
+      ],
+      "url": "https://moneywithai.net/bots/product-expert/",
+      "official_share_url": null
+    },
+    {
+      "bot": "meeting-brief",
+      "name": "Meeting Brief",
+      "role": "Preps each buyer meeting.",
+      "creator": "Limok_igit",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/meeting-brief/",
+      "official_share_url": "https://x.ai/bot/JN9e1WggIKVWhCEZrySlj"
+    },
+    {
+      "bot": "deal-desk-autopilot",
+      "name": "Deal Desk Autopilot",
+      "role": "Flags stalled deal steps.",
+      "creator": "ericosiu",
+      "tools": [
+        "Gmail",
+        "Google Calendar"
+      ],
+      "url": "https://moneywithai.net/bots/deal-desk-autopilot/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Comp AI",
+    "Slack",
+    "GitHub",
+    "Glean",
+    "Grok",
+    "Gmail",
+    "Google Calendar"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Trust requests",
+        "tool": "Slack"
+      },
+      {
+        "label": "Product docs",
+        "tool": null
+      },
+      {
+        "label": "Your CRM",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "trust-center-deal-desk",
+        "name": "Trust Center Deal Desk",
+        "does": "Handles trust requests",
+        "tools": [
+          "Comp AI",
+          "Slack"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "product-expert",
+        "name": "Product Expert",
+        "does": "Answers product questions",
+        "tools": [
+          "GitHub",
+          "Glean"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "meeting-brief",
+        "name": "Meeting Brief",
+        "does": "Preps meetings",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "deal-desk-autopilot",
+        "name": "Deal Desk Autopilot",
+        "does": "Flags stalled steps",
+        "tools": [
+          "Gmail",
+          "Google Calendar"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Run calls and approve documents",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Faster security reviews",
+      "Closed deals"
+    ]
+  },
+  "steps": [
+    "Set rules for when an NDA is needed.",
+    "Load product docs into the expert.",
+    "Prep every buyer call with a brief.",
+    "Review the deal desk twice a week."
+  ],
+  "guardrails": [
+    "The bots never pay, sign or accept terms for you.",
+    "Connect only accounts you own and give the least access needed.",
+    "Every message and document stays a draft until you approve it."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 90,
+    "score": 76,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 3,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/security-review-deal-acceleration/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/security-review-deal-acceleration.json"
+}

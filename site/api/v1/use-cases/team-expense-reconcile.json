@@ -1,0 +1,175 @@
+{
+  "type": "use-case",
+  "slug": "team-expense-reconcile",
+  "title": "Reconcile Team Expenses Every Week",
+  "category": "Finance",
+  "category_slug": "finance",
+  "money_model": "Save costs",
+  "difficulty": "Beginner",
+  "summary": "Match receipts to payments, log forwarded receipts, handle travel claims and route invoices for approval.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Assumes time saved at month end.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Month-end takes hours, not days.",
+    "Fewer missing receipts."
+  ],
+  "who_its_for": [
+    "Small teams with company cards."
+  ],
+  "stack": [
+    {
+      "bot": "expense-manager",
+      "name": "Expense Manager",
+      "role": "Matches receipts to payments.",
+      "creator": "BotDirectoryAI",
+      "tools": [
+        "Gmail",
+        "Google Sheets"
+      ],
+      "url": "https://moneywithai.net/bots/expense-manager/",
+      "official_share_url": null
+    },
+    {
+      "bot": "receipt-scanner-expense-tracking",
+      "name": "Receipt Scanner / Expense Tracking",
+      "role": "Logs forwarded receipts.",
+      "creator": "limeunfiltered",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/receipt-scanner-expense-tracking/",
+      "official_share_url": "https://x.ai/bot/qod4CrNQBlDIMm5wFYVQp"
+    },
+    {
+      "bot": "travel-expenses",
+      "name": "Travel Expenses",
+      "role": "Builds travel expense reports.",
+      "creator": "shareitround",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/travel-expenses/",
+      "official_share_url": "https://x.ai/bot/Upkn_bUxr___NAvXZB3Dc"
+    },
+    {
+      "bot": "invoice-approval-router",
+      "name": "Invoice Approval Router",
+      "role": "Routes invoices for approval.",
+      "creator": "Billy Christi",
+      "tools": [
+        "n8n",
+        "Gmail",
+        "Google Drive",
+        "Google Sheets",
+        "OpenAI"
+      ],
+      "url": "https://moneywithai.net/bots/invoice-approval-router/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Gmail",
+    "Google Sheets",
+    "Grok",
+    "n8n",
+    "Google Drive",
+    "OpenAI"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Receipts",
+        "tool": "Gmail"
+      },
+      {
+        "label": "Card data",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "expense-manager",
+        "name": "Expense Manager",
+        "does": "Matches receipts",
+        "tools": [
+          "Gmail",
+          "Google Sheets"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "receipt-scanner-expense-tracking",
+        "name": "Receipt Scanner / Expense Tracking",
+        "does": "Logs receipts",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "travel-expenses",
+        "name": "Travel Expenses",
+        "does": "Builds travel reports",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "invoice-approval-router",
+        "name": "Invoice Approval Router",
+        "does": "Routes invoices",
+        "tools": [
+          "n8n",
+          "Gmail",
+          "Google Drive",
+          "Google Sheets",
+          "OpenAI"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Approve exceptions",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Weekly expense report",
+      "Approved invoices"
+    ]
+  },
+  "steps": [
+    "Set one receipts inbox.",
+    "Run the weekly match.",
+    "Approve exceptions.",
+    "Export at month end."
+  ],
+  "guardrails": [
+    "Review a sample by hand before you trust a scheduled run.",
+    "This is admin help, not legal, tax or financial advice."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 110,
+    "score": 69,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/team-expense-reconcile/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/team-expense-reconcile.json"
+}

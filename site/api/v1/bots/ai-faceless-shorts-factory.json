@@ -1,0 +1,43 @@
+{
+  "type": "bot",
+  "slug": "ai-faceless-shorts-factory",
+  "name": "AI Faceless Shorts Factory",
+  "category": "Content and Marketing",
+  "sub_use_case": "Video production",
+  "summary": "Produces shorts for a faceless YouTube or TikTok channel through AITuber.",
+  "tools": [
+    "AITuber",
+    "YouTube",
+    "TikTok"
+  ],
+  "creator": {
+    "handle": "dhivalogu",
+    "url": "https://botdirectory.ai/bots/ai-faceless-shorts-factory/"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://botdirectory.ai/bots/ai-faceless-shorts-factory/"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/ai-faceless-shorts-factory/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/ai-faceless-shorts-factory/",
+  "json_url": "https://moneywithai.net/api/v1/bots/ai-faceless-shorts-factory.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/faceless-youtube-channel/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 273,
+    "score": 65,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

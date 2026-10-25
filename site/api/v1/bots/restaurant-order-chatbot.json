@@ -1,0 +1,43 @@
+{
+  "type": "bot",
+  "slug": "restaurant-order-chatbot",
+  "name": "Restaurant Order Chatbot",
+  "category": "E-Commerce",
+  "sub_use_case": "Store operations",
+  "summary": "A restaurant ordering chatbot that turns chat orders into structured tickets for your point-of-sale.",
+  "tools": [
+    "n8n",
+    "Google Sheets",
+    "OpenAI"
+  ],
+  "creator": {
+    "handle": "Kumar Shivam",
+    "url": "https://n8n.io/creators/shivam840708/"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://n8n.io/workflows/3942/"
+  },
+  "official_share_url": null,
+  "found_via": "https://n8n.io/workflows/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/restaurant-order-chatbot/",
+  "json_url": "https://moneywithai.net/api/v1/bots/restaurant-order-chatbot.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/restaurant-orders-calls-recovery/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 217,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

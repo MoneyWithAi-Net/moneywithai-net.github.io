@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "clipper",
+  "name": "Clipper",
+  "category": "Content and Marketing",
+  "sub_use_case": "Video production",
+  "summary": "Turns videos from X or your own files into short clips and captioned GIFs with a clear angle.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "thesoragirls",
+    "url": "https://x.com/thesoragirls"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/thesoragirls/status/2093420118487310516"
+  },
+  "official_share_url": "https://x.ai/bot/ozEfaAFJMDGoB-ysym8_V",
+  "found_via": "https://botdirectory.ai/bots/clipper/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/clipper/",
+  "json_url": "https://moneywithai.net/api/v1/bots/clipper.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/short-form-clipping-agency/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 72,
+    "score": 87,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

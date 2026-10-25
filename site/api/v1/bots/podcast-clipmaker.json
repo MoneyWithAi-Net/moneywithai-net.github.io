@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "podcast-clipmaker",
+  "name": "Podcast Clipmaker",
+  "category": "Content and Marketing",
+  "sub_use_case": "Podcasts",
+  "summary": "Summarizes each new podcast episode and picks the strongest moments for short social clips.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "BotDirectoryAI",
+    "url": "https://x.com/BotDirectoryAI"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/BotDirectoryAI/status/2095460497042588104"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/podcast-clipmaker/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/podcast-clipmaker/",
+  "json_url": "https://moneywithai.net/api/v1/bots/podcast-clipmaker.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/podcast-production-service/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 46,
+    "score": 92,
+    "money": 40,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

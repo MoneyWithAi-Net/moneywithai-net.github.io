@@ -1,0 +1,185 @@
+{
+  "type": "use-case",
+  "slug": "construction-field-office",
+  "title": "Run a Construction Field Office from Your Phone",
+  "category": "Research and Ops",
+  "category_slug": "research-and-ops",
+  "money_model": "Save costs",
+  "difficulty": "Intermediate",
+  "summary": "Turn site photos into issues, log daily notes, precheck plans and keep the back office in step.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes saved time and fewer costly mistakes.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Fewer missed issues and disputes.",
+    "Daily records without paperwork."
+  ],
+  "who_its_for": [
+    "Small contractors and project managers."
+  ],
+  "stack": [
+    {
+      "bot": "construction-manager-bot",
+      "name": "Construction Manager Bot",
+      "role": "Turns photos into issues and RFIs.",
+      "creator": "HenryBeagle808",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/construction-manager-bot/",
+      "official_share_url": "https://x.ai/bot/QrJpjStFV2WBIaI8wirO6"
+    },
+    {
+      "bot": "contractor-daily",
+      "name": "Contractor Daily",
+      "role": "Builds the daily jobsite packet.",
+      "creator": "Openminded187A",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/contractor-daily/",
+      "official_share_url": "https://x.ai/bot/ZNhFnMcPTQQDn3uLXbffi"
+    },
+    {
+      "bot": "plan-precheck-bot",
+      "name": "Plan Precheck Bot",
+      "role": "Prechecks plan sets.",
+      "creator": "TinaDS61",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/plan-precheck-bot/",
+      "official_share_url": "https://x.ai/bot/2AX61eyWkS5Z2JzMrgv7E"
+    },
+    {
+      "bot": "grant-general-manager",
+      "name": "Grant (General Manager)",
+      "role": "Oversees dispatch and back office.",
+      "creator": "HouseHackerJon",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/grant-general-manager/",
+      "official_share_url": "https://x.ai/bot/fkM4b8n4RqZTbrq5fw5L_"
+    },
+    {
+      "bot": "construction-chief-of-staff",
+      "name": "Construction Chief of Staff",
+      "role": "Coordinates the office.",
+      "creator": "RoggyRyan",
+      "tools": [
+        "Email",
+        "Google Calendar"
+      ],
+      "url": "https://moneywithai.net/bots/construction-chief-of-staff/",
+      "official_share_url": "https://x.ai/bot/dZfz-QuarMKqQo_mdPhbb"
+    }
+  ],
+  "tools": [
+    "Grok",
+    "Email",
+    "Google Calendar"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Site photos",
+        "tool": null
+      },
+      {
+        "label": "Plans",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "construction-manager-bot",
+        "name": "Construction Manager Bot",
+        "does": "Logs issues",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "contractor-daily",
+        "name": "Contractor Daily",
+        "does": "Builds daily packet",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "plan-precheck-bot",
+        "name": "Plan Precheck Bot",
+        "does": "Prechecks plans",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "grant-general-manager",
+        "name": "Grant (General Manager)",
+        "does": "Oversees office",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "construction-chief-of-staff",
+        "name": "Construction Chief of Staff",
+        "does": "Coordinates office",
+        "tools": [
+          "Email",
+          "Google Calendar"
+        ]
+      },
+      {
+        "order": 6,
+        "by": "you",
+        "name": "You",
+        "does": "Approve and build",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Daily packets",
+      "Issue log",
+      "Plan markups"
+    ]
+  },
+  "steps": [
+    "Start with daily packets.",
+    "Add photo issues next.",
+    "Precheck the next plan set.",
+    "Review the office weekly."
+  ],
+  "guardrails": [
+    "This is admin help, not legal, tax or financial advice.",
+    "Review a sample by hand before you trust a scheduled run."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 60,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/construction-field-office/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/construction-field-office.json"
+}

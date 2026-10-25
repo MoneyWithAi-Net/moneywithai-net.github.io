@@ -1,0 +1,43 @@
+{
+  "type": "bot",
+  "slug": "virtual-front-desk-booker",
+  "name": "Virtual Front Desk Booker",
+  "category": "Customer Support",
+  "sub_use_case": "Chat and messaging support",
+  "summary": "A virtual receptionist that answers inquiries and books slots on Google Calendar with a Sheets log.",
+  "tools": [
+    "n8n",
+    "Google Sheets",
+    "OpenAI"
+  ],
+  "creator": {
+    "handle": "Risper",
+    "url": "https://n8n.io/creators/risper254/"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://n8n.io/workflows/8326/"
+  },
+  "official_share_url": null,
+  "found_via": "https://n8n.io/workflows/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/virtual-front-desk-booker/",
+  "json_url": "https://moneywithai.net/api/v1/bots/virtual-front-desk-booker.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/ai-receptionist-agency/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 52,
+    "score": 92,
+    "money": 40,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

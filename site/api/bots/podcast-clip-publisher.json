@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "podcast-clip-publisher",
+    "name": "Podcast Clip Publisher",
+    "category": "Content and Marketing",
+    "sub_use_case": "Podcasts",
+    "summary": "Transcribes podcast episodes and turns the highlights into X posts.",
+    "tools": [
+      "X"
+    ],
+    "creator": {
+      "handle": "GavinSBaker",
+      "url": "https://x.com/GavinSBaker"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/GavinSBaker/status/2089379355692527813"
+    },
+    "official_share_url": null,
+    "found_via": "https://botdirectory.ai/bots/podcast-clip-publisher/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/podcast-clip-publisher/",
+    "json_url": "https://moneywithai.net/api/bots/podcast-clip-publisher.json"
+  }
+}

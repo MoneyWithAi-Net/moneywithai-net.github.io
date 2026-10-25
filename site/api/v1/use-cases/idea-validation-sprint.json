@@ -1,0 +1,181 @@
+{
+  "type": "use-case",
+  "slug": "idea-validation-sprint",
+  "title": "Validate a Business Idea in Two Weeks",
+  "category": "Research and Ops",
+  "category_slug": "research-and-ops",
+  "money_model": "Sell a service",
+  "difficulty": "Beginner",
+  "summary": "Pull real pain points, study a working business, check opportunity fit and leave with one customer conversation.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Assumes the value is avoiding a bad bet; income comes later.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "You avoid building something nobody wants.",
+    "A real customer conversation in 14 days."
+  ],
+  "who_its_for": [
+    "Aspiring founders and side-hustlers."
+  ],
+  "stack": [
+    {
+      "bot": "lurk-reddit-researcher",
+      "name": "Lurk (Reddit Researcher)",
+      "role": "Pulls pain points from Reddit.",
+      "creator": "tinkerersanky",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/lurk-reddit-researcher/",
+      "official_share_url": "https://x.ai/bot/12Gbp1lPVsfTVAHPXKd3B"
+    },
+    {
+      "bot": "steal-this-business",
+      "name": "Steal This Business",
+      "role": "Breaks down a working business.",
+      "creator": "Grok_Hub_IO",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/steal-this-business/",
+      "official_share_url": "https://x.ai/bot/Ojrv95GLUG1nO1p1RWzVK"
+    },
+    {
+      "bot": "opportunity-field-researcher",
+      "name": "Opportunity Field Researcher",
+      "role": "Checks fit with your skills and budget.",
+      "creator": "elie2222",
+      "tools": [
+        "Trends.vc"
+      ],
+      "url": "https://moneywithai.net/bots/opportunity-field-researcher/",
+      "official_share_url": null
+    },
+    {
+      "bot": "sherpa-bot",
+      "name": "Sherpa Bot",
+      "role": "Pushes you to one real customer.",
+      "creator": "MorganWKhan",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/sherpa-bot/",
+      "official_share_url": "https://x.ai/bot/CGmwZlk_FVNYJO_VruSFZ"
+    },
+    {
+      "bot": "last30days",
+      "name": "last30days",
+      "role": "Shows what people said lately.",
+      "creator": "mvanhorn",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/last30days/",
+      "official_share_url": "https://x.ai/bot/ANv3NrqPfRcS9PdXku7h8"
+    }
+  ],
+  "tools": [
+    "Grok",
+    "Trends.vc"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Seed keywords",
+        "tool": null
+      },
+      {
+        "label": "Your skills and budget",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "lurk-reddit-researcher",
+        "name": "Lurk (Reddit Researcher)",
+        "does": "Pulls pain points",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "steal-this-business",
+        "name": "Steal This Business",
+        "does": "Breaks down a model",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "opportunity-field-researcher",
+        "name": "Opportunity Field Researcher",
+        "does": "Checks fit",
+        "tools": [
+          "Trends.vc"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "sherpa-bot",
+        "name": "Sherpa Bot",
+        "does": "Finds a real customer",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "last30days",
+        "name": "last30days",
+        "does": "Checks recent talk",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 6,
+        "by": "you",
+        "name": "You",
+        "does": "Talk to customers",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Pain-point pack",
+      "Go or no-go decision"
+    ]
+  },
+  "steps": [
+    "Pick three ideas.",
+    "Run the research on each.",
+    "Choose one and talk to five people.",
+    "Decide go or no-go."
+  ],
+  "guardrails": [
+    "Check every number and claim before it goes public.",
+    "This is admin help, not legal, tax or financial advice."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 123,
+    "score": 69,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/idea-validation-sprint/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/idea-validation-sprint.json"
+}

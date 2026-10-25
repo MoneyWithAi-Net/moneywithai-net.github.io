@@ -26,7 +26,18 @@
   "url": "https://moneywithai.net/bots/cpm/",
   "json_url": "https://moneywithai.net/api/v1/bots/cpm.json",
   "use_cases": [
-    "https://moneywithai.net/use-cases/price-brand-deals/"
+    "https://moneywithai.net/use-cases/price-brand-deals/",
+    "https://moneywithai.net/use-cases/creator-sponsor-sales-desk/"
   ],
-  "added_at": "2026-10-24T09:30:00.000Z"
+  "added_at": "2026-10-24T09:30:00.000Z",
+  "featured": {
+    "rank": 74,
+    "score": 87,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
 }

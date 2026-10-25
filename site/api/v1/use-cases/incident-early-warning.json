@@ -1,0 +1,177 @@
+{
+  "type": "use-case",
+  "slug": "incident-early-warning",
+  "title": "Catch Product Incidents from Support Signals",
+  "category": "Customer Support",
+  "category_slug": "customer-support",
+  "money_model": "Save costs",
+  "difficulty": "Advanced",
+  "summary": "Cluster repeat reports with monitoring data, theme feedback, update docs and tell customers what shipped.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes fewer churned customers after incidents.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Incidents caught before they spread.",
+    "Fewer duplicate tickets."
+  ],
+  "who_its_for": [
+    "SaaS teams."
+  ],
+  "stack": [
+    {
+      "bot": "support-incident-detector",
+      "name": "Support Incident Detector",
+      "role": "Clusters repeat reports with Datadog signals.",
+      "creator": "BotDirectoryAI",
+      "tools": [
+        "Plain",
+        "Datadog",
+        "X"
+      ],
+      "url": "https://moneywithai.net/bots/support-incident-detector/",
+      "official_share_url": null
+    },
+    {
+      "bot": "customer-feedback-theme-analyst",
+      "name": "Customer Feedback Theme Analyst",
+      "role": "Groups feedback into themes.",
+      "creator": "BotDirectoryAI",
+      "tools": [
+        "Plain",
+        "X",
+        "Linear"
+      ],
+      "url": "https://moneywithai.net/bots/customer-feedback-theme-analyst/",
+      "official_share_url": null
+    },
+    {
+      "bot": "support-docs-sync",
+      "name": "Support Docs Sync",
+      "role": "Updates help docs from releases.",
+      "creator": "BotDirectoryAI",
+      "tools": [
+        "Intercom",
+        "GitHub"
+      ],
+      "url": "https://moneywithai.net/bots/support-docs-sync/",
+      "official_share_url": null
+    },
+    {
+      "bot": "ship-note",
+      "name": "Ship Note",
+      "role": "Writes the fix email.",
+      "creator": "sol_wright7",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/ship-note/",
+      "official_share_url": "https://x.ai/bot/xMCiRCmOCYLeRzW8nS6EL"
+    }
+  ],
+  "tools": [
+    "Plain",
+    "Datadog",
+    "X",
+    "Linear",
+    "Intercom",
+    "GitHub",
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Support reports",
+        "tool": "Plain"
+      },
+      {
+        "label": "Monitoring",
+        "tool": "Datadog"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "support-incident-detector",
+        "name": "Support Incident Detector",
+        "does": "Detects incidents",
+        "tools": [
+          "Plain",
+          "Datadog",
+          "X"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "customer-feedback-theme-analyst",
+        "name": "Customer Feedback Theme Analyst",
+        "does": "Groups themes",
+        "tools": [
+          "Plain",
+          "X",
+          "Linear"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "support-docs-sync",
+        "name": "Support Docs Sync",
+        "does": "Updates docs",
+        "tools": [
+          "Intercom",
+          "GitHub"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "ship-note",
+        "name": "Ship Note",
+        "does": "Writes fix email",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Decide and fix",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Incident alerts",
+      "Themes",
+      "Fix notes"
+    ]
+  },
+  "steps": [
+    "Connect support and monitoring.",
+    "Set alert thresholds.",
+    "Review themes weekly.",
+    "Send fix notes."
+  ],
+  "guardrails": [
+    "A person stays reachable for anything the bot is unsure about.",
+    "Check every number and claim before it goes public."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 88,
+    "score": 76,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 3,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/incident-early-warning/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/incident-early-warning.json"
+}

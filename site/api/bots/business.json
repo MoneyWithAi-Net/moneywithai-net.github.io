@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "business",
+    "name": "Business",
+    "category": "Finance",
+    "sub_use_case": "Bookkeeping and reporting",
+    "summary": "Runs books, customers and sign-ups on an open-source business SQL schema that keeps full history.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "ArtJazd",
+      "url": "https://x.com/ArtJazd"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/ArtJazd/status/2105237507675931133"
+    },
+    "official_share_url": "https://x.ai/bot/90lHQMpkeUT1ZWIw6dxkB",
+    "found_via": "https://grokbot101.org/bots/business-books/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/business/",
+    "json_url": "https://moneywithai.net/api/bots/business.json"
+  }
+}

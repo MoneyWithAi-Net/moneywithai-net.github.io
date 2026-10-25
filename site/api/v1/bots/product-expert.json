@@ -26,7 +26,19 @@
   "url": "https://moneywithai.net/bots/product-expert/",
   "json_url": "https://moneywithai.net/api/v1/bots/product-expert.json",
   "use_cases": [
-    "https://moneywithai.net/use-cases/product-expert-on-sales-calls/"
+    "https://moneywithai.net/use-cases/product-expert-on-sales-calls/",
+    "https://moneywithai.net/use-cases/security-review-deal-acceleration/",
+    "https://moneywithai.net/use-cases/sales-call-insights-to-product/"
   ],
-  "added_at": "2026-10-24T08:00:00.000Z"
+  "added_at": "2026-10-24T08:00:00.000Z",
+  "featured": {
+    "rank": 213,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
 }

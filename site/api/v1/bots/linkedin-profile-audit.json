@@ -27,7 +27,18 @@
   "url": "https://moneywithai.net/bots/linkedin-profile-audit/",
   "json_url": "https://moneywithai.net/api/v1/bots/linkedin-profile-audit.json",
   "use_cases": [
-    "https://moneywithai.net/use-cases/linkedin-lead-magnet-funnel/"
+    "https://moneywithai.net/use-cases/linkedin-lead-magnet-funnel/",
+    "https://moneywithai.net/use-cases/linkedin-thought-leadership-engine/"
   ],
-  "added_at": "2026-10-24T08:00:00.000Z"
+  "added_at": "2026-10-24T08:00:00.000Z",
+  "featured": {
+    "rank": 204,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
 }

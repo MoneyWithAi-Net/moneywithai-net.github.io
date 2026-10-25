@@ -1,0 +1,33 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "invoice-approval-router",
+    "name": "Invoice Approval Router",
+    "category": "Finance",
+    "sub_use_case": "Invoices",
+    "summary": "Picks up PDF invoices from Gmail, extracts the data and routes each one through an approval step in Sheets.",
+    "tools": [
+      "n8n",
+      "Gmail",
+      "Google Drive",
+      "Google Sheets",
+      "OpenAI"
+    ],
+    "creator": {
+      "handle": "Billy Christi",
+      "url": "https://n8n.io/creators/billy/"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://n8n.io/workflows/4452/"
+    },
+    "official_share_url": null,
+    "found_via": "https://n8n.io/workflows/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/invoice-approval-router/",
+    "json_url": "https://moneywithai.net/api/bots/invoice-approval-router.json"
+  }
+}

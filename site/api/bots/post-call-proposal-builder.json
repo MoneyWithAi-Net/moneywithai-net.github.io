@@ -1,0 +1,33 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "post-call-proposal-builder",
+    "name": "Post Call Proposal Builder",
+    "category": "Client Services",
+    "sub_use_case": "Quotes",
+    "summary": "After a sales call, drafts a tailored proposal in Google Slides and emails it for your review.",
+    "tools": [
+      "n8n",
+      "Gmail",
+      "Google Drive",
+      "Google Slides",
+      "OpenAI"
+    ],
+    "creator": {
+      "handle": "Gerald Denor",
+      "url": "https://n8n.io/creators/dominixai/"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://n8n.io/workflows/4359/"
+    },
+    "official_share_url": null,
+    "found_via": "https://n8n.io/workflows/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/post-call-proposal-builder/",
+    "json_url": "https://moneywithai.net/api/bots/post-call-proposal-builder.json"
+  }
+}

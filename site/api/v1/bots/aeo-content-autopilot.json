@@ -1,0 +1,46 @@
+{
+  "type": "bot",
+  "slug": "aeo-content-autopilot",
+  "name": "AEO Content Autopilot",
+  "category": "Content and Marketing",
+  "sub_use_case": "SEO and AI search",
+  "summary": "Turns new videos and source material into answer-engine-ready articles using ClickFlow, GA4, Ahrefs and Search Console.",
+  "tools": [
+    "YouTube",
+    "ClickFlow",
+    "Google Analytics",
+    "Ahrefs",
+    "Google Search Console"
+  ],
+  "creator": {
+    "handle": "ericosiu",
+    "url": "https://x.com/ericosiu"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/ericosiu/status/2089523616824357179"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/aeo-content-autopilot/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/aeo-content-autopilot/",
+  "json_url": "https://moneywithai.net/api/v1/bots/aeo-content-autopilot.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/video-to-search-traffic/",
+    "https://moneywithai.net/use-cases/amazon-associates-guide-site/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 182,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

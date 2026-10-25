@@ -1,0 +1,36 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "blog-to-social-publisher",
+    "name": "Blog to Social Publisher",
+    "category": "Content and Marketing",
+    "sub_use_case": "Brand social",
+    "summary": "Takes new WordPress posts and writes and publishes matching posts for X, Facebook, LinkedIn and Instagram.",
+    "tools": [
+      "n8n",
+      "Facebook",
+      "Google Sheets",
+      "LinkedIn",
+      "OpenAI",
+      "OpenRouter",
+      "WordPress",
+      "X"
+    ],
+    "creator": {
+      "handle": "Davide Boizza",
+      "url": "https://n8n.io/creators/n3witalia/"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://n8n.io/workflows/3086/"
+    },
+    "official_share_url": null,
+    "found_via": "https://n8n.io/workflows/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/blog-to-social-publisher/",
+    "json_url": "https://moneywithai.net/api/bots/blog-to-social-publisher.json"
+  }
+}

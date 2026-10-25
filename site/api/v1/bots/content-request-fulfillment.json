@@ -1,0 +1,43 @@
+{
+  "type": "bot",
+  "slug": "content-request-fulfillment",
+  "name": "Content Request Fulfillment",
+  "category": "Client Services",
+  "sub_use_case": "Client delivery",
+  "summary": "Picks up content requests from a named client's email and drafts the piece in Google Docs.",
+  "tools": [
+    "Gmail",
+    "Claude",
+    "Google Docs"
+  ],
+  "creator": {
+    "handle": "fatjoedavies",
+    "url": "https://x.com/fatjoedavies"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/fatjoedavies/status/2090040220875915485"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/content-request-fulfillment/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/content-request-fulfillment/",
+  "json_url": "https://moneywithai.net/api/v1/bots/content-request-fulfillment.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/content-agency-delivery/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 194,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

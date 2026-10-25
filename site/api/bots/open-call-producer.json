@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "open-call-producer",
+    "name": "Open Call Producer",
+    "category": "Client Services",
+    "sub_use_case": "Grant packs",
+    "summary": "Finds photography open calls, checks your work against the brief and prepares submission drafts.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "sashanaria",
+      "url": "https://x.com/sashanaria"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/sashanaria/status/2103237385521971372"
+    },
+    "official_share_url": "https://x.ai/bot/BONR6QrctxFQWXdHzT1Ro",
+    "found_via": "https://grokbot101.org/bots/open-call-producer/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/open-call-producer/",
+    "json_url": "https://moneywithai.net/api/bots/open-call-producer.json"
+  }
+}

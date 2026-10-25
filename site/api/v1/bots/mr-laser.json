@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "mr-laser",
+  "name": "Mr. Laser",
+  "category": "E-Commerce",
+  "sub_use_case": "Store operations",
+  "summary": "Team lead for a one-person laser engraving shop, coordinating artwork, machine settings and order work.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "RichSilver",
+    "url": "https://x.com/RichSilver"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/RichSilver/status/2093409240962506861"
+  },
+  "official_share_url": "https://x.ai/bot/GU4KJSYtPZeiLf8ubPMXY",
+  "found_via": "https://botdirectory.ai/bots/mr-laser/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/mr-laser/",
+  "json_url": "https://moneywithai.net/api/v1/bots/mr-laser.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/custom-maker-shop-ops/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 162,
+    "score": 83,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

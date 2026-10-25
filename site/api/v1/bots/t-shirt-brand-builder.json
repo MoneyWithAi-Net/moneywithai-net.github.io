@@ -1,0 +1,42 @@
+{
+  "type": "bot",
+  "slug": "t-shirt-brand-builder",
+  "name": "T-Shirt Brand Builder",
+  "category": "E-Commerce",
+  "sub_use_case": "Product listings and creative",
+  "summary": "Builds a quote-based T-shirt brand with Canva designs and Shopify listings around your audience and tone.",
+  "tools": [
+    "Canva",
+    "Shopify"
+  ],
+  "creator": {
+    "handle": "LBallz77283",
+    "url": "https://x.com/LBallz77283"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/LBallz77283/status/2093526095769350349"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/t-shirt-brand-builder/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/t-shirt-brand-builder/",
+  "json_url": "https://moneywithai.net/api/v1/bots/t-shirt-brand-builder.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/print-on-demand-brand/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 270,
+    "score": 69,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

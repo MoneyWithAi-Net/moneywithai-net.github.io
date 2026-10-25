@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "mystery-eshopper",
+  "name": "Mystery eShopper",
+  "category": "E-Commerce",
+  "sub_use_case": "Store operations",
+  "summary": "Mystery-shops an online store end to end and returns an evidence-backed quality scorecard.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "VicGellon",
+    "url": "https://x.com/VicGellon"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/VicGellon/status/2104124777850081574"
+  },
+  "official_share_url": "https://x.ai/bot/tc-aGvnjjvatdp_8LK-Ad",
+  "found_via": "https://grokbot101.org/bots/mystery-eshopper/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/mystery-eshopper/",
+  "json_url": "https://moneywithai.net/api/v1/bots/mystery-eshopper.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/store-conversion-audit-service/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 163,
+    "score": 83,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

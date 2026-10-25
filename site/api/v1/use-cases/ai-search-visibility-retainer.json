@@ -1,0 +1,192 @@
+{
+  "type": "use-case",
+  "slug": "ai-search-visibility-retainer",
+  "title": "Sell an AI Search Visibility Retainer",
+  "category": "Content and Marketing",
+  "category_slug": "content-and-marketing",
+  "money_model": "Sell a service",
+  "difficulty": "Advanced",
+  "summary": "Measure how brands show up in AI answers, fix their sites and report progress monthly.",
+  "money_potential": {
+    "tier": 3,
+    "symbol": "$$$",
+    "label": "High",
+    "basis": "Assumes a monthly retainer per client.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "A new service many businesses are asking about.",
+    "Monthly reports justify a retainer."
+  ],
+  "who_its_for": [
+    "SEO freelancers and small agencies."
+  ],
+  "stack": [
+    {
+      "bot": "presence-lab",
+      "name": "Presence Lab",
+      "role": "Asks AI assistants the same questions weekly.",
+      "creator": "DELLIGHT_AI",
+      "tools": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "url": "https://moneywithai.net/bots/presence-lab/",
+      "official_share_url": null
+    },
+    {
+      "bot": "geo-visibility-agent",
+      "name": "GEO Visibility Agent",
+      "role": "Suggests content fixes for AI answers.",
+      "creator": "angelosorbello1",
+      "tools": [
+        "Google Search Console",
+        "Google Analytics"
+      ],
+      "url": "https://moneywithai.net/bots/geo-visibility-agent/",
+      "official_share_url": null
+    },
+    {
+      "bot": "aio-specialist-aeo-geo",
+      "name": "AIO Specialist (AEO/GEO)",
+      "role": "Runs the optimization program.",
+      "creator": "mathiasnoyez",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/aio-specialist-aeo-geo/",
+      "official_share_url": "https://x.ai/bot/wOvqAFpr3o8VB3g4Tmpxr"
+    },
+    {
+      "bot": "site-audit",
+      "name": "Site Audit",
+      "role": "Scores the site with evidence.",
+      "creator": "scheemunai",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/site-audit/",
+      "official_share_url": "https://x.ai/bot/s6JVFYDIDMsCQMBeTcznW"
+    },
+    {
+      "bot": "case-skeleton",
+      "name": "Case Skeleton",
+      "role": "Outlines case studies for your sales page.",
+      "creator": "paulopierrondi",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/case-skeleton/",
+      "official_share_url": "https://x.ai/bot/_7yFKwQCYR_mi_oVmKOEN"
+    }
+  ],
+  "tools": [
+    "ChatGPT",
+    "Claude",
+    "Gemini",
+    "Google Search Console",
+    "Google Analytics",
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Client site",
+        "tool": null
+      },
+      {
+        "label": "AI assistants",
+        "tool": "ChatGPT"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "presence-lab",
+        "name": "Presence Lab",
+        "does": "Tracks AI mentions",
+        "tools": [
+          "ChatGPT",
+          "Claude",
+          "Gemini"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "geo-visibility-agent",
+        "name": "GEO Visibility Agent",
+        "does": "Suggests fixes",
+        "tools": [
+          "Google Search Console",
+          "Google Analytics"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "aio-specialist-aeo-geo",
+        "name": "AIO Specialist (AEO/GEO)",
+        "does": "Runs the program",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "site-audit",
+        "name": "Site Audit",
+        "does": "Audits the site",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "case-skeleton",
+        "name": "Case Skeleton",
+        "does": "Outlines case studies",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 6,
+        "by": "you",
+        "name": "You",
+        "does": "Sell and review reports",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Visibility reports",
+      "Site fixes",
+      "Case studies"
+    ]
+  },
+  "steps": [
+    "Audit three brands for free to build proof.",
+    "Agree a question set with each client.",
+    "Ship fixes monthly.",
+    "Send a monthly report and case study."
+  ],
+  "guardrails": [
+    "Check every number and claim before it goes public.",
+    "You need your own accounts for the connected tools; check their current plans first."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 21,
+    "score": 89,
+    "money": 40,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 3,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/ai-search-visibility-retainer/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/ai-search-visibility-retainer.json"
+}

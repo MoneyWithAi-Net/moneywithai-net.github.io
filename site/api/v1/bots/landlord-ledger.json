@@ -26,7 +26,19 @@
   "json_url": "https://moneywithai.net/api/v1/bots/landlord-ledger.json",
   "use_cases": [
     "https://moneywithai.net/use-cases/rental-income-bookkeeping/",
-    "https://moneywithai.net/use-cases/property-maintenance-ops/"
+    "https://moneywithai.net/use-cases/property-maintenance-ops/",
+    "https://moneywithai.net/use-cases/rental-listing-lead-desk/",
+    "https://moneywithai.net/use-cases/short-term-rental-investing-desk/"
   ],
-  "added_at": "2026-10-24T09:30:00.000Z"
+  "added_at": "2026-10-24T09:30:00.000Z",
+  "featured": {
+    "rank": 83,
+    "score": 87,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
 }

@@ -1,0 +1,44 @@
+{
+  "type": "bot",
+  "slug": "invoice-ocr-checker",
+  "name": "Invoice OCR Checker",
+  "category": "Finance",
+  "sub_use_case": "Invoices",
+  "summary": "Reads invoice PDFs with OCR, checks the fields and logs validated invoices to Google Sheets.",
+  "tools": [
+    "n8n",
+    "Google Sheets",
+    "OpenRouter"
+  ],
+  "creator": {
+    "handle": "Dhrumil Patel",
+    "url": "https://n8n.io/creators/itechdp/"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://n8n.io/workflows/4247/"
+  },
+  "official_share_url": null,
+  "found_via": "https://n8n.io/workflows/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-25",
+  "url": "https://moneywithai.net/bots/invoice-ocr-checker/",
+  "json_url": "https://moneywithai.net/api/v1/bots/invoice-ocr-checker.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/bookkeeping-cleanup-service/",
+    "https://moneywithai.net/use-cases/accounts-payable-autopilot/"
+  ],
+  "added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 42,
+    "score": 92,
+    "money": 40,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

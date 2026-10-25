@@ -1,0 +1,30 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "tickets-to-changelog",
+    "name": "Tickets To Changelog",
+    "category": "Customer Support",
+    "sub_use_case": "Help center",
+    "summary": "Turns the week's Zendesk tickets into changelog entries in Notion.",
+    "tools": [
+      "Zendesk",
+      "Notion"
+    ],
+    "creator": {
+      "handle": "ericzakariasson",
+      "url": "https://x.com/ericzakariasson"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/ericzakariasson/status/2087258964131979423"
+    },
+    "official_share_url": null,
+    "found_via": "https://botdirectory.ai/bots/tickets-to-changelog/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-25",
+    "url": "https://moneywithai.net/bots/tickets-to-changelog/",
+    "json_url": "https://moneywithai.net/api/bots/tickets-to-changelog.json"
+  }
+}

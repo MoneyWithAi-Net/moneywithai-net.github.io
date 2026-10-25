@@ -1,0 +1,167 @@
+{
+  "type": "use-case",
+  "slug": "customer-voice-ad-engine",
+  "title": "Write Ads from Real Customer Language",
+  "category": "Content and Marketing",
+  "category_slug": "content-and-marketing",
+  "money_model": "Grow sales",
+  "difficulty": "Intermediate",
+  "summary": "Mine reviews and feedback for exact phrases, turn them into angles and creatives, then cut what does not perform.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes an existing ad budget where better angles raise returns.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Customer words usually beat brainstormed copy.",
+    "Wasted spend gets caught weekly."
+  ],
+  "who_its_for": [
+    "E-commerce brands and service businesses running ads."
+  ],
+  "stack": [
+    {
+      "bot": "voc-ad-angle-generator",
+      "name": "VOC Ad Angle Generator",
+      "role": "Ranks ad angles from customer feedback.",
+      "creator": "elie2222",
+      "tools": [
+        "Gmail",
+        "Google Sheets"
+      ],
+      "url": "https://moneywithai.net/bots/voc-ad-angle-generator/",
+      "official_share_url": null
+    },
+    {
+      "bot": "customer-voice-ad-writer",
+      "name": "Customer-Voice Ad Writer",
+      "role": "Writes ad copy from Reddit and reviews.",
+      "creator": "buildingadlicio",
+      "tools": [
+        "Reddit"
+      ],
+      "url": "https://moneywithai.net/bots/customer-voice-ad-writer/",
+      "official_share_url": null
+    },
+    {
+      "bot": "ad-creative-generator",
+      "name": "Ad Creative Generator",
+      "role": "Makes ad creatives.",
+      "creator": "mightyking",
+      "tools": [
+        "MaxFusion"
+      ],
+      "url": "https://moneywithai.net/bots/ad-creative-generator/",
+      "official_share_url": null
+    },
+    {
+      "bot": "google-ads-performance-analyst",
+      "name": "Google Ads Performance Analyst",
+      "role": "Flags wasted spend.",
+      "creator": "benln",
+      "tools": [
+        "Google Ads"
+      ],
+      "url": "https://moneywithai.net/bots/google-ads-performance-analyst/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Gmail",
+    "Google Sheets",
+    "Reddit",
+    "MaxFusion",
+    "Google Ads"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Customer feedback",
+        "tool": "Gmail"
+      },
+      {
+        "label": "Ad account",
+        "tool": "Google Ads"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "voc-ad-angle-generator",
+        "name": "VOC Ad Angle Generator",
+        "does": "Ranks angles",
+        "tools": [
+          "Gmail",
+          "Google Sheets"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "customer-voice-ad-writer",
+        "name": "Customer-Voice Ad Writer",
+        "does": "Writes ad copy",
+        "tools": [
+          "Reddit"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "ad-creative-generator",
+        "name": "Ad Creative Generator",
+        "does": "Makes creatives",
+        "tools": [
+          "MaxFusion"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "google-ads-performance-analyst",
+        "name": "Google Ads Performance Analyst",
+        "does": "Flags wasted spend",
+        "tools": [
+          "Google Ads"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Approve ads and budgets",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Ranked angles",
+      "New ads",
+      "Lower wasted spend"
+    ]
+  },
+  "steps": [
+    "Collect a month of reviews and feedback.",
+    "Pick the top three angles.",
+    "Launch small tests.",
+    "Review spend weekly and kill losers."
+  ],
+  "guardrails": [
+    "The bots never pay, sign or accept terms for you.",
+    "Check every number and claim before it goes public."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 84,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/customer-voice-ad-engine/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/customer-voice-ad-engine.json"
+}

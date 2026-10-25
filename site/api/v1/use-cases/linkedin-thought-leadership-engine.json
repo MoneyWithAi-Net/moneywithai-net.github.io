@@ -1,0 +1,188 @@
+{
+  "type": "use-case",
+  "slug": "linkedin-thought-leadership-engine",
+  "title": "Build a LinkedIn Thought-Leadership Engine",
+  "category": "Content and Marketing",
+  "category_slug": "content-and-marketing",
+  "money_model": "Grow sales",
+  "difficulty": "Intermediate",
+  "summary": "Tune your profile, publish approved posts with branded visuals and track the people who respond.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes a B2B offer where trust drives deals.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "A sharper profile converts visits.",
+    "Visuals lift reach."
+  ],
+  "who_its_for": [
+    "Consultants and B2B founders."
+  ],
+  "stack": [
+    {
+      "bot": "linkedin-profile-audit",
+      "name": "LinkedIn Profile Audit",
+      "role": "Aligns your profile with your offer.",
+      "creator": "ericzakariasson",
+      "tools": [
+        "LinkedIn",
+        "Notion",
+        "Slack"
+      ],
+      "url": "https://moneywithai.net/bots/linkedin-profile-audit/",
+      "official_share_url": null
+    },
+    {
+      "bot": "linkedin-post-approval-flow",
+      "name": "LinkedIn Post Approval Flow",
+      "role": "Drafts and posts with email approval.",
+      "creator": "Aryan Shinde",
+      "tools": [
+        "n8n",
+        "Gmail",
+        "Google Sheets",
+        "LinkedIn",
+        "OpenAI"
+      ],
+      "url": "https://moneywithai.net/bots/linkedin-post-approval-flow/",
+      "official_share_url": null
+    },
+    {
+      "bot": "on-brand-card-designer",
+      "name": "On-Brand Card Designer",
+      "role": "Makes branded cards.",
+      "creator": "elie2222",
+      "tools": [
+        "Monocards",
+        "Claude Desktop",
+        "Claude Code"
+      ],
+      "url": "https://moneywithai.net/bots/on-brand-card-designer/",
+      "official_share_url": null
+    },
+    {
+      "bot": "linkedin-lead-outreach",
+      "name": "LinkedIn Lead Outreach",
+      "role": "Logs responders into Notion.",
+      "creator": "ethan_leee9113",
+      "tools": [
+        "LinkedIn",
+        "Notion"
+      ],
+      "url": "https://moneywithai.net/bots/linkedin-lead-outreach/",
+      "official_share_url": "https://x.ai/bot/DEMmOi7SiFhsFtIKuBKRD"
+    }
+  ],
+  "tools": [
+    "LinkedIn",
+    "Notion",
+    "Slack",
+    "n8n",
+    "Gmail",
+    "Google Sheets",
+    "OpenAI",
+    "Monocards",
+    "Claude Desktop",
+    "Claude Code"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Your profile",
+        "tool": "LinkedIn"
+      },
+      {
+        "label": "Topics",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "linkedin-profile-audit",
+        "name": "LinkedIn Profile Audit",
+        "does": "Tunes the profile",
+        "tools": [
+          "LinkedIn",
+          "Notion",
+          "Slack"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "linkedin-post-approval-flow",
+        "name": "LinkedIn Post Approval Flow",
+        "does": "Posts with approval",
+        "tools": [
+          "n8n",
+          "Gmail",
+          "Google Sheets",
+          "LinkedIn",
+          "OpenAI"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "on-brand-card-designer",
+        "name": "On-Brand Card Designer",
+        "does": "Makes cards",
+        "tools": [
+          "Monocards",
+          "Claude Desktop",
+          "Claude Code"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "linkedin-lead-outreach",
+        "name": "LinkedIn Lead Outreach",
+        "does": "Logs responders",
+        "tools": [
+          "LinkedIn",
+          "Notion"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Approve posts",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Better profile",
+      "Weekly posts",
+      "Lead list"
+    ]
+  },
+  "steps": [
+    "Run the profile audit first.",
+    "Plan two posts a week.",
+    "Add a card to each post.",
+    "Follow up with responders."
+  ],
+  "guardrails": [
+    "Nothing is posted publicly without your OK.",
+    "Keep daily sending caps low and follow each platform's rules on automation."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 43,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/linkedin-thought-leadership-engine/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/linkedin-thought-leadership-engine.json"
+}

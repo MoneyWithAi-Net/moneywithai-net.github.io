@@ -1,0 +1,185 @@
+{
+  "type": "use-case",
+  "slug": "web-studio-delivery-pipeline",
+  "title": "Run a Small Web Studio from Lead to Care Plan",
+  "category": "Client Services",
+  "category_slug": "client-services",
+  "money_model": "Sell a service",
+  "difficulty": "Intermediate",
+  "summary": "Find businesses without sites, spec and design the build, then host and maintain it on a care plan.",
+  "money_potential": {
+    "tier": 3,
+    "symbol": "$$$",
+    "label": "High",
+    "basis": "Assumes build fees plus monthly care plans.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Build fees up front, care plans every month.",
+    "Specs cut rework."
+  ],
+  "who_its_for": [
+    "Web designers."
+  ],
+  "stack": [
+    {
+      "bot": "local-business-website-hunter",
+      "name": "Local Business Website Hunter",
+      "role": "Finds businesses with no site and drafts a demo.",
+      "creator": "NewLongMoney",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/local-business-website-hunter/",
+      "official_share_url": "https://x.ai/bot/U87LeqeLNEIKRe9ctpRxG"
+    },
+    {
+      "bot": "requirement-engineer-bot",
+      "name": "Requirement Engineer Bot",
+      "role": "Writes the build spec.",
+      "creator": "FishxCD",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/requirement-engineer-bot/",
+      "official_share_url": "https://x.ai/bot/5KADFS8AIIDOlow5tS34Z"
+    },
+    {
+      "bot": "web-design-assistant",
+      "name": "Web Design Assistant",
+      "role": "Designs pages in Figma and Squarespace.",
+      "creator": "farzyness",
+      "tools": [
+        "Figma",
+        "Squarespace"
+      ],
+      "url": "https://moneywithai.net/bots/web-design-assistant/",
+      "official_share_url": null
+    },
+    {
+      "bot": "whm-multi-site-ops-bot",
+      "name": "WHM Multi-Site Ops Bot",
+      "role": "Watches hosting health.",
+      "creator": "brainflollc",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/whm-multi-site-ops-bot/",
+      "official_share_url": "https://x.ai/bot/ARg7G2NtVZWu1TT05oS2w"
+    },
+    {
+      "bot": "invoice-hunter",
+      "name": "Invoice Hunter",
+      "role": "Chases invoices.",
+      "creator": "scheemunai",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/invoice-hunter/",
+      "official_share_url": "https://x.ai/bot/-kO6HrXokJZANVwUOMZO9"
+    }
+  ],
+  "tools": [
+    "Grok",
+    "Figma",
+    "Squarespace"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Local listings",
+        "tool": null
+      },
+      {
+        "label": "Hosting",
+        "tool": "cPanel"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "local-business-website-hunter",
+        "name": "Local Business Website Hunter",
+        "does": "Finds no-site businesses",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "requirement-engineer-bot",
+        "name": "Requirement Engineer Bot",
+        "does": "Writes the spec",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "web-design-assistant",
+        "name": "Web Design Assistant",
+        "does": "Designs pages",
+        "tools": [
+          "Figma",
+          "Squarespace"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "whm-multi-site-ops-bot",
+        "name": "WHM Multi-Site Ops Bot",
+        "does": "Watches hosting",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "invoice-hunter",
+        "name": "Invoice Hunter",
+        "does": "Chases invoices",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 6,
+        "by": "you",
+        "name": "You",
+        "does": "Sell and approve designs",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Live sites",
+      "Care plans"
+    ]
+  },
+  "steps": [
+    "Pitch three demos.",
+    "Spec each signed job.",
+    "Design and launch.",
+    "Move clients onto care plans."
+  ],
+  "guardrails": [
+    "Every message and document stays a draft until you approve it.",
+    "Check local rules on cold outreach, calls and texts before contacting anyone.",
+    "Do not reuse other people's images, words or likeness without permission."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 6,
+    "score": 92,
+    "money": 40,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/web-studio-delivery-pipeline/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/web-studio-delivery-pipeline.json"
+}

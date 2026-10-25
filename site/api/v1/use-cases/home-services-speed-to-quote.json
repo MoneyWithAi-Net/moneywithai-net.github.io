@@ -1,0 +1,180 @@
+{
+  "type": "use-case",
+  "slug": "home-services-speed-to-quote",
+  "title": "Answer, Quote and Follow Up on Every Home-Service Lead",
+  "category": "Leads and Sales",
+  "category_slug": "leads-and-sales",
+  "money_model": "Grow sales",
+  "difficulty": "Intermediate",
+  "summary": "A voice receptionist picks up, leads get an instant answer, and every quote gets a day 3, 7 and 14 follow-up.",
+  "money_potential": {
+    "tier": 3,
+    "symbol": "$$$",
+    "label": "High",
+    "basis": "Assumes high-value jobs, so winning a few more each month matters.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Fewer jobs lost to the next contractor who called back first.",
+    "Quotes that would have gone cold get a second look."
+  ],
+  "who_its_for": [
+    "Landscapers, cleaners, roofers and other trades."
+  ],
+  "stack": [
+    {
+      "bot": "voice-receptionist-call-booker",
+      "name": "Voice Receptionist Call Booker",
+      "role": "Answers calls and books appointments.",
+      "creator": "SuperAgent",
+      "tools": [
+        "n8n",
+        "Airtable",
+        "Google Calendar"
+      ],
+      "url": "https://moneywithai.net/bots/voice-receptionist-call-booker/",
+      "official_share_url": null
+    },
+    {
+      "bot": "speed-to-lead-closer",
+      "name": "Speed-to-Lead Closer",
+      "role": "Replies to web leads the moment they land.",
+      "creator": "coreyganim",
+      "tools": [
+        "Stripe"
+      ],
+      "url": "https://moneywithai.net/bots/speed-to-lead-closer/",
+      "official_share_url": null
+    },
+    {
+      "bot": "quote-follow-up-sequence",
+      "name": "Quote Follow Up Sequence",
+      "role": "Sends quote follow-ups on day 3, 7 and 14.",
+      "creator": "43 Sunsets",
+      "tools": [
+        "n8n",
+        "Gmail",
+        "Google Sheets"
+      ],
+      "url": "https://moneywithai.net/bots/quote-follow-up-sequence/",
+      "official_share_url": null
+    },
+    {
+      "bot": "reply-desk",
+      "name": "Reply Desk",
+      "role": "Drafts replies to reviews and messages.",
+      "creator": "lonzom10",
+      "tools": [
+        "Email"
+      ],
+      "url": "https://moneywithai.net/bots/reply-desk/",
+      "official_share_url": "https://x.ai/bot/8lLjBC7bXUqbfh-vLG9jf"
+    }
+  ],
+  "tools": [
+    "n8n",
+    "Airtable",
+    "Google Calendar",
+    "Stripe",
+    "Gmail",
+    "Google Sheets",
+    "Email"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Phone calls",
+        "tool": null
+      },
+      {
+        "label": "Web form leads",
+        "tool": null
+      },
+      {
+        "label": "Open quotes",
+        "tool": "Google Sheets"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "voice-receptionist-call-booker",
+        "name": "Voice Receptionist Call Booker",
+        "does": "Answers calls and books",
+        "tools": [
+          "n8n",
+          "Airtable",
+          "Google Calendar"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "speed-to-lead-closer",
+        "name": "Speed-to-Lead Closer",
+        "does": "Replies to web leads",
+        "tools": [
+          "Stripe"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "quote-follow-up-sequence",
+        "name": "Quote Follow Up Sequence",
+        "does": "Follows up on quotes",
+        "tools": [
+          "n8n",
+          "Gmail",
+          "Google Sheets"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "reply-desk",
+        "name": "Reply Desk",
+        "does": "Drafts review replies",
+        "tools": [
+          "Email"
+        ]
+      },
+      {
+        "order": 5,
+        "by": "you",
+        "name": "You",
+        "does": "Approve quotes and run jobs",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Booked appointments",
+      "Revived quotes",
+      "More jobs won"
+    ]
+  },
+  "steps": [
+    "List your services, area and price ranges.",
+    "Test the receptionist with a few calls.",
+    "Add open quotes to the follow-up sheet.",
+    "Approve review replies weekly."
+  ],
+  "guardrails": [
+    "Check local rules on cold outreach, calls and texts before contacting anyone.",
+    "You need your own accounts for the connected tools; check their current plans first.",
+    "A person stays reachable for anything the bot is unsure about."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 2,
+    "score": 92,
+    "money": 40,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/home-services-speed-to-quote/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/home-services-speed-to-quote.json"
+}
