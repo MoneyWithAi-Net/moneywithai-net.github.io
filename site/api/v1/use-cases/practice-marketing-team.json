@@ -1,0 +1,110 @@
+{
+  "type": "use-case",
+  "slug": "practice-marketing-team",
+  "title": "Market a Local Practice with a Bot Team",
+  "category": "Content and Marketing",
+  "category_slug": "content-and-marketing",
+  "money_model": "Grow sales",
+  "difficulty": "Advanced",
+  "summary": "A lead bot directs ads, creative, video and checks, so the owner stays with clients.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes steady campaigns bring new clients; you set the ad budget.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Steady campaigns bring new patients or clients.",
+    "The owner spends less time managing marketing."
+  ],
+  "who_its_for": [
+    "Clinics, practices and other owner-run local services."
+  ],
+  "stack": [
+    {
+      "bot": "consider-it-marketed",
+      "name": "Consider It Marketed",
+      "role": "Directs a marketing bot team including Google Ads.",
+      "creator": "CindyH874325640",
+      "tools": [
+        "Google Ads"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/consider-it-marketed/",
+      "official_share_url": "https://x.ai/bot/ayQYbaHquRM7x7lnBOEoQ"
+    },
+    {
+      "bot": "sentinel",
+      "name": "Sentinel",
+      "role": "Checks copy before it goes live.",
+      "creator": "CluSloan",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/sentinel/",
+      "official_share_url": "https://x.ai/bot/NAFAT-NGrQ7-zLccn4qg1"
+    }
+  ],
+  "tools": [
+    "Google Ads",
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "A campaign and a budget",
+        "tool": "Google Ads"
+      },
+      {
+        "label": "Practice services",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "consider-it-marketed",
+        "name": "Consider It Marketed",
+        "does": "Directs ads, creative and video",
+        "tools": [
+          "Google Ads"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "sentinel",
+        "name": "Sentinel",
+        "does": "Checks copy before it goes live",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Review every ad before launch",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Running campaigns",
+      "New patients or clients",
+      "Owner time back"
+    ]
+  },
+  "steps": [
+    "Start with one campaign and a fixed budget you set in Google Ads.",
+    "Review every ad before launch.",
+    "Add creative and video once the first campaign is stable."
+  ],
+  "guardrails": [
+    "Review every patient-facing ad and post."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+  "url": "https://bots.anthonytoday.com/use-cases/practice-marketing-team/",
+  "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/practice-marketing-team.json"
+}

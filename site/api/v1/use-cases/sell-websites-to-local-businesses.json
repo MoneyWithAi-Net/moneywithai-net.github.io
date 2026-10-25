@@ -1,0 +1,134 @@
+{
+  "type": "use-case",
+  "slug": "sell-websites-to-local-businesses",
+  "title": "Sell Websites to Local Businesses That Have None",
+  "category": "Leads and Sales",
+  "category_slug": "leads-and-sales",
+  "money_model": "Sell a service",
+  "difficulty": "Intermediate",
+  "summary": "Find businesses with no site or a weak one, show them a demo, and pitch a build with the evidence in hand.",
+  "money_potential": {
+    "tier": 3,
+    "symbol": "$$$",
+    "label": "High",
+    "basis": "Assumes you charge per website build or a monthly care plan, so income grows with each client who says yes.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "You sell a website build or a monthly care plan to each business that says yes.",
+    "A demo made from their own public content gives the prospect something concrete to react to.",
+    "Audit briefs turn a cold message into a specific, useful one."
+  ],
+  "who_its_for": [
+    "Freelance web designers and small agencies.",
+    "Anyone who can build and host simple sites for local trades."
+  ],
+  "stack": [
+    {
+      "bot": "local-business-website-hunter",
+      "name": "Local Business Website Hunter",
+      "role": "Finds businesses with no website, drafts a demo site, a quote and a first message.",
+      "creator": "NewLongMoney",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/local-business-website-hunter/",
+      "official_share_url": "https://x.ai/bot/U87LeqeLNEIKRe9ctpRxG"
+    },
+    {
+      "bot": "lead-scout",
+      "name": "Lead Scout",
+      "role": "Finds businesses that have a site but likely search gaps.",
+      "creator": "itsryanlenk",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/lead-scout/",
+      "official_share_url": "https://x.ai/bot/j3Qule6BFplSpVqgLpVnV"
+    },
+    {
+      "bot": "site-research",
+      "name": "Site Research",
+      "role": "Writes the evidence brief you attach to the pitch.",
+      "creator": "itsryanlenk",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/site-research/",
+      "official_share_url": "https://x.ai/bot/zkgCv30YKSJPHc7rUB_6P"
+    }
+  ],
+  "tools": [
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "A city and a trade",
+        "tool": null
+      },
+      {
+        "label": "Public business listings",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "local-business-website-hunter",
+        "name": "Local Business Website Hunter",
+        "does": "Finds businesses with no site and drafts a demo",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "lead-scout",
+        "name": "Lead Scout",
+        "does": "Finds businesses with weak search presence",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "site-research",
+        "name": "Site Research",
+        "does": "Writes an evidence brief per prospect",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "you",
+        "name": "You",
+        "does": "Edit and send each pitch yourself",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Demo sites and quotes",
+      "Pitches backed by evidence",
+      "Paid builds and care plans"
+    ]
+  },
+  "steps": [
+    "Add the three bots and pick one city and one trade to start.",
+    "Run Lead Scout and Website Hunter once and review the lists by hand.",
+    "Have Site Research brief the best ten prospects.",
+    "Edit the drafted messages, check local rules on cold outreach, and send them yourself.",
+    "Schedule a weekly run once the first replies come in."
+  ],
+  "guardrails": [
+    "Every message and quote stays a draft until you approve it.",
+    "Do not reuse a business's photos or text in public without permission."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+  "url": "https://bots.anthonytoday.com/use-cases/sell-websites-to-local-businesses/",
+  "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/sell-websites-to-local-businesses.json"
+}

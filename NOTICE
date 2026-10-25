@@ -1,0 +1,26 @@
+Bot Directory (bots.anthonytoday.com)
+Copyright (c) 2026 anthonytoday
+
+This project is based on botdirectory.ai by Inbox Zero Inc.
+https://github.com/elie222/botdirectory.ai
+Used under the MIT License. The original copyright and permission notice
+is kept unchanged in the LICENSE file.
+
+Listing content: facts only (bot name, creator, tools, category, source link),
+with credit to each creator and source. No prompt text, descriptions, logos or
+icon files are copied from the original directory. A creator's prompt appears only with
+their opt-in (see consent/).
+
+Fonts: Geist and Geist Mono by Vercel, SIL Open Font License 1.1.
+Display font: General Sans Medium by Indian Type Foundry (fontshare.com), ITF Free Font
+License 2.0 (fonts/LICENSES/GeneralSans-ITF-FFL.txt). Self-hosted on the site only, file
+unmodified. The license forbids redistributing the font through a repository, so the file
+is NOT in this repo (gitignored, purged from history). `npm run fonts` (run before every
+build) downloads the official file from Fontshare and checks its sha256.
+
+Integration logos (public/logos/): either official files from the owner's brand kit, press
+page or website (Grok, LinkedIn, Glean, Gmail, Slack, Axiom, Ferndesk, Infisical), or
+Simple Icons (CC0) renderings of official marks (all others). Codex is shown with our own
+letter tile, not OpenAI's mark. Sources, any changes and guideline
+links per logo are in logos/SOURCES.md. Logos and names are trademarks of their owners, used only to identify
+integrations. No endorsement by any brand owner is implied.

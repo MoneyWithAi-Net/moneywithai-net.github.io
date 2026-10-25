@@ -1,0 +1,138 @@
+{
+  "type": "use-case",
+  "slug": "seo-agency-pitch-pack",
+  "title": "Build a Pitch Pack for an SEO Agency",
+  "category": "Leads and Sales",
+  "category_slug": "leads-and-sales",
+  "money_model": "Sell a service",
+  "difficulty": "Intermediate",
+  "summary": "From prospect list to evidence brief to a clean CRM, so every SEO pitch is specific and lands in a real inbox.",
+  "money_potential": {
+    "tier": 3,
+    "symbol": "$$$",
+    "label": "High",
+    "basis": "Assumes you sell SEO retainers; specific pitches can win more paying clients.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Specific audits win more discovery calls than generic offers.",
+    "Clean contact data protects your sending reputation."
+  ],
+  "who_its_for": [
+    "SEO, AEO and GEO agencies and freelancers."
+  ],
+  "stack": [
+    {
+      "bot": "lead-scout",
+      "name": "Lead Scout",
+      "role": "Finds local businesses with likely search gaps.",
+      "creator": "itsryanlenk",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/lead-scout/",
+      "official_share_url": "https://x.ai/bot/j3Qule6BFplSpVqgLpVnV"
+    },
+    {
+      "bot": "site-research",
+      "name": "Site Research",
+      "role": "Turns each lead into an evidence-backed gap brief.",
+      "creator": "itsryanlenk",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/site-research/",
+      "official_share_url": "https://x.ai/bot/zkgCv30YKSJPHc7rUB_6P"
+    },
+    {
+      "bot": "kickbox-to-hubspot-importer",
+      "name": "Kickbox to HubSpot Importer",
+      "role": "Verifies emails and writes the results back to HubSpot.",
+      "creator": "pofabro",
+      "tools": [
+        "Kickbox",
+        "HubSpot",
+        "Google Sheets"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/kickbox-to-hubspot-importer/",
+      "official_share_url": "https://x.ai/bot/PRc9UmcxySAv0UBU4g8fx"
+    }
+  ],
+  "tools": [
+    "Grok",
+    "Kickbox",
+    "HubSpot",
+    "Google Sheets"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "A niche and a region",
+        "tool": null
+      },
+      {
+        "label": "Your CRM",
+        "tool": "HubSpot"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "lead-scout",
+        "name": "Lead Scout",
+        "does": "Finds businesses with search gaps",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "site-research",
+        "name": "Site Research",
+        "does": "Writes a gap brief for each lead",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "kickbox-to-hubspot-importer",
+        "name": "Kickbox to HubSpot Importer",
+        "does": "Verifies emails and updates HubSpot",
+        "tools": [
+          "Kickbox",
+          "HubSpot",
+          "Google Sheets"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "you",
+        "name": "You",
+        "does": "Write and send the pitch",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Evidence-backed pitch packs",
+      "A clean CRM",
+      "Discovery calls"
+    ]
+  },
+  "steps": [
+    "Pick a niche and a region.",
+    "Run Lead Scout, then Site Research on the shortlist.",
+    "Verify the contacts with Kickbox and update HubSpot.",
+    "Write the pitch around the brief and send it from your own tools."
+  ],
+  "guardrails": [
+    "You need your own Kickbox and HubSpot accounts.",
+    "Review a sample before any bulk CRM update."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+  "url": "https://bots.anthonytoday.com/use-cases/seo-agency-pitch-pack/",
+  "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/seo-agency-pitch-pack.json"
+}

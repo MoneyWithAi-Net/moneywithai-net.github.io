@@ -1,0 +1,34 @@
+{
+  "type": "bot",
+  "slug": "saas-cfo-monitor",
+  "name": "SaaS CFO Monitor",
+  "category": "Finance",
+  "sub_use_case": "SaaS spend",
+  "summary": "Weekly check of SaaS spend and revenue across billing, accounting and email, with a monthly finance summary.",
+  "tools": [
+    "Stripe",
+    "Xero",
+    "QuickBooks",
+    "Gmail"
+  ],
+  "creator": {
+    "handle": "jessethanley",
+    "url": "https://x.com/jessethanley"
+  },
+  "scouted_by": "elie2222",
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/jessethanley/status/2087799804126761304"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/saas-cfo-monitor/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-24",
+  "url": "https://bots.anthonytoday.com/bots/saas-cfo-monitor/",
+  "json_url": "https://bots.anthonytoday.com/api/v1/bots/saas-cfo-monitor.json",
+  "use_cases": [
+    "https://bots.anthonytoday.com/use-cases/saas-finance-watch/"
+  ],
+  "added_at": "2026-10-24T08:00:00.000Z"
+}

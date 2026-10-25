@@ -1,0 +1,89 @@
+{
+  "type": "use-case",
+  "slug": "grant-writing-service",
+  "title": "Offer Grant Finding as a Service",
+  "category": "Client Services",
+  "category_slug": "client-services",
+  "money_model": "Sell a service",
+  "difficulty": "Intermediate",
+  "summary": "Find live funding programmes for a client and prepare the application pack they review and file.",
+  "money_potential": {
+    "tier": 3,
+    "symbol": "$$$",
+    "label": "High",
+    "basis": "Assumes you charge clients per application pack or on a retainer.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Charge clients for research and application preparation.",
+    "Or find funding for your own company or NGO."
+  ],
+  "who_its_for": [
+    "Consultants, NGO staff and founders."
+  ],
+  "stack": [
+    {
+      "bot": "grantogre",
+      "name": "GrantOgre",
+      "role": "Finds live programmes and prepares the pack a person files.",
+      "creator": "HoneybadgerFan4",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/grantogre/",
+      "official_share_url": "https://x.ai/bot/WXC1m-5Iiyu1IyvBEt9Va"
+    }
+  ],
+  "tools": [
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "A client or project brief",
+        "tool": null
+      },
+      {
+        "label": "Live funding programmes",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "grantogre",
+        "name": "GrantOgre",
+        "does": "Finds programmes and prepares the pack",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "you",
+        "name": "You",
+        "does": "Check eligibility; the client files",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Ready application packs",
+      "Paid research and prep work"
+    ]
+  },
+  "steps": [
+    "Describe the client or project.",
+    "Check each programme on its official page.",
+    "Review the pack with the client and let them file it."
+  ],
+  "guardrails": [
+    "The bot never submits an application.",
+    "Confirm eligibility on the official page."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+  "url": "https://bots.anthonytoday.com/use-cases/grant-writing-service/",
+  "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/grant-writing-service.json"
+}

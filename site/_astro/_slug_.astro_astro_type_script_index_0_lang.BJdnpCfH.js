@@ -1,0 +1,1 @@
+import{t as e}from"./copies.D9hQdHxK.js";document.querySelectorAll(".uc-stack-add a").forEach(t=>{const c=t.closest(".uc-stack-row")?.querySelector(".uc-stack-name")?.getAttribute("href")?.split("/")[2]||"";t.addEventListener("click",()=>e(c))});

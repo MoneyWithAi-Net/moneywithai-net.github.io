@@ -1,0 +1,116 @@
+{
+  "type": "use-case",
+  "slug": "saas-finance-watch",
+  "title": "Watch SaaS Spend and Revenue Weekly",
+  "category": "Finance",
+  "category_slug": "finance",
+  "money_model": "Save costs",
+  "difficulty": "Intermediate",
+  "summary": "A weekly check across billing, accounting and email, with invoices gathered for the month-end close.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Mainly saves costs: it finds waste and speeds up the close.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Catch unused subscriptions and billing surprises.",
+    "A faster, cheaper month-end close."
+  ],
+  "who_its_for": [
+    "SaaS founders and finance leads."
+  ],
+  "stack": [
+    {
+      "bot": "saas-cfo-monitor",
+      "name": "SaaS CFO Monitor",
+      "role": "Checks spend and revenue across Stripe, Xero, QuickBooks and Gmail.",
+      "creator": "jessethanley",
+      "tools": [
+        "Stripe",
+        "Xero",
+        "QuickBooks",
+        "Gmail"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/saas-cfo-monitor/",
+      "official_share_url": null
+    },
+    {
+      "bot": "invoice-hunter",
+      "name": "Invoice Hunter",
+      "role": "Collects invoices for your accountant.",
+      "creator": "scheemunai",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/invoice-hunter/",
+      "official_share_url": "https://x.ai/bot/-kO6HrXokJZANVwUOMZO9"
+    }
+  ],
+  "tools": [
+    "Stripe",
+    "Xero",
+    "QuickBooks",
+    "Gmail",
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Billing",
+        "tool": "Stripe"
+      },
+      {
+        "label": "Accounting",
+        "tool": "Xero"
+      },
+      {
+        "label": "Invoices",
+        "tool": "Gmail"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "saas-cfo-monitor",
+        "name": "SaaS CFO Monitor",
+        "does": "Checks spend and revenue weekly",
+        "tools": [
+          "Stripe",
+          "Xero",
+          "QuickBooks",
+          "Gmail"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "invoice-hunter",
+        "name": "Invoice Hunter",
+        "does": "Collects invoices for the close",
+        "tools": [
+          "Grok"
+        ]
+      }
+    ],
+    "outputs": [
+      "A weekly finance check",
+      "Unused subscriptions flagged",
+      "A faster month-end"
+    ]
+  },
+  "steps": [
+    "Connect read access to billing and accounting.",
+    "Review the first weekly check.",
+    "Add the monthly summary to your close."
+  ],
+  "guardrails": [
+    "Read-only access where the tool allows it."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-24T08:00:00.000Z",
+  "url": "https://bots.anthonytoday.com/use-cases/saas-finance-watch/",
+  "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/saas-finance-watch.json"
+}

@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Bot Directory. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "reply-desk",
+    "name": "Reply Desk",
+    "category": "Customer Support",
+    "sub_use_case": "Review replies",
+    "summary": "Drafts replies to customer emails, messages and public reviews for local service businesses. You send them.",
+    "tools": [
+      "Email"
+    ],
+    "creator": {
+      "handle": "lonzom10",
+      "url": "https://x.com/lonzom10"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/lonzom10/status/2103749418457681951"
+    },
+    "official_share_url": "https://x.ai/bot/8lLjBC7bXUqbfh-vLG9jf",
+    "found_via": "https://grokbot101.org/bots/reply-desk/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-24",
+    "url": "https://bots.anthonytoday.com/bots/reply-desk/",
+    "json_url": "https://bots.anthonytoday.com/api/bots/reply-desk.json"
+  }
+}

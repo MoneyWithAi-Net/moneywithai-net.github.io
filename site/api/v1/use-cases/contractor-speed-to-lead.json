@@ -1,0 +1,155 @@
+{
+  "type": "use-case",
+  "slug": "contractor-speed-to-lead",
+  "title": "Answer Every Contractor Lead Fast",
+  "category": "Leads and Sales",
+  "category_slug": "leads-and-sales",
+  "money_model": "Grow sales",
+  "difficulty": "Intermediate",
+  "summary": "Qualify roofing and trade inquiries, answer the phone, and reply to reviews so fewer jobs go to the next quote.",
+  "money_potential": {
+    "tier": 3,
+    "symbol": "$$$",
+    "label": "High",
+    "basis": "Assumes each home-service job is high value, so winning a few more jobs matters.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Fast, complete replies win more of the jobs you already paid to attract.",
+    "Missed calls get answered and booked."
+  ],
+  "who_its_for": [
+    "Roofers, contractors and other home-service businesses."
+  ],
+  "stack": [
+    {
+      "bot": "legend-lead-ops",
+      "name": "Legend Lead Ops",
+      "role": "Qualifies inquiries and drafts SMS and email follow-ups and quick quotes.",
+      "creator": "legendRoofingCo",
+      "tools": [
+        "SMS",
+        "Email"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/legend-lead-ops/",
+      "official_share_url": "https://x.ai/bot/WCZjv-qHMtHz2AdQW136q"
+    },
+    {
+      "bot": "phone-receptionist",
+      "name": "Phone Receptionist",
+      "role": "Answers the business line and books calls on Google Calendar.",
+      "creator": "SimplyColeB",
+      "tools": [
+        "Google Calendar",
+        "Bland"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/phone-receptionist/",
+      "official_share_url": "https://x.ai/bot/Z7LfRtBtwfaojaomMrAuX"
+    },
+    {
+      "bot": "reply-desk",
+      "name": "Reply Desk",
+      "role": "Drafts replies to messages and public reviews.",
+      "creator": "lonzom10",
+      "tools": [
+        "Email"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/reply-desk/",
+      "official_share_url": "https://x.ai/bot/8lLjBC7bXUqbfh-vLG9jf"
+    }
+  ],
+  "tools": [
+    "SMS",
+    "Email",
+    "Google Calendar",
+    "Bland"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Web and SMS inquiries",
+        "tool": "SMS"
+      },
+      {
+        "label": "Phone calls",
+        "tool": null
+      },
+      {
+        "label": "Public reviews",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "legend-lead-ops",
+        "name": "Legend Lead Ops",
+        "does": "Qualifies inquiries and drafts quick quotes",
+        "tools": [
+          "SMS",
+          "Email"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "phone-receptionist",
+        "name": "Phone Receptionist",
+        "does": "Answers calls and books them",
+        "tools": [
+          "Google Calendar",
+          "Bland"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "reply-desk",
+        "name": "Reply Desk",
+        "does": "Drafts replies to messages and reviews",
+        "tools": [
+          "Email"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "you",
+        "name": "You",
+        "does": "Approve quotes and replies",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Fast follow-ups",
+      "Booked calls on your calendar",
+      "More jobs won"
+    ]
+  },
+  "steps": [
+    "Add Legend Lead Ops and give it your services and service area.",
+    "Test it on a few past inquiries.",
+    "Decide whether you need phone answering, and check its plan first.",
+    "Use Reply Desk for reviews and messages."
+  ],
+  "guardrails": [
+    "Quotes and messages stay drafts until you approve them.",
+    "Check the phone plan's current price before signing up."
+  ],
+  "claims": [
+    {
+      "text": "The creator reports about 20 to 30 minutes saved per lead versus writing follow-ups by hand, in a demo on synthetic leads.",
+      "label": "A",
+      "source": "https://x.com/legendRoofingCo/status/2101471064857378821",
+      "checked": "2026-10-24"
+    },
+    {
+      "text": "The Phone Receptionist share card lists a phone plan at $15 for the first month, then $30 a month.",
+      "label": "A",
+      "source": "https://x.ai/bot/Z7LfRtBtwfaojaomMrAuX",
+      "checked": "2026-10-24"
+    }
+  ],
+  "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+  "url": "https://bots.anthonytoday.com/use-cases/contractor-speed-to-lead/",
+  "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/contractor-speed-to-lead.json"
+}

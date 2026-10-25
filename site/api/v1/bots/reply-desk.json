@@ -1,0 +1,34 @@
+{
+  "type": "bot",
+  "slug": "reply-desk",
+  "name": "Reply Desk",
+  "category": "Customer Support",
+  "sub_use_case": "Review replies",
+  "summary": "Drafts replies to customer emails, messages and public reviews for local service businesses. You send them.",
+  "tools": [
+    "Email"
+  ],
+  "creator": {
+    "handle": "lonzom10",
+    "url": "https://x.com/lonzom10"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/lonzom10/status/2103749418457681951"
+  },
+  "official_share_url": "https://x.ai/bot/8lLjBC7bXUqbfh-vLG9jf",
+  "found_via": "https://grokbot101.org/bots/reply-desk/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-24",
+  "url": "https://bots.anthonytoday.com/bots/reply-desk/",
+  "json_url": "https://bots.anthonytoday.com/api/v1/bots/reply-desk.json",
+  "use_cases": [
+    "https://bots.anthonytoday.com/use-cases/contractor-speed-to-lead/",
+    "https://bots.anthonytoday.com/use-cases/shopify-store-with-a-bot-team/",
+    "https://bots.anthonytoday.com/use-cases/maker-shop-quotes/",
+    "https://bots.anthonytoday.com/use-cases/local-business-reviews-and-calls/"
+  ],
+  "added_at": "2026-10-24T09:30:00.000Z"
+}

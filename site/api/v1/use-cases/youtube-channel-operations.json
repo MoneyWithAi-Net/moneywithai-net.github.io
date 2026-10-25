@@ -1,0 +1,117 @@
+{
+  "type": "use-case",
+  "slug": "youtube-channel-operations",
+  "title": "Run the Busywork of a YouTube Channel",
+  "category": "Content and Marketing",
+  "category_slug": "content-and-marketing",
+  "money_model": "Creator income",
+  "difficulty": "Intermediate",
+  "summary": "Transcripts, chapters, titles, descriptions and thumbnails after every upload, plus posts and clips for X.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes the channel already earns from ads or sponsors; more and better uploads compound over time.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "You publish more often with the same hours.",
+    "Better titles, chapters and thumbnails help each video find viewers."
+  ],
+  "who_its_for": [
+    "YouTubers and podcasters who publish weekly."
+  ],
+  "stack": [
+    {
+      "bot": "media-manager",
+      "name": "Media Manager",
+      "role": "Handles after-upload work with the YouTube Data API, AssemblyAI and Figma.",
+      "creator": "mattyp",
+      "tools": [
+        "YouTube",
+        "AssemblyAI",
+        "Figma"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/media-manager/",
+      "official_share_url": "https://x.ai/bot/qG_ZROllzSSRGKx_iIbsQ"
+    },
+    {
+      "bot": "creator-desk",
+      "name": "Creator Desk",
+      "role": "Turns each video into X posts and short clips.",
+      "creator": "MadeItHappenX",
+      "tools": [
+        "X"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/creator-desk/",
+      "official_share_url": "https://x.ai/bot/dM43J1T44OmcRdAsNHsBf"
+    }
+  ],
+  "tools": [
+    "YouTube",
+    "AssemblyAI",
+    "Figma",
+    "X"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "A new upload",
+        "tool": "YouTube"
+      },
+      {
+        "label": "Transcription",
+        "tool": "AssemblyAI"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "media-manager",
+        "name": "Media Manager",
+        "does": "Writes chapters, titles and thumbnails",
+        "tools": [
+          "YouTube",
+          "AssemblyAI",
+          "Figma"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "creator-desk",
+        "name": "Creator Desk",
+        "does": "Turns the video into X posts and clips",
+        "tools": [
+          "X"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Review before anything goes live",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A finished video page",
+      "Posts and clips for X",
+      "More uploads per week"
+    ]
+  },
+  "steps": [
+    "Add Media Manager and connect your channel and transcription account.",
+    "Run it on one existing video and edit the output.",
+    "Add Creator Desk for distribution on X.",
+    "Make it part of every upload."
+  ],
+  "guardrails": [
+    "Review titles and captions before they go live."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+  "url": "https://bots.anthonytoday.com/use-cases/youtube-channel-operations/",
+  "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/youtube-channel-operations.json"
+}

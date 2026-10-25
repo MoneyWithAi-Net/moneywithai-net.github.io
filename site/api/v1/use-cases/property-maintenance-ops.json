@@ -1,0 +1,110 @@
+{
+  "type": "use-case",
+  "slug": "property-maintenance-ops",
+  "title": "Run Property Maintenance End to End",
+  "category": "Research and Ops",
+  "category_slug": "research-and-ops",
+  "money_model": "Save costs",
+  "difficulty": "Advanced",
+  "summary": "Triage and dispatch maintenance requests, text residents, and keep the rent books in line.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Mainly saves costs; gains grow with the number of units you manage.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Faster repairs keep tenants and reduce turnover.",
+    "Cost coding shows where maintenance money goes."
+  ],
+  "who_its_for": [
+    "Property managers and owners of residential buildings."
+  ],
+  "stack": [
+    {
+      "bot": "maintenance-triage",
+      "name": "Maintenance Triage",
+      "role": "Coordinates intake, triage, dispatch and closeout.",
+      "creator": "Miffy_NYC",
+      "tools": [
+        "SMS"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/maintenance-triage/",
+      "official_share_url": "https://x.ai/bot/gKgo-_MM29kfcD9qiZf2A"
+    },
+    {
+      "bot": "landlord-ledger",
+      "name": "Landlord Ledger",
+      "role": "Keeps rent and expense books.",
+      "creator": "Daniel191555486",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/landlord-ledger/",
+      "official_share_url": "https://x.ai/bot/sPjI0Dec1DUvTc7H0zxNG"
+    }
+  ],
+  "tools": [
+    "SMS",
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Resident requests",
+        "tool": "SMS"
+      },
+      {
+        "label": "Rent and expense records",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "maintenance-triage",
+        "name": "Maintenance Triage",
+        "does": "Triages, dispatches and closes out",
+        "tools": [
+          "SMS"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "landlord-ledger",
+        "name": "Landlord Ledger",
+        "does": "Codes costs and keeps the books",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Hard stops on spend and safety",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Faster repairs",
+      "Residents kept informed",
+      "Clear maintenance costs"
+    ]
+  },
+  "steps": [
+    "Start with intake and triage only.",
+    "Add dispatch once priorities look right.",
+    "Connect the ledger for cost tracking."
+  ],
+  "guardrails": [
+    "Hard stops on spend, access and safety stay on."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+  "url": "https://bots.anthonytoday.com/use-cases/property-maintenance-ops/",
+  "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/property-maintenance-ops.json"
+}

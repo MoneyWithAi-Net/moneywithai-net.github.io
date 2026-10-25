@@ -1,0 +1,115 @@
+{
+  "type": "use-case",
+  "slug": "dtc-competitor-drop-watch",
+  "title": "Watch Competitor Product Drops",
+  "category": "E-Commerce",
+  "category_slug": "e-commerce",
+  "money_model": "Grow sales",
+  "difficulty": "Beginner",
+  "summary": "Hear the same day when a competitor launches a product on Amazon, their site or TikTok Shop.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Indirect: it gives you timing and ideas, not income on its own.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "React to launches with offers or content while they are fresh.",
+    "Spot gaps in your own range."
+  ],
+  "who_its_for": [
+    "DTC and beauty brands and their marketers."
+  ],
+  "stack": [
+    {
+      "bot": "drop-radar",
+      "name": "Drop Radar",
+      "role": "Watches competitor catalogs and alerts only on new drops.",
+      "creator": "Steph_Pierson",
+      "tools": [
+        "Amazon",
+        "TikTok Shop",
+        "Slack"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/drop-radar/",
+      "official_share_url": "https://x.ai/bot/KYM0C9BcyfXEP9uIyxlmE"
+    },
+    {
+      "bot": "scout-competitive-intelligence",
+      "name": "Scout (Competitive Intelligence)",
+      "role": "Adds a weekly view of site and search changes.",
+      "creator": "adamta",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/scout-competitive-intelligence/",
+      "official_share_url": "https://x.ai/bot/rthl9MdskO2f-JCzmyINP"
+    }
+  ],
+  "tools": [
+    "Amazon",
+    "TikTok Shop",
+    "Slack",
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Competitor catalogs",
+        "tool": "Amazon"
+      },
+      {
+        "label": "Competitor shops",
+        "tool": "TikTok Shop"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "drop-radar",
+        "name": "Drop Radar",
+        "does": "Alerts only on new product drops",
+        "tools": [
+          "Amazon",
+          "TikTok Shop",
+          "Slack"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "scout-competitive-intelligence",
+        "name": "Scout (Competitive Intelligence)",
+        "does": "Adds a weekly site and search view",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Decide how to respond",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Same-day alerts in Slack",
+      "Gaps in your own range"
+    ]
+  },
+  "steps": [
+    "List the brands you compete with.",
+    "Choose Slack or chat for alerts.",
+    "Review the first week and prune noisy sources."
+  ],
+  "guardrails": [
+    "Monitor public pages only."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+  "url": "https://bots.anthonytoday.com/use-cases/dtc-competitor-drop-watch/",
+  "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/dtc-competitor-drop-watch.json"
+}

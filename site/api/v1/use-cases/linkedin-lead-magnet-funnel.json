@@ -1,0 +1,118 @@
+{
+  "type": "use-case",
+  "slug": "linkedin-lead-magnet-funnel",
+  "title": "Run a LinkedIn Lead-Magnet Funnel",
+  "category": "Leads and Sales",
+  "category_slug": "leads-and-sales",
+  "money_model": "Grow sales",
+  "difficulty": "Intermediate",
+  "summary": "Post a free resource, collect the comments as leads in Notion, and keep your profile ready for the visits it brings.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you sell a B2B service; leads still need your follow-up to close.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Each comment becomes a tracked lead you can follow up.",
+    "A current profile converts more of the visitors a post sends you."
+  ],
+  "who_its_for": [
+    "Founders, consultants and B2B sellers who post on LinkedIn."
+  ],
+  "stack": [
+    {
+      "bot": "linkedin-lead-outreach",
+      "name": "LinkedIn Lead Outreach",
+      "role": "Tracks comments into Notion and drafts capped replies and DMs.",
+      "creator": "ethan_leee9113",
+      "tools": [
+        "LinkedIn",
+        "Notion"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/linkedin-lead-outreach/",
+      "official_share_url": "https://x.ai/bot/DEMmOi7SiFhsFtIKuBKRD"
+    },
+    {
+      "bot": "linkedin-profile-audit",
+      "name": "LinkedIn Profile Audit",
+      "role": "Keeps your profile in line with what you sell now.",
+      "creator": "ericzakariasson",
+      "tools": [
+        "LinkedIn",
+        "Notion",
+        "Slack"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/linkedin-profile-audit/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "LinkedIn",
+    "Notion",
+    "Slack"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Your profile",
+        "tool": "LinkedIn"
+      },
+      {
+        "label": "A lead-magnet post",
+        "tool": "LinkedIn"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "linkedin-profile-audit",
+        "name": "LinkedIn Profile Audit",
+        "does": "Aligns your profile with what you sell",
+        "tools": [
+          "LinkedIn",
+          "Notion",
+          "Slack"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "linkedin-lead-outreach",
+        "name": "LinkedIn Lead Outreach",
+        "does": "Logs comments and drafts capped replies",
+        "tools": [
+          "LinkedIn",
+          "Notion"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Approve replies and DMs in small batches",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A lead database in Notion",
+      "Booked calls from commenters"
+    ]
+  },
+  "steps": [
+    "Run the profile audit and apply the edits you agree with.",
+    "Publish one lead-magnet post.",
+    "Let the outreach bot log comments into a Notion database.",
+    "Approve replies and DMs in small batches."
+  ],
+  "guardrails": [
+    "Keep daily caps low and review every send.",
+    "Respect LinkedIn's rules on automated activity."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+  "url": "https://bots.anthonytoday.com/use-cases/linkedin-lead-magnet-funnel/",
+  "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/linkedin-lead-magnet-funnel.json"
+}

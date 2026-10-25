@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Bot Directory. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "precision-3d-helper",
+    "name": "Precision 3D Helper",
+    "category": "Client Services",
+    "sub_use_case": "Quotes",
+    "summary": "Answers customer questions, prices jobs with quantity discounts and helps fix prints for a small 3D print shop.",
+    "tools": [
+      "Bambu Lab"
+    ],
+    "creator": {
+      "handle": "srinimaram",
+      "url": "https://x.com/srinimaram"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/srinimaram/status/2106655043843674335"
+    },
+    "official_share_url": "https://x.ai/bot/bna2wMqlfX6-F4TBmAEBJ",
+    "found_via": "https://grokbot101.org/bots/precision-3d-helper/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-24",
+    "url": "https://bots.anthonytoday.com/bots/precision-3d-helper/",
+    "json_url": "https://bots.anthonytoday.com/api/bots/precision-3d-helper.json"
+  }
+}

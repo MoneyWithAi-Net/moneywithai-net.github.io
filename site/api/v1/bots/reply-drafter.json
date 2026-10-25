@@ -1,0 +1,32 @@
+{
+  "type": "bot",
+  "slug": "reply-drafter",
+  "name": "Reply Drafter",
+  "category": "Content and Marketing",
+  "sub_use_case": "X posting",
+  "summary": "Finds posts on X worth replying to and drafts a first take in your voice. You post every reply yourself.",
+  "tools": [
+    "X"
+  ],
+  "creator": {
+    "handle": "kevinace",
+    "url": "https://x.com/kevinace"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/kevinace/status/2089074419175977004"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/reply-drafter/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-24",
+  "url": "https://bots.anthonytoday.com/bots/reply-drafter/",
+  "json_url": "https://bots.anthonytoday.com/api/v1/bots/reply-drafter.json",
+  "use_cases": [
+    "https://bots.anthonytoday.com/use-cases/x-audience-prospecting/",
+    "https://bots.anthonytoday.com/use-cases/x-creator-desk/"
+  ],
+  "added_at": "2026-10-24T08:00:00.000Z"
+}

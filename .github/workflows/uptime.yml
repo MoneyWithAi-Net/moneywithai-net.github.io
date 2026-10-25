@@ -1,0 +1,70 @@
+# External uptime check, every 15 minutes, from GitHub's runners (outside Cloudflare).
+# Installed ONLY in the public mirror repo (decision D6: public repos have free Actions minutes; in the private
+# repo this schedule would use about 2,900 of its 2,000 free minutes a month). The private repo's mirror-publish
+# workflow copies this file there as .github/workflows/uptime.yml.
+# On failure it opens one issue titled "[uptime] ..." in the mirror repo (or comments on the open one, at most
+# hourly); on recovery it comments and closes it. It sends no email itself; GitHub's own notification settings apply.
+# Manual run: Actions > Uptime > Run workflow; "origin" lets you test another URL (for example a bad one).
+# Note: GitHub runs scheduled workflows from the default branch only, and may delay them a few minutes.
+name: Uptime
+on:
+  schedule:
+    - cron: '7,22,37,52 * * * *'
+  workflow_dispatch:
+    inputs:
+      origin:
+        description: Site to check (empty = moneywithai.net)
+        required: false
+        default: ''
+permissions:
+  contents: read
+  issues: write
+concurrency:
+  group: uptime
+  cancel-in-progress: false
+jobs:
+  check:
+    if: github.repository != 'anthonytoday/bots-directory'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: scripts/resilience/uptime.mjs
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Check moneywithai.net
+        id: check
+        continue-on-error: true
+        env:
+          ORIGIN: ${{ inputs.origin || vars.UPTIME_ORIGIN || 'https://moneywithai.net' }}
+        run: node scripts/resilience/uptime.mjs --origin "$ORIGIN" --json uptime.json
+      - name: Open, update or close the uptime issue
+        uses: actions/github-script@v7
+        env:
+          OUTCOME: ${{ steps.check.outcome }}
+        with:
+          script: |
+            const fs = require('fs');
+            const r = JSON.parse(fs.readFileSync('uptime.json', 'utf8'));
+            const down = process.env.OUTCOME !== 'success';
+            const { owner, repo } = context.repo;
+            const open = (await github.paginate(github.rest.issues.listForRepo, { owner, repo, state: 'open', per_page: 100 }))
+              .filter((i) => !i.pull_request && i.title.startsWith('[uptime]'));
+            if (down) {
+              const failing = r.results.filter((x) => !x.ok).map((x) => x.name).join(', ');
+              if (!open.length) {
+                await github.rest.issues.create({ owner, repo, title: `[uptime] ${new URL(r.origin).host} DOWN: ${failing}`, body: r.summary + '\n\nRunbook: docs/resilience/FAILOVER.md in the private repo. This issue closes itself when the checks pass again.' });
+              } else {
+                const last = new Date(open[0].updated_at).getTime();
+                if (Date.now() - last > 55 * 60 * 1000) await github.rest.issues.createComment({ owner, repo, issue_number: open[0].number, body: 'Still down.\n\n' + r.summary });
+              }
+              core.setFailed('Site check failed: ' + failing);
+            } else {
+              for (const i of open) {
+                await github.rest.issues.createComment({ owner, repo, issue_number: i.number, body: 'Recovered.\n\n' + r.summary });
+                await github.rest.issues.update({ owner, repo, issue_number: i.number, state: 'closed' });
+              }
+            }

@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Bot Directory. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "shopify-bot",
+    "name": "Shopify Bot",
+    "category": "E-Commerce",
+    "sub_use_case": "Store operations",
+    "summary": "Runs catalog, inventory, conversion and customer service tasks on a Shopify store, alone or with a bot team.",
+    "tools": [
+      "Shopify"
+    ],
+    "creator": {
+      "handle": "nick_nehaul",
+      "url": "https://x.com/nick_nehaul"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/nick_nehaul/status/2108304525866193171"
+    },
+    "official_share_url": "https://x.ai/bot/jhd6Cb9XEPI6b-hs-WCQE",
+    "found_via": "https://grokbot101.org/bots/shopify-bot/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-24",
+    "url": "https://bots.anthonytoday.com/bots/shopify-bot/",
+    "json_url": "https://bots.anthonytoday.com/api/bots/shopify-bot.json"
+  }
+}

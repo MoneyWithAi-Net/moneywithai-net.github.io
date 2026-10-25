@@ -1,0 +1,109 @@
+{
+  "type": "use-case",
+  "slug": "maker-shop-quotes",
+  "title": "Quote Faster in a Small Maker Shop",
+  "category": "Client Services",
+  "category_slug": "client-services",
+  "money_model": "Grow sales",
+  "difficulty": "Beginner",
+  "summary": "Answer customer questions and price jobs with quantity discounts, then reply in a consistent voice.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes faster, consistent quotes win more small custom orders.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Quick quotes win more small jobs.",
+    "Less time on repeat questions."
+  ],
+  "who_its_for": [
+    "3D print shops and other small custom-order businesses."
+  ],
+  "stack": [
+    {
+      "bot": "precision-3d-helper",
+      "name": "Precision 3D Helper",
+      "role": "Answers questions, prices jobs and helps fix prints.",
+      "creator": "srinimaram",
+      "tools": [
+        "Bambu Lab"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/precision-3d-helper/",
+      "official_share_url": "https://x.ai/bot/bna2wMqlfX6-F4TBmAEBJ"
+    },
+    {
+      "bot": "reply-desk",
+      "name": "Reply Desk",
+      "role": "Drafts replies to customer messages and reviews.",
+      "creator": "lonzom10",
+      "tools": [
+        "Email"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/reply-desk/",
+      "official_share_url": "https://x.ai/bot/8lLjBC7bXUqbfh-vLG9jf"
+    }
+  ],
+  "tools": [
+    "Bambu Lab",
+    "Email"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Customer questions",
+        "tool": null
+      },
+      {
+        "label": "Material costs and machine rates",
+        "tool": "Bambu Lab"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "precision-3d-helper",
+        "name": "Precision 3D Helper",
+        "does": "Prices jobs with quantity discounts",
+        "tools": [
+          "Bambu Lab"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "reply-desk",
+        "name": "Reply Desk",
+        "does": "Drafts replies around each order",
+        "tools": [
+          "Email"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Confirm costs and send the quote",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Quick, consistent quotes",
+      "More small jobs won"
+    ]
+  },
+  "steps": [
+    "Give the helper your material costs and machine rates.",
+    "Check its quotes against a few past jobs.",
+    "Use Reply Desk for the messages around each order."
+  ],
+  "guardrails": [
+    "Quotes are drafts until you confirm costs."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+  "url": "https://bots.anthonytoday.com/use-cases/maker-shop-quotes/",
+  "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/maker-shop-quotes.json"
+}

@@ -1,0 +1,30 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Bot Directory. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "lead-vetting",
+    "name": "Lead Vetting",
+    "category": "Leads and Sales",
+    "sub_use_case": "Inbound qualification",
+    "summary": "Screens consulting and collab leads from your inbox and sends a short go or no-go summary to Slack.",
+    "tools": [
+      "Email",
+      "Slack"
+    ],
+    "creator": {
+      "handle": "anzevoje",
+      "url": "https://x.com/anzevoje"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/anzevoje/status/2102299536513245605"
+    },
+    "official_share_url": "https://x.ai/bot/eEfAacXdtzHANV5hVhG6o",
+    "found_via": "https://grokbot101.org/bots/lead-vetting/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-24",
+    "url": "https://bots.anthonytoday.com/bots/lead-vetting/",
+    "json_url": "https://bots.anthonytoday.com/api/bots/lead-vetting.json"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Bot Directory. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "photo-and-video-shoot-confirmations",
+    "name": "Photo & Video Shoot Confirmations",
+    "category": "Client Services",
+    "sub_use_case": "Client confirmations",
+    "summary": "Emails clients a forecast 48 hours before an outdoor shoot and drafts reschedule options when rain looks likely.",
+    "tools": [
+      "Email"
+    ],
+    "creator": {
+      "handle": "TimFPhotography",
+      "url": "https://x.com/TimFPhotography"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/TimFPhotography/status/2106715972744929301"
+    },
+    "official_share_url": "https://x.ai/bot/iduDVp02VHu06-XddxcSD",
+    "found_via": "https://grokbot101.org/bots/shoot-confirmations/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-24",
+    "url": "https://bots.anthonytoday.com/bots/photo-and-video-shoot-confirmations/",
+    "json_url": "https://bots.anthonytoday.com/api/bots/photo-and-video-shoot-confirmations.json"
+  }
+}

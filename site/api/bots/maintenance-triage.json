@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Bot Directory. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "maintenance-triage",
+    "name": "Maintenance Triage",
+    "category": "Research and Ops",
+    "sub_use_case": "Property maintenance",
+    "summary": "Runs residential maintenance requests from intake and triage to dispatch, resident texts and closeout checks.",
+    "tools": [
+      "SMS"
+    ],
+    "creator": {
+      "handle": "Miffy_NYC",
+      "url": "https://x.com/Miffy_NYC"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/Miffy_NYC/status/2102588454588547504"
+    },
+    "official_share_url": "https://x.ai/bot/gKgo-_MM29kfcD9qiZf2A",
+    "found_via": "https://grokbot101.org/bots/miffy-maintenance-triage/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-24",
+    "url": "https://bots.anthonytoday.com/bots/maintenance-triage/",
+    "json_url": "https://bots.anthonytoday.com/api/bots/maintenance-triage.json"
+  }
+}

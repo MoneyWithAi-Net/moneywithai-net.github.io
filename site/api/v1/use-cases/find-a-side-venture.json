@@ -1,0 +1,109 @@
+{
+  "type": "use-case",
+  "slug": "find-a-side-venture",
+  "title": "Scout a Side Venture Worth Starting",
+  "category": "Research and Ops",
+  "category_slug": "research-and-ops",
+  "money_model": "Sell a service",
+  "difficulty": "Beginner",
+  "summary": "Get vetted opportunity ideas with sources, risks and a next step, backed by market notes.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Research only: income depends on the venture you pick and run.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Pick a venture with evidence instead of a hunch.",
+    "Stop ideas early when the risks show."
+  ],
+  "who_its_for": [
+    "People looking for a first or second income stream."
+  ],
+  "stack": [
+    {
+      "bot": "entrepreneur-scout",
+      "name": "Entrepreneur Scout",
+      "role": "Finds and vets ideas and keeps a weekly scorecard.",
+      "creator": "hjackson2",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/entrepreneur-scout/",
+      "official_share_url": "https://x.ai/bot/scvcDPnSH2_sj3pH6ONCR"
+    },
+    {
+      "bot": "market-research",
+      "name": "Market Research",
+      "role": "Writes source-graded notes on your topics.",
+      "creator": "eyemotors",
+      "tools": [
+        "X"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/market-research/",
+      "official_share_url": "https://x.ai/bot/t1l_On1VtkMYddCu5MqQB"
+    }
+  ],
+  "tools": [
+    "Grok",
+    "X"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Your skills, time and budget",
+        "tool": null
+      },
+      {
+        "label": "Market sources",
+        "tool": "X"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "entrepreneur-scout",
+        "name": "Entrepreneur Scout",
+        "does": "Finds and vets ideas weekly",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "market-research",
+        "name": "Market Research",
+        "does": "Writes source-graded notes",
+        "tools": [
+          "X"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Pick one idea and test it small",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Vetted ideas with sources",
+      "A weekly scorecard"
+    ]
+  },
+  "steps": [
+    "Write a short brief: skills, time and budget.",
+    "Review the first ideas and their sources.",
+    "Pick one and test it small."
+  ],
+  "guardrails": [
+    "Not financial or legal advice; check sources yourself."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+  "url": "https://bots.anthonytoday.com/use-cases/find-a-side-venture/",
+  "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/find-a-side-venture.json"
+}

@@ -1,0 +1,118 @@
+{
+  "type": "use-case",
+  "slug": "product-expert-on-sales-calls",
+  "title": "Win Technical Sales Calls with a Product Expert",
+  "category": "Leads and Sales",
+  "category_slug": "leads-and-sales",
+  "money_model": "Grow sales",
+  "difficulty": "Advanced",
+  "summary": "Answer deep product questions live and know how you compare, so calls do not stall on \"let me get back to you\".",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes technical deals often stall on open questions; it helps calls move, it does not create demand.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Fewer deals slip while you wait for an engineer.",
+    "Competitive context helps you handle objections."
+  ],
+  "who_its_for": [
+    "Founders and sales teams selling technical products."
+  ],
+  "stack": [
+    {
+      "bot": "product-expert",
+      "name": "Product Expert",
+      "role": "Answers product questions from your code or knowledge base.",
+      "creator": "kristaletz",
+      "tools": [
+        "GitHub",
+        "Glean"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/product-expert/",
+      "official_share_url": null
+    },
+    {
+      "bot": "scout-competitive-intelligence",
+      "name": "Scout (Competitive Intelligence)",
+      "role": "Tracks what competitors change.",
+      "creator": "adamta",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/scout-competitive-intelligence/",
+      "official_share_url": "https://x.ai/bot/rthl9MdskO2f-JCzmyINP"
+    }
+  ],
+  "tools": [
+    "GitHub",
+    "Glean",
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Your code",
+        "tool": "GitHub"
+      },
+      {
+        "label": "Your knowledge base",
+        "tool": "Glean"
+      },
+      {
+        "label": "Competitor sites",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "product-expert",
+        "name": "Product Expert",
+        "does": "Answers product questions from your sources",
+        "tools": [
+          "GitHub",
+          "Glean"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "scout-competitive-intelligence",
+        "name": "Scout (Competitive Intelligence)",
+        "does": "Tracks what competitors change",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Check pricing and roadmap answers",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Answers during the call",
+      "A weekly competitor brief",
+      "Fewer stalled deals"
+    ]
+  },
+  "steps": [
+    "Connect the knowledge source the Product Expert should read.",
+    "Test it on the ten questions buyers ask most.",
+    "Set Scout to send a weekly competitor brief.",
+    "Use both before and during calls."
+  ],
+  "guardrails": [
+    "Check answers about pricing and roadmap before you share them."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-24T08:00:00.000Z",
+  "url": "https://bots.anthonytoday.com/use-cases/product-expert-on-sales-calls/",
+  "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/product-expert-on-sales-calls.json"
+}

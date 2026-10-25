@@ -1,0 +1,119 @@
+{
+  "type": "use-case",
+  "slug": "accounting-practice-ops",
+  "title": "Run a Small Accounting Practice",
+  "category": "Finance",
+  "category_slug": "finance",
+  "money_model": "Save costs",
+  "difficulty": "Intermediate",
+  "summary": "Faster client replies, document chasing and early due-date notices, with the inbox sorted.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes drafted routine work lets each accountant serve more clients.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "More clients per accountant.",
+    "Fewer late filings and rush fees."
+  ],
+  "who_its_for": [
+    "Tax and accounting offices."
+  ],
+  "stack": [
+    {
+      "bot": "tax-firm-os",
+      "name": "Tax Firm OS",
+      "role": "Drafts replies, chases documents and tracks due dates.",
+      "creator": "Amervim",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/tax-firm-os/",
+      "official_share_url": "https://x.ai/bot/vJqjJphtZRkdBTYBxmWur"
+    },
+    {
+      "bot": "inbox-triage",
+      "name": "Inbox Triage",
+      "role": "Sorts email and DMs into tasks.",
+      "creator": "rchase",
+      "tools": [
+        "Facebook",
+        "X",
+        "LinkedIn",
+        "Trello"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/inbox-triage/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Grok",
+    "Facebook",
+    "X",
+    "LinkedIn",
+    "Trello"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Client email and DMs",
+        "tool": "Email"
+      },
+      {
+        "label": "Client list and due dates",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "inbox-triage",
+        "name": "Inbox Triage",
+        "does": "Sorts messages into tasks",
+        "tools": [
+          "Facebook",
+          "X",
+          "LinkedIn",
+          "Trello"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "tax-firm-os",
+        "name": "Tax Firm OS",
+        "does": "Drafts replies and chases documents",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "A professional owns every filing",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Faster client replies",
+      "Early due-date notices",
+      "More clients per accountant"
+    ]
+  },
+  "steps": [
+    "Load your client list and due dates.",
+    "Review drafts for a week.",
+    "Let reminders go out once you trust them."
+  ],
+  "guardrails": [
+    "Not tax or legal advice; a professional owns every filing."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+  "url": "https://bots.anthonytoday.com/use-cases/accounting-practice-ops/",
+  "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/accounting-practice-ops.json"
+}

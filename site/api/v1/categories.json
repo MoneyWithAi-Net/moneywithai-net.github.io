@@ -1,0 +1,302 @@
+{
+  "generated_at": "2026-10-25T07:30:16.000Z",
+  "api_version": "v1",
+  "schema_revision": 2,
+  "status_url": "https://bots.anthonytoday.com/api/v1/status.json",
+  "count": 7,
+  "items": [
+    {
+      "slug": "leads-and-sales",
+      "label": "Leads and Sales",
+      "bots": 11,
+      "use_cases": 8,
+      "sub_use_cases": [
+        {
+          "slug": "local-seo-prospect-lists",
+          "label": "Local SEO prospect lists",
+          "bots": 1
+        },
+        {
+          "slug": "no-website-prospects",
+          "label": "No-website prospects",
+          "bots": 1
+        },
+        {
+          "slug": "social-engagement-leads",
+          "label": "Social engagement leads",
+          "bots": 1
+        },
+        {
+          "slug": "linkedin-funnels",
+          "label": "LinkedIn funnels",
+          "bots": 2
+        },
+        {
+          "slug": "x-prospecting",
+          "label": "X prospecting",
+          "bots": 1
+        },
+        {
+          "slug": "inbound-qualification",
+          "label": "Inbound qualification",
+          "bots": 1
+        },
+        {
+          "slug": "speed-to-lead-and-quotes",
+          "label": "Speed-to-lead and quotes",
+          "bots": 1
+        },
+        {
+          "slug": "crm-hygiene",
+          "label": "CRM hygiene",
+          "bots": 1
+        },
+        {
+          "slug": "pre-pitch-audits",
+          "label": "Pre-pitch audits",
+          "bots": 1
+        },
+        {
+          "slug": "sales-call-support",
+          "label": "Sales-call support",
+          "bots": 1
+        }
+      ],
+      "url": "https://bots.anthonytoday.com/?category=leads-and-sales"
+    },
+    {
+      "slug": "content-and-marketing",
+      "label": "Content and Marketing",
+      "bots": 10,
+      "use_cases": 6,
+      "sub_use_cases": [
+        {
+          "slug": "x-posting",
+          "label": "X posting",
+          "bots": 2
+        },
+        {
+          "slug": "threads-and-articles",
+          "label": "Threads and articles",
+          "bots": 1
+        },
+        {
+          "slug": "youtube-operations",
+          "label": "YouTube operations",
+          "bots": 1
+        },
+        {
+          "slug": "brand-deal-pricing",
+          "label": "Brand-deal pricing",
+          "bots": 1
+        },
+        {
+          "slug": "local-seo-content",
+          "label": "Local SEO content",
+          "bots": 2
+        },
+        {
+          "slug": "brand-social",
+          "label": "Brand social",
+          "bots": 1
+        },
+        {
+          "slug": "compliance-review",
+          "label": "Compliance review",
+          "bots": 1
+        },
+        {
+          "slug": "practice-marketing",
+          "label": "Practice marketing",
+          "bots": 1
+        }
+      ],
+      "url": "https://bots.anthonytoday.com/?category=content-and-marketing"
+    },
+    {
+      "slug": "e-commerce",
+      "label": "E-Commerce",
+      "bots": 4,
+      "use_cases": 3,
+      "sub_use_cases": [
+        {
+          "slug": "store-operations",
+          "label": "Store operations",
+          "bots": 1
+        },
+        {
+          "slug": "store-chief-of-staff",
+          "label": "Store chief of staff",
+          "bots": 1
+        },
+        {
+          "slug": "resale-listings",
+          "label": "Resale listings",
+          "bots": 1
+        },
+        {
+          "slug": "competitor-drops",
+          "label": "Competitor drops",
+          "bots": 1
+        }
+      ],
+      "url": "https://bots.anthonytoday.com/?category=e-commerce"
+    },
+    {
+      "slug": "client-services",
+      "label": "Client Services",
+      "bots": 4,
+      "use_cases": 3,
+      "sub_use_cases": [
+        {
+          "slug": "client-confirmations",
+          "label": "Client confirmations",
+          "bots": 1
+        },
+        {
+          "slug": "quotes",
+          "label": "Quotes",
+          "bots": 1
+        },
+        {
+          "slug": "client-delivery",
+          "label": "Client delivery",
+          "bots": 1
+        },
+        {
+          "slug": "grant-packs",
+          "label": "Grant packs",
+          "bots": 1
+        }
+      ],
+      "url": "https://bots.anthonytoday.com/?category=client-services"
+    },
+    {
+      "slug": "finance",
+      "label": "Finance",
+      "bots": 6,
+      "use_cases": 4,
+      "sub_use_cases": [
+        {
+          "slug": "invoices",
+          "label": "Invoices",
+          "bots": 1
+        },
+        {
+          "slug": "rental-bookkeeping",
+          "label": "Rental bookkeeping",
+          "bots": 1
+        },
+        {
+          "slug": "accounting-office-ops",
+          "label": "Accounting office ops",
+          "bots": 1
+        },
+        {
+          "slug": "expense-reports",
+          "label": "Expense reports",
+          "bots": 1
+        },
+        {
+          "slug": "revenue-recovery",
+          "label": "Revenue recovery",
+          "bots": 1
+        },
+        {
+          "slug": "saas-spend",
+          "label": "SaaS spend",
+          "bots": 1
+        }
+      ],
+      "url": "https://bots.anthonytoday.com/?category=finance"
+    },
+    {
+      "slug": "customer-support",
+      "label": "Customer Support",
+      "bots": 5,
+      "use_cases": 2,
+      "sub_use_cases": [
+        {
+          "slug": "ticket-fixing",
+          "label": "Ticket fixing",
+          "bots": 1
+        },
+        {
+          "slug": "help-center",
+          "label": "Help center",
+          "bots": 1
+        },
+        {
+          "slug": "feedback-watch",
+          "label": "Feedback watch",
+          "bots": 1
+        },
+        {
+          "slug": "review-replies",
+          "label": "Review replies",
+          "bots": 1
+        },
+        {
+          "slug": "phone-answering",
+          "label": "Phone answering",
+          "bots": 1
+        }
+      ],
+      "url": "https://bots.anthonytoday.com/?category=customer-support"
+    },
+    {
+      "slug": "research-and-ops",
+      "label": "Research and Ops",
+      "bots": 10,
+      "use_cases": 5,
+      "sub_use_cases": [
+        {
+          "slug": "competitor-intel",
+          "label": "Competitor intel",
+          "bots": 2
+        },
+        {
+          "slug": "market-notes",
+          "label": "Market notes",
+          "bots": 1
+        },
+        {
+          "slug": "opportunity-scouting",
+          "label": "Opportunity scouting",
+          "bots": 1
+        },
+        {
+          "slug": "inbox-triage",
+          "label": "Inbox triage",
+          "bots": 1
+        },
+        {
+          "slug": "team-memory",
+          "label": "Team memory",
+          "bots": 1
+        },
+        {
+          "slug": "property-maintenance",
+          "label": "Property maintenance",
+          "bots": 1
+        },
+        {
+          "slug": "construction-office",
+          "label": "Construction office",
+          "bots": 1
+        },
+        {
+          "slug": "tender-bids",
+          "label": "Tender bids",
+          "bots": 1
+        },
+        {
+          "slug": "hiring",
+          "label": "Hiring",
+          "bots": 1
+        }
+      ],
+      "url": "https://bots.anthonytoday.com/?category=research-and-ops"
+    }
+  ]
+}

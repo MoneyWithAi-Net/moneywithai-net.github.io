@@ -1,0 +1,32 @@
+{
+  "type": "bot",
+  "slug": "competitor-intel",
+  "name": "Competitor Intel",
+  "category": "Research and Ops",
+  "sub_use_case": "Competitor intel",
+  "summary": "Researches a local service business's competitors and files a weekly report with cited moves.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "TheReal_BCM",
+    "url": "https://x.com/TheReal_BCM"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/TheReal_BCM/status/2106677552559366225"
+  },
+  "official_share_url": "https://x.ai/bot/PIBCWeB59T-UhxyBNLowR",
+  "found_via": "https://grokbot101.org/bots/competitor-intel/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-24",
+  "url": "https://bots.anthonytoday.com/bots/competitor-intel/",
+  "json_url": "https://bots.anthonytoday.com/api/v1/bots/competitor-intel.json",
+  "use_cases": [
+    "https://bots.anthonytoday.com/use-cases/local-seo-content-engine/",
+    "https://bots.anthonytoday.com/use-cases/local-competitor-intel/"
+  ],
+  "added_at": "2026-10-24T09:30:00.000Z"
+}

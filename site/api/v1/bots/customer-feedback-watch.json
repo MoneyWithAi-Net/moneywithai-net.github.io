@@ -1,0 +1,31 @@
+{
+  "type": "bot",
+  "slug": "customer-feedback-watch",
+  "name": "Customer Feedback Watch",
+  "category": "Customer Support",
+  "sub_use_case": "Feedback watch",
+  "summary": "Scans public posts on X for complaints and bug reports about your product and flags the few that need action.",
+  "tools": [
+    "X API"
+  ],
+  "creator": {
+    "handle": "egavrilenko11",
+    "url": "https://x.com/egavrilenko11"
+  },
+  "scouted_by": "elie2222",
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/egavrilenko11/status/2095604008555893015"
+  },
+  "official_share_url": "https://x.ai/bot/8Snl1TovbMwClPoBiHrWT",
+  "found_via": "https://botdirectory.ai/bots/customer-feedback-watch/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-24",
+  "url": "https://bots.anthonytoday.com/bots/customer-feedback-watch/",
+  "json_url": "https://bots.anthonytoday.com/api/v1/bots/customer-feedback-watch.json",
+  "use_cases": [
+    "https://bots.anthonytoday.com/use-cases/support-that-fixes-bugs/"
+  ],
+  "added_at": "2026-10-24T08:00:00.000Z"
+}

@@ -1,0 +1,133 @@
+{
+  "type": "use-case",
+  "slug": "shopify-store-with-a-bot-team",
+  "title": "Run a Shopify Store with a Bot Team",
+  "category": "E-Commerce",
+  "category_slug": "e-commerce",
+  "money_model": "Grow sales",
+  "difficulty": "Advanced",
+  "summary": "One bot works the catalog and conversion, one coordinates orders, ads and stock, one drafts customer replies.",
+  "money_potential": {
+    "tier": 3,
+    "symbol": "$$$",
+    "label": "High",
+    "basis": "Assumes a store with steady orders; gains scale with your sales volume.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Fewer missed orders, stockouts and slow replies.",
+    "More time for product and marketing."
+  ],
+  "who_its_for": [
+    "Shopify store owners and small e-commerce teams."
+  ],
+  "stack": [
+    {
+      "bot": "shopify-bot",
+      "name": "Shopify Bot",
+      "role": "Works on catalog, inventory, conversion and service through Shopify.",
+      "creator": "nick_nehaul",
+      "tools": [
+        "Shopify"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/shopify-bot/",
+      "official_share_url": "https://x.ai/bot/jhd6Cb9XEPI6b-hs-WCQE"
+    },
+    {
+      "bot": "store-manager",
+      "name": "Store Manager",
+      "role": "Coordinates store bots across orders, ads, stock and disputes.",
+      "creator": "ColinMcDermott",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/store-manager/",
+      "official_share_url": "https://x.ai/bot/5axq0n6JtBkqjhMaCDO6d"
+    },
+    {
+      "bot": "reply-desk",
+      "name": "Reply Desk",
+      "role": "Drafts replies to customer messages and reviews.",
+      "creator": "lonzom10",
+      "tools": [
+        "Email"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/reply-desk/",
+      "official_share_url": "https://x.ai/bot/8lLjBC7bXUqbfh-vLG9jf"
+    }
+  ],
+  "tools": [
+    "Shopify",
+    "Grok",
+    "Email"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Store, catalog and orders",
+        "tool": "Shopify"
+      },
+      {
+        "label": "Customer messages",
+        "tool": "Email"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "shopify-bot",
+        "name": "Shopify Bot",
+        "does": "Works catalog, stock and conversion",
+        "tools": [
+          "Shopify"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "store-manager",
+        "name": "Store Manager",
+        "does": "Coordinates orders, ads and disputes",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "reply-desk",
+        "name": "Reply Desk",
+        "does": "Drafts customer replies",
+        "tools": [
+          "Email"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "you",
+        "name": "You",
+        "does": "Approve changes and spend",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A daily store digest",
+      "Fewer stockouts and missed orders",
+      "Faster replies"
+    ]
+  },
+  "steps": [
+    "Start with Shopify Bot on low-risk tasks.",
+    "Add Store Manager once you trust the daily digest.",
+    "Route customer messages to Reply Desk drafts.",
+    "Widen access one task at a time."
+  ],
+  "guardrails": [
+    "Shopify Bot can change a live store; test first.",
+    "Store Manager never spends money on its own."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+  "url": "https://bots.anthonytoday.com/use-cases/shopify-store-with-a-bot-team/",
+  "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/shopify-store-with-a-bot-team.json"
+}

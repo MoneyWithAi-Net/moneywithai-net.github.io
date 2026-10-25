@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Bot Directory. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "consider-it-marketed",
+    "name": "Consider It Marketed",
+    "category": "Content and Marketing",
+    "sub_use_case": "Practice marketing",
+    "summary": "Directs a bot team for a medical practice's marketing: ads, creative, video and quality checks.",
+    "tools": [
+      "Google Ads"
+    ],
+    "creator": {
+      "handle": "CindyH874325640",
+      "url": "https://x.com/CindyH874325640"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/CindyH874325640/status/2101866621228785883"
+    },
+    "official_share_url": "https://x.ai/bot/ayQYbaHquRM7x7lnBOEoQ",
+    "found_via": "https://grokbot101.org/bots/consider-it-marketed/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-24",
+    "url": "https://bots.anthonytoday.com/bots/consider-it-marketed/",
+    "json_url": "https://bots.anthonytoday.com/api/bots/consider-it-marketed.json"
+  }
+}

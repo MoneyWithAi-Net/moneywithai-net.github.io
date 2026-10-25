@@ -1,0 +1,110 @@
+{
+  "type": "use-case",
+  "slug": "x-audience-prospecting",
+  "title": "Find Buyers in X Conversations",
+  "category": "Leads and Sales",
+  "category_slug": "leads-and-sales",
+  "money_model": "Grow sales",
+  "difficulty": "Beginner",
+  "summary": "Get a short daily list of accounts and posts worth engaging with, plus a first-draft reply for each.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Assumes replies bring profile visits first; sales come later and depend on your offer.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Helpful replies in the right threads bring profile visits and inbound leads.",
+    "You spend minutes, not hours, finding where to show up."
+  ],
+  "who_its_for": [
+    "Founders and creators who sell to people active on X."
+  ],
+  "stack": [
+    {
+      "bot": "x-reply-scout",
+      "name": "X Reply Scout",
+      "role": "Recommends accounts and posts that fit your audience.",
+      "creator": "scientists_blog",
+      "tools": [
+        "X"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/x-reply-scout/",
+      "official_share_url": "https://x.ai/bot/DRZ2jU1GFwV8HS2_9Y6MA"
+    },
+    {
+      "bot": "reply-drafter",
+      "name": "Reply Drafter",
+      "role": "Drafts a first take in your voice for the posts you pick.",
+      "creator": "kevinace",
+      "tools": [
+        "X"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/reply-drafter/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "X"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Conversations on X",
+        "tool": "X"
+      },
+      {
+        "label": "Who you want to reach",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "x-reply-scout",
+        "name": "X Reply Scout",
+        "does": "Picks accounts and posts worth joining",
+        "tools": [
+          "X"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "reply-drafter",
+        "name": "Reply Drafter",
+        "does": "Drafts a reply in your voice",
+        "tools": [
+          "X"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Edit and post the replies",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A daily list of threads",
+      "Profile visits and inbound leads"
+    ]
+  },
+  "steps": [
+    "Describe who you want to reach and what you can help with.",
+    "Review the scout's first list and give feedback.",
+    "Pick a few posts and ask for drafts.",
+    "Edit and post replies yourself."
+  ],
+  "guardrails": [
+    "Neither bot posts for you.",
+    "Avoid bulk or repetitive replies."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+  "url": "https://bots.anthonytoday.com/use-cases/x-audience-prospecting/",
+  "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/x-audience-prospecting.json"
+}

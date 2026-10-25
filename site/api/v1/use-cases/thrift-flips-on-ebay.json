@@ -1,0 +1,88 @@
+{
+  "type": "use-case",
+  "slug": "thrift-flips-on-ebay",
+  "title": "Flip Thrift Finds on eBay",
+  "category": "E-Commerce",
+  "category_slug": "e-commerce",
+  "money_model": "Sell a service",
+  "difficulty": "Beginner",
+  "summary": "Photograph an item and get an eBay draft with sold comps, a title and a price to review.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Assumes small margins per item; income grows with how many items you source and list.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "You list more items per hour.",
+    "Sold comps help you price to sell, not to sit."
+  ],
+  "who_its_for": [
+    "Resellers, collectors and anyone clearing out a garage."
+  ],
+  "stack": [
+    {
+      "bot": "ebay-lister",
+      "name": "eBay Lister",
+      "role": "Turns photos into eBay drafts with comps and pricing.",
+      "creator": "Gabi_Valerio3",
+      "tools": [
+        "eBay"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/ebay-lister/",
+      "official_share_url": "https://x.ai/bot/q9Q8EPKFx45CmVwjUAFY5"
+    }
+  ],
+  "tools": [
+    "eBay"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Photos of an item",
+        "tool": null
+      },
+      {
+        "label": "Sold comps",
+        "tool": "eBay"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "ebay-lister",
+        "name": "eBay Lister",
+        "does": "Drafts a title, condition notes and a price",
+        "tools": [
+          "eBay"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "you",
+        "name": "You",
+        "does": "Check comps and publish the listing",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Ready eBay drafts",
+      "Items priced to sell"
+    ]
+  },
+  "steps": [
+    "Add the bot and photograph one item.",
+    "Check the comps and condition notes.",
+    "Publish the listing yourself."
+  ],
+  "guardrails": [
+    "The bot drafts only; it never lists or messages buyers."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+  "url": "https://bots.anthonytoday.com/use-cases/thrift-flips-on-ebay/",
+  "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/thrift-flips-on-ebay.json"
+}

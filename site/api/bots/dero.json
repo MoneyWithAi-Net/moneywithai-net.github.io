@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Bot Directory. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "dero",
+    "name": "Dero",
+    "category": "Research and Ops",
+    "sub_use_case": "Tender bids",
+    "summary": "Coordinates a Spanish-language bot team that prepares bids for Chilean municipal tenders, from spec sheet to QA.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "jorgesoffia",
+      "url": "https://x.com/jorgesoffia"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/jorgesoffia/status/2099936875498627530"
+    },
+    "official_share_url": "https://x.ai/bot/OMpdsLwId7Du5PrjbX8L8",
+    "found_via": "https://grokbot101.org/bots/dero/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-24",
+    "url": "https://bots.anthonytoday.com/bots/dero/",
+    "json_url": "https://bots.anthonytoday.com/api/bots/dero.json"
+  }
+}

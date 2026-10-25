@@ -1,0 +1,33 @@
+{
+  "type": "bot",
+  "slug": "phone-receptionist",
+  "name": "Phone Receptionist",
+  "category": "Customer Support",
+  "sub_use_case": "Phone answering",
+  "summary": "Answers a business phone line and books meetings on Google Calendar. The share card lists a paid phone plan.",
+  "tools": [
+    "Google Calendar",
+    "Bland"
+  ],
+  "creator": {
+    "handle": "SimplyColeB",
+    "url": "https://x.com/SimplyColeB"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/SimplyColeB/status/2107971762831114461"
+  },
+  "official_share_url": "https://x.ai/bot/Z7LfRtBtwfaojaomMrAuX",
+  "found_via": "https://grokbot101.org/bots/phone-receptionist/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-24",
+  "url": "https://bots.anthonytoday.com/bots/phone-receptionist/",
+  "json_url": "https://bots.anthonytoday.com/api/v1/bots/phone-receptionist.json",
+  "use_cases": [
+    "https://bots.anthonytoday.com/use-cases/contractor-speed-to-lead/",
+    "https://bots.anthonytoday.com/use-cases/local-business-reviews-and-calls/"
+  ],
+  "added_at": "2026-10-24T09:30:00.000Z"
+}

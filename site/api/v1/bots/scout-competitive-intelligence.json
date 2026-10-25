@@ -1,0 +1,33 @@
+{
+  "type": "bot",
+  "slug": "scout-competitive-intelligence",
+  "name": "Scout (Competitive Intelligence)",
+  "category": "Research and Ops",
+  "sub_use_case": "Competitor intel",
+  "summary": "Tracks competitor sites, search rankings and AI answer visibility, and sends a weekly brief when something moves.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "adamta",
+    "url": "https://x.com/adamta"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/adamta/status/2093388517044830237"
+  },
+  "official_share_url": "https://x.ai/bot/rthl9MdskO2f-JCzmyINP",
+  "found_via": "https://botdirectory.ai/bots/scout-competitive-intelligence/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-24",
+  "url": "https://bots.anthonytoday.com/bots/scout-competitive-intelligence/",
+  "json_url": "https://bots.anthonytoday.com/api/v1/bots/scout-competitive-intelligence.json",
+  "use_cases": [
+    "https://bots.anthonytoday.com/use-cases/product-expert-on-sales-calls/",
+    "https://bots.anthonytoday.com/use-cases/dtc-competitor-drop-watch/",
+    "https://bots.anthonytoday.com/use-cases/local-competitor-intel/"
+  ],
+  "added_at": "2026-10-24T08:00:00.000Z"
+}

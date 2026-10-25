@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Bot Directory. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "geo-targeted-seo-publisher",
+    "name": "Geo-Targeted SEO Publisher",
+    "category": "Content and Marketing",
+    "sub_use_case": "Local SEO content",
+    "summary": "Drafts local SEO articles for a city and topic you choose and publishes them through your repo after approval.",
+    "tools": [
+      "GitHub"
+    ],
+    "creator": {
+      "handle": "coreyganim",
+      "url": "https://x.com/coreyganim"
+    },
+    "scouted_by": "elie2222",
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/coreyganim/status/2092284619991482842"
+    },
+    "official_share_url": null,
+    "found_via": "https://botdirectory.ai/bots/geo-targeted-seo-publisher/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-24",
+    "url": "https://bots.anthonytoday.com/bots/geo-targeted-seo-publisher/",
+    "json_url": "https://bots.anthonytoday.com/api/bots/geo-targeted-seo-publisher.json"
+  }
+}

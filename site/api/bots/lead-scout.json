@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Bot Directory. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "lead-scout",
+    "name": "Lead Scout",
+    "category": "Leads and Sales",
+    "sub_use_case": "Local SEO prospect lists",
+    "summary": "Builds lists of local businesses whose sites show search gaps, so an agency has warm reasons to reach out.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "itsryanlenk",
+      "url": "https://x.com/itsryanlenk"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/itsryanlenk/status/2101336928134001090"
+    },
+    "official_share_url": "https://x.ai/bot/j3Qule6BFplSpVqgLpVnV",
+    "found_via": "https://grokbot101.org/bots/lead-scout/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-24",
+    "url": "https://bots.anthonytoday.com/bots/lead-scout/",
+    "json_url": "https://bots.anthonytoday.com/api/bots/lead-scout.json"
+  }
+}

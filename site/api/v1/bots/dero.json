@@ -1,0 +1,31 @@
+{
+  "type": "bot",
+  "slug": "dero",
+  "name": "Dero",
+  "category": "Research and Ops",
+  "sub_use_case": "Tender bids",
+  "summary": "Coordinates a Spanish-language bot team that prepares bids for Chilean municipal tenders, from spec sheet to QA.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "jorgesoffia",
+    "url": "https://x.com/jorgesoffia"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/jorgesoffia/status/2099936875498627530"
+  },
+  "official_share_url": "https://x.ai/bot/OMpdsLwId7Du5PrjbX8L8",
+  "found_via": "https://grokbot101.org/bots/dero/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-24",
+  "url": "https://bots.anthonytoday.com/bots/dero/",
+  "json_url": "https://bots.anthonytoday.com/api/v1/bots/dero.json",
+  "use_cases": [
+    "https://bots.anthonytoday.com/use-cases/win-public-tenders/"
+  ],
+  "added_at": "2026-10-24T09:30:00.000Z"
+}

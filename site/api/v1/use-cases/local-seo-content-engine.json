@@ -1,0 +1,132 @@
+{
+  "type": "use-case",
+  "slug": "local-seo-content-engine",
+  "title": "Run a Local SEO Content Engine",
+  "category": "Content and Marketing",
+  "category_slug": "content-and-marketing",
+  "money_model": "Sell a service",
+  "difficulty": "Intermediate",
+  "summary": "Plan local content, publish city pages after approval, and watch what nearby competitors do.",
+  "money_potential": {
+    "tier": 3,
+    "symbol": "$$$",
+    "label": "High",
+    "basis": "Assumes you sell it as a monthly retainer to several local businesses.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Sell it as a monthly retainer to local businesses.",
+    "Or grow your own local search traffic."
+  ],
+  "who_its_for": [
+    "Local marketing agencies and service businesses."
+  ],
+  "stack": [
+    {
+      "bot": "content-planner-manager",
+      "name": "Content Planner Manager",
+      "role": "Plans local content and keeps the calendar.",
+      "creator": "HouseHackerJon",
+      "tools": [
+        "Webflow"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/content-planner-manager/",
+      "official_share_url": null
+    },
+    {
+      "bot": "geo-targeted-seo-publisher",
+      "name": "Geo-Targeted SEO Publisher",
+      "role": "Drafts city pages and publishes after approval.",
+      "creator": "coreyganim",
+      "tools": [
+        "GitHub"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/geo-targeted-seo-publisher/",
+      "official_share_url": null
+    },
+    {
+      "bot": "competitor-intel",
+      "name": "Competitor Intel",
+      "role": "Files a weekly report on local competitors.",
+      "creator": "TheReal_BCM",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/competitor-intel/",
+      "official_share_url": "https://x.ai/bot/PIBCWeB59T-UhxyBNLowR"
+    }
+  ],
+  "tools": [
+    "Webflow",
+    "GitHub",
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "A business and target cities",
+        "tool": null
+      },
+      {
+        "label": "Your site",
+        "tool": "Webflow"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "content-planner-manager",
+        "name": "Content Planner Manager",
+        "does": "Plans local content and the calendar",
+        "tools": [
+          "Webflow"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "geo-targeted-seo-publisher",
+        "name": "Geo-Targeted SEO Publisher",
+        "does": "Drafts city pages",
+        "tools": [
+          "GitHub"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "competitor-intel",
+        "name": "Competitor Intel",
+        "does": "Reports on local competitors",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "you",
+        "name": "You",
+        "does": "Approve each page before it publishes",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Published city pages",
+      "A weekly competitor report",
+      "Retainer clients"
+    ]
+  },
+  "steps": [
+    "Pick one business and three cities.",
+    "Approve the first month's plan.",
+    "Review each article before it publishes.",
+    "Read the competitor report weekly."
+  ],
+  "guardrails": [
+    "Nothing publishes without approval."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+  "url": "https://bots.anthonytoday.com/use-cases/local-seo-content-engine/",
+  "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/local-seo-content-engine.json"
+}

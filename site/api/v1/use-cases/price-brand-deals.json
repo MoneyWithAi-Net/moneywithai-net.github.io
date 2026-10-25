@@ -1,0 +1,91 @@
+{
+  "type": "use-case",
+  "slug": "price-brand-deals",
+  "title": "Price Brand Deals from Real View Counts",
+  "category": "Content and Marketing",
+  "category_slug": "content-and-marketing",
+  "money_model": "Creator income",
+  "difficulty": "Beginner",
+  "summary": "Get a fair fee, a deal menu and a draft agreement for a sponsorship, from either side of the deal.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you already do brand deals; fair pricing raises what each deal pays.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Creators stop underpricing; brands stop overpaying.",
+    "A ready rate card speeds up every negotiation."
+  ],
+  "who_its_for": [
+    "Creators on Instagram or TikTok and the brands that hire them."
+  ],
+  "stack": [
+    {
+      "bot": "cpm",
+      "name": "CPM",
+      "role": "Prices a deal from public view counts and drafts a rate card and agreement.",
+      "creator": "kostahantzis",
+      "tools": [
+        "Instagram",
+        "TikTok"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/cpm/",
+      "official_share_url": "https://x.ai/bot/GwmXIfLuPPIPf2hGX2Txf"
+    }
+  ],
+  "tools": [
+    "Instagram",
+    "TikTok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "A creator profile",
+        "tool": "Instagram"
+      },
+      {
+        "label": "Public view counts",
+        "tool": "TikTok"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "cpm",
+        "name": "CPM",
+        "does": "Prices the deal from public views",
+        "tools": [
+          "Instagram",
+          "TikTok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "you",
+        "name": "You",
+        "does": "Adjust terms and send the offer",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A fair fee and rate card",
+      "A draft agreement"
+    ]
+  },
+  "steps": [
+    "Add the bot and paste a creator profile link.",
+    "Review the suggested fee and deal menu.",
+    "Adjust the agreement draft and send it yourself."
+  ],
+  "guardrails": [
+    "Fees are estimates; confirm terms with the other side."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+  "url": "https://bots.anthonytoday.com/use-cases/price-brand-deals/",
+  "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/price-brand-deals.json"
+}

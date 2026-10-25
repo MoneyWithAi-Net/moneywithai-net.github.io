@@ -1,0 +1,49 @@
+{
+  "service": "Bot Directory API",
+  "site": "https://bots.anthonytoday.com",
+  "generated_at": "2026-10-25T07:30:16.000Z",
+  "api_version": "v1",
+  "schema_revision": 2,
+  "capabilities": [
+    "feed",
+    "bots",
+    "use-cases",
+    "categories",
+    "mcp"
+  ],
+  "counts": {
+    "bots": 50,
+    "use_cases": 31,
+    "categories": 7
+  },
+  "notices": [
+    "24 Oct 2026: money categories merged from 10 to 7 (old category names still match in /mcp). Use cases gained difficulty, money_potential (our estimate, labelled Estimate; claim_label E), tools and a diagram (inputs, steps, outputs)."
+  ],
+  "cache_hint": "Static files. Poll at most every 15 minutes.",
+  "endpoints": {
+    "status": "https://bots.anthonytoday.com/api/v1/status.json",
+    "feed": "https://bots.anthonytoday.com/api/v1/feed.json",
+    "bots": "https://bots.anthonytoday.com/api/v1/bots.json",
+    "bot": "https://bots.anthonytoday.com/api/v1/bots/{slug}.json",
+    "use_cases": "https://bots.anthonytoday.com/api/v1/use-cases.json",
+    "use_case": "https://bots.anthonytoday.com/api/v1/use-cases/{slug}.json",
+    "categories": "https://bots.anthonytoday.com/api/v1/categories.json",
+    "downloads": "https://bots.anthonytoday.com/api/downloads.json",
+    "mcp": "https://bots.anthonytoday.com/mcp"
+  },
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Bot Directory. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "changelog": [
+    {
+      "date": "2026-10-24",
+      "change": "v1: feed, bots, use cases and money categories."
+    },
+    {
+      "date": "2026-10-24",
+      "change": "schema_revision 2: 7 money categories; use cases add category_slug, money_potential, diagram, latest_bot_added_at and stack[].tools; titles in Title Case."
+    },
+    {
+      "date": "2026-10-25",
+      "change": "Copy counts are shown as downloads. GET /api/downloads.json (same data as /api/copies.json, which stays) adds a downloads field next to counts; MCP adds get_download_counts."
+    }
+  ]
+}

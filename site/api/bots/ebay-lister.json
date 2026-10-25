@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Bot Directory. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "ebay-lister",
+    "name": "eBay Lister",
+    "category": "E-Commerce",
+    "sub_use_case": "Resale listings",
+    "summary": "Turns a photo of a thrift find, card or toy into an eBay draft with sold comps, a title and a price.",
+    "tools": [
+      "eBay"
+    ],
+    "creator": {
+      "handle": "Gabi_Valerio3",
+      "url": "https://x.com/Gabi_Valerio3"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/Gabi_Valerio3/status/2105892546245546309"
+    },
+    "official_share_url": "https://x.ai/bot/q9Q8EPKFx45CmVwjUAFY5",
+    "found_via": "https://grokbot101.org/bots/ebay-lister/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-24",
+    "url": "https://bots.anthonytoday.com/bots/ebay-lister/",
+    "json_url": "https://bots.anthonytoday.com/api/bots/ebay-lister.json"
+  }
+}

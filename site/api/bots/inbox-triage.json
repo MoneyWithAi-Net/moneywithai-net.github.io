@@ -1,0 +1,32 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Bot Directory. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "inbox-triage",
+    "name": "Inbox Triage",
+    "category": "Research and Ops",
+    "sub_use_case": "Inbox triage",
+    "summary": "Sorts new email and social DMs, closes what needs no reply and turns the rest into Trello tasks.",
+    "tools": [
+      "Facebook",
+      "X",
+      "LinkedIn",
+      "Trello"
+    ],
+    "creator": {
+      "handle": "rchase",
+      "url": "https://x.com/rchase"
+    },
+    "scouted_by": "elie2222",
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/rchase/status/2091998096175645011"
+    },
+    "official_share_url": null,
+    "found_via": "https://botdirectory.ai/bots/inbox-triage/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-24",
+    "url": "https://bots.anthonytoday.com/bots/inbox-triage/",
+    "json_url": "https://bots.anthonytoday.com/api/bots/inbox-triage.json"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "type": "use-case",
+  "slug": "qualify-inbound-consulting-leads",
+  "title": "Qualify Inbound Consulting Leads",
+  "category": "Leads and Sales",
+  "category_slug": "leads-and-sales",
+  "money_model": "Grow sales",
+  "difficulty": "Beginner",
+  "summary": "Every collab or consulting request gets a fit brief and a go or no-go summary, so you answer the good ones first.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you get more inbound requests than you can answer well.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "You spend your time on the leads most likely to pay.",
+    "Nothing good gets lost in a busy inbox."
+  ],
+  "who_its_for": [
+    "Consultants, freelancers and creators who get inbound requests."
+  ],
+  "stack": [
+    {
+      "bot": "lead-vetting",
+      "name": "Lead Vetting",
+      "role": "Screens leads from your inbox and sends a short decision summary to Slack.",
+      "creator": "anzevoje",
+      "tools": [
+        "Email",
+        "Slack"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/lead-vetting/",
+      "official_share_url": "https://x.ai/bot/eEfAacXdtzHANV5hVhG6o"
+    },
+    {
+      "bot": "inbox-triage",
+      "name": "Inbox Triage",
+      "role": "Sorts the rest of your email and DMs into tasks.",
+      "creator": "rchase",
+      "tools": [
+        "Facebook",
+        "X",
+        "LinkedIn",
+        "Trello"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/inbox-triage/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Email",
+    "Slack",
+    "Facebook",
+    "X",
+    "LinkedIn",
+    "Trello"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Your inbox",
+        "tool": "Email"
+      },
+      {
+        "label": "What a good lead looks like",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "lead-vetting",
+        "name": "Lead Vetting",
+        "does": "Screens each lead and writes a fit brief",
+        "tools": [
+          "Email",
+          "Slack"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "inbox-triage",
+        "name": "Inbox Triage",
+        "does": "Sorts the rest into tasks",
+        "tools": [
+          "Facebook",
+          "X",
+          "LinkedIn",
+          "Trello"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Reply to the top leads",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Go or no-go summaries in Slack",
+      "Time on the leads likely to pay"
+    ]
+  },
+  "steps": [
+    "Connect only the inbox and Slack workspace you own.",
+    "Write down what a good lead looks like for you.",
+    "Review a week of briefs and tune the criteria.",
+    "Reply to the top leads yourself."
+  ],
+  "guardrails": [
+    "The bot never accepts a deal for you.",
+    "Treat briefs as input to your judgment."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+  "url": "https://bots.anthonytoday.com/use-cases/qualify-inbound-consulting-leads/",
+  "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/qualify-inbound-consulting-leads.json"
+}

@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Bot Directory. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "invoice-hunter",
+    "name": "Invoice Hunter",
+    "category": "Finance",
+    "sub_use_case": "Invoices",
+    "summary": "Finds invoices in your email, pulls out the key details and bundles them by month for your accountant, after you approve.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "scheemunai",
+      "url": "https://x.com/scheemunai"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/scheemunai/status/2093398873247031468"
+    },
+    "official_share_url": "https://x.ai/bot/-kO6HrXokJZANVwUOMZO9",
+    "found_via": "https://botdirectory.ai/bots/invoice-hunter/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-24",
+    "url": "https://bots.anthonytoday.com/bots/invoice-hunter/",
+    "json_url": "https://bots.anthonytoday.com/api/bots/invoice-hunter.json"
+  }
+}

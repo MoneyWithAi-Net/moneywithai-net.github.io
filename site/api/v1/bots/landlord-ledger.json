@@ -1,0 +1,32 @@
+{
+  "type": "bot",
+  "slug": "landlord-ledger",
+  "name": "Landlord Ledger",
+  "category": "Finance",
+  "sub_use_case": "Rental bookkeeping",
+  "summary": "Matches rent deposits to tenants, flags late or short rent and sorts expenses for tax time. It never moves money.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Daniel191555486",
+    "url": "https://x.com/Daniel191555486"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/Daniel191555486/status/2105082481640980600"
+  },
+  "official_share_url": "https://x.ai/bot/sPjI0Dec1DUvTc7H0zxNG",
+  "found_via": "https://grokbot101.org/bots/landlord-ledger/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-24",
+  "url": "https://bots.anthonytoday.com/bots/landlord-ledger/",
+  "json_url": "https://bots.anthonytoday.com/api/v1/bots/landlord-ledger.json",
+  "use_cases": [
+    "https://bots.anthonytoday.com/use-cases/rental-income-bookkeeping/",
+    "https://bots.anthonytoday.com/use-cases/property-maintenance-ops/"
+  ],
+  "added_at": "2026-10-24T09:30:00.000Z"
+}

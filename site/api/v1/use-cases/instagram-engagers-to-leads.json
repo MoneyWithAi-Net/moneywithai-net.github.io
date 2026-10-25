@@ -1,0 +1,90 @@
+{
+  "type": "use-case",
+  "slug": "instagram-engagers-to-leads",
+  "title": "Turn Instagram Engagement into a Lead List",
+  "category": "Leads and Sales",
+  "category_slug": "leads-and-sales",
+  "money_model": "Grow sales",
+  "difficulty": "Beginner",
+  "summary": "People who like and comment on your posts are warm. Shortlist the ones who fit your ideal customer.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you already sell on Instagram; it adds warm conversations, not a new product.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "More conversations with people who already know your brand.",
+    "Less time scrolling through likes to find buyers."
+  ],
+  "who_its_for": [
+    "Coaches, consultants and small brands that sell through Instagram."
+  ],
+  "stack": [
+    {
+      "bot": "engagement-lead-finder",
+      "name": "Engagement Lead Finder",
+      "role": "Reviews who engages with your posts and shortlists people who match your ideal customer.",
+      "creator": "aferrari",
+      "tools": [
+        "Instagram"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/engagement-lead-finder/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Instagram"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Likes and comments",
+        "tool": "Instagram"
+      },
+      {
+        "label": "Your ideal customer notes",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "engagement-lead-finder",
+        "name": "Engagement Lead Finder",
+        "does": "Reviews who engages and scores the fit",
+        "tools": [
+          "Instagram"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "you",
+        "name": "You",
+        "does": "Reach out by hand to the best matches",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A shortlist of warm leads",
+      "More sales conversations"
+    ]
+  },
+  "steps": [
+    "Add the bot and describe your ideal customer in a few lines.",
+    "Connect the Instagram account you post from.",
+    "Review the first shortlist and correct anything it got wrong.",
+    "Reach out by hand to the best matches."
+  ],
+  "guardrails": [
+    "You send every message yourself.",
+    "Stay within Instagram's rules on messaging."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-24T08:00:00.000Z",
+  "url": "https://bots.anthonytoday.com/use-cases/instagram-engagers-to-leads/",
+  "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/instagram-engagers-to-leads.json"
+}

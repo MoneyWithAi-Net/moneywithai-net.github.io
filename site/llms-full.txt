@@ -1,0 +1,653 @@
+# Bot Directory: full listing text
+
+> AI bots for running a business, listed with credit to the people who built them.
+
+License and credit: Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Bot Directory. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).
+
+## Art Director
+
+- URL: https://bots.anthonytoday.com/bots/art-director/
+- Category: Content and Marketing
+- Summary (Bot Directory's words): Finds ideas on Pinterest and in company news, makes on-brand images and carousels and runs a brand's Instagram.
+- Tools: Instagram, Pinterest
+- Creator: @Carlos_Arthurr (https://x.com/Carlos_Arthurr)
+- Original source: https://x.com/Carlos_Arthurr/status/2107422079087706174
+- Official share link: https://x.ai/bot/CPsMufoHozETWciYoiqvL
+- Found via: https://grokbot101.org/bots/art-director/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Competitor Intel
+
+- URL: https://bots.anthonytoday.com/bots/competitor-intel/
+- Category: Research and Ops
+- Summary (Bot Directory's words): Researches a local service business's competitors and files a weekly report with cited moves.
+- Tools: Grok
+- Creator: @TheReal_BCM (https://x.com/TheReal_BCM)
+- Original source: https://x.com/TheReal_BCM/status/2106677552559366225
+- Official share link: https://x.ai/bot/PIBCWeB59T-UhxyBNLowR
+- Found via: https://grokbot101.org/bots/competitor-intel/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Consider It Marketed
+
+- URL: https://bots.anthonytoday.com/bots/consider-it-marketed/
+- Category: Content and Marketing
+- Summary (Bot Directory's words): Directs a bot team for a medical practice's marketing: ads, creative, video and quality checks.
+- Tools: Google Ads
+- Creator: @CindyH874325640 (https://x.com/CindyH874325640)
+- Original source: https://x.com/CindyH874325640/status/2101866621228785883
+- Official share link: https://x.ai/bot/ayQYbaHquRM7x7lnBOEoQ
+- Found via: https://grokbot101.org/bots/consider-it-marketed/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Construction Chief of Staff
+
+- URL: https://bots.anthonytoday.com/bots/construction-chief-of-staff/
+- Category: Research and Ops
+- Summary (Bot Directory's words): Reads mail and calendar for a construction team, routes work to specialist bots and never sends or buys alone.
+- Tools: Email, Google Calendar
+- Creator: @RoggyRyan (https://x.com/RoggyRyan)
+- Original source: https://x.com/RoggyRyan/status/2102183469467975727
+- Official share link: https://x.ai/bot/dZfz-QuarMKqQo_mdPhbb
+- Found via: https://grokbot101.org/bots/construction-chief-of-staff/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Content Planner Manager
+
+- URL: https://bots.anthonytoday.com/bots/content-planner-manager/
+- Category: Content and Marketing
+- Summary (Bot Directory's words): Plans local-search content for a service business and keeps a content calendar in your website builder.
+- Tools: Webflow
+- Creator: @HouseHackerJon (https://x.com/HouseHackerJon)
+- Scouted by: @elie2222
+- Original source: https://x.com/HouseHackerJon/status/2088305236003926468
+- Found via: https://botdirectory.ai/bots/content-planner-manager/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## CPM
+
+- URL: https://bots.anthonytoday.com/bots/cpm/
+- Category: Content and Marketing
+- Summary (Bot Directory's words): Prices a creator deal from public view counts and drafts a deal menu, rate card and agreement to review.
+- Tools: Instagram, TikTok
+- Creator: @kostahantzis (https://x.com/kostahantzis)
+- Original source: https://x.com/kostahantzis/status/2109965811964051528
+- Official share link: https://x.ai/bot/GwmXIfLuPPIPf2hGX2Txf
+- Found via: https://grokbot101.org/bots/cpm/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Creator Desk
+
+- URL: https://bots.anthonytoday.com/bots/creator-desk/
+- Category: Content and Marketing
+- Summary (Bot Directory's words): Plans, drafts and schedules X posts and short clips for a creator, and picks the replies worth making.
+- Tools: X
+- Creator: @MadeItHappenX (https://x.com/MadeItHappenX)
+- Original source: https://x.com/MadeItHappenX/status/2104034337771417720
+- Official share link: https://x.ai/bot/dM43J1T44OmcRdAsNHsBf
+- Found via: https://grokbot101.org/bots/creator-desk/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Customer Feedback Watch
+
+- URL: https://bots.anthonytoday.com/bots/customer-feedback-watch/
+- Category: Customer Support
+- Summary (Bot Directory's words): Scans public posts on X for complaints and bug reports about your product and flags the few that need action.
+- Tools: X API
+- Creator: @egavrilenko11 (https://x.com/egavrilenko11)
+- Scouted by: @elie2222
+- Original source: https://x.com/egavrilenko11/status/2095604008555893015
+- Official share link: https://x.ai/bot/8Snl1TovbMwClPoBiHrWT
+- Found via: https://botdirectory.ai/bots/customer-feedback-watch/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Dero
+
+- URL: https://bots.anthonytoday.com/bots/dero/
+- Category: Research and Ops
+- Summary (Bot Directory's words): Coordinates a Spanish-language bot team that prepares bids for Chilean municipal tenders, from spec sheet to QA.
+- Tools: Grok
+- Creator: @jorgesoffia (https://x.com/jorgesoffia)
+- Original source: https://x.com/jorgesoffia/status/2099936875498627530
+- Official share link: https://x.ai/bot/OMpdsLwId7Du5PrjbX8L8
+- Found via: https://grokbot101.org/bots/dero/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Drop Radar
+
+- URL: https://bots.anthonytoday.com/bots/drop-radar/
+- Category: E-Commerce
+- Summary (Bot Directory's words): Watches competitor brands on Amazon, their sites and TikTok Shop, and alerts you only when something new drops.
+- Tools: Amazon, TikTok Shop, Slack
+- Creator: @Steph_Pierson (https://x.com/Steph_Pierson)
+- Original source: https://x.com/Steph_Pierson/status/2102601597557817539
+- Official share link: https://x.ai/bot/KYM0C9BcyfXEP9uIyxlmE
+- Found via: https://grokbot101.org/bots/drop-radar/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## eBay Lister
+
+- URL: https://bots.anthonytoday.com/bots/ebay-lister/
+- Category: E-Commerce
+- Summary (Bot Directory's words): Turns a photo of a thrift find, card or toy into an eBay draft with sold comps, a title and a price.
+- Tools: eBay
+- Creator: @Gabi_Valerio3 (https://x.com/Gabi_Valerio3)
+- Original source: https://x.com/Gabi_Valerio3/status/2105892546245546309
+- Official share link: https://x.ai/bot/q9Q8EPKFx45CmVwjUAFY5
+- Found via: https://grokbot101.org/bots/ebay-lister/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Engagement Lead Finder
+
+- URL: https://bots.anthonytoday.com/bots/engagement-lead-finder/
+- Category: Leads and Sales
+- Summary (Bot Directory's words): Reviews who engages with your Instagram posts and shortlists people who match your ideal customer.
+- Tools: Instagram
+- Creator: @aferrari (https://x.com/aferrari)
+- Scouted by: @LBallz77283
+- Original source: https://x.com/aferrari/status/2101436968173252878
+- Found via: https://botdirectory.ai/bots/engagement-lead-finder/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Entrepreneur Scout
+
+- URL: https://bots.anthonytoday.com/bots/entrepreneur-scout/
+- Category: Research and Ops
+- Summary (Bot Directory's words): Finds and vets side-venture ideas from a short brief, with sources, risks and a next step, and keeps a weekly scorecard.
+- Tools: Grok
+- Creator: @hjackson2 (https://x.com/hjackson2)
+- Original source: https://x.com/hjackson2/status/2107967069543075893
+- Official share link: https://x.ai/bot/scvcDPnSH2_sj3pH6ONCR
+- Found via: https://grokbot101.org/bots/entrepreneur-scout/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Geo-Targeted SEO Publisher
+
+- URL: https://bots.anthonytoday.com/bots/geo-targeted-seo-publisher/
+- Category: Content and Marketing
+- Summary (Bot Directory's words): Drafts local SEO articles for a city and topic you choose and publishes them through your repo after approval.
+- Tools: GitHub
+- Creator: @coreyganim (https://x.com/coreyganim)
+- Scouted by: @elie2222
+- Original source: https://x.com/coreyganim/status/2092284619991482842
+- Found via: https://botdirectory.ai/bots/geo-targeted-seo-publisher/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## GrantOgre
+
+- URL: https://bots.anthonytoday.com/bots/grantogre/
+- Category: Client Services
+- Summary (Bot Directory's words): Finds live funding programmes for a company or client project and prepares the pack a person files.
+- Tools: Grok
+- Creator: @HoneybadgerFan4 (https://x.com/HoneybadgerFan4)
+- Original source: https://x.com/HoneybadgerFan4/status/2105258225922707792
+- Official share link: https://x.ai/bot/WXC1m-5Iiyu1IyvBEt9Va
+- Found via: https://grokbot101.org/bots/grantogre/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Help Center Updater
+
+- URL: https://bots.anthonytoday.com/bots/help-center-updater/
+- Category: Customer Support
+- Summary (Bot Directory's words): After each merged code change, checks whether help articles need an update and drafts the change.
+- Tools: Intercom, GitHub
+- Creator: @damonchen (https://x.com/damonchen)
+- Scouted by: @elie2222
+- Original source: https://x.com/damonchen/status/2090319001813676471
+- Found via: https://botdirectory.ai/bots/help-center-updater/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Inbox Triage
+
+- URL: https://bots.anthonytoday.com/bots/inbox-triage/
+- Category: Research and Ops
+- Summary (Bot Directory's words): Sorts new email and social DMs, closes what needs no reply and turns the rest into Trello tasks.
+- Tools: Facebook, X, LinkedIn, Trello
+- Creator: @rchase (https://x.com/rchase)
+- Scouted by: @elie2222
+- Original source: https://x.com/rchase/status/2091998096175645011
+- Found via: https://botdirectory.ai/bots/inbox-triage/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Invoice Hunter
+
+- URL: https://bots.anthonytoday.com/bots/invoice-hunter/
+- Category: Finance
+- Summary (Bot Directory's words): Finds invoices in your email, pulls out the key details and bundles them by month for your accountant, after you approve.
+- Tools: Grok
+- Creator: @scheemunai (https://x.com/scheemunai)
+- Original source: https://x.com/scheemunai/status/2093398873247031468
+- Official share link: https://x.ai/bot/-kO6HrXokJZANVwUOMZO9
+- Found via: https://botdirectory.ai/bots/invoice-hunter/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Kickbox to HubSpot Importer
+
+- URL: https://bots.anthonytoday.com/bots/kickbox-to-hubspot-importer/
+- Category: Leads and Sales
+- Summary (Bot Directory's words): Verifies contact emails with Kickbox and writes the deliverable results back into existing HubSpot records.
+- Tools: Kickbox, HubSpot, Google Sheets
+- Creator: @pofabro (https://x.com/pofabro)
+- Original source: https://x.com/pofabro/status/2102344924331159835
+- Official share link: https://x.ai/bot/PRc9UmcxySAv0UBU4g8fx
+- Found via: https://grokbot101.org/bots/kickbox-hubspot-importer/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Landlord Ledger
+
+- URL: https://bots.anthonytoday.com/bots/landlord-ledger/
+- Category: Finance
+- Summary (Bot Directory's words): Matches rent deposits to tenants, flags late or short rent and sorts expenses for tax time. It never moves money.
+- Tools: Grok
+- Creator: @Daniel191555486 (https://x.com/Daniel191555486)
+- Original source: https://x.com/Daniel191555486/status/2105082481640980600
+- Official share link: https://x.ai/bot/sPjI0Dec1DUvTc7H0zxNG
+- Found via: https://grokbot101.org/bots/landlord-ledger/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Lead Scout
+
+- URL: https://bots.anthonytoday.com/bots/lead-scout/
+- Category: Leads and Sales
+- Summary (Bot Directory's words): Builds lists of local businesses whose sites show search gaps, so an agency has warm reasons to reach out.
+- Tools: Grok
+- Creator: @itsryanlenk (https://x.com/itsryanlenk)
+- Original source: https://x.com/itsryanlenk/status/2101336928134001090
+- Official share link: https://x.ai/bot/j3Qule6BFplSpVqgLpVnV
+- Found via: https://grokbot101.org/bots/lead-scout/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Lead Vetting
+
+- URL: https://bots.anthonytoday.com/bots/lead-vetting/
+- Category: Leads and Sales
+- Summary (Bot Directory's words): Screens consulting and collab leads from your inbox and sends a short go or no-go summary to Slack.
+- Tools: Email, Slack
+- Creator: @anzevoje (https://x.com/anzevoje)
+- Original source: https://x.com/anzevoje/status/2102299536513245605
+- Official share link: https://x.ai/bot/eEfAacXdtzHANV5hVhG6o
+- Found via: https://grokbot101.org/bots/lead-vetting/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Legend Lead Ops
+
+- URL: https://bots.anthonytoday.com/bots/legend-lead-ops/
+- Category: Leads and Sales
+- Summary (Bot Directory's words): Qualifies roofing inquiries, drafts SMS and email follow-ups and preps quick-quote handoffs for a contractor.
+- Tools: SMS, Email
+- Creator: @legendRoofingCo (https://x.com/legendRoofingCo)
+- Original source: https://x.com/legendRoofingCo/status/2101471064857378821
+- Official share link: https://x.ai/bot/WCZjv-qHMtHz2AdQW136q
+- Found via: https://grokbot101.org/bots/legend-lead-ops/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## LinkedIn Lead Outreach
+
+- URL: https://bots.anthonytoday.com/bots/linkedin-lead-outreach/
+- Category: Leads and Sales
+- Summary (Bot Directory's words): Turns comments on a LinkedIn lead magnet into tracked leads in Notion, with capped replies and DMs you can review.
+- Tools: LinkedIn, Notion
+- Creator: @ethan_leee9113 (https://x.com/ethan_leee9113)
+- Original source: https://x.com/ethan_leee9113/status/2101189341242376366
+- Official share link: https://x.ai/bot/DEMmOi7SiFhsFtIKuBKRD
+- Found via: https://grokbot101.org/bots/linkedin-lead-outreach/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## LinkedIn Profile Audit
+
+- URL: https://bots.anthonytoday.com/bots/linkedin-profile-audit/
+- Category: Leads and Sales
+- Summary (Bot Directory's words): Compares your LinkedIn profile with your current work and drafts updates for your approval.
+- Tools: LinkedIn, Notion, Slack
+- Creator: @ericzakariasson (https://x.com/ericzakariasson)
+- Original source: https://x.com/ericzakariasson/status/2087258914060664902
+- Found via: https://botdirectory.ai/bots/linkedin-profile-audit/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Local Business Website Hunter
+
+- URL: https://bots.anthonytoday.com/bots/local-business-website-hunter/
+- Category: Leads and Sales
+- Summary (Bot Directory's words): Spots local businesses with no website, mocks up a demo site and a quote, and holds the pitch for your approval.
+- Tools: Grok
+- Creator: @NewLongMoney (https://x.com/NewLongMoney)
+- Original source: https://x.com/NewLongMoney/status/2108069128846328185
+- Official share link: https://x.ai/bot/U87LeqeLNEIKRe9ctpRxG
+- Found via: https://grokbot101.org/bots/local-business-website-hunter/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Maintenance Triage
+
+- URL: https://bots.anthonytoday.com/bots/maintenance-triage/
+- Category: Research and Ops
+- Summary (Bot Directory's words): Runs residential maintenance requests from intake and triage to dispatch, resident texts and closeout checks.
+- Tools: SMS
+- Creator: @Miffy_NYC (https://x.com/Miffy_NYC)
+- Original source: https://x.com/Miffy_NYC/status/2102588454588547504
+- Official share link: https://x.ai/bot/gKgo-_MM29kfcD9qiZf2A
+- Found via: https://grokbot101.org/bots/miffy-maintenance-triage/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Market Research
+
+- URL: https://bots.anthonytoday.com/bots/market-research/
+- Category: Research and Ops
+- Summary (Bot Directory's words): Reads your watchlist across X, wires and primary sources and writes source-graded market notes. Not advice.
+- Tools: X
+- Creator: @eyemotors (https://x.com/eyemotors)
+- Original source: https://x.com/eyemotors/status/2105218704904798267
+- Official share link: https://x.ai/bot/t1l_On1VtkMYddCu5MqQB
+- Found via: https://grokbot101.org/bots/market-research/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Media Manager
+
+- URL: https://bots.anthonytoday.com/bots/media-manager/
+- Category: Content and Marketing
+- Summary (Bot Directory's words): Handles a YouTube channel's after-upload work: transcripts, chapters, titles, descriptions and thumbnails.
+- Tools: YouTube, AssemblyAI, Figma
+- Creator: @mattyp (https://x.com/mattyp)
+- Original source: https://x.com/mattyp/status/2102397514792001868
+- Official share link: https://x.ai/bot/qG_ZROllzSSRGKx_iIbsQ
+- Found via: https://grokbot101.org/bots/media-manager/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Notion Memory Keeper
+
+- URL: https://bots.anthonytoday.com/bots/notion-memory-keeper/
+- Category: Research and Ops
+- Summary (Bot Directory's words): Keeps one Notion page up to date with the notes, decisions and context you hand it.
+- Tools: Notion
+- Creator: @benln (https://x.com/benln)
+- Scouted by: @elie2222
+- Original source: https://x.com/benln/status/2089699901567340808
+- Found via: https://botdirectory.ai/bots/notion-memory-keeper/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Phone Receptionist
+
+- URL: https://bots.anthonytoday.com/bots/phone-receptionist/
+- Category: Customer Support
+- Summary (Bot Directory's words): Answers a business phone line and books meetings on Google Calendar. The share card lists a paid phone plan.
+- Tools: Google Calendar, Bland
+- Creator: @SimplyColeB (https://x.com/SimplyColeB)
+- Original source: https://x.com/SimplyColeB/status/2107971762831114461
+- Official share link: https://x.ai/bot/Z7LfRtBtwfaojaomMrAuX
+- Found via: https://grokbot101.org/bots/phone-receptionist/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Photo & Video Shoot Confirmations
+
+- URL: https://bots.anthonytoday.com/bots/photo-and-video-shoot-confirmations/
+- Category: Client Services
+- Summary (Bot Directory's words): Emails clients a forecast 48 hours before an outdoor shoot and drafts reschedule options when rain looks likely.
+- Tools: Email
+- Creator: @TimFPhotography (https://x.com/TimFPhotography)
+- Original source: https://x.com/TimFPhotography/status/2106715972744929301
+- Official share link: https://x.ai/bot/iduDVp02VHu06-XddxcSD
+- Found via: https://grokbot101.org/bots/shoot-confirmations/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## PhotoFix
+
+- URL: https://bots.anthonytoday.com/bots/photofix/
+- Category: Client Services
+- Summary (Bot Directory's words): Edits real estate listing photos, labels them and files them by address in Drive or Dropbox for client delivery.
+- Tools: Google Drive, Dropbox
+- Creator: @MarsHomestead (https://x.com/MarsHomestead)
+- Original source: https://x.com/MarsHomestead/status/2103576228821364833
+- Official share link: https://x.ai/bot/PRdnJ63L8h0FVlMAA1UN4
+- Found via: https://grokbot101.org/bots/photofix/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Precision 3D Helper
+
+- URL: https://bots.anthonytoday.com/bots/precision-3d-helper/
+- Category: Client Services
+- Summary (Bot Directory's words): Answers customer questions, prices jobs with quantity discounts and helps fix prints for a small 3D print shop.
+- Tools: Bambu Lab
+- Creator: @srinimaram (https://x.com/srinimaram)
+- Original source: https://x.com/srinimaram/status/2106655043843674335
+- Official share link: https://x.ai/bot/bna2wMqlfX6-F4TBmAEBJ
+- Found via: https://grokbot101.org/bots/precision-3d-helper/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Product Expert
+
+- URL: https://bots.anthonytoday.com/bots/product-expert/
+- Category: Leads and Sales
+- Summary (Bot Directory's words): Answers deep product questions during customer calls from your code or company knowledge base.
+- Tools: GitHub, Glean
+- Creator: @kristaletz (https://x.com/kristaletz)
+- Original source: https://x.com/kristaletz/status/2089103618121314689
+- Found via: https://botdirectory.ai/bots/product-expert/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Reply Desk
+
+- URL: https://bots.anthonytoday.com/bots/reply-desk/
+- Category: Customer Support
+- Summary (Bot Directory's words): Drafts replies to customer emails, messages and public reviews for local service businesses. You send them.
+- Tools: Email
+- Creator: @lonzom10 (https://x.com/lonzom10)
+- Original source: https://x.com/lonzom10/status/2103749418457681951
+- Official share link: https://x.ai/bot/8lLjBC7bXUqbfh-vLG9jf
+- Found via: https://grokbot101.org/bots/reply-desk/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Reply Drafter
+
+- URL: https://bots.anthonytoday.com/bots/reply-drafter/
+- Category: Content and Marketing
+- Summary (Bot Directory's words): Finds posts on X worth replying to and drafts a first take in your voice. You post every reply yourself.
+- Tools: X
+- Creator: @kevinace (https://x.com/kevinace)
+- Original source: https://x.com/kevinace/status/2089074419175977004
+- Found via: https://botdirectory.ai/bots/reply-drafter/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Restaurant Order Recovery
+
+- URL: https://bots.anthonytoday.com/bots/restaurant-order-recovery/
+- Category: Finance
+- Summary (Bot Directory's words): Finds canceled delivery orders and error charges in a restaurant's merchant portals and files reimbursement requests.
+- Tools: Grok
+- Creator: @pattyshack (https://x.com/pattyshack)
+- Original source: https://x.com/pattyshack/status/2101396887219908999
+- Official share link: https://x.ai/bot/wB9H7OSiHYPlRgyCTM5Iq
+- Found via: https://grokbot101.org/bots/restaurant-order-errors/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## SaaS CFO Monitor
+
+- URL: https://bots.anthonytoday.com/bots/saas-cfo-monitor/
+- Category: Finance
+- Summary (Bot Directory's words): Weekly check of SaaS spend and revenue across billing, accounting and email, with a monthly finance summary.
+- Tools: Stripe, Xero, QuickBooks, Gmail
+- Creator: @jessethanley (https://x.com/jessethanley)
+- Scouted by: @elie2222
+- Original source: https://x.com/jessethanley/status/2087799804126761304
+- Found via: https://botdirectory.ai/bots/saas-cfo-monitor/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Scout (Competitive Intelligence)
+
+- URL: https://bots.anthonytoday.com/bots/scout-competitive-intelligence/
+- Category: Research and Ops
+- Summary (Bot Directory's words): Tracks competitor sites, search rankings and AI answer visibility, and sends a weekly brief when something moves.
+- Tools: Grok
+- Creator: @adamta (https://x.com/adamta)
+- Original source: https://x.com/adamta/status/2093388517044830237
+- Official share link: https://x.ai/bot/rthl9MdskO2f-JCzmyINP
+- Found via: https://botdirectory.ai/bots/scout-competitive-intelligence/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Sentinel
+
+- URL: https://bots.anthonytoday.com/bots/sentinel/
+- Category: Content and Marketing
+- Summary (Bot Directory's words): Reviews insurance marketing emails, pages and posts before they go out and flags fixes for disclosures and claims.
+- Tools: Grok
+- Creator: @CluSloan (https://x.com/CluSloan)
+- Original source: https://x.com/CluSloan/status/2101119026453705089
+- Official share link: https://x.ai/bot/NAFAT-NGrQ7-zLccn4qg1
+- Found via: https://grokbot101.org/bots/sentinel/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Shopify Bot
+
+- URL: https://bots.anthonytoday.com/bots/shopify-bot/
+- Category: E-Commerce
+- Summary (Bot Directory's words): Runs catalog, inventory, conversion and customer service tasks on a Shopify store, alone or with a bot team.
+- Tools: Shopify
+- Creator: @nick_nehaul (https://x.com/nick_nehaul)
+- Original source: https://x.com/nick_nehaul/status/2108304525866193171
+- Official share link: https://x.ai/bot/jhd6Cb9XEPI6b-hs-WCQE
+- Found via: https://grokbot101.org/bots/shopify-bot/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Site Research
+
+- URL: https://bots.anthonytoday.com/bots/site-research/
+- Category: Leads and Sales
+- Summary (Bot Directory's words): Turns a lead dossier into an evidence-backed brief on a local site's search gaps, ready for a sales draft.
+- Tools: Grok
+- Creator: @itsryanlenk (https://x.com/itsryanlenk)
+- Original source: https://x.com/itsryanlenk/status/2101336929539076518
+- Official share link: https://x.ai/bot/zkgCv30YKSJPHc7rUB_6P
+- Found via: https://grokbot101.org/bots/site-research/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Store Manager
+
+- URL: https://bots.anthonytoday.com/bots/store-manager/
+- Category: E-Commerce
+- Summary (Bot Directory's words): Coordinates a team of store bots across orders, ads health, low stock and disputes, without spending money.
+- Tools: Grok
+- Creator: @ColinMcDermott (https://x.com/ColinMcDermott)
+- Original source: https://x.com/ColinMcDermott/status/2105790823682003017
+- Official share link: https://x.ai/bot/5axq0n6JtBkqjhMaCDO6d
+- Found via: https://grokbot101.org/bots/store-manager/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Support Ticket Fixer
+
+- URL: https://bots.anthonytoday.com/bots/support-ticket-fixer/
+- Category: Customer Support
+- Summary (Bot Directory's words): Investigates new support tickets against docs, code and logs, then prepares a likely cause and fix.
+- Tools: Ferndesk, Axiom, GitHub, Infisical, Codex
+- Creator: @euboid (https://x.com/euboid)
+- Scouted by: @elie2222
+- Original source: https://x.com/euboid/status/2089291320271482895
+- Found via: https://botdirectory.ai/bots/support-ticket-fixer/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Talent Matchmaker
+
+- URL: https://bots.anthonytoday.com/bots/talent-matchmaker/
+- Category: Research and Ops
+- Summary (Bot Directory's words): Spots hiring needs and job seekers in your inbox and suggests matches between them.
+- Tools: Grok
+- Creator: @lennysan (https://x.com/lennysan)
+- Original source: https://x.com/lennysan/status/2093428147194847238
+- Official share link: https://x.ai/bot/l8p6rXw-lalL-UNiHySnJ
+- Found via: https://botdirectory.ai/bots/talent-matchmaker/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Tax Firm OS
+
+- URL: https://bots.anthonytoday.com/bots/tax-firm-os/
+- Category: Finance
+- Summary (Bot Directory's words): Keeps a tax or accounting office on track with client replies, document chasing and early due-date notices.
+- Tools: Grok
+- Creator: @Amervim (https://x.com/Amervim)
+- Original source: https://x.com/Amervim/status/2105949306025128186
+- Official share link: https://x.ai/bot/vJqjJphtZRkdBTYBxmWur
+- Found via: https://grokbot101.org/bots/tax-firm-os/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Travel Expenses
+
+- URL: https://bots.anthonytoday.com/bots/travel-expenses/
+- Category: Finance
+- Summary (Bot Directory's words): Logs trip spending in any currency from text or receipt photos and exports an Excel and PDF expense report.
+- Tools: Grok
+- Creator: @shareitround (https://x.com/shareitround)
+- Original source: https://x.com/shareitround/status/2106934155615572405
+- Official share link: https://x.ai/bot/Upkn_bUxr___NAvXZB3Dc
+- Found via: https://grokbot101.org/bots/travel-expenses/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## X Reply Scout
+
+- URL: https://bots.anthonytoday.com/bots/x-reply-scout/
+- Category: Leads and Sales
+- Summary (Bot Directory's words): Suggests accounts and posts on X worth engaging with, tuned by your feedback. It never replies for you.
+- Tools: X
+- Creator: @scientists_blog (https://x.com/scientists_blog)
+- Original source: https://x.com/scientists_blog/status/2101542606769463504
+- Official share link: https://x.ai/bot/DRZ2jU1GFwV8HS2_9Y6MA
+- Found via: https://grokbot101.org/bots/x-reply-scout/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## X Thread & Article Writer
+
+- URL: https://bots.anthonytoday.com/bots/x-thread-and-article-writer/
+- Category: Content and Marketing
+- Summary (Bot Directory's words): Turns rough notes or a link into an X thread and article draft in your tone. You paste and post.
+- Tools: X
+- Creator: @sigarellano (https://x.com/sigarellano)
+- Original source: https://x.com/sigarellano/status/2103737235413860615
+- Official share link: https://x.ai/bot/xLeBNzgp0Z6IUGxyt8sj4
+- Found via: https://grokbot101.org/bots/thread-writer/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source

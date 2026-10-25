@@ -1,0 +1,32 @@
+{
+  "type": "bot",
+  "slug": "art-director",
+  "name": "Art Director",
+  "category": "Content and Marketing",
+  "sub_use_case": "Brand social",
+  "summary": "Finds ideas on Pinterest and in company news, makes on-brand images and carousels and runs a brand's Instagram.",
+  "tools": [
+    "Instagram",
+    "Pinterest"
+  ],
+  "creator": {
+    "handle": "Carlos_Arthurr",
+    "url": "https://x.com/Carlos_Arthurr"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/Carlos_Arthurr/status/2107422079087706174"
+  },
+  "official_share_url": "https://x.ai/bot/CPsMufoHozETWciYoiqvL",
+  "found_via": "https://grokbot101.org/bots/art-director/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-24",
+  "url": "https://bots.anthonytoday.com/bots/art-director/",
+  "json_url": "https://bots.anthonytoday.com/api/v1/bots/art-director.json",
+  "use_cases": [
+    "https://bots.anthonytoday.com/use-cases/brand-instagram-studio/"
+  ],
+  "added_at": "2026-10-24T09:30:00.000Z"
+}

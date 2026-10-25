@@ -1,0 +1,30 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Bot Directory. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "construction-chief-of-staff",
+    "name": "Construction Chief of Staff",
+    "category": "Research and Ops",
+    "sub_use_case": "Construction office",
+    "summary": "Reads mail and calendar for a construction team, routes work to specialist bots and never sends or buys alone.",
+    "tools": [
+      "Email",
+      "Google Calendar"
+    ],
+    "creator": {
+      "handle": "RoggyRyan",
+      "url": "https://x.com/RoggyRyan"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/RoggyRyan/status/2102183469467975727"
+    },
+    "official_share_url": "https://x.ai/bot/dZfz-QuarMKqQo_mdPhbb",
+    "found_via": "https://grokbot101.org/bots/construction-chief-of-staff/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-24",
+    "url": "https://bots.anthonytoday.com/bots/construction-chief-of-staff/",
+    "json_url": "https://bots.anthonytoday.com/api/bots/construction-chief-of-staff.json"
+  }
+}

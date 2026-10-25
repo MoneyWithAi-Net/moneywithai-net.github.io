@@ -1,0 +1,33 @@
+{
+  "type": "bot",
+  "slug": "media-manager",
+  "name": "Media Manager",
+  "category": "Content and Marketing",
+  "sub_use_case": "YouTube operations",
+  "summary": "Handles a YouTube channel's after-upload work: transcripts, chapters, titles, descriptions and thumbnails.",
+  "tools": [
+    "YouTube",
+    "AssemblyAI",
+    "Figma"
+  ],
+  "creator": {
+    "handle": "mattyp",
+    "url": "https://x.com/mattyp"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/mattyp/status/2102397514792001868"
+  },
+  "official_share_url": "https://x.ai/bot/qG_ZROllzSSRGKx_iIbsQ",
+  "found_via": "https://grokbot101.org/bots/media-manager/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-24",
+  "url": "https://bots.anthonytoday.com/bots/media-manager/",
+  "json_url": "https://bots.anthonytoday.com/api/v1/bots/media-manager.json",
+  "use_cases": [
+    "https://bots.anthonytoday.com/use-cases/youtube-channel-operations/"
+  ],
+  "added_at": "2026-10-24T09:30:00.000Z"
+}

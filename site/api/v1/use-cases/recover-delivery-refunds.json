@@ -1,0 +1,88 @@
+{
+  "type": "use-case",
+  "slug": "recover-delivery-refunds",
+  "title": "Recover Money Lost on Delivery Orders",
+  "category": "Finance",
+  "category_slug": "finance",
+  "money_model": "Recover money",
+  "difficulty": "Beginner",
+  "summary": "Find canceled orders and error charges in delivery portals and file the refund requests.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Recovers money owed to you; the amount depends on your order volume and error rate.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Money the platforms owe you comes back.",
+    "A daily digest replaces manual portal checks."
+  ],
+  "who_its_for": [
+    "Restaurants on delivery platforms."
+  ],
+  "stack": [
+    {
+      "bot": "restaurant-order-recovery",
+      "name": "Restaurant Order Recovery",
+      "role": "Finds errors in your merchant portals and files reimbursement requests.",
+      "creator": "pattyshack",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/restaurant-order-recovery/",
+      "official_share_url": "https://x.ai/bot/wB9H7OSiHYPlRgyCTM5Iq"
+    }
+  ],
+  "tools": [
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Delivery merchant portals",
+        "tool": null
+      },
+      {
+        "label": "Canceled and wrong orders",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "restaurant-order-recovery",
+        "name": "Restaurant Order Recovery",
+        "does": "Finds errors and files refund requests",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "you",
+        "name": "You",
+        "does": "Review the daily digest",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Refund requests filed",
+      "Money back from platforms"
+    ]
+  },
+  "steps": [
+    "Connect your own merchant portals.",
+    "Review the first digest.",
+    "Let it file requests once you trust the matches."
+  ],
+  "guardrails": [
+    "Use only portals you own."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+  "url": "https://bots.anthonytoday.com/use-cases/recover-delivery-refunds/",
+  "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/recover-delivery-refunds.json"
+}

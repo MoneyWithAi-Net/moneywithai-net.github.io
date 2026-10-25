@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Bot Directory. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "content-planner-manager",
+    "name": "Content Planner Manager",
+    "category": "Content and Marketing",
+    "sub_use_case": "Local SEO content",
+    "summary": "Plans local-search content for a service business and keeps a content calendar in your website builder.",
+    "tools": [
+      "Webflow"
+    ],
+    "creator": {
+      "handle": "HouseHackerJon",
+      "url": "https://x.com/HouseHackerJon"
+    },
+    "scouted_by": "elie2222",
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/HouseHackerJon/status/2088305236003926468"
+    },
+    "official_share_url": null,
+    "found_via": "https://botdirectory.ai/bots/content-planner-manager/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-24",
+    "url": "https://bots.anthonytoday.com/bots/content-planner-manager/",
+    "json_url": "https://bots.anthonytoday.com/api/bots/content-planner-manager.json"
+  }
+}

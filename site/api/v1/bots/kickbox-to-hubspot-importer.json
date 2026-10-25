@@ -1,0 +1,33 @@
+{
+  "type": "bot",
+  "slug": "kickbox-to-hubspot-importer",
+  "name": "Kickbox to HubSpot Importer",
+  "category": "Leads and Sales",
+  "sub_use_case": "CRM hygiene",
+  "summary": "Verifies contact emails with Kickbox and writes the deliverable results back into existing HubSpot records.",
+  "tools": [
+    "Kickbox",
+    "HubSpot",
+    "Google Sheets"
+  ],
+  "creator": {
+    "handle": "pofabro",
+    "url": "https://x.com/pofabro"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/pofabro/status/2102344924331159835"
+  },
+  "official_share_url": "https://x.ai/bot/PRc9UmcxySAv0UBU4g8fx",
+  "found_via": "https://grokbot101.org/bots/kickbox-hubspot-importer/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-24",
+  "url": "https://bots.anthonytoday.com/bots/kickbox-to-hubspot-importer/",
+  "json_url": "https://bots.anthonytoday.com/api/v1/bots/kickbox-to-hubspot-importer.json",
+  "use_cases": [
+    "https://bots.anthonytoday.com/use-cases/seo-agency-pitch-pack/"
+  ],
+  "added_at": "2026-10-24T09:30:00.000Z"
+}

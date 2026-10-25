@@ -1,0 +1,109 @@
+{
+  "type": "use-case",
+  "slug": "rental-income-bookkeeping",
+  "title": "Keep Rental Income Books Clean",
+  "category": "Finance",
+  "category_slug": "finance",
+  "money_model": "Save costs",
+  "difficulty": "Beginner",
+  "summary": "Match rent to tenants, flag late payments, sort expenses for tax time and bundle invoices for your accountant.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Saves bookkeeping time and catches late rent; it does not add new income.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Late rent gets chased sooner.",
+    "Tax prep costs less when the books are already sorted."
+  ],
+  "who_its_for": [
+    "Landlords with a handful of units."
+  ],
+  "stack": [
+    {
+      "bot": "landlord-ledger",
+      "name": "Landlord Ledger",
+      "role": "Matches deposits, flags late rent and sorts expenses.",
+      "creator": "Daniel191555486",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/landlord-ledger/",
+      "official_share_url": "https://x.ai/bot/sPjI0Dec1DUvTc7H0zxNG"
+    },
+    {
+      "bot": "invoice-hunter",
+      "name": "Invoice Hunter",
+      "role": "Finds invoices in email and bundles them by month.",
+      "creator": "scheemunai",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/invoice-hunter/",
+      "official_share_url": "https://x.ai/bot/-kO6HrXokJZANVwUOMZO9"
+    }
+  ],
+  "tools": [
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Rental bank deposits",
+        "tool": null
+      },
+      {
+        "label": "Invoices in email",
+        "tool": "Email"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "landlord-ledger",
+        "name": "Landlord Ledger",
+        "does": "Matches rent and sorts expenses",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "invoice-hunter",
+        "name": "Invoice Hunter",
+        "does": "Bundles invoices by month",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Approve rent reminders",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Clean rental books",
+      "Late rent chased sooner",
+      "A tax-time bundle"
+    ]
+  },
+  "steps": [
+    "Connect only the accounts used for the rentals.",
+    "Review the first month's matches.",
+    "Approve reminders before they go out."
+  ],
+  "guardrails": [
+    "It never moves money."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+  "url": "https://bots.anthonytoday.com/use-cases/rental-income-bookkeeping/",
+  "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/rental-income-bookkeeping.json"
+}

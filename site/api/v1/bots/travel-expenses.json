@@ -1,0 +1,31 @@
+{
+  "type": "bot",
+  "slug": "travel-expenses",
+  "name": "Travel Expenses",
+  "category": "Finance",
+  "sub_use_case": "Expense reports",
+  "summary": "Logs trip spending in any currency from text or receipt photos and exports an Excel and PDF expense report.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "shareitround",
+    "url": "https://x.com/shareitround"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/shareitround/status/2106934155615572405"
+  },
+  "official_share_url": "https://x.ai/bot/Upkn_bUxr___NAvXZB3Dc",
+  "found_via": "https://grokbot101.org/bots/travel-expenses/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-24",
+  "url": "https://bots.anthonytoday.com/bots/travel-expenses/",
+  "json_url": "https://bots.anthonytoday.com/api/v1/bots/travel-expenses.json",
+  "use_cases": [
+    "https://bots.anthonytoday.com/use-cases/photography-back-office/"
+  ],
+  "added_at": "2026-10-24T09:30:00.000Z"
+}

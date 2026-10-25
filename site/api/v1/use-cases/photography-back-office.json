@@ -1,0 +1,132 @@
+{
+  "type": "use-case",
+  "slug": "photography-back-office",
+  "title": "Run a Photography Back Office",
+  "category": "Client Services",
+  "category_slug": "client-services",
+  "money_model": "Save costs",
+  "difficulty": "Beginner",
+  "summary": "Weather-aware shoot confirmations, edited photos filed by address, and trip expenses ready for the invoice.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Mainly saves time and wasted trips; income grows only if you book more shoots.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Fewer wasted trips and rained-out shoots.",
+    "Faster delivery and cleaner expense claims."
+  ],
+  "who_its_for": [
+    "Real estate, event and drone photographers."
+  ],
+  "stack": [
+    {
+      "bot": "photo-and-video-shoot-confirmations",
+      "name": "Photo & Video Shoot Confirmations",
+      "role": "Emails clients a forecast before outdoor shoots and drafts reschedules.",
+      "creator": "TimFPhotography",
+      "tools": [
+        "Email"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/photo-and-video-shoot-confirmations/",
+      "official_share_url": "https://x.ai/bot/iduDVp02VHu06-XddxcSD"
+    },
+    {
+      "bot": "photofix",
+      "name": "PhotoFix",
+      "role": "Edits listing photos and files them in Drive or Dropbox.",
+      "creator": "MarsHomestead",
+      "tools": [
+        "Google Drive",
+        "Dropbox"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/photofix/",
+      "official_share_url": "https://x.ai/bot/PRdnJ63L8h0FVlMAA1UN4"
+    },
+    {
+      "bot": "travel-expenses",
+      "name": "Travel Expenses",
+      "role": "Logs trip costs and exports a report.",
+      "creator": "shareitround",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/travel-expenses/",
+      "official_share_url": "https://x.ai/bot/Upkn_bUxr___NAvXZB3Dc"
+    }
+  ],
+  "tools": [
+    "Email",
+    "Google Drive",
+    "Dropbox",
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Upcoming shoots",
+        "tool": "Email"
+      },
+      {
+        "label": "Raw photos",
+        "tool": "Dropbox"
+      },
+      {
+        "label": "Trip costs",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "photo-and-video-shoot-confirmations",
+        "name": "Photo & Video Shoot Confirmations",
+        "does": "Sends forecast-aware confirmations",
+        "tools": [
+          "Email"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "photofix",
+        "name": "PhotoFix",
+        "does": "Edits photos and files them by address",
+        "tools": [
+          "Google Drive",
+          "Dropbox"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "travel-expenses",
+        "name": "Travel Expenses",
+        "does": "Logs costs and exports a report",
+        "tools": [
+          "Grok"
+        ]
+      }
+    ],
+    "outputs": [
+      "Fewer rained-out shoots",
+      "Faster delivery",
+      "Expense reports for invoices"
+    ]
+  },
+  "steps": [
+    "Add the confirmation bot and load next week's shoots.",
+    "Try PhotoFix on one finished shoot.",
+    "Log expenses on the next trip."
+  ],
+  "guardrails": [
+    "Check the client list before scheduled emails run.",
+    "Keep reschedule offers as drafts."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+  "url": "https://bots.anthonytoday.com/use-cases/photography-back-office/",
+  "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/photography-back-office.json"
+}

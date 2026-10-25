@@ -1,0 +1,31 @@
+{
+  "type": "bot",
+  "slug": "store-manager",
+  "name": "Store Manager",
+  "category": "E-Commerce",
+  "sub_use_case": "Store chief of staff",
+  "summary": "Coordinates a team of store bots across orders, ads health, low stock and disputes, without spending money.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "ColinMcDermott",
+    "url": "https://x.com/ColinMcDermott"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/ColinMcDermott/status/2105790823682003017"
+  },
+  "official_share_url": "https://x.ai/bot/5axq0n6JtBkqjhMaCDO6d",
+  "found_via": "https://grokbot101.org/bots/store-manager/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-24",
+  "url": "https://bots.anthonytoday.com/bots/store-manager/",
+  "json_url": "https://bots.anthonytoday.com/api/v1/bots/store-manager.json",
+  "use_cases": [
+    "https://bots.anthonytoday.com/use-cases/shopify-store-with-a-bot-team/"
+  ],
+  "added_at": "2026-10-24T09:30:00.000Z"
+}

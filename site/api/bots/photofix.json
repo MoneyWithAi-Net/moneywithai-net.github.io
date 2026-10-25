@@ -1,0 +1,30 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Bot Directory. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "photofix",
+    "name": "PhotoFix",
+    "category": "Client Services",
+    "sub_use_case": "Client delivery",
+    "summary": "Edits real estate listing photos, labels them and files them by address in Drive or Dropbox for client delivery.",
+    "tools": [
+      "Google Drive",
+      "Dropbox"
+    ],
+    "creator": {
+      "handle": "MarsHomestead",
+      "url": "https://x.com/MarsHomestead"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/MarsHomestead/status/2103576228821364833"
+    },
+    "official_share_url": "https://x.ai/bot/PRdnJ63L8h0FVlMAA1UN4",
+    "found_via": "https://grokbot101.org/bots/photofix/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-24",
+    "url": "https://bots.anthonytoday.com/bots/photofix/",
+    "json_url": "https://bots.anthonytoday.com/api/bots/photofix.json"
+  }
+}

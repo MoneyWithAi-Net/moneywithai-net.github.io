@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Bot Directory. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "x-thread-and-article-writer",
+    "name": "X Thread & Article Writer",
+    "category": "Content and Marketing",
+    "sub_use_case": "Threads and articles",
+    "summary": "Turns rough notes or a link into an X thread and article draft in your tone. You paste and post.",
+    "tools": [
+      "X"
+    ],
+    "creator": {
+      "handle": "sigarellano",
+      "url": "https://x.com/sigarellano"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/sigarellano/status/2103737235413860615"
+    },
+    "official_share_url": "https://x.ai/bot/xLeBNzgp0Z6IUGxyt8sj4",
+    "found_via": "https://grokbot101.org/bots/thread-writer/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-24",
+    "url": "https://bots.anthonytoday.com/bots/x-thread-and-article-writer/",
+    "json_url": "https://bots.anthonytoday.com/api/bots/x-thread-and-article-writer.json"
+  }
+}

@@ -1,0 +1,38 @@
+# Lives in the PUBLIC mirror repo as .github/workflows/pages.yml (copied there by
+# the private repo's mirror-publish workflow). Deploys site/ to GitHub Pages. Settings > Pages > Source must be
+# "GitHub Actions". The licensed General Sans font is fetched here at deploy time (self-hosting is allowed by
+# its licence, committing it to a repository is not) and checked against a pinned sha256.
+name: Pages
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch the licensed font (official file, pinned sha256)
+        run: |
+          set -euo pipefail
+          curl -fsSL --retry 3 -o gs.zip https://api.fontshare.com/v2/fonts/download/general-sans
+          unzip -p gs.zip '*/WEB/fonts/GeneralSans-Medium.woff2' > site/fonts/GeneralSans-Medium.woff2
+          echo "0168813e5da4bb7fcbffbe1305cc4932220772ff26c0488c5d62e28f579aa5ae  site/fonts/GeneralSans-Medium.woff2" | sha256sum -c -
+          rm gs.zip
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deployment
+        uses: actions/deploy-pages@v4

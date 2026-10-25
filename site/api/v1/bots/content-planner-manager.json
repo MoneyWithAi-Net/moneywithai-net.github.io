@@ -1,0 +1,31 @@
+{
+  "type": "bot",
+  "slug": "content-planner-manager",
+  "name": "Content Planner Manager",
+  "category": "Content and Marketing",
+  "sub_use_case": "Local SEO content",
+  "summary": "Plans local-search content for a service business and keeps a content calendar in your website builder.",
+  "tools": [
+    "Webflow"
+  ],
+  "creator": {
+    "handle": "HouseHackerJon",
+    "url": "https://x.com/HouseHackerJon"
+  },
+  "scouted_by": "elie2222",
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/HouseHackerJon/status/2088305236003926468"
+  },
+  "official_share_url": null,
+  "found_via": "https://botdirectory.ai/bots/content-planner-manager/",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-24",
+  "url": "https://bots.anthonytoday.com/bots/content-planner-manager/",
+  "json_url": "https://bots.anthonytoday.com/api/v1/bots/content-planner-manager.json",
+  "use_cases": [
+    "https://bots.anthonytoday.com/use-cases/local-seo-content-engine/"
+  ],
+  "added_at": "2026-10-24T08:00:00.000Z"
+}

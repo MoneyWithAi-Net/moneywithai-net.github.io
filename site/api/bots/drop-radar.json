@@ -1,0 +1,31 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Bot Directory. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "drop-radar",
+    "name": "Drop Radar",
+    "category": "E-Commerce",
+    "sub_use_case": "Competitor drops",
+    "summary": "Watches competitor brands on Amazon, their sites and TikTok Shop, and alerts you only when something new drops.",
+    "tools": [
+      "Amazon",
+      "TikTok Shop",
+      "Slack"
+    ],
+    "creator": {
+      "handle": "Steph_Pierson",
+      "url": "https://x.com/Steph_Pierson"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/Steph_Pierson/status/2102601597557817539"
+    },
+    "official_share_url": "https://x.ai/bot/KYM0C9BcyfXEP9uIyxlmE",
+    "found_via": "https://grokbot101.org/bots/drop-radar/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-24",
+    "url": "https://bots.anthonytoday.com/bots/drop-radar/",
+    "json_url": "https://bots.anthonytoday.com/api/bots/drop-radar.json"
+  }
+}

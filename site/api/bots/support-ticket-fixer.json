@@ -1,0 +1,33 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Bot Directory. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "support-ticket-fixer",
+    "name": "Support Ticket Fixer",
+    "category": "Customer Support",
+    "sub_use_case": "Ticket fixing",
+    "summary": "Investigates new support tickets against docs, code and logs, then prepares a likely cause and fix.",
+    "tools": [
+      "Ferndesk",
+      "Axiom",
+      "GitHub",
+      "Infisical",
+      "Codex"
+    ],
+    "creator": {
+      "handle": "euboid",
+      "url": "https://x.com/euboid"
+    },
+    "scouted_by": "elie2222",
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/euboid/status/2089291320271482895"
+    },
+    "official_share_url": null,
+    "found_via": "https://botdirectory.ai/bots/support-ticket-fixer/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-24",
+    "url": "https://bots.anthonytoday.com/bots/support-ticket-fixer/",
+    "json_url": "https://bots.anthonytoday.com/api/bots/support-ticket-fixer.json"
+  }
+}

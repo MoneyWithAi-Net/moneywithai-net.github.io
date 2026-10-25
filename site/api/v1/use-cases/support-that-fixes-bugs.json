@@ -1,0 +1,149 @@
+{
+  "type": "use-case",
+  "slug": "support-that-fixes-bugs",
+  "title": "Turn Support Tickets into Fixes",
+  "category": "Customer Support",
+  "category_slug": "customer-support",
+  "money_model": "Save costs",
+  "difficulty": "Advanced",
+  "summary": "Investigate tickets against code and logs, keep help articles current, and catch public complaints early.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes fewer repeat tickets keep customers paying; it protects revenue more than it adds it.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Fewer repeat tickets and faster fixes keep customers paying.",
+    "Engineers spend less time on triage."
+  ],
+  "who_its_for": [
+    "Software teams and SaaS founders."
+  ],
+  "stack": [
+    {
+      "bot": "support-ticket-fixer",
+      "name": "Support Ticket Fixer",
+      "role": "Investigates tickets and prepares a likely cause and fix.",
+      "creator": "euboid",
+      "tools": [
+        "Ferndesk",
+        "Axiom",
+        "GitHub",
+        "Infisical",
+        "Codex"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/support-ticket-fixer/",
+      "official_share_url": null
+    },
+    {
+      "bot": "help-center-updater",
+      "name": "Help Center Updater",
+      "role": "Drafts help article updates after code changes.",
+      "creator": "damonchen",
+      "tools": [
+        "Intercom",
+        "GitHub"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/help-center-updater/",
+      "official_share_url": null
+    },
+    {
+      "bot": "customer-feedback-watch",
+      "name": "Customer Feedback Watch",
+      "role": "Flags complaints and bug reports on X.",
+      "creator": "egavrilenko11",
+      "tools": [
+        "X API"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/customer-feedback-watch/",
+      "official_share_url": "https://x.ai/bot/8Snl1TovbMwClPoBiHrWT"
+    }
+  ],
+  "tools": [
+    "Ferndesk",
+    "Axiom",
+    "GitHub",
+    "Infisical",
+    "Codex",
+    "Intercom",
+    "X API"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Support tickets",
+        "tool": "Ferndesk"
+      },
+      {
+        "label": "Code and logs",
+        "tool": "GitHub"
+      },
+      {
+        "label": "Complaints on X",
+        "tool": "X API"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "support-ticket-fixer",
+        "name": "Support Ticket Fixer",
+        "does": "Finds a likely cause and fix",
+        "tools": [
+          "Ferndesk",
+          "Axiom",
+          "GitHub",
+          "Infisical",
+          "Codex"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "help-center-updater",
+        "name": "Help Center Updater",
+        "does": "Drafts help article updates",
+        "tools": [
+          "Intercom",
+          "GitHub"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "customer-feedback-watch",
+        "name": "Customer Feedback Watch",
+        "does": "Flags public bug reports",
+        "tools": [
+          "X API"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "you",
+        "name": "You",
+        "does": "Review code changes as usual",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Fixes ready for review",
+      "A current help center",
+      "Fewer repeat tickets"
+    ]
+  },
+  "steps": [
+    "Connect your help desk, repo and logs with the least access needed.",
+    "Review the first ten investigations.",
+    "Add help center updates to your release routine."
+  ],
+  "guardrails": [
+    "Code changes go through your normal review."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-24T08:00:00.000Z",
+  "url": "https://bots.anthonytoday.com/use-cases/support-that-fixes-bugs/",
+  "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/support-that-fixes-bugs.json"
+}

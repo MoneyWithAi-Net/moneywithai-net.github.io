@@ -1,0 +1,108 @@
+{
+  "type": "use-case",
+  "slug": "local-competitor-intel",
+  "title": "Know What Local Competitors Are Doing",
+  "category": "Research and Ops",
+  "category_slug": "research-and-ops",
+  "money_model": "Grow sales",
+  "difficulty": "Beginner",
+  "summary": "Weekly cited reports on competitor moves, plus alerts when their sites or rankings change.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Indirect: it informs your pricing and offers, not income on its own.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Respond to price and offer changes quickly.",
+    "Find the services competitors ignore."
+  ],
+  "who_its_for": [
+    "Local service businesses and their agencies."
+  ],
+  "stack": [
+    {
+      "bot": "competitor-intel",
+      "name": "Competitor Intel",
+      "role": "Files a weekly report on local competitors.",
+      "creator": "TheReal_BCM",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/competitor-intel/",
+      "official_share_url": "https://x.ai/bot/PIBCWeB59T-UhxyBNLowR"
+    },
+    {
+      "bot": "scout-competitive-intelligence",
+      "name": "Scout (Competitive Intelligence)",
+      "role": "Tracks competitor sites and search rankings.",
+      "creator": "adamta",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/scout-competitive-intelligence/",
+      "official_share_url": "https://x.ai/bot/rthl9MdskO2f-JCzmyINP"
+    }
+  ],
+  "tools": [
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Your main competitors",
+        "tool": null
+      },
+      {
+        "label": "Their sites and rankings",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "competitor-intel",
+        "name": "Competitor Intel",
+        "does": "Files a cited weekly report",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "scout-competitive-intelligence",
+        "name": "Scout (Competitive Intelligence)",
+        "does": "Alerts on site and ranking changes",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Decide one action per report",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Weekly competitor reports",
+      "Change alerts"
+    ]
+  },
+  "steps": [
+    "List your main competitors.",
+    "Read the first report and check its sources.",
+    "Decide one action per report."
+  ],
+  "guardrails": [
+    "Research only; no outreach or posting."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+  "url": "https://bots.anthonytoday.com/use-cases/local-competitor-intel/",
+  "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/local-competitor-intel.json"
+}

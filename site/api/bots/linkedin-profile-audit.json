@@ -1,0 +1,31 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Bot Directory. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "bot": {
+    "slug": "linkedin-profile-audit",
+    "name": "LinkedIn Profile Audit",
+    "category": "Leads and Sales",
+    "sub_use_case": "LinkedIn funnels",
+    "summary": "Compares your LinkedIn profile with your current work and drafts updates for your approval.",
+    "tools": [
+      "LinkedIn",
+      "Notion",
+      "Slack"
+    ],
+    "creator": {
+      "handle": "ericzakariasson",
+      "url": "https://x.com/ericzakariasson"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/ericzakariasson/status/2087258914060664902"
+    },
+    "official_share_url": null,
+    "found_via": "https://botdirectory.ai/bots/linkedin-profile-audit/",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-24",
+    "url": "https://bots.anthonytoday.com/bots/linkedin-profile-audit/",
+    "json_url": "https://bots.anthonytoday.com/api/bots/linkedin-profile-audit.json"
+  }
+}

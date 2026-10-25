@@ -1,0 +1,108 @@
+{
+  "type": "use-case",
+  "slug": "win-public-tenders",
+  "title": "Prepare Public Tender Bids",
+  "category": "Research and Ops",
+  "category_slug": "research-and-ops",
+  "money_model": "Grow sales",
+  "difficulty": "Advanced",
+  "summary": "A bot team ranks tender documents and moves each bid through format and rules checks, with grants as a second source of funding.",
+  "money_potential": {
+    "tier": 3,
+    "symbol": "$$$",
+    "label": "High",
+    "basis": "Assumes public contracts are large, so each extra bid won matters.",
+    "claim_label": "E",
+    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Bid on more tenders with the same team.",
+    "Fewer bids rejected on format."
+  ],
+  "who_its_for": [
+    "Firms that bid on public contracts (Dero works in Spanish, for Chilean municipal tenders)."
+  ],
+  "stack": [
+    {
+      "bot": "dero",
+      "name": "Dero",
+      "role": "Coordinates the tender bid pipeline.",
+      "creator": "jorgesoffia",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/dero/",
+      "official_share_url": "https://x.ai/bot/OMpdsLwId7Du5PrjbX8L8"
+    },
+    {
+      "bot": "grantogre",
+      "name": "GrantOgre",
+      "role": "Finds funding programmes and prepares packs.",
+      "creator": "HoneybadgerFan4",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://bots.anthonytoday.com/bots/grantogre/",
+      "official_share_url": "https://x.ai/bot/WXC1m-5Iiyu1IyvBEt9Va"
+    }
+  ],
+  "tools": [
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Open tender documents",
+        "tool": null
+      },
+      {
+        "label": "Funding programmes",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "dero",
+        "name": "Dero",
+        "does": "Ranks tenders and runs the bid pipeline",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "grantogre",
+        "name": "GrantOgre",
+        "does": "Finds funding and prepares packs",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Review and file every bid",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Bids that pass format checks",
+      "More tenders bid per team"
+    ]
+  },
+  "steps": [
+    "Load one open tender.",
+    "Review each stage of the pipeline output.",
+    "File the bid yourself."
+  ],
+  "guardrails": [
+    "A person reviews and files every bid."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+  "url": "https://bots.anthonytoday.com/use-cases/win-public-tenders/",
+  "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/win-public-tenders.json"
+}

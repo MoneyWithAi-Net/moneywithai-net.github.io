@@ -1,0 +1,1342 @@
+{
+  "name": "Bot Directory",
+  "url": "https://bots.anthonytoday.com",
+  "generated_at": "2026-10-25T07:30:16.000Z",
+  "count": 50,
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Bot Directory. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "proof_levels": {
+    "source_verified": "Source verified: the original post exists and is by the named creator.",
+    "creator_confirmed": "Creator confirmed: the creator confirmed the listing details.",
+    "results_verified": "Results verified: we saw evidence of real results."
+  },
+  "bots": [
+    {
+      "slug": "art-director",
+      "name": "Art Director",
+      "category": "Content and Marketing",
+      "sub_use_case": "Brand social",
+      "summary": "Finds ideas on Pinterest and in company news, makes on-brand images and carousels and runs a brand's Instagram.",
+      "tools": [
+        "Instagram",
+        "Pinterest"
+      ],
+      "creator": {
+        "handle": "Carlos_Arthurr",
+        "url": "https://x.com/Carlos_Arthurr"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/Carlos_Arthurr/status/2107422079087706174"
+      },
+      "official_share_url": "https://x.ai/bot/CPsMufoHozETWciYoiqvL",
+      "found_via": "https://grokbot101.org/bots/art-director/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/art-director/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/art-director.json"
+    },
+    {
+      "slug": "competitor-intel",
+      "name": "Competitor Intel",
+      "category": "Research and Ops",
+      "sub_use_case": "Competitor intel",
+      "summary": "Researches a local service business's competitors and files a weekly report with cited moves.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "TheReal_BCM",
+        "url": "https://x.com/TheReal_BCM"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/TheReal_BCM/status/2106677552559366225"
+      },
+      "official_share_url": "https://x.ai/bot/PIBCWeB59T-UhxyBNLowR",
+      "found_via": "https://grokbot101.org/bots/competitor-intel/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/competitor-intel/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/competitor-intel.json"
+    },
+    {
+      "slug": "consider-it-marketed",
+      "name": "Consider It Marketed",
+      "category": "Content and Marketing",
+      "sub_use_case": "Practice marketing",
+      "summary": "Directs a bot team for a medical practice's marketing: ads, creative, video and quality checks.",
+      "tools": [
+        "Google Ads"
+      ],
+      "creator": {
+        "handle": "CindyH874325640",
+        "url": "https://x.com/CindyH874325640"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/CindyH874325640/status/2101866621228785883"
+      },
+      "official_share_url": "https://x.ai/bot/ayQYbaHquRM7x7lnBOEoQ",
+      "found_via": "https://grokbot101.org/bots/consider-it-marketed/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/consider-it-marketed/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/consider-it-marketed.json"
+    },
+    {
+      "slug": "construction-chief-of-staff",
+      "name": "Construction Chief of Staff",
+      "category": "Research and Ops",
+      "sub_use_case": "Construction office",
+      "summary": "Reads mail and calendar for a construction team, routes work to specialist bots and never sends or buys alone.",
+      "tools": [
+        "Email",
+        "Google Calendar"
+      ],
+      "creator": {
+        "handle": "RoggyRyan",
+        "url": "https://x.com/RoggyRyan"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/RoggyRyan/status/2102183469467975727"
+      },
+      "official_share_url": "https://x.ai/bot/dZfz-QuarMKqQo_mdPhbb",
+      "found_via": "https://grokbot101.org/bots/construction-chief-of-staff/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/construction-chief-of-staff/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/construction-chief-of-staff.json"
+    },
+    {
+      "slug": "content-planner-manager",
+      "name": "Content Planner Manager",
+      "category": "Content and Marketing",
+      "sub_use_case": "Local SEO content",
+      "summary": "Plans local-search content for a service business and keeps a content calendar in your website builder.",
+      "tools": [
+        "Webflow"
+      ],
+      "creator": {
+        "handle": "HouseHackerJon",
+        "url": "https://x.com/HouseHackerJon"
+      },
+      "scouted_by": "elie2222",
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/HouseHackerJon/status/2088305236003926468"
+      },
+      "official_share_url": null,
+      "found_via": "https://botdirectory.ai/bots/content-planner-manager/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/content-planner-manager/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/content-planner-manager.json"
+    },
+    {
+      "slug": "cpm",
+      "name": "CPM",
+      "category": "Content and Marketing",
+      "sub_use_case": "Brand-deal pricing",
+      "summary": "Prices a creator deal from public view counts and drafts a deal menu, rate card and agreement to review.",
+      "tools": [
+        "Instagram",
+        "TikTok"
+      ],
+      "creator": {
+        "handle": "kostahantzis",
+        "url": "https://x.com/kostahantzis"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/kostahantzis/status/2109965811964051528"
+      },
+      "official_share_url": "https://x.ai/bot/GwmXIfLuPPIPf2hGX2Txf",
+      "found_via": "https://grokbot101.org/bots/cpm/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/cpm/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/cpm.json"
+    },
+    {
+      "slug": "creator-desk",
+      "name": "Creator Desk",
+      "category": "Content and Marketing",
+      "sub_use_case": "X posting",
+      "summary": "Plans, drafts and schedules X posts and short clips for a creator, and picks the replies worth making.",
+      "tools": [
+        "X"
+      ],
+      "creator": {
+        "handle": "MadeItHappenX",
+        "url": "https://x.com/MadeItHappenX"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/MadeItHappenX/status/2104034337771417720"
+      },
+      "official_share_url": "https://x.ai/bot/dM43J1T44OmcRdAsNHsBf",
+      "found_via": "https://grokbot101.org/bots/creator-desk/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/creator-desk/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/creator-desk.json"
+    },
+    {
+      "slug": "customer-feedback-watch",
+      "name": "Customer Feedback Watch",
+      "category": "Customer Support",
+      "sub_use_case": "Feedback watch",
+      "summary": "Scans public posts on X for complaints and bug reports about your product and flags the few that need action.",
+      "tools": [
+        "X API"
+      ],
+      "creator": {
+        "handle": "egavrilenko11",
+        "url": "https://x.com/egavrilenko11"
+      },
+      "scouted_by": "elie2222",
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/egavrilenko11/status/2095604008555893015"
+      },
+      "official_share_url": "https://x.ai/bot/8Snl1TovbMwClPoBiHrWT",
+      "found_via": "https://botdirectory.ai/bots/customer-feedback-watch/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/customer-feedback-watch/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/customer-feedback-watch.json"
+    },
+    {
+      "slug": "dero",
+      "name": "Dero",
+      "category": "Research and Ops",
+      "sub_use_case": "Tender bids",
+      "summary": "Coordinates a Spanish-language bot team that prepares bids for Chilean municipal tenders, from spec sheet to QA.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "jorgesoffia",
+        "url": "https://x.com/jorgesoffia"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/jorgesoffia/status/2099936875498627530"
+      },
+      "official_share_url": "https://x.ai/bot/OMpdsLwId7Du5PrjbX8L8",
+      "found_via": "https://grokbot101.org/bots/dero/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/dero/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/dero.json"
+    },
+    {
+      "slug": "drop-radar",
+      "name": "Drop Radar",
+      "category": "E-Commerce",
+      "sub_use_case": "Competitor drops",
+      "summary": "Watches competitor brands on Amazon, their sites and TikTok Shop, and alerts you only when something new drops.",
+      "tools": [
+        "Amazon",
+        "TikTok Shop",
+        "Slack"
+      ],
+      "creator": {
+        "handle": "Steph_Pierson",
+        "url": "https://x.com/Steph_Pierson"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/Steph_Pierson/status/2102601597557817539"
+      },
+      "official_share_url": "https://x.ai/bot/KYM0C9BcyfXEP9uIyxlmE",
+      "found_via": "https://grokbot101.org/bots/drop-radar/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/drop-radar/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/drop-radar.json"
+    },
+    {
+      "slug": "ebay-lister",
+      "name": "eBay Lister",
+      "category": "E-Commerce",
+      "sub_use_case": "Resale listings",
+      "summary": "Turns a photo of a thrift find, card or toy into an eBay draft with sold comps, a title and a price.",
+      "tools": [
+        "eBay"
+      ],
+      "creator": {
+        "handle": "Gabi_Valerio3",
+        "url": "https://x.com/Gabi_Valerio3"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/Gabi_Valerio3/status/2105892546245546309"
+      },
+      "official_share_url": "https://x.ai/bot/q9Q8EPKFx45CmVwjUAFY5",
+      "found_via": "https://grokbot101.org/bots/ebay-lister/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/ebay-lister/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/ebay-lister.json"
+    },
+    {
+      "slug": "engagement-lead-finder",
+      "name": "Engagement Lead Finder",
+      "category": "Leads and Sales",
+      "sub_use_case": "Social engagement leads",
+      "summary": "Reviews who engages with your Instagram posts and shortlists people who match your ideal customer.",
+      "tools": [
+        "Instagram"
+      ],
+      "creator": {
+        "handle": "aferrari",
+        "url": "https://x.com/aferrari"
+      },
+      "scouted_by": "LBallz77283",
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/aferrari/status/2101436968173252878"
+      },
+      "official_share_url": null,
+      "found_via": "https://botdirectory.ai/bots/engagement-lead-finder/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/engagement-lead-finder/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/engagement-lead-finder.json"
+    },
+    {
+      "slug": "entrepreneur-scout",
+      "name": "Entrepreneur Scout",
+      "category": "Research and Ops",
+      "sub_use_case": "Opportunity scouting",
+      "summary": "Finds and vets side-venture ideas from a short brief, with sources, risks and a next step, and keeps a weekly scorecard.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "hjackson2",
+        "url": "https://x.com/hjackson2"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/hjackson2/status/2107967069543075893"
+      },
+      "official_share_url": "https://x.ai/bot/scvcDPnSH2_sj3pH6ONCR",
+      "found_via": "https://grokbot101.org/bots/entrepreneur-scout/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/entrepreneur-scout/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/entrepreneur-scout.json"
+    },
+    {
+      "slug": "geo-targeted-seo-publisher",
+      "name": "Geo-Targeted SEO Publisher",
+      "category": "Content and Marketing",
+      "sub_use_case": "Local SEO content",
+      "summary": "Drafts local SEO articles for a city and topic you choose and publishes them through your repo after approval.",
+      "tools": [
+        "GitHub"
+      ],
+      "creator": {
+        "handle": "coreyganim",
+        "url": "https://x.com/coreyganim"
+      },
+      "scouted_by": "elie2222",
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/coreyganim/status/2092284619991482842"
+      },
+      "official_share_url": null,
+      "found_via": "https://botdirectory.ai/bots/geo-targeted-seo-publisher/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/geo-targeted-seo-publisher/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/geo-targeted-seo-publisher.json"
+    },
+    {
+      "slug": "grantogre",
+      "name": "GrantOgre",
+      "category": "Client Services",
+      "sub_use_case": "Grant packs",
+      "summary": "Finds live funding programmes for a company or client project and prepares the pack a person files.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "HoneybadgerFan4",
+        "url": "https://x.com/HoneybadgerFan4"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/HoneybadgerFan4/status/2105258225922707792"
+      },
+      "official_share_url": "https://x.ai/bot/WXC1m-5Iiyu1IyvBEt9Va",
+      "found_via": "https://grokbot101.org/bots/grantogre/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/grantogre/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/grantogre.json"
+    },
+    {
+      "slug": "help-center-updater",
+      "name": "Help Center Updater",
+      "category": "Customer Support",
+      "sub_use_case": "Help center",
+      "summary": "After each merged code change, checks whether help articles need an update and drafts the change.",
+      "tools": [
+        "Intercom",
+        "GitHub"
+      ],
+      "creator": {
+        "handle": "damonchen",
+        "url": "https://x.com/damonchen"
+      },
+      "scouted_by": "elie2222",
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/damonchen/status/2090319001813676471"
+      },
+      "official_share_url": null,
+      "found_via": "https://botdirectory.ai/bots/help-center-updater/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/help-center-updater/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/help-center-updater.json"
+    },
+    {
+      "slug": "inbox-triage",
+      "name": "Inbox Triage",
+      "category": "Research and Ops",
+      "sub_use_case": "Inbox triage",
+      "summary": "Sorts new email and social DMs, closes what needs no reply and turns the rest into Trello tasks.",
+      "tools": [
+        "Facebook",
+        "X",
+        "LinkedIn",
+        "Trello"
+      ],
+      "creator": {
+        "handle": "rchase",
+        "url": "https://x.com/rchase"
+      },
+      "scouted_by": "elie2222",
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/rchase/status/2091998096175645011"
+      },
+      "official_share_url": null,
+      "found_via": "https://botdirectory.ai/bots/inbox-triage/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/inbox-triage/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/inbox-triage.json"
+    },
+    {
+      "slug": "invoice-hunter",
+      "name": "Invoice Hunter",
+      "category": "Finance",
+      "sub_use_case": "Invoices",
+      "summary": "Finds invoices in your email, pulls out the key details and bundles them by month for your accountant, after you approve.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "scheemunai",
+        "url": "https://x.com/scheemunai"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/scheemunai/status/2093398873247031468"
+      },
+      "official_share_url": "https://x.ai/bot/-kO6HrXokJZANVwUOMZO9",
+      "found_via": "https://botdirectory.ai/bots/invoice-hunter/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/invoice-hunter/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/invoice-hunter.json"
+    },
+    {
+      "slug": "kickbox-to-hubspot-importer",
+      "name": "Kickbox to HubSpot Importer",
+      "category": "Leads and Sales",
+      "sub_use_case": "CRM hygiene",
+      "summary": "Verifies contact emails with Kickbox and writes the deliverable results back into existing HubSpot records.",
+      "tools": [
+        "Kickbox",
+        "HubSpot",
+        "Google Sheets"
+      ],
+      "creator": {
+        "handle": "pofabro",
+        "url": "https://x.com/pofabro"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/pofabro/status/2102344924331159835"
+      },
+      "official_share_url": "https://x.ai/bot/PRc9UmcxySAv0UBU4g8fx",
+      "found_via": "https://grokbot101.org/bots/kickbox-hubspot-importer/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/kickbox-to-hubspot-importer/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/kickbox-to-hubspot-importer.json"
+    },
+    {
+      "slug": "landlord-ledger",
+      "name": "Landlord Ledger",
+      "category": "Finance",
+      "sub_use_case": "Rental bookkeeping",
+      "summary": "Matches rent deposits to tenants, flags late or short rent and sorts expenses for tax time. It never moves money.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "Daniel191555486",
+        "url": "https://x.com/Daniel191555486"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/Daniel191555486/status/2105082481640980600"
+      },
+      "official_share_url": "https://x.ai/bot/sPjI0Dec1DUvTc7H0zxNG",
+      "found_via": "https://grokbot101.org/bots/landlord-ledger/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/landlord-ledger/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/landlord-ledger.json"
+    },
+    {
+      "slug": "lead-scout",
+      "name": "Lead Scout",
+      "category": "Leads and Sales",
+      "sub_use_case": "Local SEO prospect lists",
+      "summary": "Builds lists of local businesses whose sites show search gaps, so an agency has warm reasons to reach out.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "itsryanlenk",
+        "url": "https://x.com/itsryanlenk"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/itsryanlenk/status/2101336928134001090"
+      },
+      "official_share_url": "https://x.ai/bot/j3Qule6BFplSpVqgLpVnV",
+      "found_via": "https://grokbot101.org/bots/lead-scout/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/lead-scout/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/lead-scout.json"
+    },
+    {
+      "slug": "lead-vetting",
+      "name": "Lead Vetting",
+      "category": "Leads and Sales",
+      "sub_use_case": "Inbound qualification",
+      "summary": "Screens consulting and collab leads from your inbox and sends a short go or no-go summary to Slack.",
+      "tools": [
+        "Email",
+        "Slack"
+      ],
+      "creator": {
+        "handle": "anzevoje",
+        "url": "https://x.com/anzevoje"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/anzevoje/status/2102299536513245605"
+      },
+      "official_share_url": "https://x.ai/bot/eEfAacXdtzHANV5hVhG6o",
+      "found_via": "https://grokbot101.org/bots/lead-vetting/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/lead-vetting/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/lead-vetting.json"
+    },
+    {
+      "slug": "legend-lead-ops",
+      "name": "Legend Lead Ops",
+      "category": "Leads and Sales",
+      "sub_use_case": "Speed-to-lead and quotes",
+      "summary": "Qualifies roofing inquiries, drafts SMS and email follow-ups and preps quick-quote handoffs for a contractor.",
+      "tools": [
+        "SMS",
+        "Email"
+      ],
+      "creator": {
+        "handle": "legendRoofingCo",
+        "url": "https://x.com/legendRoofingCo"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/legendRoofingCo/status/2101471064857378821"
+      },
+      "official_share_url": "https://x.ai/bot/WCZjv-qHMtHz2AdQW136q",
+      "found_via": "https://grokbot101.org/bots/legend-lead-ops/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/legend-lead-ops/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/legend-lead-ops.json"
+    },
+    {
+      "slug": "linkedin-lead-outreach",
+      "name": "LinkedIn Lead Outreach",
+      "category": "Leads and Sales",
+      "sub_use_case": "LinkedIn funnels",
+      "summary": "Turns comments on a LinkedIn lead magnet into tracked leads in Notion, with capped replies and DMs you can review.",
+      "tools": [
+        "LinkedIn",
+        "Notion"
+      ],
+      "creator": {
+        "handle": "ethan_leee9113",
+        "url": "https://x.com/ethan_leee9113"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/ethan_leee9113/status/2101189341242376366"
+      },
+      "official_share_url": "https://x.ai/bot/DEMmOi7SiFhsFtIKuBKRD",
+      "found_via": "https://grokbot101.org/bots/linkedin-lead-outreach/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/linkedin-lead-outreach/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/linkedin-lead-outreach.json"
+    },
+    {
+      "slug": "linkedin-profile-audit",
+      "name": "LinkedIn Profile Audit",
+      "category": "Leads and Sales",
+      "sub_use_case": "LinkedIn funnels",
+      "summary": "Compares your LinkedIn profile with your current work and drafts updates for your approval.",
+      "tools": [
+        "LinkedIn",
+        "Notion",
+        "Slack"
+      ],
+      "creator": {
+        "handle": "ericzakariasson",
+        "url": "https://x.com/ericzakariasson"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/ericzakariasson/status/2087258914060664902"
+      },
+      "official_share_url": null,
+      "found_via": "https://botdirectory.ai/bots/linkedin-profile-audit/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/linkedin-profile-audit/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/linkedin-profile-audit.json"
+    },
+    {
+      "slug": "local-business-website-hunter",
+      "name": "Local Business Website Hunter",
+      "category": "Leads and Sales",
+      "sub_use_case": "No-website prospects",
+      "summary": "Spots local businesses with no website, mocks up a demo site and a quote, and holds the pitch for your approval.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "NewLongMoney",
+        "url": "https://x.com/NewLongMoney"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/NewLongMoney/status/2108069128846328185"
+      },
+      "official_share_url": "https://x.ai/bot/U87LeqeLNEIKRe9ctpRxG",
+      "found_via": "https://grokbot101.org/bots/local-business-website-hunter/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/local-business-website-hunter/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/local-business-website-hunter.json"
+    },
+    {
+      "slug": "maintenance-triage",
+      "name": "Maintenance Triage",
+      "category": "Research and Ops",
+      "sub_use_case": "Property maintenance",
+      "summary": "Runs residential maintenance requests from intake and triage to dispatch, resident texts and closeout checks.",
+      "tools": [
+        "SMS"
+      ],
+      "creator": {
+        "handle": "Miffy_NYC",
+        "url": "https://x.com/Miffy_NYC"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/Miffy_NYC/status/2102588454588547504"
+      },
+      "official_share_url": "https://x.ai/bot/gKgo-_MM29kfcD9qiZf2A",
+      "found_via": "https://grokbot101.org/bots/miffy-maintenance-triage/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/maintenance-triage/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/maintenance-triage.json"
+    },
+    {
+      "slug": "market-research",
+      "name": "Market Research",
+      "category": "Research and Ops",
+      "sub_use_case": "Market notes",
+      "summary": "Reads your watchlist across X, wires and primary sources and writes source-graded market notes. Not advice.",
+      "tools": [
+        "X"
+      ],
+      "creator": {
+        "handle": "eyemotors",
+        "url": "https://x.com/eyemotors"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/eyemotors/status/2105218704904798267"
+      },
+      "official_share_url": "https://x.ai/bot/t1l_On1VtkMYddCu5MqQB",
+      "found_via": "https://grokbot101.org/bots/market-research/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/market-research/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/market-research.json"
+    },
+    {
+      "slug": "media-manager",
+      "name": "Media Manager",
+      "category": "Content and Marketing",
+      "sub_use_case": "YouTube operations",
+      "summary": "Handles a YouTube channel's after-upload work: transcripts, chapters, titles, descriptions and thumbnails.",
+      "tools": [
+        "YouTube",
+        "AssemblyAI",
+        "Figma"
+      ],
+      "creator": {
+        "handle": "mattyp",
+        "url": "https://x.com/mattyp"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/mattyp/status/2102397514792001868"
+      },
+      "official_share_url": "https://x.ai/bot/qG_ZROllzSSRGKx_iIbsQ",
+      "found_via": "https://grokbot101.org/bots/media-manager/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/media-manager/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/media-manager.json"
+    },
+    {
+      "slug": "notion-memory-keeper",
+      "name": "Notion Memory Keeper",
+      "category": "Research and Ops",
+      "sub_use_case": "Team memory",
+      "summary": "Keeps one Notion page up to date with the notes, decisions and context you hand it.",
+      "tools": [
+        "Notion"
+      ],
+      "creator": {
+        "handle": "benln",
+        "url": "https://x.com/benln"
+      },
+      "scouted_by": "elie2222",
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/benln/status/2089699901567340808"
+      },
+      "official_share_url": null,
+      "found_via": "https://botdirectory.ai/bots/notion-memory-keeper/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/notion-memory-keeper/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/notion-memory-keeper.json"
+    },
+    {
+      "slug": "phone-receptionist",
+      "name": "Phone Receptionist",
+      "category": "Customer Support",
+      "sub_use_case": "Phone answering",
+      "summary": "Answers a business phone line and books meetings on Google Calendar. The share card lists a paid phone plan.",
+      "tools": [
+        "Google Calendar",
+        "Bland"
+      ],
+      "creator": {
+        "handle": "SimplyColeB",
+        "url": "https://x.com/SimplyColeB"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/SimplyColeB/status/2107971762831114461"
+      },
+      "official_share_url": "https://x.ai/bot/Z7LfRtBtwfaojaomMrAuX",
+      "found_via": "https://grokbot101.org/bots/phone-receptionist/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/phone-receptionist/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/phone-receptionist.json"
+    },
+    {
+      "slug": "photo-and-video-shoot-confirmations",
+      "name": "Photo & Video Shoot Confirmations",
+      "category": "Client Services",
+      "sub_use_case": "Client confirmations",
+      "summary": "Emails clients a forecast 48 hours before an outdoor shoot and drafts reschedule options when rain looks likely.",
+      "tools": [
+        "Email"
+      ],
+      "creator": {
+        "handle": "TimFPhotography",
+        "url": "https://x.com/TimFPhotography"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/TimFPhotography/status/2106715972744929301"
+      },
+      "official_share_url": "https://x.ai/bot/iduDVp02VHu06-XddxcSD",
+      "found_via": "https://grokbot101.org/bots/shoot-confirmations/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/photo-and-video-shoot-confirmations/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/photo-and-video-shoot-confirmations.json"
+    },
+    {
+      "slug": "photofix",
+      "name": "PhotoFix",
+      "category": "Client Services",
+      "sub_use_case": "Client delivery",
+      "summary": "Edits real estate listing photos, labels them and files them by address in Drive or Dropbox for client delivery.",
+      "tools": [
+        "Google Drive",
+        "Dropbox"
+      ],
+      "creator": {
+        "handle": "MarsHomestead",
+        "url": "https://x.com/MarsHomestead"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/MarsHomestead/status/2103576228821364833"
+      },
+      "official_share_url": "https://x.ai/bot/PRdnJ63L8h0FVlMAA1UN4",
+      "found_via": "https://grokbot101.org/bots/photofix/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/photofix/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/photofix.json"
+    },
+    {
+      "slug": "precision-3d-helper",
+      "name": "Precision 3D Helper",
+      "category": "Client Services",
+      "sub_use_case": "Quotes",
+      "summary": "Answers customer questions, prices jobs with quantity discounts and helps fix prints for a small 3D print shop.",
+      "tools": [
+        "Bambu Lab"
+      ],
+      "creator": {
+        "handle": "srinimaram",
+        "url": "https://x.com/srinimaram"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/srinimaram/status/2106655043843674335"
+      },
+      "official_share_url": "https://x.ai/bot/bna2wMqlfX6-F4TBmAEBJ",
+      "found_via": "https://grokbot101.org/bots/precision-3d-helper/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/precision-3d-helper/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/precision-3d-helper.json"
+    },
+    {
+      "slug": "product-expert",
+      "name": "Product Expert",
+      "category": "Leads and Sales",
+      "sub_use_case": "Sales-call support",
+      "summary": "Answers deep product questions during customer calls from your code or company knowledge base.",
+      "tools": [
+        "GitHub",
+        "Glean"
+      ],
+      "creator": {
+        "handle": "kristaletz",
+        "url": "https://x.com/kristaletz"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/kristaletz/status/2089103618121314689"
+      },
+      "official_share_url": null,
+      "found_via": "https://botdirectory.ai/bots/product-expert/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/product-expert/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/product-expert.json"
+    },
+    {
+      "slug": "reply-desk",
+      "name": "Reply Desk",
+      "category": "Customer Support",
+      "sub_use_case": "Review replies",
+      "summary": "Drafts replies to customer emails, messages and public reviews for local service businesses. You send them.",
+      "tools": [
+        "Email"
+      ],
+      "creator": {
+        "handle": "lonzom10",
+        "url": "https://x.com/lonzom10"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/lonzom10/status/2103749418457681951"
+      },
+      "official_share_url": "https://x.ai/bot/8lLjBC7bXUqbfh-vLG9jf",
+      "found_via": "https://grokbot101.org/bots/reply-desk/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/reply-desk/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/reply-desk.json"
+    },
+    {
+      "slug": "reply-drafter",
+      "name": "Reply Drafter",
+      "category": "Content and Marketing",
+      "sub_use_case": "X posting",
+      "summary": "Finds posts on X worth replying to and drafts a first take in your voice. You post every reply yourself.",
+      "tools": [
+        "X"
+      ],
+      "creator": {
+        "handle": "kevinace",
+        "url": "https://x.com/kevinace"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/kevinace/status/2089074419175977004"
+      },
+      "official_share_url": null,
+      "found_via": "https://botdirectory.ai/bots/reply-drafter/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/reply-drafter/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/reply-drafter.json"
+    },
+    {
+      "slug": "restaurant-order-recovery",
+      "name": "Restaurant Order Recovery",
+      "category": "Finance",
+      "sub_use_case": "Revenue recovery",
+      "summary": "Finds canceled delivery orders and error charges in a restaurant's merchant portals and files reimbursement requests.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "pattyshack",
+        "url": "https://x.com/pattyshack"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/pattyshack/status/2101396887219908999"
+      },
+      "official_share_url": "https://x.ai/bot/wB9H7OSiHYPlRgyCTM5Iq",
+      "found_via": "https://grokbot101.org/bots/restaurant-order-errors/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/restaurant-order-recovery/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/restaurant-order-recovery.json"
+    },
+    {
+      "slug": "saas-cfo-monitor",
+      "name": "SaaS CFO Monitor",
+      "category": "Finance",
+      "sub_use_case": "SaaS spend",
+      "summary": "Weekly check of SaaS spend and revenue across billing, accounting and email, with a monthly finance summary.",
+      "tools": [
+        "Stripe",
+        "Xero",
+        "QuickBooks",
+        "Gmail"
+      ],
+      "creator": {
+        "handle": "jessethanley",
+        "url": "https://x.com/jessethanley"
+      },
+      "scouted_by": "elie2222",
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/jessethanley/status/2087799804126761304"
+      },
+      "official_share_url": null,
+      "found_via": "https://botdirectory.ai/bots/saas-cfo-monitor/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/saas-cfo-monitor/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/saas-cfo-monitor.json"
+    },
+    {
+      "slug": "scout-competitive-intelligence",
+      "name": "Scout (Competitive Intelligence)",
+      "category": "Research and Ops",
+      "sub_use_case": "Competitor intel",
+      "summary": "Tracks competitor sites, search rankings and AI answer visibility, and sends a weekly brief when something moves.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "adamta",
+        "url": "https://x.com/adamta"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/adamta/status/2093388517044830237"
+      },
+      "official_share_url": "https://x.ai/bot/rthl9MdskO2f-JCzmyINP",
+      "found_via": "https://botdirectory.ai/bots/scout-competitive-intelligence/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/scout-competitive-intelligence/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/scout-competitive-intelligence.json"
+    },
+    {
+      "slug": "sentinel",
+      "name": "Sentinel",
+      "category": "Content and Marketing",
+      "sub_use_case": "Compliance review",
+      "summary": "Reviews insurance marketing emails, pages and posts before they go out and flags fixes for disclosures and claims.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "CluSloan",
+        "url": "https://x.com/CluSloan"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/CluSloan/status/2101119026453705089"
+      },
+      "official_share_url": "https://x.ai/bot/NAFAT-NGrQ7-zLccn4qg1",
+      "found_via": "https://grokbot101.org/bots/sentinel/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/sentinel/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/sentinel.json"
+    },
+    {
+      "slug": "shopify-bot",
+      "name": "Shopify Bot",
+      "category": "E-Commerce",
+      "sub_use_case": "Store operations",
+      "summary": "Runs catalog, inventory, conversion and customer service tasks on a Shopify store, alone or with a bot team.",
+      "tools": [
+        "Shopify"
+      ],
+      "creator": {
+        "handle": "nick_nehaul",
+        "url": "https://x.com/nick_nehaul"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/nick_nehaul/status/2108304525866193171"
+      },
+      "official_share_url": "https://x.ai/bot/jhd6Cb9XEPI6b-hs-WCQE",
+      "found_via": "https://grokbot101.org/bots/shopify-bot/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/shopify-bot/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/shopify-bot.json"
+    },
+    {
+      "slug": "site-research",
+      "name": "Site Research",
+      "category": "Leads and Sales",
+      "sub_use_case": "Pre-pitch audits",
+      "summary": "Turns a lead dossier into an evidence-backed brief on a local site's search gaps, ready for a sales draft.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "itsryanlenk",
+        "url": "https://x.com/itsryanlenk"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/itsryanlenk/status/2101336929539076518"
+      },
+      "official_share_url": "https://x.ai/bot/zkgCv30YKSJPHc7rUB_6P",
+      "found_via": "https://grokbot101.org/bots/site-research/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/site-research/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/site-research.json"
+    },
+    {
+      "slug": "store-manager",
+      "name": "Store Manager",
+      "category": "E-Commerce",
+      "sub_use_case": "Store chief of staff",
+      "summary": "Coordinates a team of store bots across orders, ads health, low stock and disputes, without spending money.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "ColinMcDermott",
+        "url": "https://x.com/ColinMcDermott"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/ColinMcDermott/status/2105790823682003017"
+      },
+      "official_share_url": "https://x.ai/bot/5axq0n6JtBkqjhMaCDO6d",
+      "found_via": "https://grokbot101.org/bots/store-manager/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/store-manager/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/store-manager.json"
+    },
+    {
+      "slug": "support-ticket-fixer",
+      "name": "Support Ticket Fixer",
+      "category": "Customer Support",
+      "sub_use_case": "Ticket fixing",
+      "summary": "Investigates new support tickets against docs, code and logs, then prepares a likely cause and fix.",
+      "tools": [
+        "Ferndesk",
+        "Axiom",
+        "GitHub",
+        "Infisical",
+        "Codex"
+      ],
+      "creator": {
+        "handle": "euboid",
+        "url": "https://x.com/euboid"
+      },
+      "scouted_by": "elie2222",
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/euboid/status/2089291320271482895"
+      },
+      "official_share_url": null,
+      "found_via": "https://botdirectory.ai/bots/support-ticket-fixer/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/support-ticket-fixer/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/support-ticket-fixer.json"
+    },
+    {
+      "slug": "talent-matchmaker",
+      "name": "Talent Matchmaker",
+      "category": "Research and Ops",
+      "sub_use_case": "Hiring",
+      "summary": "Spots hiring needs and job seekers in your inbox and suggests matches between them.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "lennysan",
+        "url": "https://x.com/lennysan"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/lennysan/status/2093428147194847238"
+      },
+      "official_share_url": "https://x.ai/bot/l8p6rXw-lalL-UNiHySnJ",
+      "found_via": "https://botdirectory.ai/bots/talent-matchmaker/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/talent-matchmaker/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/talent-matchmaker.json"
+    },
+    {
+      "slug": "tax-firm-os",
+      "name": "Tax Firm OS",
+      "category": "Finance",
+      "sub_use_case": "Accounting office ops",
+      "summary": "Keeps a tax or accounting office on track with client replies, document chasing and early due-date notices.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "Amervim",
+        "url": "https://x.com/Amervim"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/Amervim/status/2105949306025128186"
+      },
+      "official_share_url": "https://x.ai/bot/vJqjJphtZRkdBTYBxmWur",
+      "found_via": "https://grokbot101.org/bots/tax-firm-os/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/tax-firm-os/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/tax-firm-os.json"
+    },
+    {
+      "slug": "travel-expenses",
+      "name": "Travel Expenses",
+      "category": "Finance",
+      "sub_use_case": "Expense reports",
+      "summary": "Logs trip spending in any currency from text or receipt photos and exports an Excel and PDF expense report.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "shareitround",
+        "url": "https://x.com/shareitround"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/shareitround/status/2106934155615572405"
+      },
+      "official_share_url": "https://x.ai/bot/Upkn_bUxr___NAvXZB3Dc",
+      "found_via": "https://grokbot101.org/bots/travel-expenses/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/travel-expenses/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/travel-expenses.json"
+    },
+    {
+      "slug": "x-reply-scout",
+      "name": "X Reply Scout",
+      "category": "Leads and Sales",
+      "sub_use_case": "X prospecting",
+      "summary": "Suggests accounts and posts on X worth engaging with, tuned by your feedback. It never replies for you.",
+      "tools": [
+        "X"
+      ],
+      "creator": {
+        "handle": "scientists_blog",
+        "url": "https://x.com/scientists_blog"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/scientists_blog/status/2101542606769463504"
+      },
+      "official_share_url": "https://x.ai/bot/DRZ2jU1GFwV8HS2_9Y6MA",
+      "found_via": "https://grokbot101.org/bots/x-reply-scout/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/x-reply-scout/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/x-reply-scout.json"
+    },
+    {
+      "slug": "x-thread-and-article-writer",
+      "name": "X Thread & Article Writer",
+      "category": "Content and Marketing",
+      "sub_use_case": "Threads and articles",
+      "summary": "Turns rough notes or a link into an X thread and article draft in your tone. You paste and post.",
+      "tools": [
+        "X"
+      ],
+      "creator": {
+        "handle": "sigarellano",
+        "url": "https://x.com/sigarellano"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/sigarellano/status/2103737235413860615"
+      },
+      "official_share_url": "https://x.ai/bot/xLeBNzgp0Z6IUGxyt8sj4",
+      "found_via": "https://grokbot101.org/bots/thread-writer/",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://bots.anthonytoday.com/bots/x-thread-and-article-writer/",
+      "json_url": "https://bots.anthonytoday.com/api/bots/x-thread-and-article-writer.json"
+    }
+  ]
+}

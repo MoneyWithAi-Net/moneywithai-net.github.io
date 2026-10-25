@@ -1,0 +1,3633 @@
+{
+  "generated_at": "2026-10-25T07:30:16.000Z",
+  "api_version": "v1",
+  "schema_revision": 2,
+  "status_url": "https://bots.anthonytoday.com/api/v1/status.json",
+  "count": 31,
+  "items": [
+    {
+      "type": "use-case",
+      "slug": "sell-websites-to-local-businesses",
+      "title": "Sell Websites to Local Businesses That Have None",
+      "category": "Leads and Sales",
+      "category_slug": "leads-and-sales",
+      "money_model": "Sell a service",
+      "difficulty": "Intermediate",
+      "summary": "Find businesses with no site or a weak one, show them a demo, and pitch a build with the evidence in hand.",
+      "money_potential": {
+        "tier": 3,
+        "symbol": "$$$",
+        "label": "High",
+        "basis": "Assumes you charge per website build or a monthly care plan, so income grows with each client who says yes.",
+        "claim_label": "E",
+        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+      },
+      "how_it_makes_money": [
+        "You sell a website build or a monthly care plan to each business that says yes.",
+        "A demo made from their own public content gives the prospect something concrete to react to.",
+        "Audit briefs turn a cold message into a specific, useful one."
+      ],
+      "who_its_for": [
+        "Freelance web designers and small agencies.",
+        "Anyone who can build and host simple sites for local trades."
+      ],
+      "stack": [
+        {
+          "bot": "local-business-website-hunter",
+          "name": "Local Business Website Hunter",
+          "role": "Finds businesses with no website, drafts a demo site, a quote and a first message.",
+          "creator": "NewLongMoney",
+          "tools": [
+            "Grok"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/local-business-website-hunter/",
+          "official_share_url": "https://x.ai/bot/U87LeqeLNEIKRe9ctpRxG"
+        },
+        {
+          "bot": "lead-scout",
+          "name": "Lead Scout",
+          "role": "Finds businesses that have a site but likely search gaps.",
+          "creator": "itsryanlenk",
+          "tools": [
+            "Grok"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/lead-scout/",
+          "official_share_url": "https://x.ai/bot/j3Qule6BFplSpVqgLpVnV"
+        },
+        {
+          "bot": "site-research",
+          "name": "Site Research",
+          "role": "Writes the evidence brief you attach to the pitch.",
+          "creator": "itsryanlenk",
+          "tools": [
+            "Grok"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/site-research/",
+          "official_share_url": "https://x.ai/bot/zkgCv30YKSJPHc7rUB_6P"
+        }
+      ],
+      "tools": [
+        "Grok"
+      ],
+      "diagram": {
+        "engine": "Grok Bot",
+        "inputs": [
+          {
+            "label": "A city and a trade",
+            "tool": null
+          },
+          {
+            "label": "Public business listings",
+            "tool": null
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "by": "local-business-website-hunter",
+            "name": "Local Business Website Hunter",
+            "does": "Finds businesses with no site and drafts a demo",
+            "tools": [
+              "Grok"
+            ]
+          },
+          {
+            "order": 2,
+            "by": "lead-scout",
+            "name": "Lead Scout",
+            "does": "Finds businesses with weak search presence",
+            "tools": [
+              "Grok"
+            ]
+          },
+          {
+            "order": 3,
+            "by": "site-research",
+            "name": "Site Research",
+            "does": "Writes an evidence brief per prospect",
+            "tools": [
+              "Grok"
+            ]
+          },
+          {
+            "order": 4,
+            "by": "you",
+            "name": "You",
+            "does": "Edit and send each pitch yourself",
+            "tools": []
+          }
+        ],
+        "outputs": [
+          "Demo sites and quotes",
+          "Pitches backed by evidence",
+          "Paid builds and care plans"
+        ]
+      },
+      "steps": [
+        "Add the three bots and pick one city and one trade to start.",
+        "Run Lead Scout and Website Hunter once and review the lists by hand.",
+        "Have Site Research brief the best ten prospects.",
+        "Edit the drafted messages, check local rules on cold outreach, and send them yourself.",
+        "Schedule a weekly run once the first replies come in."
+      ],
+      "guardrails": [
+        "Every message and quote stays a draft until you approve it.",
+        "Do not reuse a business's photos or text in public without permission."
+      ],
+      "claims": [],
+      "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+      "url": "https://bots.anthonytoday.com/use-cases/sell-websites-to-local-businesses/",
+      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/sell-websites-to-local-businesses.json"
+    },
+    {
+      "type": "use-case",
+      "slug": "instagram-engagers-to-leads",
+      "title": "Turn Instagram Engagement into a Lead List",
+      "category": "Leads and Sales",
+      "category_slug": "leads-and-sales",
+      "money_model": "Grow sales",
+      "difficulty": "Beginner",
+      "summary": "People who like and comment on your posts are warm. Shortlist the ones who fit your ideal customer.",
+      "money_potential": {
+        "tier": 2,
+        "symbol": "$$",
+        "label": "Medium",
+        "basis": "Assumes you already sell on Instagram; it adds warm conversations, not a new product.",
+        "claim_label": "E",
+        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+      },
+      "how_it_makes_money": [
+        "More conversations with people who already know your brand.",
+        "Less time scrolling through likes to find buyers."
+      ],
+      "who_its_for": [
+        "Coaches, consultants and small brands that sell through Instagram."
+      ],
+      "stack": [
+        {
+          "bot": "engagement-lead-finder",
+          "name": "Engagement Lead Finder",
+          "role": "Reviews who engages with your posts and shortlists people who match your ideal customer.",
+          "creator": "aferrari",
+          "tools": [
+            "Instagram"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/engagement-lead-finder/",
+          "official_share_url": null
+        }
+      ],
+      "tools": [
+        "Instagram"
+      ],
+      "diagram": {
+        "engine": "Grok Bot",
+        "inputs": [
+          {
+            "label": "Likes and comments",
+            "tool": "Instagram"
+          },
+          {
+            "label": "Your ideal customer notes",
+            "tool": null
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "by": "engagement-lead-finder",
+            "name": "Engagement Lead Finder",
+            "does": "Reviews who engages and scores the fit",
+            "tools": [
+              "Instagram"
+            ]
+          },
+          {
+            "order": 2,
+            "by": "you",
+            "name": "You",
+            "does": "Reach out by hand to the best matches",
+            "tools": []
+          }
+        ],
+        "outputs": [
+          "A shortlist of warm leads",
+          "More sales conversations"
+        ]
+      },
+      "steps": [
+        "Add the bot and describe your ideal customer in a few lines.",
+        "Connect the Instagram account you post from.",
+        "Review the first shortlist and correct anything it got wrong.",
+        "Reach out by hand to the best matches."
+      ],
+      "guardrails": [
+        "You send every message yourself.",
+        "Stay within Instagram's rules on messaging."
+      ],
+      "claims": [],
+      "latest_bot_added_at": "2026-10-24T08:00:00.000Z",
+      "url": "https://bots.anthonytoday.com/use-cases/instagram-engagers-to-leads/",
+      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/instagram-engagers-to-leads.json"
+    },
+    {
+      "type": "use-case",
+      "slug": "linkedin-lead-magnet-funnel",
+      "title": "Run a LinkedIn Lead-Magnet Funnel",
+      "category": "Leads and Sales",
+      "category_slug": "leads-and-sales",
+      "money_model": "Grow sales",
+      "difficulty": "Intermediate",
+      "summary": "Post a free resource, collect the comments as leads in Notion, and keep your profile ready for the visits it brings.",
+      "money_potential": {
+        "tier": 2,
+        "symbol": "$$",
+        "label": "Medium",
+        "basis": "Assumes you sell a B2B service; leads still need your follow-up to close.",
+        "claim_label": "E",
+        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+      },
+      "how_it_makes_money": [
+        "Each comment becomes a tracked lead you can follow up.",
+        "A current profile converts more of the visitors a post sends you."
+      ],
+      "who_its_for": [
+        "Founders, consultants and B2B sellers who post on LinkedIn."
+      ],
+      "stack": [
+        {
+          "bot": "linkedin-lead-outreach",
+          "name": "LinkedIn Lead Outreach",
+          "role": "Tracks comments into Notion and drafts capped replies and DMs.",
+          "creator": "ethan_leee9113",
+          "tools": [
+            "LinkedIn",
+            "Notion"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/linkedin-lead-outreach/",
+          "official_share_url": "https://x.ai/bot/DEMmOi7SiFhsFtIKuBKRD"
+        },
+        {
+          "bot": "linkedin-profile-audit",
+          "name": "LinkedIn Profile Audit",
+          "role": "Keeps your profile in line with what you sell now.",
+          "creator": "ericzakariasson",
+          "tools": [
+            "LinkedIn",
+            "Notion",
+            "Slack"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/linkedin-profile-audit/",
+          "official_share_url": null
+        }
+      ],
+      "tools": [
+        "LinkedIn",
+        "Notion",
+        "Slack"
+      ],
+      "diagram": {
+        "engine": "Grok Bot",
+        "inputs": [
+          {
+            "label": "Your profile",
+            "tool": "LinkedIn"
+          },
+          {
+            "label": "A lead-magnet post",
+            "tool": "LinkedIn"
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "by": "linkedin-profile-audit",
+            "name": "LinkedIn Profile Audit",
+            "does": "Aligns your profile with what you sell",
+            "tools": [
+              "LinkedIn",
+              "Notion",
+              "Slack"
+            ]
+          },
+          {
+            "order": 2,
+            "by": "linkedin-lead-outreach",
+            "name": "LinkedIn Lead Outreach",
+            "does": "Logs comments and drafts capped replies",
+            "tools": [
+              "LinkedIn",
+              "Notion"
+            ]
+          },
+          {
+            "order": 3,
+            "by": "you",
+            "name": "You",
+            "does": "Approve replies and DMs in small batches",
+            "tools": []
+          }
+        ],
+        "outputs": [
+          "A lead database in Notion",
+          "Booked calls from commenters"
+        ]
+      },
+      "steps": [
+        "Run the profile audit and apply the edits you agree with.",
+        "Publish one lead-magnet post.",
+        "Let the outreach bot log comments into a Notion database.",
+        "Approve replies and DMs in small batches."
+      ],
+      "guardrails": [
+        "Keep daily caps low and review every send.",
+        "Respect LinkedIn's rules on automated activity."
+      ],
+      "claims": [],
+      "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+      "url": "https://bots.anthonytoday.com/use-cases/linkedin-lead-magnet-funnel/",
+      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/linkedin-lead-magnet-funnel.json"
+    },
+    {
+      "type": "use-case",
+      "slug": "x-audience-prospecting",
+      "title": "Find Buyers in X Conversations",
+      "category": "Leads and Sales",
+      "category_slug": "leads-and-sales",
+      "money_model": "Grow sales",
+      "difficulty": "Beginner",
+      "summary": "Get a short daily list of accounts and posts worth engaging with, plus a first-draft reply for each.",
+      "money_potential": {
+        "tier": 1,
+        "symbol": "$",
+        "label": "Low",
+        "basis": "Assumes replies bring profile visits first; sales come later and depend on your offer.",
+        "claim_label": "E",
+        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+      },
+      "how_it_makes_money": [
+        "Helpful replies in the right threads bring profile visits and inbound leads.",
+        "You spend minutes, not hours, finding where to show up."
+      ],
+      "who_its_for": [
+        "Founders and creators who sell to people active on X."
+      ],
+      "stack": [
+        {
+          "bot": "x-reply-scout",
+          "name": "X Reply Scout",
+          "role": "Recommends accounts and posts that fit your audience.",
+          "creator": "scientists_blog",
+          "tools": [
+            "X"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/x-reply-scout/",
+          "official_share_url": "https://x.ai/bot/DRZ2jU1GFwV8HS2_9Y6MA"
+        },
+        {
+          "bot": "reply-drafter",
+          "name": "Reply Drafter",
+          "role": "Drafts a first take in your voice for the posts you pick.",
+          "creator": "kevinace",
+          "tools": [
+            "X"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/reply-drafter/",
+          "official_share_url": null
+        }
+      ],
+      "tools": [
+        "X"
+      ],
+      "diagram": {
+        "engine": "Grok Bot",
+        "inputs": [
+          {
+            "label": "Conversations on X",
+            "tool": "X"
+          },
+          {
+            "label": "Who you want to reach",
+            "tool": null
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "by": "x-reply-scout",
+            "name": "X Reply Scout",
+            "does": "Picks accounts and posts worth joining",
+            "tools": [
+              "X"
+            ]
+          },
+          {
+            "order": 2,
+            "by": "reply-drafter",
+            "name": "Reply Drafter",
+            "does": "Drafts a reply in your voice",
+            "tools": [
+              "X"
+            ]
+          },
+          {
+            "order": 3,
+            "by": "you",
+            "name": "You",
+            "does": "Edit and post the replies",
+            "tools": []
+          }
+        ],
+        "outputs": [
+          "A daily list of threads",
+          "Profile visits and inbound leads"
+        ]
+      },
+      "steps": [
+        "Describe who you want to reach and what you can help with.",
+        "Review the scout's first list and give feedback.",
+        "Pick a few posts and ask for drafts.",
+        "Edit and post replies yourself."
+      ],
+      "guardrails": [
+        "Neither bot posts for you.",
+        "Avoid bulk or repetitive replies."
+      ],
+      "claims": [],
+      "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+      "url": "https://bots.anthonytoday.com/use-cases/x-audience-prospecting/",
+      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/x-audience-prospecting.json"
+    },
+    {
+      "type": "use-case",
+      "slug": "seo-agency-pitch-pack",
+      "title": "Build a Pitch Pack for an SEO Agency",
+      "category": "Leads and Sales",
+      "category_slug": "leads-and-sales",
+      "money_model": "Sell a service",
+      "difficulty": "Intermediate",
+      "summary": "From prospect list to evidence brief to a clean CRM, so every SEO pitch is specific and lands in a real inbox.",
+      "money_potential": {
+        "tier": 3,
+        "symbol": "$$$",
+        "label": "High",
+        "basis": "Assumes you sell SEO retainers; specific pitches can win more paying clients.",
+        "claim_label": "E",
+        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+      },
+      "how_it_makes_money": [
+        "Specific audits win more discovery calls than generic offers.",
+        "Clean contact data protects your sending reputation."
+      ],
+      "who_its_for": [
+        "SEO, AEO and GEO agencies and freelancers."
+      ],
+      "stack": [
+        {
+          "bot": "lead-scout",
+          "name": "Lead Scout",
+          "role": "Finds local businesses with likely search gaps.",
+          "creator": "itsryanlenk",
+          "tools": [
+            "Grok"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/lead-scout/",
+          "official_share_url": "https://x.ai/bot/j3Qule6BFplSpVqgLpVnV"
+        },
+        {
+          "bot": "site-research",
+          "name": "Site Research",
+          "role": "Turns each lead into an evidence-backed gap brief.",
+          "creator": "itsryanlenk",
+          "tools": [
+            "Grok"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/site-research/",
+          "official_share_url": "https://x.ai/bot/zkgCv30YKSJPHc7rUB_6P"
+        },
+        {
+          "bot": "kickbox-to-hubspot-importer",
+          "name": "Kickbox to HubSpot Importer",
+          "role": "Verifies emails and writes the results back to HubSpot.",
+          "creator": "pofabro",
+          "tools": [
+            "Kickbox",
+            "HubSpot",
+            "Google Sheets"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/kickbox-to-hubspot-importer/",
+          "official_share_url": "https://x.ai/bot/PRc9UmcxySAv0UBU4g8fx"
+        }
+      ],
+      "tools": [
+        "Grok",
+        "Kickbox",
+        "HubSpot",
+        "Google Sheets"
+      ],
+      "diagram": {
+        "engine": "Grok Bot",
+        "inputs": [
+          {
+            "label": "A niche and a region",
+            "tool": null
+          },
+          {
+            "label": "Your CRM",
+            "tool": "HubSpot"
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "by": "lead-scout",
+            "name": "Lead Scout",
+            "does": "Finds businesses with search gaps",
+            "tools": [
+              "Grok"
+            ]
+          },
+          {
+            "order": 2,
+            "by": "site-research",
+            "name": "Site Research",
+            "does": "Writes a gap brief for each lead",
+            "tools": [
+              "Grok"
+            ]
+          },
+          {
+            "order": 3,
+            "by": "kickbox-to-hubspot-importer",
+            "name": "Kickbox to HubSpot Importer",
+            "does": "Verifies emails and updates HubSpot",
+            "tools": [
+              "Kickbox",
+              "HubSpot",
+              "Google Sheets"
+            ]
+          },
+          {
+            "order": 4,
+            "by": "you",
+            "name": "You",
+            "does": "Write and send the pitch",
+            "tools": []
+          }
+        ],
+        "outputs": [
+          "Evidence-backed pitch packs",
+          "A clean CRM",
+          "Discovery calls"
+        ]
+      },
+      "steps": [
+        "Pick a niche and a region.",
+        "Run Lead Scout, then Site Research on the shortlist.",
+        "Verify the contacts with Kickbox and update HubSpot.",
+        "Write the pitch around the brief and send it from your own tools."
+      ],
+      "guardrails": [
+        "You need your own Kickbox and HubSpot accounts.",
+        "Review a sample before any bulk CRM update."
+      ],
+      "claims": [],
+      "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+      "url": "https://bots.anthonytoday.com/use-cases/seo-agency-pitch-pack/",
+      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/seo-agency-pitch-pack.json"
+    },
+    {
+      "type": "use-case",
+      "slug": "contractor-speed-to-lead",
+      "title": "Answer Every Contractor Lead Fast",
+      "category": "Leads and Sales",
+      "category_slug": "leads-and-sales",
+      "money_model": "Grow sales",
+      "difficulty": "Intermediate",
+      "summary": "Qualify roofing and trade inquiries, answer the phone, and reply to reviews so fewer jobs go to the next quote.",
+      "money_potential": {
+        "tier": 3,
+        "symbol": "$$$",
+        "label": "High",
+        "basis": "Assumes each home-service job is high value, so winning a few more jobs matters.",
+        "claim_label": "E",
+        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+      },
+      "how_it_makes_money": [
+        "Fast, complete replies win more of the jobs you already paid to attract.",
+        "Missed calls get answered and booked."
+      ],
+      "who_its_for": [
+        "Roofers, contractors and other home-service businesses."
+      ],
+      "stack": [
+        {
+          "bot": "legend-lead-ops",
+          "name": "Legend Lead Ops",
+          "role": "Qualifies inquiries and drafts SMS and email follow-ups and quick quotes.",
+          "creator": "legendRoofingCo",
+          "tools": [
+            "SMS",
+            "Email"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/legend-lead-ops/",
+          "official_share_url": "https://x.ai/bot/WCZjv-qHMtHz2AdQW136q"
+        },
+        {
+          "bot": "phone-receptionist",
+          "name": "Phone Receptionist",
+          "role": "Answers the business line and books calls on Google Calendar.",
+          "creator": "SimplyColeB",
+          "tools": [
+            "Google Calendar",
+            "Bland"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/phone-receptionist/",
+          "official_share_url": "https://x.ai/bot/Z7LfRtBtwfaojaomMrAuX"
+        },
+        {
+          "bot": "reply-desk",
+          "name": "Reply Desk",
+          "role": "Drafts replies to messages and public reviews.",
+          "creator": "lonzom10",
+          "tools": [
+            "Email"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/reply-desk/",
+          "official_share_url": "https://x.ai/bot/8lLjBC7bXUqbfh-vLG9jf"
+        }
+      ],
+      "tools": [
+        "SMS",
+        "Email",
+        "Google Calendar",
+        "Bland"
+      ],
+      "diagram": {
+        "engine": "Grok Bot",
+        "inputs": [
+          {
+            "label": "Web and SMS inquiries",
+            "tool": "SMS"
+          },
+          {
+            "label": "Phone calls",
+            "tool": null
+          },
+          {
+            "label": "Public reviews",
+            "tool": null
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "by": "legend-lead-ops",
+            "name": "Legend Lead Ops",
+            "does": "Qualifies inquiries and drafts quick quotes",
+            "tools": [
+              "SMS",
+              "Email"
+            ]
+          },
+          {
+            "order": 2,
+            "by": "phone-receptionist",
+            "name": "Phone Receptionist",
+            "does": "Answers calls and books them",
+            "tools": [
+              "Google Calendar",
+              "Bland"
+            ]
+          },
+          {
+            "order": 3,
+            "by": "reply-desk",
+            "name": "Reply Desk",
+            "does": "Drafts replies to messages and reviews",
+            "tools": [
+              "Email"
+            ]
+          },
+          {
+            "order": 4,
+            "by": "you",
+            "name": "You",
+            "does": "Approve quotes and replies",
+            "tools": []
+          }
+        ],
+        "outputs": [
+          "Fast follow-ups",
+          "Booked calls on your calendar",
+          "More jobs won"
+        ]
+      },
+      "steps": [
+        "Add Legend Lead Ops and give it your services and service area.",
+        "Test it on a few past inquiries.",
+        "Decide whether you need phone answering, and check its plan first.",
+        "Use Reply Desk for reviews and messages."
+      ],
+      "guardrails": [
+        "Quotes and messages stay drafts until you approve them.",
+        "Check the phone plan's current price before signing up."
+      ],
+      "claims": [
+        {
+          "text": "The creator reports about 20 to 30 minutes saved per lead versus writing follow-ups by hand, in a demo on synthetic leads.",
+          "label": "A",
+          "source": "https://x.com/legendRoofingCo/status/2101471064857378821",
+          "checked": "2026-10-24"
+        },
+        {
+          "text": "The Phone Receptionist share card lists a phone plan at $15 for the first month, then $30 a month.",
+          "label": "A",
+          "source": "https://x.ai/bot/Z7LfRtBtwfaojaomMrAuX",
+          "checked": "2026-10-24"
+        }
+      ],
+      "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+      "url": "https://bots.anthonytoday.com/use-cases/contractor-speed-to-lead/",
+      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/contractor-speed-to-lead.json"
+    },
+    {
+      "type": "use-case",
+      "slug": "qualify-inbound-consulting-leads",
+      "title": "Qualify Inbound Consulting Leads",
+      "category": "Leads and Sales",
+      "category_slug": "leads-and-sales",
+      "money_model": "Grow sales",
+      "difficulty": "Beginner",
+      "summary": "Every collab or consulting request gets a fit brief and a go or no-go summary, so you answer the good ones first.",
+      "money_potential": {
+        "tier": 2,
+        "symbol": "$$",
+        "label": "Medium",
+        "basis": "Assumes you get more inbound requests than you can answer well.",
+        "claim_label": "E",
+        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+      },
+      "how_it_makes_money": [
+        "You spend your time on the leads most likely to pay.",
+        "Nothing good gets lost in a busy inbox."
+      ],
+      "who_its_for": [
+        "Consultants, freelancers and creators who get inbound requests."
+      ],
+      "stack": [
+        {
+          "bot": "lead-vetting",
+          "name": "Lead Vetting",
+          "role": "Screens leads from your inbox and sends a short decision summary to Slack.",
+          "creator": "anzevoje",
+          "tools": [
+            "Email",
+            "Slack"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/lead-vetting/",
+          "official_share_url": "https://x.ai/bot/eEfAacXdtzHANV5hVhG6o"
+        },
+        {
+          "bot": "inbox-triage",
+          "name": "Inbox Triage",
+          "role": "Sorts the rest of your email and DMs into tasks.",
+          "creator": "rchase",
+          "tools": [
+            "Facebook",
+            "X",
+            "LinkedIn",
+            "Trello"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/inbox-triage/",
+          "official_share_url": null
+        }
+      ],
+      "tools": [
+        "Email",
+        "Slack",
+        "Facebook",
+        "X",
+        "LinkedIn",
+        "Trello"
+      ],
+      "diagram": {
+        "engine": "Grok Bot",
+        "inputs": [
+          {
+            "label": "Your inbox",
+            "tool": "Email"
+          },
+          {
+            "label": "What a good lead looks like",
+            "tool": null
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "by": "lead-vetting",
+            "name": "Lead Vetting",
+            "does": "Screens each lead and writes a fit brief",
+            "tools": [
+              "Email",
+              "Slack"
+            ]
+          },
+          {
+            "order": 2,
+            "by": "inbox-triage",
+            "name": "Inbox Triage",
+            "does": "Sorts the rest into tasks",
+            "tools": [
+              "Facebook",
+              "X",
+              "LinkedIn",
+              "Trello"
+            ]
+          },
+          {
+            "order": 3,
+            "by": "you",
+            "name": "You",
+            "does": "Reply to the top leads",
+            "tools": []
+          }
+        ],
+        "outputs": [
+          "Go or no-go summaries in Slack",
+          "Time on the leads likely to pay"
+        ]
+      },
+      "steps": [
+        "Connect only the inbox and Slack workspace you own.",
+        "Write down what a good lead looks like for you.",
+        "Review a week of briefs and tune the criteria.",
+        "Reply to the top leads yourself."
+      ],
+      "guardrails": [
+        "The bot never accepts a deal for you.",
+        "Treat briefs as input to your judgment."
+      ],
+      "claims": [],
+      "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+      "url": "https://bots.anthonytoday.com/use-cases/qualify-inbound-consulting-leads/",
+      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/qualify-inbound-consulting-leads.json"
+    },
+    {
+      "type": "use-case",
+      "slug": "product-expert-on-sales-calls",
+      "title": "Win Technical Sales Calls with a Product Expert",
+      "category": "Leads and Sales",
+      "category_slug": "leads-and-sales",
+      "money_model": "Grow sales",
+      "difficulty": "Advanced",
+      "summary": "Answer deep product questions live and know how you compare, so calls do not stall on \"let me get back to you\".",
+      "money_potential": {
+        "tier": 2,
+        "symbol": "$$",
+        "label": "Medium",
+        "basis": "Assumes technical deals often stall on open questions; it helps calls move, it does not create demand.",
+        "claim_label": "E",
+        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+      },
+      "how_it_makes_money": [
+        "Fewer deals slip while you wait for an engineer.",
+        "Competitive context helps you handle objections."
+      ],
+      "who_its_for": [
+        "Founders and sales teams selling technical products."
+      ],
+      "stack": [
+        {
+          "bot": "product-expert",
+          "name": "Product Expert",
+          "role": "Answers product questions from your code or knowledge base.",
+          "creator": "kristaletz",
+          "tools": [
+            "GitHub",
+            "Glean"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/product-expert/",
+          "official_share_url": null
+        },
+        {
+          "bot": "scout-competitive-intelligence",
+          "name": "Scout (Competitive Intelligence)",
+          "role": "Tracks what competitors change.",
+          "creator": "adamta",
+          "tools": [
+            "Grok"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/scout-competitive-intelligence/",
+          "official_share_url": "https://x.ai/bot/rthl9MdskO2f-JCzmyINP"
+        }
+      ],
+      "tools": [
+        "GitHub",
+        "Glean",
+        "Grok"
+      ],
+      "diagram": {
+        "engine": "Grok Bot",
+        "inputs": [
+          {
+            "label": "Your code",
+            "tool": "GitHub"
+          },
+          {
+            "label": "Your knowledge base",
+            "tool": "Glean"
+          },
+          {
+            "label": "Competitor sites",
+            "tool": null
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "by": "product-expert",
+            "name": "Product Expert",
+            "does": "Answers product questions from your sources",
+            "tools": [
+              "GitHub",
+              "Glean"
+            ]
+          },
+          {
+            "order": 2,
+            "by": "scout-competitive-intelligence",
+            "name": "Scout (Competitive Intelligence)",
+            "does": "Tracks what competitors change",
+            "tools": [
+              "Grok"
+            ]
+          },
+          {
+            "order": 3,
+            "by": "you",
+            "name": "You",
+            "does": "Check pricing and roadmap answers",
+            "tools": []
+          }
+        ],
+        "outputs": [
+          "Answers during the call",
+          "A weekly competitor brief",
+          "Fewer stalled deals"
+        ]
+      },
+      "steps": [
+        "Connect the knowledge source the Product Expert should read.",
+        "Test it on the ten questions buyers ask most.",
+        "Set Scout to send a weekly competitor brief.",
+        "Use both before and during calls."
+      ],
+      "guardrails": [
+        "Check answers about pricing and roadmap before you share them."
+      ],
+      "claims": [],
+      "latest_bot_added_at": "2026-10-24T08:00:00.000Z",
+      "url": "https://bots.anthonytoday.com/use-cases/product-expert-on-sales-calls/",
+      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/product-expert-on-sales-calls.json"
+    },
+    {
+      "type": "use-case",
+      "slug": "youtube-channel-operations",
+      "title": "Run the Busywork of a YouTube Channel",
+      "category": "Content and Marketing",
+      "category_slug": "content-and-marketing",
+      "money_model": "Creator income",
+      "difficulty": "Intermediate",
+      "summary": "Transcripts, chapters, titles, descriptions and thumbnails after every upload, plus posts and clips for X.",
+      "money_potential": {
+        "tier": 2,
+        "symbol": "$$",
+        "label": "Medium",
+        "basis": "Assumes the channel already earns from ads or sponsors; more and better uploads compound over time.",
+        "claim_label": "E",
+        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+      },
+      "how_it_makes_money": [
+        "You publish more often with the same hours.",
+        "Better titles, chapters and thumbnails help each video find viewers."
+      ],
+      "who_its_for": [
+        "YouTubers and podcasters who publish weekly."
+      ],
+      "stack": [
+        {
+          "bot": "media-manager",
+          "name": "Media Manager",
+          "role": "Handles after-upload work with the YouTube Data API, AssemblyAI and Figma.",
+          "creator": "mattyp",
+          "tools": [
+            "YouTube",
+            "AssemblyAI",
+            "Figma"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/media-manager/",
+          "official_share_url": "https://x.ai/bot/qG_ZROllzSSRGKx_iIbsQ"
+        },
+        {
+          "bot": "creator-desk",
+          "name": "Creator Desk",
+          "role": "Turns each video into X posts and short clips.",
+          "creator": "MadeItHappenX",
+          "tools": [
+            "X"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/creator-desk/",
+          "official_share_url": "https://x.ai/bot/dM43J1T44OmcRdAsNHsBf"
+        }
+      ],
+      "tools": [
+        "YouTube",
+        "AssemblyAI",
+        "Figma",
+        "X"
+      ],
+      "diagram": {
+        "engine": "Grok Bot",
+        "inputs": [
+          {
+            "label": "A new upload",
+            "tool": "YouTube"
+          },
+          {
+            "label": "Transcription",
+            "tool": "AssemblyAI"
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "by": "media-manager",
+            "name": "Media Manager",
+            "does": "Writes chapters, titles and thumbnails",
+            "tools": [
+              "YouTube",
+              "AssemblyAI",
+              "Figma"
+            ]
+          },
+          {
+            "order": 2,
+            "by": "creator-desk",
+            "name": "Creator Desk",
+            "does": "Turns the video into X posts and clips",
+            "tools": [
+              "X"
+            ]
+          },
+          {
+            "order": 3,
+            "by": "you",
+            "name": "You",
+            "does": "Review before anything goes live",
+            "tools": []
+          }
+        ],
+        "outputs": [
+          "A finished video page",
+          "Posts and clips for X",
+          "More uploads per week"
+        ]
+      },
+      "steps": [
+        "Add Media Manager and connect your channel and transcription account.",
+        "Run it on one existing video and edit the output.",
+        "Add Creator Desk for distribution on X.",
+        "Make it part of every upload."
+      ],
+      "guardrails": [
+        "Review titles and captions before they go live."
+      ],
+      "claims": [],
+      "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+      "url": "https://bots.anthonytoday.com/use-cases/youtube-channel-operations/",
+      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/youtube-channel-operations.json"
+    },
+    {
+      "type": "use-case",
+      "slug": "x-creator-desk",
+      "title": "Grow an X Account with a Creator Desk",
+      "category": "Content and Marketing",
+      "category_slug": "content-and-marketing",
+      "money_model": "Creator income",
+      "difficulty": "Beginner",
+      "summary": "Plan, write and schedule posts, threads and replies in your own voice, with you approving what goes out.",
+      "money_potential": {
+        "tier": 1,
+        "symbol": "$",
+        "label": "Low",
+        "basis": "Assumes audience growth comes first; income comes later from what you sell or get paid for.",
+        "claim_label": "E",
+        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+      },
+      "how_it_makes_money": [
+        "A steady posting rhythm grows the audience you sell to or get paid by.",
+        "Threads and articles turn one idea into several assets."
+      ],
+      "who_its_for": [
+        "Creators, founders and freelancers building an audience on X."
+      ],
+      "stack": [
+        {
+          "bot": "creator-desk",
+          "name": "Creator Desk",
+          "role": "Plans and schedules posts and clips and finds replies worth making.",
+          "creator": "MadeItHappenX",
+          "tools": [
+            "X"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/creator-desk/",
+          "official_share_url": "https://x.ai/bot/dM43J1T44OmcRdAsNHsBf"
+        },
+        {
+          "bot": "x-thread-and-article-writer",
+          "name": "X Thread & Article Writer",
+          "role": "Turns notes or links into threads and articles.",
+          "creator": "sigarellano",
+          "tools": [
+            "X"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/x-thread-and-article-writer/",
+          "official_share_url": "https://x.ai/bot/xLeBNzgp0Z6IUGxyt8sj4"
+        },
+        {
+          "bot": "reply-drafter",
+          "name": "Reply Drafter",
+          "role": "Drafts replies in your voice.",
+          "creator": "kevinace",
+          "tools": [
+            "X"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/reply-drafter/",
+          "official_share_url": null
+        }
+      ],
+      "tools": [
+        "X"
+      ],
+      "diagram": {
+        "engine": "Grok Bot",
+        "inputs": [
+          {
+            "label": "Your ideas and links",
+            "tool": null
+          },
+          {
+            "label": "Posts that sound like you",
+            "tool": "X"
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "by": "creator-desk",
+            "name": "Creator Desk",
+            "does": "Plans and schedules the week",
+            "tools": [
+              "X"
+            ]
+          },
+          {
+            "order": 2,
+            "by": "x-thread-and-article-writer",
+            "name": "X Thread & Article Writer",
+            "does": "Turns notes into threads and articles",
+            "tools": [
+              "X"
+            ]
+          },
+          {
+            "order": 3,
+            "by": "reply-drafter",
+            "name": "Reply Drafter",
+            "does": "Drafts replies in your voice",
+            "tools": [
+              "X"
+            ]
+          },
+          {
+            "order": 4,
+            "by": "you",
+            "name": "You",
+            "does": "Approve the plan in one sitting",
+            "tools": []
+          }
+        ],
+        "outputs": [
+          "A steady posting rhythm",
+          "Threads and articles",
+          "A growing audience"
+        ]
+      },
+      "steps": [
+        "Add Creator Desk and share five posts that sound like you.",
+        "Feed the thread writer one idea a day.",
+        "Approve the week's plan in one sitting.",
+        "Check what worked and adjust."
+      ],
+      "guardrails": [
+        "Edit drafts in your own voice and check facts."
+      ],
+      "claims": [],
+      "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+      "url": "https://bots.anthonytoday.com/use-cases/x-creator-desk/",
+      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/x-creator-desk.json"
+    },
+    {
+      "type": "use-case",
+      "slug": "price-brand-deals",
+      "title": "Price Brand Deals from Real View Counts",
+      "category": "Content and Marketing",
+      "category_slug": "content-and-marketing",
+      "money_model": "Creator income",
+      "difficulty": "Beginner",
+      "summary": "Get a fair fee, a deal menu and a draft agreement for a sponsorship, from either side of the deal.",
+      "money_potential": {
+        "tier": 2,
+        "symbol": "$$",
+        "label": "Medium",
+        "basis": "Assumes you already do brand deals; fair pricing raises what each deal pays.",
+        "claim_label": "E",
+        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+      },
+      "how_it_makes_money": [
+        "Creators stop underpricing; brands stop overpaying.",
+        "A ready rate card speeds up every negotiation."
+      ],
+      "who_its_for": [
+        "Creators on Instagram or TikTok and the brands that hire them."
+      ],
+      "stack": [
+        {
+          "bot": "cpm",
+          "name": "CPM",
+          "role": "Prices a deal from public view counts and drafts a rate card and agreement.",
+          "creator": "kostahantzis",
+          "tools": [
+            "Instagram",
+            "TikTok"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/cpm/",
+          "official_share_url": "https://x.ai/bot/GwmXIfLuPPIPf2hGX2Txf"
+        }
+      ],
+      "tools": [
+        "Instagram",
+        "TikTok"
+      ],
+      "diagram": {
+        "engine": "Grok Bot",
+        "inputs": [
+          {
+            "label": "A creator profile",
+            "tool": "Instagram"
+          },
+          {
+            "label": "Public view counts",
+            "tool": "TikTok"
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "by": "cpm",
+            "name": "CPM",
+            "does": "Prices the deal from public views",
+            "tools": [
+              "Instagram",
+              "TikTok"
+            ]
+          },
+          {
+            "order": 2,
+            "by": "you",
+            "name": "You",
+            "does": "Adjust terms and send the offer",
+            "tools": []
+          }
+        ],
+        "outputs": [
+          "A fair fee and rate card",
+          "A draft agreement"
+        ]
+      },
+      "steps": [
+        "Add the bot and paste a creator profile link.",
+        "Review the suggested fee and deal menu.",
+        "Adjust the agreement draft and send it yourself."
+      ],
+      "guardrails": [
+        "Fees are estimates; confirm terms with the other side."
+      ],
+      "claims": [],
+      "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+      "url": "https://bots.anthonytoday.com/use-cases/price-brand-deals/",
+      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/price-brand-deals.json"
+    },
+    {
+      "type": "use-case",
+      "slug": "shopify-store-with-a-bot-team",
+      "title": "Run a Shopify Store with a Bot Team",
+      "category": "E-Commerce",
+      "category_slug": "e-commerce",
+      "money_model": "Grow sales",
+      "difficulty": "Advanced",
+      "summary": "One bot works the catalog and conversion, one coordinates orders, ads and stock, one drafts customer replies.",
+      "money_potential": {
+        "tier": 3,
+        "symbol": "$$$",
+        "label": "High",
+        "basis": "Assumes a store with steady orders; gains scale with your sales volume.",
+        "claim_label": "E",
+        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+      },
+      "how_it_makes_money": [
+        "Fewer missed orders, stockouts and slow replies.",
+        "More time for product and marketing."
+      ],
+      "who_its_for": [
+        "Shopify store owners and small e-commerce teams."
+      ],
+      "stack": [
+        {
+          "bot": "shopify-bot",
+          "name": "Shopify Bot",
+          "role": "Works on catalog, inventory, conversion and service through Shopify.",
+          "creator": "nick_nehaul",
+          "tools": [
+            "Shopify"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/shopify-bot/",
+          "official_share_url": "https://x.ai/bot/jhd6Cb9XEPI6b-hs-WCQE"
+        },
+        {
+          "bot": "store-manager",
+          "name": "Store Manager",
+          "role": "Coordinates store bots across orders, ads, stock and disputes.",
+          "creator": "ColinMcDermott",
+          "tools": [
+            "Grok"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/store-manager/",
+          "official_share_url": "https://x.ai/bot/5axq0n6JtBkqjhMaCDO6d"
+        },
+        {
+          "bot": "reply-desk",
+          "name": "Reply Desk",
+          "role": "Drafts replies to customer messages and reviews.",
+          "creator": "lonzom10",
+          "tools": [
+            "Email"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/reply-desk/",
+          "official_share_url": "https://x.ai/bot/8lLjBC7bXUqbfh-vLG9jf"
+        }
+      ],
+      "tools": [
+        "Shopify",
+        "Grok",
+        "Email"
+      ],
+      "diagram": {
+        "engine": "Grok Bot",
+        "inputs": [
+          {
+            "label": "Store, catalog and orders",
+            "tool": "Shopify"
+          },
+          {
+            "label": "Customer messages",
+            "tool": "Email"
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "by": "shopify-bot",
+            "name": "Shopify Bot",
+            "does": "Works catalog, stock and conversion",
+            "tools": [
+              "Shopify"
+            ]
+          },
+          {
+            "order": 2,
+            "by": "store-manager",
+            "name": "Store Manager",
+            "does": "Coordinates orders, ads and disputes",
+            "tools": [
+              "Grok"
+            ]
+          },
+          {
+            "order": 3,
+            "by": "reply-desk",
+            "name": "Reply Desk",
+            "does": "Drafts customer replies",
+            "tools": [
+              "Email"
+            ]
+          },
+          {
+            "order": 4,
+            "by": "you",
+            "name": "You",
+            "does": "Approve changes and spend",
+            "tools": []
+          }
+        ],
+        "outputs": [
+          "A daily store digest",
+          "Fewer stockouts and missed orders",
+          "Faster replies"
+        ]
+      },
+      "steps": [
+        "Start with Shopify Bot on low-risk tasks.",
+        "Add Store Manager once you trust the daily digest.",
+        "Route customer messages to Reply Desk drafts.",
+        "Widen access one task at a time."
+      ],
+      "guardrails": [
+        "Shopify Bot can change a live store; test first.",
+        "Store Manager never spends money on its own."
+      ],
+      "claims": [],
+      "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+      "url": "https://bots.anthonytoday.com/use-cases/shopify-store-with-a-bot-team/",
+      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/shopify-store-with-a-bot-team.json"
+    },
+    {
+      "type": "use-case",
+      "slug": "thrift-flips-on-ebay",
+      "title": "Flip Thrift Finds on eBay",
+      "category": "E-Commerce",
+      "category_slug": "e-commerce",
+      "money_model": "Sell a service",
+      "difficulty": "Beginner",
+      "summary": "Photograph an item and get an eBay draft with sold comps, a title and a price to review.",
+      "money_potential": {
+        "tier": 1,
+        "symbol": "$",
+        "label": "Low",
+        "basis": "Assumes small margins per item; income grows with how many items you source and list.",
+        "claim_label": "E",
+        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+      },
+      "how_it_makes_money": [
+        "You list more items per hour.",
+        "Sold comps help you price to sell, not to sit."
+      ],
+      "who_its_for": [
+        "Resellers, collectors and anyone clearing out a garage."
+      ],
+      "stack": [
+        {
+          "bot": "ebay-lister",
+          "name": "eBay Lister",
+          "role": "Turns photos into eBay drafts with comps and pricing.",
+          "creator": "Gabi_Valerio3",
+          "tools": [
+            "eBay"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/ebay-lister/",
+          "official_share_url": "https://x.ai/bot/q9Q8EPKFx45CmVwjUAFY5"
+        }
+      ],
+      "tools": [
+        "eBay"
+      ],
+      "diagram": {
+        "engine": "Grok Bot",
+        "inputs": [
+          {
+            "label": "Photos of an item",
+            "tool": null
+          },
+          {
+            "label": "Sold comps",
+            "tool": "eBay"
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "by": "ebay-lister",
+            "name": "eBay Lister",
+            "does": "Drafts a title, condition notes and a price",
+            "tools": [
+              "eBay"
+            ]
+          },
+          {
+            "order": 2,
+            "by": "you",
+            "name": "You",
+            "does": "Check comps and publish the listing",
+            "tools": []
+          }
+        ],
+        "outputs": [
+          "Ready eBay drafts",
+          "Items priced to sell"
+        ]
+      },
+      "steps": [
+        "Add the bot and photograph one item.",
+        "Check the comps and condition notes.",
+        "Publish the listing yourself."
+      ],
+      "guardrails": [
+        "The bot drafts only; it never lists or messages buyers."
+      ],
+      "claims": [],
+      "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+      "url": "https://bots.anthonytoday.com/use-cases/thrift-flips-on-ebay/",
+      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/thrift-flips-on-ebay.json"
+    },
+    {
+      "type": "use-case",
+      "slug": "dtc-competitor-drop-watch",
+      "title": "Watch Competitor Product Drops",
+      "category": "E-Commerce",
+      "category_slug": "e-commerce",
+      "money_model": "Grow sales",
+      "difficulty": "Beginner",
+      "summary": "Hear the same day when a competitor launches a product on Amazon, their site or TikTok Shop.",
+      "money_potential": {
+        "tier": 1,
+        "symbol": "$",
+        "label": "Low",
+        "basis": "Indirect: it gives you timing and ideas, not income on its own.",
+        "claim_label": "E",
+        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+      },
+      "how_it_makes_money": [
+        "React to launches with offers or content while they are fresh.",
+        "Spot gaps in your own range."
+      ],
+      "who_its_for": [
+        "DTC and beauty brands and their marketers."
+      ],
+      "stack": [
+        {
+          "bot": "drop-radar",
+          "name": "Drop Radar",
+          "role": "Watches competitor catalogs and alerts only on new drops.",
+          "creator": "Steph_Pierson",
+          "tools": [
+            "Amazon",
+            "TikTok Shop",
+            "Slack"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/drop-radar/",
+          "official_share_url": "https://x.ai/bot/KYM0C9BcyfXEP9uIyxlmE"
+        },
+        {
+          "bot": "scout-competitive-intelligence",
+          "name": "Scout (Competitive Intelligence)",
+          "role": "Adds a weekly view of site and search changes.",
+          "creator": "adamta",
+          "tools": [
+            "Grok"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/scout-competitive-intelligence/",
+          "official_share_url": "https://x.ai/bot/rthl9MdskO2f-JCzmyINP"
+        }
+      ],
+      "tools": [
+        "Amazon",
+        "TikTok Shop",
+        "Slack",
+        "Grok"
+      ],
+      "diagram": {
+        "engine": "Grok Bot",
+        "inputs": [
+          {
+            "label": "Competitor catalogs",
+            "tool": "Amazon"
+          },
+          {
+            "label": "Competitor shops",
+            "tool": "TikTok Shop"
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "by": "drop-radar",
+            "name": "Drop Radar",
+            "does": "Alerts only on new product drops",
+            "tools": [
+              "Amazon",
+              "TikTok Shop",
+              "Slack"
+            ]
+          },
+          {
+            "order": 2,
+            "by": "scout-competitive-intelligence",
+            "name": "Scout (Competitive Intelligence)",
+            "does": "Adds a weekly site and search view",
+            "tools": [
+              "Grok"
+            ]
+          },
+          {
+            "order": 3,
+            "by": "you",
+            "name": "You",
+            "does": "Decide how to respond",
+            "tools": []
+          }
+        ],
+        "outputs": [
+          "Same-day alerts in Slack",
+          "Gaps in your own range"
+        ]
+      },
+      "steps": [
+        "List the brands you compete with.",
+        "Choose Slack or chat for alerts.",
+        "Review the first week and prune noisy sources."
+      ],
+      "guardrails": [
+        "Monitor public pages only."
+      ],
+      "claims": [],
+      "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+      "url": "https://bots.anthonytoday.com/use-cases/dtc-competitor-drop-watch/",
+      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/dtc-competitor-drop-watch.json"
+    },
+    {
+      "type": "use-case",
+      "slug": "photography-back-office",
+      "title": "Run a Photography Back Office",
+      "category": "Client Services",
+      "category_slug": "client-services",
+      "money_model": "Save costs",
+      "difficulty": "Beginner",
+      "summary": "Weather-aware shoot confirmations, edited photos filed by address, and trip expenses ready for the invoice.",
+      "money_potential": {
+        "tier": 1,
+        "symbol": "$",
+        "label": "Low",
+        "basis": "Mainly saves time and wasted trips; income grows only if you book more shoots.",
+        "claim_label": "E",
+        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+      },
+      "how_it_makes_money": [
+        "Fewer wasted trips and rained-out shoots.",
+        "Faster delivery and cleaner expense claims."
+      ],
+      "who_its_for": [
+        "Real estate, event and drone photographers."
+      ],
+      "stack": [
+        {
+          "bot": "photo-and-video-shoot-confirmations",
+          "name": "Photo & Video Shoot Confirmations",
+          "role": "Emails clients a forecast before outdoor shoots and drafts reschedules.",
+          "creator": "TimFPhotography",
+          "tools": [
+            "Email"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/photo-and-video-shoot-confirmations/",
+          "official_share_url": "https://x.ai/bot/iduDVp02VHu06-XddxcSD"
+        },
+        {
+          "bot": "photofix",
+          "name": "PhotoFix",
+          "role": "Edits listing photos and files them in Drive or Dropbox.",
+          "creator": "MarsHomestead",
+          "tools": [
+            "Google Drive",
+            "Dropbox"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/photofix/",
+          "official_share_url": "https://x.ai/bot/PRdnJ63L8h0FVlMAA1UN4"
+        },
+        {
+          "bot": "travel-expenses",
+          "name": "Travel Expenses",
+          "role": "Logs trip costs and exports a report.",
+          "creator": "shareitround",
+          "tools": [
+            "Grok"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/travel-expenses/",
+          "official_share_url": "https://x.ai/bot/Upkn_bUxr___NAvXZB3Dc"
+        }
+      ],
+      "tools": [
+        "Email",
+        "Google Drive",
+        "Dropbox",
+        "Grok"
+      ],
+      "diagram": {
+        "engine": "Grok Bot",
+        "inputs": [
+          {
+            "label": "Upcoming shoots",
+            "tool": "Email"
+          },
+          {
+            "label": "Raw photos",
+            "tool": "Dropbox"
+          },
+          {
+            "label": "Trip costs",
+            "tool": null
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "by": "photo-and-video-shoot-confirmations",
+            "name": "Photo & Video Shoot Confirmations",
+            "does": "Sends forecast-aware confirmations",
+            "tools": [
+              "Email"
+            ]
+          },
+          {
+            "order": 2,
+            "by": "photofix",
+            "name": "PhotoFix",
+            "does": "Edits photos and files them by address",
+            "tools": [
+              "Google Drive",
+              "Dropbox"
+            ]
+          },
+          {
+            "order": 3,
+            "by": "travel-expenses",
+            "name": "Travel Expenses",
+            "does": "Logs costs and exports a report",
+            "tools": [
+              "Grok"
+            ]
+          }
+        ],
+        "outputs": [
+          "Fewer rained-out shoots",
+          "Faster delivery",
+          "Expense reports for invoices"
+        ]
+      },
+      "steps": [
+        "Add the confirmation bot and load next week's shoots.",
+        "Try PhotoFix on one finished shoot.",
+        "Log expenses on the next trip."
+      ],
+      "guardrails": [
+        "Check the client list before scheduled emails run.",
+        "Keep reschedule offers as drafts."
+      ],
+      "claims": [],
+      "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+      "url": "https://bots.anthonytoday.com/use-cases/photography-back-office/",
+      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/photography-back-office.json"
+    },
+    {
+      "type": "use-case",
+      "slug": "maker-shop-quotes",
+      "title": "Quote Faster in a Small Maker Shop",
+      "category": "Client Services",
+      "category_slug": "client-services",
+      "money_model": "Grow sales",
+      "difficulty": "Beginner",
+      "summary": "Answer customer questions and price jobs with quantity discounts, then reply in a consistent voice.",
+      "money_potential": {
+        "tier": 2,
+        "symbol": "$$",
+        "label": "Medium",
+        "basis": "Assumes faster, consistent quotes win more small custom orders.",
+        "claim_label": "E",
+        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+      },
+      "how_it_makes_money": [
+        "Quick quotes win more small jobs.",
+        "Less time on repeat questions."
+      ],
+      "who_its_for": [
+        "3D print shops and other small custom-order businesses."
+      ],
+      "stack": [
+        {
+          "bot": "precision-3d-helper",
+          "name": "Precision 3D Helper",
+          "role": "Answers questions, prices jobs and helps fix prints.",
+          "creator": "srinimaram",
+          "tools": [
+            "Bambu Lab"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/precision-3d-helper/",
+          "official_share_url": "https://x.ai/bot/bna2wMqlfX6-F4TBmAEBJ"
+        },
+        {
+          "bot": "reply-desk",
+          "name": "Reply Desk",
+          "role": "Drafts replies to customer messages and reviews.",
+          "creator": "lonzom10",
+          "tools": [
+            "Email"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/reply-desk/",
+          "official_share_url": "https://x.ai/bot/8lLjBC7bXUqbfh-vLG9jf"
+        }
+      ],
+      "tools": [
+        "Bambu Lab",
+        "Email"
+      ],
+      "diagram": {
+        "engine": "Grok Bot",
+        "inputs": [
+          {
+            "label": "Customer questions",
+            "tool": null
+          },
+          {
+            "label": "Material costs and machine rates",
+            "tool": "Bambu Lab"
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "by": "precision-3d-helper",
+            "name": "Precision 3D Helper",
+            "does": "Prices jobs with quantity discounts",
+            "tools": [
+              "Bambu Lab"
+            ]
+          },
+          {
+            "order": 2,
+            "by": "reply-desk",
+            "name": "Reply Desk",
+            "does": "Drafts replies around each order",
+            "tools": [
+              "Email"
+            ]
+          },
+          {
+            "order": 3,
+            "by": "you",
+            "name": "You",
+            "does": "Confirm costs and send the quote",
+            "tools": []
+          }
+        ],
+        "outputs": [
+          "Quick, consistent quotes",
+          "More small jobs won"
+        ]
+      },
+      "steps": [
+        "Give the helper your material costs and machine rates.",
+        "Check its quotes against a few past jobs.",
+        "Use Reply Desk for the messages around each order."
+      ],
+      "guardrails": [
+        "Quotes are drafts until you confirm costs."
+      ],
+      "claims": [],
+      "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+      "url": "https://bots.anthonytoday.com/use-cases/maker-shop-quotes/",
+      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/maker-shop-quotes.json"
+    },
+    {
+      "type": "use-case",
+      "slug": "grant-writing-service",
+      "title": "Offer Grant Finding as a Service",
+      "category": "Client Services",
+      "category_slug": "client-services",
+      "money_model": "Sell a service",
+      "difficulty": "Intermediate",
+      "summary": "Find live funding programmes for a client and prepare the application pack they review and file.",
+      "money_potential": {
+        "tier": 3,
+        "symbol": "$$$",
+        "label": "High",
+        "basis": "Assumes you charge clients per application pack or on a retainer.",
+        "claim_label": "E",
+        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+      },
+      "how_it_makes_money": [
+        "Charge clients for research and application preparation.",
+        "Or find funding for your own company or NGO."
+      ],
+      "who_its_for": [
+        "Consultants, NGO staff and founders."
+      ],
+      "stack": [
+        {
+          "bot": "grantogre",
+          "name": "GrantOgre",
+          "role": "Finds live programmes and prepares the pack a person files.",
+          "creator": "HoneybadgerFan4",
+          "tools": [
+            "Grok"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/grantogre/",
+          "official_share_url": "https://x.ai/bot/WXC1m-5Iiyu1IyvBEt9Va"
+        }
+      ],
+      "tools": [
+        "Grok"
+      ],
+      "diagram": {
+        "engine": "Grok Bot",
+        "inputs": [
+          {
+            "label": "A client or project brief",
+            "tool": null
+          },
+          {
+            "label": "Live funding programmes",
+            "tool": null
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "by": "grantogre",
+            "name": "GrantOgre",
+            "does": "Finds programmes and prepares the pack",
+            "tools": [
+              "Grok"
+            ]
+          },
+          {
+            "order": 2,
+            "by": "you",
+            "name": "You",
+            "does": "Check eligibility; the client files",
+            "tools": []
+          }
+        ],
+        "outputs": [
+          "Ready application packs",
+          "Paid research and prep work"
+        ]
+      },
+      "steps": [
+        "Describe the client or project.",
+        "Check each programme on its official page.",
+        "Review the pack with the client and let them file it."
+      ],
+      "guardrails": [
+        "The bot never submits an application.",
+        "Confirm eligibility on the official page."
+      ],
+      "claims": [],
+      "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+      "url": "https://bots.anthonytoday.com/use-cases/grant-writing-service/",
+      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/grant-writing-service.json"
+    },
+    {
+      "type": "use-case",
+      "slug": "local-seo-content-engine",
+      "title": "Run a Local SEO Content Engine",
+      "category": "Content and Marketing",
+      "category_slug": "content-and-marketing",
+      "money_model": "Sell a service",
+      "difficulty": "Intermediate",
+      "summary": "Plan local content, publish city pages after approval, and watch what nearby competitors do.",
+      "money_potential": {
+        "tier": 3,
+        "symbol": "$$$",
+        "label": "High",
+        "basis": "Assumes you sell it as a monthly retainer to several local businesses.",
+        "claim_label": "E",
+        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+      },
+      "how_it_makes_money": [
+        "Sell it as a monthly retainer to local businesses.",
+        "Or grow your own local search traffic."
+      ],
+      "who_its_for": [
+        "Local marketing agencies and service businesses."
+      ],
+      "stack": [
+        {
+          "bot": "content-planner-manager",
+          "name": "Content Planner Manager",
+          "role": "Plans local content and keeps the calendar.",
+          "creator": "HouseHackerJon",
+          "tools": [
+            "Webflow"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/content-planner-manager/",
+          "official_share_url": null
+        },
+        {
+          "bot": "geo-targeted-seo-publisher",
+          "name": "Geo-Targeted SEO Publisher",
+          "role": "Drafts city pages and publishes after approval.",
+          "creator": "coreyganim",
+          "tools": [
+            "GitHub"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/geo-targeted-seo-publisher/",
+          "official_share_url": null
+        },
+        {
+          "bot": "competitor-intel",
+          "name": "Competitor Intel",
+          "role": "Files a weekly report on local competitors.",
+          "creator": "TheReal_BCM",
+          "tools": [
+            "Grok"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/competitor-intel/",
+          "official_share_url": "https://x.ai/bot/PIBCWeB59T-UhxyBNLowR"
+        }
+      ],
+      "tools": [
+        "Webflow",
+        "GitHub",
+        "Grok"
+      ],
+      "diagram": {
+        "engine": "Grok Bot",
+        "inputs": [
+          {
+            "label": "A business and target cities",
+            "tool": null
+          },
+          {
+            "label": "Your site",
+            "tool": "Webflow"
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "by": "content-planner-manager",
+            "name": "Content Planner Manager",
+            "does": "Plans local content and the calendar",
+            "tools": [
+              "Webflow"
+            ]
+          },
+          {
+            "order": 2,
+            "by": "geo-targeted-seo-publisher",
+            "name": "Geo-Targeted SEO Publisher",
+            "does": "Drafts city pages",
+            "tools": [
+              "GitHub"
+            ]
+          },
+          {
+            "order": 3,
+            "by": "competitor-intel",
+            "name": "Competitor Intel",
+            "does": "Reports on local competitors",
+            "tools": [
+              "Grok"
+            ]
+          },
+          {
+            "order": 4,
+            "by": "you",
+            "name": "You",
+            "does": "Approve each page before it publishes",
+            "tools": []
+          }
+        ],
+        "outputs": [
+          "Published city pages",
+          "A weekly competitor report",
+          "Retainer clients"
+        ]
+      },
+      "steps": [
+        "Pick one business and three cities.",
+        "Approve the first month's plan.",
+        "Review each article before it publishes.",
+        "Read the competitor report weekly."
+      ],
+      "guardrails": [
+        "Nothing publishes without approval."
+      ],
+      "claims": [],
+      "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+      "url": "https://bots.anthonytoday.com/use-cases/local-seo-content-engine/",
+      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/local-seo-content-engine.json"
+    },
+    {
+      "type": "use-case",
+      "slug": "brand-instagram-studio",
+      "title": "Run a Brand's Instagram as a Studio",
+      "category": "Content and Marketing",
+      "category_slug": "content-and-marketing",
+      "money_model": "Sell a service",
+      "difficulty": "Intermediate",
+      "summary": "Daily ideas, on-brand images and carousels, and a compliance check before anything goes out.",
+      "money_potential": {
+        "tier": 3,
+        "symbol": "$$$",
+        "label": "High",
+        "basis": "Assumes you sell social management to brands on monthly terms.",
+        "claim_label": "E",
+        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+      },
+      "how_it_makes_money": [
+        "Sell social management to brands at studio quality.",
+        "Fewer compliance mistakes in regulated niches."
+      ],
+      "who_its_for": [
+        "Social media managers and small agencies."
+      ],
+      "stack": [
+        {
+          "bot": "art-director",
+          "name": "Art Director",
+          "role": "Finds ideas and makes images and carousels for Instagram.",
+          "creator": "Carlos_Arthurr",
+          "tools": [
+            "Instagram",
+            "Pinterest"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/art-director/",
+          "official_share_url": "https://x.ai/bot/CPsMufoHozETWciYoiqvL"
+        },
+        {
+          "bot": "sentinel",
+          "name": "Sentinel",
+          "role": "Reviews copy before publish for disclosure and claim issues.",
+          "creator": "CluSloan",
+          "tools": [
+            "Grok"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/sentinel/",
+          "official_share_url": "https://x.ai/bot/NAFAT-NGrQ7-zLccn4qg1"
+        }
+      ],
+      "tools": [
+        "Instagram",
+        "Pinterest",
+        "Grok"
+      ],
+      "diagram": {
+        "engine": "Grok Bot",
+        "inputs": [
+          {
+            "label": "Ideas and trends",
+            "tool": "Pinterest"
+          },
+          {
+            "label": "A brand guide",
+            "tool": null
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "by": "art-director",
+            "name": "Art Director",
+            "does": "Makes on-brand images and carousels",
+            "tools": [
+              "Instagram",
+              "Pinterest"
+            ]
+          },
+          {
+            "order": 2,
+            "by": "sentinel",
+            "name": "Sentinel",
+            "does": "Checks captions for claim issues",
+            "tools": [
+              "Grok"
+            ]
+          },
+          {
+            "order": 3,
+            "by": "you",
+            "name": "You",
+            "does": "Approve every post",
+            "tools": []
+          }
+        ],
+        "outputs": [
+          "A steady Instagram feed",
+          "Fewer compliance mistakes",
+          "Studio clients"
+        ]
+      },
+      "steps": [
+        "Connect a test account first.",
+        "Give Art Director the brand guide.",
+        "Route captions through Sentinel.",
+        "Move to the live account once posts pass review."
+      ],
+      "guardrails": [
+        "Keep posting behind your approval.",
+        "A compliance stamp is not legal advice."
+      ],
+      "claims": [],
+      "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+      "url": "https://bots.anthonytoday.com/use-cases/brand-instagram-studio/",
+      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/brand-instagram-studio.json"
+    },
+    {
+      "type": "use-case",
+      "slug": "practice-marketing-team",
+      "title": "Market a Local Practice with a Bot Team",
+      "category": "Content and Marketing",
+      "category_slug": "content-and-marketing",
+      "money_model": "Grow sales",
+      "difficulty": "Advanced",
+      "summary": "A lead bot directs ads, creative, video and checks, so the owner stays with clients.",
+      "money_potential": {
+        "tier": 2,
+        "symbol": "$$",
+        "label": "Medium",
+        "basis": "Assumes steady campaigns bring new clients; you set the ad budget.",
+        "claim_label": "E",
+        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+      },
+      "how_it_makes_money": [
+        "Steady campaigns bring new patients or clients.",
+        "The owner spends less time managing marketing."
+      ],
+      "who_its_for": [
+        "Clinics, practices and other owner-run local services."
+      ],
+      "stack": [
+        {
+          "bot": "consider-it-marketed",
+          "name": "Consider It Marketed",
+          "role": "Directs a marketing bot team including Google Ads.",
+          "creator": "CindyH874325640",
+          "tools": [
+            "Google Ads"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/consider-it-marketed/",
+          "official_share_url": "https://x.ai/bot/ayQYbaHquRM7x7lnBOEoQ"
+        },
+        {
+          "bot": "sentinel",
+          "name": "Sentinel",
+          "role": "Checks copy before it goes live.",
+          "creator": "CluSloan",
+          "tools": [
+            "Grok"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/sentinel/",
+          "official_share_url": "https://x.ai/bot/NAFAT-NGrQ7-zLccn4qg1"
+        }
+      ],
+      "tools": [
+        "Google Ads",
+        "Grok"
+      ],
+      "diagram": {
+        "engine": "Grok Bot",
+        "inputs": [
+          {
+            "label": "A campaign and a budget",
+            "tool": "Google Ads"
+          },
+          {
+            "label": "Practice services",
+            "tool": null
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "by": "consider-it-marketed",
+            "name": "Consider It Marketed",
+            "does": "Directs ads, creative and video",
+            "tools": [
+              "Google Ads"
+            ]
+          },
+          {
+            "order": 2,
+            "by": "sentinel",
+            "name": "Sentinel",
+            "does": "Checks copy before it goes live",
+            "tools": [
+              "Grok"
+            ]
+          },
+          {
+            "order": 3,
+            "by": "you",
+            "name": "You",
+            "does": "Review every ad before launch",
+            "tools": []
+          }
+        ],
+        "outputs": [
+          "Running campaigns",
+          "New patients or clients",
+          "Owner time back"
+        ]
+      },
+      "steps": [
+        "Start with one campaign and a fixed budget you set in Google Ads.",
+        "Review every ad before launch.",
+        "Add creative and video once the first campaign is stable."
+      ],
+      "guardrails": [
+        "Review every patient-facing ad and post."
+      ],
+      "claims": [],
+      "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+      "url": "https://bots.anthonytoday.com/use-cases/practice-marketing-team/",
+      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/practice-marketing-team.json"
+    },
+    {
+      "type": "use-case",
+      "slug": "rental-income-bookkeeping",
+      "title": "Keep Rental Income Books Clean",
+      "category": "Finance",
+      "category_slug": "finance",
+      "money_model": "Save costs",
+      "difficulty": "Beginner",
+      "summary": "Match rent to tenants, flag late payments, sort expenses for tax time and bundle invoices for your accountant.",
+      "money_potential": {
+        "tier": 1,
+        "symbol": "$",
+        "label": "Low",
+        "basis": "Saves bookkeeping time and catches late rent; it does not add new income.",
+        "claim_label": "E",
+        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+      },
+      "how_it_makes_money": [
+        "Late rent gets chased sooner.",
+        "Tax prep costs less when the books are already sorted."
+      ],
+      "who_its_for": [
+        "Landlords with a handful of units."
+      ],
+      "stack": [
+        {
+          "bot": "landlord-ledger",
+          "name": "Landlord Ledger",
+          "role": "Matches deposits, flags late rent and sorts expenses.",
+          "creator": "Daniel191555486",
+          "tools": [
+            "Grok"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/landlord-ledger/",
+          "official_share_url": "https://x.ai/bot/sPjI0Dec1DUvTc7H0zxNG"
+        },
+        {
+          "bot": "invoice-hunter",
+          "name": "Invoice Hunter",
+          "role": "Finds invoices in email and bundles them by month.",
+          "creator": "scheemunai",
+          "tools": [
+            "Grok"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/invoice-hunter/",
+          "official_share_url": "https://x.ai/bot/-kO6HrXokJZANVwUOMZO9"
+        }
+      ],
+      "tools": [
+        "Grok"
+      ],
+      "diagram": {
+        "engine": "Grok Bot",
+        "inputs": [
+          {
+            "label": "Rental bank deposits",
+            "tool": null
+          },
+          {
+            "label": "Invoices in email",
+            "tool": "Email"
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "by": "landlord-ledger",
+            "name": "Landlord Ledger",
+            "does": "Matches rent and sorts expenses",
+            "tools": [
+              "Grok"
+            ]
+          },
+          {
+            "order": 2,
+            "by": "invoice-hunter",
+            "name": "Invoice Hunter",
+            "does": "Bundles invoices by month",
+            "tools": [
+              "Grok"
+            ]
+          },
+          {
+            "order": 3,
+            "by": "you",
+            "name": "You",
+            "does": "Approve rent reminders",
+            "tools": []
+          }
+        ],
+        "outputs": [
+          "Clean rental books",
+          "Late rent chased sooner",
+          "A tax-time bundle"
+        ]
+      },
+      "steps": [
+        "Connect only the accounts used for the rentals.",
+        "Review the first month's matches.",
+        "Approve reminders before they go out."
+      ],
+      "guardrails": [
+        "It never moves money."
+      ],
+      "claims": [],
+      "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+      "url": "https://bots.anthonytoday.com/use-cases/rental-income-bookkeeping/",
+      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/rental-income-bookkeeping.json"
+    },
+    {
+      "type": "use-case",
+      "slug": "recover-delivery-refunds",
+      "title": "Recover Money Lost on Delivery Orders",
+      "category": "Finance",
+      "category_slug": "finance",
+      "money_model": "Recover money",
+      "difficulty": "Beginner",
+      "summary": "Find canceled orders and error charges in delivery portals and file the refund requests.",
+      "money_potential": {
+        "tier": 1,
+        "symbol": "$",
+        "label": "Low",
+        "basis": "Recovers money owed to you; the amount depends on your order volume and error rate.",
+        "claim_label": "E",
+        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+      },
+      "how_it_makes_money": [
+        "Money the platforms owe you comes back.",
+        "A daily digest replaces manual portal checks."
+      ],
+      "who_its_for": [
+        "Restaurants on delivery platforms."
+      ],
+      "stack": [
+        {
+          "bot": "restaurant-order-recovery",
+          "name": "Restaurant Order Recovery",
+          "role": "Finds errors in your merchant portals and files reimbursement requests.",
+          "creator": "pattyshack",
+          "tools": [
+            "Grok"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/restaurant-order-recovery/",
+          "official_share_url": "https://x.ai/bot/wB9H7OSiHYPlRgyCTM5Iq"
+        }
+      ],
+      "tools": [
+        "Grok"
+      ],
+      "diagram": {
+        "engine": "Grok Bot",
+        "inputs": [
+          {
+            "label": "Delivery merchant portals",
+            "tool": null
+          },
+          {
+            "label": "Canceled and wrong orders",
+            "tool": null
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "by": "restaurant-order-recovery",
+            "name": "Restaurant Order Recovery",
+            "does": "Finds errors and files refund requests",
+            "tools": [
+              "Grok"
+            ]
+          },
+          {
+            "order": 2,
+            "by": "you",
+            "name": "You",
+            "does": "Review the daily digest",
+            "tools": []
+          }
+        ],
+        "outputs": [
+          "Refund requests filed",
+          "Money back from platforms"
+        ]
+      },
+      "steps": [
+        "Connect your own merchant portals.",
+        "Review the first digest.",
+        "Let it file requests once you trust the matches."
+      ],
+      "guardrails": [
+        "Use only portals you own."
+      ],
+      "claims": [],
+      "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+      "url": "https://bots.anthonytoday.com/use-cases/recover-delivery-refunds/",
+      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/recover-delivery-refunds.json"
+    },
+    {
+      "type": "use-case",
+      "slug": "saas-finance-watch",
+      "title": "Watch SaaS Spend and Revenue Weekly",
+      "category": "Finance",
+      "category_slug": "finance",
+      "money_model": "Save costs",
+      "difficulty": "Intermediate",
+      "summary": "A weekly check across billing, accounting and email, with invoices gathered for the month-end close.",
+      "money_potential": {
+        "tier": 1,
+        "symbol": "$",
+        "label": "Low",
+        "basis": "Mainly saves costs: it finds waste and speeds up the close.",
+        "claim_label": "E",
+        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+      },
+      "how_it_makes_money": [
+        "Catch unused subscriptions and billing surprises.",
+        "A faster, cheaper month-end close."
+      ],
+      "who_its_for": [
+        "SaaS founders and finance leads."
+      ],
+      "stack": [
+        {
+          "bot": "saas-cfo-monitor",
+          "name": "SaaS CFO Monitor",
+          "role": "Checks spend and revenue across Stripe, Xero, QuickBooks and Gmail.",
+          "creator": "jessethanley",
+          "tools": [
+            "Stripe",
+            "Xero",
+            "QuickBooks",
+            "Gmail"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/saas-cfo-monitor/",
+          "official_share_url": null
+        },
+        {
+          "bot": "invoice-hunter",
+          "name": "Invoice Hunter",
+          "role": "Collects invoices for your accountant.",
+          "creator": "scheemunai",
+          "tools": [
+            "Grok"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/invoice-hunter/",
+          "official_share_url": "https://x.ai/bot/-kO6HrXokJZANVwUOMZO9"
+        }
+      ],
+      "tools": [
+        "Stripe",
+        "Xero",
+        "QuickBooks",
+        "Gmail",
+        "Grok"
+      ],
+      "diagram": {
+        "engine": "Grok Bot",
+        "inputs": [
+          {
+            "label": "Billing",
+            "tool": "Stripe"
+          },
+          {
+            "label": "Accounting",
+            "tool": "Xero"
+          },
+          {
+            "label": "Invoices",
+            "tool": "Gmail"
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "by": "saas-cfo-monitor",
+            "name": "SaaS CFO Monitor",
+            "does": "Checks spend and revenue weekly",
+            "tools": [
+              "Stripe",
+              "Xero",
+              "QuickBooks",
+              "Gmail"
+            ]
+          },
+          {
+            "order": 2,
+            "by": "invoice-hunter",
+            "name": "Invoice Hunter",
+            "does": "Collects invoices for the close",
+            "tools": [
+              "Grok"
+            ]
+          }
+        ],
+        "outputs": [
+          "A weekly finance check",
+          "Unused subscriptions flagged",
+          "A faster month-end"
+        ]
+      },
+      "steps": [
+        "Connect read access to billing and accounting.",
+        "Review the first weekly check.",
+        "Add the monthly summary to your close."
+      ],
+      "guardrails": [
+        "Read-only access where the tool allows it."
+      ],
+      "claims": [],
+      "latest_bot_added_at": "2026-10-24T08:00:00.000Z",
+      "url": "https://bots.anthonytoday.com/use-cases/saas-finance-watch/",
+      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/saas-finance-watch.json"
+    },
+    {
+      "type": "use-case",
+      "slug": "accounting-practice-ops",
+      "title": "Run a Small Accounting Practice",
+      "category": "Finance",
+      "category_slug": "finance",
+      "money_model": "Save costs",
+      "difficulty": "Intermediate",
+      "summary": "Faster client replies, document chasing and early due-date notices, with the inbox sorted.",
+      "money_potential": {
+        "tier": 2,
+        "symbol": "$$",
+        "label": "Medium",
+        "basis": "Assumes drafted routine work lets each accountant serve more clients.",
+        "claim_label": "E",
+        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+      },
+      "how_it_makes_money": [
+        "More clients per accountant.",
+        "Fewer late filings and rush fees."
+      ],
+      "who_its_for": [
+        "Tax and accounting offices."
+      ],
+      "stack": [
+        {
+          "bot": "tax-firm-os",
+          "name": "Tax Firm OS",
+          "role": "Drafts replies, chases documents and tracks due dates.",
+          "creator": "Amervim",
+          "tools": [
+            "Grok"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/tax-firm-os/",
+          "official_share_url": "https://x.ai/bot/vJqjJphtZRkdBTYBxmWur"
+        },
+        {
+          "bot": "inbox-triage",
+          "name": "Inbox Triage",
+          "role": "Sorts email and DMs into tasks.",
+          "creator": "rchase",
+          "tools": [
+            "Facebook",
+            "X",
+            "LinkedIn",
+            "Trello"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/inbox-triage/",
+          "official_share_url": null
+        }
+      ],
+      "tools": [
+        "Grok",
+        "Facebook",
+        "X",
+        "LinkedIn",
+        "Trello"
+      ],
+      "diagram": {
+        "engine": "Grok Bot",
+        "inputs": [
+          {
+            "label": "Client email and DMs",
+            "tool": "Email"
+          },
+          {
+            "label": "Client list and due dates",
+            "tool": null
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "by": "inbox-triage",
+            "name": "Inbox Triage",
+            "does": "Sorts messages into tasks",
+            "tools": [
+              "Facebook",
+              "X",
+              "LinkedIn",
+              "Trello"
+            ]
+          },
+          {
+            "order": 2,
+            "by": "tax-firm-os",
+            "name": "Tax Firm OS",
+            "does": "Drafts replies and chases documents",
+            "tools": [
+              "Grok"
+            ]
+          },
+          {
+            "order": 3,
+            "by": "you",
+            "name": "You",
+            "does": "A professional owns every filing",
+            "tools": []
+          }
+        ],
+        "outputs": [
+          "Faster client replies",
+          "Early due-date notices",
+          "More clients per accountant"
+        ]
+      },
+      "steps": [
+        "Load your client list and due dates.",
+        "Review drafts for a week.",
+        "Let reminders go out once you trust them."
+      ],
+      "guardrails": [
+        "Not tax or legal advice; a professional owns every filing."
+      ],
+      "claims": [],
+      "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+      "url": "https://bots.anthonytoday.com/use-cases/accounting-practice-ops/",
+      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/accounting-practice-ops.json"
+    },
+    {
+      "type": "use-case",
+      "slug": "support-that-fixes-bugs",
+      "title": "Turn Support Tickets into Fixes",
+      "category": "Customer Support",
+      "category_slug": "customer-support",
+      "money_model": "Save costs",
+      "difficulty": "Advanced",
+      "summary": "Investigate tickets against code and logs, keep help articles current, and catch public complaints early.",
+      "money_potential": {
+        "tier": 2,
+        "symbol": "$$",
+        "label": "Medium",
+        "basis": "Assumes fewer repeat tickets keep customers paying; it protects revenue more than it adds it.",
+        "claim_label": "E",
+        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+      },
+      "how_it_makes_money": [
+        "Fewer repeat tickets and faster fixes keep customers paying.",
+        "Engineers spend less time on triage."
+      ],
+      "who_its_for": [
+        "Software teams and SaaS founders."
+      ],
+      "stack": [
+        {
+          "bot": "support-ticket-fixer",
+          "name": "Support Ticket Fixer",
+          "role": "Investigates tickets and prepares a likely cause and fix.",
+          "creator": "euboid",
+          "tools": [
+            "Ferndesk",
+            "Axiom",
+            "GitHub",
+            "Infisical",
+            "Codex"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/support-ticket-fixer/",
+          "official_share_url": null
+        },
+        {
+          "bot": "help-center-updater",
+          "name": "Help Center Updater",
+          "role": "Drafts help article updates after code changes.",
+          "creator": "damonchen",
+          "tools": [
+            "Intercom",
+            "GitHub"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/help-center-updater/",
+          "official_share_url": null
+        },
+        {
+          "bot": "customer-feedback-watch",
+          "name": "Customer Feedback Watch",
+          "role": "Flags complaints and bug reports on X.",
+          "creator": "egavrilenko11",
+          "tools": [
+            "X API"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/customer-feedback-watch/",
+          "official_share_url": "https://x.ai/bot/8Snl1TovbMwClPoBiHrWT"
+        }
+      ],
+      "tools": [
+        "Ferndesk",
+        "Axiom",
+        "GitHub",
+        "Infisical",
+        "Codex",
+        "Intercom",
+        "X API"
+      ],
+      "diagram": {
+        "engine": "Grok Bot",
+        "inputs": [
+          {
+            "label": "Support tickets",
+            "tool": "Ferndesk"
+          },
+          {
+            "label": "Code and logs",
+            "tool": "GitHub"
+          },
+          {
+            "label": "Complaints on X",
+            "tool": "X API"
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "by": "support-ticket-fixer",
+            "name": "Support Ticket Fixer",
+            "does": "Finds a likely cause and fix",
+            "tools": [
+              "Ferndesk",
+              "Axiom",
+              "GitHub",
+              "Infisical",
+              "Codex"
+            ]
+          },
+          {
+            "order": 2,
+            "by": "help-center-updater",
+            "name": "Help Center Updater",
+            "does": "Drafts help article updates",
+            "tools": [
+              "Intercom",
+              "GitHub"
+            ]
+          },
+          {
+            "order": 3,
+            "by": "customer-feedback-watch",
+            "name": "Customer Feedback Watch",
+            "does": "Flags public bug reports",
+            "tools": [
+              "X API"
+            ]
+          },
+          {
+            "order": 4,
+            "by": "you",
+            "name": "You",
+            "does": "Review code changes as usual",
+            "tools": []
+          }
+        ],
+        "outputs": [
+          "Fixes ready for review",
+          "A current help center",
+          "Fewer repeat tickets"
+        ]
+      },
+      "steps": [
+        "Connect your help desk, repo and logs with the least access needed.",
+        "Review the first ten investigations.",
+        "Add help center updates to your release routine."
+      ],
+      "guardrails": [
+        "Code changes go through your normal review."
+      ],
+      "claims": [],
+      "latest_bot_added_at": "2026-10-24T08:00:00.000Z",
+      "url": "https://bots.anthonytoday.com/use-cases/support-that-fixes-bugs/",
+      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/support-that-fixes-bugs.json"
+    },
+    {
+      "type": "use-case",
+      "slug": "local-business-reviews-and-calls",
+      "title": "Answer Reviews, Messages and Calls",
+      "category": "Customer Support",
+      "category_slug": "customer-support",
+      "money_model": "Grow sales",
+      "difficulty": "Beginner",
+      "summary": "Draft replies to reviews and messages and answer the phone, so no customer waits.",
+      "money_potential": {
+        "tier": 2,
+        "symbol": "$$",
+        "label": "Medium",
+        "basis": "Assumes missed calls and slow replies currently lose you bookings.",
+        "claim_label": "E",
+        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+      },
+      "how_it_makes_money": [
+        "Good replies to reviews win future customers.",
+        "Answered calls become bookings."
+      ],
+      "who_its_for": [
+        "Local service businesses."
+      ],
+      "stack": [
+        {
+          "bot": "reply-desk",
+          "name": "Reply Desk",
+          "role": "Drafts replies to emails, messages and reviews.",
+          "creator": "lonzom10",
+          "tools": [
+            "Email"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/reply-desk/",
+          "official_share_url": "https://x.ai/bot/8lLjBC7bXUqbfh-vLG9jf"
+        },
+        {
+          "bot": "phone-receptionist",
+          "name": "Phone Receptionist",
+          "role": "Answers the phone and books meetings.",
+          "creator": "SimplyColeB",
+          "tools": [
+            "Google Calendar",
+            "Bland"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/phone-receptionist/",
+          "official_share_url": "https://x.ai/bot/Z7LfRtBtwfaojaomMrAuX"
+        }
+      ],
+      "tools": [
+        "Email",
+        "Google Calendar",
+        "Bland"
+      ],
+      "diagram": {
+        "engine": "Grok Bot",
+        "inputs": [
+          {
+            "label": "Reviews and messages",
+            "tool": "Email"
+          },
+          {
+            "label": "Phone calls",
+            "tool": null
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "by": "reply-desk",
+            "name": "Reply Desk",
+            "does": "Drafts replies to reviews and messages",
+            "tools": [
+              "Email"
+            ]
+          },
+          {
+            "order": 2,
+            "by": "phone-receptionist",
+            "name": "Phone Receptionist",
+            "does": "Answers calls and books meetings",
+            "tools": [
+              "Google Calendar",
+              "Bland"
+            ]
+          },
+          {
+            "order": 3,
+            "by": "you",
+            "name": "You",
+            "does": "Send every reply yourself",
+            "tools": []
+          }
+        ],
+        "outputs": [
+          "Answered reviews",
+          "Calls turned into bookings"
+        ]
+      },
+      "steps": [
+        "Add Reply Desk and paste your last ten reviews.",
+        "Check the drafts and tone.",
+        "Decide on phone answering after checking its plan."
+      ],
+      "guardrails": [
+        "You send every reply yourself."
+      ],
+      "claims": [
+        {
+          "text": "The Phone Receptionist share card lists a phone plan at $15 for the first month, then $30 a month.",
+          "label": "A",
+          "source": "https://x.ai/bot/Z7LfRtBtwfaojaomMrAuX",
+          "checked": "2026-10-24"
+        }
+      ],
+      "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+      "url": "https://bots.anthonytoday.com/use-cases/local-business-reviews-and-calls/",
+      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/local-business-reviews-and-calls.json"
+    },
+    {
+      "type": "use-case",
+      "slug": "find-a-side-venture",
+      "title": "Scout a Side Venture Worth Starting",
+      "category": "Research and Ops",
+      "category_slug": "research-and-ops",
+      "money_model": "Sell a service",
+      "difficulty": "Beginner",
+      "summary": "Get vetted opportunity ideas with sources, risks and a next step, backed by market notes.",
+      "money_potential": {
+        "tier": 1,
+        "symbol": "$",
+        "label": "Low",
+        "basis": "Research only: income depends on the venture you pick and run.",
+        "claim_label": "E",
+        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+      },
+      "how_it_makes_money": [
+        "Pick a venture with evidence instead of a hunch.",
+        "Stop ideas early when the risks show."
+      ],
+      "who_its_for": [
+        "People looking for a first or second income stream."
+      ],
+      "stack": [
+        {
+          "bot": "entrepreneur-scout",
+          "name": "Entrepreneur Scout",
+          "role": "Finds and vets ideas and keeps a weekly scorecard.",
+          "creator": "hjackson2",
+          "tools": [
+            "Grok"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/entrepreneur-scout/",
+          "official_share_url": "https://x.ai/bot/scvcDPnSH2_sj3pH6ONCR"
+        },
+        {
+          "bot": "market-research",
+          "name": "Market Research",
+          "role": "Writes source-graded notes on your topics.",
+          "creator": "eyemotors",
+          "tools": [
+            "X"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/market-research/",
+          "official_share_url": "https://x.ai/bot/t1l_On1VtkMYddCu5MqQB"
+        }
+      ],
+      "tools": [
+        "Grok",
+        "X"
+      ],
+      "diagram": {
+        "engine": "Grok Bot",
+        "inputs": [
+          {
+            "label": "Your skills, time and budget",
+            "tool": null
+          },
+          {
+            "label": "Market sources",
+            "tool": "X"
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "by": "entrepreneur-scout",
+            "name": "Entrepreneur Scout",
+            "does": "Finds and vets ideas weekly",
+            "tools": [
+              "Grok"
+            ]
+          },
+          {
+            "order": 2,
+            "by": "market-research",
+            "name": "Market Research",
+            "does": "Writes source-graded notes",
+            "tools": [
+              "X"
+            ]
+          },
+          {
+            "order": 3,
+            "by": "you",
+            "name": "You",
+            "does": "Pick one idea and test it small",
+            "tools": []
+          }
+        ],
+        "outputs": [
+          "Vetted ideas with sources",
+          "A weekly scorecard"
+        ]
+      },
+      "steps": [
+        "Write a short brief: skills, time and budget.",
+        "Review the first ideas and their sources.",
+        "Pick one and test it small."
+      ],
+      "guardrails": [
+        "Not financial or legal advice; check sources yourself."
+      ],
+      "claims": [],
+      "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+      "url": "https://bots.anthonytoday.com/use-cases/find-a-side-venture/",
+      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/find-a-side-venture.json"
+    },
+    {
+      "type": "use-case",
+      "slug": "local-competitor-intel",
+      "title": "Know What Local Competitors Are Doing",
+      "category": "Research and Ops",
+      "category_slug": "research-and-ops",
+      "money_model": "Grow sales",
+      "difficulty": "Beginner",
+      "summary": "Weekly cited reports on competitor moves, plus alerts when their sites or rankings change.",
+      "money_potential": {
+        "tier": 1,
+        "symbol": "$",
+        "label": "Low",
+        "basis": "Indirect: it informs your pricing and offers, not income on its own.",
+        "claim_label": "E",
+        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+      },
+      "how_it_makes_money": [
+        "Respond to price and offer changes quickly.",
+        "Find the services competitors ignore."
+      ],
+      "who_its_for": [
+        "Local service businesses and their agencies."
+      ],
+      "stack": [
+        {
+          "bot": "competitor-intel",
+          "name": "Competitor Intel",
+          "role": "Files a weekly report on local competitors.",
+          "creator": "TheReal_BCM",
+          "tools": [
+            "Grok"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/competitor-intel/",
+          "official_share_url": "https://x.ai/bot/PIBCWeB59T-UhxyBNLowR"
+        },
+        {
+          "bot": "scout-competitive-intelligence",
+          "name": "Scout (Competitive Intelligence)",
+          "role": "Tracks competitor sites and search rankings.",
+          "creator": "adamta",
+          "tools": [
+            "Grok"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/scout-competitive-intelligence/",
+          "official_share_url": "https://x.ai/bot/rthl9MdskO2f-JCzmyINP"
+        }
+      ],
+      "tools": [
+        "Grok"
+      ],
+      "diagram": {
+        "engine": "Grok Bot",
+        "inputs": [
+          {
+            "label": "Your main competitors",
+            "tool": null
+          },
+          {
+            "label": "Their sites and rankings",
+            "tool": null
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "by": "competitor-intel",
+            "name": "Competitor Intel",
+            "does": "Files a cited weekly report",
+            "tools": [
+              "Grok"
+            ]
+          },
+          {
+            "order": 2,
+            "by": "scout-competitive-intelligence",
+            "name": "Scout (Competitive Intelligence)",
+            "does": "Alerts on site and ranking changes",
+            "tools": [
+              "Grok"
+            ]
+          },
+          {
+            "order": 3,
+            "by": "you",
+            "name": "You",
+            "does": "Decide one action per report",
+            "tools": []
+          }
+        ],
+        "outputs": [
+          "Weekly competitor reports",
+          "Change alerts"
+        ]
+      },
+      "steps": [
+        "List your main competitors.",
+        "Read the first report and check its sources.",
+        "Decide one action per report."
+      ],
+      "guardrails": [
+        "Research only; no outreach or posting."
+      ],
+      "claims": [],
+      "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+      "url": "https://bots.anthonytoday.com/use-cases/local-competitor-intel/",
+      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/local-competitor-intel.json"
+    },
+    {
+      "type": "use-case",
+      "slug": "property-maintenance-ops",
+      "title": "Run Property Maintenance End to End",
+      "category": "Research and Ops",
+      "category_slug": "research-and-ops",
+      "money_model": "Save costs",
+      "difficulty": "Advanced",
+      "summary": "Triage and dispatch maintenance requests, text residents, and keep the rent books in line.",
+      "money_potential": {
+        "tier": 2,
+        "symbol": "$$",
+        "label": "Medium",
+        "basis": "Mainly saves costs; gains grow with the number of units you manage.",
+        "claim_label": "E",
+        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+      },
+      "how_it_makes_money": [
+        "Faster repairs keep tenants and reduce turnover.",
+        "Cost coding shows where maintenance money goes."
+      ],
+      "who_its_for": [
+        "Property managers and owners of residential buildings."
+      ],
+      "stack": [
+        {
+          "bot": "maintenance-triage",
+          "name": "Maintenance Triage",
+          "role": "Coordinates intake, triage, dispatch and closeout.",
+          "creator": "Miffy_NYC",
+          "tools": [
+            "SMS"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/maintenance-triage/",
+          "official_share_url": "https://x.ai/bot/gKgo-_MM29kfcD9qiZf2A"
+        },
+        {
+          "bot": "landlord-ledger",
+          "name": "Landlord Ledger",
+          "role": "Keeps rent and expense books.",
+          "creator": "Daniel191555486",
+          "tools": [
+            "Grok"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/landlord-ledger/",
+          "official_share_url": "https://x.ai/bot/sPjI0Dec1DUvTc7H0zxNG"
+        }
+      ],
+      "tools": [
+        "SMS",
+        "Grok"
+      ],
+      "diagram": {
+        "engine": "Grok Bot",
+        "inputs": [
+          {
+            "label": "Resident requests",
+            "tool": "SMS"
+          },
+          {
+            "label": "Rent and expense records",
+            "tool": null
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "by": "maintenance-triage",
+            "name": "Maintenance Triage",
+            "does": "Triages, dispatches and closes out",
+            "tools": [
+              "SMS"
+            ]
+          },
+          {
+            "order": 2,
+            "by": "landlord-ledger",
+            "name": "Landlord Ledger",
+            "does": "Codes costs and keeps the books",
+            "tools": [
+              "Grok"
+            ]
+          },
+          {
+            "order": 3,
+            "by": "you",
+            "name": "You",
+            "does": "Hard stops on spend and safety",
+            "tools": []
+          }
+        ],
+        "outputs": [
+          "Faster repairs",
+          "Residents kept informed",
+          "Clear maintenance costs"
+        ]
+      },
+      "steps": [
+        "Start with intake and triage only.",
+        "Add dispatch once priorities look right.",
+        "Connect the ledger for cost tracking."
+      ],
+      "guardrails": [
+        "Hard stops on spend, access and safety stay on."
+      ],
+      "claims": [],
+      "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+      "url": "https://bots.anthonytoday.com/use-cases/property-maintenance-ops/",
+      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/property-maintenance-ops.json"
+    },
+    {
+      "type": "use-case",
+      "slug": "construction-office-chief-of-staff",
+      "title": "Give a Construction Office a Chief of Staff",
+      "category": "Research and Ops",
+      "category_slug": "research-and-ops",
+      "money_model": "Save costs",
+      "difficulty": "Intermediate",
+      "summary": "One front door that reads mail and calendar, routes work to specialist bots and keeps a shared memory.",
+      "money_potential": {
+        "tier": 2,
+        "symbol": "$$",
+        "label": "Medium",
+        "basis": "Assumes project managers lose hours to the inbox that could go to billable site work.",
+        "claim_label": "E",
+        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+      },
+      "how_it_makes_money": [
+        "Project managers spend more time on site and less in the inbox.",
+        "Fewer dropped requests and late replies."
+      ],
+      "who_its_for": [
+        "Commercial and industrial construction teams."
+      ],
+      "stack": [
+        {
+          "bot": "construction-chief-of-staff",
+          "name": "Construction Chief of Staff",
+          "role": "Reads mail and calendar and routes work.",
+          "creator": "RoggyRyan",
+          "tools": [
+            "Email",
+            "Google Calendar"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/construction-chief-of-staff/",
+          "official_share_url": "https://x.ai/bot/dZfz-QuarMKqQo_mdPhbb"
+        },
+        {
+          "bot": "inbox-triage",
+          "name": "Inbox Triage",
+          "role": "Sorts incoming email and DMs.",
+          "creator": "rchase",
+          "tools": [
+            "Facebook",
+            "X",
+            "LinkedIn",
+            "Trello"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/inbox-triage/",
+          "official_share_url": null
+        },
+        {
+          "bot": "notion-memory-keeper",
+          "name": "Notion Memory Keeper",
+          "role": "Keeps decisions and context in one Notion page.",
+          "creator": "benln",
+          "tools": [
+            "Notion"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/notion-memory-keeper/",
+          "official_share_url": null
+        }
+      ],
+      "tools": [
+        "Email",
+        "Google Calendar",
+        "Facebook",
+        "X",
+        "LinkedIn",
+        "Trello",
+        "Notion"
+      ],
+      "diagram": {
+        "engine": "Grok Bot",
+        "inputs": [
+          {
+            "label": "Office mail",
+            "tool": "Email"
+          },
+          {
+            "label": "Calendar",
+            "tool": "Google Calendar"
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "by": "construction-chief-of-staff",
+            "name": "Construction Chief of Staff",
+            "does": "Reads mail and routes the work",
+            "tools": [
+              "Email",
+              "Google Calendar"
+            ]
+          },
+          {
+            "order": 2,
+            "by": "inbox-triage",
+            "name": "Inbox Triage",
+            "does": "Sorts email and DMs",
+            "tools": [
+              "Facebook",
+              "X",
+              "LinkedIn",
+              "Trello"
+            ]
+          },
+          {
+            "order": 3,
+            "by": "notion-memory-keeper",
+            "name": "Notion Memory Keeper",
+            "does": "Keeps decisions in one page",
+            "tools": [
+              "Notion"
+            ]
+          },
+          {
+            "order": 4,
+            "by": "you",
+            "name": "You",
+            "does": "Approve anything it sends or buys",
+            "tools": []
+          }
+        ],
+        "outputs": [
+          "Fewer dropped requests",
+          "A shared project memory"
+        ]
+      },
+      "steps": [
+        "Keep it on drafts only at first.",
+        "Review its routing for a week.",
+        "Add the memory page for decisions."
+      ],
+      "guardrails": [
+        "It never sends or buys without your yes."
+      ],
+      "claims": [],
+      "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+      "url": "https://bots.anthonytoday.com/use-cases/construction-office-chief-of-staff/",
+      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/construction-office-chief-of-staff.json"
+    },
+    {
+      "type": "use-case",
+      "slug": "win-public-tenders",
+      "title": "Prepare Public Tender Bids",
+      "category": "Research and Ops",
+      "category_slug": "research-and-ops",
+      "money_model": "Grow sales",
+      "difficulty": "Advanced",
+      "summary": "A bot team ranks tender documents and moves each bid through format and rules checks, with grants as a second source of funding.",
+      "money_potential": {
+        "tier": 3,
+        "symbol": "$$$",
+        "label": "High",
+        "basis": "Assumes public contracts are large, so each extra bid won matters.",
+        "claim_label": "E",
+        "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+      },
+      "how_it_makes_money": [
+        "Bid on more tenders with the same team.",
+        "Fewer bids rejected on format."
+      ],
+      "who_its_for": [
+        "Firms that bid on public contracts (Dero works in Spanish, for Chilean municipal tenders)."
+      ],
+      "stack": [
+        {
+          "bot": "dero",
+          "name": "Dero",
+          "role": "Coordinates the tender bid pipeline.",
+          "creator": "jorgesoffia",
+          "tools": [
+            "Grok"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/dero/",
+          "official_share_url": "https://x.ai/bot/OMpdsLwId7Du5PrjbX8L8"
+        },
+        {
+          "bot": "grantogre",
+          "name": "GrantOgre",
+          "role": "Finds funding programmes and prepares packs.",
+          "creator": "HoneybadgerFan4",
+          "tools": [
+            "Grok"
+          ],
+          "url": "https://bots.anthonytoday.com/bots/grantogre/",
+          "official_share_url": "https://x.ai/bot/WXC1m-5Iiyu1IyvBEt9Va"
+        }
+      ],
+      "tools": [
+        "Grok"
+      ],
+      "diagram": {
+        "engine": "Grok Bot",
+        "inputs": [
+          {
+            "label": "Open tender documents",
+            "tool": null
+          },
+          {
+            "label": "Funding programmes",
+            "tool": null
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "by": "dero",
+            "name": "Dero",
+            "does": "Ranks tenders and runs the bid pipeline",
+            "tools": [
+              "Grok"
+            ]
+          },
+          {
+            "order": 2,
+            "by": "grantogre",
+            "name": "GrantOgre",
+            "does": "Finds funding and prepares packs",
+            "tools": [
+              "Grok"
+            ]
+          },
+          {
+            "order": 3,
+            "by": "you",
+            "name": "You",
+            "does": "Review and file every bid",
+            "tools": []
+          }
+        ],
+        "outputs": [
+          "Bids that pass format checks",
+          "More tenders bid per team"
+        ]
+      },
+      "steps": [
+        "Load one open tender.",
+        "Review each stage of the pipeline output.",
+        "File the bid yourself."
+      ],
+      "guardrails": [
+        "A person reviews and files every bid."
+      ],
+      "claims": [],
+      "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
+      "url": "https://bots.anthonytoday.com/use-cases/win-public-tenders/",
+      "json_url": "https://bots.anthonytoday.com/api/v1/use-cases/win-public-tenders.json"
+    }
+  ]
+}
