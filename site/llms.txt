@@ -58,6 +58,7 @@ If a fetch fails or the JSON has no envelope, change nothing and try next run.
 
 ## Grok Bot guides
 
+- [Guides](https://moneywithai.net/guides/): hub page linking every Grok Bot guide below
 - [Grok Bot Directory](https://moneywithai.net/grok-bots/): A directory of 307 real Grok Bot setups, sorted by job, with the creator, the tools each bot connects to and a link to the source.
 - [Best Grok Bots](https://moneywithai.net/grok-bots/best/): The 15 best Grok Bot setups in our listings, ranked by a published editorial score (money use, profile, visuals, ease), plus the top pick for each job.
 - [Grok Bot Use Cases](https://moneywithai.net/grok-bots/use-cases/): 131 Grok Bot use cases, each one a stack of listed bots with the job each bot does, the difficulty and an estimated money level.
