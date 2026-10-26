@@ -9,6 +9,7 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 ## Machine-readable
 
 - [API status](https://moneywithai.net/api/v1/status.json): read first. Version, counts, notices and every endpoint
+- [OpenAPI](https://moneywithai.net/openapi.json): OpenAPI 3.1 description of the GET endpoints below
 - [Feed](https://moneywithai.net/api/v1/feed.json): every bot and use case, newest first
 - [Use cases](https://moneywithai.net/api/v1/use-cases.json): money use cases with difficulty, money_potential (tier 1 to 3, our estimate, labelled Estimate, with its basis), tools, the bot stack, a diagram (inputs, steps with the bot doing each, outputs), steps and V/E/A labelled claims
 - [MCP](https://moneywithai.net/mcp): read-only tools search_bots (sort: featured, downloads, newest, name), get_bot, list_use_cases (filters: category, difficulty, money_tier, tool, query; sort: featured, downloads, money, newest, name), get_use_case, list_categories, get_download_counts

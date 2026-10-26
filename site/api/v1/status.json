@@ -1,7 +1,7 @@
 {
   "service": "Money With AI API",
   "site": "https://moneywithai.net",
-  "generated_at": "2026-10-26T03:29:26.000Z",
+  "generated_at": "2026-10-26T04:13:57.000Z",
   "api_version": "v1",
   "schema_revision": 2,
   "capabilities": [
@@ -29,7 +29,8 @@
     "use_case": "https://moneywithai.net/api/v1/use-cases/{slug}.json",
     "categories": "https://moneywithai.net/api/v1/categories.json",
     "downloads": "https://moneywithai.net/api/downloads.json",
-    "mcp": "https://moneywithai.net/mcp"
+    "mcp": "https://moneywithai.net/mcp",
+    "openapi": "https://moneywithai.net/openapi.json"
   },
   "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
   "changelog": [
@@ -44,6 +45,10 @@
     {
       "date": "2026-10-25",
       "change": "Counts are shown as downloads. GET /api/downloads.json adds a downloads field next to counts (the older path /api/copies.json stays as a legacy alias with the same download data); MCP adds get_download_counts."
+    },
+    {
+      "date": "2026-10-26",
+      "change": "OpenAPI 3.1 description of these GET endpoints at /openapi.json."
     }
   ]
 }
