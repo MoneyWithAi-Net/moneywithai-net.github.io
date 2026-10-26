@@ -70,7 +70,8 @@
   ],
   "tools": [
     "Grok",
-    "Gmail"
+    "Gmail",
+    "Mailchimp"
   ],
   "diagram": {
     "engine": "Grok Bot",

@@ -83,7 +83,8 @@
   "tools": [
     "Grok",
     "YouTube",
-    "CapCut"
+    "CapCut",
+    "X"
   ],
   "diagram": {
     "engine": "Grok Bot",

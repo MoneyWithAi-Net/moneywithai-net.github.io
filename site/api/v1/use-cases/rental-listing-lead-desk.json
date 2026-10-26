@@ -79,7 +79,8 @@
     "Gmail",
     "OpenAI",
     "Google Calendar",
-    "Bland"
+    "Bland",
+    "Facebook"
   ],
   "diagram": {
     "engine": "Grok Bot",

@@ -81,7 +81,8 @@
   ],
   "tools": [
     "Grok",
-    "Trends.vc"
+    "Trends.vc",
+    "Reddit"
   ],
   "diagram": {
     "engine": "Grok Bot",

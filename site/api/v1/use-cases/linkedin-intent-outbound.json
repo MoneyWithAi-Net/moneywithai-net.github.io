@@ -76,7 +76,8 @@
     "Gojiberry AI",
     "LinkedIn",
     "n8n",
-    "OpenAI"
+    "OpenAI",
+    "Email"
   ],
   "diagram": {
     "engine": "Grok Bot",

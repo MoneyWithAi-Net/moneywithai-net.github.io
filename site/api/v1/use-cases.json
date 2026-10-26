@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T02:39:18.000Z",
+  "generated_at": "2026-10-26T03:29:26.000Z",
   "api_version": "v1",
   "schema_revision": 2,
   "status_url": "https://moneywithai.net/api/v1/status.json",
@@ -67,7 +67,9 @@
         }
       ],
       "tools": [
-        "Grok"
+        "Grok",
+        "Email",
+        "Google Search"
       ],
       "diagram": {
         "engine": "Grok Bot",
@@ -2104,7 +2106,9 @@
         }
       ],
       "tools": [
-        "Grok"
+        "Grok",
+        "Email",
+        "Stripe"
       ],
       "diagram": {
         "engine": "Grok Bot",
@@ -2601,7 +2605,8 @@
         }
       ],
       "tools": [
-        "Grok"
+        "Grok",
+        "Email"
       ],
       "diagram": {
         "engine": "Grok Bot",
@@ -2951,7 +2956,8 @@
         "Facebook",
         "X",
         "LinkedIn",
-        "Trello"
+        "Trello",
+        "Email"
       ],
       "diagram": {
         "engine": "Grok Bot",
@@ -3480,7 +3486,8 @@
         }
       ],
       "tools": [
-        "Grok"
+        "Grok",
+        "Google Search"
       ],
       "diagram": {
         "engine": "Grok Bot",
@@ -4038,7 +4045,8 @@
         "OneShot Agent",
         "Slack",
         "Gmail",
-        "Google Calendar"
+        "Google Calendar",
+        "Google Maps"
       ],
       "diagram": {
         "engine": "Grok Bot",
@@ -4218,7 +4226,8 @@
         "Grok",
         "Signado",
         "X",
-        "Notion"
+        "Notion",
+        "LinkedIn"
       ],
       "diagram": {
         "engine": "Grok Bot",
@@ -4568,7 +4577,8 @@
         "Gojiberry AI",
         "LinkedIn",
         "n8n",
-        "OpenAI"
+        "OpenAI",
+        "Email"
       ],
       "diagram": {
         "engine": "Grok Bot",
@@ -4745,7 +4755,8 @@
         "n8n",
         "OpenAI",
         "Gmail",
-        "Google Calendar"
+        "Google Calendar",
+        "HubSpot"
       ],
       "diagram": {
         "engine": "Grok Bot",
@@ -5101,7 +5112,8 @@
         "Gmail",
         "Google Drive",
         "Google Slides",
-        "OpenAI"
+        "OpenAI",
+        "Contra"
       ],
       "diagram": {
         "engine": "Grok Bot",
@@ -5470,7 +5482,8 @@
         "Gmail",
         "OpenAI",
         "Google Calendar",
-        "Bland"
+        "Bland",
+        "Facebook"
       ],
       "diagram": {
         "engine": "Grok Bot",
@@ -5826,7 +5839,8 @@
         "LinkedIn",
         "Grok",
         "Gmail",
-        "Google Calendar"
+        "Google Calendar",
+        "YouTube"
       ],
       "diagram": {
         "engine": "Grok Bot",
@@ -7747,7 +7761,8 @@
         "Google Trends",
         "Notion",
         "Grok",
-        "PostBridge"
+        "PostBridge",
+        "X"
       ],
       "diagram": {
         "engine": "Grok Bot",
@@ -8149,7 +8164,8 @@
         "ChatGPT",
         "Claude",
         "Gemini",
-        "Grok"
+        "Grok",
+        "X"
       ],
       "diagram": {
         "engine": "Grok Bot",
@@ -9072,7 +9088,8 @@
         "Google Docs",
         "Gmail",
         "Squarespace",
-        "Grok"
+        "Grok",
+        "X"
       ],
       "diagram": {
         "engine": "Grok Bot",
@@ -9841,7 +9858,8 @@
       "tools": [
         "Grok",
         "YouTube",
-        "CapCut"
+        "CapCut",
+        "X"
       ],
       "diagram": {
         "engine": "Grok Bot",
@@ -11114,7 +11132,8 @@
       "tools": [
         "Grok",
         "GitHub",
-        "Email"
+        "Email",
+        "Google Search Console"
       ],
       "diagram": {
         "engine": "Grok Bot",
@@ -11492,7 +11511,8 @@
         }
       ],
       "tools": [
-        "Grok"
+        "Grok",
+        "Mailchimp"
       ],
       "diagram": {
         "engine": "Grok Bot",
@@ -11653,7 +11673,8 @@
         }
       ],
       "tools": [
-        "Grok"
+        "Grok",
+        "Mailchimp"
       ],
       "diagram": {
         "engine": "Grok Bot",
@@ -12943,7 +12964,8 @@
         "Airtable",
         "Gmail",
         "Slack",
-        "Shopify"
+        "Shopify",
+        "Tally"
       ],
       "diagram": {
         "engine": "Grok Bot",
@@ -13474,7 +13496,9 @@
         "n8n",
         "OpenAI",
         "Slack",
-        "Grok"
+        "Grok",
+        "Shopify",
+        "Mailchimp"
       ],
       "diagram": {
         "engine": "Grok Bot",
@@ -14022,7 +14046,8 @@
         "Google Sheets",
         "OpenAI",
         "Bland",
-        "Grok"
+        "Grok",
+        "Cal.com"
       ],
       "diagram": {
         "engine": "Grok Bot",
@@ -14419,7 +14444,8 @@
         "SMS",
         "Grok",
         "Google Calendar",
-        "Google Docs"
+        "Google Docs",
+        "Gmail"
       ],
       "diagram": {
         "engine": "Grok Bot",
@@ -14810,7 +14836,8 @@
       "tools": [
         "Grok",
         "Figma",
-        "Squarespace"
+        "Squarespace",
+        "cPanel"
       ],
       "diagram": {
         "engine": "Grok Bot",
@@ -14986,7 +15013,8 @@
         "Grok",
         "GitHub",
         "DataForSEO",
-        "Google Search Console"
+        "Google Search Console",
+        "cPanel"
       ],
       "diagram": {
         "engine": "Grok Bot",
@@ -15154,7 +15182,8 @@
         "Soundcheck",
         "HubSpot",
         "Email",
-        "QuickBooks"
+        "QuickBooks",
+        "Gmail"
       ],
       "diagram": {
         "engine": "Grok Bot",
@@ -17492,7 +17521,9 @@
         }
       ],
       "tools": [
-        "Grok"
+        "Grok",
+        "Google Drive",
+        "Gmail"
       ],
       "diagram": {
         "engine": "Grok Bot",
@@ -17828,7 +17859,8 @@
       ],
       "tools": [
         "Grok",
-        "Refgrow"
+        "Refgrow",
+        "Gmail"
       ],
       "diagram": {
         "engine": "Grok Bot",
@@ -18171,7 +18203,8 @@
         "n8n",
         "OpenRouter",
         "Notion",
-        "Plain"
+        "Plain",
+        "Mintlify"
       ],
       "diagram": {
         "engine": "Grok Bot",
@@ -18869,7 +18902,8 @@
       ],
       "tools": [
         "Grok",
-        "Gmail"
+        "Gmail",
+        "Mailchimp"
       ],
       "diagram": {
         "engine": "Grok Bot",
@@ -19227,7 +19261,8 @@
         "Intercom",
         "GitHub",
         "Zendesk",
-        "Notion"
+        "Notion",
+        "Google Docs"
       ],
       "diagram": {
         "engine": "Grok Bot",
@@ -19404,7 +19439,8 @@
       ],
       "tools": [
         "Grok",
-        "Trends.vc"
+        "Trends.vc",
+        "Reddit"
       ],
       "diagram": {
         "engine": "Grok Bot",
@@ -19591,7 +19627,8 @@
         "Slack",
         "Adlicio",
         "TranscriptAPI",
-        "Grok"
+        "Grok",
+        "YouTube"
       ],
       "diagram": {
         "engine": "Grok Bot",
@@ -20359,7 +20396,9 @@
       ],
       "tools": [
         "Grok",
-        "Notion"
+        "Notion",
+        "Gmail",
+        "Google Calendar"
       ],
       "diagram": {
         "engine": "Grok Bot",
@@ -20871,7 +20910,8 @@
       ],
       "tools": [
         "Google Drive",
-        "Grok"
+        "Grok",
+        "Gmail"
       ],
       "diagram": {
         "engine": "Grok Bot",

@@ -70,7 +70,8 @@
   ],
   "tools": [
     "Google Drive",
-    "Grok"
+    "Grok",
+    "Gmail"
   ],
   "diagram": {
     "engine": "Grok Bot",

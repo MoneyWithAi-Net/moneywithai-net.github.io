@@ -80,7 +80,8 @@
     "Intercom",
     "GitHub",
     "Zendesk",
-    "Notion"
+    "Notion",
+    "Google Docs"
   ],
   "diagram": {
     "engine": "Grok Bot",

@@ -86,7 +86,8 @@
     "SMS",
     "Grok",
     "Google Calendar",
-    "Google Docs"
+    "Google Docs",
+    "Gmail"
   ],
   "diagram": {
     "engine": "Grok Bot",

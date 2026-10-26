@@ -97,7 +97,8 @@
     "OneShot Agent",
     "Slack",
     "Gmail",
-    "Google Calendar"
+    "Google Calendar",
+    "Google Maps"
   ],
   "diagram": {
     "engine": "Grok Bot",

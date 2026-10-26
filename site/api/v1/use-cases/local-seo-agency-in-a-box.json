@@ -82,7 +82,8 @@
   "tools": [
     "Grok",
     "GitHub",
-    "Email"
+    "Email",
+    "Google Search Console"
   ],
   "diagram": {
     "engine": "Grok Bot",

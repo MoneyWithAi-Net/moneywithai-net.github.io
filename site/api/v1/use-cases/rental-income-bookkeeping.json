@@ -47,7 +47,8 @@
     }
   ],
   "tools": [
-    "Grok"
+    "Grok",
+    "Email"
   ],
   "diagram": {
     "engine": "Grok Bot",

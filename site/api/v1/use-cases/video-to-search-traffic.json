@@ -87,7 +87,8 @@
     "ChatGPT",
     "Claude",
     "Gemini",
-    "Grok"
+    "Grok",
+    "X"
   ],
   "diagram": {
     "engine": "Grok Bot",

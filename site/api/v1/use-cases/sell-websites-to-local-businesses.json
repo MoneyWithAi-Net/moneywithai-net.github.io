@@ -60,7 +60,9 @@
     }
   ],
   "tools": [
-    "Grok"
+    "Grok",
+    "Email",
+    "Google Search"
   ],
   "diagram": {
     "engine": "Grok Bot",

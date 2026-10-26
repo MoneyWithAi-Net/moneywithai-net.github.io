@@ -74,7 +74,9 @@
     "n8n",
     "OpenAI",
     "Slack",
-    "Grok"
+    "Grok",
+    "Shopify",
+    "Mailchimp"
   ],
   "diagram": {
     "engine": "Grok Bot",

@@ -70,7 +70,8 @@
   ],
   "tools": [
     "Grok",
-    "Refgrow"
+    "Refgrow",
+    "Gmail"
   ],
   "diagram": {
     "engine": "Grok Bot",

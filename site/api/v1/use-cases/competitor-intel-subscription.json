@@ -87,7 +87,8 @@
     "Slack",
     "Adlicio",
     "TranscriptAPI",
-    "Grok"
+    "Grok",
+    "YouTube"
   ],
   "diagram": {
     "engine": "Grok Bot",

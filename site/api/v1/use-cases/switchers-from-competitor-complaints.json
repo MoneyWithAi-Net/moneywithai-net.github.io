@@ -73,7 +73,8 @@
     "Grok",
     "Signado",
     "X",
-    "Notion"
+    "Notion",
+    "LinkedIn"
   ],
   "diagram": {
     "engine": "Grok Bot",

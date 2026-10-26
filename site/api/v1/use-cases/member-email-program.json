@@ -69,7 +69,8 @@
     }
   ],
   "tools": [
-    "Grok"
+    "Grok",
+    "Mailchimp"
   ],
   "diagram": {
     "engine": "Grok Bot",

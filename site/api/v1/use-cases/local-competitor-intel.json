@@ -47,7 +47,8 @@
     }
   ],
   "tools": [
-    "Grok"
+    "Grok",
+    "Google Search"
   ],
   "diagram": {
     "engine": "Grok Bot",

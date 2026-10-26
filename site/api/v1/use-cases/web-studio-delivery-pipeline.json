@@ -83,7 +83,8 @@
   "tools": [
     "Grok",
     "Figma",
-    "Squarespace"
+    "Squarespace",
+    "cPanel"
   ],
   "diagram": {
     "engine": "Grok Bot",

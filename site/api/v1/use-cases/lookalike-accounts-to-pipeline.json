@@ -82,7 +82,8 @@
     "n8n",
     "OpenAI",
     "Gmail",
-    "Google Calendar"
+    "Google Calendar",
+    "HubSpot"
   ],
   "diagram": {
     "engine": "Grok Bot",

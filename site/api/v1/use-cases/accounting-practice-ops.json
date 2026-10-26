@@ -54,7 +54,8 @@
     "Facebook",
     "X",
     "LinkedIn",
-    "Trello"
+    "Trello",
+    "Email"
   ],
   "diagram": {
     "engine": "Grok Bot",

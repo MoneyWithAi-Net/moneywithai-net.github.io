@@ -81,7 +81,9 @@
   ],
   "tools": [
     "Grok",
-    "Notion"
+    "Notion",
+    "Gmail",
+    "Google Calendar"
   ],
   "diagram": {
     "engine": "Grok Bot",

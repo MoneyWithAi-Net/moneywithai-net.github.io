@@ -75,7 +75,8 @@
     "Soundcheck",
     "HubSpot",
     "Email",
-    "QuickBooks"
+    "QuickBooks",
+    "Gmail"
   ],
   "diagram": {
     "engine": "Grok Bot",
