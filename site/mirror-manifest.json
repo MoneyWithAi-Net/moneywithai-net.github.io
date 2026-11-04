@@ -1,14 +1,14 @@
 {
-  "built_at": "2026-11-03T03:52:09.867Z",
+  "built_at": "2026-11-04T02:56:54.191Z",
   "source": "site-src/dist",
   "files": 1843,
   "html": 484,
   "forms_rewritten": 8,
   "redirects": 13,
-  "counts_updated_at": "2026-11-03T03:52:09.001Z",
+  "counts_updated_at": "2026-11-04T02:56:53.319Z",
   "counts_bots": 653,
   "licensed_fonts_dropped": true,
   "csp_meta": true,
   "broken_internal_links": [],
-  "tree_sha256": "c858cebf2d14cd1bddfd09a3e27d259f6886ecf756c120960a9ce44e9bbfce2e"
+  "tree_sha256": "3845efed100accb5d15fc63e5379d784c710d97c65624b46aad4df2e03af43fc"
 }
