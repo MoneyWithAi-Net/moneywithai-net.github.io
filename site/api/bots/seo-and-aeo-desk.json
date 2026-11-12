@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "seo-and-aeo-desk",
+    "name": "SEO & AEO Desk",
+    "category": "Content and Marketing",
+    "sub_use_case": "SEO and AI search",
+    "summary": "Turns a keyword list or Search Console data into content ideas and writer-ready briefs for search and AI answers.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Adam Tanguay",
+      "url": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL"
+    },
+    "official_share_url": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL",
+    "found_via": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/seo-and-aeo-desk/",
+    "json_url": "https://moneywithai.net/api/bots/seo-and-aeo-desk.json"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "ask-avery",
+  "name": "Ask Avery",
+  "category": "Research and Ops",
+  "sub_use_case": "Product and engineering",
+  "summary": "Sends engineering questions to matched expert reviewers in parallel and returns one combined answer.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Andreas Gerlach",
+    "url": "https://x.ai/bot/zLVAUrY3p1C7PIx0aMoeR"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/zLVAUrY3p1C7PIx0aMoeR"
+  },
+  "official_share_url": "https://x.ai/bot/zLVAUrY3p1C7PIx0aMoeR",
+  "found_via": "https://x.ai/bot/zLVAUrY3p1C7PIx0aMoeR",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/ask-avery/",
+  "json_url": "https://moneywithai.net/api/v1/bots/ask-avery.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 342,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

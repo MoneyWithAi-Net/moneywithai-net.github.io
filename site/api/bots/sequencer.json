@@ -1,0 +1,30 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "sequencer",
+    "name": "Sequencer",
+    "category": "Leads and Sales",
+    "sub_use_case": "Outbound prospecting",
+    "summary": "Runs outbound sequences from a sheet, learning your voice and ideal customer from Gmail and the CRM, and stages each draft for you to send.",
+    "tools": [
+      "Grok",
+      "Gmail"
+    ],
+    "creator": {
+      "handle": "Simon Lackowski",
+      "url": "https://x.ai/bot/6xnxd_CHg0cXVMQCwnRrZ"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/6xnxd_CHg0cXVMQCwnRrZ"
+    },
+    "official_share_url": "https://x.ai/bot/6xnxd_CHg0cXVMQCwnRrZ",
+    "found_via": "https://x.ai/bot/6xnxd_CHg0cXVMQCwnRrZ",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/sequencer/",
+    "json_url": "https://moneywithai.net/api/bots/sequencer.json"
+  }
+}

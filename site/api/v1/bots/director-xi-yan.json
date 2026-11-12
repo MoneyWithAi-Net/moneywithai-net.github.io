@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "director-xi-yan",
+  "name": "Director",
+  "category": "Content and Marketing",
+  "sub_use_case": "Video production",
+  "summary": "Turns a brief into a short film, ad or explainer: plans, generates, cuts and delivers the video.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Xi Yan",
+    "url": "https://x.ai/bot/r9v2LNQY0VHF8JXe8y6VF"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/r9v2LNQY0VHF8JXe8y6VF"
+  },
+  "official_share_url": "https://x.ai/bot/r9v2LNQY0VHF8JXe8y6VF",
+  "found_via": "https://x.ai/bot/r9v2LNQY0VHF8JXe8y6VF",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/director-xi-yan/",
+  "json_url": "https://moneywithai.net/api/v1/bots/director-xi-yan.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 411,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

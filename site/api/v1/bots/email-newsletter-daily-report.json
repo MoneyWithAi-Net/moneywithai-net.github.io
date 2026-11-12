@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "email-newsletter-daily-report",
+  "name": "Email Newsletter Daily Report",
+  "category": "Research and Ops",
+  "sub_use_case": "Market notes",
+  "summary": "Reads the newsletters and podcasts you subscribe it to and sends one daily report with summaries and a uniqueness rating.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Brian",
+    "url": "https://x.ai/bot/F4GyQybzyfsBx6iXlwbHk"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/F4GyQybzyfsBx6iXlwbHk"
+  },
+  "official_share_url": "https://x.ai/bot/F4GyQybzyfsBx6iXlwbHk",
+  "found_via": "https://x.ai/bot/F4GyQybzyfsBx6iXlwbHk",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/email-newsletter-daily-report/",
+  "json_url": "https://moneywithai.net/api/v1/bots/email-newsletter-daily-report.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 425,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

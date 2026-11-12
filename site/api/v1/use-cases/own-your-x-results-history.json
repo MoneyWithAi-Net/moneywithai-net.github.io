@@ -1,0 +1,150 @@
+{
+  "type": "use-case",
+  "slug": "own-your-x-results-history",
+  "title": "See Which Posts Bring Results from Your Own Records",
+  "category": "Content and Marketing",
+  "category_slug": "content-and-marketing",
+  "money_model": "Grow sales",
+  "difficulty": "Intermediate",
+  "summary": "Keep your own dated record of X results and unanswered replies, then plan each morning from what actually worked instead of guessing.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Assumes X already brings you some enquiries; the stack saves checking time and helps you post what works.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Replies from potential clients get answered instead of lost in the feed.",
+    "You post more of what brings profile visits and enquiries."
+  ],
+  "who_its_for": [
+    "Founders and consultants who win clients on X.",
+    "Small brands with an active X account."
+  ],
+  "stack": [
+    {
+      "bot": "foreman",
+      "name": "Foreman",
+      "role": "Runs read-only helpers that list unanswered replies, track followers and save your analytics into dated files.",
+      "creator": "GlennHasABeard",
+      "tools": [
+        "X API",
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/foreman/",
+      "official_share_url": "https://x.ai/bot/Hfm0xbUx8FqPTd5EYvjat"
+    },
+    {
+      "bot": "morning-post-planner",
+      "name": "Morning Post Planner",
+      "role": "Turns what is working in your niche into a short morning brief with drafts.",
+      "creator": "Beaver_0x",
+      "tools": [
+        "X",
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/morning-post-planner/",
+      "official_share_url": null
+    },
+    {
+      "bot": "x-posting-advisor",
+      "name": "X Posting Advisor",
+      "role": "Advises when to post, quote or wait based on your own account metrics.",
+      "creator": "mattyp",
+      "tools": [
+        "X",
+        "X API"
+      ],
+      "url": "https://moneywithai.net/bots/x-posting-advisor/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "X API",
+    "Grok",
+    "X"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Your X account",
+        "tool": "X"
+      },
+      {
+        "label": "A niche watchlist",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "foreman",
+        "name": "Foreman",
+        "does": "Lists missed replies and saves dated analytics",
+        "tools": [
+          "X API",
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "morning-post-planner",
+        "name": "Morning Post Planner",
+        "does": "Writes a morning brief with drafts",
+        "tools": [
+          "X",
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "x-posting-advisor",
+        "name": "X Posting Advisor",
+        "does": "Suggests when to post",
+        "tools": [
+          "X",
+          "X API"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "you",
+        "name": "You",
+        "does": "Reply and post by hand",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Answered replies",
+      "Your own results history",
+      "Posts based on what worked"
+    ]
+  },
+  "steps": [
+    "Set a daily X API spend cap and turn on the reply and analytics helpers.",
+    "Answer the unanswered replies list each day yourself.",
+    "Read the morning brief and pick one draft to edit.",
+    "Check timing advice, then post by hand."
+  ],
+  "guardrails": [
+    "None of the bots post, follow or message for you.",
+    "Learn from patterns in other posts; never copy their wording."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-29T10:00:00.000Z",
+  "featured": {
+    "rank": 169,
+    "score": 65,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/own-your-x-results-history/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/own-your-x-results-history.json"
+}

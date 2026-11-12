@@ -1,0 +1,40 @@
+{
+  "type": "bot",
+  "slug": "botify",
+  "name": "Botify",
+  "category": "E-Commerce",
+  "sub_use_case": "Store operations",
+  "summary": "Helps a store owner move from Shopify to a self-run headless WooCommerce store to cut platform costs, then run it by chat: list products from photos and get order alerts.",
+  "tools": [
+    "Grok",
+    "Shopify"
+  ],
+  "creator": {
+    "handle": "ecoay",
+    "url": "https://x.com/ecoay"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/d8u4VV60Ni6rtbA7H9pAE"
+  },
+  "official_share_url": "https://x.ai/bot/d8u4VV60Ni6rtbA7H9pAE",
+  "found_via": null,
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-11-08",
+  "url": "https://moneywithai.net/bots/botify/",
+  "json_url": "https://moneywithai.net/api/v1/bots/botify.json",
+  "use_cases": [],
+  "added_at": "2026-11-08T10:00:00.000Z",
+  "featured": {
+    "rank": 355,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

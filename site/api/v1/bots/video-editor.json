@@ -18,7 +18,7 @@
     "url": "https://x.com/john_a_isaacson/status/2107037040445661621"
   },
   "official_share_url": "https://x.ai/bot/TUBFpf9exUG-qi7RYKZLs",
-  "found_via": "https://grokbot101.org/bots/video-editor/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-25",
@@ -26,16 +26,19 @@
   "json_url": "https://moneywithai.net/api/v1/bots/video-editor.json",
   "use_cases": [
     "https://moneywithai.net/use-cases/podcast-production-service/",
-    "https://moneywithai.net/use-cases/faceless-youtube-channel/"
+    "https://moneywithai.net/use-cases/faceless-youtube-channel/",
+    "https://moneywithai.net/use-cases/explain-your-product-with-short-videos/",
+    "https://moneywithai.net/use-cases/turn-your-footage-into-promo-videos/",
+    "https://moneywithai.net/use-cases/make-fly-through-videos-for-listings/"
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 60,
-    "score": 90,
+    "rank": 35,
+    "score": 94,
     "money": 40,
     "profile": 24,
     "visuals": 20,
-    "difficulty": 6,
+    "difficulty": 10,
     "override": null,
     "rules": "https://moneywithai.net/llms.txt"
   }

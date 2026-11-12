@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "vision-pro-bot",
+  "name": "Vision Pro Bot",
+  "category": "Research and Ops",
+  "sub_use_case": "Product and engineering",
+  "summary": "Builds Apple Vision Pro apps in SwiftUI and RealityKit on your Mac, tests them in the simulator and sends screenshots as it goes.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Evan Bacon",
+    "url": "https://x.ai/bot/mLpMFiQGgnXgXpmi0eb7k"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/mLpMFiQGgnXgXpmi0eb7k"
+  },
+  "official_share_url": "https://x.ai/bot/mLpMFiQGgnXgXpmi0eb7k",
+  "found_via": "https://x.ai/bot/mLpMFiQGgnXgXpmi0eb7k",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/vision-pro-bot/",
+  "json_url": "https://moneywithai.net/api/v1/bots/vision-pro-bot.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 630,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "google-play",
+  "name": "Google Play",
+  "category": "Research and Ops",
+  "sub_use_case": "Product and engineering",
+  "summary": "Handles Google Play Console work: app records, store listings, data safety forms, subscriptions and testing tracks.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Christian Amechi",
+    "url": "https://x.ai/bot/ZPLL-JcuEjP7_vtM-TFyV"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/ZPLL-JcuEjP7_vtM-TFyV"
+  },
+  "official_share_url": "https://x.ai/bot/ZPLL-JcuEjP7_vtM-TFyV",
+  "found_via": "https://x.ai/bot/ZPLL-JcuEjP7_vtM-TFyV",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/google-play/",
+  "json_url": "https://moneywithai.net/api/v1/bots/google-play.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 455,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

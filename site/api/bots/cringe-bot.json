@@ -1,0 +1,30 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "cringe-bot",
+    "name": "Cringe Bot",
+    "category": "Research and Ops",
+    "sub_use_case": "Product and engineering",
+    "summary": "Tests your web app for anything that feels cheap, broken or confusing and reports up to five issues with screenshots.",
+    "tools": [
+      "Grok",
+      "Slack"
+    ],
+    "creator": {
+      "handle": "Claire",
+      "url": "https://x.ai/bot/OayZREvep4QIt3u8PNWdb"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/OayZREvep4QIt3u8PNWdb"
+    },
+    "official_share_url": "https://x.ai/bot/OayZREvep4QIt3u8PNWdb",
+    "found_via": "https://x.ai/bot/OayZREvep4QIt3u8PNWdb",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/cringe-bot/",
+    "json_url": "https://moneywithai.net/api/bots/cringe-bot.json"
+  }
+}

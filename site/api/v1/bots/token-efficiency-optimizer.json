@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "token-efficiency-optimizer",
+  "name": "Token Efficiency Optimizer",
+  "category": "Research and Ops",
+  "sub_use_case": "Team memory",
+  "summary": "Stops Grok Bot runs that waste usage before your plan resets, shows why and suggests cuts. Holds spend unless you say yes.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Eric Buess",
+    "url": "https://x.ai/bot/cp_nk3ftrAgaKbYONW6fa"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/cp_nk3ftrAgaKbYONW6fa"
+  },
+  "official_share_url": "https://x.ai/bot/cp_nk3ftrAgaKbYONW6fa",
+  "found_via": "https://x.ai/bot/cp_nk3ftrAgaKbYONW6fa",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/token-efficiency-optimizer/",
+  "json_url": "https://moneywithai.net/api/v1/bots/token-efficiency-optimizer.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 623,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

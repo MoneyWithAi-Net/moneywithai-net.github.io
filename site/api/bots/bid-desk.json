@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "bid-desk",
+    "name": "Bid Desk",
+    "category": "Research and Ops",
+    "sub_use_case": "Tender bids",
+    "summary": "Reads a government or nonprofit RFP and gives a quick bid or no-bid call with deadline and requirements, then finds similar openings.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Thuong P. Nguyen",
+      "url": "https://x.ai/bot/FQQtGnBeXfCT9sENlX0Ad"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/FQQtGnBeXfCT9sENlX0Ad"
+    },
+    "official_share_url": "https://x.ai/bot/FQQtGnBeXfCT9sENlX0Ad",
+    "found_via": "https://x.ai/bot/FQQtGnBeXfCT9sENlX0Ad",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/bid-desk/",
+    "json_url": "https://moneywithai.net/api/bots/bid-desk.json"
+  }
+}

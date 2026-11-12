@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "chief-of-staff-desk",
+    "name": "Chief of Staff Desk",
+    "category": "Research and Ops",
+    "sub_use_case": "Planning and projects",
+    "summary": "Runs a team of bots on a budget: tickets and budgets for each specialist, approval for outbound email and usage checks.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "James Bottom",
+      "url": "https://x.ai/bot/kcmEmRS4Z5YmFr_KRwSFL"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/kcmEmRS4Z5YmFr_KRwSFL"
+    },
+    "official_share_url": "https://x.ai/bot/kcmEmRS4Z5YmFr_KRwSFL",
+    "found_via": "https://x.ai/bot/kcmEmRS4Z5YmFr_KRwSFL",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/chief-of-staff-desk/",
+    "json_url": "https://moneywithai.net/api/bots/chief-of-staff-desk.json"
+  }
+}

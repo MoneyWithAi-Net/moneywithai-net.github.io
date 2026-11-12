@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "plan-to-3d",
+  "name": "Plan to 3D",
+  "category": "Client Services",
+  "sub_use_case": "Client delivery",
+  "summary": "Turns a flat floor plan, site plan or part drawing into a 3D model you can open and turn, with a preview image and rough quantities.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "krish1403",
+    "url": "https://x.com/krish1403"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/b8uZ_wfko_YxI-j8YPKAe"
+  },
+  "official_share_url": "https://x.ai/bot/b8uZ_wfko_YxI-j8YPKAe",
+  "found_via": "https://x.ai/bot/b8uZ_wfko_YxI-j8YPKAe",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/plan-to-3d/",
+  "json_url": "https://moneywithai.net/api/v1/bots/plan-to-3d.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/show-buyers-floor-plans-in-3d/"
+  ],
+  "added_at": "2026-10-31T15:00:00.000Z",
+  "featured": {
+    "rank": 103,
+    "score": 87,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

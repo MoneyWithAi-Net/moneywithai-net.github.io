@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "scribe",
+    "name": "Scribe",
+    "category": "Content and Marketing",
+    "sub_use_case": "SEO and AI search",
+    "summary": "Writes honest, search-friendly articles about your real project and runs a free article hub for them.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Slowfreeze.eth.sol.tez",
+      "url": "https://x.ai/bot/720sUKDBHmLpX8Ov4Ufrt"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/720sUKDBHmLpX8Ov4Ufrt"
+    },
+    "official_share_url": "https://x.ai/bot/720sUKDBHmLpX8Ov4Ufrt",
+    "found_via": "https://x.ai/bot/720sUKDBHmLpX8Ov4Ufrt",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/scribe/",
+    "json_url": "https://moneywithai.net/api/bots/scribe.json"
+  }
+}

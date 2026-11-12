@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "small-business-bookkeeper",
+  "name": "Small Business Bookkeeper",
+  "category": "Finance",
+  "sub_use_case": "Bookkeeping and reporting",
+  "summary": "Keeps your books current every day, logging receipts and bank and card activity and keeping tax worksheets ready, with nothing paid or filed without your yes.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "MarsHomestead",
+    "url": "https://x.com/MarsHomestead"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/MarsHomestead/status/2114777307084923290"
+  },
+  "official_share_url": "https://x.ai/bot/GsgpmqqJ4aUMtHBYZlDgJ",
+  "found_via": "https://x.com/MarsHomestead/status/2114777307084923290",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-29",
+  "url": "https://moneywithai.net/bots/small-business-bookkeeper/",
+  "json_url": "https://moneywithai.net/api/v1/bots/small-business-bookkeeper.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/tax-ready-books-all-year/"
+  ],
+  "added_at": "2026-10-29T10:00:00.000Z",
+  "featured": {
+    "rank": 189,
+    "score": 83,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

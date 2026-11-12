@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "sceneedit-video-studio",
+  "name": "SceneEdit Video Studio",
+  "category": "Content and Marketing",
+  "sub_use_case": "Video production",
+  "summary": "Builds or splits videos scene by scene with a storyboard and timeline, using FFmpeg and Remotion under the hood so you can fix one scene without redoing the whole cut.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "LisaMAUSA",
+    "url": "https://x.com/LisaMAUSA"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/KwsFpbtWxeYtdkg6F7U-T"
+  },
+  "official_share_url": "https://x.ai/bot/KwsFpbtWxeYtdkg6F7U-T",
+  "found_via": null,
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-11-07",
+  "url": "https://moneywithai.net/bots/sceneedit-video-studio/",
+  "json_url": "https://moneywithai.net/api/v1/bots/sceneedit-video-studio.json",
+  "use_cases": [],
+  "added_at": "2026-11-07T10:00:00.000Z",
+  "featured": {
+    "rank": 575,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

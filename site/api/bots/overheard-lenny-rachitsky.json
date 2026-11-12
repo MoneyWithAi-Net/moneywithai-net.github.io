@@ -1,0 +1,32 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "overheard-lenny-rachitsky",
+    "name": "Overheard",
+    "category": "Customer Support",
+    "sub_use_case": "Feedback watch",
+    "summary": "Watches Reddit, Hacker News, news sites and X for mentions of your name, brand and site, and sends a short weekday report.",
+    "tools": [
+      "Grok",
+      "Hacker News",
+      "Reddit",
+      "X"
+    ],
+    "creator": {
+      "handle": "Lenny Rachitsky",
+      "url": "https://x.ai/bot/NIEguoGUjA648fUPle8F5"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/NIEguoGUjA648fUPle8F5"
+    },
+    "official_share_url": "https://x.ai/bot/NIEguoGUjA648fUPle8F5",
+    "found_via": "https://x.ai/bot/NIEguoGUjA648fUPle8F5",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/overheard-lenny-rachitsky/",
+    "json_url": "https://moneywithai.net/api/bots/overheard-lenny-rachitsky.json"
+  }
+}

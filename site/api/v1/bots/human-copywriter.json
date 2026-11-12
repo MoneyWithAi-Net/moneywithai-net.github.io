@@ -10,7 +10,7 @@
   ],
   "creator": {
     "handle": "massimodeluisa",
-    "url": "https://botdirectory.ai/bots/human-copywriter/"
+    "url": null
   },
   "scouted_by": null,
   "source": {
@@ -18,7 +18,7 @@
     "url": "https://x.ai/bot/JZAccYtlRFvDSU2CnMnkZ"
   },
   "official_share_url": "https://x.ai/bot/JZAccYtlRFvDSU2CnMnkZ",
-  "found_via": "https://botdirectory.ai/bots/human-copywriter/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-25",
@@ -31,10 +31,10 @@
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 19,
-    "score": 96,
+    "rank": 63,
+    "score": 90,
     "money": 40,
-    "profile": 30,
+    "profile": 24,
     "visuals": 20,
     "difficulty": 6,
     "override": null,

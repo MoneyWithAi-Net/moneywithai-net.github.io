@@ -1,0 +1,42 @@
+{
+  "type": "bot",
+  "slug": "product-cataloger",
+  "name": "Product Cataloger",
+  "category": "E-Commerce",
+  "sub_use_case": "Product listings and creative",
+  "summary": "Gives you a print-ready product catalog for buyers, built from your photos, files or site, with SKUs, prices and stock on every item.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "JennyMarquis",
+    "url": "https://x.com/JennyMarquis"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/JennyMarquis/status/2115009481209774308"
+  },
+  "official_share_url": "https://x.ai/bot/yuRd3EvmDuoGYSr5_Tjz7",
+  "found_via": "https://x.com/JennyMarquis/status/2115009481209774308",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-29",
+  "url": "https://moneywithai.net/bots/product-cataloger/",
+  "json_url": "https://moneywithai.net/api/v1/bots/product-cataloger.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/send-buyers-a-product-catalog/",
+    "https://moneywithai.net/use-cases/price-products-from-real-costs/"
+  ],
+  "added_at": "2026-10-29T10:00:00.000Z",
+  "featured": {
+    "rank": 106,
+    "score": 87,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "type": "use-case",
   "slug": "thrift-flips-on-ebay",
-  "title": "Flip Thrift Finds on eBay",
+  "title": "Draft eBay Listings for Your Resale Shop",
   "category": "E-Commerce",
   "category_slug": "e-commerce",
   "money_model": "Sell a service",
@@ -13,7 +13,7 @@
     "label": "Low",
     "basis": "Assumes small margins per item; income grows with how many items you source and list.",
     "claim_label": "E",
-    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
   },
   "how_it_makes_money": [
     "You list more items per hour.",
@@ -84,7 +84,7 @@
   "claims": [],
   "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
   "featured": {
-    "rank": 129,
+    "rank": 173,
     "score": 63,
     "money": 13,
     "profile": 20,

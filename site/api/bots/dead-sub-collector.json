@@ -1,0 +1,30 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "dead-sub-collector",
+    "name": "Dead Sub Collector",
+    "category": "Finance",
+    "sub_use_case": "SaaS spend",
+    "summary": "Cuts money lost on subscriptions nobody uses: it finds paid plans in your email, watches renewal prices and stops trials before they bill, with your OK.",
+    "tools": [
+      "Grok",
+      "Email"
+    ],
+    "creator": {
+      "handle": "gabe_onchain",
+      "url": "https://x.com/gabe_onchain"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/gabe_onchain/status/2115860971499520184"
+    },
+    "official_share_url": "https://x.ai/bot/P7RkT4hBvTqjKccyfyyiR",
+    "found_via": null,
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-11-01",
+    "url": "https://moneywithai.net/bots/dead-sub-collector/",
+    "json_url": "https://moneywithai.net/api/bots/dead-sub-collector.json"
+  }
+}

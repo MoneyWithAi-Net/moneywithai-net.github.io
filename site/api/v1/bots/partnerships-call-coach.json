@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "partnerships-call-coach",
+  "name": "Partnerships Call Coach",
+  "category": "Leads and Sales",
+  "sub_use_case": "Sales-call support",
+  "summary": "Reviews real partnership, sponsor and discovery call transcripts and gives coaching on what landed, what to tighten and better phrasing.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Jenna Nanpei",
+    "url": "https://x.ai/bot/PlsyvUb0KnHIQr6psoy0L"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/PlsyvUb0KnHIQr6psoy0L"
+  },
+  "official_share_url": "https://x.ai/bot/PlsyvUb0KnHIQr6psoy0L",
+  "found_via": "https://x.ai/bot/PlsyvUb0KnHIQr6psoy0L",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/partnerships-call-coach/",
+  "json_url": "https://moneywithai.net/api/v1/bots/partnerships-call-coach.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 536,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

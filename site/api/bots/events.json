@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "events",
+    "name": "Events",
+    "category": "E-Commerce",
+    "sub_use_case": "Store operations",
+    "summary": "For sellers at markets and pop-ups: builds pack lists before a show and logs sales after, so your stock file stays right.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Richard",
+      "url": "https://x.ai/bot/VnfgvYJ-G58ZjwfvijWOy"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/VnfgvYJ-G58ZjwfvijWOy"
+    },
+    "official_share_url": "https://x.ai/bot/VnfgvYJ-G58ZjwfvijWOy",
+    "found_via": "https://x.ai/bot/VnfgvYJ-G58ZjwfvijWOy",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/events/",
+    "json_url": "https://moneywithai.net/api/bots/events.json"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "intake-desk",
+  "name": "Intake Desk",
+  "category": "Research and Ops",
+  "sub_use_case": "Inbox triage",
+  "summary": "Paste the requests, leads and jobs coming in from everywhere and get one sorted queue with a next step for each.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "aaron creech",
+    "url": "https://x.ai/bot/in_PtzvudSXOJ178cNxv0"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/in_PtzvudSXOJ178cNxv0"
+  },
+  "official_share_url": "https://x.ai/bot/in_PtzvudSXOJ178cNxv0",
+  "found_via": "https://x.ai/bot/in_PtzvudSXOJ178cNxv0",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/intake-desk/",
+  "json_url": "https://moneywithai.net/api/v1/bots/intake-desk.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 483,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

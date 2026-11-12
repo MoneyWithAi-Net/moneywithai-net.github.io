@@ -1,0 +1,30 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "x-ops-expert",
+    "name": "X Ops Expert",
+    "category": "Content and Marketing",
+    "sub_use_case": "X posting",
+    "summary": "Daily X growth help for builders: a review, a topic bank and drafts that post only after you approve.",
+    "tools": [
+      "Grok",
+      "X"
+    ],
+    "creator": {
+      "handle": "@mlangXie",
+      "url": "https://x.ai/bot/fePZGiWiTZP9n4BoKIlMY"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/fePZGiWiTZP9n4BoKIlMY"
+    },
+    "official_share_url": "https://x.ai/bot/fePZGiWiTZP9n4BoKIlMY",
+    "found_via": "https://x.ai/bot/fePZGiWiTZP9n4BoKIlMY",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/x-ops-expert/",
+    "json_url": "https://moneywithai.net/api/bots/x-ops-expert.json"
+  }
+}

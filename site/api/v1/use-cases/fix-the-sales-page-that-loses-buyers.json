@@ -1,0 +1,137 @@
+{
+  "type": "use-case",
+  "slug": "fix-the-sales-page-that-loses-buyers",
+  "title": "Fix the Sales Page That Loses Buyers",
+  "category": "Leads and Sales",
+  "category_slug": "leads-and-sales",
+  "money_model": "Grow sales",
+  "difficulty": "Beginner",
+  "summary": "Find the exact line where visitors stop trusting your sales page, fix that one thing first and check the page again before you spend more on traffic.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Assumes the page already gets visitors; value comes from more of them buying, not from new traffic.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "More of the visitors you already have turn into buyers.",
+    "You stop paying for traffic that lands on a page with a known leak."
+  ],
+  "who_its_for": [
+    "Owners with an offer page that gets visits but few sales.",
+    "Consultants and coaches who sell online."
+  ],
+  "stack": [
+    {
+      "bot": "the-walk-away",
+      "name": "The Walk-Away",
+      "role": "Reads the page as a stranger would and names the line where a buyer would leave, with the smallest fix.",
+      "creator": "TheReal_BCM",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/the-walk-away/",
+      "official_share_url": "https://x.ai/bot/cb34ecnMyLJcYBG6F40CE"
+    },
+    {
+      "bot": "fresh-eyes-product-auditor",
+      "name": "Fresh Eyes Product Auditor",
+      "role": "Walks the site as a first-time customer and ranks the biggest usability fixes.",
+      "creator": "Evoputa",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/fresh-eyes-product-auditor/",
+      "official_share_url": "https://x.ai/bot/jASNu2J_6nCtKvKf4v_Sd"
+    },
+    {
+      "bot": "site-audit",
+      "name": "Site Audit",
+      "role": "Scores the page on speed, content and conversion basics so slow loads or broken parts do not hide the real issue.",
+      "creator": "scheemunai",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/site-audit/",
+      "official_share_url": "https://x.ai/bot/s6JVFYDIDMsCQMBeTcznW"
+    }
+  ],
+  "tools": [
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Your live sales page",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "the-walk-away",
+        "name": "The Walk-Away",
+        "does": "Names the line where a buyer would leave",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "fresh-eyes-product-auditor",
+        "name": "Fresh Eyes Product Auditor",
+        "does": "Ranks usability fixes",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "site-audit",
+        "name": "Site Audit",
+        "does": "Checks speed and conversion basics",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "you",
+        "name": "You",
+        "does": "Make one change and review again",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "One clear fix to try first",
+      "A page more visitors buy from"
+    ]
+  },
+  "steps": [
+    "Run the page through a stranger-eyes review and note the line it flags.",
+    "Walk the whole buying path as a new customer.",
+    "Check speed and basics.",
+    "Make one change, then review the page again."
+  ],
+  "guardrails": [
+    "Never add claims, reviews or numbers you cannot back up.",
+    "Change one thing at a time so you know what worked."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-30T10:00:00.000Z",
+  "featured": {
+    "rank": 137,
+    "score": 69,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/fix-the-sales-page-that-loses-buyers/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/fix-the-sales-page-that-loses-buyers.json"
+}

@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "chief",
+  "name": "Chief",
+  "category": "Research and Ops",
+  "sub_use_case": "Inbox triage",
+  "summary": "Scans email and calendar every weekday morning, archives junk, drafts replies it never sends and hands you a short brief.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "SmoresBoy Jack",
+    "url": "https://x.ai/bot/QIfSY8pPwjqBSIdal-5CI"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/QIfSY8pPwjqBSIdal-5CI"
+  },
+  "official_share_url": "https://x.ai/bot/QIfSY8pPwjqBSIdal-5CI",
+  "found_via": "https://x.ai/bot/QIfSY8pPwjqBSIdal-5CI",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/chief/",
+  "json_url": "https://moneywithai.net/api/v1/bots/chief.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 365,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

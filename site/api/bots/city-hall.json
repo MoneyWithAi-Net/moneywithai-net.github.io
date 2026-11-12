@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "city-hall",
+    "name": "CITY HALL",
+    "category": "Research and Ops",
+    "sub_use_case": "Construction office",
+    "summary": "Pulls permits, inspections, zoning, building codes and business licenses from city websites for contractors and property owners.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "John Christian",
+      "url": "https://x.ai/bot/j8YX4im_bz4a5L75BYhWe"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/j8YX4im_bz4a5L75BYhWe"
+    },
+    "official_share_url": "https://x.ai/bot/j8YX4im_bz4a5L75BYhWe",
+    "found_via": "https://x.ai/bot/j8YX4im_bz4a5L75BYhWe",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/city-hall/",
+    "json_url": "https://moneywithai.net/api/bots/city-hall.json"
+  }
+}

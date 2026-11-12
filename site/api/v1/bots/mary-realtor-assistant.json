@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "mary-realtor-assistant",
+  "name": "Mary (Realtor Assistant)",
+  "category": "Leads and Sales",
+  "sub_use_case": "Real estate leads",
+  "summary": "Helps US real estate agents track license renewals, draft lead follow-ups and prepare listings, CMAs, showings and deal timelines.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Rick",
+    "url": "https://x.ai/bot/eQ4tLI6SMBanz6rovfhyV"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/eQ4tLI6SMBanz6rovfhyV"
+  },
+  "official_share_url": "https://x.ai/bot/eQ4tLI6SMBanz6rovfhyV",
+  "found_via": "https://x.ai/bot/eQ4tLI6SMBanz6rovfhyV",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/mary-realtor-assistant/",
+  "json_url": "https://moneywithai.net/api/v1/bots/mary-realtor-assistant.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 506,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

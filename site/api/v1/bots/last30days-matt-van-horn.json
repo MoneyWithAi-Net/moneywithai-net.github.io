@@ -1,0 +1,44 @@
+{
+  "type": "bot",
+  "slug": "last30days-matt-van-horn",
+  "name": "last30days",
+  "category": "Research and Ops",
+  "sub_use_case": "Market notes",
+  "summary": "Researches what people have said about any topic over the last 30 days across the web, using the open-source last30days skill.",
+  "tools": [
+    "Grok",
+    "Hacker News",
+    "YouTube",
+    "TikTok",
+    "Reddit",
+    "GitHub"
+  ],
+  "creator": {
+    "handle": "Matt Van Horn",
+    "url": "https://x.ai/bot/TxB-fy1KryaYJLYWBcGtT"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/TxB-fy1KryaYJLYWBcGtT"
+  },
+  "official_share_url": "https://x.ai/bot/TxB-fy1KryaYJLYWBcGtT",
+  "found_via": "https://x.ai/bot/TxB-fy1KryaYJLYWBcGtT",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/last30days-matt-van-horn/",
+  "json_url": "https://moneywithai.net/api/v1/bots/last30days-matt-van-horn.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 487,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

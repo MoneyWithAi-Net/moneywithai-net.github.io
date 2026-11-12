@@ -1,0 +1,128 @@
+{
+  "type": "use-case",
+  "slug": "find-storm-damaged-roofs-first",
+  "title": "Find Storm-Damaged Roofs Before You Knock",
+  "category": "Leads and Sales",
+  "category_slug": "leads-and-sales",
+  "money_model": "Grow sales",
+  "difficulty": "Beginner",
+  "summary": "After a hail or wind storm, get a ranked list of nearby homes most likely to need roof work, with the storm evidence attached, and follow up every quote you send.",
+  "money_potential": {
+    "tier": 3,
+    "symbol": "$$$",
+    "label": "High",
+    "basis": "Assumes you already sell roof repairs; the value is visits that turn into jobs, which depends on the storm season.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Less time driving streets that took no damage.",
+    "Inspections booked from evidence, not guesses."
+  ],
+  "who_its_for": [
+    "Roofing contractors who work storm areas.",
+    "Exterior and gutter companies."
+  ],
+  "stack": [
+    {
+      "bot": "roof-radar",
+      "name": "Roof Radar",
+      "role": "Ranks nearby homes from public storm reports and building footprints, with the evidence for each lead.",
+      "creator": "SacredFolio",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/roof-radar/",
+      "official_share_url": "https://x.ai/bot/nuv1bSb5V15XZeFnu5BwF"
+    },
+    {
+      "bot": "quote-follow-up-sequence",
+      "name": "Quote Follow Up Sequence",
+      "role": "Sends quote follow-ups on a set schedule until the homeowner replies.",
+      "creator": "43 Sunsets",
+      "tools": [
+        "n8n",
+        "Gmail",
+        "Google Sheets"
+      ],
+      "url": "https://moneywithai.net/bots/quote-follow-up-sequence/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Grok",
+    "n8n",
+    "Gmail",
+    "Google Sheets"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Public storm reports",
+        "tool": null
+      },
+      {
+        "label": "Your service area",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "roof-radar",
+        "name": "Roof Radar",
+        "does": "Ranks homes likely to need roof work",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "you",
+        "name": "You",
+        "does": "Inspect and quote real damage",
+        "tools": []
+      },
+      {
+        "order": 3,
+        "by": "quote-follow-up-sequence",
+        "name": "Quote Follow Up Sequence",
+        "does": "Follows up until the homeowner replies",
+        "tools": [
+          "n8n",
+          "Gmail",
+          "Google Sheets"
+        ]
+      }
+    ],
+    "outputs": [
+      "A ranked storm lead list",
+      "Quotes followed up on time"
+    ]
+  },
+  "steps": [
+    "Set your service area and the storm dates.",
+    "Review the ranked list and plan visits from the top.",
+    "Inspect, photograph and quote only real damage.",
+    "Let the follow-ups run on every quote you send."
+  ],
+  "guardrails": [
+    "Never claim damage you have not inspected.",
+    "Follow local rules on door-to-door sales and calls."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-31T15:00:00.000Z",
+  "featured": {
+    "rank": 1,
+    "score": 96,
+    "money": 40,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/find-storm-damaged-roofs-first/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/find-storm-damaged-roofs-first.json"
+}

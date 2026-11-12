@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "small-business-bookkeeper",
+    "name": "Small Business Bookkeeper",
+    "category": "Finance",
+    "sub_use_case": "Bookkeeping and reporting",
+    "summary": "Keeps your books current every day, logging receipts and bank and card activity and keeping tax worksheets ready, with nothing paid or filed without your yes.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "MarsHomestead",
+      "url": "https://x.com/MarsHomestead"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/MarsHomestead/status/2114777307084923290"
+    },
+    "official_share_url": "https://x.ai/bot/GsgpmqqJ4aUMtHBYZlDgJ",
+    "found_via": "https://x.com/MarsHomestead/status/2114777307084923290",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-29",
+    "url": "https://moneywithai.net/bots/small-business-bookkeeper/",
+    "json_url": "https://moneywithai.net/api/bots/small-business-bookkeeper.json"
+  }
+}

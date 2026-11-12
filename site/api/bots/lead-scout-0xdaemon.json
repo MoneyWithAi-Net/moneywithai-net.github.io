@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "lead-scout-0xdaemon",
+    "name": "Lead Scout",
+    "category": "Leads and Sales",
+    "sub_use_case": "No-website prospects",
+    "summary": "Finds local businesses with missing or outdated websites, audits them with screenshots and Lighthouse, and sends web designers a weekly lead list.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "0xDaemon",
+      "url": "https://x.ai/bot/2bFnH8zBwS5Nj4R-5Wfcr"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/2bFnH8zBwS5Nj4R-5Wfcr"
+    },
+    "official_share_url": "https://x.ai/bot/2bFnH8zBwS5Nj4R-5Wfcr",
+    "found_via": "https://x.ai/bot/2bFnH8zBwS5Nj4R-5Wfcr",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/lead-scout-0xdaemon/",
+    "json_url": "https://moneywithai.net/api/bots/lead-scout-0xdaemon.json"
+  }
+}

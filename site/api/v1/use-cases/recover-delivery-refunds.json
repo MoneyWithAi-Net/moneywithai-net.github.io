@@ -1,7 +1,7 @@
 {
   "type": "use-case",
   "slug": "recover-delivery-refunds",
-  "title": "Recover Money Lost on Delivery Orders",
+  "title": "Catch Delivery App Refund Errors",
   "category": "Finance",
   "category_slug": "finance",
   "money_model": "Recover money",
@@ -13,10 +13,10 @@
     "label": "Low",
     "basis": "Recovers money owed to you; the amount depends on your order volume and error rate.",
     "claim_label": "E",
-    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
   },
   "how_it_makes_money": [
-    "Money the platforms owe you comes back.",
+    "Refund errors get caught and filed instead of missed.",
     "A daily digest replaces manual portal checks."
   ],
   "who_its_for": [
@@ -70,7 +70,7 @@
     ],
     "outputs": [
       "Refund requests filed",
-      "Money back from platforms"
+      "Refunds credited by platforms"
     ]
   },
   "steps": [
@@ -84,7 +84,7 @@
   "claims": [],
   "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
   "featured": {
-    "rank": 130,
+    "rank": 172,
     "score": 63,
     "money": 13,
     "profile": 20,

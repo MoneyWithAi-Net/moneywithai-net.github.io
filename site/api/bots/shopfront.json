@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "shopfront",
+    "name": "ShopFront",
+    "category": "Content and Marketing",
+    "sub_use_case": "Local SEO content",
+    "summary": "Gets a business with no website online the same day: answer a few questions and it publishes a one-page site with your services, phone and contact form.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Tyler Patrick",
+      "url": null
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/L6N9ujxhoOOugsju42J9S"
+    },
+    "official_share_url": "https://x.ai/bot/L6N9ujxhoOOugsju42J9S",
+    "found_via": null,
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-11-01",
+    "url": "https://moneywithai.net/bots/shopfront/",
+    "json_url": "https://moneywithai.net/api/bots/shopfront.json"
+  }
+}

@@ -12,13 +12,13 @@
     "handle": "HouseHackerJon",
     "url": "https://x.com/HouseHackerJon"
   },
-  "scouted_by": "elie2222",
+  "scouted_by": null,
   "source": {
     "kind": "x",
     "url": "https://x.com/HouseHackerJon/status/2088305236003926468"
   },
   "official_share_url": null,
-  "found_via": "https://botdirectory.ai/bots/content-planner-manager/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-24",
@@ -29,7 +29,7 @@
   ],
   "added_at": "2026-10-24T08:00:00.000Z",
   "featured": {
-    "rank": 39,
+    "rank": 44,
     "score": 92,
     "money": 40,
     "profile": 26,

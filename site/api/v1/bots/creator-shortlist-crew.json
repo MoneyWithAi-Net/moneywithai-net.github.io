@@ -10,7 +10,7 @@
   ],
   "creator": {
     "handle": "Treg team",
-    "url": "https://botdirectory.ai/bots/creator-shortlist-crew/"
+    "url": null
   },
   "scouted_by": null,
   "source": {
@@ -18,7 +18,7 @@
     "url": "https://x.ai/bot/6IU2bm7uuSPk6ETC-gC4D"
   },
   "official_share_url": "https://x.ai/bot/6IU2bm7uuSPk6ETC-gC4D",
-  "found_via": "https://botdirectory.ai/bots/creator-shortlist-crew/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-25",
@@ -29,10 +29,10 @@
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 150,
-    "score": 83,
+    "rank": 258,
+    "score": 77,
     "money": 27,
-    "profile": 30,
+    "profile": 24,
     "visuals": 20,
     "difficulty": 6,
     "override": null,

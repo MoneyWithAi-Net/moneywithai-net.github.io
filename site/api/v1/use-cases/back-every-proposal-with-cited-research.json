@@ -1,0 +1,137 @@
+{
+  "type": "use-case",
+  "slug": "back-every-proposal-with-cited-research",
+  "title": "Back Every Proposal with Cited Research",
+  "category": "Client Services",
+  "category_slug": "client-services",
+  "money_model": "Grow sales",
+  "difficulty": "Beginner",
+  "summary": "Put sourced facts behind every proposal and client brief, with the opinion kept apart, so clients trust the numbers and you spend less time digging.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you write proposals or client briefs; the value is research time saved and claims clients can check.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Proposals with sources are easier for clients to say yes to.",
+    "Less unpaid time spent researching before a pitch."
+  ],
+  "who_its_for": [
+    "Consultants and agencies that write proposals.",
+    "Founders who pitch partners or investors."
+  ],
+  "stack": [
+    {
+      "bot": "research-andrewkittridge",
+      "name": "Research",
+      "role": "Finds primary sources and keeps facts apart from interpretation.",
+      "creator": "andrewkittridge",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/research-andrewkittridge/",
+      "official_share_url": "https://x.ai/bot/Q6NiveEqmhIiYir_ZQG-4"
+    },
+    {
+      "bot": "researchy",
+      "name": "Researchy",
+      "role": "Fact-checks claims with live web search and dated sources.",
+      "creator": "Farzad",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/researchy/",
+      "official_share_url": "https://x.ai/bot/i2hvaEONDg6_gEF5C9RlK"
+    },
+    {
+      "bot": "text-cleanup",
+      "name": "Text-cleanup",
+      "role": "Turns your rough notes into one clean section in your tone.",
+      "creator": "GrokBotGod",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/text-cleanup/",
+      "official_share_url": "https://x.ai/bot/E3h6k-Sbq7hwF3PW1ZBI4"
+    }
+  ],
+  "tools": [
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Questions the proposal must answer",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "research-andrewkittridge",
+        "name": "Research",
+        "does": "Finds primary sources",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "researchy",
+        "name": "Researchy",
+        "does": "Fact-checks claims with dates",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "text-cleanup",
+        "name": "Text-cleanup",
+        "does": "Writes one clean section",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "you",
+        "name": "You",
+        "does": "Check sources and send",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A sourced proposal section",
+      "Less research time"
+    ]
+  },
+  "steps": [
+    "List the questions the proposal has to answer.",
+    "Get primary sources for each one.",
+    "Fact-check every number you plan to quote.",
+    "Clean up the section and send it yourself."
+  ],
+  "guardrails": [
+    "Open every source you quote.",
+    "Keep client names out of research questions unless your agreement allows it."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-11-01T10:00:00.000Z",
+  "featured": {
+    "rank": 30,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/back-every-proposal-with-cited-research/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/back-every-proposal-with-cited-research.json"
+}

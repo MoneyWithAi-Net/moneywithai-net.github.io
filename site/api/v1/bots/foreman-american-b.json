@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "foreman-american-b",
+  "name": "Foreman",
+  "category": "Content and Marketing",
+  "sub_use_case": "Copy and creative",
+  "summary": "Turns a rough idea into a social post pack: a hook, three plain post options, an image prompt, a backup angle and a list of things to avoid.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "American™ B",
+    "url": "https://x.ai/bot/FjaItlOeqggdXOLQ1luOk"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/FjaItlOeqggdXOLQ1luOk"
+  },
+  "official_share_url": "https://x.ai/bot/FjaItlOeqggdXOLQ1luOk",
+  "found_via": "https://x.ai/bot/FjaItlOeqggdXOLQ1luOk",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/foreman-american-b/",
+  "json_url": "https://moneywithai.net/api/v1/bots/foreman-american-b.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 445,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

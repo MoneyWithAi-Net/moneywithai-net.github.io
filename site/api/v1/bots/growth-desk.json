@@ -10,7 +10,7 @@
   ],
   "creator": {
     "handle": "Avid",
-    "url": "https://botdirectory.ai/bots/growth-desk/"
+    "url": null
   },
   "scouted_by": null,
   "source": {
@@ -18,7 +18,7 @@
     "url": "https://x.ai/bot/YYCOE-YeGxnGLb4Mbv7dO"
   },
   "official_share_url": "https://x.ai/bot/YYCOE-YeGxnGLb4Mbv7dO",
-  "found_via": "https://botdirectory.ai/bots/growth-desk/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-25",
@@ -27,10 +27,10 @@
   "use_cases": [],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 278,
-    "score": 40,
+    "rank": 670,
+    "score": 34,
     "money": 0,
-    "profile": 30,
+    "profile": 24,
     "visuals": 10,
     "difficulty": 0,
     "override": null,

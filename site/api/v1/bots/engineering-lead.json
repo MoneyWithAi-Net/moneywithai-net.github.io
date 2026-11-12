@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "engineering-lead",
+  "name": "Engineering Lead",
+  "category": "Research and Ops",
+  "sub_use_case": "Product and engineering",
+  "summary": "An engineering lead that splits work across cloud agents, chases CI and reviews, and pings you only when something is blocked or ready.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Lauren Tan",
+    "url": "https://x.ai/bot/Ks3X7JpD-6I86s3zkJFRh"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/Ks3X7JpD-6I86s3zkJFRh"
+  },
+  "official_share_url": "https://x.ai/bot/Ks3X7JpD-6I86s3zkJFRh",
+  "found_via": "https://x.ai/bot/Ks3X7JpD-6I86s3zkJFRh",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/engineering-lead/",
+  "json_url": "https://moneywithai.net/api/v1/bots/engineering-lead.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 429,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

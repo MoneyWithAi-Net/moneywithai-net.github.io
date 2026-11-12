@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "gtm-account-research",
+    "name": "GTM Account Research",
+    "category": "Leads and Sales",
+    "sub_use_case": "Sales-call support",
+    "summary": "Researches one account before a meeting or deal review: recent changes, key people, past contact and open questions, with sources.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Stefan Markarian",
+      "url": "https://x.ai/bot/B6nsTFJlkGP4R-BbdIzeV"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/B6nsTFJlkGP4R-BbdIzeV"
+    },
+    "official_share_url": "https://x.ai/bot/B6nsTFJlkGP4R-BbdIzeV",
+    "found_via": "https://x.ai/bot/B6nsTFJlkGP4R-BbdIzeV",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/gtm-account-research/",
+    "json_url": "https://moneywithai.net/api/bots/gtm-account-research.json"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "bot-optomizer",
+    "name": "Bot Optomizer",
+    "category": "Research and Ops",
+    "sub_use_case": "Team memory",
+    "summary": "Audits your Grok Bots for empty checks, retry loops, bloated chats and idle or duplicate bots, and ranks the fixes.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Brian",
+      "url": "https://x.ai/bot/Dje9IjmShPDhZYsGfDnTw"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/Dje9IjmShPDhZYsGfDnTw"
+    },
+    "official_share_url": "https://x.ai/bot/Dje9IjmShPDhZYsGfDnTw",
+    "found_via": "https://x.ai/bot/Dje9IjmShPDhZYsGfDnTw",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/bot-optomizer/",
+    "json_url": "https://moneywithai.net/api/bots/bot-optomizer.json"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "mlo-toolbox",
+    "name": "MLO Toolbox",
+    "category": "Client Services",
+    "sub_use_case": "Client delivery",
+    "summary": "Generates gift letters, explanation letters and pre-approval documents for mortgage loan officers as signable PDFs on your letterhead.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Remy",
+      "url": "https://x.ai/bot/WjN2P4BH04i5JKuKjXqTA"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/WjN2P4BH04i5JKuKjXqTA"
+    },
+    "official_share_url": "https://x.ai/bot/WjN2P4BH04i5JKuKjXqTA",
+    "found_via": "https://x.ai/bot/WjN2P4BH04i5JKuKjXqTA",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/mlo-toolbox/",
+    "json_url": "https://moneywithai.net/api/bots/mlo-toolbox.json"
+  }
+}

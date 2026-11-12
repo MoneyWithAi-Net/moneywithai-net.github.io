@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "os-ontology-stack",
+  "name": "OS: Ontology Stack",
+  "category": "Research and Ops",
+  "sub_use_case": "Planning and projects",
+  "summary": "Builds a working model of your company's projects, people and processes to find bottlenecks and suggest fixes.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Damiano Redemagni",
+    "url": "https://x.ai/bot/9Uh8RaBqp6PrcOcZjMHbD"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/9Uh8RaBqp6PrcOcZjMHbD"
+  },
+  "official_share_url": "https://x.ai/bot/9Uh8RaBqp6PrcOcZjMHbD",
+  "found_via": "https://x.ai/bot/9Uh8RaBqp6PrcOcZjMHbD",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/os-ontology-stack/",
+  "json_url": "https://moneywithai.net/api/v1/bots/os-ontology-stack.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 530,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

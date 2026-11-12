@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "lockdown",
+    "name": "Lockdown",
+    "category": "Research and Ops",
+    "sub_use_case": "Compliance and admin",
+    "summary": "Checks your SOC 2 program every weekday, escalates failing controls and open vulnerabilities, and stays quiet when all is clear.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Claire",
+      "url": "https://x.ai/bot/P1LmE76VG38Ui-XCmzAZE"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/P1LmE76VG38Ui-XCmzAZE"
+    },
+    "official_share_url": "https://x.ai/bot/P1LmE76VG38Ui-XCmzAZE",
+    "found_via": "https://x.ai/bot/P1LmE76VG38Ui-XCmzAZE",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/lockdown/",
+    "json_url": "https://moneywithai.net/api/bots/lockdown.json"
+  }
+}

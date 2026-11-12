@@ -18,18 +18,20 @@
     "url": "https://x.com/thesoragirls/status/2093420118487310516"
   },
   "official_share_url": "https://x.ai/bot/ozEfaAFJMDGoB-ysym8_V",
-  "found_via": "https://botdirectory.ai/bots/clipper/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-25",
   "url": "https://moneywithai.net/bots/clipper/",
   "json_url": "https://moneywithai.net/api/v1/bots/clipper.json",
   "use_cases": [
-    "https://moneywithai.net/use-cases/short-form-clipping-agency/"
+    "https://moneywithai.net/use-cases/short-form-clipping-agency/",
+    "https://moneywithai.net/use-cases/explain-your-product-with-short-videos/",
+    "https://moneywithai.net/use-cases/turn-your-footage-into-promo-videos/"
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 72,
+    "rank": 75,
     "score": 87,
     "money": 27,
     "profile": 30,

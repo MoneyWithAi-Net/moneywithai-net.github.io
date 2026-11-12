@@ -10,15 +10,15 @@
   ],
   "creator": {
     "handle": "alnandr",
-    "url": "https://botdirectory.ai/bots/salesforce-administrator/"
+    "url": null
   },
   "scouted_by": null,
   "source": {
     "kind": "web",
-    "url": "https://botdirectory.ai/bots/salesforce-administrator/"
+    "url": "https://moneywithai.net/bots/salesforce-administrator/"
   },
   "official_share_url": null,
-  "found_via": "https://botdirectory.ai/bots/salesforce-administrator/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-25",
@@ -27,10 +27,10 @@
   "use_cases": [],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 301,
-    "score": 36,
+    "rank": 675,
+    "score": 30,
     "money": 0,
-    "profile": 26,
+    "profile": 20,
     "visuals": 10,
     "difficulty": 0,
     "override": null,

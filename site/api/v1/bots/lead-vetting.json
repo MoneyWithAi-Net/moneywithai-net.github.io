@@ -19,7 +19,7 @@
     "url": "https://x.com/anzevoje/status/2102299536513245605"
   },
   "official_share_url": "https://x.ai/bot/eEfAacXdtzHANV5hVhG6o",
-  "found_via": "https://grokbot101.org/bots/lead-vetting/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-24",
@@ -32,7 +32,7 @@
   ],
   "added_at": "2026-10-24T09:30:00.000Z",
   "featured": {
-    "rank": 84,
+    "rank": 97,
     "score": 87,
     "money": 27,
     "profile": 30,

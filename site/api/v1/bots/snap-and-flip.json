@@ -1,0 +1,40 @@
+{
+  "type": "bot",
+  "slug": "snap-and-flip",
+  "name": "Snap & Flip",
+  "category": "E-Commerce",
+  "sub_use_case": "Resale listings",
+  "summary": "Prices resale finds from real sold listings: snap a photo and get eBay sold comps, shipping picks and a ready 80-character title. It never lists for you.",
+  "tools": [
+    "Grok",
+    "eBay"
+  ],
+  "creator": {
+    "handle": "LisaMAUSA",
+    "url": "https://x.com/LisaMAUSA"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/Gc9F_A9k2bFnWAgYNP3-z"
+  },
+  "official_share_url": "https://x.ai/bot/Gc9F_A9k2bFnWAgYNP3-z",
+  "found_via": null,
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-11-08",
+  "url": "https://moneywithai.net/bots/snap-and-flip/",
+  "json_url": "https://moneywithai.net/api/v1/bots/snap-and-flip.json",
+  "use_cases": [],
+  "added_at": "2026-11-08T10:00:00.000Z",
+  "featured": {
+    "rank": 595,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

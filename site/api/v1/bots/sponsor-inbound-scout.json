@@ -18,7 +18,7 @@
     "url": "https://x.com/startupideaspod/status/2091213765203435772"
   },
   "official_share_url": null,
-  "found_via": "https://botdirectory.ai/bots/sponsor-inbound-scout/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-25",
@@ -27,11 +27,12 @@
   "use_cases": [
     "https://moneywithai.net/use-cases/creator-sponsor-sales-desk/",
     "https://moneywithai.net/use-cases/niche-newsletter-business/",
-    "https://moneywithai.net/use-cases/niche-ai-directory-business/"
+    "https://moneywithai.net/use-cases/niche-ai-directory-business/",
+    "https://moneywithai.net/use-cases/catch-uninvoiced-brand-deals/"
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 132,
+    "rank": 153,
     "score": 83,
     "money": 27,
     "profile": 26,

@@ -19,7 +19,7 @@
     "url": "https://x.com/kostahantzis/status/2109965811964051528"
   },
   "official_share_url": "https://x.ai/bot/GwmXIfLuPPIPf2hGX2Txf",
-  "found_via": "https://grokbot101.org/bots/cpm/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-24",
@@ -31,7 +31,7 @@
   ],
   "added_at": "2026-10-24T09:30:00.000Z",
   "featured": {
-    "rank": 74,
+    "rank": 78,
     "score": 87,
     "money": 27,
     "profile": 30,

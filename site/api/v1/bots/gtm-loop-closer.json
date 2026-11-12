@@ -1,0 +1,40 @@
+{
+  "type": "bot",
+  "slug": "gtm-loop-closer",
+  "name": "GTM Loop Closer",
+  "category": "Leads and Sales",
+  "sub_use_case": "CRM hygiene",
+  "summary": "Catches the follow-ups and customer details that slip through meetings, email, chat and the CRM, and prepares each reply or update for you with the evidence.",
+  "tools": [
+    "Grok",
+    "Slack"
+  ],
+  "creator": {
+    "handle": "Jon Grigull",
+    "url": "https://x.ai/bot/gj3IlHOOpzecm6xpmPJOt"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/gj3IlHOOpzecm6xpmPJOt"
+  },
+  "official_share_url": "https://x.ai/bot/gj3IlHOOpzecm6xpmPJOt",
+  "found_via": "https://x.ai/bot/gj3IlHOOpzecm6xpmPJOt",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/gtm-loop-closer/",
+  "json_url": "https://moneywithai.net/api/v1/bots/gtm-loop-closer.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 461,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

@@ -18,7 +18,7 @@
     "url": "https://x.com/limeunfiltered/status/2093890810966339803"
   },
   "official_share_url": "https://x.ai/bot/qod4CrNQBlDIMm5wFYVQp",
-  "found_via": "https://botdirectory.ai/bots/receipt-scanner-expense-tracking/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-25",
@@ -26,11 +26,13 @@
   "json_url": "https://moneywithai.net/api/v1/bots/receipt-scanner-expense-tracking.json",
   "use_cases": [
     "https://moneywithai.net/use-cases/bookkeeping-cleanup-service/",
-    "https://moneywithai.net/use-cases/team-expense-reconcile/"
+    "https://moneywithai.net/use-cases/team-expense-reconcile/",
+    "https://moneywithai.net/use-cases/monthly-books-check/",
+    "https://moneywithai.net/use-cases/tax-ready-books-all-year/"
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 6,
+    "rank": 7,
     "score": 100,
     "money": 40,
     "profile": 30,

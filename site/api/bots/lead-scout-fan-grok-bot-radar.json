@@ -1,0 +1,31 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "lead-scout-fan-grok-bot-radar",
+    "name": "Lead Scout",
+    "category": "Leads and Sales",
+    "sub_use_case": "X prospecting",
+    "summary": "Finds people on X who need your service, researches them and drafts first messages and follow-ups, tracked in HubSpot or a sheet.",
+    "tools": [
+      "Grok",
+      "HubSpot",
+      "X"
+    ],
+    "creator": {
+      "handle": "Fan Grok Bot Radar",
+      "url": "https://x.ai/bot/bFY4jZu-Wwf3LNencvnzD"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/bFY4jZu-Wwf3LNencvnzD"
+    },
+    "official_share_url": "https://x.ai/bot/bFY4jZu-Wwf3LNencvnzD",
+    "found_via": "https://x.ai/bot/bFY4jZu-Wwf3LNencvnzD",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/lead-scout-fan-grok-bot-radar/",
+    "json_url": "https://moneywithai.net/api/bots/lead-scout-fan-grok-bot-radar.json"
+  }
+}

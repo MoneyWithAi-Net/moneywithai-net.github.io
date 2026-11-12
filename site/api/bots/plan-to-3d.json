@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "plan-to-3d",
+    "name": "Plan to 3D",
+    "category": "Client Services",
+    "sub_use_case": "Client delivery",
+    "summary": "Turns a flat floor plan, site plan or part drawing into a 3D model you can open and turn, with a preview image and rough quantities.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "krish1403",
+      "url": "https://x.com/krish1403"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/b8uZ_wfko_YxI-j8YPKAe"
+    },
+    "official_share_url": "https://x.ai/bot/b8uZ_wfko_YxI-j8YPKAe",
+    "found_via": "https://x.ai/bot/b8uZ_wfko_YxI-j8YPKAe",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/plan-to-3d/",
+    "json_url": "https://moneywithai.net/api/bots/plan-to-3d.json"
+  }
+}

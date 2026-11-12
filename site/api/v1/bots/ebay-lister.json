@@ -18,7 +18,7 @@
     "url": "https://x.com/Gabi_Valerio3/status/2105892546245546309"
   },
   "official_share_url": "https://x.ai/bot/q9Q8EPKFx45CmVwjUAFY5",
-  "found_via": "https://grokbot101.org/bots/ebay-lister/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-24",
@@ -26,13 +26,14 @@
   "json_url": "https://moneywithai.net/api/v1/bots/ebay-lister.json",
   "use_cases": [
     "https://moneywithai.net/use-cases/thrift-flips-on-ebay/",
-    "https://moneywithai.net/use-cases/multi-marketplace-resale/"
+    "https://moneywithai.net/use-cases/multi-marketplace-resale/",
+    "https://moneywithai.net/use-cases/run-a-repair-and-parts-shop/"
   ],
   "added_at": "2026-10-24T09:30:00.000Z",
   "featured": {
-    "rank": 246,
-    "score": 73,
-    "money": 13,
+    "rank": 87,
+    "score": 87,
+    "money": 27,
     "profile": 30,
     "visuals": 20,
     "difficulty": 10,

@@ -19,7 +19,7 @@
     "url": "https://x.com/SimplyColeB/status/2107971762831114461"
   },
   "official_share_url": "https://x.ai/bot/Z7LfRtBtwfaojaomMrAuX",
-  "found_via": "https://grokbot101.org/bots/phone-receptionist/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-24",
@@ -33,7 +33,7 @@
   ],
   "added_at": "2026-10-24T09:30:00.000Z",
   "featured": {
-    "rank": 5,
+    "rank": 6,
     "score": 100,
     "money": 40,
     "profile": 30,

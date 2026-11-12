@@ -1,0 +1,40 @@
+{
+  "type": "bot",
+  "slug": "framecraft",
+  "name": "Framecraft",
+  "category": "Research and Ops",
+  "sub_use_case": "Product and engineering",
+  "summary": "Builds and tidies Figma frames for product designers with library components, autolayout and exact spacing, keeping Figma as the source of truth.",
+  "tools": [
+    "Grok",
+    "Figma"
+  ],
+  "creator": {
+    "handle": "Steven Villarino",
+    "url": "https://x.ai/bot/rT68Jw98kUdeABmvFobN5"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/rT68Jw98kUdeABmvFobN5"
+  },
+  "official_share_url": "https://x.ai/bot/rT68Jw98kUdeABmvFobN5",
+  "found_via": "https://x.ai/bot/rT68Jw98kUdeABmvFobN5",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/framecraft/",
+  "json_url": "https://moneywithai.net/api/v1/bots/framecraft.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 450,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

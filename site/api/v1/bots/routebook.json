@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "routebook",
+  "name": "Routebook",
+  "category": "Leads and Sales",
+  "sub_use_case": "Speed-to-lead and quotes",
+  "summary": "A desk helper for tour and travel agencies that tracks leads, quotes, bookings and guest documents. Confirmations wait for a person to approve.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Anan Jaiswal",
+    "url": "https://x.ai/bot/XGri4qPORtUxnDruyF_da"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/XGri4qPORtUxnDruyF_da"
+  },
+  "official_share_url": "https://x.ai/bot/XGri4qPORtUxnDruyF_da",
+  "found_via": "https://x.ai/bot/XGri4qPORtUxnDruyF_da",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/routebook/",
+  "json_url": "https://moneywithai.net/api/v1/bots/routebook.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 571,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "type": "bot",
+  "slug": "gtm-prospecting",
+  "name": "GTM Prospecting",
+  "category": "Leads and Sales",
+  "sub_use_case": "Outbound prospecting",
+  "summary": "Turns your ideal customer profile into a prospect list with context, checks existing relationships and drafts first email and LinkedIn messages.",
+  "tools": [
+    "Grok",
+    "LinkedIn"
+  ],
+  "creator": {
+    "handle": "Caro Scalercio",
+    "url": "https://x.ai/bot/RpAQeGjhzaiO6_Rq_4fyC"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/RpAQeGjhzaiO6_Rq_4fyC"
+  },
+  "official_share_url": "https://x.ai/bot/RpAQeGjhzaiO6_Rq_4fyC",
+  "found_via": "https://x.ai/bot/RpAQeGjhzaiO6_Rq_4fyC",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/gtm-prospecting/",
+  "json_url": "https://moneywithai.net/api/v1/bots/gtm-prospecting.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 463,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

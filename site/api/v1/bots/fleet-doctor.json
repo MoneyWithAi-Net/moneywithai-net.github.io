@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "fleet-doctor",
+  "name": "Fleet Doctor",
+  "category": "Research and Ops",
+  "sub_use_case": "Team memory",
+  "summary": "Checks each weekday that your Grok Bot routines actually ran, tells you only about failures and suggests fresh rebuilds for bloated bots.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "DBCrypto",
+    "url": "https://x.ai/bot/dO9rojWVgFL5kjmWYYu_y"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/dO9rojWVgFL5kjmWYYu_y"
+  },
+  "official_share_url": "https://x.ai/bot/dO9rojWVgFL5kjmWYYu_y",
+  "found_via": "https://x.ai/bot/dO9rojWVgFL5kjmWYYu_y",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/fleet-doctor/",
+  "json_url": "https://moneywithai.net/api/v1/bots/fleet-doctor.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 443,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

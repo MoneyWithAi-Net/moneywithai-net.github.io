@@ -1,0 +1,30 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "linkedin-agent",
+    "name": "LinkedIn Agent",
+    "category": "Leads and Sales",
+    "sub_use_case": "LinkedIn funnels",
+    "summary": "Finds sourced topics in your field and drafts LinkedIn posts and outreach messages in your voice.",
+    "tools": [
+      "Grok",
+      "LinkedIn"
+    ],
+    "creator": {
+      "handle": "Ryan T",
+      "url": "https://x.ai/bot/2jelZnGWnAlhmvHFZOp1N"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/2jelZnGWnAlhmvHFZOp1N"
+    },
+    "official_share_url": "https://x.ai/bot/2jelZnGWnAlhmvHFZOp1N",
+    "found_via": "https://x.ai/bot/2jelZnGWnAlhmvHFZOp1N",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/linkedin-agent/",
+    "json_url": "https://moneywithai.net/api/bots/linkedin-agent.json"
+  }
+}

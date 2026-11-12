@@ -1,0 +1,154 @@
+{
+  "type": "use-case",
+  "slug": "triage-email-without-auto-send",
+  "title": "Triage Email Without Auto-Send",
+  "category": "Research and Ops",
+  "category_slug": "research-and-ops",
+  "money_model": "Save costs",
+  "difficulty": "Beginner",
+  "summary": "Sort the inbox hard, draft only the replies that matter, and clean the wording in your tone, with you sending every message yourself.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Assumes you sort and draft email by hand today; the value is time saved with you still sending every reply.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Hours back from sorting and drafting.",
+    "Fewer wrong replies because nothing sends without you."
+  ],
+  "who_its_for": [
+    "Founders buried in email.",
+    "Operators who want drafts, not auto-send."
+  ],
+  "stack": [
+    {
+      "bot": "email",
+      "name": "Email",
+      "role": "Triages the inbox and drafts the few replies that matter; never sends without your yes.",
+      "creator": "andrewkittridge",
+      "tools": [
+        "Grok",
+        "Email"
+      ],
+      "url": "https://moneywithai.net/bots/email/",
+      "official_share_url": "https://x.ai/bot/BFjaZlR93AzcnDagMhktC"
+    },
+    {
+      "bot": "text-cleanup",
+      "name": "Text-cleanup",
+      "role": "Turns rough drafts into one clean version in your saved tone.",
+      "creator": "GrokBotGod",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/text-cleanup/",
+      "official_share_url": "https://x.ai/bot/E3h6k-Sbq7hwF3PW1ZBI4"
+    },
+    {
+      "bot": "inbox-triage",
+      "name": "Inbox Triage",
+      "role": "Helps keep important mail visible and noise out of the way.",
+      "creator": "rchase",
+      "tools": [
+        "Facebook",
+        "X",
+        "LinkedIn",
+        "Trello"
+      ],
+      "url": "https://moneywithai.net/bots/inbox-triage/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Grok",
+    "Email",
+    "Facebook",
+    "X",
+    "LinkedIn",
+    "Trello"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Your mailbox",
+        "tool": "Email"
+      },
+      {
+        "label": "VIP senders and tone notes",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "email",
+        "name": "Email",
+        "does": "Triages and drafts key replies",
+        "tools": [
+          "Grok",
+          "Email"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "text-cleanup",
+        "name": "Text-cleanup",
+        "does": "Cleans drafts in your tone",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "inbox-triage",
+        "name": "Inbox Triage",
+        "does": "Keeps important mail visible",
+        "tools": [
+          "Facebook",
+          "X",
+          "LinkedIn",
+          "Trello"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "you",
+        "name": "You",
+        "does": "Edit and send",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A shorter must-reply list",
+      "Clean drafts you send yourself"
+    ]
+  },
+  "steps": [
+    "Connect the mailbox you control.",
+    "Run a quiet-hour triage.",
+    "Clean the draft replies in your tone.",
+    "Send every message yourself."
+  ],
+  "guardrails": [
+    "Never turn on send-without-approval.",
+    "Name the senders that always matter."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-11-07T10:00:00.000Z",
+  "featured": {
+    "rank": 160,
+    "score": 69,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/triage-email-without-auto-send/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/triage-email-without-auto-send.json"
+}

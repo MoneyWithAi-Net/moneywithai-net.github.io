@@ -1,0 +1,30 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "tiffany",
+    "name": "Tiffany",
+    "category": "Content and Marketing",
+    "sub_use_case": "Local SEO content",
+    "summary": "Runs the specialist bots of a local marketing agency across clients for Google Business Profile, social, SEO blogs and YouTube, with approvals.",
+    "tools": [
+      "Grok",
+      "YouTube"
+    ],
+    "creator": {
+      "handle": "Tripper Wood",
+      "url": "https://x.ai/bot/VS2G5p1b_nQixeiYcdwFs"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/VS2G5p1b_nQixeiYcdwFs"
+    },
+    "official_share_url": "https://x.ai/bot/VS2G5p1b_nQixeiYcdwFs",
+    "found_via": "https://x.ai/bot/VS2G5p1b_nQixeiYcdwFs",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/tiffany/",
+    "json_url": "https://moneywithai.net/api/bots/tiffany.json"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "type": "use-case",
+  "slug": "keep-bot-work-running-past-usage-limits",
+  "title": "Keep Bot Work Running Past Usage Limits",
+  "category": "Research and Ops",
+  "category_slug": "research-and-ops",
+  "money_model": "Save costs",
+  "difficulty": "Intermediate",
+  "summary": "Route heavy background jobs to coding agents you already pay for and keep a daily record of what ran, so your bot team does not stall halfway through the week.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Assumes you run several bots and already pay for a coding agent plan; the value is work that does not stall.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Work keeps moving instead of waiting for your usage to reset.",
+    "Fewer surprise plan upgrades."
+  ],
+  "who_its_for": [
+    "Founders who run several bots on one account.",
+    "Small teams that already pay for Claude Code or Codex."
+  ],
+  "stack": [
+    {
+      "bot": "decision-desk",
+      "name": "Decision Desk",
+      "role": "Sends each background job to Claude Code, Codex or Grok Bot and reports when it is done.",
+      "creator": "Av1dlive",
+      "tools": [
+        "Grok",
+        "Claude Code",
+        "Codex"
+      ],
+      "url": "https://moneywithai.net/bots/decision-desk/",
+      "official_share_url": "https://x.ai/bot/E624sfLLnJi-sU8vBXF5l"
+    },
+    {
+      "bot": "security-agent",
+      "name": "Security Agent",
+      "role": "Keeps one record of what your bots did and flags anything risky.",
+      "creator": "JennyMarquis",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/security-agent/",
+      "official_share_url": "https://x.ai/bot/1UbznxzMUzsMUT4V83VWm"
+    },
+    {
+      "bot": "chief-of-staff-aryaman",
+      "name": "Chief of Staff (Aryaman)",
+      "role": "Surfaces only the items that need your decision.",
+      "creator": "aryamankhawow",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/chief-of-staff-aryaman/",
+      "official_share_url": "https://x.ai/bot/XjQ-AZTMrGLmQOTeMu3LF"
+    }
+  ],
+  "tools": [
+    "Grok",
+    "Claude Code",
+    "Codex"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Background jobs",
+        "tool": null
+      },
+      {
+        "label": "Your coding plan",
+        "tool": "Claude Code"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "decision-desk",
+        "name": "Decision Desk",
+        "does": "Routes jobs and reports when done",
+        "tools": [
+          "Grok",
+          "Claude Code",
+          "Codex"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "security-agent",
+        "name": "Security Agent",
+        "does": "Keeps a record and flags risks",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "chief-of-staff-aryaman",
+        "name": "Chief of Staff (Aryaman)",
+        "does": "Surfaces what needs you",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "you",
+        "name": "You",
+        "does": "Approve or adjust routing",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Jobs that finish through the week",
+      "A daily record of what ran"
+    ]
+  },
+  "steps": [
+    "Connect the coding plan you already pay for.",
+    "Hand one long job to the desk and see where it went.",
+    "Read the daily record of what ran.",
+    "Move more jobs once the routing looks right."
+  ],
+  "guardrails": [
+    "Jobs that send, buy or delete still need your approval.",
+    "Check what each coding agent can change before it touches real files."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-31T10:00:00.000Z",
+  "featured": {
+    "rank": 165,
+    "score": 65,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/keep-bot-work-running-past-usage-limits/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/keep-bot-work-running-past-usage-limits.json"
+}

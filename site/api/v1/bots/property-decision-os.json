@@ -18,7 +18,7 @@
     "url": "https://x.com/Amervim/status/2105949142426288483"
   },
   "official_share_url": "https://x.ai/bot/PD7LPOk0HP53QxxWWEN8R",
-  "found_via": "https://grokbot101.org/bots/property-decision-os/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-25",
@@ -29,7 +29,7 @@
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 179,
+    "rank": 203,
     "score": 80,
     "money": 27,
     "profile": 30,

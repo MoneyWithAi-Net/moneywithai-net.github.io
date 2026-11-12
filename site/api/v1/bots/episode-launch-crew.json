@@ -12,16 +12,16 @@
     "Slack"
   ],
   "creator": {
-    "handle": "elie2222",
-    "url": "https://botdirectory.ai/bots/episode-launch-crew/"
+    "handle": "Community submission",
+    "url": null
   },
   "scouted_by": null,
   "source": {
     "kind": "web",
-    "url": "https://botdirectory.ai/bots/episode-launch-crew/"
+    "url": "https://moneywithai.net/bots/episode-launch-crew/"
   },
   "official_share_url": null,
-  "found_via": "https://botdirectory.ai/bots/episode-launch-crew/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-25",
@@ -33,7 +33,7 @@
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 40,
+    "rank": 45,
     "score": 92,
     "money": 40,
     "profile": 26,

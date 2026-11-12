@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "intake-desk",
+    "name": "Intake Desk",
+    "category": "Research and Ops",
+    "sub_use_case": "Inbox triage",
+    "summary": "Paste the requests, leads and jobs coming in from everywhere and get one sorted queue with a next step for each.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "aaron creech",
+      "url": "https://x.ai/bot/in_PtzvudSXOJ178cNxv0"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/in_PtzvudSXOJ178cNxv0"
+    },
+    "official_share_url": "https://x.ai/bot/in_PtzvudSXOJ178cNxv0",
+    "found_via": "https://x.ai/bot/in_PtzvudSXOJ178cNxv0",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/intake-desk/",
+    "json_url": "https://moneywithai.net/api/bots/intake-desk.json"
+  }
+}

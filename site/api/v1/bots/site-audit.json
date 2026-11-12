@@ -18,7 +18,7 @@
     "url": "https://x.com/scheemunai/status/2093397637487596019"
   },
   "official_share_url": "https://x.ai/bot/s6JVFYDIDMsCQMBeTcznW",
-  "found_via": "https://botdirectory.ai/bots/site-audit/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-25",
@@ -28,16 +28,17 @@
     "https://moneywithai.net/use-cases/pitch-ad-management-to-active-advertisers/",
     "https://moneywithai.net/use-cases/ai-search-visibility-retainer/",
     "https://moneywithai.net/use-cases/local-seo-agency-in-a-box/",
-    "https://moneywithai.net/use-cases/managed-care-plans-for-sites/"
+    "https://moneywithai.net/use-cases/managed-care-plans-for-sites/",
+    "https://moneywithai.net/use-cases/fix-the-sales-page-that-loses-buyers/"
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 27,
-    "score": 96,
+    "rank": 13,
+    "score": 100,
     "money": 40,
     "profile": 30,
     "visuals": 20,
-    "difficulty": 6,
+    "difficulty": 10,
     "override": null,
     "rules": "https://moneywithai.net/llms.txt"
   }

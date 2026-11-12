@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "pulse",
+  "name": "Pulse",
+  "category": "Content and Marketing",
+  "sub_use_case": "Analytics and monitoring",
+  "summary": "Tracks the business numbers you pick and sends a short weekly scorecard only when something moves.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Jaime Hernandez",
+    "url": "https://x.ai/bot/BpqAk55ZrJ2O5SqJm1Mhz"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/BpqAk55ZrJ2O5SqJm1Mhz"
+  },
+  "official_share_url": "https://x.ai/bot/BpqAk55ZrJ2O5SqJm1Mhz",
+  "found_via": "https://x.ai/bot/BpqAk55ZrJ2O5SqJm1Mhz",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/pulse/",
+  "json_url": "https://moneywithai.net/api/v1/bots/pulse.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 555,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

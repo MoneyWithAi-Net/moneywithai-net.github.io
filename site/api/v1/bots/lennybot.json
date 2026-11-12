@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "lennybot",
+  "name": "Lennybot",
+  "category": "Research and Ops",
+  "sub_use_case": "Market notes",
+  "summary": "Answers product and growth questions from the Lenny's Newsletter data archive once you connect your own account.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Lenny Rachitsky",
+    "url": "https://x.ai/bot/VjbtJ_qTdzbhJGmXdvTIc"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/VjbtJ_qTdzbhJGmXdvTIc"
+  },
+  "official_share_url": "https://x.ai/bot/VjbtJ_qTdzbhJGmXdvTIc",
+  "found_via": "https://x.ai/bot/VjbtJ_qTdzbhJGmXdvTIc",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/lennybot/",
+  "json_url": "https://moneywithai.net/api/v1/bots/lennybot.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 492,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "ai-legal-prep-desk",
+    "name": "AI Legal Prep Desk",
+    "category": "Research and Ops",
+    "sub_use_case": "Compliance and admin",
+    "summary": "Helps small businesses research and prepare legal questions on formation, contracts and disputes, with cited sources. Not a lawyer.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "John Atkinson III",
+      "url": "https://x.ai/bot/Mr87JZkXHwpJQRknVuZcr"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/Mr87JZkXHwpJQRknVuZcr"
+    },
+    "official_share_url": "https://x.ai/bot/Mr87JZkXHwpJQRknVuZcr",
+    "found_via": "https://x.ai/bot/Mr87JZkXHwpJQRknVuZcr",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/ai-legal-prep-desk/",
+    "json_url": "https://moneywithai.net/api/bots/ai-legal-prep-desk.json"
+  }
+}

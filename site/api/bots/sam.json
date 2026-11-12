@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "sam",
+    "name": "Sam",
+    "category": "Research and Ops",
+    "sub_use_case": "Planning and projects",
+    "summary": "Runs a small creative studio's pipeline from research and brief to quality check and submission, bringing decisions to one list.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Johnny Wang",
+      "url": "https://x.ai/bot/LjgqoCpO0n-8GJdrwJhjk"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/LjgqoCpO0n-8GJdrwJhjk"
+    },
+    "official_share_url": "https://x.ai/bot/LjgqoCpO0n-8GJdrwJhjk",
+    "found_via": "https://x.ai/bot/LjgqoCpO0n-8GJdrwJhjk",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/sam/",
+    "json_url": "https://moneywithai.net/api/bots/sam.json"
+  }
+}

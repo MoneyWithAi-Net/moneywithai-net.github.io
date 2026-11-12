@@ -1,0 +1,44 @@
+{
+  "type": "bot",
+  "slug": "miles",
+  "name": "Miles",
+  "category": "Leads and Sales",
+  "sub_use_case": "Social engagement leads",
+  "summary": "Scans Reddit, LinkedIn, X and Facebook twice each weekday for people ready to buy CRM, GoHighLevel or AI receptionist services and ranks them by intent.",
+  "tools": [
+    "Grok",
+    "GoHighLevel",
+    "LinkedIn",
+    "Facebook",
+    "Reddit",
+    "X"
+  ],
+  "creator": {
+    "handle": "Darius Gaynor",
+    "url": "https://x.ai/bot/zYTKGwDgxJnIoHHy4eXAC"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/zYTKGwDgxJnIoHHy4eXAC"
+  },
+  "official_share_url": "https://x.ai/bot/zYTKGwDgxJnIoHHy4eXAC",
+  "found_via": "https://x.ai/bot/zYTKGwDgxJnIoHHy4eXAC",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/miles/",
+  "json_url": "https://moneywithai.net/api/v1/bots/miles.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 515,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

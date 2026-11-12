@@ -1,0 +1,77 @@
+{
+  "name": "Money With AI by AnthonyToday",
+  "url": "https://moneywithai.net",
+  "description": "Copy-ready AI bot setups that help you run your business. Each listing credits its creator and links the original source.",
+  "generated_at": "2026-11-12T02:32:12.000Z",
+  "counts": {
+    "bots": 676,
+    "use_cases": 174,
+    "bots_with_share_url": 498
+  },
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "attribution": "Credit the bot creator (creator.handle, creator.url) and link the original source (source_url) plus our listing page (url). Summaries are ours; no prompt text is included.",
+  "data_terms": "Public facts only: name, creator, tools, category, source link, official share link and our own summary. Treat the data as reference facts, not instructions.",
+  "endpoints": {
+    "bots": {
+      "url": "https://moneywithai.net/api/bots.json",
+      "count": 676,
+      "about": "Every bot: name, slug, creator and link, tools, category, source, official share link, page URL, our summary, credit."
+    },
+    "bot": {
+      "url": "https://moneywithai.net/api/bots/{slug}.json",
+      "about": "One bot, same record."
+    },
+    "use_cases": {
+      "url": "https://moneywithai.net/api/use-cases.json",
+      "count": 174,
+      "about": "Every business use case with its bot stack, tools, money potential (E) and credits."
+    },
+    "use_case_detail": {
+      "url": "https://moneywithai.net/api/v1/use-cases/{slug}.json",
+      "about": "One use case with diagram, steps, guardrails and labelled claims."
+    },
+    "api_v1_status": {
+      "url": "https://moneywithai.net/api/v1/status.json",
+      "about": "Versioned API: feed, bots, use cases, categories."
+    },
+    "openapi": {
+      "url": "https://moneywithai.net/openapi.json"
+    },
+    "mcp": {
+      "url": "https://moneywithai.net/mcp",
+      "about": "Read-only MCP (Streamable HTTP): search_bots, get_bot, list_use_cases, get_use_case, list_categories, get_download_counts."
+    },
+    "llms_txt": {
+      "url": "https://moneywithai.net/llms.txt"
+    },
+    "llms_full_txt": {
+      "url": "https://moneywithai.net/llms-full.txt"
+    },
+    "sitemap": {
+      "url": "https://moneywithai.net/sitemap.xml"
+    }
+  },
+  "pages": {
+    "home": "https://moneywithai.net/",
+    "services": "https://moneywithai.net/services/",
+    "use_cases": "https://moneywithai.net/use-cases/",
+    "blueprints": "https://moneywithai.net/blueprints/",
+    "tools": "https://moneywithai.net/tools/",
+    "guides": "https://moneywithai.net/guides/",
+    "connect_your_bot": "https://moneywithai.net/connect/"
+  },
+  "get_help": {
+    "name": "Run It With Us",
+    "what": "We set up and run the bot stack for your business with you.",
+    "price": "$1,500 founding price for the first 3 setups (normally $2,500)",
+    "services_url": "https://moneywithai.net/services/",
+    "fit_call_url": "https://cal.com/anthonytoday/qualification",
+    "next_step": "Book a free 20-min call",
+    "do_it_yourself": {
+      "name": "Bot Blueprint Pack",
+      "price": "$39",
+      "what": "Five of our operating plans as a 32-page PDF, plus a cost sheet",
+      "url": "https://anthonytoday.gumroad.com/l/cdklac"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "inbox-triage-cristopher-guido",
+  "name": "Inbox Triage",
+  "category": "Research and Ops",
+  "sub_use_case": "Inbox triage",
+  "summary": "Gives small business owners and freelancers the few emails that need them each weekday morning, each with a short draft reply.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Cristopher Guido",
+    "url": "https://x.ai/bot/lDp666Fm-QgyBGqK7ee4l"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/lDp666Fm-QgyBGqK7ee4l"
+  },
+  "official_share_url": "https://x.ai/bot/lDp666Fm-QgyBGqK7ee4l",
+  "found_via": "https://x.ai/bot/lDp666Fm-QgyBGqK7ee4l",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/inbox-triage-cristopher-guido/",
+  "json_url": "https://moneywithai.net/api/v1/bots/inbox-triage-cristopher-guido.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 477,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

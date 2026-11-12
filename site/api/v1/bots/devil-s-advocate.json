@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "devil-s-advocate",
+  "name": "Devil's Advocate",
+  "category": "Research and Ops",
+  "sub_use_case": "Planning and projects",
+  "summary": "Questions a founder's idea until the weak assumptions show, so you can fix them before you build.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Melvin Vivas",
+    "url": "https://x.ai/bot/Uj8zF0iprBX0AsSB3mU2V"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/Uj8zF0iprBX0AsSB3mU2V"
+  },
+  "official_share_url": "https://x.ai/bot/Uj8zF0iprBX0AsSB3mU2V",
+  "found_via": "https://x.ai/bot/Uj8zF0iprBX0AsSB3mU2V",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/devil-s-advocate/",
+  "json_url": "https://moneywithai.net/api/v1/bots/devil-s-advocate.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 407,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

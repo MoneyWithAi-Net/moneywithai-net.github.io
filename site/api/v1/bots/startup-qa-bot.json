@@ -10,16 +10,16 @@
     "Slack"
   ],
   "creator": {
-    "handle": "BotDirectoryAI",
-    "url": "https://x.com/BotDirectoryAI"
+    "handle": "Community submission",
+    "url": null
   },
   "scouted_by": null,
   "source": {
     "kind": "x",
-    "url": "https://x.com/BotDirectoryAI/status/2114131736862842880"
+    "url": "https://moneywithai.net/bots/startup-qa-bot/"
   },
   "official_share_url": null,
-  "found_via": "https://botdirectory.ai/bots/startup-qa-bot/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-25",
@@ -30,7 +30,7 @@
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 240,
+    "rank": 263,
     "score": 76,
     "money": 27,
     "profile": 26,

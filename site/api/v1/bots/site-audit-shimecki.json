@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "site-audit-shimecki",
+  "name": "Site Audit",
+  "category": "Content and Marketing",
+  "sub_use_case": "SEO and AI search",
+  "summary": "Audits a site for SEO, content, speed, accessibility, conversion and schema, ranks fixes by priority with evidence and tracks changes monthly.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Shimecki",
+    "url": "https://x.ai/bot/_rzRrKKlUyBD3znUN5b3Q"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/_rzRrKKlUyBD3znUN5b3Q"
+  },
+  "official_share_url": "https://x.ai/bot/_rzRrKKlUyBD3znUN5b3Q",
+  "found_via": "https://x.ai/bot/_rzRrKKlUyBD3znUN5b3Q",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/site-audit-shimecki/",
+  "json_url": "https://moneywithai.net/api/v1/bots/site-audit-shimecki.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 592,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

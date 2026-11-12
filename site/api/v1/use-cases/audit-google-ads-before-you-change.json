@@ -1,0 +1,147 @@
+{
+  "type": "use-case",
+  "slug": "audit-google-ads-before-you-change",
+  "title": "Audit Google Ads Before You Change Anything",
+  "category": "Content and Marketing",
+  "category_slug": "content-and-marketing",
+  "money_model": "Save costs",
+  "difficulty": "Intermediate",
+  "summary": "Get a read-only audit of search terms, waste and weekly checks, then approve every change yourself so spend only moves when you say yes.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you already run Google Search ads; the value is clearer audits and less unsupervised waste, not new demand.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Less wasted Search spend from clearer negatives and search-term reviews.",
+    "Weekly checks without handing the account keys to a bot."
+  ],
+  "who_its_for": [
+    "Owners running Google Search ads.",
+    "Agencies that want draft audits before client changes."
+  ],
+  "stack": [
+    {
+      "bot": "google-ads-manager",
+      "name": "Google Ads Manager",
+      "role": "Audits search terms and negatives, suggests Search builds and weekly checks, and waits for your yes.",
+      "creator": "Dan",
+      "tools": [
+        "Grok",
+        "Google Ads"
+      ],
+      "url": "https://moneywithai.net/bots/google-ads-manager/",
+      "official_share_url": "https://x.ai/bot/EuApBJ4lniTVv-BAth0ru"
+    },
+    {
+      "bot": "google-ads-performance-analyst",
+      "name": "Google Ads Performance Analyst",
+      "role": "Reviews accounts and campaigns and reports wasted spend and next fixes.",
+      "creator": "benln",
+      "tools": [
+        "Google Ads"
+      ],
+      "url": "https://moneywithai.net/bots/google-ads-performance-analyst/",
+      "official_share_url": null
+    },
+    {
+      "bot": "google-ads-optimizer",
+      "name": "Google Ads Optimizer",
+      "role": "Runs a scheduled review that proposes changes toward your goal.",
+      "creator": "codyschneider",
+      "tools": [
+        "Cursor",
+        "Google Ads"
+      ],
+      "url": "https://moneywithai.net/bots/google-ads-optimizer/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Grok",
+    "Google Ads",
+    "Cursor"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Google Ads account",
+        "tool": "Google Ads"
+      },
+      {
+        "label": "Your goal and budget limit",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "google-ads-manager",
+        "name": "Google Ads Manager",
+        "does": "Audits search terms and drafts weekly checks",
+        "tools": [
+          "Grok",
+          "Google Ads"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "google-ads-performance-analyst",
+        "name": "Google Ads Performance Analyst",
+        "does": "Reports wasted spend and next fixes",
+        "tools": [
+          "Google Ads"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "google-ads-optimizer",
+        "name": "Google Ads Optimizer",
+        "does": "Proposes scheduled changes",
+        "tools": [
+          "Cursor",
+          "Google Ads"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "you",
+        "name": "You",
+        "does": "Approve or reject each change",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A waste list you can act on",
+      "Draft changes waiting for approval"
+    ]
+  },
+  "steps": [
+    "Connect read access first.",
+    "Run an audit on one campaign.",
+    "Compare the waste list with the performance report.",
+    "Approve only the changes you agree with."
+  ],
+  "guardrails": [
+    "Keep change rights off until you trust the drafts.",
+    "Set a firm budget limit in Google Ads itself."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-11-07T10:00:00.000Z",
+  "featured": {
+    "rank": 65,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/audit-google-ads-before-you-change/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/audit-google-ads-before-you-change.json"
+}

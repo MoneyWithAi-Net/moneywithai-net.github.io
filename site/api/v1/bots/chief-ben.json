@@ -1,0 +1,40 @@
+{
+  "type": "bot",
+  "slug": "chief-ben",
+  "name": "Chief",
+  "category": "Research and Ops",
+  "sub_use_case": "Planning and projects",
+  "summary": "Keeps your priorities, inbox and calendar in order with a live Notion dashboard and a daily briefing.",
+  "tools": [
+    "Grok",
+    "Notion"
+  ],
+  "creator": {
+    "handle": "Ben",
+    "url": "https://x.ai/bot/OY2K6DPosnK6ijDNpWJL3"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/OY2K6DPosnK6ijDNpWJL3"
+  },
+  "official_share_url": "https://x.ai/bot/OY2K6DPosnK6ijDNpWJL3",
+  "found_via": "https://x.ai/bot/OY2K6DPosnK6ijDNpWJL3",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/chief-ben/",
+  "json_url": "https://moneywithai.net/api/v1/bots/chief-ben.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 366,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

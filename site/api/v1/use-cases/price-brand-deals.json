@@ -13,7 +13,7 @@
     "label": "Medium",
     "basis": "Assumes you already do brand deals; fair pricing raises what each deal pays.",
     "claim_label": "E",
-    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
   },
   "how_it_makes_money": [
     "Creators stop underpricing; brands stop overpaying.",
@@ -87,7 +87,7 @@
   "claims": [],
   "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
   "featured": {
-    "rank": 85,
+    "rank": 113,
     "score": 77,
     "money": 27,
     "profile": 20,

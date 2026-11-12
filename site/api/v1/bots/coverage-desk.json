@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "coverage-desk",
+  "name": "Coverage Desk",
+  "category": "Client Services",
+  "sub_use_case": "Client delivery",
+  "summary": "Explains an insurance declarations page in plain English and sends the open questions to the licensed agent named on it.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Brian M.",
+    "url": "https://x.ai/bot/Xf744EvEIun3bzP0zdp0u"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/Xf744EvEIun3bzP0zdp0u"
+  },
+  "official_share_url": "https://x.ai/bot/Xf744EvEIun3bzP0zdp0u",
+  "found_via": "https://x.ai/bot/Xf744EvEIun3bzP0zdp0u",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/coverage-desk/",
+  "json_url": "https://moneywithai.net/api/v1/bots/coverage-desk.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 395,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

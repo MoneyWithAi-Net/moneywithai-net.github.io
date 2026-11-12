@@ -1,0 +1,40 @@
+{
+  "type": "bot",
+  "slug": "x-radar",
+  "name": "X Radar",
+  "category": "Customer Support",
+  "sub_use_case": "Feedback watch",
+  "summary": "Watches X for mentions, keywords and competitors and sends roundups sorted into ideas, complaints and posts worth replying to.",
+  "tools": [
+    "Grok",
+    "X"
+  ],
+  "creator": {
+    "handle": "Luneri ;]",
+    "url": "https://x.ai/bot/dF0wbCNEVHlP0n6l9t5-t"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/dF0wbCNEVHlP0n6l9t5-t"
+  },
+  "official_share_url": "https://x.ai/bot/dF0wbCNEVHlP0n6l9t5-t",
+  "found_via": "https://x.ai/bot/dF0wbCNEVHlP0n6l9t5-t",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/x-radar/",
+  "json_url": "https://moneywithai.net/api/v1/bots/x-radar.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 644,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

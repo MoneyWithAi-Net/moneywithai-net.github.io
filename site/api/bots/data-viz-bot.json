@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "data-viz-bot",
+    "name": "Data Viz Bot",
+    "category": "Research and Ops",
+    "sub_use_case": "Market notes",
+    "summary": "Turns a dense report, filing or spreadsheet into one clear chart with a plain-English headline you can drop into a client update, deck or post.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "ArthurMacwaters",
+      "url": "https://x.com/ArthurMacwaters"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/ArthurMacwaters/status/2116304629676019981"
+    },
+    "official_share_url": "https://x.ai/bot/X1u9J-wW3i4eHLyixnLqM",
+    "found_via": "https://x.com/ArthurMacwaters/status/2116304629676019981",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/data-viz-bot/",
+    "json_url": "https://moneywithai.net/api/bots/data-viz-bot.json"
+  }
+}

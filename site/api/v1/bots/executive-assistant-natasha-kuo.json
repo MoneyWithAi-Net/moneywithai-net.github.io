@@ -1,0 +1,40 @@
+{
+  "type": "bot",
+  "slug": "executive-assistant-natasha-kuo",
+  "name": "Executive Assistant",
+  "category": "Research and Ops",
+  "sub_use_case": "Planning and projects",
+  "summary": "An executive assistant for exec support: room booking, interview prep, leadership outreach drafts and checks between sheets and calendars.",
+  "tools": [
+    "Grok",
+    "Slack"
+  ],
+  "creator": {
+    "handle": "Natasha Kuo",
+    "url": "https://x.ai/bot/_DnP777DCicZpaTtm9_h5"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/_DnP777DCicZpaTtm9_h5"
+  },
+  "official_share_url": "https://x.ai/bot/_DnP777DCicZpaTtm9_h5",
+  "found_via": "https://x.ai/bot/_DnP777DCicZpaTtm9_h5",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/executive-assistant-natasha-kuo/",
+  "json_url": "https://moneywithai.net/api/v1/bots/executive-assistant-natasha-kuo.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 438,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

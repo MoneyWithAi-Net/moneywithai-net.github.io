@@ -18,7 +18,7 @@
     "url": "https://x.com/the_Arow_H/status/2105270616836448631"
   },
   "official_share_url": "https://x.ai/bot/U4E-bNBzYlVcl_hMYf-kZ",
-  "found_via": "https://grokbot101.org/bots/crosscheck/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-25",
@@ -33,7 +33,7 @@
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 77,
+    "rank": 82,
     "score": 87,
     "money": 27,
     "profile": 30,

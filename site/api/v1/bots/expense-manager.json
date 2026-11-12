@@ -10,16 +10,16 @@
     "Google Sheets"
   ],
   "creator": {
-    "handle": "BotDirectoryAI",
-    "url": "https://x.com/BotDirectoryAI"
+    "handle": "Community submission",
+    "url": null
   },
   "scouted_by": null,
   "source": {
     "kind": "x",
-    "url": "https://x.com/BotDirectoryAI/status/2113620573125284213"
+    "url": "https://moneywithai.net/bots/expense-manager/"
   },
   "official_share_url": null,
-  "found_via": "https://botdirectory.ai/bots/expense-manager/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-25",
@@ -31,7 +31,7 @@
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 111,
+    "rank": 133,
     "score": 83,
     "money": 27,
     "profile": 26,

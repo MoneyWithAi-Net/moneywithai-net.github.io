@@ -1,0 +1,31 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "decision-desk",
+    "name": "Decision Desk",
+    "category": "Research and Ops",
+    "sub_use_case": "Product and engineering",
+    "summary": "Stretches your Grok Bot usage across the whole week by handing heavy background jobs to coding agents you already pay for, then telling you when each one is done.",
+    "tools": [
+      "Grok",
+      "Claude Code",
+      "Codex"
+    ],
+    "creator": {
+      "handle": "Av1dlive",
+      "url": "https://x.com/Av1dlive"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/Av1dlive/status/2115929453859881169"
+    },
+    "official_share_url": "https://x.ai/bot/E624sfLLnJi-sU8vBXF5l",
+    "found_via": "https://x.com/Av1dlive/status/2115929453859881169",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/decision-desk/",
+    "json_url": "https://moneywithai.net/api/bots/decision-desk.json"
+  }
+}

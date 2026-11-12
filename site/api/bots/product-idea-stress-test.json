@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "product-idea-stress-test",
+    "name": "Product Idea Stress Test",
+    "category": "Research and Ops",
+    "sub_use_case": "Opportunity scouting",
+    "summary": "Stress-tests a product idea: what has to be true, the evidence for and against, the riskiest assumption and what to test next.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Hiten Shah",
+      "url": "https://x.ai/bot/ph-u_zkF5Vui1GdGnysn9"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/ph-u_zkF5Vui1GdGnysn9"
+    },
+    "official_share_url": "https://x.ai/bot/ph-u_zkF5Vui1GdGnysn9",
+    "found_via": "https://x.ai/bot/ph-u_zkF5Vui1GdGnysn9",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/product-idea-stress-test/",
+    "json_url": "https://moneywithai.net/api/bots/product-idea-stress-test.json"
+  }
+}

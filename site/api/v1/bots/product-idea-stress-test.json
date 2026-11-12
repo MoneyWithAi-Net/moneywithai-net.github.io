@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "product-idea-stress-test",
+  "name": "Product Idea Stress Test",
+  "category": "Research and Ops",
+  "sub_use_case": "Opportunity scouting",
+  "summary": "Stress-tests a product idea: what has to be true, the evidence for and against, the riskiest assumption and what to test next.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Hiten Shah",
+    "url": "https://x.ai/bot/ph-u_zkF5Vui1GdGnysn9"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/ph-u_zkF5Vui1GdGnysn9"
+  },
+  "official_share_url": "https://x.ai/bot/ph-u_zkF5Vui1GdGnysn9",
+  "found_via": "https://x.ai/bot/ph-u_zkF5Vui1GdGnysn9",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/product-idea-stress-test/",
+  "json_url": "https://moneywithai.net/api/v1/bots/product-idea-stress-test.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 547,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

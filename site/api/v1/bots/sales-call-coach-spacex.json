@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "sales-call-coach-spacex",
+  "name": "Sales Call Coach",
+  "category": "Leads and Sales",
+  "sub_use_case": "Sales-call support",
+  "summary": "Reviews Gong calls and leaves timed coaching notes on discovery, objections and presence, with a call score.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "SpaceX",
+    "url": "https://x.ai/bot/s8173b3a9c49917de5b2d"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/s8173b3a9c49917de5b2d"
+  },
+  "official_share_url": "https://x.ai/bot/s8173b3a9c49917de5b2d",
+  "found_via": "https://x.ai/bot/s8173b3a9c49917de5b2d",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/sales-call-coach-spacex/",
+  "json_url": "https://moneywithai.net/api/v1/bots/sales-call-coach-spacex.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 573,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

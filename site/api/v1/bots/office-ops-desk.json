@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "office-ops-desk",
+  "name": "Office Ops Desk",
+  "category": "Research and Ops",
+  "sub_use_case": "Compliance and admin",
+  "summary": "Tracks office deliveries, facilities issues and team birthdays from a list or sheet, and writes the digests for you to send.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Erika Cabrera",
+    "url": "https://x.ai/bot/afZj-XnYkThA4MB7GfZK6"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/afZj-XnYkThA4MB7GfZK6"
+  },
+  "official_share_url": "https://x.ai/bot/afZj-XnYkThA4MB7GfZK6",
+  "found_via": "https://x.ai/bot/afZj-XnYkThA4MB7GfZK6",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/office-ops-desk/",
+  "json_url": "https://moneywithai.net/api/v1/bots/office-ops-desk.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 525,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

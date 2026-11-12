@@ -1,0 +1,42 @@
+{
+  "type": "bot",
+  "slug": "overheard-lenny-rachitsky",
+  "name": "Overheard",
+  "category": "Customer Support",
+  "sub_use_case": "Feedback watch",
+  "summary": "Watches Reddit, Hacker News, news sites and X for mentions of your name, brand and site, and sends a short weekday report.",
+  "tools": [
+    "Grok",
+    "Hacker News",
+    "Reddit",
+    "X"
+  ],
+  "creator": {
+    "handle": "Lenny Rachitsky",
+    "url": "https://x.ai/bot/NIEguoGUjA648fUPle8F5"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/NIEguoGUjA648fUPle8F5"
+  },
+  "official_share_url": "https://x.ai/bot/NIEguoGUjA648fUPle8F5",
+  "found_via": "https://x.ai/bot/NIEguoGUjA648fUPle8F5",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/overheard-lenny-rachitsky/",
+  "json_url": "https://moneywithai.net/api/v1/bots/overheard-lenny-rachitsky.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 532,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

@@ -19,7 +19,7 @@
     "url": "https://x.com/LBallz77283/status/2093526095769350349"
   },
   "official_share_url": null,
-  "found_via": "https://botdirectory.ai/bots/product-price-writer/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-25",
@@ -28,11 +28,13 @@
   "use_cases": [
     "https://moneywithai.net/use-cases/shopify-ops-roster/",
     "https://moneywithai.net/use-cases/competitor-price-and-drop-watch/",
-    "https://moneywithai.net/use-cases/multi-marketplace-resale/"
+    "https://moneywithai.net/use-cases/multi-marketplace-resale/",
+    "https://moneywithai.net/use-cases/price-products-from-real-costs/",
+    "https://moneywithai.net/use-cases/price-pod-listings-for-real-profit/"
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 124,
+    "rank": 146,
     "score": 83,
     "money": 27,
     "profile": 26,

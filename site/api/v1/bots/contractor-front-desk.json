@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "contractor-front-desk",
+  "name": "Contractor Front Desk",
+  "category": "Leads and Sales",
+  "sub_use_case": "Speed-to-lead and quotes",
+  "summary": "Sorts missed-call voicemails and web-form leads for home-service businesses into hot, warm, spam or existing job, drafts the reply and plans follow-ups.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Thuong P. Nguyen",
+    "url": "https://x.ai/bot/A1t0gfd8P4hbldi8swcem"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/A1t0gfd8P4hbldi8swcem"
+  },
+  "official_share_url": "https://x.ai/bot/A1t0gfd8P4hbldi8swcem",
+  "found_via": "https://x.ai/bot/A1t0gfd8P4hbldi8swcem",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/contractor-front-desk/",
+  "json_url": "https://moneywithai.net/api/v1/bots/contractor-front-desk.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/document-code-upgrades-for-insurance-supplements/"
+  ],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 171,
+    "score": 83,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

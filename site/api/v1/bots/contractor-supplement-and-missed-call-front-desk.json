@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "contractor-supplement-and-missed-call-front-desk",
+  "name": "Contractor Supplement & Missed-Call Front Desk",
+  "category": "Research and Ops",
+  "sub_use_case": "Construction office",
+  "summary": "Helps contractors get paid for code-upgrade work on insurance jobs: drafts supplement letters from jobsite photos and notes, sorts missed calls, and chases open estimates.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "LisaMAUSA",
+    "url": "https://x.com/LisaMAUSA"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/lnd5ErImPDh4h7eBb5n8Z"
+  },
+  "official_share_url": "https://x.ai/bot/lnd5ErImPDh4h7eBb5n8Z",
+  "found_via": null,
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-11-08",
+  "url": "https://moneywithai.net/bots/contractor-supplement-and-missed-call-front-desk/",
+  "json_url": "https://moneywithai.net/api/v1/bots/contractor-supplement-and-missed-call-front-desk.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/document-code-upgrades-for-insurance-supplements/"
+  ],
+  "added_at": "2026-11-08T10:00:00.000Z",
+  "featured": {
+    "rank": 172,
+    "score": 83,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

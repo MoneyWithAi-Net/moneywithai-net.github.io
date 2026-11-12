@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "vidness",
+    "name": "Vidness",
+    "category": "Content and Marketing",
+    "sub_use_case": "Video production",
+    "summary": "Turns the footage, photos and music you already have into finished promo videos and social clips, cut to the beat and captioned, without hiring an editor.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "AunySillyMe",
+      "url": "https://x.com/AunySillyMe"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/AunySillyMe/status/2116294792548372811"
+    },
+    "official_share_url": "https://x.ai/bot/n2P7H93gdzQ28pzxz2NJx",
+    "found_via": "https://x.com/AunySillyMe/status/2116294792548372811",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/vidness/",
+    "json_url": "https://moneywithai.net/api/bots/vidness.json"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "talent-discovery",
+  "name": "Talent Discovery",
+  "category": "Research and Ops",
+  "sub_use_case": "Hiring",
+  "summary": "Finds candidates for your open roles that match your criteria and are not already in your applicant tracking system.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Tommy Hansen",
+    "url": "https://x.ai/bot/vIX2YW6rr6nQnf8-Rhyzc"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/vIX2YW6rr6nQnf8-Rhyzc"
+  },
+  "official_share_url": "https://x.ai/bot/vIX2YW6rr6nQnf8-Rhyzc",
+  "found_via": "https://x.ai/bot/vIX2YW6rr6nQnf8-Rhyzc",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/talent-discovery/",
+  "json_url": "https://moneywithai.net/api/v1/bots/talent-discovery.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 609,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

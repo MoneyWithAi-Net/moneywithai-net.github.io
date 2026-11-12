@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "event-planner-desk-party-pro",
+    "name": "Event Planner Desk PARTY-PRO",
+    "category": "Client Services",
+    "sub_use_case": "Client delivery",
+    "summary": "Turns an event brief into vendor options, a run of show, a budget table and guest message drafts. Nothing is booked without your OK.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Cypher Monkey",
+      "url": "https://x.ai/bot/hGAgxNFJOIGL1zgJMcojw"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/hGAgxNFJOIGL1zgJMcojw"
+    },
+    "official_share_url": "https://x.ai/bot/hGAgxNFJOIGL1zgJMcojw",
+    "found_via": "https://x.ai/bot/hGAgxNFJOIGL1zgJMcojw",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/event-planner-desk-party-pro/",
+    "json_url": "https://moneywithai.net/api/bots/event-planner-desk-party-pro.json"
+  }
+}

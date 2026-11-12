@@ -1,0 +1,31 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "lead-desk",
+    "name": "Lead Desk",
+    "category": "Leads and Sales",
+    "sub_use_case": "Speed-to-lead and quotes",
+    "summary": "Stops new leads going cold: each sweep checks your connected channels, sorts every new lead, and hands you a draft follow-up. Nothing sends until you hit send.",
+    "tools": [
+      "Grok",
+      "Gmail",
+      "Slack"
+    ],
+    "creator": {
+      "handle": "Calix",
+      "url": "https://x.com/CaliLumberJack"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/CaliLumberJack/status/2117515872596000998"
+    },
+    "official_share_url": "https://x.ai/bot/zqCY7u_VOCpgNSzOwpfNz",
+    "found_via": "https://x.com/CaliLumberJack/status/2117515872596000998",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-11-08",
+    "url": "https://moneywithai.net/bots/lead-desk/",
+    "json_url": "https://moneywithai.net/api/bots/lead-desk.json"
+  }
+}

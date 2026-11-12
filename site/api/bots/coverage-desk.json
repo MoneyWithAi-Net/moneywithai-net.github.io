@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "coverage-desk",
+    "name": "Coverage Desk",
+    "category": "Client Services",
+    "sub_use_case": "Client delivery",
+    "summary": "Explains an insurance declarations page in plain English and sends the open questions to the licensed agent named on it.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Brian M.",
+      "url": "https://x.ai/bot/Xf744EvEIun3bzP0zdp0u"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/Xf744EvEIun3bzP0zdp0u"
+    },
+    "official_share_url": "https://x.ai/bot/Xf744EvEIun3bzP0zdp0u",
+    "found_via": "https://x.ai/bot/Xf744EvEIun3bzP0zdp0u",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/coverage-desk/",
+    "json_url": "https://moneywithai.net/api/bots/coverage-desk.json"
+  }
+}

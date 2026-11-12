@@ -1,0 +1,131 @@
+{
+  "type": "use-case",
+  "slug": "make-brand-stills-without-a-studio",
+  "title": "Make Brand Stills Without a Studio Shoot",
+  "category": "Content and Marketing",
+  "category_slug": "content-and-marketing",
+  "money_model": "Save costs",
+  "difficulty": "Beginner",
+  "summary": "Turn your brand details and a few references into stills and short clips, with product images for your listings made alongside.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you buy studio time or reshoots for social and listing visuals; the value is avoided studio costs.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Fewer studio booking and reshoot costs for social and listing visuals.",
+    "You can refresh visuals when the offer changes, not only at a shoot."
+  ],
+  "who_its_for": [
+    "Small brands that need stills and short clips.",
+    "Shops that want product images without a studio."
+  ],
+  "stack": [
+    {
+      "bot": "image-gen-bot",
+      "name": "Image Gen Bot",
+      "role": "Gathers brand details and references, writes the prompt, generates stills or clips and removes backgrounds on FAL.",
+      "creator": "Matt Palmer",
+      "tools": [
+        "Grok",
+        "FAL"
+      ],
+      "url": "https://moneywithai.net/bots/image-gen-bot/",
+      "official_share_url": "https://x.ai/bot/phPQtGzCZOynABubl0pwx"
+    },
+    {
+      "bot": "shopify-product-image-maker",
+      "name": "Shopify Product Image Maker",
+      "role": "Makes product images for Shopify listings.",
+      "creator": "deAPI Team",
+      "tools": [
+        "n8n",
+        "Claude",
+        "Shopify"
+      ],
+      "url": "https://moneywithai.net/bots/shopify-product-image-maker/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Grok",
+    "FAL",
+    "n8n",
+    "Claude",
+    "Shopify"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Brand details",
+        "tool": null
+      },
+      {
+        "label": "References you own",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "image-gen-bot",
+        "name": "Image Gen Bot",
+        "does": "Generates stills and clips",
+        "tools": [
+          "Grok",
+          "FAL"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "shopify-product-image-maker",
+        "name": "Shopify Product Image Maker",
+        "does": "Makes product images for listings",
+        "tools": [
+          "n8n",
+          "Claude",
+          "Shopify"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Review and publish",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Brand stills and short clips",
+      "Product images for listings"
+    ]
+  },
+  "steps": [
+    "Collect your brand details and two or three references you own.",
+    "Generate stills and clips with the image bot.",
+    "Make product images for the listings that need them.",
+    "Review each output and publish the ones you lock."
+  ],
+  "guardrails": [
+    "Use only images and assets you own or have the rights to.",
+    "Label AI-made visuals where your platform or client requires it."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-11-11T08:07:15.000Z",
+  "featured": {
+    "rank": 44,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/make-brand-stills-without-a-studio/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/make-brand-stills-without-a-studio.json"
+}

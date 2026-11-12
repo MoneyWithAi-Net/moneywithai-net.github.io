@@ -13,7 +13,7 @@
     "label": "Medium",
     "basis": "Assumes partners drive sales you pay for only when they happen.",
     "claim_label": "E",
-    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
   },
   "how_it_makes_money": [
     "Partners sell for you on commission only.",
@@ -152,7 +152,7 @@
   "claims": [],
   "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 52,
+    "rank": 78,
     "score": 79,
     "money": 27,
     "profile": 26,

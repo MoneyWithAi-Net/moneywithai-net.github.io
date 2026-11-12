@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "head-of-growth",
+  "name": "Head of Growth",
+  "category": "Research and Ops",
+  "sub_use_case": "Planning and projects",
+  "summary": "Coordinates growth bots for a self-serve product and writes a weekly insight memo that lays out options for you to decide.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Jay Sahnan",
+    "url": "https://x.ai/bot/_l8tAONAOSZ-wU-Quresz"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/_l8tAONAOSZ-wU-Quresz"
+  },
+  "official_share_url": "https://x.ai/bot/_l8tAONAOSZ-wU-Quresz",
+  "found_via": "https://x.ai/bot/_l8tAONAOSZ-wU-Quresz",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/head-of-growth/",
+  "json_url": "https://moneywithai.net/api/v1/bots/head-of-growth.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 466,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "signal-prospector",
+  "name": "Signal Prospector",
+  "category": "Leads and Sales",
+  "sub_use_case": "Inbound qualification",
+  "summary": "Spots accounts in your CRM and product data that just showed buying intent, ranks them and drafts a first message, explaining every signal.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Krista Letz",
+    "url": "https://x.ai/bot/wsbOPOkHApmIYLrErnC4e"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/wsbOPOkHApmIYLrErnC4e"
+  },
+  "official_share_url": "https://x.ai/bot/wsbOPOkHApmIYLrErnC4e",
+  "found_via": "https://x.ai/bot/wsbOPOkHApmIYLrErnC4e",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/signal-prospector/",
+  "json_url": "https://moneywithai.net/api/v1/bots/signal-prospector.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 590,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

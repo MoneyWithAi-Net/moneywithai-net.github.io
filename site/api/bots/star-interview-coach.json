@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "star-interview-coach",
+    "name": "STAR Interview Coach",
+    "category": "Research and Ops",
+    "sub_use_case": "Hiring",
+    "summary": "Turns messy work stories into clear STAR answers for claims, insurance, customer service, tech and corporate interviews, with live mocks and a story bank.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "LisaMAUSA",
+      "url": "https://x.com/LisaMAUSA"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/by3SNDqjk73XxC5ZXaSoP"
+    },
+    "official_share_url": "https://x.ai/bot/by3SNDqjk73XxC5ZXaSoP",
+    "found_via": null,
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-11-07",
+    "url": "https://moneywithai.net/bots/star-interview-coach/",
+    "json_url": "https://moneywithai.net/api/bots/star-interview-coach.json"
+  }
+}

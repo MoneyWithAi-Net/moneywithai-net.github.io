@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "zapier",
+  "name": "Zapier",
+  "category": "Research and Ops",
+  "sub_use_case": "Planning and projects",
+  "summary": "Connects your apps through Zapier and builds, runs and fixes automations for you.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Jethro Jones",
+    "url": "https://x.ai/bot/6zPadTDV2Y7uAt_qbNxzM"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/6zPadTDV2Y7uAt_qbNxzM"
+  },
+  "official_share_url": "https://x.ai/bot/6zPadTDV2Y7uAt_qbNxzM",
+  "found_via": "https://x.ai/bot/6zPadTDV2Y7uAt_qbNxzM",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/zapier/",
+  "json_url": "https://moneywithai.net/api/v1/bots/zapier.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 650,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

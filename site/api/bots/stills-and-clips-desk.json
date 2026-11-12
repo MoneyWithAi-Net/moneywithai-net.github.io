@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "stills-and-clips-desk",
+    "name": "Stills & Clips Desk",
+    "category": "Content and Marketing",
+    "sub_use_case": "Video production",
+    "summary": "Pulls stills, thumbnails and short clips from your footage at the right sizes, and writes captions and alt text.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Matt Palmer",
+      "url": "https://x.ai/bot/V8XugyLxzbQXLM9o5b3B-"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/V8XugyLxzbQXLM9o5b3B-"
+    },
+    "official_share_url": "https://x.ai/bot/V8XugyLxzbQXLM9o5b3B-",
+    "found_via": "https://x.ai/bot/V8XugyLxzbQXLM9o5b3B-",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/stills-and-clips-desk/",
+    "json_url": "https://moneywithai.net/api/bots/stills-and-clips-desk.json"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "subcut",
+  "name": "SubCut",
+  "category": "Finance",
+  "sub_use_case": "SaaS spend",
+  "summary": "Reads your inbox for recurring charges, splits monthly from yearly and shows where cancelling or switching would save money.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Taha",
+    "url": "https://x.ai/bot/MzuJZpvaIK2KpexUVY-V0"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/MzuJZpvaIK2KpexUVY-V0"
+  },
+  "official_share_url": "https://x.ai/bot/MzuJZpvaIK2KpexUVY-V0",
+  "found_via": "https://x.ai/bot/MzuJZpvaIK2KpexUVY-V0",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/subcut/",
+  "json_url": "https://moneywithai.net/api/v1/bots/subcut.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 605,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "imogen",
+  "name": "Imogen",
+  "category": "Content and Marketing",
+  "sub_use_case": "Copy and creative",
+  "summary": "Writes short, copyable alt text that describes the most important part of an image.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Kent C. Dodds",
+    "url": "https://x.ai/bot/Eeu5NZp62OzQjtlY4ons2"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/Eeu5NZp62OzQjtlY4ons2"
+  },
+  "official_share_url": "https://x.ai/bot/Eeu5NZp62OzQjtlY4ons2",
+  "found_via": "https://x.ai/bot/Eeu5NZp62OzQjtlY4ons2",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/imogen/",
+  "json_url": "https://moneywithai.net/api/v1/bots/imogen.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 473,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "outbound-desk",
+    "name": "Outbound Desk",
+    "category": "Leads and Sales",
+    "sub_use_case": "Outbound prospecting",
+    "summary": "Fills your pipeline with researched prospects and ready-to-edit outreach drafts from just your website and a target audience, all in one shared sheet you approve from.",
+    "tools": [
+      "Google Sheets",
+      "X",
+      "LinkedIn",
+      "Grok"
+    ],
+    "creator": {
+      "handle": "monokern",
+      "url": "https://x.com/monokern"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/monokern/status/2115161147485958594"
+    },
+    "official_share_url": "https://x.ai/bot/5fcknlf1SHiLCCVULgBql",
+    "found_via": "https://x.com/monokern/status/2115161147485958594",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-30",
+    "url": "https://moneywithai.net/bots/outbound-desk/",
+    "json_url": "https://moneywithai.net/api/bots/outbound-desk.json"
+  }
+}

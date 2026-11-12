@@ -1,0 +1,31 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "don-t-leave-me-hanging",
+    "name": "Don't Leave Me Hanging",
+    "category": "Research and Ops",
+    "sub_use_case": "Inbox triage",
+    "summary": "Finds older Gmail threads with promises nobody closed, ranks them by deadline and stakes and drafts a short follow-up for each.",
+    "tools": [
+      "Grok",
+      "Threads",
+      "Gmail"
+    ],
+    "creator": {
+      "handle": "Brian",
+      "url": "https://x.ai/bot/91mq1IFljG-EWQhe5kdXe"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/91mq1IFljG-EWQhe5kdXe"
+    },
+    "official_share_url": "https://x.ai/bot/91mq1IFljG-EWQhe5kdXe",
+    "found_via": "https://x.ai/bot/91mq1IFljG-EWQhe5kdXe",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/don-t-leave-me-hanging/",
+    "json_url": "https://moneywithai.net/api/bots/don-t-leave-me-hanging.json"
+  }
+}

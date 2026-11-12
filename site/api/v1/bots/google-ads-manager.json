@@ -1,0 +1,42 @@
+{
+  "type": "bot",
+  "slug": "google-ads-manager",
+  "name": "Google Ads Manager",
+  "category": "Content and Marketing",
+  "sub_use_case": "Paid ads",
+  "summary": "Audits Google Ads search terms and negatives, builds Search campaigns, and runs weekly checks. It recommends changes and waits for your yes before anything moves.",
+  "tools": [
+    "Grok",
+    "Google Ads"
+  ],
+  "creator": {
+    "handle": "Dan",
+    "url": "https://x.com/AdPlugMCP"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/EuApBJ4lniTVv-BAth0ru"
+  },
+  "official_share_url": "https://x.ai/bot/EuApBJ4lniTVv-BAth0ru",
+  "found_via": null,
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-11-07",
+  "url": "https://moneywithai.net/bots/google-ads-manager/",
+  "json_url": "https://moneywithai.net/api/v1/bots/google-ads-manager.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/audit-google-ads-before-you-change/"
+  ],
+  "added_at": "2026-11-07T10:00:00.000Z",
+  "featured": {
+    "rank": 175,
+    "score": 83,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

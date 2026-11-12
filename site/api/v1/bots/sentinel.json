@@ -18,7 +18,7 @@
     "url": "https://x.com/CluSloan/status/2101119026453705089"
   },
   "official_share_url": "https://x.ai/bot/NAFAT-NGrQ7-zLccn4qg1",
-  "found_via": "https://grokbot101.org/bots/sentinel/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-24",
@@ -31,7 +31,7 @@
   ],
   "added_at": "2026-10-24T09:30:00.000Z",
   "featured": {
-    "rank": 25,
+    "rank": 31,
     "score": 96,
     "money": 40,
     "profile": 30,

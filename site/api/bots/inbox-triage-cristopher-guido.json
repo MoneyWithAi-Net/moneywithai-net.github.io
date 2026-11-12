@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "inbox-triage-cristopher-guido",
+    "name": "Inbox Triage",
+    "category": "Research and Ops",
+    "sub_use_case": "Inbox triage",
+    "summary": "Gives small business owners and freelancers the few emails that need them each weekday morning, each with a short draft reply.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Cristopher Guido",
+      "url": "https://x.ai/bot/lDp666Fm-QgyBGqK7ee4l"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/lDp666Fm-QgyBGqK7ee4l"
+    },
+    "official_share_url": "https://x.ai/bot/lDp666Fm-QgyBGqK7ee4l",
+    "found_via": "https://x.ai/bot/lDp666Fm-QgyBGqK7ee4l",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/inbox-triage-cristopher-guido/",
+    "json_url": "https://moneywithai.net/api/bots/inbox-triage-cristopher-guido.json"
+  }
+}

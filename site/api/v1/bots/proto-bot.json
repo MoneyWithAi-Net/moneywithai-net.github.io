@@ -1,0 +1,40 @@
+{
+  "type": "bot",
+  "slug": "proto-bot",
+  "name": "Proto Bot",
+  "category": "Research and Ops",
+  "sub_use_case": "Product and engineering",
+  "summary": "Turns daily ideas into working prototypes in your real app as draft pull requests with screenshots and a short video. It never merges.",
+  "tools": [
+    "Grok",
+    "Figma"
+  ],
+  "creator": {
+    "handle": "Shub Gaur",
+    "url": "https://x.ai/bot/p4sSEZV7xqcBgdT7m2O8i"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/p4sSEZV7xqcBgdT7m2O8i"
+  },
+  "official_share_url": "https://x.ai/bot/p4sSEZV7xqcBgdT7m2O8i",
+  "found_via": "https://x.ai/bot/p4sSEZV7xqcBgdT7m2O8i",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/proto-bot/",
+  "json_url": "https://moneywithai.net/api/v1/bots/proto-bot.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 554,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

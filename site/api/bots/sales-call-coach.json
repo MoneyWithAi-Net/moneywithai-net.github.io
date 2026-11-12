@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "sales-call-coach",
+    "name": "Sales Call Coach",
+    "category": "Leads and Sales",
+    "sub_use_case": "Sales-call support",
+    "summary": "Scores a sales call from a transcript or recording and tells you the few things to change before your next one.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Daniel Brill",
+      "url": "https://x.ai/bot/yZ5MFQFdl32vHt6fcIJAc"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/yZ5MFQFdl32vHt6fcIJAc"
+    },
+    "official_share_url": "https://x.ai/bot/yZ5MFQFdl32vHt6fcIJAc",
+    "found_via": "https://x.ai/bot/yZ5MFQFdl32vHt6fcIJAc",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/sales-call-coach/",
+    "json_url": "https://moneywithai.net/api/bots/sales-call-coach.json"
+  }
+}

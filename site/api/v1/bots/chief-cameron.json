@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "chief-cameron",
+  "name": "Chief",
+  "category": "Research and Ops",
+  "sub_use_case": "Inbox triage",
+  "summary": "Keeps track of open loops, drafts replies and runs a morning inbox and calendar check, leaving a written log after each job.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Cameron",
+    "url": "https://x.ai/bot/UrO63RhN1LGXD3DzoMess"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/UrO63RhN1LGXD3DzoMess"
+  },
+  "official_share_url": "https://x.ai/bot/UrO63RhN1LGXD3DzoMess",
+  "found_via": "https://x.ai/bot/UrO63RhN1LGXD3DzoMess",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/chief-cameron/",
+  "json_url": "https://moneywithai.net/api/v1/bots/chief-cameron.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 367,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

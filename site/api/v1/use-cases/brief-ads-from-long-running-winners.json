@@ -1,0 +1,146 @@
+{
+  "type": "use-case",
+  "slug": "brief-ads-from-long-running-winners",
+  "title": "Brief Ads from Long-Running Winners",
+  "category": "Content and Marketing",
+  "category_slug": "content-and-marketing",
+  "money_model": "Save costs",
+  "difficulty": "Beginner",
+  "summary": "Study ads in your niche that have stayed live for months, break down why they work, and brief your own concepts from those patterns, so less test budget goes on ideas that flop.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Assumes you already test paid social ads; the value is fewer weak tests, not guaranteed sales.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Less ad spend wasted on weak first tests.",
+    "Faster creative briefs without an agency."
+  ],
+  "who_its_for": [
+    "Boutiques and online shops on paid social.",
+    "Small brands without a creative team."
+  ],
+  "stack": [
+    {
+      "bot": "winning-ad-spy-and-boutique-creative-studio",
+      "name": "Winning Ad Spy & Boutique Creative Studio",
+      "role": "Finds ads that have run 60 days or more, breaks down hooks and visuals, and drafts your own concepts.",
+      "creator": "LisaMAUSA",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/winning-ad-spy-and-boutique-creative-studio/",
+      "official_share_url": "https://x.ai/bot/iydi6YgZglC_urxI3AOiq"
+    },
+    {
+      "bot": "competitor-ad-watch",
+      "name": "Competitor Ad Watch",
+      "role": "Watches competitor ads and posts new creatives and angles to Slack.",
+      "creator": "daniel-ddtech",
+      "tools": [
+        "Adlicio",
+        "Slack"
+      ],
+      "url": "https://moneywithai.net/bots/competitor-ad-watch/",
+      "official_share_url": null
+    },
+    {
+      "bot": "ad-creative-generator",
+      "name": "Ad Creative Generator",
+      "role": "Generates fresh ad creatives from your product details.",
+      "creator": "mightyking",
+      "tools": [
+        "MaxFusion"
+      ],
+      "url": "https://moneywithai.net/bots/ad-creative-generator/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Grok",
+    "Adlicio",
+    "Slack",
+    "MaxFusion"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Product, audience and competitors",
+        "tool": null
+      },
+      {
+        "label": "Your ad account",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "winning-ad-spy-and-boutique-creative-studio",
+        "name": "Winning Ad Spy & Boutique Creative Studio",
+        "does": "Breaks down long-running ads",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "competitor-ad-watch",
+        "name": "Competitor Ad Watch",
+        "does": "Posts new competitor angles",
+        "tools": [
+          "Adlicio",
+          "Slack"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "ad-creative-generator",
+        "name": "Ad Creative Generator",
+        "does": "Generates fresh creatives",
+        "tools": [
+          "MaxFusion"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "you",
+        "name": "You",
+        "does": "Test on a small budget",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A short list of proven angles",
+      "Original concepts to test"
+    ]
+  },
+  "steps": [
+    "Name your product, audience and a few competitors.",
+    "Pull long-running ads and their breakdowns.",
+    "Pick one angle and draft your own concepts.",
+    "Test with a small budget and keep what works."
+  ],
+  "guardrails": [
+    "Learn the pattern; never reuse another brand's assets.",
+    "Set a hard test budget in the ad platform."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-11-08T10:00:00.000Z",
+  "featured": {
+    "rank": 131,
+    "score": 69,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/brief-ads-from-long-running-winners/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/brief-ads-from-long-running-winners.json"
+}

@@ -1,0 +1,30 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "swe",
+    "name": "SWE",
+    "category": "Research and Ops",
+    "sub_use_case": "Product and engineering",
+    "summary": "Cursor's software engineer bot that writes code, triages issues and keeps an eye on production.",
+    "tools": [
+      "Grok",
+      "Cursor"
+    ],
+    "creator": {
+      "handle": "Cursor",
+      "url": "https://x.ai/bot/sd4474cf03cd8552905ff"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/sd4474cf03cd8552905ff"
+    },
+    "official_share_url": "https://x.ai/bot/sd4474cf03cd8552905ff",
+    "found_via": "https://x.ai/bot/sd4474cf03cd8552905ff",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/swe/",
+    "json_url": "https://moneywithai.net/api/bots/swe.json"
+  }
+}

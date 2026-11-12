@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "website-ops",
+  "name": "Website Ops",
+  "category": "Content and Marketing",
+  "sub_use_case": "SEO and AI search",
+  "summary": "Ships website changes as pull requests and runs site audits for SEO, content, speed, accessibility and conversion.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Josh Kim",
+    "url": "https://x.ai/bot/NYDai_DOI_2pNDIKerrpD"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/NYDai_DOI_2pNDIKerrpD"
+  },
+  "official_share_url": "https://x.ai/bot/NYDai_DOI_2pNDIKerrpD",
+  "found_via": "https://x.ai/bot/NYDai_DOI_2pNDIKerrpD",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/website-ops/",
+  "json_url": "https://moneywithai.net/api/v1/bots/website-ops.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 631,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

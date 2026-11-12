@@ -1,0 +1,30 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "non-evil-sales-bot",
+    "name": "Non-Evil Sales Bot",
+    "category": "Leads and Sales",
+    "sub_use_case": "Outbound prospecting",
+    "summary": "Finds companies that fit your buyer profile and the closest real introduction through your own network, then drafts the outreach.",
+    "tools": [
+      "Grok",
+      "X"
+    ],
+    "creator": {
+      "handle": "Austen Allred",
+      "url": "https://x.ai/bot/5YWYxtjBD3kmr95SoCAzz"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/5YWYxtjBD3kmr95SoCAzz"
+    },
+    "official_share_url": "https://x.ai/bot/5YWYxtjBD3kmr95SoCAzz",
+    "found_via": "https://x.ai/bot/5YWYxtjBD3kmr95SoCAzz",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/non-evil-sales-bot/",
+    "json_url": "https://moneywithai.net/api/bots/non-evil-sales-bot.json"
+  }
+}

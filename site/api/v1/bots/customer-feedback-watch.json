@@ -12,13 +12,13 @@
     "handle": "egavrilenko11",
     "url": "https://x.com/egavrilenko11"
   },
-  "scouted_by": "elie2222",
+  "scouted_by": null,
   "source": {
     "kind": "x",
     "url": "https://x.com/egavrilenko11/status/2095604008555893015"
   },
   "official_share_url": "https://x.ai/bot/8Snl1TovbMwClPoBiHrWT",
-  "found_via": "https://botdirectory.ai/bots/customer-feedback-watch/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-24",
@@ -30,7 +30,7 @@
   ],
   "added_at": "2026-10-24T08:00:00.000Z",
   "featured": {
-    "rank": 152,
+    "rank": 173,
     "score": 83,
     "money": 27,
     "profile": 30,

@@ -11,15 +11,15 @@
   ],
   "creator": {
     "handle": "cosvoice_links",
-    "url": "https://botdirectory.ai/bots/cosvoice-bot-phone-line/"
+    "url": null
   },
   "scouted_by": null,
   "source": {
     "kind": "web",
-    "url": "https://botdirectory.ai/bots/cosvoice-bot-phone-line/"
+    "url": "https://moneywithai.net/bots/cosvoice-bot-phone-line/"
   },
   "official_share_url": null,
-  "found_via": "https://botdirectory.ai/bots/cosvoice-bot-phone-line/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-25",
@@ -30,10 +30,10 @@
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 197,
-    "score": 79,
+    "rank": 300,
+    "score": 73,
     "money": 27,
-    "profile": 26,
+    "profile": 20,
     "visuals": 20,
     "difficulty": 6,
     "override": null,

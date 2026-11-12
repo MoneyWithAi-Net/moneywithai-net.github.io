@@ -1,0 +1,40 @@
+{
+  "type": "bot",
+  "slug": "lebron",
+  "name": "Lebron",
+  "category": "Research and Ops",
+  "sub_use_case": "Planning and projects",
+  "summary": "A chief of staff for founders that handles email, calendar, GitHub and a small team of bots so work keeps moving while you are away.",
+  "tools": [
+    "Grok",
+    "GitHub"
+  ],
+  "creator": {
+    "handle": "Harrison Living",
+    "url": "https://x.ai/bot/KwNAf2LD5pNi1NNk8GjOO"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/KwNAf2LD5pNi1NNk8GjOO"
+  },
+  "official_share_url": "https://x.ai/bot/KwNAf2LD5pNi1NNk8GjOO",
+  "found_via": "https://x.ai/bot/KwNAf2LD5pNi1NNk8GjOO",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/lebron/",
+  "json_url": "https://moneywithai.net/api/v1/bots/lebron.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 490,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

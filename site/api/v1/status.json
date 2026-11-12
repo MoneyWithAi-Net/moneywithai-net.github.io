@@ -1,7 +1,7 @@
 {
   "service": "Money With AI API",
   "site": "https://moneywithai.net",
-  "generated_at": "2026-10-26T04:13:57.000Z",
+  "generated_at": "2026-11-12T02:32:12.000Z",
   "api_version": "v1",
   "schema_revision": 2,
   "capabilities": [
@@ -12,8 +12,8 @@
     "mcp"
   ],
   "counts": {
-    "bots": 307,
-    "use_cases": 131,
+    "bots": 676,
+    "use_cases": 174,
     "categories": 7
   },
   "notices": [
@@ -32,7 +32,7 @@
     "mcp": "https://moneywithai.net/mcp",
     "openapi": "https://moneywithai.net/openapi.json"
   },
-  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
   "changelog": [
     {
       "date": "2026-10-24",

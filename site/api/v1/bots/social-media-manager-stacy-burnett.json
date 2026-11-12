@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "social-media-manager-stacy-burnett",
+  "name": "Social Media Manager",
+  "category": "Content and Marketing",
+  "sub_use_case": "Brand social",
+  "summary": "Learns from your post history and publishes in your voice through Buffer, with auto-posting only if you turn it on.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Stacy Burnett",
+    "url": "https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X"
+  },
+  "official_share_url": "https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X",
+  "found_via": "https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/social-media-manager-stacy-burnett/",
+  "json_url": "https://moneywithai.net/api/v1/bots/social-media-manager-stacy-burnett.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 597,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

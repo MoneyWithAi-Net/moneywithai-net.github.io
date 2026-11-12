@@ -1,0 +1,30 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "project-portfolio-scanner",
+    "name": "Project Portfolio Scanner",
+    "category": "Content and Marketing",
+    "sub_use_case": "Brand-deal pricing",
+    "summary": "Scans an X account for project and campaign posts and builds a shareable portfolio with reach totals and a suggested rate card.",
+    "tools": [
+      "Grok",
+      "X"
+    ],
+    "creator": {
+      "handle": "PARELLA™",
+      "url": "https://x.ai/bot/KAdPTgvXbDoqYAvg2h65y"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/KAdPTgvXbDoqYAvg2h65y"
+    },
+    "official_share_url": "https://x.ai/bot/KAdPTgvXbDoqYAvg2h65y",
+    "found_via": "https://x.ai/bot/KAdPTgvXbDoqYAvg2h65y",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/project-portfolio-scanner/",
+    "json_url": "https://moneywithai.net/api/bots/project-portfolio-scanner.json"
+  }
+}

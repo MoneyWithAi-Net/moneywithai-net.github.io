@@ -15,13 +15,13 @@
     "handle": "rchase",
     "url": "https://x.com/rchase"
   },
-  "scouted_by": "elie2222",
+  "scouted_by": null,
   "source": {
     "kind": "x",
     "url": "https://x.com/rchase/status/2091998096175645011"
   },
   "official_share_url": null,
-  "found_via": "https://botdirectory.ai/bots/inbox-triage/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-24",
@@ -30,11 +30,12 @@
   "use_cases": [
     "https://moneywithai.net/use-cases/qualify-inbound-consulting-leads/",
     "https://moneywithai.net/use-cases/accounting-practice-ops/",
-    "https://moneywithai.net/use-cases/construction-office-chief-of-staff/"
+    "https://moneywithai.net/use-cases/construction-office-chief-of-staff/",
+    "https://moneywithai.net/use-cases/triage-email-without-auto-send/"
   ],
   "added_at": "2026-10-24T08:00:00.000Z",
   "featured": {
-    "rank": 116,
+    "rank": 138,
     "score": 83,
     "money": 27,
     "profile": 26,

@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "engenheiro",
+    "name": "Engenheiro",
+    "category": "Research and Ops",
+    "sub_use_case": "Product and engineering",
+    "summary": "A tech lead that drives your AI coding command-line tools from plan and design through build, review and pull request. Merging waits for your OK.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Igor Beleza",
+      "url": "https://x.ai/bot/Y5F5Ps7_n4nKMZKYzVIS0"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/Y5F5Ps7_n4nKMZKYzVIS0"
+    },
+    "official_share_url": "https://x.ai/bot/Y5F5Ps7_n4nKMZKYzVIS0",
+    "found_via": "https://x.ai/bot/Y5F5Ps7_n4nKMZKYzVIS0",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/engenheiro/",
+    "json_url": "https://moneywithai.net/api/bots/engenheiro.json"
+  }
+}

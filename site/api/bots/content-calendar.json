@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "content-calendar",
+    "name": "Content Calendar",
+    "category": "Content and Marketing",
+    "sub_use_case": "Brand social",
+    "summary": "Keeps a cross-channel posting calendar with slots, multi-day themes and conflict checks. It never writes or publishes posts.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "ladybarrelmaker",
+      "url": "https://x.ai/bot/B_WCQAMMbhkNU2r3r4YNO"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/B_WCQAMMbhkNU2r3r4YNO"
+    },
+    "official_share_url": "https://x.ai/bot/B_WCQAMMbhkNU2r3r4YNO",
+    "found_via": "https://x.ai/bot/B_WCQAMMbhkNU2r3r4YNO",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/content-calendar/",
+    "json_url": "https://moneywithai.net/api/bots/content-calendar.json"
+  }
+}

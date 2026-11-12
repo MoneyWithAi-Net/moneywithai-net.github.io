@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "star-interview-coach",
+  "name": "STAR Interview Coach",
+  "category": "Research and Ops",
+  "sub_use_case": "Hiring",
+  "summary": "Turns messy work stories into clear STAR answers for claims, insurance, customer service, tech and corporate interviews, with live mocks and a story bank.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "LisaMAUSA",
+    "url": "https://x.com/LisaMAUSA"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/by3SNDqjk73XxC5ZXaSoP"
+  },
+  "official_share_url": "https://x.ai/bot/by3SNDqjk73XxC5ZXaSoP",
+  "found_via": null,
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-11-07",
+  "url": "https://moneywithai.net/bots/star-interview-coach/",
+  "json_url": "https://moneywithai.net/api/v1/bots/star-interview-coach.json",
+  "use_cases": [],
+  "added_at": "2026-11-07T10:00:00.000Z",
+  "featured": {
+    "rank": 600,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

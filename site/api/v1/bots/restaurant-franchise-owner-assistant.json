@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "restaurant-franchise-owner-assistant",
+  "name": "Restaurant Franchise Owner Assistant",
+  "category": "Research and Ops",
+  "sub_use_case": "Inbox triage",
+  "summary": "Gives restaurant and franchise owners a morning inbox digest that flags bank, supplier and payroll mail, plus a monthly review.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Ketan patel",
+    "url": "https://x.ai/bot/W7RKxR9J74ZWJz7qCNHmM"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/W7RKxR9J74ZWJz7qCNHmM"
+  },
+  "official_share_url": "https://x.ai/bot/W7RKxR9J74ZWJz7qCNHmM",
+  "found_via": "https://x.ai/bot/W7RKxR9J74ZWJz7qCNHmM",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/restaurant-franchise-owner-assistant/",
+  "json_url": "https://moneywithai.net/api/v1/bots/restaurant-franchise-owner-assistant.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 569,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

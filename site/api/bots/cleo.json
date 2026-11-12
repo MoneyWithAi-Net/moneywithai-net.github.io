@@ -1,0 +1,30 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "cleo",
+    "name": "Cleo",
+    "category": "Customer Support",
+    "sub_use_case": "Phone answering",
+    "summary": "A phone operator built on xAI's voice tools that answers your line, takes messages, books your calendar and reports after each call.",
+    "tools": [
+      "Grok",
+      "Twilio"
+    ],
+    "creator": {
+      "handle": "Hector Alejandro",
+      "url": "https://x.ai/bot/HoTdd2YekB-DPaAthBkuZ"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/HoTdd2YekB-DPaAthBkuZ"
+    },
+    "official_share_url": "https://x.ai/bot/HoTdd2YekB-DPaAthBkuZ",
+    "found_via": "https://x.ai/bot/HoTdd2YekB-DPaAthBkuZ",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/cleo/",
+    "json_url": "https://moneywithai.net/api/bots/cleo.json"
+  }
+}

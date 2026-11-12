@@ -1,0 +1,34 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "influencer-marketing-deal-desk",
+    "name": "Influencer Marketing Deal Desk",
+    "category": "Content and Marketing",
+    "sub_use_case": "Brand-deal pricing",
+    "summary": "Bring a creator quote, brief or contract and get a view on price range, deal structure and next step for creator partnerships across the big social platforms.",
+    "tools": [
+      "Grok",
+      "Instagram",
+      "LinkedIn",
+      "YouTube",
+      "TikTok",
+      "X"
+    ],
+    "creator": {
+      "handle": "Matt Reichard",
+      "url": "https://x.ai/bot/j4jkqrRiTmFz64aiAWFgx"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/j4jkqrRiTmFz64aiAWFgx"
+    },
+    "official_share_url": "https://x.ai/bot/j4jkqrRiTmFz64aiAWFgx",
+    "found_via": "https://x.ai/bot/j4jkqrRiTmFz64aiAWFgx",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/influencer-marketing-deal-desk/",
+    "json_url": "https://moneywithai.net/api/bots/influencer-marketing-deal-desk.json"
+  }
+}

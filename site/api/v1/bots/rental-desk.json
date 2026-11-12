@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "rental-desk",
+  "name": "Rental Desk",
+  "category": "Finance",
+  "sub_use_case": "Rental bookkeeping",
+  "summary": "Runs the rental cycle for small landlords: lease reminders, listing drafts, inquiries, showings, fair screening and a rent and repair log.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Branden Troutman",
+    "url": "https://x.ai/bot/0havI1dJhzL_gG11rueQN"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/0havI1dJhzL_gG11rueQN"
+  },
+  "official_share_url": "https://x.ai/bot/0havI1dJhzL_gG11rueQN",
+  "found_via": "https://x.ai/bot/0havI1dJhzL_gG11rueQN",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/rental-desk/",
+  "json_url": "https://moneywithai.net/api/v1/bots/rental-desk.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 563,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

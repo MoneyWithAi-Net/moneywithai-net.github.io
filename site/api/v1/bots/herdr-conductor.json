@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "herdr-conductor",
+  "name": "Herdr Conductor",
+  "category": "Research and Ops",
+  "sub_use_case": "Product and engineering",
+  "summary": "Coordinates a team of coding agents through the herdr tool for long build sessions, using the models and repo rules you already have.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Terp Network - Public Blockchain",
+    "url": "https://x.ai/bot/p3Gjgv7MbQlkl6bTdsNhM"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/p3Gjgv7MbQlkl6bTdsNhM"
+  },
+  "official_share_url": "https://x.ai/bot/p3Gjgv7MbQlkl6bTdsNhM",
+  "found_via": "https://x.ai/bot/p3Gjgv7MbQlkl6bTdsNhM",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/herdr-conductor/",
+  "json_url": "https://moneywithai.net/api/v1/bots/herdr-conductor.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 467,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

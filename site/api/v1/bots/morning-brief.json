@@ -1,0 +1,40 @@
+{
+  "type": "bot",
+  "slug": "morning-brief",
+  "name": "Morning Brief",
+  "category": "Research and Ops",
+  "sub_use_case": "Inbox triage",
+  "summary": "Makes a short daily audio briefing from your calendar, inbox and X bookmarks, with an optional text version. Read-only.",
+  "tools": [
+    "Grok",
+    "X"
+  ],
+  "creator": {
+    "handle": "Parker Smith",
+    "url": "https://x.ai/bot/xYZX2g2H3MEIvGgWEDc1T"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/xYZX2g2H3MEIvGgWEDc1T"
+  },
+  "official_share_url": "https://x.ai/bot/xYZX2g2H3MEIvGgWEDc1T",
+  "found_via": "https://x.ai/bot/xYZX2g2H3MEIvGgWEDc1T",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/morning-brief/",
+  "json_url": "https://moneywithai.net/api/v1/bots/morning-brief.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 519,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

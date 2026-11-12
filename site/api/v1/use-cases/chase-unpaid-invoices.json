@@ -1,0 +1,110 @@
+{
+  "type": "use-case",
+  "slug": "chase-unpaid-invoices",
+  "title": "Chase Unpaid Invoices from One Sheet",
+  "category": "Finance",
+  "category_slug": "finance",
+  "money_model": "Save costs",
+  "difficulty": "Intermediate",
+  "summary": "Keep open invoices in one sheet and send firmer reminders on a schedule, each one approved by you.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you already invoice on terms and spend time chasing late payers by hand.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Less time writing chasing emails by hand.",
+    "Overdue invoices get a consistent follow-up instead of an occasional one."
+  ],
+  "who_its_for": [
+    "Agencies, consultants, trades and B2B suppliers that invoice on terms."
+  ],
+  "stack": [
+    {
+      "bot": "unpaid-invoice-reminder-flow",
+      "name": "Unpaid Invoice Reminder Flow",
+      "role": "Drafts polite, escalating Gmail reminders from a Google Sheet.",
+      "creator": "Nick Saraev",
+      "tools": [
+        "n8n",
+        "Gmail",
+        "Google Sheets",
+        "OpenAI"
+      ],
+      "url": "https://moneywithai.net/bots/unpaid-invoice-reminder-flow/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "n8n",
+    "Gmail",
+    "Google Sheets",
+    "OpenAI"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Open invoices",
+        "tool": "Google Sheets"
+      },
+      {
+        "label": "Your reminder templates",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "unpaid-invoice-reminder-flow",
+        "name": "Unpaid Invoice Reminder Flow",
+        "does": "Drafts reminders by stage from the sheet",
+        "tools": [
+          "n8n",
+          "Gmail",
+          "Google Sheets",
+          "OpenAI"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "you",
+        "name": "You",
+        "does": "Approve each reminder before it sends",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Consistent reminders",
+      "A weekly list of what is still open"
+    ]
+  },
+  "steps": [
+    "Export open invoices into a Google Sheet.",
+    "Import the n8n template and connect Gmail, Sheets and OpenAI.",
+    "Approve the first ten drafts by hand.",
+    "Schedule twice-weekly runs with an approval step."
+  ],
+  "guardrails": [
+    "Every reminder stays a draft until you approve it.",
+    "Chase only amounts that are genuinely owed and past due.",
+    "This is admin help, not legal or financial advice."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 129,
+    "score": 73,
+    "money": 27,
+    "profile": 20,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/chase-unpaid-invoices/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/chase-unpaid-invoices.json"
+}

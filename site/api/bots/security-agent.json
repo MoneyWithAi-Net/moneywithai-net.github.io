@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "security-agent",
+    "name": "Security Agent",
+    "category": "Research and Ops",
+    "sub_use_case": "Compliance and admin",
+    "summary": "Lets you answer who did what, where and with whose permission across your bot team, with one daily record of purchases, outside contact and red flags.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "JennyMarquis",
+      "url": "https://x.com/JennyMarquis"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/JennyMarquis/status/2115633821882204490"
+    },
+    "official_share_url": "https://x.ai/bot/1UbznxzMUzsMUT4V83VWm",
+    "found_via": "https://x.com/JennyMarquis/status/2115633821882204490",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-30",
+    "url": "https://moneywithai.net/bots/security-agent/",
+    "json_url": "https://moneywithai.net/api/bots/security-agent.json"
+  }
+}

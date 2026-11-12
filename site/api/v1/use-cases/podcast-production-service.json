@@ -13,7 +13,7 @@
     "label": "High",
     "basis": "Assumes a monthly package per show.",
     "claim_label": "E",
-    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
   },
   "how_it_makes_money": [
     "Recurring monthly work per show.",
@@ -38,7 +38,7 @@
       "bot": "podcast-clipmaker",
       "name": "Podcast Clipmaker",
       "role": "Picks the strongest moments.",
-      "creator": "BotDirectoryAI",
+      "creator": "Community submission",
       "tools": [
         "Grok"
       ],
@@ -49,7 +49,7 @@
       "bot": "episode-launch-crew",
       "name": "Episode Launch Crew",
       "role": "Publishes episodes for clients.",
-      "creator": "elie2222",
+      "creator": "Community submission",
       "tools": [
         "Castos",
         "Google Drive",
@@ -157,7 +157,7 @@
   "claims": [],
   "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 10,
+    "rank": 13,
     "score": 92,
     "money": 40,
     "profile": 26,

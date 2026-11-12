@@ -18,7 +18,7 @@
     "url": "https://x.com/Miffy_NYC/status/2102588454588547504"
   },
   "official_share_url": "https://x.ai/bot/gKgo-_MM29kfcD9qiZf2A",
-  "found_via": "https://grokbot101.org/bots/miffy-maintenance-triage/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-24",
@@ -29,7 +29,7 @@
   ],
   "added_at": "2026-10-24T09:30:00.000Z",
   "featured": {
-    "rank": 177,
+    "rank": 202,
     "score": 80,
     "money": 27,
     "profile": 30,

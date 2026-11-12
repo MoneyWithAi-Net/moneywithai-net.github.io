@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "bot-team-chief-sell-before-build-no-new-spend-with-a-safety-check",
+  "name": "Bot Team Chief: sell-before-build, no new spend, with a safety check",
+  "category": "Research and Ops",
+  "sub_use_case": "Planning and projects",
+  "summary": "Runs your team of bots on sell-before-you-build work, adds no new spend without your yes and checks each step for safety.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "First Mover Projects",
+    "url": "https://x.ai/bot/Pdi1tggl4brwTKus3xvJH"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/Pdi1tggl4brwTKus3xvJH"
+  },
+  "official_share_url": "https://x.ai/bot/Pdi1tggl4brwTKus3xvJH",
+  "found_via": "https://x.ai/bot/Pdi1tggl4brwTKus3xvJH",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/bot-team-chief-sell-before-build-no-new-spend-with-a-safety-check/",
+  "json_url": "https://moneywithai.net/api/v1/bots/bot-team-chief-sell-before-build-no-new-spend-with-a-safety-check.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 353,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

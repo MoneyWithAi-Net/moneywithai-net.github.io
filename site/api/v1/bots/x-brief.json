@@ -1,0 +1,40 @@
+{
+  "type": "bot",
+  "slug": "x-brief",
+  "name": "X Brief",
+  "category": "Research and Ops",
+  "sub_use_case": "Market notes",
+  "summary": "Turns the X accounts and topics you choose into one short daily brief. It never posts.",
+  "tools": [
+    "Grok",
+    "X"
+  ],
+  "creator": {
+    "handle": "Dan McAteer",
+    "url": "https://x.ai/bot/RO8GwQZFXL9O95i13epqF"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/RO8GwQZFXL9O95i13epqF"
+  },
+  "official_share_url": "https://x.ai/bot/RO8GwQZFXL9O95i13epqF",
+  "found_via": "https://x.ai/bot/RO8GwQZFXL9O95i13epqF",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/x-brief/",
+  "json_url": "https://moneywithai.net/api/v1/bots/x-brief.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 639,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

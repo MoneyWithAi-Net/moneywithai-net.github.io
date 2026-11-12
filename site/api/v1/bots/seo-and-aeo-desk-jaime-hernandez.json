@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "seo-and-aeo-desk-jaime-hernandez",
+  "name": "SEO & AEO Desk",
+  "category": "Content and Marketing",
+  "sub_use_case": "SEO and AI search",
+  "summary": "Finds what people search for and ask AI, ranks the openings into page ideas and writes briefs for your writers.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Jaime Hernandez",
+    "url": "https://x.ai/bot/CaNidmFikjRDtkc7_2OnO"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/CaNidmFikjRDtkc7_2OnO"
+  },
+  "official_share_url": "https://x.ai/bot/CaNidmFikjRDtkc7_2OnO",
+  "found_via": "https://x.ai/bot/CaNidmFikjRDtkc7_2OnO",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/seo-and-aeo-desk-jaime-hernandez/",
+  "json_url": "https://moneywithai.net/api/v1/bots/seo-and-aeo-desk-jaime-hernandez.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 587,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

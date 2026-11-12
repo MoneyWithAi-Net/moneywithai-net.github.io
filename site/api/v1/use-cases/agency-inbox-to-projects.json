@@ -13,7 +13,7 @@
     "label": "Low",
     "basis": "Assumes admin time saved.",
     "claim_label": "E",
-    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
   },
   "how_it_makes_money": [
     "Client requests never get lost.",
@@ -152,7 +152,7 @@
   "claims": [],
   "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 122,
+    "rank": 161,
     "score": 69,
     "money": 13,
     "profile": 26,

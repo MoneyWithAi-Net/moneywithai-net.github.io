@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "phone-receptionist-i668",
+    "name": "Phone Receptionist",
+    "category": "Customer Support",
+    "sub_use_case": "Phone answering",
+    "summary": "Answers calls in your browser as an automated receptionist, asks a few questions and passes on a summary.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "i668",
+      "url": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C"
+    },
+    "official_share_url": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C",
+    "found_via": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/phone-receptionist-i668/",
+    "json_url": "https://moneywithai.net/api/bots/phone-receptionist-i668.json"
+  }
+}

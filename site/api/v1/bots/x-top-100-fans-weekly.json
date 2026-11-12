@@ -10,7 +10,7 @@
   ],
   "creator": {
     "handle": "AdamLowisz",
-    "url": "https://botdirectory.ai/bots/x-top-100-fans-weekly/"
+    "url": null
   },
   "scouted_by": null,
   "source": {
@@ -18,7 +18,7 @@
     "url": "https://x.ai/bot/HU7XArfGhUgLnzVcr7neB"
   },
   "official_share_url": "https://x.ai/bot/HU7XArfGhUgLnzVcr7neB",
-  "found_via": "https://botdirectory.ai/bots/x-top-100-fans-weekly/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-25",
@@ -30,10 +30,10 @@
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 99,
-    "score": 87,
+    "rank": 197,
+    "score": 81,
     "money": 27,
-    "profile": 30,
+    "profile": 24,
     "visuals": 20,
     "difficulty": 10,
     "override": null,

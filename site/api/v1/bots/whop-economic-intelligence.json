@@ -1,0 +1,40 @@
+{
+  "type": "bot",
+  "slug": "whop-economic-intelligence",
+  "name": "Whop Economic Intelligence",
+  "category": "E-Commerce",
+  "sub_use_case": "Store operations",
+  "summary": "For businesses on Whop: shows the best next action with evidence and carries it out when you approve.",
+  "tools": [
+    "Grok",
+    "Whop"
+  ],
+  "creator": {
+    "handle": "Colin McDermott",
+    "url": "https://x.ai/bot/M2ZLrLAUFFU0fFf6Aq28c"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/M2ZLrLAUFFU0fFf6Aq28c"
+  },
+  "official_share_url": "https://x.ai/bot/M2ZLrLAUFFU0fFf6Aq28c",
+  "found_via": "https://x.ai/bot/M2ZLrLAUFFU0fFf6Aq28c",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/whop-economic-intelligence/",
+  "json_url": "https://moneywithai.net/api/v1/bots/whop-economic-intelligence.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 632,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

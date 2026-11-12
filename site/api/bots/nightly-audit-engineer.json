@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "nightly-audit-engineer",
+    "name": "Nightly Audit Engineer",
+    "category": "Research and Ops",
+    "sub_use_case": "Product and engineering",
+    "summary": "Researches your whole codebase each night and opens one cleanup pull request per area.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Lingxi Li",
+      "url": "https://x.ai/bot/0LLQmzk-yzwHi0zuiV0lC"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/0LLQmzk-yzwHi0zuiV0lC"
+    },
+    "official_share_url": "https://x.ai/bot/0LLQmzk-yzwHi0zuiV0lC",
+    "found_via": "https://x.ai/bot/0LLQmzk-yzwHi0zuiV0lC",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/nightly-audit-engineer/",
+    "json_url": "https://moneywithai.net/api/bots/nightly-audit-engineer.json"
+  }
+}

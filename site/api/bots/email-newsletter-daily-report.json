@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "email-newsletter-daily-report",
+    "name": "Email Newsletter Daily Report",
+    "category": "Research and Ops",
+    "sub_use_case": "Market notes",
+    "summary": "Reads the newsletters and podcasts you subscribe it to and sends one daily report with summaries and a uniqueness rating.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Brian",
+      "url": "https://x.ai/bot/F4GyQybzyfsBx6iXlwbHk"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/F4GyQybzyfsBx6iXlwbHk"
+    },
+    "official_share_url": "https://x.ai/bot/F4GyQybzyfsBx6iXlwbHk",
+    "found_via": "https://x.ai/bot/F4GyQybzyfsBx6iXlwbHk",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/email-newsletter-daily-report/",
+    "json_url": "https://moneywithai.net/api/bots/email-newsletter-daily-report.json"
+  }
+}

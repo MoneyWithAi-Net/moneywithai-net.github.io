@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "head-of-growth",
+    "name": "Head of Growth",
+    "category": "Research and Ops",
+    "sub_use_case": "Planning and projects",
+    "summary": "Coordinates growth bots for a self-serve product and writes a weekly insight memo that lays out options for you to decide.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Jay Sahnan",
+      "url": "https://x.ai/bot/_l8tAONAOSZ-wU-Quresz"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/_l8tAONAOSZ-wU-Quresz"
+    },
+    "official_share_url": "https://x.ai/bot/_l8tAONAOSZ-wU-Quresz",
+    "found_via": "https://x.ai/bot/_l8tAONAOSZ-wU-Quresz",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/head-of-growth/",
+    "json_url": "https://moneywithai.net/api/bots/head-of-growth.json"
+  }
+}

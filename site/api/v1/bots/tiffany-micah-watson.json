@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "tiffany-micah-watson",
+  "name": "Tiffany",
+  "category": "Client Services",
+  "sub_use_case": "Quotes",
+  "summary": "An ops helper for pool and plumbing trades that tracks customers, jobs, quotes, suppliers and stock and follows up on unpaid invoices.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Micah Watson",
+    "url": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95"
+  },
+  "official_share_url": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95",
+  "found_via": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/tiffany-micah-watson/",
+  "json_url": "https://moneywithai.net/api/v1/bots/tiffany-micah-watson.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 620,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

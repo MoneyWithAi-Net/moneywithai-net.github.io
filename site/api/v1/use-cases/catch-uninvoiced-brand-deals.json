@@ -1,0 +1,142 @@
+{
+  "type": "use-case",
+  "slug": "catch-uninvoiced-brand-deals",
+  "title": "Catch Uninvoiced Brand Deals",
+  "category": "Leads and Sales",
+  "category_slug": "leads-and-sales",
+  "money_model": "Recover money",
+  "difficulty": "Beginner",
+  "summary": "Triage inbound brand and UGC threads, draft rate replies, and surface deals that look finished in the chat but never got an invoice.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes some brand threads stall after interest or delivery; the value is collecting on work already done and answering real inquiries faster.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Cash collected on work you already did.",
+    "Faster replies on real brand inquiries."
+  ],
+  "who_its_for": [
+    "Creators who juggle brand and UGC deals.",
+    "Boutique agencies tracking creator sponsorships."
+  ],
+  "stack": [
+    {
+      "bot": "creator-partnerships-and-brand-deal-hq",
+      "name": "Creator Partnerships & Brand Deal HQ",
+      "role": "Triages inbound deals, drafts pitches, and helps catch unfinished or un-invoiced threads.",
+      "creator": "LisaMAUSA",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/creator-partnerships-and-brand-deal-hq/",
+      "official_share_url": "https://x.ai/bot/Aas1Yulx8NCIs8Yu3QU6N"
+    },
+    {
+      "bot": "sponsorship-negotiator",
+      "name": "Sponsorship Negotiator",
+      "role": "Checks sponsor inquiries, researches the brand and drafts a rate reply.",
+      "creator": "AlexFinn",
+      "tools": [
+        "Gmail"
+      ],
+      "url": "https://moneywithai.net/bots/sponsorship-negotiator/",
+      "official_share_url": null
+    },
+    {
+      "bot": "sponsor-inbound-scout",
+      "name": "Sponsor Inbound Scout",
+      "role": "Watches for inbound sponsor interest so fewer threads go quiet.",
+      "creator": "startupideaspod",
+      "tools": [
+        "Gmail"
+      ],
+      "url": "https://moneywithai.net/bots/sponsor-inbound-scout/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Grok",
+    "Gmail"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Rate card and refuse list",
+        "tool": null
+      },
+      {
+        "label": "Brand inquiry inbox",
+        "tool": "Email"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "creator-partnerships-and-brand-deal-hq",
+        "name": "Creator Partnerships & Brand Deal HQ",
+        "does": "Triages threads and flags unfinished deals",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "sponsorship-negotiator",
+        "name": "Sponsorship Negotiator",
+        "does": "Drafts rate replies",
+        "tools": [
+          "Gmail"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "sponsor-inbound-scout",
+        "name": "Sponsor Inbound Scout",
+        "does": "Surfaces more inbound interest",
+        "tools": [
+          "Gmail"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "you",
+        "name": "You",
+        "does": "Send replies and invoices",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Flagged un-invoiced threads",
+      "Draft rate replies"
+    ]
+  },
+  "steps": [
+    "Load your rate card and refuse list.",
+    "Triage open brand threads.",
+    "Draft rate replies for the real ones.",
+    "Invoice from your own tools for anything already delivered."
+  ],
+  "guardrails": [
+    "Drafts are not signed contracts.",
+    "Send invoices from your own billing tool."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-11-07T10:00:00.000Z",
+  "featured": {
+    "rank": 32,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/catch-uninvoiced-brand-deals/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/catch-uninvoiced-brand-deals.json"
+}

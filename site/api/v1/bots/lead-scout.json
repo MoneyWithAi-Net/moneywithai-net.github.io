@@ -18,7 +18,7 @@
     "url": "https://x.com/itsryanlenk/status/2101336928134001090"
   },
   "official_share_url": "https://x.ai/bot/j3Qule6BFplSpVqgLpVnV",
-  "found_via": "https://grokbot101.org/bots/lead-scout/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-24",
@@ -28,11 +28,12 @@
     "https://moneywithai.net/use-cases/sell-websites-to-local-businesses/",
     "https://moneywithai.net/use-cases/seo-agency-pitch-pack/",
     "https://moneywithai.net/use-cases/local-review-service-agency/",
-    "https://moneywithai.net/use-cases/local-seo-agency-in-a-box/"
+    "https://moneywithai.net/use-cases/local-seo-agency-in-a-box/",
+    "https://moneywithai.net/use-cases/pitch-contractors-a-mobile-demo-site/"
   ],
   "added_at": "2026-10-24T09:30:00.000Z",
   "featured": {
-    "rank": 4,
+    "rank": 5,
     "score": 100,
     "money": 40,
     "profile": 30,

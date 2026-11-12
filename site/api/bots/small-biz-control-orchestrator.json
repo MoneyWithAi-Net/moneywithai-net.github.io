@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "small-biz-control-orchestrator",
+    "name": "Small Biz Control Orchestrator",
+    "category": "Research and Ops",
+    "sub_use_case": "Planning and projects",
+    "summary": "Runs a small product business with a team of bots for markets, buying, social, PR and compliance while you approve spend and posts.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Joseph Crabtree",
+      "url": "https://x.ai/bot/Gs5Xs18vnlTyCpcoBDGZ7"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/Gs5Xs18vnlTyCpcoBDGZ7"
+    },
+    "official_share_url": "https://x.ai/bot/Gs5Xs18vnlTyCpcoBDGZ7",
+    "found_via": "https://x.ai/bot/Gs5Xs18vnlTyCpcoBDGZ7",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/small-biz-control-orchestrator/",
+    "json_url": "https://moneywithai.net/api/bots/small-biz-control-orchestrator.json"
+  }
+}

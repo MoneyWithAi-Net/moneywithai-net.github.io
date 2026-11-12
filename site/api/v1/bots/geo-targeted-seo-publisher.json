@@ -12,13 +12,13 @@
     "handle": "coreyganim",
     "url": "https://x.com/coreyganim"
   },
-  "scouted_by": "elie2222",
+  "scouted_by": null,
   "source": {
     "kind": "x",
     "url": "https://x.com/coreyganim/status/2092284619991482842"
   },
   "official_share_url": null,
-  "found_via": "https://botdirectory.ai/bots/geo-targeted-seo-publisher/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-24",
@@ -30,7 +30,7 @@
   ],
   "added_at": "2026-10-24T08:00:00.000Z",
   "featured": {
-    "rank": 41,
+    "rank": 46,
     "score": 92,
     "money": 40,
     "profile": 26,

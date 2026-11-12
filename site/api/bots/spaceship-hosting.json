@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "spaceship-hosting",
+    "name": "Spaceship Hosting",
+    "category": "Research and Ops",
+    "sub_use_case": "Compliance and admin",
+    "summary": "Keeps your Spaceship.com domains, DNS, renewals and hosted sites in check by chat, so a lapsed domain does not take your site or email down. Every change needs your yes.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "ecoay",
+      "url": "https://x.com/ecoay"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/-pvtsS-vNtsCnB7qfALq5"
+    },
+    "official_share_url": "https://x.ai/bot/-pvtsS-vNtsCnB7qfALq5",
+    "found_via": null,
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-11-08",
+    "url": "https://moneywithai.net/bots/spaceship-hosting/",
+    "json_url": "https://moneywithai.net/api/bots/spaceship-hosting.json"
+  }
+}

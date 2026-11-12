@@ -1,0 +1,151 @@
+{
+  "type": "use-case",
+  "slug": "never-lose-a-domain-to-a-missed-renewal",
+  "title": "Never Lose a Domain to a Missed Renewal",
+  "category": "Research and Ops",
+  "category_slug": "research-and-ops",
+  "money_model": "Save costs",
+  "difficulty": "Beginner",
+  "summary": "List every domain, DNS record and renewal date in one place, watch the receipts and renewal emails, and get reminders early, so a lapsed domain never takes your site or email down.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Assumes your site and email depend on domains you renew yourself; the value is time saved and avoiding a lapse.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "No lost sales from a site or inbox that went dark.",
+    "Less time checking registrar dashboards."
+  ],
+  "who_its_for": [
+    "Owners with several domains.",
+    "Freelancers who manage client domains."
+  ],
+  "stack": [
+    {
+      "bot": "spaceship-hosting",
+      "name": "Spaceship Hosting",
+      "role": "Shows Spaceship.com domains, DNS and renewal dates by chat and waits for your yes before any change.",
+      "creator": "ecoay",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/spaceship-hosting/",
+      "official_share_url": "https://x.ai/bot/-pvtsS-vNtsCnB7qfALq5"
+    },
+    {
+      "bot": "watchdog-receipts",
+      "name": "Watchdog Receipts",
+      "role": "Scans email for receipts, renewals and trials and lists what is due in the next two weeks.",
+      "creator": "jxckvibe",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/watchdog-receipts/",
+      "official_share_url": "https://x.ai/bot/PuAEE57P58Df5zskFY3pg"
+    },
+    {
+      "bot": "contract-renewal-reminder",
+      "name": "Contract Renewal Reminder",
+      "role": "Tracks renewal dates and sends reminders before they come due.",
+      "creator": "Trung Tran",
+      "tools": [
+        "n8n",
+        "Google Sheets",
+        "OpenAI",
+        "Slack"
+      ],
+      "url": "https://moneywithai.net/bots/contract-renewal-reminder/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Grok",
+    "n8n",
+    "Google Sheets",
+    "OpenAI",
+    "Slack"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Registrar account",
+        "tool": null
+      },
+      {
+        "label": "Renewal emails",
+        "tool": "Email"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "spaceship-hosting",
+        "name": "Spaceship Hosting",
+        "does": "Lists domains, DNS and renewal dates",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "watchdog-receipts",
+        "name": "Watchdog Receipts",
+        "does": "Lists renewals due soon",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "contract-renewal-reminder",
+        "name": "Contract Renewal Reminder",
+        "does": "Sends reminders before each date",
+        "tools": [
+          "n8n",
+          "Google Sheets",
+          "OpenAI",
+          "Slack"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "you",
+        "name": "You",
+        "does": "Renew and approve changes",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "One renewal list",
+      "Early reminders"
+    ]
+  },
+  "steps": [
+    "List every domain and its renewal date.",
+    "Check that auto-renew and billing are current.",
+    "Set reminders ahead of each renewal.",
+    "Approve any DNS change one at a time."
+  ],
+  "guardrails": [
+    "Every DNS change is shown first and needs your yes.",
+    "Write down current DNS records before any edit."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-11-08T10:00:00.000Z",
+  "featured": {
+    "rank": 145,
+    "score": 69,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/never-lose-a-domain-to-a-missed-renewal/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/never-lose-a-domain-to-a-missed-renewal.json"
+}

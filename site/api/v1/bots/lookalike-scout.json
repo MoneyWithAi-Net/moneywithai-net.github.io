@@ -10,7 +10,7 @@
   ],
   "creator": {
     "handle": "Treg team",
-    "url": "https://botdirectory.ai/bots/lookalike-scout/"
+    "url": null
   },
   "scouted_by": null,
   "source": {
@@ -18,7 +18,7 @@
     "url": "https://x.ai/bot/mfaurGq6eY9rIvIpMfUFI"
   },
   "official_share_url": "https://x.ai/bot/mfaurGq6eY9rIvIpMfUFI",
-  "found_via": "https://botdirectory.ai/bots/lookalike-scout/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-25",
@@ -26,14 +26,15 @@
   "json_url": "https://moneywithai.net/api/v1/bots/lookalike-scout.json",
   "use_cases": [
     "https://moneywithai.net/use-cases/lookalike-accounts-to-pipeline/",
-    "https://moneywithai.net/use-cases/saas-founder-gtm-week/"
+    "https://moneywithai.net/use-cases/saas-founder-gtm-week/",
+    "https://moneywithai.net/use-cases/test-a-new-customer-segment/"
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 23,
-    "score": 96,
+    "rank": 64,
+    "score": 90,
     "money": 40,
-    "profile": 30,
+    "profile": 24,
     "visuals": 20,
     "difficulty": 6,
     "override": null,

@@ -1,0 +1,30 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "x-radar",
+    "name": "X Radar",
+    "category": "Customer Support",
+    "sub_use_case": "Feedback watch",
+    "summary": "Watches X for mentions, keywords and competitors and sends roundups sorted into ideas, complaints and posts worth replying to.",
+    "tools": [
+      "Grok",
+      "X"
+    ],
+    "creator": {
+      "handle": "Luneri ;]",
+      "url": "https://x.ai/bot/dF0wbCNEVHlP0n6l9t5-t"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/dF0wbCNEVHlP0n6l9t5-t"
+    },
+    "official_share_url": "https://x.ai/bot/dF0wbCNEVHlP0n6l9t5-t",
+    "found_via": "https://x.ai/bot/dF0wbCNEVHlP0n6l9t5-t",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/x-radar/",
+    "json_url": "https://moneywithai.net/api/bots/x-radar.json"
+  }
+}

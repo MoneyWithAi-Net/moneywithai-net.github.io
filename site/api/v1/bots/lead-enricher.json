@@ -13,15 +13,15 @@
   ],
   "creator": {
     "handle": "Nittarab",
-    "url": "https://botdirectory.ai/bots/lead-enricher/"
+    "url": null
   },
   "scouted_by": null,
   "source": {
     "kind": "web",
-    "url": "https://botdirectory.ai/bots/lead-enricher/"
+    "url": "https://moneywithai.net/bots/lead-enricher/"
   },
   "official_share_url": null,
-  "found_via": "https://botdirectory.ai/bots/lead-enricher/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-25",
@@ -34,10 +34,10 @@
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 43,
-    "score": 92,
+    "rank": 124,
+    "score": 86,
     "money": 40,
-    "profile": 26,
+    "profile": 20,
     "visuals": 20,
     "difficulty": 6,
     "override": null,

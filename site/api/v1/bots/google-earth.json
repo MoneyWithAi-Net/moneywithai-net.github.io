@@ -1,0 +1,42 @@
+{
+  "type": "bot",
+  "slug": "google-earth",
+  "name": "Google Earth",
+  "category": "Content and Marketing",
+  "sub_use_case": "Video production",
+  "summary": "Makes 3D map stills and fly-through videos between places, with labelled pins and Google Earth KML files, for listings, tours and location pages.",
+  "tools": [
+    "Grok",
+    "Google Earth"
+  ],
+  "creator": {
+    "handle": "sia14u",
+    "url": "https://x.com/sia14u"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/sia14u/status/2115122476422467606"
+  },
+  "official_share_url": "https://x.ai/bot/gD8MANRzbNvNNs3jnGxIc",
+  "found_via": "https://x.ai/bot/gD8MANRzbNvNNs3jnGxIc",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/google-earth/",
+  "json_url": "https://moneywithai.net/api/v1/bots/google-earth.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/make-fly-through-videos-for-listings/"
+  ],
+  "added_at": "2026-10-31T15:00:00.000Z",
+  "featured": {
+    "rank": 91,
+    "score": 87,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

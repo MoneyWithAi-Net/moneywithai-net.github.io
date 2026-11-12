@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "don-t-leave-me-hanging",
+  "name": "Don't Leave Me Hanging",
+  "category": "Research and Ops",
+  "sub_use_case": "Inbox triage",
+  "summary": "Finds older Gmail threads with promises nobody closed, ranks them by deadline and stakes and drafts a short follow-up for each.",
+  "tools": [
+    "Grok",
+    "Threads",
+    "Gmail"
+  ],
+  "creator": {
+    "handle": "Brian",
+    "url": "https://x.ai/bot/91mq1IFljG-EWQhe5kdXe"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/91mq1IFljG-EWQhe5kdXe"
+  },
+  "official_share_url": "https://x.ai/bot/91mq1IFljG-EWQhe5kdXe",
+  "found_via": "https://x.ai/bot/91mq1IFljG-EWQhe5kdXe",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/don-t-leave-me-hanging/",
+  "json_url": "https://moneywithai.net/api/v1/bots/don-t-leave-me-hanging.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 414,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

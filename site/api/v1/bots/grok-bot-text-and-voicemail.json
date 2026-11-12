@@ -1,0 +1,40 @@
+{
+  "type": "bot",
+  "slug": "grok-bot-text-and-voicemail",
+  "name": "Grok Bot Text & Voicemail",
+  "category": "Customer Support",
+  "sub_use_case": "Phone answering",
+  "summary": "A front desk for texts and voicemails sent to a Google Voice number: sorts them by intent and urgency in Gmail and drafts replies for you.",
+  "tools": [
+    "Grok",
+    "Gmail"
+  ],
+  "creator": {
+    "handle": "Brian",
+    "url": "https://x.ai/bot/z2ds5I1IWLO2M1lFFvhQ4"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/z2ds5I1IWLO2M1lFFvhQ4"
+  },
+  "official_share_url": "https://x.ai/bot/z2ds5I1IWLO2M1lFFvhQ4",
+  "found_via": "https://x.ai/bot/z2ds5I1IWLO2M1lFFvhQ4",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/grok-bot-text-and-voicemail/",
+  "json_url": "https://moneywithai.net/api/v1/bots/grok-bot-text-and-voicemail.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 456,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

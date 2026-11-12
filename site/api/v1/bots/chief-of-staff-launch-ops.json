@@ -1,0 +1,40 @@
+{
+  "type": "bot",
+  "slug": "chief-of-staff-launch-ops",
+  "name": "Chief of Staff: Launch Ops",
+  "category": "Content and Marketing",
+  "sub_use_case": "Brand social",
+  "summary": "Coordinates a launch and marketing bot team for strategy, publishing, community replies and weekday digests using Google Workspace.",
+  "tools": [
+    "Grok",
+    "Gmail"
+  ],
+  "creator": {
+    "handle": "Dario Maddaluno",
+    "url": "https://x.ai/bot/6Uqn1sN0LwXFp4YIqb8Xu"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/6Uqn1sN0LwXFp4YIqb8Xu"
+  },
+  "official_share_url": "https://x.ai/bot/6Uqn1sN0LwXFp4YIqb8Xu",
+  "found_via": "https://x.ai/bot/6Uqn1sN0LwXFp4YIqb8Xu",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/chief-of-staff-launch-ops/",
+  "json_url": "https://moneywithai.net/api/v1/bots/chief-of-staff-launch-ops.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 373,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

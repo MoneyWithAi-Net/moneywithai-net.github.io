@@ -1,0 +1,40 @@
+{
+  "type": "bot",
+  "slug": "x-growth-coach",
+  "name": "X Growth Coach",
+  "category": "Content and Marketing",
+  "sub_use_case": "X posting",
+  "summary": "Shows how your X analytics moved each morning, sends a weekly trend review and scores your drafts against what worked.",
+  "tools": [
+    "Grok",
+    "X"
+  ],
+  "creator": {
+    "handle": "Ivan kim",
+    "url": "https://x.ai/bot/paAB-Sc86QahFqHEzzHba"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/paAB-Sc86QahFqHEzzHba"
+  },
+  "official_share_url": "https://x.ai/bot/paAB-Sc86QahFqHEzzHba",
+  "found_via": "https://x.ai/bot/paAB-Sc86QahFqHEzzHba",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/x-growth-coach/",
+  "json_url": "https://moneywithai.net/api/v1/bots/x-growth-coach.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 641,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

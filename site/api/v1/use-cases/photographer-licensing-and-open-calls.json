@@ -1,7 +1,7 @@
 {
   "type": "use-case",
   "slug": "photographer-licensing-and-open-calls",
-  "title": "Earn More from Your Photos with Open Calls and Licensing",
+  "title": "Manage Photo Licensing and Open-Call Submissions",
   "category": "Client Services",
   "category_slug": "client-services",
   "money_model": "Creator income",
@@ -13,11 +13,11 @@
     "label": "Low",
     "basis": "Assumes occasional prizes and licensing fees.",
     "claim_label": "E",
-    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
   },
   "how_it_makes_money": [
-    "New income from work you already shot.",
-    "Uncredited use becomes paid licensing."
+    "Your existing photo library gets more use.",
+    "Uncredited use gets caught and turned into a licensing request."
   ],
   "who_its_for": [
     "Photographers."
@@ -151,7 +151,7 @@
   "claims": [],
   "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 103,
+    "rank": 144,
     "score": 69,
     "money": 13,
     "profile": 26,

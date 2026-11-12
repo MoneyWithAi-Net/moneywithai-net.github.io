@@ -18,7 +18,7 @@
     "url": "https://x.com/scientists_blog/status/2101542606769463504"
   },
   "official_share_url": "https://x.ai/bot/DRZ2jU1GFwV8HS2_9Y6MA",
-  "found_via": "https://grokbot101.org/bots/x-reply-scout/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-24",
@@ -31,7 +31,7 @@
   ],
   "added_at": "2026-10-24T09:30:00.000Z",
   "featured": {
-    "rank": 98,
+    "rank": 123,
     "score": 87,
     "money": 27,
     "profile": 30,

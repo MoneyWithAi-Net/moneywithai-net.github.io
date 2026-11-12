@@ -18,18 +18,20 @@
     "url": "https://x.com/aryamankhawow/status/2093385343928033312"
   },
   "official_share_url": "https://x.ai/bot/XjQ-AZTMrGLmQOTeMu3LF",
-  "found_via": "https://botdirectory.ai/bots/chief-of-staff-aryaman/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-25",
   "url": "https://moneywithai.net/bots/chief-of-staff-aryaman/",
   "json_url": "https://moneywithai.net/api/v1/bots/chief-of-staff-aryaman.json",
   "use_cases": [
-    "https://moneywithai.net/use-cases/founder-chief-of-staff-stack/"
+    "https://moneywithai.net/use-cases/founder-chief-of-staff-stack/",
+    "https://moneywithai.net/use-cases/know-what-every-bot-did/",
+    "https://moneywithai.net/use-cases/keep-bot-work-running-past-usage-limits/"
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 144,
+    "rank": 165,
     "score": 83,
     "money": 27,
     "profile": 30,

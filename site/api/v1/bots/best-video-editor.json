@@ -10,7 +10,7 @@
   ],
   "creator": {
     "handle": "X",
-    "url": "https://botdirectory.ai/bots/best-video-editor/"
+    "url": null
   },
   "scouted_by": null,
   "source": {
@@ -18,7 +18,7 @@
     "url": "https://x.ai/bot/Do4CujP_kqnnc1KYnpOfI"
   },
   "official_share_url": "https://x.ai/bot/Do4CujP_kqnnc1KYnpOfI",
-  "found_via": "https://botdirectory.ai/bots/best-video-editor/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-25",
@@ -29,10 +29,10 @@
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 17,
-    "score": 96,
+    "rank": 62,
+    "score": 90,
     "money": 40,
-    "profile": 30,
+    "profile": 24,
     "visuals": 20,
     "difficulty": 6,
     "override": null,

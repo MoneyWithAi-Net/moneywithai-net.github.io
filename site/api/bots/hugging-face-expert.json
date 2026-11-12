@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "hugging-face-expert",
+    "name": "Hugging Face Expert",
+    "category": "Research and Ops",
+    "sub_use_case": "Product and engineering",
+    "summary": "Finds the Hugging Face model, dataset or setup that fits your AI task, then helps you test, fine-tune, deploy or fix it.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Lalit Sonawane",
+      "url": "https://x.ai/bot/Xoc5L4qMSv7OKepbDecn0"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/Xoc5L4qMSv7OKepbDecn0"
+    },
+    "official_share_url": "https://x.ai/bot/Xoc5L4qMSv7OKepbDecn0",
+    "found_via": "https://x.ai/bot/Xoc5L4qMSv7OKepbDecn0",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/hugging-face-expert/",
+    "json_url": "https://moneywithai.net/api/bots/hugging-face-expert.json"
+  }
+}

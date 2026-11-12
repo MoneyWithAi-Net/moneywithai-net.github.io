@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "product-andrewkittridge",
+  "name": "Product",
+  "category": "Research and Ops",
+  "sub_use_case": "Product and engineering",
+  "summary": "Stops an indie app team from building the wrong thing: it ranks what to ship next, says what to skip and checks a change solves a real user problem.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "andrewkittridge",
+    "url": "https://x.com/andrewkittridge"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/3P03grqfP1E5PjeOSW-xO"
+  },
+  "official_share_url": "https://x.ai/bot/3P03grqfP1E5PjeOSW-xO",
+  "found_via": null,
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-11-01",
+  "url": "https://moneywithai.net/bots/product-andrewkittridge/",
+  "json_url": "https://moneywithai.net/api/v1/bots/product-andrewkittridge.json",
+  "use_cases": [],
+  "added_at": "2026-11-01T10:00:00.000Z",
+  "featured": {
+    "rank": 546,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

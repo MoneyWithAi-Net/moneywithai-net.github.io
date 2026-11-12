@@ -1,0 +1,40 @@
+{
+  "type": "bot",
+  "slug": "linkedin-agent",
+  "name": "LinkedIn Agent",
+  "category": "Leads and Sales",
+  "sub_use_case": "LinkedIn funnels",
+  "summary": "Finds sourced topics in your field and drafts LinkedIn posts and outreach messages in your voice.",
+  "tools": [
+    "Grok",
+    "LinkedIn"
+  ],
+  "creator": {
+    "handle": "Ryan T",
+    "url": "https://x.ai/bot/2jelZnGWnAlhmvHFZOp1N"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/2jelZnGWnAlhmvHFZOp1N"
+  },
+  "official_share_url": "https://x.ai/bot/2jelZnGWnAlhmvHFZOp1N",
+  "found_via": "https://x.ai/bot/2jelZnGWnAlhmvHFZOp1N",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/linkedin-agent/",
+  "json_url": "https://moneywithai.net/api/v1/bots/linkedin-agent.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 495,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

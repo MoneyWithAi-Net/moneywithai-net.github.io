@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "inbox-triage-markus-johnson",
+  "name": "Inbox Triage",
+  "category": "Research and Ops",
+  "sub_use_case": "Inbox triage",
+  "summary": "Sorts your inbox into needs a reply, waiting and can go, with short reply drafts in your voice. It never sends.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Markus Johnson",
+    "url": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6"
+  },
+  "official_share_url": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6",
+  "found_via": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/inbox-triage-markus-johnson/",
+  "json_url": "https://moneywithai.net/api/v1/bots/inbox-triage-markus-johnson.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 478,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

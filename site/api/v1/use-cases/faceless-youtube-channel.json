@@ -1,7 +1,7 @@
 {
   "type": "use-case",
   "slug": "faceless-youtube-channel",
-  "title": "Start a Faceless YouTube Channel with a Bot Crew",
+  "title": "Run a Faceless YouTube Channel for Your Business",
   "category": "Content and Marketing",
   "category_slug": "content-and-marketing",
   "money_model": "Creator income",
@@ -13,14 +13,14 @@
     "label": "Low",
     "basis": "Assumes slow growth; ad income usually takes months to start.",
     "claim_label": "E",
-    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
   },
   "how_it_makes_money": [
-    "Ad and sponsor income once the channel qualifies.",
+    "A steady channel that brings viewers to your business without you on camera.",
     "Outlier research lowers the guesswork."
   ],
   "who_its_for": [
-    "Creators who prefer not to be on camera."
+    "Business owners who want a YouTube channel without being on camera."
   ],
   "stack": [
     {
@@ -165,7 +165,7 @@
     ]
   },
   "steps": [
-    "Pick a niche you can stick with for months.",
+    "Pick a topic tied to what your business sells.",
     "Script and publish two pieces a week.",
     "Review analytics monthly.",
     "Keep only formats that hold viewers."
@@ -178,7 +178,7 @@
   "claims": [],
   "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 126,
+    "rank": 167,
     "score": 65,
     "money": 13,
     "profile": 26,

@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "deck-guy",
+    "name": "deck-guy",
+    "category": "Client Services",
+    "sub_use_case": "Meetings and follow-up",
+    "summary": "Turns a call transcript or scoping note into a short follow-up deck with timeline, asks and a shared action plan.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Pavan Ravipati",
+      "url": "https://x.ai/bot/bdkJcjP5Gt9BaGTqh1vXH"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/bdkJcjP5Gt9BaGTqh1vXH"
+    },
+    "official_share_url": "https://x.ai/bot/bdkJcjP5Gt9BaGTqh1vXH",
+    "found_via": "https://x.ai/bot/bdkJcjP5Gt9BaGTqh1vXH",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/deck-guy/",
+    "json_url": "https://moneywithai.net/api/bots/deck-guy.json"
+  }
+}

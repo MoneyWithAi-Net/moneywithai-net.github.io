@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "startup-qa-bot-shub-gaur",
+    "name": "Startup QA Bot",
+    "category": "Research and Ops",
+    "sub_use_case": "Product and engineering",
+    "summary": "Uses your product each weekday from a test account and reports what shipped, what broke with repro steps and what needs your call.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Shub Gaur",
+      "url": "https://x.ai/bot/XBauviUoNcdi05-ExoOo4"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/XBauviUoNcdi05-ExoOo4"
+    },
+    "official_share_url": "https://x.ai/bot/XBauviUoNcdi05-ExoOo4",
+    "found_via": "https://x.ai/bot/XBauviUoNcdi05-ExoOo4",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/startup-qa-bot-shub-gaur/",
+    "json_url": "https://moneywithai.net/api/bots/startup-qa-bot-shub-gaur.json"
+  }
+}

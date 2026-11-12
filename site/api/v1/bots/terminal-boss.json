@@ -1,0 +1,42 @@
+{
+  "type": "bot",
+  "slug": "terminal-boss",
+  "name": "Terminal Boss",
+  "category": "Research and Ops",
+  "sub_use_case": "Product and engineering",
+  "summary": "Runs terminal jobs and coding agents such as Grok Build, Claude Code, Codex and Cursor CLI from Grok Bot on your phone or desktop.",
+  "tools": [
+    "Grok",
+    "Claude Code",
+    "Cursor",
+    "Gemini"
+  ],
+  "creator": {
+    "handle": "Phillip Holland",
+    "url": "https://x.ai/bot/aU_t4X-Yf6w9DHfhIGD9n"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/aU_t4X-Yf6w9DHfhIGD9n"
+  },
+  "official_share_url": "https://x.ai/bot/aU_t4X-Yf6w9DHfhIGD9n",
+  "found_via": "https://x.ai/bot/aU_t4X-Yf6w9DHfhIGD9n",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/terminal-boss/",
+  "json_url": "https://moneywithai.net/api/v1/bots/terminal-boss.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 615,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

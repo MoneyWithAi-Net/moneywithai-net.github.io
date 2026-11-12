@@ -18,7 +18,7 @@
     "url": "https://x.com/MadeItHappenX/status/2104034337771417720"
   },
   "official_share_url": "https://x.ai/bot/dM43J1T44OmcRdAsNHsBf",
-  "found_via": "https://grokbot101.org/bots/creator-desk/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-24",
@@ -30,7 +30,7 @@
   ],
   "added_at": "2026-10-24T09:30:00.000Z",
   "featured": {
-    "rank": 75,
+    "rank": 79,
     "score": 87,
     "money": 27,
     "profile": 30,

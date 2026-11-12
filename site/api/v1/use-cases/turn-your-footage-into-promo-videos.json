@@ -1,0 +1,137 @@
+{
+  "type": "use-case",
+  "slug": "turn-your-footage-into-promo-videos",
+  "title": "Turn Your Footage into Promo Videos",
+  "category": "Content and Marketing",
+  "category_slug": "content-and-marketing",
+  "money_model": "Grow sales",
+  "difficulty": "Beginner",
+  "summary": "Use the clips, photos and music you already own to make finished promos and social clips each week, without booking an editor.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you would otherwise pay an editor for short promos; savings come from making them in house.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Steady promo videos for launches, events and offers.",
+    "Editing money stays in the business."
+  ],
+  "who_its_for": [
+    "Small brands, venues and shops with phone footage.",
+    "Musicians and creators who sell their own work."
+  ],
+  "stack": [
+    {
+      "bot": "vidness",
+      "name": "Vidness",
+      "role": "Cuts your footage and music into a finished video with captions and a style you pick.",
+      "creator": "AunySillyMe",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/vidness/",
+      "official_share_url": "https://x.ai/bot/n2P7H93gdzQ28pzxz2NJx"
+    },
+    {
+      "bot": "clipper",
+      "name": "Clipper",
+      "role": "Cuts short clips for each channel from the finished video.",
+      "creator": "thesoragirls",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/clipper/",
+      "official_share_url": "https://x.ai/bot/ozEfaAFJMDGoB-ysym8_V"
+    },
+    {
+      "bot": "video-editor",
+      "name": "Video Editor",
+      "role": "Makes a short with a title and thumbnail.",
+      "creator": "john_a_isaacson",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/video-editor/",
+      "official_share_url": "https://x.ai/bot/TUBFpf9exUG-qi7RYKZLs"
+    }
+  ],
+  "tools": [
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Footage, photos and music you own",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "vidness",
+        "name": "Vidness",
+        "does": "Cuts a finished video with captions",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "clipper",
+        "name": "Clipper",
+        "does": "Cuts clips for each channel",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "video-editor",
+        "name": "Video Editor",
+        "does": "Adds a title and thumbnail",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "you",
+        "name": "You",
+        "does": "Check and publish",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A finished promo video",
+      "Clips for each channel"
+    ]
+  },
+  "steps": [
+    "Collect footage, photos and music you own.",
+    "Make one promo and pick a style.",
+    "Cut clips for each channel.",
+    "Check captions and claims, then post yourself."
+  ],
+  "guardrails": [
+    "Use only footage and music you own or have a license for.",
+    "You publish every video yourself."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-31T10:00:00.000Z",
+  "featured": {
+    "rank": 62,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/turn-your-footage-into-promo-videos/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/turn-your-footage-into-promo-videos.json"
+}

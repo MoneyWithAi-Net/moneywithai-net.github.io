@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "researchy",
+  "name": "Researchy",
+  "category": "Research and Ops",
+  "sub_use_case": "Market notes",
+  "summary": "A research and fact-check desk that uses live web search to give sourced, dated answers.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Farzad",
+    "url": "https://x.ai/bot/i2hvaEONDg6_gEF5C9RlK"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/i2hvaEONDg6_gEF5C9RlK"
+  },
+  "official_share_url": "https://x.ai/bot/i2hvaEONDg6_gEF5C9RlK",
+  "found_via": "https://x.ai/bot/i2hvaEONDg6_gEF5C9RlK",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/researchy/",
+  "json_url": "https://moneywithai.net/api/v1/bots/researchy.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/back-every-proposal-with-cited-research/"
+  ],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 112,
+    "score": 87,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "human-copywriter-sultanov-ramil",
+  "name": "Human Copywriter",
+  "category": "Content and Marketing",
+  "sub_use_case": "Copy and creative",
+  "summary": "Rewrites emails, posts, DMs, blogs and landing pages so they sound human, keeping the facts and adding no new claims.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Sultanov Ramil",
+    "url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld"
+  },
+  "official_share_url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
+  "found_via": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/human-copywriter-sultanov-ramil/",
+  "json_url": "https://moneywithai.net/api/v1/bots/human-copywriter-sultanov-ramil.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 472,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

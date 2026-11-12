@@ -1,0 +1,30 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "chief-of-staff-launch-ops",
+    "name": "Chief of Staff: Launch Ops",
+    "category": "Content and Marketing",
+    "sub_use_case": "Brand social",
+    "summary": "Coordinates a launch and marketing bot team for strategy, publishing, community replies and weekday digests using Google Workspace.",
+    "tools": [
+      "Grok",
+      "Gmail"
+    ],
+    "creator": {
+      "handle": "Dario Maddaluno",
+      "url": "https://x.ai/bot/6Uqn1sN0LwXFp4YIqb8Xu"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/6Uqn1sN0LwXFp4YIqb8Xu"
+    },
+    "official_share_url": "https://x.ai/bot/6Uqn1sN0LwXFp4YIqb8Xu",
+    "found_via": "https://x.ai/bot/6Uqn1sN0LwXFp4YIqb8Xu",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/chief-of-staff-launch-ops/",
+    "json_url": "https://moneywithai.net/api/bots/chief-of-staff-launch-ops.json"
+  }
+}

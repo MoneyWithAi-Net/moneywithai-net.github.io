@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "bot-optomizer",
+  "name": "Bot Optomizer",
+  "category": "Research and Ops",
+  "sub_use_case": "Team memory",
+  "summary": "Audits your Grok Bots for empty checks, retry loops, bloated chats and idle or duplicate bots, and ranks the fixes.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Brian",
+    "url": "https://x.ai/bot/Dje9IjmShPDhZYsGfDnTw"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/Dje9IjmShPDhZYsGfDnTw"
+  },
+  "official_share_url": "https://x.ai/bot/Dje9IjmShPDhZYsGfDnTw",
+  "found_via": "https://x.ai/bot/Dje9IjmShPDhZYsGfDnTw",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/bot-optomizer/",
+  "json_url": "https://moneywithai.net/api/v1/bots/bot-optomizer.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 350,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "office-ops-desk",
+    "name": "Office Ops Desk",
+    "category": "Research and Ops",
+    "sub_use_case": "Compliance and admin",
+    "summary": "Tracks office deliveries, facilities issues and team birthdays from a list or sheet, and writes the digests for you to send.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Erika Cabrera",
+      "url": "https://x.ai/bot/afZj-XnYkThA4MB7GfZK6"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/afZj-XnYkThA4MB7GfZK6"
+    },
+    "official_share_url": "https://x.ai/bot/afZj-XnYkThA4MB7GfZK6",
+    "found_via": "https://x.ai/bot/afZj-XnYkThA4MB7GfZK6",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/office-ops-desk/",
+    "json_url": "https://moneywithai.net/api/bots/office-ops-desk.json"
+  }
+}

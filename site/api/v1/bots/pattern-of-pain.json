@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "pattern-of-pain",
+  "name": "Pattern of Pain",
+  "category": "Research and Ops",
+  "sub_use_case": "Opportunity scouting",
+  "summary": "Shows you which customer problem keeps coming up for a business, with the evidence, so you build or sell against real demand instead of guesses.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "hnshah",
+    "url": "https://x.com/hnshah"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/eFfFM4-QmHxxrUlTUqyAo"
+  },
+  "official_share_url": "https://x.ai/bot/eFfFM4-QmHxxrUlTUqyAo",
+  "found_via": null,
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-11-01",
+  "url": "https://moneywithai.net/bots/pattern-of-pain/",
+  "json_url": "https://moneywithai.net/api/v1/bots/pattern-of-pain.json",
+  "use_cases": [],
+  "added_at": "2026-11-01T10:00:00.000Z",
+  "featured": {
+    "rank": 537,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

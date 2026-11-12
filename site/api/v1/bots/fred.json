@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "fred",
+  "name": "Fred",
+  "category": "Content and Marketing",
+  "sub_use_case": "Brand social",
+  "summary": "Learns your niche, connects Buffer or another posting tool, checks what is trending each day and drafts posts for you.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Parker",
+    "url": "https://x.ai/bot/OLEh3dJE_hXSrhlJsibAq"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/OLEh3dJE_hXSrhlJsibAq"
+  },
+  "official_share_url": "https://x.ai/bot/OLEh3dJE_hXSrhlJsibAq",
+  "found_via": "https://x.ai/bot/OLEh3dJE_hXSrhlJsibAq",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/fred/",
+  "json_url": "https://moneywithai.net/api/v1/bots/fred.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 451,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

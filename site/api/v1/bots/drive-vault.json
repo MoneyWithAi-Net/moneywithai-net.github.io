@@ -1,0 +1,40 @@
+{
+  "type": "bot",
+  "slug": "drive-vault",
+  "name": "Drive Vault",
+  "category": "Research and Ops",
+  "sub_use_case": "Team memory",
+  "summary": "Frees space on your bots' shared computer by moving old files to Google Drive and turns any file into a Drive link.",
+  "tools": [
+    "Grok",
+    "Google Drive"
+  ],
+  "creator": {
+    "handle": "X Freeze",
+    "url": "https://x.ai/bot/aFTVbLfYRPhj3V3NfYltq"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/aFTVbLfYRPhj3V3NfYltq"
+  },
+  "official_share_url": "https://x.ai/bot/aFTVbLfYRPhj3V3NfYltq",
+  "found_via": "https://x.ai/bot/aFTVbLfYRPhj3V3NfYltq",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/drive-vault/",
+  "json_url": "https://moneywithai.net/api/v1/bots/drive-vault.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 415,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

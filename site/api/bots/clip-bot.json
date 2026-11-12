@@ -1,5 +1,5 @@
 {
-  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
   "bot": {
     "slug": "clip-bot",
     "name": "Clip Bot",
@@ -19,7 +19,7 @@
       "url": "https://x.com/ThisWeeknAI/status/2093465404303720846"
     },
     "official_share_url": "https://x.ai/bot/Vk0cnF2c364QxNv-Xip1M",
-    "found_via": "https://botdirectory.ai/bots/clip-bot/",
+    "found_via": null,
     "prompt_included": false,
     "proof_level": "source_verified",
     "last_checked": "2026-10-25",

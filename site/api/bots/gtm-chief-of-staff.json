@@ -1,0 +1,30 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "gtm-chief-of-staff",
+    "name": "GTM Chief Of Staff",
+    "category": "Leads and Sales",
+    "sub_use_case": "Sales-call support",
+    "summary": "Acts as a chief of staff for enterprise sellers: meeting prep, inbox and post-call drafts, and hand-offs to deck and research bots.",
+    "tools": [
+      "Grok",
+      "Salesforce"
+    ],
+    "creator": {
+      "handle": "Sultanov Ramil",
+      "url": "https://x.ai/bot/r9Svkbs3dN6CY1Iy_Au4b"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/r9Svkbs3dN6CY1Iy_Au4b"
+    },
+    "official_share_url": "https://x.ai/bot/r9Svkbs3dN6CY1Iy_Au4b",
+    "found_via": "https://x.ai/bot/r9Svkbs3dN6CY1Iy_Au4b",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/gtm-chief-of-staff/",
+    "json_url": "https://moneywithai.net/api/bots/gtm-chief-of-staff.json"
+  }
+}

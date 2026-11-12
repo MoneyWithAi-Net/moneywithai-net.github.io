@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "video-lab",
+  "name": "Video Lab",
+  "category": "Content and Marketing",
+  "sub_use_case": "Video production",
+  "summary": "Makes videos with code, such as explainers, motion graphics, ads and product demos, rendered by cloud agents.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Felipe",
+    "url": "https://x.ai/bot/S-eFoUHp6ECJ_XIcaHlLt"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/S-eFoUHp6ECJ_XIcaHlLt"
+  },
+  "official_share_url": "https://x.ai/bot/S-eFoUHp6ECJ_XIcaHlLt",
+  "found_via": "https://x.ai/bot/S-eFoUHp6ECJ_XIcaHlLt",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/video-lab/",
+  "json_url": "https://moneywithai.net/api/v1/bots/video-lab.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 628,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "whatsapper",
+    "name": "WhatsApper",
+    "category": "Customer Support",
+    "sub_use_case": "Chat and messaging support",
+    "summary": "Keeps customer and team WhatsApp chats answered by drafting replies in your voice that go out only after you approve the exact words.",
+    "tools": [
+      "WhatsApp",
+      "Grok",
+      "GitHub",
+      "Google Drive"
+    ],
+    "creator": {
+      "handle": "mgonto",
+      "url": "https://x.com/mgonto"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/mgonto/status/2116293235173740905"
+    },
+    "official_share_url": "https://x.ai/bot/Lr1qQk4Csgtz127NJPpQ2",
+    "found_via": "https://x.com/mgonto/status/2116293235173740905",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/whatsapper/",
+    "json_url": "https://moneywithai.net/api/bots/whatsapper.json"
+  }
+}

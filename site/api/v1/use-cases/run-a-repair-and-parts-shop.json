@@ -1,0 +1,151 @@
+{
+  "type": "use-case",
+  "slug": "run-a-repair-and-parts-shop",
+  "title": "Run a Repair and Parts Shop Without the Paperwork",
+  "category": "E-Commerce",
+  "category_slug": "e-commerce",
+  "money_model": "Save costs",
+  "difficulty": "Beginner",
+  "summary": "Price parts for profit after fees, list them faster and keep orders and quotes in one place, so a small repair shop spends its time at the bench.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you already sell parts on eBay; the value is admin time saved and prices that cover fees.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Every part is priced to make money after fees and shipping.",
+    "Less time on listings, tracking and quotes."
+  ],
+  "who_its_for": [
+    "Small computer and phone repair shops.",
+    "Resellers who buy and sell parts on eBay."
+  ],
+  "stack": [
+    {
+      "bot": "computer-shop-bot",
+      "name": "Computer Shop Bot",
+      "role": "Prices eBay buys and sales after fees, tracks orders and drafts network install quotes.",
+      "creator": "jimaggie",
+      "tools": [
+        "eBay",
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/computer-shop-bot/",
+      "official_share_url": "https://x.ai/bot/xwAkiiQRwbuxAASGkaCPs"
+    },
+    {
+      "bot": "ebay-lister",
+      "name": "eBay Lister",
+      "role": "Turns a photo into an eBay draft with sold comps, a title and a price.",
+      "creator": "Gabi_Valerio3",
+      "tools": [
+        "eBay"
+      ],
+      "url": "https://moneywithai.net/bots/ebay-lister/",
+      "official_share_url": "https://x.ai/bot/q9Q8EPKFx45CmVwjUAFY5"
+    },
+    {
+      "bot": "competitor-price-alert",
+      "name": "Competitor Price Alert",
+      "role": "Tells you when competitor prices change.",
+      "creator": "Yaron Been",
+      "tools": [
+        "n8n",
+        "Gmail",
+        "Google Sheets"
+      ],
+      "url": "https://moneywithai.net/bots/competitor-price-alert/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "eBay",
+    "Grok",
+    "n8n",
+    "Gmail",
+    "Google Sheets"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Parts and photos",
+        "tool": null
+      },
+      {
+        "label": "Your seller account",
+        "tool": "eBay"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "ebay-lister",
+        "name": "eBay Lister",
+        "does": "Drafts listings from photos",
+        "tools": [
+          "eBay"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "computer-shop-bot",
+        "name": "Computer Shop Bot",
+        "does": "Prices for profit and tracks orders",
+        "tools": [
+          "eBay",
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "competitor-price-alert",
+        "name": "Competitor Price Alert",
+        "does": "Flags competitor price changes",
+        "tools": [
+          "n8n",
+          "Gmail",
+          "Google Sheets"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "you",
+        "name": "You",
+        "does": "Approve listings and quotes",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Parts priced to profit after fees",
+      "Orders and quotes in one place"
+    ]
+  },
+  "steps": [
+    "Enter your fee and shipping costs once.",
+    "Photograph parts and get listing drafts.",
+    "Check each price against sold comps and your costs.",
+    "Track orders and send quotes after you review them."
+  ],
+  "guardrails": [
+    "You approve every purchase, listing and quote.",
+    "Check part compatibility yourself before quoting a customer."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-31T10:00:00.000Z",
+  "featured": {
+    "rank": 52,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/run-a-repair-and-parts-shop/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/run-a-repair-and-parts-shop.json"
+}

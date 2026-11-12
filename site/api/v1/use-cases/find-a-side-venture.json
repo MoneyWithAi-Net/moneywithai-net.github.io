@@ -1,26 +1,26 @@
 {
   "type": "use-case",
   "slug": "find-a-side-venture",
-  "title": "Scout a Side Venture Worth Starting",
+  "title": "Test a New Product Line Before You Commit",
   "category": "Research and Ops",
   "category_slug": "research-and-ops",
   "money_model": "Sell a service",
   "difficulty": "Beginner",
-  "summary": "Get vetted opportunity ideas with sources, risks and a next step, backed by market notes.",
+  "summary": "Get vetted ideas for a new product line or offer, with sources, risks and a next step, backed by market notes.",
   "money_potential": {
     "tier": 1,
     "symbol": "$",
     "label": "Low",
-    "basis": "Research only: income depends on the venture you pick and run.",
+    "basis": "Research only: value depends on the new line you pick and run.",
     "claim_label": "E",
-    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
   },
   "how_it_makes_money": [
-    "Pick a venture with evidence instead of a hunch.",
+    "Pick a new line with evidence instead of a hunch.",
     "Stop ideas early when the risks show."
   ],
   "who_its_for": [
-    "People looking for a first or second income stream."
+    "Business owners weighing a new product line or offer."
   ],
   "stack": [
     {
@@ -54,7 +54,7 @@
     "engine": "Grok Bot",
     "inputs": [
       {
-        "label": "Your skills, time and budget",
+        "label": "Your business, time and budget",
         "tool": null
       },
       {
@@ -95,7 +95,7 @@
     ]
   },
   "steps": [
-    "Write a short brief: skills, time and budget.",
+    "Write a short brief: your business, customers, time and budget.",
     "Review the first ideas and their sources.",
     "Pick one and test it small."
   ],
@@ -105,7 +105,7 @@
   "claims": [],
   "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
   "featured": {
-    "rank": 118,
+    "rank": 158,
     "score": 69,
     "money": 13,
     "profile": 26,

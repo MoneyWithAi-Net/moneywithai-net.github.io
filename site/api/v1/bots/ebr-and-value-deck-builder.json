@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "ebr-and-value-deck-builder",
+  "name": "EBR & Value Deck Builder",
+  "category": "Client Services",
+  "sub_use_case": "Client delivery",
+  "summary": "Builds an editable business review or value deck for one account from your CRM, call history and usage data, in your brand.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Krista Letz",
+    "url": "https://x.ai/bot/yA2-Ti3sPVNFO-zRzkwuX"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/yA2-Ti3sPVNFO-zRzkwuX"
+  },
+  "official_share_url": "https://x.ai/bot/yA2-Ti3sPVNFO-zRzkwuX",
+  "found_via": "https://x.ai/bot/yA2-Ti3sPVNFO-zRzkwuX",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/ebr-and-value-deck-builder/",
+  "json_url": "https://moneywithai.net/api/v1/bots/ebr-and-value-deck-builder.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 419,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

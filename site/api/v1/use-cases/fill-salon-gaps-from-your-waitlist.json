@@ -1,0 +1,148 @@
+{
+  "type": "use-case",
+  "slug": "fill-salon-gaps-from-your-waitlist",
+  "title": "Fill Salon Gaps from Your Waitlist",
+  "category": "Customer Support",
+  "category_slug": "customer-support",
+  "money_model": "Grow sales",
+  "difficulty": "Beginner",
+  "summary": "Keep a salon suite or solo stylist front desk answering while you work, then pull the next waitlist client into open chairs without losing the thread.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you already have a waitlist or missed booking messages; the value is filling open chairs you already could sell.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Open slots filled from people already waiting.",
+    "Fewer missed booking messages while you are with a client."
+  ],
+  "who_its_for": [
+    "Salon suite renters and solo stylists.",
+    "Small medspa operators without a full desk team."
+  ],
+  "stack": [
+    {
+      "bot": "salon-suite-medspa-and-solo-stylist-front-desk",
+      "name": "Salon Suite, MedSpa & Solo Stylist Front Desk",
+      "role": "Answers clients, books what you allow, and keeps the waitlist moving.",
+      "creator": "LisaMAUSA",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/salon-suite-medspa-and-solo-stylist-front-desk/",
+      "official_share_url": "https://x.ai/bot/7b1I98Ms3Iu8Z59LDSx8R"
+    },
+    {
+      "bot": "after-hours-front-desk",
+      "name": "After-Hours Front Desk",
+      "role": "Covers calls and chat when you are closed or with a client, and flags rush jobs.",
+      "creator": "John Shetler",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/after-hours-front-desk/",
+      "official_share_url": "https://x.ai/bot/vPREznXsecJi_51MeJNRQ"
+    },
+    {
+      "bot": "virtual-front-desk-booker",
+      "name": "Virtual Front Desk Booker",
+      "role": "Helps turn booking requests into confirmed slots under your rules.",
+      "creator": "Risper",
+      "tools": [
+        "n8n",
+        "Google Sheets",
+        "OpenAI"
+      ],
+      "url": "https://moneywithai.net/bots/virtual-front-desk-booker/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Grok",
+    "n8n",
+    "Google Sheets",
+    "OpenAI"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Services, hours and booking rules",
+        "tool": null
+      },
+      {
+        "label": "Waitlist contacts",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "salon-suite-medspa-and-solo-stylist-front-desk",
+        "name": "Salon Suite, MedSpa & Solo Stylist Front Desk",
+        "does": "Answers clients and manages the waitlist",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "after-hours-front-desk",
+        "name": "After-Hours Front Desk",
+        "does": "Covers calls and chat when you are busy",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "virtual-front-desk-booker",
+        "name": "Virtual Front Desk Booker",
+        "does": "Drafts bookings under your rules",
+        "tools": [
+          "n8n",
+          "Google Sheets",
+          "OpenAI"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "you",
+        "name": "You",
+        "does": "Confirm and take the client",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Fewer empty chairs",
+      "Fewer missed booking messages"
+    ]
+  },
+  "steps": [
+    "Write your services, hours and booking rules.",
+    "Turn on the front desk for test messages.",
+    "Move waitlist people into open gaps.",
+    "Confirm every booking yourself at first."
+  ],
+  "guardrails": [
+    "Keep price and medical claims behind your approval.",
+    "Check the waitlist every day."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-11-07T10:00:00.000Z",
+  "featured": {
+    "rank": 38,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/fill-salon-gaps-from-your-waitlist/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/fill-salon-gaps-from-your-waitlist.json"
+}

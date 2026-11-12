@@ -18,7 +18,7 @@
     "url": "https://x.com/jorgesoffia/status/2099936875498627530"
   },
   "official_share_url": "https://x.ai/bot/OMpdsLwId7Du5PrjbX8L8",
-  "found_via": "https://grokbot101.org/bots/dero/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-24",
@@ -30,7 +30,7 @@
   ],
   "added_at": "2026-10-24T09:30:00.000Z",
   "featured": {
-    "rank": 31,
+    "rank": 37,
     "score": 93,
     "money": 40,
     "profile": 30,

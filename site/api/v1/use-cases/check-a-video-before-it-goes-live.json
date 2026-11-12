@@ -1,0 +1,121 @@
+{
+  "type": "use-case",
+  "slug": "check-a-video-before-it-goes-live",
+  "title": "Check a Video Before It Goes Live",
+  "category": "Content and Marketing",
+  "category_slug": "content-and-marketing",
+  "money_model": "Save costs",
+  "difficulty": "Beginner",
+  "summary": "Run each short video or tutorial through a release check for spec, captions and sensitive data, so the fixes happen before it is posted, not after.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you publish video often enough that re-edits cost real time; the value is fewer fixes after release.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Fewer re-edits after a video has already gone out.",
+    "Caption and spec mistakes get caught while they are still cheap to fix."
+  ],
+  "who_its_for": [
+    "Marketing teams that publish short videos.",
+    "Agencies that deliver tutorials to clients."
+  ],
+  "stack": [
+    {
+      "bot": "video-qa-gate",
+      "name": "Video QA Gate",
+      "role": "Checks spec, captions, sensitive data and content, fixes safe technical issues and reports the rest with timestamps.",
+      "creator": "anatoly eidelman",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/video-qa-gate/",
+      "official_share_url": "https://x.ai/bot/MxxAeg3HkvUiHAIZ0KkGQ"
+    },
+    {
+      "bot": "video-edit-desk",
+      "name": "Video Edit Desk",
+      "role": "Cuts the footage into clips with captions and exports each platform size.",
+      "creator": "X Freeze",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/video-edit-desk/",
+      "official_share_url": "https://x.ai/bot/kGiyk73f5CF8XtBMIh0gW"
+    }
+  ],
+  "tools": [
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Raw footage",
+        "tool": null
+      },
+      {
+        "label": "A written spec",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "video-edit-desk",
+        "name": "Video Edit Desk",
+        "does": "Cuts clips with captions",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "video-qa-gate",
+        "name": "Video QA Gate",
+        "does": "Checks spec, captions and sensitive data",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Fix flagged items and publish",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A timestamped release report",
+      "A checked video"
+    ]
+  },
+  "steps": [
+    "Write the spec for the video before you edit.",
+    "Export the cut from the editor.",
+    "Run the release check and read the timestamped report.",
+    "Fix what it flags, then publish the video yourself."
+  ],
+  "guardrails": [
+    "The check reports; you decide what goes out.",
+    "Keep sensitive data out of the files you send for review."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-11-11T08:07:15.000Z",
+  "featured": {
+    "rank": 35,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/check-a-video-before-it-goes-live/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/check-a-video-before-it-goes-live.json"
+}

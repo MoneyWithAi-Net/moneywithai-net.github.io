@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "call-follow-ups",
+    "name": "Call Follow-Ups",
+    "category": "Leads and Sales",
+    "sub_use_case": "Sales-call support",
+    "summary": "After each recorded sales call, drafts the follow-up email, a next-steps note and the CRM field updates your team relies on.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Daniel Brill",
+      "url": "https://x.ai/bot/estQ8HWdKqhheDNmOGjcy"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/estQ8HWdKqhheDNmOGjcy"
+    },
+    "official_share_url": "https://x.ai/bot/estQ8HWdKqhheDNmOGjcy",
+    "found_via": "https://x.ai/bot/estQ8HWdKqhheDNmOGjcy",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/call-follow-ups/",
+    "json_url": "https://moneywithai.net/api/bots/call-follow-ups.json"
+  }
+}

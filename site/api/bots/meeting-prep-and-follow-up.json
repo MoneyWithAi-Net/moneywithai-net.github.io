@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "meeting-prep-and-follow-up",
+    "name": "Meeting Prep & Follow-up",
+    "category": "Client Services",
+    "sub_use_case": "Meetings and follow-up",
+    "summary": "Sends a short brief before your meetings and drafts the follow-up email afterwards for you to review and send.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Jared M",
+      "url": "https://x.ai/bot/Of0WZSYyqWtQXV9Z52pqv"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/Of0WZSYyqWtQXV9Z52pqv"
+    },
+    "official_share_url": "https://x.ai/bot/Of0WZSYyqWtQXV9Z52pqv",
+    "found_via": "https://x.ai/bot/Of0WZSYyqWtQXV9Z52pqv",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/meeting-prep-and-follow-up/",
+    "json_url": "https://moneywithai.net/api/bots/meeting-prep-and-follow-up.json"
+  }
+}

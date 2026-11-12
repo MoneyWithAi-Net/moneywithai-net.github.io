@@ -1,0 +1,30 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "x-high-coach",
+    "name": "X High Coach",
+    "category": "Content and Marketing",
+    "sub_use_case": "X posting",
+    "summary": "Reviews your own X account with a score, health flags, post rewrites and a one-week fix plan.",
+    "tools": [
+      "Grok",
+      "X"
+    ],
+    "creator": {
+      "handle": "High Tv",
+      "url": "https://x.ai/bot/xSfBSprfKv5h909uzrv7W"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/xSfBSprfKv5h909uzrv7W"
+    },
+    "official_share_url": "https://x.ai/bot/xSfBSprfKv5h909uzrv7W",
+    "found_via": "https://x.ai/bot/xSfBSprfKv5h909uzrv7W",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/x-high-coach/",
+    "json_url": "https://moneywithai.net/api/bots/x-high-coach.json"
+  }
+}

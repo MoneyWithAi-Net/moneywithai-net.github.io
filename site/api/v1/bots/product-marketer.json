@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "product-marketer",
+  "name": "Product Marketer",
+  "category": "Content and Marketing",
+  "sub_use_case": "Copy and creative",
+  "summary": "Learns your product, brand and positioning, uses competitor research to sharpen it and drafts marketing copy.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Josh Kim",
+    "url": "https://x.ai/bot/nXp4Rp2trKV8AK-RC1Ohf"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/nXp4Rp2trKV8AK-RC1Ohf"
+  },
+  "official_share_url": "https://x.ai/bot/nXp4Rp2trKV8AK-RC1Ohf",
+  "found_via": "https://x.ai/bot/nXp4Rp2trKV8AK-RC1Ohf",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/product-marketer/",
+  "json_url": "https://moneywithai.net/api/v1/bots/product-marketer.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 548,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

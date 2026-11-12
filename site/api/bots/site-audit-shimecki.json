@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "site-audit-shimecki",
+    "name": "Site Audit",
+    "category": "Content and Marketing",
+    "sub_use_case": "SEO and AI search",
+    "summary": "Audits a site for SEO, content, speed, accessibility, conversion and schema, ranks fixes by priority with evidence and tracks changes monthly.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Shimecki",
+      "url": "https://x.ai/bot/_rzRrKKlUyBD3znUN5b3Q"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/_rzRrKKlUyBD3znUN5b3Q"
+    },
+    "official_share_url": "https://x.ai/bot/_rzRrKKlUyBD3znUN5b3Q",
+    "found_via": "https://x.ai/bot/_rzRrKKlUyBD3znUN5b3Q",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/site-audit-shimecki/",
+    "json_url": "https://moneywithai.net/api/bots/site-audit-shimecki.json"
+  }
+}

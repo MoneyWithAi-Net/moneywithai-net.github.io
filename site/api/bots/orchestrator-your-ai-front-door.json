@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "orchestrator-your-ai-front-door",
+    "name": "Orchestrator: Your AI Front Door",
+    "category": "Research and Ops",
+    "sub_use_case": "Planning and projects",
+    "summary": "Gives you one bot to talk to that routes work to specialist bots, tracks it and reports back.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "News Gurus",
+      "url": "https://x.ai/bot/gNyxnXEv2hYNzFqoaSvLT"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/gNyxnXEv2hYNzFqoaSvLT"
+    },
+    "official_share_url": "https://x.ai/bot/gNyxnXEv2hYNzFqoaSvLT",
+    "found_via": "https://x.ai/bot/gNyxnXEv2hYNzFqoaSvLT",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/orchestrator-your-ai-front-door/",
+    "json_url": "https://moneywithai.net/api/bots/orchestrator-your-ai-front-door.json"
+  }
+}

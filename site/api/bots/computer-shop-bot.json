@@ -1,0 +1,30 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "computer-shop-bot",
+    "name": "Computer Shop Bot",
+    "category": "E-Commerce",
+    "sub_use_case": "Store operations",
+    "summary": "Takes the paperwork off a small computer repair and parts shop by pricing eBay buys and sales for profit after fees, tracking orders and quoting network installs.",
+    "tools": [
+      "eBay",
+      "Grok"
+    ],
+    "creator": {
+      "handle": "jimaggie",
+      "url": "https://x.com/jimaggie"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/jimaggie/status/2114747155118170469"
+    },
+    "official_share_url": "https://x.ai/bot/xwAkiiQRwbuxAASGkaCPs",
+    "found_via": "https://x.com/jimaggie/status/2114747155118170469",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/computer-shop-bot/",
+    "json_url": "https://moneywithai.net/api/bots/computer-shop-bot.json"
+  }
+}

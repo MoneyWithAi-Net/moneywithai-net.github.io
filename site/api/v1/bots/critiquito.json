@@ -10,7 +10,7 @@
   ],
   "creator": {
     "handle": "Manuel",
-    "url": "https://botdirectory.ai/bots/critiquito/"
+    "url": null
   },
   "scouted_by": null,
   "source": {
@@ -18,7 +18,7 @@
     "url": "https://x.ai/bot/rt9m-FTkJoGsZzAjsKLPM"
   },
   "official_share_url": "https://x.ai/bot/rt9m-FTkJoGsZzAjsKLPM",
-  "found_via": "https://botdirectory.ai/bots/critiquito/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-25",
@@ -29,10 +29,10 @@
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 151,
-    "score": 83,
+    "rank": 259,
+    "score": 77,
     "money": 27,
-    "profile": 30,
+    "profile": 24,
     "visuals": 20,
     "difficulty": 6,
     "override": null,

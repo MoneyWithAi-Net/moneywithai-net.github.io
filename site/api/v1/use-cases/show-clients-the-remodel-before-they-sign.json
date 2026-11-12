@@ -1,0 +1,128 @@
+{
+  "type": "use-case",
+  "slug": "show-clients-the-remodel-before-they-sign",
+  "title": "Show Clients the Finished Remodel Before They Sign",
+  "category": "Leads and Sales",
+  "category_slug": "leads-and-sales",
+  "money_model": "Grow sales",
+  "difficulty": "Beginner",
+  "summary": "Turn a photo of the client's room into a preview of the finished job with your own finishes and prices, then follow up on every quote so fewer jobs stall.",
+  "money_potential": {
+    "tier": 3,
+    "symbol": "$$$",
+    "label": "High",
+    "basis": "Assumes you already sell remodels; the value is jobs that sign sooner and quotes that do not go quiet.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Clients who can see the result decide sooner.",
+    "Quotes that would go quiet get a follow-up on time."
+  ],
+  "who_its_for": [
+    "Kitchen and bath remodelers.",
+    "Interior designers who quote finishes."
+  ],
+  "stack": [
+    {
+      "bot": "roomflip",
+      "name": "RoomFlip",
+      "role": "Makes a realistic preview of the remodel from a room photo and swaps finishes from your catalog with a running price.",
+      "creator": "teeRex247",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/roomflip/",
+      "official_share_url": "https://x.ai/bot/xzuLMEdYoDDtzl3ajye4r"
+    },
+    {
+      "bot": "quote-follow-up-sequence",
+      "name": "Quote Follow Up Sequence",
+      "role": "Sends quote follow-ups on a set schedule until the client replies.",
+      "creator": "43 Sunsets",
+      "tools": [
+        "n8n",
+        "Gmail",
+        "Google Sheets"
+      ],
+      "url": "https://moneywithai.net/bots/quote-follow-up-sequence/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Grok",
+    "n8n",
+    "Gmail",
+    "Google Sheets"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Room photos",
+        "tool": null
+      },
+      {
+        "label": "Your finish catalog and prices",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "roomflip",
+        "name": "RoomFlip",
+        "does": "Shows the finished remodel with your finishes",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "you",
+        "name": "You",
+        "does": "Write and send the quote",
+        "tools": []
+      },
+      {
+        "order": 3,
+        "by": "quote-follow-up-sequence",
+        "name": "Quote Follow Up Sequence",
+        "does": "Follows up until the client replies",
+        "tools": [
+          "n8n",
+          "Gmail",
+          "Google Sheets"
+        ]
+      }
+    ],
+    "outputs": [
+      "A remodel preview with a running price",
+      "Quotes followed up on time"
+    ]
+  },
+  "steps": [
+    "Load your finish catalog and prices.",
+    "Take a photo of the client's room at the first visit.",
+    "Show the preview and try two or three finish options together.",
+    "Send the quote and let the follow-ups run until the client replies."
+  ],
+  "guardrails": [
+    "Tell clients the preview is an AI illustration, not a final design.",
+    "Check every price against your real quote before you send it."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-31T15:00:00.000Z",
+  "featured": {
+    "rank": 3,
+    "score": 96,
+    "money": 40,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/show-clients-the-remodel-before-they-sign/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/show-clients-the-remodel-before-they-sign.json"
+}

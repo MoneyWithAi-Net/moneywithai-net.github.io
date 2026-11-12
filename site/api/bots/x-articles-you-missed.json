@@ -1,0 +1,30 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "x-articles-you-missed",
+    "name": "X Articles You Missed",
+    "category": "Research and Ops",
+    "sub_use_case": "Market notes",
+    "summary": "Finds the long-form X Articles from the last day on topics you pick and sends up to 10 short summaries as one brief.",
+    "tools": [
+      "Grok",
+      "X"
+    ],
+    "creator": {
+      "handle": "Brian",
+      "url": "https://x.ai/bot/UmGyUKTHDS4-ziSOlsUeV"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/UmGyUKTHDS4-ziSOlsUeV"
+    },
+    "official_share_url": "https://x.ai/bot/UmGyUKTHDS4-ziSOlsUeV",
+    "found_via": "https://x.ai/bot/UmGyUKTHDS4-ziSOlsUeV",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/x-articles-you-missed/",
+    "json_url": "https://moneywithai.net/api/bots/x-articles-you-missed.json"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "small-biz-bop-shield",
+    "name": "Small Biz BOP Shield",
+    "category": "Research and Ops",
+    "sub_use_case": "Compliance and admin",
+    "summary": "Explains a Business Owners Policy in plain words and flags common coverage gaps to ask your broker about. It is not insurance advice.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "LisaMAUSA",
+      "url": "https://x.com/LisaMAUSA"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/cTAWdbLtxrrrq1wZG4toH"
+    },
+    "official_share_url": "https://x.ai/bot/cTAWdbLtxrrrq1wZG4toH",
+    "found_via": null,
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-11-07",
+    "url": "https://moneywithai.net/bots/small-biz-bop-shield/",
+    "json_url": "https://moneywithai.net/api/bots/small-biz-bop-shield.json"
+  }
+}

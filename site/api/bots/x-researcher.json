@@ -1,0 +1,31 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "x-researcher",
+    "name": "X Researcher",
+    "category": "Research and Ops",
+    "sub_use_case": "Market notes",
+    "summary": "Tracks strong posts from experts on X and other platforms and keeps a Notion dashboard of the best ones up to date.",
+    "tools": [
+      "Grok",
+      "Notion",
+      "X"
+    ],
+    "creator": {
+      "handle": "Lida Wang",
+      "url": "https://x.ai/bot/LSdxvT3cVnTC4tJV9T_WA"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/LSdxvT3cVnTC4tJV9T_WA"
+    },
+    "official_share_url": "https://x.ai/bot/LSdxvT3cVnTC4tJV9T_WA",
+    "found_via": "https://x.ai/bot/LSdxvT3cVnTC4tJV9T_WA",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/x-researcher/",
+    "json_url": "https://moneywithai.net/api/bots/x-researcher.json"
+  }
+}

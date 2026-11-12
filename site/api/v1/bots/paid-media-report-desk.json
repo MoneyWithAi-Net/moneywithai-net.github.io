@@ -1,0 +1,42 @@
+{
+  "type": "bot",
+  "slug": "paid-media-report-desk",
+  "name": "Paid Media Report Desk",
+  "category": "Content and Marketing",
+  "sub_use_case": "Analytics and monitoring",
+  "summary": "Combines Google Ads, Meta and LinkedIn exports into one weekly report with commentary and answers reporting questions in Slack.",
+  "tools": [
+    "Grok",
+    "Google Ads",
+    "LinkedIn",
+    "Slack"
+  ],
+  "creator": {
+    "handle": "Miguel Cruz",
+    "url": "https://x.ai/bot/qBFjPRQ3IbHG69qIFHblE"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/qBFjPRQ3IbHG69qIFHblE"
+  },
+  "official_share_url": "https://x.ai/bot/qBFjPRQ3IbHG69qIFHblE",
+  "found_via": "https://x.ai/bot/qBFjPRQ3IbHG69qIFHblE",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/paid-media-report-desk/",
+  "json_url": "https://moneywithai.net/api/v1/bots/paid-media-report-desk.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 534,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

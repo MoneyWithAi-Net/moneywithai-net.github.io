@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "content-writer",
+    "name": "Content Writer",
+    "category": "Content and Marketing",
+    "sub_use_case": "Copy and creative",
+    "summary": "Writes clear interface and service content in plain English: labels, messages and content models that help people finish a task.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Vijay Kandhalu",
+      "url": "https://x.ai/bot/oAJ5mSjoFixBxMFbv9Olr"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/oAJ5mSjoFixBxMFbv9Olr"
+    },
+    "official_share_url": "https://x.ai/bot/oAJ5mSjoFixBxMFbv9Olr",
+    "found_via": "https://x.ai/bot/oAJ5mSjoFixBxMFbv9Olr",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/content-writer/",
+    "json_url": "https://moneywithai.net/api/bots/content-writer.json"
+  }
+}

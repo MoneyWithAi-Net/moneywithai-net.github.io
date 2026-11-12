@@ -1,0 +1,164 @@
+{
+  "type": "use-case",
+  "slug": "answer-whatsapp-customers-same-day",
+  "title": "Answer Every WhatsApp Customer the Same Day",
+  "category": "Customer Support",
+  "category_slug": "customer-support",
+  "money_model": "Grow sales",
+  "difficulty": "Beginner",
+  "summary": "Clear your WhatsApp chats every day with replies drafted in your voice, so buyers get an answer before they go to a competitor.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes customers already message you on WhatsApp; the value is reply time saved and fewer buyers left waiting.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Fewer buyers lost to slow replies on the channel they prefer.",
+    "Less time typing the same answers by hand."
+  ],
+  "who_its_for": [
+    "Small businesses that sell and support customers on WhatsApp.",
+    "Owners who run client or supplier groups on WhatsApp."
+  ],
+  "stack": [
+    {
+      "bot": "whatsapper",
+      "name": "WhatsApper",
+      "role": "Reads your chats and drafts replies in your voice that go out only after you approve them.",
+      "creator": "mgonto",
+      "tools": [
+        "WhatsApp",
+        "Grok",
+        "GitHub",
+        "Google Drive"
+      ],
+      "url": "https://moneywithai.net/bots/whatsapper/",
+      "official_share_url": "https://x.ai/bot/Lr1qQk4Csgtz127NJPpQ2"
+    },
+    {
+      "bot": "whatsapp-help-desk-assistant",
+      "name": "WhatsApp Help Desk Assistant",
+      "role": "Answers common questions with memory of each customer chat.",
+      "creator": "Matt F.",
+      "tools": [
+        "n8n",
+        "OpenAI",
+        "WhatsApp"
+      ],
+      "url": "https://moneywithai.net/bots/whatsapp-help-desk-assistant/",
+      "official_share_url": null
+    },
+    {
+      "bot": "multilingual-support-inbox",
+      "name": "Multilingual Support Inbox",
+      "role": "Helps when customers write in other languages.",
+      "creator": "Oneclick AI Squad",
+      "tools": [
+        "n8n",
+        "Google Sheets",
+        "Google Translate",
+        "WhatsApp"
+      ],
+      "url": "https://moneywithai.net/bots/multilingual-support-inbox/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "WhatsApp",
+    "Grok",
+    "GitHub",
+    "Google Drive",
+    "n8n",
+    "OpenAI",
+    "Google Sheets",
+    "Google Translate"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Your business chats",
+        "tool": "WhatsApp"
+      },
+      {
+        "label": "Your standard answers",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "whatsapper",
+        "name": "WhatsApper",
+        "does": "Drafts replies in your voice",
+        "tools": [
+          "WhatsApp",
+          "Grok",
+          "GitHub",
+          "Google Drive"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "whatsapp-help-desk-assistant",
+        "name": "WhatsApp Help Desk Assistant",
+        "does": "Answers common questions",
+        "tools": [
+          "n8n",
+          "OpenAI",
+          "WhatsApp"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "multilingual-support-inbox",
+        "name": "Multilingual Support Inbox",
+        "does": "Helps with other languages",
+        "tools": [
+          "n8n",
+          "Google Sheets",
+          "Google Translate",
+          "WhatsApp"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "you",
+        "name": "You",
+        "does": "Approve each reply",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Chats answered the same day",
+      "Less time typing replies"
+    ]
+  },
+  "steps": [
+    "Link the WhatsApp number you use for business.",
+    "Ask for drafts on chats still waiting for a reply.",
+    "Approve or edit each draft before it goes out.",
+    "Turn repeated questions into standard answers."
+  ],
+  "guardrails": [
+    "Nothing is sent until you approve the exact text.",
+    "Check prices, dates and promises in every reply."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-31T10:00:00.000Z",
+  "featured": {
+    "rank": 29,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/answer-whatsapp-customers-same-day/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/answer-whatsapp-customers-same-day.json"
+}

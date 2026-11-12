@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "receipt-ledger",
+  "name": "Receipt Ledger",
+  "category": "Finance",
+  "sub_use_case": "Bookkeeping and reporting",
+  "summary": "Keeps a running spending ledger for write-offs: it reads receipts from your email into a Google Sheet every day and sends a Monday summary.",
+  "tools": [
+    "Grok",
+    "Gmail",
+    "Google Sheets"
+  ],
+  "creator": {
+    "handle": "ecoay",
+    "url": "https://x.com/ecoay"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/W7aHTGtfZ0kNlZVGFXYLH"
+  },
+  "official_share_url": "https://x.ai/bot/W7aHTGtfZ0kNlZVGFXYLH",
+  "found_via": null,
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-11-08",
+  "url": "https://moneywithai.net/bots/receipt-ledger/",
+  "json_url": "https://moneywithai.net/api/v1/bots/receipt-ledger.json",
+  "use_cases": [],
+  "added_at": "2026-11-08T10:00:00.000Z",
+  "featured": {
+    "rank": 561,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

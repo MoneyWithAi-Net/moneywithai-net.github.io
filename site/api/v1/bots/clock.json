@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "clock",
+  "name": "Clock",
+  "category": "Research and Ops",
+  "sub_use_case": "Planning and projects",
+  "summary": "A calendar helper that finds meeting times, protects focus time, moves flexible meetings and sends a weekly time check.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Naoufal El hassnaoui",
+    "url": "https://x.ai/bot/o1i1t2DhvfahqIlO5o1gd"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/o1i1t2DhvfahqIlO5o1gd"
+  },
+  "official_share_url": "https://x.ai/bot/o1i1t2DhvfahqIlO5o1gd",
+  "found_via": "https://x.ai/bot/o1i1t2DhvfahqIlO5o1gd",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/clock/",
+  "json_url": "https://moneywithai.net/api/v1/bots/clock.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 380,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

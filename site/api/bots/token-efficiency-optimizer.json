@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "token-efficiency-optimizer",
+    "name": "Token Efficiency Optimizer",
+    "category": "Research and Ops",
+    "sub_use_case": "Team memory",
+    "summary": "Stops Grok Bot runs that waste usage before your plan resets, shows why and suggests cuts. Holds spend unless you say yes.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Eric Buess",
+      "url": "https://x.ai/bot/cp_nk3ftrAgaKbYONW6fa"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/cp_nk3ftrAgaKbYONW6fa"
+    },
+    "official_share_url": "https://x.ai/bot/cp_nk3ftrAgaKbYONW6fa",
+    "found_via": "https://x.ai/bot/cp_nk3ftrAgaKbYONW6fa",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/token-efficiency-optimizer/",
+    "json_url": "https://moneywithai.net/api/bots/token-efficiency-optimizer.json"
+  }
+}

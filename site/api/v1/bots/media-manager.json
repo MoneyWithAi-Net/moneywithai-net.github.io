@@ -20,7 +20,7 @@
     "url": "https://x.com/mattyp/status/2102397514792001868"
   },
   "official_share_url": "https://x.ai/bot/qG_ZROllzSSRGKx_iIbsQ",
-  "found_via": "https://grokbot101.org/bots/media-manager/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-24",
@@ -31,7 +31,7 @@
   ],
   "added_at": "2026-10-24T09:30:00.000Z",
   "featured": {
-    "rank": 161,
+    "rank": 182,
     "score": 83,
     "money": 27,
     "profile": 30,

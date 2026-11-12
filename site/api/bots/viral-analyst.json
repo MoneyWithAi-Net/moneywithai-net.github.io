@@ -1,0 +1,31 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "viral-analyst",
+    "name": "Viral Analyst",
+    "category": "Content and Marketing",
+    "sub_use_case": "X posting",
+    "summary": "Breaks down any X post you paste: the hook, why it worked and what you can reuse in your own posts.",
+    "tools": [
+      "Grok",
+      "Notion",
+      "X"
+    ],
+    "creator": {
+      "handle": "Matt Kloss",
+      "url": "https://x.ai/bot/Q6AwABs_6Nt0Lx8LzR-A_"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/Q6AwABs_6Nt0Lx8LzR-A_"
+    },
+    "official_share_url": "https://x.ai/bot/Q6AwABs_6Nt0Lx8LzR-A_",
+    "found_via": "https://x.ai/bot/Q6AwABs_6Nt0Lx8LzR-A_",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/viral-analyst/",
+    "json_url": "https://moneywithai.net/api/bots/viral-analyst.json"
+  }
+}

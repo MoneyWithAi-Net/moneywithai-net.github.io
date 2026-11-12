@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "founder-chief-of-staff",
+  "name": "Founder Chief of Staff",
+  "category": "Research and Ops",
+  "sub_use_case": "Planning and projects",
+  "summary": "Gives a founder with several ventures a morning brief across calendars and inboxes, a weekly recap and CRM follow-ups.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Mike Makar",
+    "url": "https://x.ai/bot/nB2LrfTaw07kYIuE32UZk"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/nB2LrfTaw07kYIuE32UZk"
+  },
+  "official_share_url": "https://x.ai/bot/nB2LrfTaw07kYIuE32UZk",
+  "found_via": "https://x.ai/bot/nB2LrfTaw07kYIuE32UZk",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/founder-chief-of-staff/",
+  "json_url": "https://moneywithai.net/api/v1/bots/founder-chief-of-staff.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 448,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "haggle-bot-daniel-gartshein",
+    "name": "Haggle Bot",
+    "category": "Finance",
+    "sub_use_case": "SaaS spend",
+    "summary": "Lists your SaaS spend from Ramp and bills, finds savings such as unused seats and duplicates, and drafts vendor negotiation emails.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Daniel Gartshein",
+      "url": "https://x.ai/bot/pwQ612YrX3R0eACnIMlom"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/pwQ612YrX3R0eACnIMlom"
+    },
+    "official_share_url": "https://x.ai/bot/pwQ612YrX3R0eACnIMlom",
+    "found_via": "https://x.ai/bot/pwQ612YrX3R0eACnIMlom",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/haggle-bot-daniel-gartshein/",
+    "json_url": "https://moneywithai.net/api/bots/haggle-bot-daniel-gartshein.json"
+  }
+}

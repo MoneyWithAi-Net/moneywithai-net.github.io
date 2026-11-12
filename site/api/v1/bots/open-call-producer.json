@@ -18,7 +18,7 @@
     "url": "https://x.com/sashanaria/status/2103237385521971372"
   },
   "official_share_url": "https://x.ai/bot/BONR6QrctxFQWXdHzT1Ro",
-  "found_via": "https://grokbot101.org/bots/open-call-producer/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-25",
@@ -29,7 +29,7 @@
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 253,
+    "rank": 280,
     "score": 73,
     "money": 13,
     "profile": 30,

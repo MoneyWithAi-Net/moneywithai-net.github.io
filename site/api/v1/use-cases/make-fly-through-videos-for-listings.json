@@ -1,0 +1,124 @@
+{
+  "type": "use-case",
+  "slug": "make-fly-through-videos-for-listings",
+  "title": "Make Fly-Through Videos for Your Listings",
+  "category": "Content and Marketing",
+  "category_slug": "content-and-marketing",
+  "money_model": "Save costs",
+  "difficulty": "Beginner",
+  "summary": "Give each listing a 3D map fly-through and stills of the area with labelled pins, then cut short clips with a title and thumbnail for your posts.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you would otherwise pay for location videos; the value is cost saved per listing.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Fewer paid location videos for each listing.",
+    "Listings that show the area, not just the house."
+  ],
+  "who_its_for": [
+    "Listing agents.",
+    "Short-term rental hosts and home builders."
+  ],
+  "stack": [
+    {
+      "bot": "google-earth",
+      "name": "Google Earth",
+      "role": "Makes 3D map stills and fly-through videos with labelled pins and Google Earth files.",
+      "creator": "sia14u",
+      "tools": [
+        "Grok",
+        "Google Earth"
+      ],
+      "url": "https://moneywithai.net/bots/google-earth/",
+      "official_share_url": "https://x.ai/bot/gD8MANRzbNvNNs3jnGxIc"
+    },
+    {
+      "bot": "video-editor",
+      "name": "Video Editor",
+      "role": "Adds titles, thumbnails and short cuts for each channel.",
+      "creator": "john_a_isaacson",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/video-editor/",
+      "official_share_url": "https://x.ai/bot/TUBFpf9exUG-qi7RYKZLs"
+    }
+  ],
+  "tools": [
+    "Grok",
+    "Google Earth"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Listing address",
+        "tool": null
+      },
+      {
+        "label": "Nearby places",
+        "tool": "Google Earth"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "google-earth",
+        "name": "Google Earth",
+        "does": "Makes a 3D fly-through and stills",
+        "tools": [
+          "Grok",
+          "Google Earth"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "video-editor",
+        "name": "Video Editor",
+        "does": "Adds a title, thumbnail and short cuts",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Check pins and publish",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A location fly-through video",
+      "Stills and short clips for posts"
+    ]
+  },
+  "steps": [
+    "Pick the listing and the nearby places to show.",
+    "Make the fly-through and stills.",
+    "Check every pin and label.",
+    "Cut short clips with a title and post them."
+  ],
+  "guardrails": [
+    "Check each pin and label before you publish.",
+    "Follow Google's terms for map imagery and attribution."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-31T15:00:00.000Z",
+  "featured": {
+    "rank": 45,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/make-fly-through-videos-for-listings/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/make-fly-through-videos-for-listings.json"
+}

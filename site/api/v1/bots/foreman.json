@@ -1,0 +1,43 @@
+{
+  "type": "bot",
+  "slug": "foreman",
+  "name": "Foreman",
+  "category": "Content and Marketing",
+  "sub_use_case": "Analytics and monitoring",
+  "summary": "Takes the daily X busywork off your plate, catching unanswered replies, tracking followers and keeping your own analytics history, all read-only.",
+  "tools": [
+    "X API",
+    "Grok"
+  ],
+  "creator": {
+    "handle": "GlennHasABeard",
+    "url": "https://x.com/GlennHasABeard"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/GlennHasABeard/status/2113739345362297175"
+  },
+  "official_share_url": "https://x.ai/bot/Hfm0xbUx8FqPTd5EYvjat",
+  "found_via": "https://x.com/GlennHasABeard/status/2113739345362297175",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-29",
+  "url": "https://moneywithai.net/bots/foreman/",
+  "json_url": "https://moneywithai.net/api/v1/bots/foreman.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/own-your-x-results-history/",
+    "https://moneywithai.net/use-cases/learn-which-launch-posts-take-off/"
+  ],
+  "added_at": "2026-10-29T10:00:00.000Z",
+  "featured": {
+    "rank": 272,
+    "score": 73,
+    "money": 13,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

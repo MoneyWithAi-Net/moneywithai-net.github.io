@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "lead-pipeline-desk",
+  "name": "Lead Pipeline Desk",
+  "category": "Leads and Sales",
+  "sub_use_case": "CRM hygiene",
+  "summary": "Scores inbound leads, merges duplicates, assigns owners and flags stuck deals from a CRM export or sheet, sending nothing without you.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Miguel Cruz",
+    "url": "https://x.ai/bot/oPDkINUfpUXhJDdsfRZht"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/oPDkINUfpUXhJDdsfRZht"
+  },
+  "official_share_url": "https://x.ai/bot/oPDkINUfpUXhJDdsfRZht",
+  "found_via": "https://x.ai/bot/oPDkINUfpUXhJDdsfRZht",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/lead-pipeline-desk/",
+  "json_url": "https://moneywithai.net/api/v1/bots/lead-pipeline-desk.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/catch-every-new-lead-in-one-sweep/"
+  ],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 96,
+    "score": 87,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

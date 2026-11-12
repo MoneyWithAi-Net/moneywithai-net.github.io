@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "real-estate-deal-scorecard",
+  "name": "Real Estate Deal Scorecard",
+  "category": "Research and Ops",
+  "sub_use_case": "Real estate analysis",
+  "summary": "Scores a US property address under six strategies, from long-term rental to flip and short-term rental, with a go or no-go view. All figures are estimates.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Tanya",
+    "url": "https://x.ai/bot/TWqD9x8MxUgT-0ab70aLA"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/TWqD9x8MxUgT-0ab70aLA"
+  },
+  "official_share_url": "https://x.ai/bot/TWqD9x8MxUgT-0ab70aLA",
+  "found_via": "https://x.ai/bot/TWqD9x8MxUgT-0ab70aLA",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/real-estate-deal-scorecard/",
+  "json_url": "https://moneywithai.net/api/v1/bots/real-estate-deal-scorecard.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 560,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

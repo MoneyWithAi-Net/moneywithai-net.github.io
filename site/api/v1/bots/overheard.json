@@ -12,15 +12,15 @@
   ],
   "creator": {
     "handle": "lennysan",
-    "url": "https://botdirectory.ai/bots/overheard/"
+    "url": null
   },
   "scouted_by": null,
   "source": {
     "kind": "web",
-    "url": "https://botdirectory.ai/bots/overheard/"
+    "url": "https://moneywithai.net/bots/overheard/"
   },
   "official_share_url": null,
-  "found_via": "https://botdirectory.ai/bots/overheard/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-25",
@@ -31,10 +31,10 @@
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 268,
-    "score": 69,
+    "rank": 323,
+    "score": 63,
     "money": 13,
-    "profile": 26,
+    "profile": 20,
     "visuals": 20,
     "difficulty": 10,
     "override": null,

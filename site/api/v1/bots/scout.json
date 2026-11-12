@@ -1,0 +1,42 @@
+{
+  "type": "bot",
+  "slug": "scout",
+  "name": "Scout",
+  "category": "Research and Ops",
+  "sub_use_case": "Opportunity scouting",
+  "summary": "Scans Product Hunt, GitHub Trending, Hacker News, Reddit and X each week and writes a ranked list of what is trending for your research bots.",
+  "tools": [
+    "Grok",
+    "GitHub",
+    "Reddit",
+    "X"
+  ],
+  "creator": {
+    "handle": "Avid",
+    "url": "https://x.ai/bot/stEZpy6WQFTBOWaOOSWAM"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/stEZpy6WQFTBOWaOOSWAM"
+  },
+  "official_share_url": "https://x.ai/bot/stEZpy6WQFTBOWaOOSWAM",
+  "found_via": "https://x.ai/bot/stEZpy6WQFTBOWaOOSWAM",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/scout/",
+  "json_url": "https://moneywithai.net/api/v1/bots/scout.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 576,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

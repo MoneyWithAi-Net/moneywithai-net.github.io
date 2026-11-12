@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "site-audit-rananjay-raj",
+  "name": "Site Audit",
+  "category": "Content and Marketing",
+  "sub_use_case": "SEO and AI search",
+  "summary": "Audits one website for search, speed, accessibility, conversion and schema, with prioritized fixes and a monthly comparison.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Rananjay Raj",
+    "url": "https://x.ai/bot/JBHxWeDSuBJMl_6eyK18O"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/JBHxWeDSuBJMl_6eyK18O"
+  },
+  "official_share_url": "https://x.ai/bot/JBHxWeDSuBJMl_6eyK18O",
+  "found_via": "https://x.ai/bot/JBHxWeDSuBJMl_6eyK18O",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/site-audit-rananjay-raj/",
+  "json_url": "https://moneywithai.net/api/v1/bots/site-audit-rananjay-raj.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 591,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

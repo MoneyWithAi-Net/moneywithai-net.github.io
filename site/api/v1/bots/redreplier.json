@@ -9,16 +9,16 @@
     "Grok"
   ],
   "creator": {
-    "handle": "Grok_Hub_IO",
-    "url": "https://x.com/Grok_Hub_IO"
+    "handle": "tarasshyn",
+    "url": "https://x.com/tarasshyn"
   },
   "scouted_by": null,
   "source": {
-    "kind": "x",
-    "url": "https://x.com/Grok_Hub_IO/status/2093750130763764016"
+    "kind": "web",
+    "url": "https://x.ai/bot/8aU6ly_uunnMabpybs3hB"
   },
   "official_share_url": "https://x.ai/bot/8aU6ly_uunnMabpybs3hB",
-  "found_via": "https://botdirectory.ai/bots/redreplier/",
+  "found_via": "https://x.ai/bot/8aU6ly_uunnMabpybs3hB",
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-25",
@@ -29,7 +29,7 @@
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 92,
+    "rank": 110,
     "score": 87,
     "money": 27,
     "profile": 30,

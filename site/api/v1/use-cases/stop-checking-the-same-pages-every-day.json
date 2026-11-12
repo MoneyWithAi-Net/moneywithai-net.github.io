@@ -1,0 +1,142 @@
+{
+  "type": "use-case",
+  "slug": "stop-checking-the-same-pages-every-day",
+  "title": "Stop Checking the Same Pages Every Day",
+  "category": "Research and Ops",
+  "category_slug": "research-and-ops",
+  "money_model": "Save costs",
+  "difficulty": "Beginner",
+  "summary": "Hand off the prices, rules and competitor pages you keep refreshing, and get a message only when something changes what you would decide.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Assumes you check the same pages by hand each week; the value is time saved and changes caught early.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Hours back each month from checking pages by hand.",
+    "You hear about a price or rule change before it costs you."
+  ],
+  "who_its_for": [
+    "Owners who track suppliers, rules or competitors.",
+    "Founders who follow one market closely."
+  ],
+  "stack": [
+    {
+      "bot": "when-it-matters",
+      "name": "When It Matters",
+      "role": "Works out what would change your answer and messages you only then.",
+      "creator": "hnshah",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/when-it-matters/",
+      "official_share_url": "https://x.ai/bot/BqrH8_GNQvSYV-gcmJnd8"
+    },
+    {
+      "bot": "competitor-watch",
+      "name": "Competitor Watch",
+      "role": "Tracks competitor pricing, product and hiring pages and briefs you on real changes.",
+      "creator": "Shimecki",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/competitor-watch/",
+      "official_share_url": "https://x.ai/bot/aw0Zj54sIsAK7vMnajdz0"
+    },
+    {
+      "bot": "market-research",
+      "name": "Market Research",
+      "role": "Writes source-graded notes on your market watchlist.",
+      "creator": "eyemotors",
+      "tools": [
+        "X"
+      ],
+      "url": "https://moneywithai.net/bots/market-research/",
+      "official_share_url": "https://x.ai/bot/t1l_On1VtkMYddCu5MqQB"
+    }
+  ],
+  "tools": [
+    "Grok",
+    "X"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Things you keep checking",
+        "tool": null
+      },
+      {
+        "label": "Competitor page links",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "when-it-matters",
+        "name": "When It Matters",
+        "does": "Messages only on real change",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "competitor-watch",
+        "name": "Competitor Watch",
+        "does": "Briefs you on competitor changes",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "market-research",
+        "name": "Market Research",
+        "does": "Writes source-graded notes",
+        "tools": [
+          "X"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "you",
+        "name": "You",
+        "does": "Act on what matters",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Fewer, better alerts",
+      "Hours back each month"
+    ]
+  },
+  "steps": [
+    "List the things you check every week.",
+    "Agree what counts as a change worth a message.",
+    "Add competitor pages to the watch list.",
+    "Read the alerts and act only on the ones that matter."
+  ],
+  "guardrails": [
+    "Check the source behind an alert before you act on it.",
+    "Alerts are not legal or financial advice."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-11-01T10:00:00.000Z",
+  "featured": {
+    "rank": 157,
+    "score": 69,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/stop-checking-the-same-pages-every-day/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/stop-checking-the-same-pages-every-day.json"
+}

@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "lingxi-s-engineer-bot",
+  "name": "Lingxi's Engineer Bot",
+  "category": "Research and Ops",
+  "sub_use_case": "Product and engineering",
+  "summary": "An engineering supervisor that plans work, launches cloud agents on your repo, watches pull requests and asks you only to merge.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Lingxi Li",
+    "url": "https://x.ai/bot/SxqbG1NT5qEw7ggmHqQu_"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/SxqbG1NT5qEw7ggmHqQu_"
+  },
+  "official_share_url": "https://x.ai/bot/SxqbG1NT5qEw7ggmHqQu_",
+  "found_via": "https://x.ai/bot/SxqbG1NT5qEw7ggmHqQu_",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/lingxi-s-engineer-bot/",
+  "json_url": "https://moneywithai.net/api/v1/bots/lingxi-s-engineer-bot.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 494,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

@@ -1,11 +1,11 @@
 {
-  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
   "bot": {
     "slug": "ad-active-lead-finder",
     "name": "Ad-Active Lead Finder",
     "category": "Leads and Sales",
     "sub_use_case": "Outbound prospecting",
-    "summary": "Finds B2B companies currently running ads in your niche via public ad libraries and Maps, then pushes them to your CRM.",
+    "summary": "Builds a list of B2B companies that are paying for Meta or Google ads in your niche right now, adds a phone number where it can, and sends new leads to the CRM you choose.",
     "tools": [
       "Meta Ad Library",
       "Google Ads Transparency",
@@ -15,7 +15,7 @@
     ],
     "creator": {
       "handle": "aferrari",
-      "url": "https://botdirectory.ai/bots/ad-active-lead-finder/"
+      "url": null
     },
     "scouted_by": null,
     "source": {
@@ -23,7 +23,7 @@
       "url": "https://x.ai/bot/nHDuTEJd3mC91rtLLPN0p"
     },
     "official_share_url": "https://x.ai/bot/nHDuTEJd3mC91rtLLPN0p",
-    "found_via": "https://botdirectory.ai/bots/ad-active-lead-finder/",
+    "found_via": null,
     "prompt_included": false,
     "proof_level": "source_verified",
     "last_checked": "2026-10-25",

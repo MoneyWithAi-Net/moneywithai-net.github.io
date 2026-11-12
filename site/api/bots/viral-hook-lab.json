@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "viral-hook-lab",
+    "name": "Viral Hook Lab",
+    "category": "Content and Marketing",
+    "sub_use_case": "Copy and creative",
+    "summary": "Finds short-video hooks that beat each channel's usual views in your niche, then writes scored hooks for your own idea.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "anatoly eidelman",
+      "url": "https://x.ai/bot/5igzs9OnCFbpd5hUopyJE"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/5igzs9OnCFbpd5hUopyJE"
+    },
+    "official_share_url": "https://x.ai/bot/5igzs9OnCFbpd5hUopyJE",
+    "found_via": null,
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-11-11",
+    "url": "https://moneywithai.net/bots/viral-hook-lab/",
+    "json_url": "https://moneywithai.net/api/bots/viral-hook-lab.json"
+  }
+}

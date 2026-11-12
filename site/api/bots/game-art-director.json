@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "game-art-director",
+    "name": "Game Art Director",
+    "category": "Content and Marketing",
+    "sub_use_case": "Copy and creative",
+    "summary": "Keeps a small game studio art consistent without a full-time art director: it turns your concept into a style guide and catches palette and grid drift.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "DannyLimanseta",
+      "url": "https://x.com/DannyLimanseta"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/KQnsHIvv4_Xk7HyhmewP3"
+    },
+    "official_share_url": "https://x.ai/bot/KQnsHIvv4_Xk7HyhmewP3",
+    "found_via": null,
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-11-01",
+    "url": "https://moneywithai.net/bots/game-art-director/",
+    "json_url": "https://moneywithai.net/api/bots/game-art-director.json"
+  }
+}

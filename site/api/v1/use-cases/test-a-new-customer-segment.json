@@ -1,0 +1,131 @@
+{
+  "type": "use-case",
+  "slug": "test-a-new-customer-segment",
+  "title": "Test a New Customer Segment Before You Hire",
+  "category": "Leads and Sales",
+  "category_slug": "leads-and-sales",
+  "money_model": "Grow sales",
+  "difficulty": "Intermediate",
+  "summary": "Find out if a new type of customer wants what you sell by building a small researched lead list with outreach drafts, before you hire a sales rep or change your offer.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you sell to businesses and want to test a new type of customer; the value is research time saved and a clear answer before hiring.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "You learn if a new market replies before you pay for a salesperson.",
+    "Every first message starts from real research, not a template."
+  ],
+  "who_its_for": [
+    "Founders who do their own sales.",
+    "Agencies and consultants opening a new niche."
+  ],
+  "stack": [
+    {
+      "bot": "outbound-desk",
+      "name": "Outbound Desk",
+      "role": "Reads your website, finds likely customers in the new segment and drafts email, X and LinkedIn messages in one shared sheet.",
+      "creator": "monokern",
+      "tools": [
+        "Google Sheets",
+        "X",
+        "LinkedIn",
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/outbound-desk/",
+      "official_share_url": "https://x.ai/bot/5fcknlf1SHiLCCVULgBql"
+    },
+    {
+      "bot": "lookalike-scout",
+      "name": "Lookalike Scout",
+      "role": "Turns one good customer into a list of similar companies and decision-makers to add to the test.",
+      "creator": "Treg team",
+      "tools": [
+        "Treg"
+      ],
+      "url": "https://moneywithai.net/bots/lookalike-scout/",
+      "official_share_url": "https://x.ai/bot/mfaurGq6eY9rIvIpMfUFI"
+    }
+  ],
+  "tools": [
+    "Google Sheets",
+    "X",
+    "LinkedIn",
+    "Grok",
+    "Treg"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Your website and one good customer",
+        "tool": null
+      },
+      {
+        "label": "A shared lead sheet",
+        "tool": "Google Sheets"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "lookalike-scout",
+        "name": "Lookalike Scout",
+        "does": "Finds similar companies and decision-makers",
+        "tools": [
+          "Treg"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "outbound-desk",
+        "name": "Outbound Desk",
+        "does": "Researches leads and drafts outreach",
+        "tools": [
+          "Google Sheets",
+          "X",
+          "LinkedIn",
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Edit, send a small batch and count replies",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A researched lead list with drafts",
+      "A clear yes or no on the segment"
+    ]
+  },
+  "steps": [
+    "Describe the new segment and the one reason they should care.",
+    "Build a small list from your website and one good customer.",
+    "Edit every draft and send a small batch yourself.",
+    "Count replies and decide whether the segment is worth more effort."
+  ],
+  "guardrails": [
+    "You send every message yourself; nothing goes out on its own.",
+    "Follow anti-spam rules for each channel and country, and offer an easy opt-out on email."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-30T10:00:00.000Z",
+  "featured": {
+    "rank": 103,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/test-a-new-customer-segment/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/test-a-new-customer-segment.json"
+}

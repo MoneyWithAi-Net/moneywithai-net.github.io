@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "chief-of-staff-desk",
+  "name": "Chief of Staff Desk",
+  "category": "Research and Ops",
+  "sub_use_case": "Planning and projects",
+  "summary": "Runs a team of bots on a budget: tickets and budgets for each specialist, approval for outbound email and usage checks.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "James Bottom",
+    "url": "https://x.ai/bot/kcmEmRS4Z5YmFr_KRwSFL"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/kcmEmRS4Z5YmFr_KRwSFL"
+  },
+  "official_share_url": "https://x.ai/bot/kcmEmRS4Z5YmFr_KRwSFL",
+  "found_via": "https://x.ai/bot/kcmEmRS4Z5YmFr_KRwSFL",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/chief-of-staff-desk/",
+  "json_url": "https://moneywithai.net/api/v1/bots/chief-of-staff-desk.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 372,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

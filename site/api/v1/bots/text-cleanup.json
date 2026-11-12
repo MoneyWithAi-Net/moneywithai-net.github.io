@@ -1,0 +1,42 @@
+{
+  "type": "bot",
+  "slug": "text-cleanup",
+  "name": "Text-cleanup",
+  "category": "Content and Marketing",
+  "sub_use_case": "Copy and creative",
+  "summary": "Saves time on every client email and post: paste rough notes or an AI draft and get one clean version in your saved tone, with no facts added.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "GrokBotGod",
+    "url": "https://x.com/GrokBotGod"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/GrokBotGod/status/2106167102398996895"
+  },
+  "official_share_url": "https://x.ai/bot/E3h6k-Sbq7hwF3PW1ZBI4",
+  "found_via": null,
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-11-01",
+  "url": "https://moneywithai.net/bots/text-cleanup/",
+  "json_url": "https://moneywithai.net/api/v1/bots/text-cleanup.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/back-every-proposal-with-cited-research/",
+    "https://moneywithai.net/use-cases/triage-email-without-auto-send/"
+  ],
+  "added_at": "2026-11-01T10:00:00.000Z",
+  "featured": {
+    "rank": 117,
+    "score": 87,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "ecom-creative-cos",
+  "name": "Ecom Creative CoS",
+  "category": "E-Commerce",
+  "sub_use_case": "Product listings and creative",
+  "summary": "Organizes creative work for an online store: listing files by SKU, product images, mood boards, shot lists and competitor research.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Shalom Serraf",
+    "url": "https://x.ai/bot/R_rFWGcUu3PHaSyH8VjIt"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/R_rFWGcUu3PHaSyH8VjIt"
+  },
+  "official_share_url": "https://x.ai/bot/R_rFWGcUu3PHaSyH8VjIt",
+  "found_via": "https://x.ai/bot/R_rFWGcUu3PHaSyH8VjIt",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/ecom-creative-cos/",
+  "json_url": "https://moneywithai.net/api/v1/bots/ecom-creative-cos.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 421,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "echo-jaime-hernandez",
+    "name": "Echo",
+    "category": "Customer Support",
+    "sub_use_case": "Chat and messaging support",
+    "summary": "Handles replies and community engagement on your social accounts while you keep control of what gets posted.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Jaime Hernandez",
+      "url": "https://x.ai/bot/nUcS_RpBYZV5XqCM-ncWm"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/nUcS_RpBYZV5XqCM-ncWm"
+    },
+    "official_share_url": "https://x.ai/bot/nUcS_RpBYZV5XqCM-ncWm",
+    "found_via": "https://x.ai/bot/nUcS_RpBYZV5XqCM-ncWm",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/echo-jaime-hernandez/",
+    "json_url": "https://moneywithai.net/api/bots/echo-jaime-hernandez.json"
+  }
+}

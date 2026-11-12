@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "qa-bot",
+    "name": "QA bot",
+    "category": "Research and Ops",
+    "sub_use_case": "Product and engineering",
+    "summary": "Runs your acceptance checklist against the live deploy and says pass or fail before you ship.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Ulysses Ng",
+      "url": "https://x.ai/bot/lKQWoQAvYgg_7Bkg2R-m7"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/lKQWoQAvYgg_7Bkg2R-m7"
+    },
+    "official_share_url": "https://x.ai/bot/lKQWoQAvYgg_7Bkg2R-m7",
+    "found_via": "https://x.ai/bot/lKQWoQAvYgg_7Bkg2R-m7",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/qa-bot/",
+    "json_url": "https://moneywithai.net/api/bots/qa-bot.json"
+  }
+}

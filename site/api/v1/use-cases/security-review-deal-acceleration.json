@@ -13,7 +13,7 @@
     "label": "Medium",
     "basis": "Assumes annual contracts where one saved deal is worth a lot.",
     "claim_label": "E",
-    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
   },
   "how_it_makes_money": [
     "Deals stall less in security review.",
@@ -27,7 +27,7 @@
       "bot": "trust-center-deal-desk",
       "name": "Trust Center Deal Desk",
       "role": "Handles trust-center and NDA requests.",
-      "creator": "elie2222",
+      "creator": "Community submission",
       "tools": [
         "Comp AI",
         "Slack"
@@ -163,7 +163,7 @@
   "claims": [],
   "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 90,
+    "rank": 118,
     "score": 76,
     "money": 27,
     "profile": 26,

@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "cadence",
+  "name": "Cadence",
+  "category": "Research and Ops",
+  "sub_use_case": "Inbox triage",
+  "summary": "An ops desk for one owner that decides who may reach you on which channel, drafts by default and keeps a light CRM.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Carlos Bedia",
+    "url": "https://x.ai/bot/hXNMjR6j1A1gnOYyw-72t"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/hXNMjR6j1A1gnOYyw-72t"
+  },
+  "official_share_url": "https://x.ai/bot/hXNMjR6j1A1gnOYyw-72t",
+  "found_via": "https://x.ai/bot/hXNMjR6j1A1gnOYyw-72t",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/cadence/",
+  "json_url": "https://moneywithai.net/api/v1/bots/cadence.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 357,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

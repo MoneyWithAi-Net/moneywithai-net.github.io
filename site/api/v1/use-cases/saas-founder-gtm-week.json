@@ -13,7 +13,7 @@
     "label": "High",
     "basis": "Assumes subscription revenue, so each new customer adds monthly income.",
     "claim_label": "E",
-    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
   },
   "how_it_makes_money": [
     "A solo founder keeps outbound and follow-up going every week.",
@@ -38,7 +38,7 @@
       "bot": "saasbot",
       "name": "SaaSbot",
       "role": "Runs morning prep, outbound and reply handling.",
-      "creator": "Grok_Hub_IO",
+      "creator": "danielfoch",
       "tools": [
         "Grok"
       ],
@@ -173,7 +173,7 @@
   "claims": [],
   "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 19,
+    "rank": 23,
     "score": 89,
     "money": 40,
     "profile": 26,

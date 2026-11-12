@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "gethookd-research",
+  "name": "GetHookd Research",
+  "category": "Content and Marketing",
+  "sub_use_case": "Paid ads",
+  "summary": "Finds long-running Meta ads in GetHookd, groups them by angle and points out gaps you could test in your own creative.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Krste Kovaceski",
+    "url": "https://x.ai/bot/oTcHKqv2ttOsnvVhzYiOT"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/oTcHKqv2ttOsnvVhzYiOT"
+  },
+  "official_share_url": "https://x.ai/bot/oTcHKqv2ttOsnvVhzYiOT",
+  "found_via": "https://x.ai/bot/oTcHKqv2ttOsnvVhzYiOT",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/gethookd-research/",
+  "json_url": "https://moneywithai.net/api/v1/bots/gethookd-research.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 452,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

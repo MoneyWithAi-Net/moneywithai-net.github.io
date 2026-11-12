@@ -1,5 +1,5 @@
 {
-  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
   "bot": {
     "slug": "x-thread-and-article-writer",
     "name": "X Thread & Article Writer",
@@ -19,7 +19,7 @@
       "url": "https://x.com/sigarellano/status/2103737235413860615"
     },
     "official_share_url": "https://x.ai/bot/xLeBNzgp0Z6IUGxyt8sj4",
-    "found_via": "https://grokbot101.org/bots/thread-writer/",
+    "found_via": null,
     "prompt_included": false,
     "proof_level": "source_verified",
     "last_checked": "2026-10-24",

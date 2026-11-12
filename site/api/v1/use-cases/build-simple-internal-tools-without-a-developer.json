@@ -1,0 +1,137 @@
+{
+  "type": "use-case",
+  "slug": "build-simple-internal-tools-without-a-developer",
+  "title": "Build Simple Internal Tools Without a Developer",
+  "category": "Research and Ops",
+  "category_slug": "research-and-ops",
+  "money_model": "Save costs",
+  "difficulty": "Intermediate",
+  "summary": "Replace a paid app you barely use, or build the small tool your team keeps asking for, then check the code before anyone relies on it.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Assumes you pay for an app you use one feature of; the value is that subscription saved.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "One less subscription when a simple tool does the job.",
+    "No developer bill for small internal tools."
+  ],
+  "who_its_for": [
+    "Owners paying for apps they use one feature of.",
+    "Small teams without a developer."
+  ],
+  "stack": [
+    {
+      "bot": "app-replicator",
+      "name": "APP REPLICATOR",
+      "role": "Shows how to rebuild the one feature you use from a paid app, and when a rebuild is not worth it.",
+      "creator": "Brian",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/app-replicator/",
+      "official_share_url": "https://x.ai/bot/EIaKiBO_5k6RITsM47150"
+    },
+    {
+      "bot": "grok-build",
+      "name": "Grok Build",
+      "role": "Runs the Grok Build tool on an agent computer to build the app or code.",
+      "creator": "Teslaconomics",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/grok-build/",
+      "official_share_url": "https://x.ai/bot/ZRxm1O9tmizOhriV7GiWL"
+    },
+    {
+      "bot": "tech-lead",
+      "name": "Tech Lead",
+      "role": "Holds changes until the code matches the claim and real tests pass.",
+      "creator": "inqusit",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/tech-lead/",
+      "official_share_url": "https://x.ai/bot/RfFPxQ_rfEGcUncrJ6g_W"
+    }
+  ],
+  "tools": [
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "A paid app you barely use",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "app-replicator",
+        "name": "APP REPLICATOR",
+        "does": "Plans a rebuild or says skip it",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "grok-build",
+        "name": "Grok Build",
+        "does": "Builds the tool",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "tech-lead",
+        "name": "Tech Lead",
+        "does": "Holds it until tests pass",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "you",
+        "name": "You",
+        "does": "Test, then switch over",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A small tool you own",
+      "One less subscription"
+    ]
+  },
+  "steps": [
+    "Pick one paid app you use for a single feature.",
+    "Ask whether a rebuild is worth it.",
+    "Build a small version on test data.",
+    "Review it and switch over only when it works."
+  ],
+  "guardrails": [
+    "Test on sample data first, never live customer data.",
+    "Keep the paid app until the new tool has run for a few weeks."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-11-01T10:00:00.000Z",
+  "featured": {
+    "rank": 164,
+    "score": 65,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/build-simple-internal-tools-without-a-developer/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/build-simple-internal-tools-without-a-developer.json"
+}

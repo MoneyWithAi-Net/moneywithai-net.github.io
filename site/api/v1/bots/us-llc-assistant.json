@@ -18,7 +18,7 @@
     "url": "https://x.com/KarinaGeigner/status/2107301494563484082"
   },
   "official_share_url": "https://x.ai/bot/P1SKFe9QcGTtxhngNMtig",
-  "found_via": "https://grokbot101.org/bots/asistente-llc-en-ee-uu/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-25",
@@ -30,7 +30,7 @@
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 170,
+    "rank": 191,
     "score": 83,
     "money": 27,
     "profile": 30,

@@ -13,7 +13,7 @@
     "label": "Low",
     "basis": "Assumes time saved at month end.",
     "claim_label": "E",
-    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
   },
   "how_it_makes_money": [
     "Month-end takes hours, not days.",
@@ -27,7 +27,7 @@
       "bot": "expense-manager",
       "name": "Expense Manager",
       "role": "Matches receipts to payments.",
-      "creator": "BotDirectoryAI",
+      "creator": "Community submission",
       "tools": [
         "Gmail",
         "Google Sheets"
@@ -161,7 +161,7 @@
   "claims": [],
   "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 110,
+    "rank": 147,
     "score": 69,
     "money": 13,
     "profile": 26,

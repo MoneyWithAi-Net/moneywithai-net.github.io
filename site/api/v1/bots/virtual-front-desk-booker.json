@@ -27,16 +27,17 @@
   "url": "https://moneywithai.net/bots/virtual-front-desk-booker/",
   "json_url": "https://moneywithai.net/api/v1/bots/virtual-front-desk-booker.json",
   "use_cases": [
-    "https://moneywithai.net/use-cases/ai-receptionist-agency/"
+    "https://moneywithai.net/use-cases/ai-receptionist-agency/",
+    "https://moneywithai.net/use-cases/fill-salon-gaps-from-your-waitlist/"
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 52,
-    "score": 92,
+    "rank": 23,
+    "score": 96,
     "money": 40,
     "profile": 26,
     "visuals": 20,
-    "difficulty": 6,
+    "difficulty": 10,
     "override": null,
     "rules": "https://moneywithai.net/llms.txt"
   }

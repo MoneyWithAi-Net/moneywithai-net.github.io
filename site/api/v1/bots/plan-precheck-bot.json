@@ -18,23 +18,24 @@
     "url": "https://x.com/TinaDS61/status/2103338911821111325"
   },
   "official_share_url": "https://x.ai/bot/2AX61eyWkS5Z2JzMrgv7E",
-  "found_via": "https://grokbot101.org/bots/plan-precheck/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-25",
   "url": "https://moneywithai.net/bots/plan-precheck-bot/",
   "json_url": "https://moneywithai.net/api/v1/bots/plan-precheck-bot.json",
   "use_cases": [
-    "https://moneywithai.net/use-cases/construction-field-office/"
+    "https://moneywithai.net/use-cases/construction-field-office/",
+    "https://moneywithai.net/use-cases/show-buyers-floor-plans-in-3d/"
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 164,
-    "score": 83,
+    "rank": 102,
+    "score": 87,
     "money": 27,
     "profile": 30,
     "visuals": 20,
-    "difficulty": 6,
+    "difficulty": 10,
     "override": null,
     "rules": "https://moneywithai.net/llms.txt"
   }

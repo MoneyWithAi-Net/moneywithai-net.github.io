@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "roomflip",
+    "name": "RoomFlip",
+    "category": "Leads and Sales",
+    "sub_use_case": "Speed-to-lead and quotes",
+    "summary": "Shows a remodel client their own room redone from one photo, then lets them try other finishes from your catalog while a running price updates.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "teeRex247",
+      "url": "https://x.com/teeRex247"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/teeRex247/status/2113068949785231492"
+    },
+    "official_share_url": "https://x.ai/bot/xzuLMEdYoDDtzl3ajye4r",
+    "found_via": "https://x.ai/bot/xzuLMEdYoDDtzl3ajye4r",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/roomflip/",
+    "json_url": "https://moneywithai.net/api/bots/roomflip.json"
+  }
+}

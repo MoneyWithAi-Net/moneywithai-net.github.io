@@ -1,0 +1,30 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "grok-bot-text-and-voicemail",
+    "name": "Grok Bot Text & Voicemail",
+    "category": "Customer Support",
+    "sub_use_case": "Phone answering",
+    "summary": "A front desk for texts and voicemails sent to a Google Voice number: sorts them by intent and urgency in Gmail and drafts replies for you.",
+    "tools": [
+      "Grok",
+      "Gmail"
+    ],
+    "creator": {
+      "handle": "Brian",
+      "url": "https://x.ai/bot/z2ds5I1IWLO2M1lFFvhQ4"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/z2ds5I1IWLO2M1lFFvhQ4"
+    },
+    "official_share_url": "https://x.ai/bot/z2ds5I1IWLO2M1lFFvhQ4",
+    "found_via": "https://x.ai/bot/z2ds5I1IWLO2M1lFFvhQ4",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/grok-bot-text-and-voicemail/",
+    "json_url": "https://moneywithai.net/api/bots/grok-bot-text-and-voicemail.json"
+  }
+}

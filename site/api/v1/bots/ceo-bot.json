@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "ceo-bot",
+  "name": "CEO Bot",
+  "category": "Research and Ops",
+  "sub_use_case": "Planning and projects",
+  "summary": "Coordinates several projects in parallel through project-manager bots and shows you only the real decisions.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Sravan v J",
+    "url": "https://x.ai/bot/lQruhDeXx1KC_fXxNtpVE"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/lQruhDeXx1KC_fXxNtpVE"
+  },
+  "official_share_url": "https://x.ai/bot/lQruhDeXx1KC_fXxNtpVE",
+  "found_via": "https://x.ai/bot/lQruhDeXx1KC_fXxNtpVE",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/ceo-bot/",
+  "json_url": "https://moneywithai.net/api/v1/bots/ceo-bot.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 360,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

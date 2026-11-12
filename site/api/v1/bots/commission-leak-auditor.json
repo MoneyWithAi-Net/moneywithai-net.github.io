@@ -10,15 +10,15 @@
   ],
   "creator": {
     "handle": "alexandr-belogubov",
-    "url": "https://botdirectory.ai/bots/commission-leak-auditor/"
+    "url": null
   },
   "scouted_by": null,
   "source": {
     "kind": "web",
-    "url": "https://botdirectory.ai/bots/commission-leak-auditor/"
+    "url": "https://moneywithai.net/bots/commission-leak-auditor/"
   },
   "official_share_url": null,
-  "found_via": "https://botdirectory.ai/bots/commission-leak-auditor/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-25",
@@ -30,10 +30,10 @@
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 105,
-    "score": 83,
+    "rank": 253,
+    "score": 77,
     "money": 27,
-    "profile": 26,
+    "profile": 20,
     "visuals": 20,
     "difficulty": 10,
     "override": null,

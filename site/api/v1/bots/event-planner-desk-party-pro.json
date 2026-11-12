@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "event-planner-desk-party-pro",
+  "name": "Event Planner Desk PARTY-PRO",
+  "category": "Client Services",
+  "sub_use_case": "Client delivery",
+  "summary": "Turns an event brief into vendor options, a run of show, a budget table and guest message drafts. Nothing is booked without your OK.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Cypher Monkey",
+    "url": "https://x.ai/bot/hGAgxNFJOIGL1zgJMcojw"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/hGAgxNFJOIGL1zgJMcojw"
+  },
+  "official_share_url": "https://x.ai/bot/hGAgxNFJOIGL1zgJMcojw",
+  "found_via": "https://x.ai/bot/hGAgxNFJOIGL1zgJMcojw",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/event-planner-desk-party-pro/",
+  "json_url": "https://moneywithai.net/api/v1/bots/event-planner-desk-party-pro.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 431,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

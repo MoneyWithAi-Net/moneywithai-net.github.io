@@ -1,0 +1,40 @@
+{
+  "type": "bot",
+  "slug": "x-ops-expert",
+  "name": "X Ops Expert",
+  "category": "Content and Marketing",
+  "sub_use_case": "X posting",
+  "summary": "Daily X growth help for builders: a review, a topic bank and drafts that post only after you approve.",
+  "tools": [
+    "Grok",
+    "X"
+  ],
+  "creator": {
+    "handle": "@mlangXie",
+    "url": "https://x.ai/bot/fePZGiWiTZP9n4BoKIlMY"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/fePZGiWiTZP9n4BoKIlMY"
+  },
+  "official_share_url": "https://x.ai/bot/fePZGiWiTZP9n4BoKIlMY",
+  "found_via": "https://x.ai/bot/fePZGiWiTZP9n4BoKIlMY",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/x-ops-expert/",
+  "json_url": "https://moneywithai.net/api/v1/bots/x-ops-expert.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 643,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

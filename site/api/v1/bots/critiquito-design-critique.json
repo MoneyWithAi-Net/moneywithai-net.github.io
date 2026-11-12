@@ -1,0 +1,40 @@
+{
+  "type": "bot",
+  "slug": "critiquito-design-critique",
+  "name": "Critiquito: Design Critique",
+  "category": "Research and Ops",
+  "sub_use_case": "Product and engineering",
+  "summary": "Turns a screenshot or Figma link into a design critique with ranked fixes for layout, type, color, copy and accessibility.",
+  "tools": [
+    "Grok",
+    "Figma"
+  ],
+  "creator": {
+    "handle": "Manuel Muñoz Solera",
+    "url": "https://x.ai/bot/NqdH9qGvrq-yWRaXhJGM-"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/NqdH9qGvrq-yWRaXhJGM-"
+  },
+  "official_share_url": "https://x.ai/bot/NqdH9qGvrq-yWRaXhJGM-",
+  "found_via": "https://x.ai/bot/NqdH9qGvrq-yWRaXhJGM-",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/critiquito-design-critique/",
+  "json_url": "https://moneywithai.net/api/v1/bots/critiquito-design-critique.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 398,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

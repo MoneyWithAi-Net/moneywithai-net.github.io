@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "zillow-bot",
+  "name": "Zillow Bot",
+  "category": "Leads and Sales",
+  "sub_use_case": "Real estate leads",
+  "summary": "Finds rentals listed by owners rather than agents, looks up missing phone numbers and delivers a Google Sheet of leads.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Dylan Ravine",
+    "url": "https://x.ai/bot/y4iQpd9VSjs_h8FCPF5Up"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/y4iQpd9VSjs_h8FCPF5Up"
+  },
+  "official_share_url": "https://x.ai/bot/y4iQpd9VSjs_h8FCPF5Up",
+  "found_via": "https://x.ai/bot/y4iQpd9VSjs_h8FCPF5Up",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/zillow-bot/",
+  "json_url": "https://moneywithai.net/api/v1/bots/zillow-bot.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 652,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "type": "bot",
+  "slug": "pod-and-printable-boutique-studio",
+  "name": "POD & Printable Boutique Studio",
+  "category": "E-Commerce",
+  "sub_use_case": "Product listings and creative",
+  "summary": "Coaches Etsy, Shopify, Printify and Gumroad POD sellers on SEO titles and tags, mockup checks and margin math from your own costs. No invented prices.",
+  "tools": [
+    "Grok",
+    "Shopify"
+  ],
+  "creator": {
+    "handle": "LisaMAUSA",
+    "url": "https://x.com/LisaMAUSA"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/uFPjya5oVUr0-Oo_9dVnS"
+  },
+  "official_share_url": "https://x.ai/bot/uFPjya5oVUr0-Oo_9dVnS",
+  "found_via": null,
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-11-07",
+  "url": "https://moneywithai.net/bots/pod-and-printable-boutique-studio/",
+  "json_url": "https://moneywithai.net/api/v1/bots/pod-and-printable-boutique-studio.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/price-pod-listings-for-real-profit/"
+  ],
+  "added_at": "2026-11-07T10:00:00.000Z",
+  "featured": {
+    "rank": 283,
+    "score": 73,
+    "money": 13,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

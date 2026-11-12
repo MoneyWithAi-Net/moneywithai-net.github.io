@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "lockdown",
+  "name": "Lockdown",
+  "category": "Research and Ops",
+  "sub_use_case": "Compliance and admin",
+  "summary": "Checks your SOC 2 program every weekday, escalates failing controls and open vulnerabilities, and stays quiet when all is clear.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Claire",
+    "url": "https://x.ai/bot/P1LmE76VG38Ui-XCmzAZE"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/P1LmE76VG38Ui-XCmzAZE"
+  },
+  "official_share_url": "https://x.ai/bot/P1LmE76VG38Ui-XCmzAZE",
+  "found_via": "https://x.ai/bot/P1LmE76VG38Ui-XCmzAZE",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/lockdown/",
+  "json_url": "https://moneywithai.net/api/v1/bots/lockdown.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 501,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

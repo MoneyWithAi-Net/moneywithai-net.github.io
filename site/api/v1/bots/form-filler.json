@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "form-filler",
+  "name": "Form Filler",
+  "category": "Research and Ops",
+  "sub_use_case": "Compliance and admin",
+  "summary": "Drafts forms, claims, rebates, warranties and admin intakes with cited answers. Nothing is submitted until you type APPROVE.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "exzacklyright",
+    "url": "https://x.com/exzacklyright"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/wPURKNd7W_Fafwz73SP5I"
+  },
+  "official_share_url": "https://x.ai/bot/wPURKNd7W_Fafwz73SP5I",
+  "found_via": null,
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-11-07",
+  "url": "https://moneywithai.net/bots/form-filler/",
+  "json_url": "https://moneywithai.net/api/v1/bots/form-filler.json",
+  "use_cases": [],
+  "added_at": "2026-11-07T10:00:00.000Z",
+  "featured": {
+    "rank": 447,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

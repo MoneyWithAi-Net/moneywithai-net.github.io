@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "airbnb-and-short-term-rental-manager",
+  "name": "Airbnb & Short-Term Rental Manager",
+  "category": "Customer Support",
+  "sub_use_case": "Chat and messaging support",
+  "summary": "Handles the daily work of short-term rentals: guest message drafts, arrival checks, a tidy ops inbox and pricing suggestions, all approved by you.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Benjamin",
+    "url": "https://x.ai/bot/A4ku8kkVSTMvIG9eX2oCG"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/A4ku8kkVSTMvIG9eX2oCG"
+  },
+  "official_share_url": "https://x.ai/bot/A4ku8kkVSTMvIG9eX2oCG",
+  "found_via": "https://x.ai/bot/A4ku8kkVSTMvIG9eX2oCG",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/airbnb-and-short-term-rental-manager/",
+  "json_url": "https://moneywithai.net/api/v1/bots/airbnb-and-short-term-rental-manager.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 336,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "after-hours-front-desk",
+  "name": "After-Hours Front Desk",
+  "category": "Customer Support",
+  "sub_use_case": "Phone answering",
+  "summary": "Answers after-hours calls and website chat for movers, HVAC, plumbers, landscapers and cleaners and flags rush jobs to the owner.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "John Shetler",
+    "url": "https://x.ai/bot/vPREznXsecJi_51MeJNRQ"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/vPREznXsecJi_51MeJNRQ"
+  },
+  "official_share_url": "https://x.ai/bot/vPREznXsecJi_51MeJNRQ",
+  "found_via": "https://x.ai/bot/vPREznXsecJi_51MeJNRQ",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/after-hours-front-desk/",
+  "json_url": "https://moneywithai.net/api/v1/bots/after-hours-front-desk.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/fill-salon-gaps-from-your-waitlist/"
+  ],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 73,
+    "score": 87,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

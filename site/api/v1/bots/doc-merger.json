@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "doc-merger",
+  "name": "Doc Merger",
+  "category": "Research and Ops",
+  "sub_use_case": "Compliance and admin",
+  "summary": "Merges a pile of documents into one master file with a table of contents and a check that every file made it in.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Brian",
+    "url": "https://x.ai/bot/tMEJdHdRUQHgQMOOy-xjj"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/tMEJdHdRUQHgQMOOy-xjj"
+  },
+  "official_share_url": "https://x.ai/bot/tMEJdHdRUQHgQMOOy-xjj",
+  "found_via": "https://x.ai/bot/tMEJdHdRUQHgQMOOy-xjj",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/doc-merger/",
+  "json_url": "https://moneywithai.net/api/v1/bots/doc-merger.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 413,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

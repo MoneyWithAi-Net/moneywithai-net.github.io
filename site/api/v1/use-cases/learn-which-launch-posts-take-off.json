@@ -1,0 +1,149 @@
+{
+  "type": "use-case",
+  "slug": "learn-which-launch-posts-take-off",
+  "title": "Learn Which Launch Posts Take Off",
+  "category": "Content and Marketing",
+  "category_slug": "content-and-marketing",
+  "money_model": "Grow sales",
+  "difficulty": "Beginner",
+  "summary": "Track each launch or offer post hour by hour, keep the results, and plan the next launch from what actually spread instead of guessing.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Assumes you launch offers on X; the stack saves checking time and helps each launch learn from the last.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Your next launch uses the hook and timing that worked last time.",
+    "Replies from interested buyers get answered while the post is still live."
+  ],
+  "who_its_for": [
+    "Founders who launch products and offers on X.",
+    "Marketers who test hooks and posting times."
+  ],
+  "stack": [
+    {
+      "bot": "x-post-tracker",
+      "name": "X Post Tracker",
+      "role": "Logs a post's reach and engagement every hour and hands you charts and a CSV at the end.",
+      "creator": "FFBuncho",
+      "tools": [
+        "X",
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/x-post-tracker/",
+      "official_share_url": "https://x.ai/bot/HgT6uIgHu2zi4mE-9NytU"
+    },
+    {
+      "bot": "foreman",
+      "name": "Foreman",
+      "role": "Lists unanswered replies and keeps your dated analytics history.",
+      "creator": "GlennHasABeard",
+      "tools": [
+        "X API",
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/foreman/",
+      "official_share_url": "https://x.ai/bot/Hfm0xbUx8FqPTd5EYvjat"
+    },
+    {
+      "bot": "x-posting-advisor",
+      "name": "X Posting Advisor",
+      "role": "Suggests when to post, quote or wait based on your account metrics.",
+      "creator": "mattyp",
+      "tools": [
+        "X",
+        "X API"
+      ],
+      "url": "https://moneywithai.net/bots/x-posting-advisor/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "X",
+    "Grok",
+    "X API"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Your X account",
+        "tool": "X"
+      },
+      {
+        "label": "The launch post link",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "x-posting-advisor",
+        "name": "X Posting Advisor",
+        "does": "Suggests when to post",
+        "tools": [
+          "X",
+          "X API"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "x-post-tracker",
+        "name": "X Post Tracker",
+        "does": "Logs reach and engagement every hour",
+        "tools": [
+          "X",
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "foreman",
+        "name": "Foreman",
+        "does": "Lists unanswered replies",
+        "tools": [
+          "X API",
+          "Grok"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "you",
+        "name": "You",
+        "does": "Answer buyers and plan the next launch",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "An hour-by-hour report per launch",
+      "Answered replies"
+    ]
+  },
+  "steps": [
+    "Check timing advice before the launch post.",
+    "Track the post for 24 or 48 hours.",
+    "Answer the replies list while the post is live.",
+    "Compare reports after each launch."
+  ],
+  "guardrails": [
+    "None of the bots post, follow or message for you.",
+    "Judge posts by enquiries and sales, not only likes."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-30T10:00:00.000Z",
+  "featured": {
+    "rank": 143,
+    "score": 69,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/learn-which-launch-posts-take-off/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/learn-which-launch-posts-take-off.json"
+}

@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "billy-backup",
+    "name": "Billy Backup",
+    "category": "Research and Ops",
+    "sub_use_case": "Product and engineering",
+    "summary": "Sets up a backup you control: code to a git host, files to object storage and a nightly check that stays quiet when nothing is missing.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Jordan Jubela",
+      "url": "https://x.ai/bot/NbmW9HRNQicgB0W8QS824"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/NbmW9HRNQicgB0W8QS824"
+    },
+    "official_share_url": "https://x.ai/bot/NbmW9HRNQicgB0W8QS824",
+    "found_via": "https://x.ai/bot/NbmW9HRNQicgB0W8QS824",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/billy-backup/",
+    "json_url": "https://moneywithai.net/api/bots/billy-backup.json"
+  }
+}

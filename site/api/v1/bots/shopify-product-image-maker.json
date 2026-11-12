@@ -29,11 +29,14 @@
   "use_cases": [
     "https://moneywithai.net/use-cases/print-on-demand-brand/",
     "https://moneywithai.net/use-cases/product-content-machine/",
-    "https://moneywithai.net/use-cases/dtc-launch-creative-studio/"
+    "https://moneywithai.net/use-cases/dtc-launch-creative-studio/",
+    "https://moneywithai.net/use-cases/send-buyers-a-product-catalog/",
+    "https://moneywithai.net/use-cases/price-pod-listings-for-real-profit/",
+    "https://moneywithai.net/use-cases/make-brand-stills-without-a-studio/"
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 129,
+    "rank": 151,
     "score": 83,
     "money": 27,
     "profile": 26,

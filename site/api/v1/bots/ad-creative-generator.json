@@ -10,15 +10,15 @@
   ],
   "creator": {
     "handle": "mightyking",
-    "url": "https://botdirectory.ai/bots/ad-creative-generator/"
+    "url": null
   },
   "scouted_by": null,
   "source": {
     "kind": "web",
-    "url": "https://botdirectory.ai/bots/ad-creative-generator/"
+    "url": "https://moneywithai.net/bots/ad-creative-generator/"
   },
   "official_share_url": null,
-  "found_via": "https://botdirectory.ai/bots/ad-creative-generator/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-25",
@@ -27,14 +27,16 @@
   "use_cases": [
     "https://moneywithai.net/use-cases/customer-voice-ad-engine/",
     "https://moneywithai.net/use-cases/print-on-demand-brand/",
-    "https://moneywithai.net/use-cases/dtc-launch-creative-studio/"
+    "https://moneywithai.net/use-cases/dtc-launch-creative-studio/",
+    "https://moneywithai.net/use-cases/brief-ads-from-long-running-winners/",
+    "https://moneywithai.net/use-cases/test-ad-hooks-before-the-budget-goes-out/"
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 100,
-    "score": 83,
+    "rank": 251,
+    "score": 77,
     "money": 27,
-    "profile": 26,
+    "profile": 20,
     "visuals": 20,
     "difficulty": 10,
     "override": null,

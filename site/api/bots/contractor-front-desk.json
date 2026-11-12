@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "contractor-front-desk",
+    "name": "Contractor Front Desk",
+    "category": "Leads and Sales",
+    "sub_use_case": "Speed-to-lead and quotes",
+    "summary": "Sorts missed-call voicemails and web-form leads for home-service businesses into hot, warm, spam or existing job, drafts the reply and plans follow-ups.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Thuong P. Nguyen",
+      "url": "https://x.ai/bot/A1t0gfd8P4hbldi8swcem"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/A1t0gfd8P4hbldi8swcem"
+    },
+    "official_share_url": "https://x.ai/bot/A1t0gfd8P4hbldi8swcem",
+    "found_via": "https://x.ai/bot/A1t0gfd8P4hbldi8swcem",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/contractor-front-desk/",
+    "json_url": "https://moneywithai.net/api/bots/contractor-front-desk.json"
+  }
+}

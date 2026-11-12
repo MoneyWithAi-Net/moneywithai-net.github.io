@@ -13,13 +13,13 @@
     "handle": "damonchen",
     "url": "https://x.com/damonchen"
   },
-  "scouted_by": "elie2222",
+  "scouted_by": null,
   "source": {
     "kind": "x",
     "url": "https://x.com/damonchen/status/2090319001813676471"
   },
   "official_share_url": null,
-  "found_via": "https://botdirectory.ai/bots/help-center-updater/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-24",
@@ -33,7 +33,7 @@
   ],
   "added_at": "2026-10-24T08:00:00.000Z",
   "featured": {
-    "rank": 115,
+    "rank": 137,
     "score": 83,
     "money": 27,
     "profile": 26,

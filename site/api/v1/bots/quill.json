@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "quill",
+  "name": "Quill",
+  "category": "Content and Marketing",
+  "sub_use_case": "Newsletters and email",
+  "summary": "Prepares Substack drafts with title, subtitle and tags, stages them for you to publish and keeps up with comments.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Michael Sweet",
+    "url": "https://x.ai/bot/-qDULtwkUNS9lKOOxPFvE"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/-qDULtwkUNS9lKOOxPFvE"
+  },
+  "official_share_url": "https://x.ai/bot/-qDULtwkUNS9lKOOxPFvE",
+  "found_via": "https://x.ai/bot/-qDULtwkUNS9lKOOxPFvE",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/quill/",
+  "json_url": "https://moneywithai.net/api/v1/bots/quill.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 557,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

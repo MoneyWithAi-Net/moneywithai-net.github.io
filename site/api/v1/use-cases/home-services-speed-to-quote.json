@@ -13,7 +13,7 @@
     "label": "High",
     "basis": "Assumes high-value jobs, so winning a few more each month matters.",
     "claim_label": "E",
-    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
   },
   "how_it_makes_money": [
     "Fewer jobs lost to the next contractor who called back first.",
@@ -166,7 +166,7 @@
   "claims": [],
   "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 2,
+    "rank": 5,
     "score": 92,
     "money": 40,
     "profile": 26,

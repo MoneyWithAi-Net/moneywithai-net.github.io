@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "talent-scout",
+    "name": "Talent Scout",
+    "category": "Research and Ops",
+    "sub_use_case": "Hiring",
+    "summary": "Keeps recruiting moving from screen to offer: sources people, drafts outreach in your voice, skips people already in your system and books calls once you approve.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "SpaceX",
+      "url": "https://x.ai/bot/sac3a109dfe021c555c7c"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/sac3a109dfe021c555c7c"
+    },
+    "official_share_url": "https://x.ai/bot/sac3a109dfe021c555c7c",
+    "found_via": "https://x.ai/bot/sac3a109dfe021c555c7c",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/talent-scout/",
+    "json_url": "https://moneywithai.net/api/bots/talent-scout.json"
+  }
+}

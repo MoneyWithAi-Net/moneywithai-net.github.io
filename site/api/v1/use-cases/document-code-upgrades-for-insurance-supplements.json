@@ -1,0 +1,141 @@
+{
+  "type": "use-case",
+  "slug": "document-code-upgrades-for-insurance-supplements",
+  "title": "Document Code Upgrades for Insurance Supplements",
+  "category": "Client Services",
+  "category_slug": "client-services",
+  "money_model": "Recover money",
+  "difficulty": "Intermediate",
+  "summary": "Turn jobsite photos and notes into a clean daily record and draft supplement letters for code-upgrade work, so insurance jobs are not short-paid for work you had to do.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you work insurance jobs with required code upgrades; the value is getting paid for that work, though the carrier decides.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Fewer insurance jobs short-paid for required code work.",
+    "Fewer missed calls while you are on a job."
+  ],
+  "who_its_for": [
+    "Roofing, restoration and water-mitigation contractors.",
+    "Trades that work insurance claims."
+  ],
+  "stack": [
+    {
+      "bot": "contractor-supplement-and-missed-call-front-desk",
+      "name": "Contractor Supplement & Missed-Call Front Desk",
+      "role": "Drafts supplement letters from jobsite photos and notes, sorts missed calls and chases open estimates.",
+      "creator": "LisaMAUSA",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/contractor-supplement-and-missed-call-front-desk/",
+      "official_share_url": "https://x.ai/bot/lnd5ErImPDh4h7eBb5n8Z"
+    },
+    {
+      "bot": "contractor-daily",
+      "name": "Contractor Daily",
+      "role": "Collects jobsite notes into one clean daily business packet.",
+      "creator": "Openminded187A",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/contractor-daily/",
+      "official_share_url": "https://x.ai/bot/ZNhFnMcPTQQDn3uLXbffi"
+    },
+    {
+      "bot": "contractor-front-desk",
+      "name": "Contractor Front Desk",
+      "role": "Sorts missed-call voicemails and web leads into hot, warm, spam or existing job.",
+      "creator": "Thuong P. Nguyen",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/contractor-front-desk/",
+      "official_share_url": "https://x.ai/bot/A1t0gfd8P4hbldi8swcem"
+    }
+  ],
+  "tools": [
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Jobsite photos and voice notes",
+        "tool": null
+      },
+      {
+        "label": "Missed calls and texts",
+        "tool": "SMS"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "contractor-daily",
+        "name": "Contractor Daily",
+        "does": "Builds a clean daily packet",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "contractor-supplement-and-missed-call-front-desk",
+        "name": "Contractor Supplement & Missed-Call Front Desk",
+        "does": "Drafts the supplement letter",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "contractor-front-desk",
+        "name": "Contractor Front Desk",
+        "does": "Sorts missed calls and leads",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "you",
+        "name": "You",
+        "does": "Check codes and send",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A draft supplement letter",
+      "A clean photo record per job"
+    ]
+  },
+  "steps": [
+    "Capture photos and voice notes on every insurance job.",
+    "Collect them into a daily packet.",
+    "Draft a supplement letter for the code-upgrade items.",
+    "Check each code citation and send it yourself."
+  ],
+  "guardrails": [
+    "Verify every code citation with your local authority.",
+    "Not legal or public adjusting advice; follow your state rules."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-11-08T10:00:00.000Z",
+  "featured": {
+    "rank": 74,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/document-code-upgrades-for-insurance-supplements/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/document-code-upgrades-for-insurance-supplements.json"
+}

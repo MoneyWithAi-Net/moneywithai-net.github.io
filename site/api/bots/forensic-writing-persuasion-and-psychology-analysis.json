@@ -1,0 +1,30 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "forensic-writing-persuasion-and-psychology-analysis",
+    "name": "Forensic Writing, Persuasion and Psychology Analysis",
+    "category": "Content and Marketing",
+    "sub_use_case": "X posting",
+    "summary": "Studies viral X posts and explains why each hook works, using persuasion principles and the post's real numbers.",
+    "tools": [
+      "Grok",
+      "X"
+    ],
+    "creator": {
+      "handle": "Avid",
+      "url": "https://x.ai/bot/DlRZRodFVy-cxUZDA47QF"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/DlRZRodFVy-cxUZDA47QF"
+    },
+    "official_share_url": "https://x.ai/bot/DlRZRodFVy-cxUZDA47QF",
+    "found_via": "https://x.ai/bot/DlRZRodFVy-cxUZDA47QF",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/forensic-writing-persuasion-and-psychology-analysis/",
+    "json_url": "https://moneywithai.net/api/bots/forensic-writing-persuasion-and-psychology-analysis.json"
+  }
+}

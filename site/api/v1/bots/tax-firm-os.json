@@ -18,7 +18,7 @@
     "url": "https://x.com/Amervim/status/2105949306025128186"
   },
   "official_share_url": "https://x.ai/bot/vJqjJphtZRkdBTYBxmWur",
-  "found_via": "https://grokbot101.org/bots/tax-firm-os/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-24",
@@ -31,7 +31,7 @@
   ],
   "added_at": "2026-10-24T09:30:00.000Z",
   "featured": {
-    "rank": 28,
+    "rank": 33,
     "score": 96,
     "money": 40,
     "profile": 30,

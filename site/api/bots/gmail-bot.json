@@ -1,0 +1,30 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "gmail-bot",
+    "name": "Gmail Bot",
+    "category": "Research and Ops",
+    "sub_use_case": "Inbox triage",
+    "summary": "Sends a weekday digest of unread Gmail with action items first, drafts replies in your voice and helps sort labels and follow-ups.",
+    "tools": [
+      "Grok",
+      "Gmail"
+    ],
+    "creator": {
+      "handle": "Aseem Wangoo",
+      "url": "https://x.ai/bot/4Kert6xnfaArPgZmyJi5M"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/4Kert6xnfaArPgZmyJi5M"
+    },
+    "official_share_url": "https://x.ai/bot/4Kert6xnfaArPgZmyJi5M",
+    "found_via": "https://x.ai/bot/4Kert6xnfaArPgZmyJi5M",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/gmail-bot/",
+    "json_url": "https://moneywithai.net/api/bots/gmail-bot.json"
+  }
+}

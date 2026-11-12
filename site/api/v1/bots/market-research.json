@@ -18,18 +18,19 @@
     "url": "https://x.com/eyemotors/status/2105218704904798267"
   },
   "official_share_url": "https://x.ai/bot/t1l_On1VtkMYddCu5MqQB",
-  "found_via": "https://grokbot101.org/bots/market-research/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-24",
   "url": "https://moneywithai.net/bots/market-research/",
   "json_url": "https://moneywithai.net/api/v1/bots/market-research.json",
   "use_cases": [
-    "https://moneywithai.net/use-cases/find-a-side-venture/"
+    "https://moneywithai.net/use-cases/find-a-side-venture/",
+    "https://moneywithai.net/use-cases/stop-checking-the-same-pages-every-day/"
   ],
   "added_at": "2026-10-24T09:30:00.000Z",
   "featured": {
-    "rank": 252,
+    "rank": 279,
     "score": 73,
     "money": 13,
     "profile": 30,

@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "grok-vm-maintenance",
+  "name": "Grok VM maintenance",
+  "category": "Research and Ops",
+  "sub_use_case": "Product and engineering",
+  "summary": "Looks after your bot's cloud Linux computer: installs, services, checks and disk and memory reports, asking before risky steps.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Will OldPgmrs",
+    "url": "https://x.ai/bot/9UZp5k0Fp0LYmkyos5swQ"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/9UZp5k0Fp0LYmkyos5swQ"
+  },
+  "official_share_url": "https://x.ai/bot/9UZp5k0Fp0LYmkyos5swQ",
+  "found_via": "https://x.ai/bot/9UZp5k0Fp0LYmkyos5swQ",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/grok-vm-maintenance/",
+  "json_url": "https://moneywithai.net/api/v1/bots/grok-vm-maintenance.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 457,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

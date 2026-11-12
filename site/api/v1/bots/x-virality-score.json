@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "x-virality-score",
+  "name": "X Virality Score",
+  "category": "Content and Marketing",
+  "sub_use_case": "X posting",
+  "summary": "Watches the X accounts you track, finds posts that took off, pulls out keywords and drafts posts with video tips.",
+  "tools": [
+    "Grok",
+    "GitHub",
+    "X"
+  ],
+  "creator": {
+    "handle": "theGreatest",
+    "url": "https://x.ai/bot/qG9mJ4EM-96hA3A1UNw4E"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/qG9mJ4EM-96hA3A1UNw4E"
+  },
+  "official_share_url": "https://x.ai/bot/qG9mJ4EM-96hA3A1UNw4E",
+  "found_via": "https://x.ai/bot/qG9mJ4EM-96hA3A1UNw4E",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/x-virality-score/",
+  "json_url": "https://moneywithai.net/api/v1/bots/x-virality-score.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 648,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

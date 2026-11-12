@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "sceneedit-video-studio",
+    "name": "SceneEdit Video Studio",
+    "category": "Content and Marketing",
+    "sub_use_case": "Video production",
+    "summary": "Builds or splits videos scene by scene with a storyboard and timeline, using FFmpeg and Remotion under the hood so you can fix one scene without redoing the whole cut.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "LisaMAUSA",
+      "url": "https://x.com/LisaMAUSA"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/KwsFpbtWxeYtdkg6F7U-T"
+    },
+    "official_share_url": "https://x.ai/bot/KwsFpbtWxeYtdkg6F7U-T",
+    "found_via": null,
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-11-07",
+    "url": "https://moneywithai.net/bots/sceneedit-video-studio/",
+    "json_url": "https://moneywithai.net/api/bots/sceneedit-video-studio.json"
+  }
+}

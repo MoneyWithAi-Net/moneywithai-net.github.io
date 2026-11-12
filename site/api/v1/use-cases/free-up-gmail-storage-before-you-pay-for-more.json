@@ -1,0 +1,151 @@
+{
+  "type": "use-case",
+  "slug": "free-up-gmail-storage-before-you-pay-for-more",
+  "title": "Free Up Gmail Storage Before You Pay for More",
+  "category": "Research and Ops",
+  "category_slug": "research-and-ops",
+  "money_model": "Save costs",
+  "difficulty": "Beginner",
+  "summary": "Archive your biggest emails to Drive, drop marketing lists you never read, and clear bulk senders you approve, so a full inbox does not push you onto a bigger storage plan.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Assumes your inbox is near its storage limit; the value is time saved and an upgrade put off, with you approving every trash.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Delay or skip a storage upgrade you may not need.",
+    "Less time digging for real customer mail."
+  ],
+  "who_its_for": [
+    "Owners close to their Gmail storage limit.",
+    "Small teams with years of attachments in one inbox."
+  ],
+  "stack": [
+    {
+      "bot": "gmail-to-drive-archiver",
+      "name": "Gmail to Drive Archiver",
+      "role": "Saves your largest emails and attachments to Drive, checks each file and trashes nothing without your yes.",
+      "creator": "ecoay",
+      "tools": [
+        "Grok",
+        "Gmail",
+        "Google Drive"
+      ],
+      "url": "https://moneywithai.net/bots/gmail-to-drive-archiver/",
+      "official_share_url": "https://x.ai/bot/5wT0W9m-WHd6jNnH9GADM"
+    },
+    {
+      "bot": "unsub-watch",
+      "name": "Unsub Watch",
+      "role": "Drops the marketing lists you pick and leaves receipts, billing and 2FA mail alone.",
+      "creator": "exzacklyright",
+      "tools": [
+        "Grok",
+        "Gmail"
+      ],
+      "url": "https://moneywithai.net/bots/unsub-watch/",
+      "official_share_url": "https://x.ai/bot/dJjPoIEgbdqwMkbeQNJWU"
+    },
+    {
+      "bot": "gmail-cleanup-chief-of-staff",
+      "name": "Gmail Cleanup Chief of Staff",
+      "role": "Shows which senders fill your inbox and moves only the bulk mail you approve.",
+      "creator": "터미너스(GO TO MARS)",
+      "tools": [
+        "Grok",
+        "Gmail"
+      ],
+      "url": "https://moneywithai.net/bots/gmail-cleanup-chief-of-staff/",
+      "official_share_url": "https://x.ai/bot/MmRhYPkM9e4w4V3uTfIgP"
+    }
+  ],
+  "tools": [
+    "Grok",
+    "Gmail",
+    "Google Drive"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Your mailbox",
+        "tool": "Gmail"
+      },
+      {
+        "label": "Senders you must keep",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "gmail-cleanup-chief-of-staff",
+        "name": "Gmail Cleanup Chief of Staff",
+        "does": "Shows the senders using the most space",
+        "tools": [
+          "Grok",
+          "Gmail"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "gmail-to-drive-archiver",
+        "name": "Gmail to Drive Archiver",
+        "does": "Archives large emails to Drive",
+        "tools": [
+          "Grok",
+          "Gmail",
+          "Google Drive"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "unsub-watch",
+        "name": "Unsub Watch",
+        "does": "Drops the lists you pick",
+        "tools": [
+          "Grok",
+          "Gmail"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "you",
+        "name": "You",
+        "does": "Approve trash in small batches",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "More free storage",
+      "A checked archive in Drive"
+    ]
+  },
+  "steps": [
+    "See which senders and large emails use the most space.",
+    "Archive the biggest emails to Drive and check the files.",
+    "Drop marketing lists you never read.",
+    "Approve trash in small batches."
+  ],
+  "guardrails": [
+    "Nothing is trashed without your yes.",
+    "Keep legal and tax originals in place if you must keep them."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-11-08T10:00:00.000Z",
+  "featured": {
+    "rank": 138,
+    "score": 69,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/free-up-gmail-storage-before-you-pay-for-more/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/free-up-gmail-storage-before-you-pay-for-more.json"
+}

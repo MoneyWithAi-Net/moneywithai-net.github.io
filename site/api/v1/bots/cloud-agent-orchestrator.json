@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "cloud-agent-orchestrator",
+  "name": "Cloud Agent Orchestrator",
+  "category": "Research and Ops",
+  "sub_use_case": "Product and engineering",
+  "summary": "Starts and watches many cloud coding agent runs, chases the stuck ones and sums up the results so you do not have to babysit each run.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "SpaceX",
+    "url": "https://x.ai/bot/s20b2c65ebeebb7362fa7"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/s20b2c65ebeebb7362fa7"
+  },
+  "official_share_url": "https://x.ai/bot/s20b2c65ebeebb7362fa7",
+  "found_via": "https://x.ai/bot/s20b2c65ebeebb7362fa7",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/cloud-agent-orchestrator/",
+  "json_url": "https://moneywithai.net/api/v1/bots/cloud-agent-orchestrator.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 381,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

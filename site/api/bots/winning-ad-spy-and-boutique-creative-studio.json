@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "winning-ad-spy-and-boutique-creative-studio",
+    "name": "Winning Ad Spy & Boutique Creative Studio",
+    "category": "Content and Marketing",
+    "sub_use_case": "Paid ads",
+    "summary": "Helps small shops spend less on ads that flop: studies ads in your niche that have run 60+ days, breaks down why they work, and drafts your own concepts and storyboards.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "LisaMAUSA",
+      "url": "https://x.com/LisaMAUSA"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/iydi6YgZglC_urxI3AOiq"
+    },
+    "official_share_url": "https://x.ai/bot/iydi6YgZglC_urxI3AOiq",
+    "found_via": null,
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-11-08",
+    "url": "https://moneywithai.net/bots/winning-ad-spy-and-boutique-creative-studio/",
+    "json_url": "https://moneywithai.net/api/bots/winning-ad-spy-and-boutique-creative-studio.json"
+  }
+}

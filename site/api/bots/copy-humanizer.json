@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "copy-humanizer",
+    "name": "Copy Humanizer",
+    "category": "Content and Marketing",
+    "sub_use_case": "Copy and creative",
+    "summary": "Edits drafts, emails and pages so they read like a person wrote them, keeping your voice and showing each change.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Massimo De Luisa",
+      "url": "https://x.ai/bot/YwxIbVEWqXN-HYCxiMCoB"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/YwxIbVEWqXN-HYCxiMCoB"
+    },
+    "official_share_url": "https://x.ai/bot/YwxIbVEWqXN-HYCxiMCoB",
+    "found_via": "https://x.ai/bot/YwxIbVEWqXN-HYCxiMCoB",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/copy-humanizer/",
+    "json_url": "https://moneywithai.net/api/bots/copy-humanizer.json"
+  }
+}

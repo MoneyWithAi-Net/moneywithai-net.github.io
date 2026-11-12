@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "live-pages",
+    "name": "Live Pages",
+    "category": "Client Services",
+    "sub_use_case": "Client delivery",
+    "summary": "Builds private live web pages such as dashboards, checklists and forms that you open from your phone, and updates them when you tap.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Yin Lai",
+      "url": "https://x.ai/bot/ignLvLJlOxOIenZPr-tTA"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/ignLvLJlOxOIenZPr-tTA"
+    },
+    "official_share_url": "https://x.ai/bot/ignLvLJlOxOIenZPr-tTA",
+    "found_via": "https://x.ai/bot/ignLvLJlOxOIenZPr-tTA",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/live-pages/",
+    "json_url": "https://moneywithai.net/api/bots/live-pages.json"
+  }
+}

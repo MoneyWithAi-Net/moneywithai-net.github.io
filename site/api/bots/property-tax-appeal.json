@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "property-tax-appeal",
+    "name": "Property Tax Appeal",
+    "category": "Client Services",
+    "sub_use_case": "Client delivery",
+    "summary": "Checks whether a home looks over-assessed against recent nearby sales and drafts the appeal and evidence summary under the county's own rules, for a person to review and file.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "chrishadges1",
+      "url": "https://x.com/chrishadges1"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/chrishadges1/status/2110407055400202388"
+    },
+    "official_share_url": "https://x.ai/bot/raHfEQQz1Wbrszn27LgNU",
+    "found_via": "https://x.ai/bot/raHfEQQz1Wbrszn27LgNU",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/property-tax-appeal/",
+    "json_url": "https://moneywithai.net/api/bots/property-tax-appeal.json"
+  }
+}

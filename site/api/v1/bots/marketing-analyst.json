@@ -1,0 +1,40 @@
+{
+  "type": "bot",
+  "slug": "marketing-analyst",
+  "name": "Marketing Analyst",
+  "category": "Content and Marketing",
+  "sub_use_case": "Analytics and monitoring",
+  "summary": "Turns Google Ads exports into weekly and monthly reports with commentary and watches spend against your targets.",
+  "tools": [
+    "Grok",
+    "Google Ads"
+  ],
+  "creator": {
+    "handle": "Josh Kim",
+    "url": "https://x.ai/bot/1RbG9yW5MpQ55XcQlJ0aQ"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/1RbG9yW5MpQ55XcQlJ0aQ"
+  },
+  "official_share_url": "https://x.ai/bot/1RbG9yW5MpQ55XcQlJ0aQ",
+  "found_via": "https://x.ai/bot/1RbG9yW5MpQ55XcQlJ0aQ",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/marketing-analyst/",
+  "json_url": "https://moneywithai.net/api/v1/bots/marketing-analyst.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 504,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

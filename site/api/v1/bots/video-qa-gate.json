@@ -1,0 +1,42 @@
+{
+  "type": "bot",
+  "slug": "video-qa-gate",
+  "name": "Video QA Gate",
+  "category": "Content and Marketing",
+  "sub_use_case": "Video production",
+  "summary": "QA gate for short videos, screen-recorded tutorials and web pages. Checks spec, captions and sensitive data before release.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "anatoly eidelman",
+    "url": "https://x.ai/bot/MxxAeg3HkvUiHAIZ0KkGQ"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/MxxAeg3HkvUiHAIZ0KkGQ"
+  },
+  "official_share_url": "https://x.ai/bot/MxxAeg3HkvUiHAIZ0KkGQ",
+  "found_via": null,
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-11-11",
+  "url": "https://moneywithai.net/bots/video-qa-gate/",
+  "json_url": "https://moneywithai.net/api/v1/bots/video-qa-gate.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/check-a-video-before-it-goes-live/",
+    "https://moneywithai.net/use-cases/sell-short-video-and-image-packs/"
+  ],
+  "added_at": "2026-11-11T08:07:15.000Z",
+  "featured": {
+    "rank": 16,
+    "score": 100,
+    "money": 40,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

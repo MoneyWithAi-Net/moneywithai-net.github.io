@@ -1,0 +1,30 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "multi-gmail",
+    "name": "Multi Gmail",
+    "category": "Research and Ops",
+    "sub_use_case": "Inbox triage",
+    "summary": "Lets your bots search every Gmail inbox you run in one go, so leads and receipts in a second inbox are not missed. Self-hosted on your own free Vercel, read-only by default.",
+    "tools": [
+      "Grok",
+      "Gmail"
+    ],
+    "creator": {
+      "handle": "ecoay",
+      "url": "https://x.com/ecoay"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/UQzfeiSuWrVxAXnR4b6jP"
+    },
+    "official_share_url": "https://x.ai/bot/UQzfeiSuWrVxAXnR4b6jP",
+    "found_via": null,
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-11-08",
+    "url": "https://moneywithai.net/bots/multi-gmail/",
+    "json_url": "https://moneywithai.net/api/bots/multi-gmail.json"
+  }
+}

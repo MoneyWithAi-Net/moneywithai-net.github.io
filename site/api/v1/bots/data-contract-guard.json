@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "data-contract-guard",
+  "name": "Data Contract Guard",
+  "category": "Research and Ops",
+  "sub_use_case": "Product and engineering",
+  "summary": "Drafts a data contract from a sample file with DataContractGate, checks files and feeds against it and alerts you when something breaks.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Alex Suarez",
+    "url": "https://x.ai/bot/Kjoz94o-27PM_NgvcPntn"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/Kjoz94o-27PM_NgvcPntn"
+  },
+  "official_share_url": "https://x.ai/bot/Kjoz94o-27PM_NgvcPntn",
+  "found_via": "https://x.ai/bot/Kjoz94o-27PM_NgvcPntn",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/data-contract-guard/",
+  "json_url": "https://moneywithai.net/api/v1/bots/data-contract-guard.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 402,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

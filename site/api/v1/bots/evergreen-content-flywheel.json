@@ -11,16 +11,16 @@
     "Slack"
   ],
   "creator": {
-    "handle": "elie2222",
-    "url": "https://botdirectory.ai/bots/evergreen-content-flywheel/"
+    "handle": "Community submission",
+    "url": null
   },
   "scouted_by": null,
   "source": {
     "kind": "web",
-    "url": "https://botdirectory.ai/bots/evergreen-content-flywheel/"
+    "url": "https://moneywithai.net/bots/evergreen-content-flywheel/"
   },
   "official_share_url": null,
-  "found_via": "https://botdirectory.ai/bots/evergreen-content-flywheel/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-25",
@@ -31,7 +31,7 @@
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 265,
+    "rank": 308,
     "score": 69,
     "money": 13,
     "profile": 26,

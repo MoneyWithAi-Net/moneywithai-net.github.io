@@ -18,7 +18,7 @@
     "url": "https://x.com/dragosroua/status/2108930574274769191"
   },
   "official_share_url": "https://x.ai/bot/J7OPBxlsIUZB7IoXoB5wE",
-  "found_via": "https://grokbot101.org/bots/x-assistant/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-25",
@@ -30,7 +30,7 @@
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 97,
+    "rank": 122,
     "score": 87,
     "money": 27,
     "profile": 30,

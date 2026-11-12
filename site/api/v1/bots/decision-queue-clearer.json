@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "decision-queue-clearer",
+  "name": "Decision Queue Clearer",
+  "category": "Research and Ops",
+  "sub_use_case": "Inbox triage",
+  "summary": "Collects every question your bots, inbox and calendar are waiting on, drafts a default answer for each and sends one short daily card.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Prithvi Datla",
+    "url": "https://x.ai/bot/9DiBrEjkgkPOcAYtsWmk2"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/9DiBrEjkgkPOcAYtsWmk2"
+  },
+  "official_share_url": "https://x.ai/bot/9DiBrEjkgkPOcAYtsWmk2",
+  "found_via": "https://x.ai/bot/9DiBrEjkgkPOcAYtsWmk2",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/decision-queue-clearer/",
+  "json_url": "https://moneywithai.net/api/v1/bots/decision-queue-clearer.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 405,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

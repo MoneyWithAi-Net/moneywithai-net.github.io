@@ -18,18 +18,19 @@
     "url": "https://x.com/Openminded187A/status/2105229850894295414"
   },
   "official_share_url": "https://x.ai/bot/ZNhFnMcPTQQDn3uLXbffi",
-  "found_via": "https://grokbot101.org/bots/contractor-daily/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-25",
   "url": "https://moneywithai.net/bots/contractor-daily/",
   "json_url": "https://moneywithai.net/api/v1/bots/contractor-daily.json",
   "use_cases": [
-    "https://moneywithai.net/use-cases/construction-field-office/"
+    "https://moneywithai.net/use-cases/construction-field-office/",
+    "https://moneywithai.net/use-cases/document-code-upgrades-for-insurance-supplements/"
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 149,
+    "rank": 170,
     "score": 83,
     "money": 27,
     "profile": 30,

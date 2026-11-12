@@ -18,7 +18,7 @@
     "url": "https://x.com/scheemunai/status/2093398873247031468"
   },
   "official_share_url": "https://x.ai/bot/-kO6HrXokJZANVwUOMZO9",
-  "found_via": "https://botdirectory.ai/bots/invoice-hunter/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-24",
@@ -42,11 +42,12 @@
     "https://moneywithai.net/use-cases/content-agency-delivery/",
     "https://moneywithai.net/use-cases/consulting-meeting-system/",
     "https://moneywithai.net/use-cases/get-paid-faster/",
-    "https://moneywithai.net/use-cases/creator-revenue-recovery/"
+    "https://moneywithai.net/use-cases/creator-revenue-recovery/",
+    "https://moneywithai.net/use-cases/monthly-books-check/"
   ],
   "added_at": "2026-10-24T08:00:00.000Z",
   "featured": {
-    "rank": 3,
+    "rank": 4,
     "score": 100,
     "money": 40,
     "profile": 30,

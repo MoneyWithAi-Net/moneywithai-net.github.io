@@ -1,0 +1,40 @@
+{
+  "type": "bot",
+  "slug": "x-articles-you-missed",
+  "name": "X Articles You Missed",
+  "category": "Research and Ops",
+  "sub_use_case": "Market notes",
+  "summary": "Finds the long-form X Articles from the last day on topics you pick and sends up to 10 short summaries as one brief.",
+  "tools": [
+    "Grok",
+    "X"
+  ],
+  "creator": {
+    "handle": "Brian",
+    "url": "https://x.ai/bot/UmGyUKTHDS4-ziSOlsUeV"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/UmGyUKTHDS4-ziSOlsUeV"
+  },
+  "official_share_url": "https://x.ai/bot/UmGyUKTHDS4-ziSOlsUeV",
+  "found_via": "https://x.ai/bot/UmGyUKTHDS4-ziSOlsUeV",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/x-articles-you-missed/",
+  "json_url": "https://moneywithai.net/api/v1/bots/x-articles-you-missed.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 637,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

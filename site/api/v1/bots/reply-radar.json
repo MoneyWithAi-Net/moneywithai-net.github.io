@@ -1,0 +1,40 @@
+{
+  "type": "bot",
+  "slug": "reply-radar",
+  "name": "Reply Radar",
+  "category": "Leads and Sales",
+  "sub_use_case": "Social engagement leads",
+  "summary": "Finds fresh X posts on your topics worth replying to, on demand or in a morning digest, and says why each one matters.",
+  "tools": [
+    "Grok",
+    "X"
+  ],
+  "creator": {
+    "handle": "Taylor | Capacity for More",
+    "url": "https://x.ai/bot/puPDbZveO1FFvjCXERZoj"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/puPDbZveO1FFvjCXERZoj"
+  },
+  "official_share_url": "https://x.ai/bot/puPDbZveO1FFvjCXERZoj",
+  "found_via": "https://x.ai/bot/puPDbZveO1FFvjCXERZoj",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/reply-radar/",
+  "json_url": "https://moneywithai.net/api/v1/bots/reply-radar.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 565,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "type": "use-case",
+  "slug": "catch-every-new-lead-in-one-sweep",
+  "title": "Catch Every New Lead in One Sweep",
+  "category": "Leads and Sales",
+  "category_slug": "leads-and-sales",
+  "money_model": "Grow sales",
+  "difficulty": "Beginner",
+  "summary": "Check every inbox and DM channel for new leads on a schedule, sort them, and get a draft follow-up for each one, so no lead goes cold because it landed in the wrong place.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes leads already reach you in several places; the value is answering more of them while they are warm.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "More leads answered while they are still warm.",
+    "Fewer leads lost in a second inbox or a DM."
+  ],
+  "who_its_for": [
+    "Small businesses with leads arriving in several places.",
+    "Freelancers and agencies who forget to follow up."
+  ],
+  "stack": [
+    {
+      "bot": "lead-desk",
+      "name": "Lead Desk",
+      "role": "Sweeps your connected channels, sorts each new lead and drafts a follow-up.",
+      "creator": "Calix",
+      "tools": [
+        "Grok",
+        "Gmail",
+        "Slack"
+      ],
+      "url": "https://moneywithai.net/bots/lead-desk/",
+      "official_share_url": "https://x.ai/bot/zqCY7u_VOCpgNSzOwpfNz"
+    },
+    {
+      "bot": "multi-gmail",
+      "name": "Multi Gmail",
+      "role": "Lets your bots search every Gmail inbox you run in one go, read-only by default.",
+      "creator": "ecoay",
+      "tools": [
+        "Grok",
+        "Gmail"
+      ],
+      "url": "https://moneywithai.net/bots/multi-gmail/",
+      "official_share_url": "https://x.ai/bot/UQzfeiSuWrVxAXnR4b6jP"
+    },
+    {
+      "bot": "lead-pipeline-desk",
+      "name": "Lead Pipeline Desk",
+      "role": "Scores leads, merges duplicates and flags stuck deals from your CRM export or sheet.",
+      "creator": "Miguel Cruz",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/lead-pipeline-desk/",
+      "official_share_url": "https://x.ai/bot/oPDkINUfpUXhJDdsfRZht"
+    }
+  ],
+  "tools": [
+    "Grok",
+    "Gmail",
+    "Slack"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Your inboxes",
+        "tool": "Gmail"
+      },
+      {
+        "label": "DM channels",
+        "tool": "X"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "multi-gmail",
+        "name": "Multi Gmail",
+        "does": "Makes every inbox searchable at once",
+        "tools": [
+          "Grok",
+          "Gmail"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "lead-desk",
+        "name": "Lead Desk",
+        "does": "Sorts new leads and drafts follow-ups",
+        "tools": [
+          "Grok",
+          "Gmail",
+          "Slack"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "lead-pipeline-desk",
+        "name": "Lead Pipeline Desk",
+        "does": "Scores leads and flags stuck deals",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "you",
+        "name": "You",
+        "does": "Edit and send",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "One list of new leads",
+      "Draft follow-ups you send yourself"
+    ]
+  },
+  "steps": [
+    "Connect every inbox and DM channel where leads arrive.",
+    "Run a sweep and sort what came in.",
+    "Review the draft follow-ups.",
+    "Send the ones you like and log the rest."
+  ],
+  "guardrails": [
+    "Nothing sends until you hit send.",
+    "Keep inbox access read-only where you can."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-11-08T10:00:00.000Z",
+  "featured": {
+    "rank": 31,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/catch-every-new-lead-in-one-sweep/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/catch-every-new-lead-in-one-sweep.json"
+}

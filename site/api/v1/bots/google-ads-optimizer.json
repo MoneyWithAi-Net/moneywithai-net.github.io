@@ -19,18 +19,19 @@
     "url": "https://x.com/codyschneider/status/2089729039158088042"
   },
   "official_share_url": null,
-  "found_via": "https://botdirectory.ai/bots/google-ads-optimizer/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-25",
   "url": "https://moneywithai.net/bots/google-ads-optimizer/",
   "json_url": "https://moneywithai.net/api/v1/bots/google-ads-optimizer.json",
   "use_cases": [
-    "https://moneywithai.net/use-cases/ads-and-tracking-audit-service/"
+    "https://moneywithai.net/use-cases/ads-and-tracking-audit-service/",
+    "https://moneywithai.net/use-cases/audit-google-ads-before-you-change/"
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 201,
+    "rank": 219,
     "score": 79,
     "money": 27,
     "profile": 26,

@@ -28,11 +28,12 @@
   "url": "https://moneywithai.net/bots/unpaid-invoice-reminder-flow/",
   "json_url": "https://moneywithai.net/api/v1/bots/unpaid-invoice-reminder-flow.json",
   "use_cases": [
-    "https://moneywithai.net/use-cases/get-paid-faster/"
+    "https://moneywithai.net/use-cases/get-paid-faster/",
+    "https://moneywithai.net/use-cases/chase-unpaid-invoices/"
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 139,
+    "rank": 160,
     "score": 83,
     "money": 27,
     "profile": 26,

@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "human-copywriter-sultanov-ramil",
+    "name": "Human Copywriter",
+    "category": "Content and Marketing",
+    "sub_use_case": "Copy and creative",
+    "summary": "Rewrites emails, posts, DMs, blogs and landing pages so they sound human, keeping the facts and adding no new claims.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Sultanov Ramil",
+      "url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld"
+    },
+    "official_share_url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
+    "found_via": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/human-copywriter-sultanov-ramil/",
+    "json_url": "https://moneywithai.net/api/bots/human-copywriter-sultanov-ramil.json"
+  }
+}

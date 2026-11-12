@@ -1,0 +1,117 @@
+{
+  "type": "use-case",
+  "slug": "show-buyers-floor-plans-in-3d",
+  "title": "Show Buyers Floor Plans in 3D",
+  "category": "Client Services",
+  "category_slug": "client-services",
+  "money_model": "Grow sales",
+  "difficulty": "Beginner",
+  "summary": "Turn flat floor plans into 3D models and preview images clients can turn and understand, and check plan sets for likely issues before review.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you already sell from plans; the value is drafting time saved and clearer client decisions.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Clients understand a layout faster and ask fewer questions.",
+    "Less drafting time spent on early previews."
+  ],
+  "who_its_for": [
+    "Home builders who sell from plans.",
+    "Remodelers and architects."
+  ],
+  "stack": [
+    {
+      "bot": "plan-to-3d",
+      "name": "Plan to 3D",
+      "role": "Turns a 2D drawing into a 3D model with a preview image and rough quantities.",
+      "creator": "krish1403",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/plan-to-3d/",
+      "official_share_url": "https://x.ai/bot/b8uZ_wfko_YxI-j8YPKAe"
+    },
+    {
+      "bot": "plan-precheck-bot",
+      "name": "Plan Precheck Bot",
+      "role": "Checks a plan set for likely issues and prepares markups for a licensed reviewer.",
+      "creator": "TinaDS61",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/plan-precheck-bot/",
+      "official_share_url": "https://x.ai/bot/2AX61eyWkS5Z2JzMrgv7E"
+    }
+  ],
+  "tools": [
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Floor plans and drawings",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "plan-to-3d",
+        "name": "Plan to 3D",
+        "does": "Builds a 3D model and preview",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "plan-precheck-bot",
+        "name": "Plan Precheck Bot",
+        "does": "Flags likely issues for review",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Check and share with the client",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A 3D model and preview image",
+      "A plan set checked for likely issues"
+    ]
+  },
+  "steps": [
+    "Upload one clear plan.",
+    "Make the 3D model and preview image.",
+    "Compare it with the real drawing.",
+    "Share the preview with the client and precheck the plan set before review."
+  ],
+  "guardrails": [
+    "Label every model as a preview, not a construction document.",
+    "Use quantities only as a starting point."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-31T15:00:00.000Z",
+  "featured": {
+    "rank": 60,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/show-buyers-floor-plans-in-3d/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/show-buyers-floor-plans-in-3d.json"
+}

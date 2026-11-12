@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "the-walk-away",
+    "name": "The Walk-Away",
+    "category": "Leads and Sales",
+    "sub_use_case": "Pre-pitch audits",
+    "summary": "Shows you why visitors leave your sales page without buying, by reading it as a stranger would and pointing to the one line to fix first.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "TheReal_BCM",
+      "url": "https://x.com/TheReal_BCM"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/TheReal_BCM/status/2113950630289248474"
+    },
+    "official_share_url": "https://x.ai/bot/cb34ecnMyLJcYBG6F40CE",
+    "found_via": "https://x.com/TheReal_BCM/status/2113950630289248474",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-30",
+    "url": "https://moneywithai.net/bots/the-walk-away/",
+    "json_url": "https://moneywithai.net/api/bots/the-walk-away.json"
+  }
+}

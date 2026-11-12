@@ -1,0 +1,144 @@
+{
+  "type": "use-case",
+  "slug": "sell-short-video-and-image-packs",
+  "title": "Sell Short Video and Image Packs to Small Brands",
+  "category": "Content and Marketing",
+  "category_slug": "content-and-marketing",
+  "money_model": "Sell a service",
+  "difficulty": "Intermediate",
+  "summary": "Offer small brands a checked pack of hooks, stills and short clips each month, built from the same bots you use for your own work.",
+  "money_potential": {
+    "tier": 3,
+    "symbol": "$$$",
+    "label": "High",
+    "basis": "Assumes you sell a monthly pack per client at a price you set; income grows with each client who says yes.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "You sell a monthly pack to each brand that says yes.",
+    "Checks before release mean fewer revision rounds for each client."
+  ],
+  "who_its_for": [
+    "Freelance video and design creatives.",
+    "Small agencies that serve local brands."
+  ],
+  "stack": [
+    {
+      "bot": "viral-hook-lab",
+      "name": "Viral Hook Lab",
+      "role": "Finds hooks that beat their own channels in the client niche and writes scored options.",
+      "creator": "anatoly eidelman",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/viral-hook-lab/",
+      "official_share_url": "https://x.ai/bot/5igzs9OnCFbpd5hUopyJE"
+    },
+    {
+      "bot": "image-gen-bot",
+      "name": "Image Gen Bot",
+      "role": "Builds stills and short clips from the client brief and references.",
+      "creator": "Matt Palmer",
+      "tools": [
+        "Grok",
+        "FAL"
+      ],
+      "url": "https://moneywithai.net/bots/image-gen-bot/",
+      "official_share_url": "https://x.ai/bot/phPQtGzCZOynABubl0pwx"
+    },
+    {
+      "bot": "video-qa-gate",
+      "name": "Video QA Gate",
+      "role": "Checks each clip against the spec before the client sees it.",
+      "creator": "anatoly eidelman",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/video-qa-gate/",
+      "official_share_url": "https://x.ai/bot/MxxAeg3HkvUiHAIZ0KkGQ"
+    }
+  ],
+  "tools": [
+    "Grok",
+    "FAL"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Client niche and brand sheet",
+        "tool": null
+      },
+      {
+        "label": "Client references",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "viral-hook-lab",
+        "name": "Viral Hook Lab",
+        "does": "Finds hooks and writes scored options",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "image-gen-bot",
+        "name": "Image Gen Bot",
+        "does": "Builds stills and clips",
+        "tools": [
+          "Grok",
+          "FAL"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "video-qa-gate",
+        "name": "Video QA Gate",
+        "does": "Checks against the spec",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "you",
+        "name": "You",
+        "does": "Delivers and invoices the client",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A monthly visual pack for each client",
+      "A checked delivery"
+    ]
+  },
+  "steps": [
+    "Agree the client niche, brand sheet and monthly pack size.",
+    "Pick the scored hooks for the month.",
+    "Build the stills and clips, then run the release check.",
+    "Deliver the pack and invoice the client yourself."
+  ],
+  "guardrails": [
+    "Use only assets the client owns or has licensed.",
+    "Label AI-made visuals where the client or platform requires it."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-11-11T08:07:15.000Z",
+  "featured": {
+    "rank": 14,
+    "score": 92,
+    "money": 40,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/sell-short-video-and-image-packs/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/sell-short-video-and-image-packs.json"
+}

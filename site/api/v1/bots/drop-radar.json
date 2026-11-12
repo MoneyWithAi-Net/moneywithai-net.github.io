@@ -20,7 +20,7 @@
     "url": "https://x.com/Steph_Pierson/status/2102601597557817539"
   },
   "official_share_url": "https://x.ai/bot/KYM0C9BcyfXEP9uIyxlmE",
-  "found_via": "https://grokbot101.org/bots/drop-radar/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-24",
@@ -32,7 +32,7 @@
   ],
   "added_at": "2026-10-24T09:30:00.000Z",
   "featured": {
-    "rank": 79,
+    "rank": 86,
     "score": 87,
     "money": 27,
     "profile": 30,

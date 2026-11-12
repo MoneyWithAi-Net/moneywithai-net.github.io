@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "the-page",
+  "name": "The Page",
+  "category": "Research and Ops",
+  "sub_use_case": "Competitor intel",
+  "summary": "Checks three to five public pages each morning and messages you only when the thing you care about changed.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Hiten Shah",
+    "url": "https://x.ai/bot/uFRK1GoAsiopBLPY19QCe"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/uFRK1GoAsiopBLPY19QCe"
+  },
+  "official_share_url": "https://x.ai/bot/uFRK1GoAsiopBLPY19QCe",
+  "found_via": "https://x.ai/bot/uFRK1GoAsiopBLPY19QCe",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/the-page/",
+  "json_url": "https://moneywithai.net/api/v1/bots/the-page.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 617,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

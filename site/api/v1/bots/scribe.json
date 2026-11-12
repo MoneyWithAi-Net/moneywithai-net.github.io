@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "scribe",
+  "name": "Scribe",
+  "category": "Content and Marketing",
+  "sub_use_case": "SEO and AI search",
+  "summary": "Writes honest, search-friendly articles about your real project and runs a free article hub for them.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Slowfreeze.eth.sol.tez",
+    "url": "https://x.ai/bot/720sUKDBHmLpX8Ov4Ufrt"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/720sUKDBHmLpX8Ov4Ufrt"
+  },
+  "official_share_url": "https://x.ai/bot/720sUKDBHmLpX8Ov4Ufrt",
+  "found_via": "https://x.ai/bot/720sUKDBHmLpX8Ov4Ufrt",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/scribe/",
+  "json_url": "https://moneywithai.net/api/v1/bots/scribe.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 577,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

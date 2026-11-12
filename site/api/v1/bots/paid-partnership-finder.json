@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "paid-partnership-finder",
+  "name": "Paid Partnership Finder",
+  "category": "Leads and Sales",
+  "sub_use_case": "Partnerships and sponsors",
+  "summary": "Helps creators find and qualify paid partnerships, sponsors and affiliate deals, drafts the outreach and keeps a simple deal pipeline.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "@monetization_x",
+    "url": "https://x.ai/bot/GDYcubpm7IMGco1qI0jHv"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/GDYcubpm7IMGco1qI0jHv"
+  },
+  "official_share_url": "https://x.ai/bot/GDYcubpm7IMGco1qI0jHv",
+  "found_via": "https://x.ai/bot/GDYcubpm7IMGco1qI0jHv",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/paid-partnership-finder/",
+  "json_url": "https://moneywithai.net/api/v1/bots/paid-partnership-finder.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 535,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

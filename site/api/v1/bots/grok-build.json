@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "grok-build",
+  "name": "Grok Build",
+  "category": "Research and Ops",
+  "sub_use_case": "Product and engineering",
+  "summary": "Lets a small business build apps, tools and deep research without hiring a developer, by running the Grok Build command line tool on a Grok Bot computer.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Teslaconomics",
+    "url": "https://x.com/Teslaconomics"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/ZRxm1O9tmizOhriV7GiWL"
+  },
+  "official_share_url": "https://x.ai/bot/ZRxm1O9tmizOhriV7GiWL",
+  "found_via": null,
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-11-01",
+  "url": "https://moneywithai.net/bots/grok-build/",
+  "json_url": "https://moneywithai.net/api/v1/bots/grok-build.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/build-simple-internal-tools-without-a-developer/"
+  ],
+  "added_at": "2026-11-01T10:00:00.000Z",
+  "featured": {
+    "rank": 317,
+    "score": 69,
+    "money": 13,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

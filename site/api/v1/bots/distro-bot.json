@@ -1,0 +1,40 @@
+{
+  "type": "bot",
+  "slug": "distro-bot",
+  "name": "Distro Bot",
+  "category": "Content and Marketing",
+  "sub_use_case": "Paid ads",
+  "summary": "Runs a marketing loop across your ad accounts, creative, channel reports, timely posts and outbound, keeping you in the approval seat.",
+  "tools": [
+    "Grok",
+    "X"
+  ],
+  "creator": {
+    "handle": "Shub Gaur",
+    "url": "https://x.ai/bot/XbN6iofs_Qjsi2Od1yjyI"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/XbN6iofs_Qjsi2Od1yjyI"
+  },
+  "official_share_url": "https://x.ai/bot/XbN6iofs_Qjsi2Od1yjyI",
+  "found_via": "https://x.ai/bot/XbN6iofs_Qjsi2Od1yjyI",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/distro-bot/",
+  "json_url": "https://moneywithai.net/api/v1/bots/distro-bot.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 412,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

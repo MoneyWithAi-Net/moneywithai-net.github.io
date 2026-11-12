@@ -1,0 +1,142 @@
+{
+  "type": "use-case",
+  "slug": "monthly-books-check",
+  "title": "Check Your Books Every Month",
+  "category": "Finance",
+  "category_slug": "finance",
+  "money_model": "Save costs",
+  "difficulty": "Beginner",
+  "summary": "Catch bookkeeping errors against bank and card records, log receipts as they arrive and hand a tidy month to your accountant.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Assumes you keep your own books and pay an accountant at month end or year end.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Errors are found each month, not at tax time.",
+    "Your accountant gets a cleaner month-end pack."
+  ],
+  "who_its_for": [
+    "Owner-run businesses on QuickBooks Online with an outside accountant."
+  ],
+  "stack": [
+    {
+      "bot": "bookkeeping-auditor",
+      "name": "Bookkeeping Auditor",
+      "role": "Checks books against bank, card and check records.",
+      "creator": "mrfundman",
+      "tools": [
+        "QuickBooks"
+      ],
+      "url": "https://moneywithai.net/bots/bookkeeping-auditor/",
+      "official_share_url": null
+    },
+    {
+      "bot": "receipt-scanner-expense-tracking",
+      "name": "Receipt Scanner / Expense Tracking",
+      "role": "Logs forwarded receipts into a sheet.",
+      "creator": "limeunfiltered",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/receipt-scanner-expense-tracking/",
+      "official_share_url": "https://x.ai/bot/qod4CrNQBlDIMm5wFYVQp"
+    },
+    {
+      "bot": "invoice-hunter",
+      "name": "Invoice Hunter",
+      "role": "Bundles supplier invoices from email by month.",
+      "creator": "scheemunai",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/invoice-hunter/",
+      "official_share_url": "https://x.ai/bot/-kO6HrXokJZANVwUOMZO9"
+    }
+  ],
+  "tools": [
+    "QuickBooks",
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Books",
+        "tool": "QuickBooks"
+      },
+      {
+        "label": "Receipts and supplier emails",
+        "tool": "Gmail"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "receipt-scanner-expense-tracking",
+        "name": "Receipt Scanner / Expense Tracking",
+        "does": "Logs receipts to a sheet",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "invoice-hunter",
+        "name": "Invoice Hunter",
+        "does": "Bundles supplier invoices by month",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "bookkeeping-auditor",
+        "name": "Bookkeeping Auditor",
+        "does": "Lists errors against bank and card records",
+        "tools": [
+          "QuickBooks"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "you",
+        "name": "You",
+        "does": "Fix clear items and send the rest to your accountant",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A monthly error list",
+      "Receipts filed by month"
+    ]
+  },
+  "steps": [
+    "Forward receipts weekly.",
+    "Approve the supplier invoice bundle.",
+    "Read the month-end error list.",
+    "Send open items to your accountant."
+  ],
+  "guardrails": [
+    "This is admin help, not legal, tax or financial advice.",
+    "You or your accountant approve every change to the books.",
+    "Connect only accounts you own and give the least access needed."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 134,
+    "score": 69,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/monthly-books-check/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/monthly-books-check.json"
+}

@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "web-bot",
+    "name": "Web Bot",
+    "category": "Leads and Sales",
+    "sub_use_case": "Outbound prospecting",
+    "summary": "Rebuilds a roofer, HVAC or plumbing company's old website as a polished multi-page demo you can show them before you pitch a new site.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Mr Clean",
+      "url": "https://x.ai/bot/W2bU3hqieo-CapZ3rOBrD"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/W2bU3hqieo-CapZ3rOBrD"
+    },
+    "official_share_url": "https://x.ai/bot/W2bU3hqieo-CapZ3rOBrD",
+    "found_via": "https://x.ai/bot/W2bU3hqieo-CapZ3rOBrD",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/web-bot/",
+    "json_url": "https://moneywithai.net/api/bots/web-bot.json"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "type": "bot",
+  "slug": "image-gen-bot",
+  "name": "Image Gen Bot",
+  "category": "Content and Marketing",
+  "sub_use_case": "Brand social",
+  "summary": "Makes brand stills and short clips: gathers references, writes the image prompt, generates, removes backgrounds and iterates until you lock a result.",
+  "tools": [
+    "Grok",
+    "FAL"
+  ],
+  "creator": {
+    "handle": "Matt Palmer",
+    "url": "https://x.com/mattyp"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/phPQtGzCZOynABubl0pwx"
+  },
+  "official_share_url": "https://x.ai/bot/phPQtGzCZOynABubl0pwx",
+  "found_via": null,
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-11-11",
+  "url": "https://moneywithai.net/bots/image-gen-bot/",
+  "json_url": "https://moneywithai.net/api/v1/bots/image-gen-bot.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/make-brand-stills-without-a-studio/",
+    "https://moneywithai.net/use-cases/test-ad-hooks-before-the-budget-goes-out/",
+    "https://moneywithai.net/use-cases/sell-short-video-and-image-packs/"
+  ],
+  "added_at": "2026-11-11T08:07:15.000Z",
+  "featured": {
+    "rank": 3,
+    "score": 100,
+    "money": 40,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

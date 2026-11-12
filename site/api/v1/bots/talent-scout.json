@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "talent-scout",
+  "name": "Talent Scout",
+  "category": "Research and Ops",
+  "sub_use_case": "Hiring",
+  "summary": "Keeps recruiting moving from screen to offer: sources people, drafts outreach in your voice, skips people already in your system and books calls once you approve.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "SpaceX",
+    "url": "https://x.ai/bot/sac3a109dfe021c555c7c"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/sac3a109dfe021c555c7c"
+  },
+  "official_share_url": "https://x.ai/bot/sac3a109dfe021c555c7c",
+  "found_via": "https://x.ai/bot/sac3a109dfe021c555c7c",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/talent-scout/",
+  "json_url": "https://moneywithai.net/api/v1/bots/talent-scout.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 610,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

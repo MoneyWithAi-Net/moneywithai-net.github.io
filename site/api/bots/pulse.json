@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "pulse",
+    "name": "Pulse",
+    "category": "Content and Marketing",
+    "sub_use_case": "Analytics and monitoring",
+    "summary": "Tracks the business numbers you pick and sends a short weekly scorecard only when something moves.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Jaime Hernandez",
+      "url": "https://x.ai/bot/BpqAk55ZrJ2O5SqJm1Mhz"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/BpqAk55ZrJ2O5SqJm1Mhz"
+    },
+    "official_share_url": "https://x.ai/bot/BpqAk55ZrJ2O5SqJm1Mhz",
+    "found_via": "https://x.ai/bot/BpqAk55ZrJ2O5SqJm1Mhz",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/pulse/",
+    "json_url": "https://moneywithai.net/api/bots/pulse.json"
+  }
+}

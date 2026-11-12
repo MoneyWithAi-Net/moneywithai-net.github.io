@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "listing-agent-desk-lite",
+    "name": "Listing Agent Desk LITE",
+    "category": "Leads and Sales",
+    "sub_use_case": "Real estate leads",
+    "summary": "Turns property facts and photos into listings in any language, runs a quick price check and drafts replies to buyer inquiries.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Balaci Claudiu",
+      "url": "https://x.ai/bot/8JiqD02tWEQRGcVqPsswi"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/8JiqD02tWEQRGcVqPsswi"
+    },
+    "official_share_url": "https://x.ai/bot/8JiqD02tWEQRGcVqPsswi",
+    "found_via": "https://x.ai/bot/8JiqD02tWEQRGcVqPsswi",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/listing-agent-desk-lite/",
+    "json_url": "https://moneywithai.net/api/bots/listing-agent-desk-lite.json"
+  }
+}

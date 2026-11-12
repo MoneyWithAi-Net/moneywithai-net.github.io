@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "devil-s-advocate-cyberlytics",
+  "name": "Devil's Advocate",
+  "category": "Research and Ops",
+  "sub_use_case": "Planning and projects",
+  "summary": "Gives sharp, constructive pushback on plans and specs before you commit to them.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Cyberlytics",
+    "url": "https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v"
+  },
+  "official_share_url": "https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v",
+  "found_via": "https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/devil-s-advocate-cyberlytics/",
+  "json_url": "https://moneywithai.net/api/v1/bots/devil-s-advocate-cyberlytics.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 408,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

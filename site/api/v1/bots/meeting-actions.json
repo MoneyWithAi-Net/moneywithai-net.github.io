@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "meeting-actions",
+  "name": "Meeting Actions",
+  "category": "Client Services",
+  "sub_use_case": "Meetings and follow-up",
+  "summary": "Paste meeting notes or a transcript and get decisions, owners, due dates, open questions and follow-ups. It never invents commitments.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Markus Johnson",
+    "url": "https://x.ai/bot/MF5NW2YJoIJywffL3Zi5W"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/MF5NW2YJoIJywffL3Zi5W"
+  },
+  "official_share_url": "https://x.ai/bot/MF5NW2YJoIJywffL3Zi5W",
+  "found_via": "https://x.ai/bot/MF5NW2YJoIJywffL3Zi5W",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/meeting-actions/",
+  "json_url": "https://moneywithai.net/api/v1/bots/meeting-actions.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 508,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "type": "use-case",
+  "slug": "tax-ready-books-all-year",
+  "title": "Be Ready for Tax Time All Year",
+  "category": "Finance",
+  "category_slug": "finance",
+  "money_model": "Save costs",
+  "difficulty": "Intermediate",
+  "summary": "Log receipts and card activity as they happen so your books and tax worksheets are current every week, not rebuilt in a panic once a year.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you do your own books today; the value is time saved and fewer lost receipts, not new income.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "No more paying for a rushed catch-up before the tax deadline.",
+    "Fewer missed deductions from lost receipts."
+  ],
+  "who_its_for": [
+    "Owner-run small businesses.",
+    "Freelancers and sole traders."
+  ],
+  "stack": [
+    {
+      "bot": "small-business-bookkeeper",
+      "name": "Small Business Bookkeeper",
+      "role": "Logs receipts and bank and card activity into your accounting software and keeps tax worksheets current.",
+      "creator": "MarsHomestead",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/small-business-bookkeeper/",
+      "official_share_url": "https://x.ai/bot/GsgpmqqJ4aUMtHBYZlDgJ"
+    },
+    {
+      "bot": "receipt-scanner-expense-tracking",
+      "name": "Receipt Scanner / Expense Tracking",
+      "role": "Turns forwarded receipt emails and photos into line items with the files saved.",
+      "creator": "limeunfiltered",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/receipt-scanner-expense-tracking/",
+      "official_share_url": "https://x.ai/bot/qod4CrNQBlDIMm5wFYVQp"
+    },
+    {
+      "bot": "watchdog-receipts",
+      "name": "Watchdog Receipts",
+      "role": "Spots receipts, renewals and trials in your inbox so nothing goes unlogged.",
+      "creator": "jxckvibe",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/watchdog-receipts/",
+      "official_share_url": "https://x.ai/bot/PuAEE57P58Df5zskFY3pg"
+    }
+  ],
+  "tools": [
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Receipt emails",
+        "tool": "Gmail"
+      },
+      {
+        "label": "Bank and card activity",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "watchdog-receipts",
+        "name": "Watchdog Receipts",
+        "does": "Finds receipts, renewals and trials",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "receipt-scanner-expense-tracking",
+        "name": "Receipt Scanner / Expense Tracking",
+        "does": "Turns receipts into line items",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "small-business-bookkeeper",
+        "name": "Small Business Bookkeeper",
+        "does": "Enters items and updates tax worksheets",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "you",
+        "name": "You",
+        "does": "Review a weekly sample",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Current books",
+      "Tax worksheets ready for your accountant"
+    ]
+  },
+  "steps": [
+    "Pick one inbox or folder for receipts.",
+    "Let the receipt bots log what arrives each day.",
+    "Have the bookkeeper enter business items and update the tax worksheets.",
+    "Review a sample each week and send the worksheets to your accountant."
+  ],
+  "guardrails": [
+    "Nothing is paid or filed without your approval.",
+    "This is admin help, not tax or financial advice; your accountant has the final word."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-29T10:00:00.000Z",
+  "featured": {
+    "rank": 67,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/tax-ready-books-all-year/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/tax-ready-books-all-year.json"
+}

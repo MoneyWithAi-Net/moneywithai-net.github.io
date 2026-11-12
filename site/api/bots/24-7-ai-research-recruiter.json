@@ -1,0 +1,30 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "24-7-ai-research-recruiter",
+    "name": "24/7 AI Research Recruiter",
+    "category": "Research and Ops",
+    "sub_use_case": "Hiring",
+    "summary": "Keeps a hard-to-fill hiring pipeline moving around the clock: it sources AI research candidates, follows up on replies and adds them to Greenhouse.",
+    "tools": [
+      "Grok",
+      "LinkedIn"
+    ],
+    "creator": {
+      "handle": "pradeepreddiar",
+      "url": "https://x.com/pradeepreddiar"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/pradeepreddiar/status/2114946722887795118"
+    },
+    "official_share_url": "https://x.ai/bot/rtEM6xC63WDWsufit3JsC",
+    "found_via": null,
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-11-01",
+    "url": "https://moneywithai.net/bots/24-7-ai-research-recruiter/",
+    "json_url": "https://moneywithai.net/api/bots/24-7-ai-research-recruiter.json"
+  }
+}

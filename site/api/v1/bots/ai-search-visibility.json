@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "ai-search-visibility",
+  "name": "AI Search Visibility",
+  "category": "Content and Marketing",
+  "sub_use_case": "SEO and AI search",
+  "summary": "Checks whether AI assistants and Google recommend your business for the questions buyers ask, and who they name instead.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Adam Tanguay",
+    "url": "https://x.ai/bot/BFiw9Y7BzTQ-3jFBAro1X"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/BFiw9Y7BzTQ-3jFBAro1X"
+  },
+  "official_share_url": "https://x.ai/bot/BFiw9Y7BzTQ-3jFBAro1X",
+  "found_via": "https://x.ai/bot/BFiw9Y7BzTQ-3jFBAro1X",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/ai-search-visibility/",
+  "json_url": "https://moneywithai.net/api/v1/bots/ai-search-visibility.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 335,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

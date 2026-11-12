@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "bot-team-health-check",
+  "name": "Bot Team Health Check",
+  "category": "Research and Ops",
+  "sub_use_case": "Team memory",
+  "summary": "Reviews how your Grok Bots are set up and gives one numbered list of fixes. It never edits or removes another bot.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Antonio Rubén de las Nieves Stoner",
+    "url": "https://x.ai/bot/nLVsSuD8_hN5rhLTGtbw9"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/nLVsSuD8_hN5rhLTGtbw9"
+  },
+  "official_share_url": "https://x.ai/bot/nLVsSuD8_hN5rhLTGtbw9",
+  "found_via": "https://x.ai/bot/nLVsSuD8_hN5rhLTGtbw9",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/bot-team-health-check/",
+  "json_url": "https://moneywithai.net/api/v1/bots/bot-team-health-check.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 354,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

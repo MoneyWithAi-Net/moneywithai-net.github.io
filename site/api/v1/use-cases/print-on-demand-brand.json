@@ -1,32 +1,32 @@
 {
   "type": "use-case",
   "slug": "print-on-demand-brand",
-  "title": "Launch a Print-on-Demand Brand",
+  "title": "Add a Print-on-Demand Line to Your Brand",
   "category": "E-Commerce",
   "category_slug": "e-commerce",
   "money_model": "Grow sales",
   "difficulty": "Beginner",
-  "summary": "Shape a quote-based brand, design products, make product images and run small ad tests.",
+  "summary": "Shape a print-on-demand line for your brand, design products, make product images and run small ad tests.",
   "money_potential": {
     "tier": 1,
     "symbol": "$",
     "label": "Low",
     "basis": "Assumes thin margins per item, so income grows slowly with volume.",
     "claim_label": "E",
-    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
   },
   "how_it_makes_money": [
     "No inventory risk.",
     "Small tests show which designs sell."
   ],
   "who_its_for": [
-    "Side-hustlers and designers."
+    "Brands and shops adding merch, and designers."
   ],
   "stack": [
     {
       "bot": "t-shirt-brand-builder",
       "name": "T-Shirt Brand Builder",
-      "role": "Builds the brand and listings.",
+      "role": "Builds the line and its listings.",
       "creator": "LBallz77283",
       "tools": [
         "Canva",
@@ -117,7 +117,7 @@
         "order": 1,
         "by": "t-shirt-brand-builder",
         "name": "T-Shirt Brand Builder",
-        "does": "Builds the brand",
+        "does": "Builds the product line",
         "tools": [
           "Canva",
           "Shopify"
@@ -181,8 +181,8 @@
     ]
   },
   "steps": [
-    "Pick an audience and tone.",
-    "Launch ten designs.",
+    "Pick which of your customers the line is for.",
+    "Start with ten designs.",
     "Post daily and test small ads.",
     "Keep only designs that sell."
   ],
@@ -193,7 +193,7 @@
   "claims": [],
   "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 109,
+    "rank": 130,
     "score": 69,
     "money": 13,
     "profile": 26,

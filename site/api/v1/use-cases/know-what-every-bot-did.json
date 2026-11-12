@@ -1,0 +1,121 @@
+{
+  "type": "use-case",
+  "slug": "know-what-every-bot-did",
+  "title": "Know What Every Bot on Your Team Did",
+  "category": "Research and Ops",
+  "category_slug": "research-and-ops",
+  "money_model": "Save costs",
+  "difficulty": "Intermediate",
+  "summary": "Keep one daily record of what each bot bought, posted, emailed or signed in to, with the rules you approved, so you can spot mistakes and risky requests early.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Assumes you run several bots that can buy, post or sign in; the value is checking time saved and problems caught early.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Mistakes and odd purchases get caught in days, not at the end of the month.",
+    "Less time digging through each bot to find out what happened."
+  ],
+  "who_its_for": [
+    "Owners running several bots for their business.",
+    "Teams that share bots between people."
+  ],
+  "stack": [
+    {
+      "bot": "security-agent",
+      "name": "Security Agent",
+      "role": "Gives each bot an ID, keeps the rules you approve and logs outside activity, purchases and red flags every day.",
+      "creator": "JennyMarquis",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/security-agent/",
+      "official_share_url": "https://x.ai/bot/1UbznxzMUzsMUT4V83VWm"
+    },
+    {
+      "bot": "chief-of-staff-aryaman",
+      "name": "Chief of Staff (Aryaman)",
+      "role": "Surfaces only the decisions that need you, so the security record does not get lost in your inbox.",
+      "creator": "aryamankhawow",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/chief-of-staff-aryaman/",
+      "official_share_url": "https://x.ai/bot/XjQ-AZTMrGLmQOTeMu3LF"
+    }
+  ],
+  "tools": [
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Daily logs from your bots",
+        "tool": null
+      },
+      {
+        "label": "The rules you approve",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "security-agent",
+        "name": "Security Agent",
+        "does": "Keeps one record of activity and red flags",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "chief-of-staff-aryaman",
+        "name": "Chief of Staff (Aryaman)",
+        "does": "Surfaces only what needs you",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Approve, block or change a rule",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A daily security record",
+      "Red flags you see early"
+    ]
+  },
+  "steps": [
+    "Choose which activities to log.",
+    "Approve a short list of safety rules and red flags.",
+    "Have each active bot send a daily log.",
+    "Review the record weekly and tighten rules where needed."
+  ],
+  "guardrails": [
+    "Log counts and times, not message contents, unless you truly need them.",
+    "A log is not a lock: keep approval steps on purchases, sends and deletions."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-30T10:00:00.000Z",
+  "featured": {
+    "rank": 166,
+    "score": 65,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/know-what-every-bot-did/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/know-what-every-bot-did.json"
+}

@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "inbox",
+  "name": "Inbox",
+  "category": "Research and Ops",
+  "sub_use_case": "Inbox triage",
+  "summary": "Watches your email quietly and pings you only for mail that needs action today, batching the rest into a digest.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Josh Archer",
+    "url": "https://x.ai/bot/-t-XZjCcLbbbx-hz7HDon"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/-t-XZjCcLbbbx-hz7HDon"
+  },
+  "official_share_url": "https://x.ai/bot/-t-XZjCcLbbbx-hz7HDon",
+  "found_via": "https://x.ai/bot/-t-XZjCcLbbbx-hz7HDon",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/inbox/",
+  "json_url": "https://moneywithai.net/api/v1/bots/inbox.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 475,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

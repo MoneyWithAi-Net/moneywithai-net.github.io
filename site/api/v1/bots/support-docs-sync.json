@@ -10,16 +10,16 @@
     "GitHub"
   ],
   "creator": {
-    "handle": "BotDirectoryAI",
-    "url": "https://x.com/BotDirectoryAI"
+    "handle": "Community submission",
+    "url": null
   },
   "scouted_by": null,
   "source": {
     "kind": "x",
-    "url": "https://x.com/BotDirectoryAI/status/2095460497042588104"
+    "url": "https://moneywithai.net/bots/support-docs-sync/"
   },
   "official_share_url": null,
-  "found_via": "https://botdirectory.ai/bots/support-docs-sync/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-25",
@@ -31,7 +31,7 @@
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 135,
+    "rank": 156,
     "score": 83,
     "money": 27,
     "profile": 26,

@@ -11,15 +11,15 @@
   ],
   "creator": {
     "handle": "alexandr-belogubov",
-    "url": "https://botdirectory.ai/bots/buyer-intent-reply-queue/"
+    "url": null
   },
   "scouted_by": null,
   "source": {
     "kind": "web",
-    "url": "https://botdirectory.ai/bots/buyer-intent-reply-queue/"
+    "url": "https://moneywithai.net/bots/buyer-intent-reply-queue/"
   },
   "official_share_url": null,
-  "found_via": "https://botdirectory.ai/bots/buyer-intent-reply-queue/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-25",
@@ -30,10 +30,10 @@
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 263,
-    "score": 69,
+    "rank": 322,
+    "score": 63,
     "money": 13,
-    "profile": 26,
+    "profile": 20,
     "visuals": 20,
     "difficulty": 10,
     "override": null,

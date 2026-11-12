@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "haggle-bot-daniel-gartshein",
+  "name": "Haggle Bot",
+  "category": "Finance",
+  "sub_use_case": "SaaS spend",
+  "summary": "Lists your SaaS spend from Ramp and bills, finds savings such as unused seats and duplicates, and drafts vendor negotiation emails.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Daniel Gartshein",
+    "url": "https://x.ai/bot/pwQ612YrX3R0eACnIMlom"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/pwQ612YrX3R0eACnIMlom"
+  },
+  "official_share_url": "https://x.ai/bot/pwQ612YrX3R0eACnIMlom",
+  "found_via": "https://x.ai/bot/pwQ612YrX3R0eACnIMlom",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/haggle-bot-daniel-gartshein/",
+  "json_url": "https://moneywithai.net/api/v1/bots/haggle-bot-daniel-gartshein.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 465,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

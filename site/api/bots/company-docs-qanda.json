@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "company-docs-qanda",
+    "name": "Company Docs Q&A",
+    "category": "Customer Support",
+    "sub_use_case": "Help center",
+    "summary": "Answers product and how-to questions from your live docs and other knowledge sources, always citing where the answer came from.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Anoop Baliga",
+      "url": "https://x.ai/bot/GVAnpUah1K6PzJtG9EuG9"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/GVAnpUah1K6PzJtG9EuG9"
+    },
+    "official_share_url": "https://x.ai/bot/GVAnpUah1K6PzJtG9EuG9",
+    "found_via": "https://x.ai/bot/GVAnpUah1K6PzJtG9EuG9",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/company-docs-qanda/",
+    "json_url": "https://moneywithai.net/api/bots/company-docs-qanda.json"
+  }
+}

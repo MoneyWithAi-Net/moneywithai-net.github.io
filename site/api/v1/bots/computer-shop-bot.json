@@ -1,0 +1,42 @@
+{
+  "type": "bot",
+  "slug": "computer-shop-bot",
+  "name": "Computer Shop Bot",
+  "category": "E-Commerce",
+  "sub_use_case": "Store operations",
+  "summary": "Takes the paperwork off a small computer repair and parts shop by pricing eBay buys and sales for profit after fees, tracking orders and quoting network installs.",
+  "tools": [
+    "eBay",
+    "Grok"
+  ],
+  "creator": {
+    "handle": "jimaggie",
+    "url": "https://x.com/jimaggie"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/jimaggie/status/2114747155118170469"
+  },
+  "official_share_url": "https://x.ai/bot/xwAkiiQRwbuxAASGkaCPs",
+  "found_via": "https://x.com/jimaggie/status/2114747155118170469",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/computer-shop-bot/",
+  "json_url": "https://moneywithai.net/api/v1/bots/computer-shop-bot.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/run-a-repair-and-parts-shop/"
+  ],
+  "added_at": "2026-10-31T10:00:00.000Z",
+  "featured": {
+    "rank": 76,
+    "score": 87,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

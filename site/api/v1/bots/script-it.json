@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "script-it",
+  "name": "Script-it",
+  "category": "Research and Ops",
+  "sub_use_case": "Team memory",
+  "summary": "Moves routine checks off the model onto scripts on your own computer, proves they match and then reports only status changes.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "D'Artagnan",
+    "url": "https://x.ai/bot/ySMQW544mSpZFty-DaGml"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/ySMQW544mSpZFty-DaGml"
+  },
+  "official_share_url": "https://x.ai/bot/ySMQW544mSpZFty-DaGml",
+  "found_via": "https://x.ai/bot/ySMQW544mSpZFty-DaGml",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/script-it/",
+  "json_url": "https://moneywithai.net/api/v1/bots/script-it.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 579,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

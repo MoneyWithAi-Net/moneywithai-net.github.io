@@ -11,7 +11,7 @@
   ],
   "creator": {
     "handle": "kristaletz",
-    "url": "https://botdirectory.ai/bots/pg/"
+    "url": null
   },
   "scouted_by": null,
   "source": {
@@ -19,7 +19,7 @@
     "url": "https://x.ai/bot/fcJJMM58AdXSTBdW3xWyW"
   },
   "official_share_url": "https://x.ai/bot/fcJJMM58AdXSTBdW3xWyW",
-  "found_via": "https://botdirectory.ai/bots/pg/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-25",
@@ -30,10 +30,10 @@
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 178,
-    "score": 80,
+    "rank": 267,
+    "score": 74,
     "money": 27,
-    "profile": 30,
+    "profile": 24,
     "visuals": 20,
     "difficulty": 3,
     "override": null,

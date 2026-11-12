@@ -1,7 +1,7 @@
 {
   "type": "use-case",
   "slug": "get-paid-faster",
-  "title": "Get Paid Faster on Every Invoice",
+  "title": "Chase Late Invoices with Polite Reminders",
   "category": "Finance",
   "category_slug": "finance",
   "money_model": "Recover money",
@@ -13,10 +13,10 @@
     "label": "Medium",
     "basis": "Assumes money owed to you that is paid late.",
     "claim_label": "E",
-    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
   },
   "how_it_makes_money": [
-    "Less money stuck in late invoices.",
+    "Fewer invoices sit unpaid.",
     "You see cash clearly."
   ],
   "who_its_for": [
@@ -157,7 +157,7 @@
   "claims": [],
   "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 26,
+    "rank": 34,
     "score": 83,
     "money": 27,
     "profile": 26,

@@ -1,0 +1,30 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "gmail-cleanup-chief-of-staff",
+    "name": "Gmail Cleanup Chief of Staff",
+    "category": "Research and Ops",
+    "sub_use_case": "Inbox triage",
+    "summary": "Shows which senders fill your Gmail, with counts, and moves only the newsletters, promotions and notifications you approve to Trash.",
+    "tools": [
+      "Grok",
+      "Gmail"
+    ],
+    "creator": {
+      "handle": "터미너스(GO TO MARS)",
+      "url": "https://x.ai/bot/MmRhYPkM9e4w4V3uTfIgP"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/MmRhYPkM9e4w4V3uTfIgP"
+    },
+    "official_share_url": "https://x.ai/bot/MmRhYPkM9e4w4V3uTfIgP",
+    "found_via": "https://x.ai/bot/MmRhYPkM9e4w4V3uTfIgP",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/gmail-cleanup-chief-of-staff/",
+    "json_url": "https://moneywithai.net/api/bots/gmail-cleanup-chief-of-staff.json"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "util",
+    "name": "util",
+    "category": "Research and Ops",
+    "sub_use_case": "Property maintenance",
+    "summary": "Watches water, power, gas, internet and thermostats for a building or small office through your utility portals and flags leaks or costly rate plans.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Ryan Hinkle",
+      "url": "https://x.ai/bot/kiqs8YlHAKuTq0gK9q3Ly"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/kiqs8YlHAKuTq0gK9q3Ly"
+    },
+    "official_share_url": "https://x.ai/bot/kiqs8YlHAKuTq0gK9q3Ly",
+    "found_via": "https://x.ai/bot/kiqs8YlHAKuTq0gK9q3Ly",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/util/",
+    "json_url": "https://moneywithai.net/api/bots/util.json"
+  }
+}

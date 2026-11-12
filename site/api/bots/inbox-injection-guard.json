@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "inbox-injection-guard",
+    "name": "Inbox Injection Guard",
+    "category": "Research and Ops",
+    "sub_use_case": "Inbox triage",
+    "summary": "Screens your email for hidden instructions aimed at AI assistants, such as white text or invisible characters, before your bots read it.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Thuong P. Nguyen",
+      "url": "https://x.ai/bot/lsXZ6NdEqAdCHe8z88QAl"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/lsXZ6NdEqAdCHe8z88QAl"
+    },
+    "official_share_url": "https://x.ai/bot/lsXZ6NdEqAdCHe8z88QAl",
+    "found_via": "https://x.ai/bot/lsXZ6NdEqAdCHe8z88QAl",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/inbox-injection-guard/",
+    "json_url": "https://moneywithai.net/api/bots/inbox-injection-guard.json"
+  }
+}

@@ -10,15 +10,15 @@
   ],
   "creator": {
     "handle": "scheemunai",
-    "url": "https://botdirectory.ai/bots/motivated-seller-finder/"
+    "url": null
   },
   "scouted_by": null,
   "source": {
     "kind": "web",
-    "url": "https://botdirectory.ai/bots/motivated-seller-finder/"
+    "url": "https://moneywithai.net/bots/motivated-seller-finder/"
   },
   "official_share_url": null,
-  "found_via": "https://botdirectory.ai/bots/motivated-seller-finder/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-25",
@@ -29,10 +29,10 @@
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 65,
-    "score": 89,
+    "rank": 195,
+    "score": 83,
     "money": 40,
-    "profile": 26,
+    "profile": 20,
     "visuals": 20,
     "difficulty": 3,
     "override": null,

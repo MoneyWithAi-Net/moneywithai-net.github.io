@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "app-replicator",
+  "name": "APP REPLICATOR",
+  "category": "Finance",
+  "sub_use_case": "SaaS spend",
+  "summary": "Helps you rebuild the one feature you use from a paid app on a free or cheap stack, and tells you when a rebuild is not worth it.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Brian",
+    "url": "https://x.ai/bot/EIaKiBO_5k6RITsM47150"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/EIaKiBO_5k6RITsM47150"
+  },
+  "official_share_url": "https://x.ai/bot/EIaKiBO_5k6RITsM47150",
+  "found_via": "https://x.ai/bot/EIaKiBO_5k6RITsM47150",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/app-replicator/",
+  "json_url": "https://moneywithai.net/api/v1/bots/app-replicator.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/build-simple-internal-tools-without-a-developer/"
+  ],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 315,
+    "score": 69,
+    "money": 13,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

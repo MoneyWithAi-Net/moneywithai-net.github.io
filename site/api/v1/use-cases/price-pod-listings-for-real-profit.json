@@ -1,0 +1,153 @@
+{
+  "type": "use-case",
+  "slug": "price-pod-listings-for-real-profit",
+  "title": "Price POD Listings for Real Profit",
+  "category": "E-Commerce",
+  "category_slug": "e-commerce",
+  "money_model": "Grow sales",
+  "difficulty": "Beginner",
+  "summary": "Write POD listing titles and tags, check mockups, and set prices from your real base costs and fees so thin margins show up before you publish.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Assumes you sell print-on-demand or printables; the value is pricing from real costs and clearer listings, not guaranteed sales.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Listings priced from real costs instead of guesses.",
+    "Fewer products published at a loss after fees."
+  ],
+  "who_its_for": [
+    "Etsy and Shopify POD sellers.",
+    "Gumroad printable shops."
+  ],
+  "stack": [
+    {
+      "bot": "pod-and-printable-boutique-studio",
+      "name": "POD & Printable Boutique Studio",
+      "role": "Coaches SEO titles and tags, mockup checks and margin math from your costs.",
+      "creator": "LisaMAUSA",
+      "tools": [
+        "Grok",
+        "Shopify"
+      ],
+      "url": "https://moneywithai.net/bots/pod-and-printable-boutique-studio/",
+      "official_share_url": "https://x.ai/bot/uFPjya5oVUr0-Oo_9dVnS"
+    },
+    {
+      "bot": "shopify-product-image-maker",
+      "name": "Shopify Product Image Maker",
+      "role": "Makes clean product images for store listings.",
+      "creator": "deAPI Team",
+      "tools": [
+        "n8n",
+        "Claude",
+        "Shopify"
+      ],
+      "url": "https://moneywithai.net/bots/shopify-product-image-maker/",
+      "official_share_url": null
+    },
+    {
+      "bot": "product-price-writer",
+      "name": "Product Price Writer",
+      "role": "Helps write clear price copy once your margin math is set.",
+      "creator": "LBallz77283",
+      "tools": [
+        "Google Sheets",
+        "Shopify"
+      ],
+      "url": "https://moneywithai.net/bots/product-price-writer/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Grok",
+    "Shopify",
+    "n8n",
+    "Claude",
+    "Google Sheets"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Product brief and real costs",
+        "tool": null
+      },
+      {
+        "label": "Storefront",
+        "tool": "Shopify"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "pod-and-printable-boutique-studio",
+        "name": "POD & Printable Boutique Studio",
+        "does": "Writes titles, tags and margin notes",
+        "tools": [
+          "Grok",
+          "Shopify"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "shopify-product-image-maker",
+        "name": "Shopify Product Image Maker",
+        "does": "Makes clean listing images",
+        "tools": [
+          "n8n",
+          "Claude",
+          "Shopify"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "product-price-writer",
+        "name": "Product Price Writer",
+        "does": "Writes clear price copy",
+        "tools": [
+          "Google Sheets",
+          "Shopify"
+        ]
+      },
+      {
+        "order": 4,
+        "by": "you",
+        "name": "You",
+        "does": "Check margins and publish",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A listing priced from real costs",
+      "Titles, tags and images ready to check"
+    ]
+  },
+  "steps": [
+    "Gather base cost, print fees, shipping and marketplace fees for one SKU.",
+    "Get titles, tags and a margin check.",
+    "Make clean images.",
+    "Publish only after the margin looks right."
+  ],
+  "guardrails": [
+    "Feed real costs; do not accept guessed prices.",
+    "Check marketplace character limits before you paste."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-11-07T10:00:00.000Z",
+  "featured": {
+    "rank": 146,
+    "score": 69,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/price-pod-listings-for-real-profit/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/price-pod-listings-for-real-profit.json"
+}

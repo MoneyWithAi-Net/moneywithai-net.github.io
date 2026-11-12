@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "account-research-desk",
+  "name": "Account Research Desk",
+  "category": "Leads and Sales",
+  "sub_use_case": "Sales-call support",
+  "summary": "Researches the companies you sell to and writes your pre-call brief and account plan from the public web and your notes.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Anoop Baliga",
+    "url": "https://x.ai/bot/O3iqVd_ZrdRtrDJpxcKss"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/O3iqVd_ZrdRtrDJpxcKss"
+  },
+  "official_share_url": "https://x.ai/bot/O3iqVd_ZrdRtrDJpxcKss",
+  "found_via": "https://x.ai/bot/O3iqVd_ZrdRtrDJpxcKss",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/account-research-desk/",
+  "json_url": "https://moneywithai.net/api/v1/bots/account-research-desk.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 329,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

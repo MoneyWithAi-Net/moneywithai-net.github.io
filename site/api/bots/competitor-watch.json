@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "competitor-watch",
+    "name": "Competitor Watch",
+    "category": "Research and Ops",
+    "sub_use_case": "Competitor intel",
+    "summary": "Tracks competitor pricing, product and hiring pages from a list of URLs and briefs you only on real changes.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Shimecki",
+      "url": "https://x.ai/bot/aw0Zj54sIsAK7vMnajdz0"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/aw0Zj54sIsAK7vMnajdz0"
+    },
+    "official_share_url": "https://x.ai/bot/aw0Zj54sIsAK7vMnajdz0",
+    "found_via": "https://x.ai/bot/aw0Zj54sIsAK7vMnajdz0",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/competitor-watch/",
+    "json_url": "https://moneywithai.net/api/bots/competitor-watch.json"
+  }
+}

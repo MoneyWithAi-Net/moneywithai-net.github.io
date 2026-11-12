@@ -1,0 +1,128 @@
+{
+  "type": "use-case",
+  "slug": "send-buyers-a-product-catalog",
+  "title": "Send Buyers a Clean Product Catalog",
+  "category": "E-Commerce",
+  "category_slug": "e-commerce",
+  "money_model": "Grow sales",
+  "difficulty": "Beginner",
+  "summary": "Turn loose product photos and a price list into a print-ready catalog that stores, wholesale buyers and event visitors can order from.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you already sell to stores or bulk buyers; a clear catalog saves layout time and makes ordering easier.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Buyers can order from a clear catalog instead of asking you for prices one by one.",
+    "You spend minutes updating a catalog, not an afternoon laying one out."
+  ],
+  "who_its_for": [
+    "Makers and shops that sell to stores or at markets.",
+    "Wholesalers who send line sheets."
+  ],
+  "stack": [
+    {
+      "bot": "product-cataloger",
+      "name": "Product Cataloger",
+      "role": "Sorts products into categories and builds the catalog pages with SKUs, prices and stock.",
+      "creator": "JennyMarquis",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/product-cataloger/",
+      "official_share_url": "https://x.ai/bot/yuRd3EvmDuoGYSr5_Tjz7"
+    },
+    {
+      "bot": "shopify-product-image-maker",
+      "name": "Shopify Product Image Maker",
+      "role": "Makes clean product images for items that only have rough photos.",
+      "creator": "deAPI Team",
+      "tools": [
+        "n8n",
+        "Claude",
+        "Shopify"
+      ],
+      "url": "https://moneywithai.net/bots/shopify-product-image-maker/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Grok",
+    "n8n",
+    "Claude",
+    "Shopify"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Product photos and a price list",
+        "tool": null
+      },
+      {
+        "label": "Store products",
+        "tool": "Shopify"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "shopify-product-image-maker",
+        "name": "Shopify Product Image Maker",
+        "does": "Makes clean product images",
+        "tools": [
+          "n8n",
+          "Claude",
+          "Shopify"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "product-cataloger",
+        "name": "Product Cataloger",
+        "does": "Builds catalog pages with SKUs and prices",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Check prices and send it to buyers",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A print-ready catalog",
+      "Easier orders from buyers"
+    ]
+  },
+  "steps": [
+    "Collect your product photos and price list in one folder.",
+    "Make clean images for the items with weak photos.",
+    "Build the catalog one category at a time and check every price.",
+    "Send the PDF to buyers yourself."
+  ],
+  "guardrails": [
+    "Check every price, SKU and stock figure before the catalog leaves your hands.",
+    "Use only photos you own or have the rights to."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-29T10:00:00.000Z",
+  "featured": {
+    "rank": 58,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/send-buyers-a-product-catalog/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/send-buyers-a-product-catalog.json"
+}

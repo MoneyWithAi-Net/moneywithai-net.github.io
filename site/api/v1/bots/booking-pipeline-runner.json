@@ -11,15 +11,15 @@
   ],
   "creator": {
     "handle": "steventt07",
-    "url": "https://botdirectory.ai/bots/booking-pipeline-runner/"
+    "url": null
   },
   "scouted_by": null,
   "source": {
     "kind": "web",
-    "url": "https://botdirectory.ai/bots/booking-pipeline-runner/"
+    "url": "https://moneywithai.net/bots/booking-pipeline-runner/"
   },
   "official_share_url": null,
-  "found_via": "https://botdirectory.ai/bots/booking-pipeline-runner/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-25",
@@ -31,10 +31,10 @@
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 185,
-    "score": 79,
+    "rank": 297,
+    "score": 73,
     "money": 27,
-    "profile": 26,
+    "profile": 20,
     "visuals": 20,
     "difficulty": 6,
     "override": null,

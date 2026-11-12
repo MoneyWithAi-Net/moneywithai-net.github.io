@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "property-tax-appeal",
+  "name": "Property Tax Appeal",
+  "category": "Client Services",
+  "sub_use_case": "Client delivery",
+  "summary": "Checks whether a home looks over-assessed against recent nearby sales and drafts the appeal and evidence summary under the county's own rules, for a person to review and file.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "chrishadges1",
+    "url": "https://x.com/chrishadges1"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/chrishadges1/status/2110407055400202388"
+  },
+  "official_share_url": "https://x.ai/bot/raHfEQQz1Wbrszn27LgNU",
+  "found_via": "https://x.ai/bot/raHfEQQz1Wbrszn27LgNU",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/property-tax-appeal/",
+  "json_url": "https://moneywithai.net/api/v1/bots/property-tax-appeal.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/offer-property-tax-appeal-help/"
+  ],
+  "added_at": "2026-10-31T15:00:00.000Z",
+  "featured": {
+    "rank": 108,
+    "score": 87,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

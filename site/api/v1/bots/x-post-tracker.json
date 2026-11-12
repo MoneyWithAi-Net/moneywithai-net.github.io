@@ -1,0 +1,42 @@
+{
+  "type": "bot",
+  "slug": "x-post-tracker",
+  "name": "X Post Tracker",
+  "category": "Content and Marketing",
+  "sub_use_case": "Analytics and monitoring",
+  "summary": "Tells you how a launch or offer post really performed, by logging its reach and engagement every hour and handing you charts and a CSV at the end.",
+  "tools": [
+    "X",
+    "Grok"
+  ],
+  "creator": {
+    "handle": "FFBuncho",
+    "url": "https://x.com/FFBuncho"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/FFBuncho/status/2114136214538523132"
+  },
+  "official_share_url": "https://x.ai/bot/HgT6uIgHu2zi4mE-9NytU",
+  "found_via": "https://x.com/FFBuncho/status/2114136214538523132",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-30",
+  "url": "https://moneywithai.net/bots/x-post-tracker/",
+  "json_url": "https://moneywithai.net/api/v1/bots/x-post-tracker.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/learn-which-launch-posts-take-off/"
+  ],
+  "added_at": "2026-10-30T10:00:00.000Z",
+  "featured": {
+    "rank": 294,
+    "score": 73,
+    "money": 13,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

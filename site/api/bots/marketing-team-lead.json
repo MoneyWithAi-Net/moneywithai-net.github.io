@@ -1,5 +1,5 @@
 {
-  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT (based on botdirectory.ai by Inbox Zero Inc.).",
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
   "bot": {
     "slug": "marketing-team-lead",
     "name": "Marketing Team Lead",
@@ -10,8 +10,8 @@
       "Meta"
     ],
     "creator": {
-      "handle": "BotDirectoryAI",
-      "url": "https://botdirectory.ai/bots/marketing-team-lead/"
+      "handle": "Community submission",
+      "url": null
     },
     "scouted_by": null,
     "source": {
@@ -19,7 +19,7 @@
       "url": "https://x.ai/bot/k-keodk82Xq6in9aQY_jT"
     },
     "official_share_url": "https://x.ai/bot/k-keodk82Xq6in9aQY_jT",
-    "found_via": "https://botdirectory.ai/bots/marketing-team-lead/",
+    "found_via": null,
     "prompt_included": false,
     "proof_level": "source_verified",
     "last_checked": "2026-10-25",

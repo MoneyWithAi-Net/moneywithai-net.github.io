@@ -1,0 +1,31 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "plugin-factory",
+    "name": "Plugin Factory",
+    "category": "Research and Ops",
+    "sub_use_case": "Opportunity scouting",
+    "summary": "Looks for small jobs people search for every week, turns them into ChatGPT plugins and sells a paid tier through Whop.",
+    "tools": [
+      "Grok",
+      "ChatGPT",
+      "Whop"
+    ],
+    "creator": {
+      "handle": "Everest Chris",
+      "url": "https://x.ai/bot/zPBVnLWm9zXhmIjpx2G9D"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/zPBVnLWm9zXhmIjpx2G9D"
+    },
+    "official_share_url": "https://x.ai/bot/zPBVnLWm9zXhmIjpx2G9D",
+    "found_via": "https://x.ai/bot/zPBVnLWm9zXhmIjpx2G9D",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/plugin-factory/",
+    "json_url": "https://moneywithai.net/api/bots/plugin-factory.json"
+  }
+}

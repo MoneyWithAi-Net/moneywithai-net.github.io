@@ -1,7 +1,7 @@
 {
   "type": "use-case",
   "slug": "creator-revenue-recovery",
-  "title": "Recover Money Creators Are Owed",
+  "title": "Track Unpaid Invoices and Missing Credits for Creators",
   "category": "Finance",
   "category_slug": "finance",
   "money_model": "Recover money",
@@ -13,10 +13,10 @@
     "label": "Low",
     "basis": "Assumes some leakage exists; amounts vary widely.",
     "claim_label": "E",
-    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
   },
   "how_it_makes_money": [
-    "Money you earned but never collected.",
+    "Unpaid invoices and missing credits get tracked down.",
     "Clear records for disputes."
   ],
   "who_its_for": [
@@ -152,7 +152,7 @@
   "claims": [],
   "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 111,
+    "rank": 159,
     "score": 69,
     "money": 13,
     "profile": 26,

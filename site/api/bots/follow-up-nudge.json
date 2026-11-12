@@ -1,0 +1,30 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "follow-up-nudge",
+    "name": "Follow-Up Nudge",
+    "category": "Leads and Sales",
+    "sub_use_case": "Speed-to-lead and quotes",
+    "summary": "Checks your sent mail each weekday for outbound threads that got no answer and drafts a one-line nudge for each.",
+    "tools": [
+      "Grok",
+      "Threads"
+    ],
+    "creator": {
+      "handle": "Mike Mosley",
+      "url": "https://x.ai/bot/ylBNvuYu7IDolbSmmKHUU"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/ylBNvuYu7IDolbSmmKHUU"
+    },
+    "official_share_url": "https://x.ai/bot/ylBNvuYu7IDolbSmmKHUU",
+    "found_via": "https://x.ai/bot/ylBNvuYu7IDolbSmmKHUU",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/follow-up-nudge/",
+    "json_url": "https://moneywithai.net/api/bots/follow-up-nudge.json"
+  }
+}

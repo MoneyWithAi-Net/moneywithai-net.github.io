@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "contract-desk",
+  "name": "Contract Desk",
+  "category": "Research and Ops",
+  "sub_use_case": "Compliance and admin",
+  "summary": "Shows the week's contracts by stage and owner, pulls key terms and flags reviews that are stuck.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "SpaceX",
+    "url": "https://x.ai/bot/sd358e6cf5e8bed188eec"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/sd358e6cf5e8bed188eec"
+  },
+  "official_share_url": "https://x.ai/bot/sd358e6cf5e8bed188eec",
+  "found_via": "https://x.ai/bot/sd358e6cf5e8bed188eec",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/contract-desk/",
+  "json_url": "https://moneywithai.net/api/v1/bots/contract-desk.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 389,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

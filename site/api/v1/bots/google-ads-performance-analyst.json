@@ -18,7 +18,7 @@
     "url": "https://x.com/benln/status/2090058746491756677"
   },
   "official_share_url": null,
-  "found_via": "https://botdirectory.ai/bots/google-ads-performance-analyst/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-25",
@@ -26,11 +26,12 @@
   "json_url": "https://moneywithai.net/api/v1/bots/google-ads-performance-analyst.json",
   "use_cases": [
     "https://moneywithai.net/use-cases/customer-voice-ad-engine/",
-    "https://moneywithai.net/use-cases/ads-and-tracking-audit-service/"
+    "https://moneywithai.net/use-cases/ads-and-tracking-audit-service/",
+    "https://moneywithai.net/use-cases/audit-google-ads-before-you-change/"
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 202,
+    "rank": 220,
     "score": 79,
     "money": 27,
     "profile": 26,

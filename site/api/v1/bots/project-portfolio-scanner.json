@@ -1,0 +1,40 @@
+{
+  "type": "bot",
+  "slug": "project-portfolio-scanner",
+  "name": "Project Portfolio Scanner",
+  "category": "Content and Marketing",
+  "sub_use_case": "Brand-deal pricing",
+  "summary": "Scans an X account for project and campaign posts and builds a shareable portfolio with reach totals and a suggested rate card.",
+  "tools": [
+    "Grok",
+    "X"
+  ],
+  "creator": {
+    "handle": "PARELLA™",
+    "url": "https://x.ai/bot/KAdPTgvXbDoqYAvg2h65y"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/KAdPTgvXbDoqYAvg2h65y"
+  },
+  "official_share_url": "https://x.ai/bot/KAdPTgvXbDoqYAvg2h65y",
+  "found_via": "https://x.ai/bot/KAdPTgvXbDoqYAvg2h65y",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/project-portfolio-scanner/",
+  "json_url": "https://moneywithai.net/api/v1/bots/project-portfolio-scanner.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 551,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

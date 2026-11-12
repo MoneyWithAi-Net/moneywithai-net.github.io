@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "highlight-reel",
+    "name": "Highlight Reel",
+    "category": "Content and Marketing",
+    "sub_use_case": "Video production",
+    "summary": "Turns raw sports and training footage into short vertical reels cut to licensed music, with captions.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Michael Heckert",
+      "url": "https://x.ai/bot/Aq0hS2Z-fEtENFItAZeRI"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/Aq0hS2Z-fEtENFItAZeRI"
+    },
+    "official_share_url": "https://x.ai/bot/Aq0hS2Z-fEtENFItAZeRI",
+    "found_via": "https://x.ai/bot/Aq0hS2Z-fEtENFItAZeRI",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/highlight-reel/",
+    "json_url": "https://moneywithai.net/api/bots/highlight-reel.json"
+  }
+}

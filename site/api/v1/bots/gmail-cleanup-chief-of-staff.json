@@ -1,0 +1,42 @@
+{
+  "type": "bot",
+  "slug": "gmail-cleanup-chief-of-staff",
+  "name": "Gmail Cleanup Chief of Staff",
+  "category": "Research and Ops",
+  "sub_use_case": "Inbox triage",
+  "summary": "Shows which senders fill your Gmail, with counts, and moves only the newsletters, promotions and notifications you approve to Trash.",
+  "tools": [
+    "Grok",
+    "Gmail"
+  ],
+  "creator": {
+    "handle": "터미너스(GO TO MARS)",
+    "url": "https://x.ai/bot/MmRhYPkM9e4w4V3uTfIgP"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/MmRhYPkM9e4w4V3uTfIgP"
+  },
+  "official_share_url": "https://x.ai/bot/MmRhYPkM9e4w4V3uTfIgP",
+  "found_via": "https://x.ai/bot/MmRhYPkM9e4w4V3uTfIgP",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/gmail-cleanup-chief-of-staff/",
+  "json_url": "https://moneywithai.net/api/v1/bots/gmail-cleanup-chief-of-staff.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/free-up-gmail-storage-before-you-pay-for-more/"
+  ],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 273,
+    "score": 73,
+    "money": 13,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

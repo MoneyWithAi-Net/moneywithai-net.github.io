@@ -18,7 +18,7 @@
     "url": "https://x.com/ColinMcDermott/status/2105790823682003017"
   },
   "official_share_url": "https://x.ai/bot/5axq0n6JtBkqjhMaCDO6d",
-  "found_via": "https://grokbot101.org/bots/store-manager/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-24",
@@ -30,7 +30,7 @@
   ],
   "added_at": "2026-10-24T09:30:00.000Z",
   "featured": {
-    "rank": 11,
+    "rank": 15,
     "score": 100,
     "money": 40,
     "profile": 30,

@@ -1,0 +1,40 @@
+{
+  "type": "bot",
+  "slug": "x-high-coach",
+  "name": "X High Coach",
+  "category": "Content and Marketing",
+  "sub_use_case": "X posting",
+  "summary": "Reviews your own X account with a score, health flags, post rewrites and a one-week fix plan.",
+  "tools": [
+    "Grok",
+    "X"
+  ],
+  "creator": {
+    "handle": "High Tv",
+    "url": "https://x.ai/bot/xSfBSprfKv5h909uzrv7W"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/xSfBSprfKv5h909uzrv7W"
+  },
+  "official_share_url": "https://x.ai/bot/xSfBSprfKv5h909uzrv7W",
+  "found_via": "https://x.ai/bot/xSfBSprfKv5h909uzrv7W",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/x-high-coach/",
+  "json_url": "https://moneywithai.net/api/v1/bots/x-high-coach.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 642,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

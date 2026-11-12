@@ -1,0 +1,30 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "morning-post-planner",
+    "name": "Morning Post Planner",
+    "category": "Content and Marketing",
+    "sub_use_case": "X posting",
+    "summary": "Ends the daily guessing about what to post by handing you a short morning brief of what is working in your niche and drafts to pick from.",
+    "tools": [
+      "X",
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Beaver_0x",
+      "url": "https://x.com/Beaver_0x"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/Beaver_0x/status/2115096187103748164"
+    },
+    "official_share_url": null,
+    "found_via": "https://x.com/Beaver_0x/status/2115096187103748164",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-29",
+    "url": "https://moneywithai.net/bots/morning-post-planner/",
+    "json_url": "https://moneywithai.net/api/bots/morning-post-planner.json"
+  }
+}

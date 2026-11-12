@@ -18,7 +18,7 @@
     "url": "https://x.com/pattyshack/status/2101396887219908999"
   },
   "official_share_url": "https://x.ai/bot/wB9H7OSiHYPlRgyCTM5Iq",
-  "found_via": "https://grokbot101.org/bots/restaurant-order-errors/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-24",
@@ -30,7 +30,7 @@
   ],
   "added_at": "2026-10-24T09:30:00.000Z",
   "featured": {
-    "rank": 93,
+    "rank": 113,
     "score": 87,
     "money": 27,
     "profile": 30,

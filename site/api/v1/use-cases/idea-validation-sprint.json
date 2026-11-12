@@ -1,26 +1,26 @@
 {
   "type": "use-case",
   "slug": "idea-validation-sprint",
-  "title": "Validate a Business Idea in Two Weeks",
+  "title": "Validate a New Offer in Two Weeks",
   "category": "Research and Ops",
   "category_slug": "research-and-ops",
   "money_model": "Sell a service",
   "difficulty": "Beginner",
-  "summary": "Pull real pain points, study a working business, check opportunity fit and leave with one customer conversation.",
+  "summary": "Pull real pain points, study a business already selling a similar offer, check fit and leave with one customer conversation.",
   "money_potential": {
     "tier": 1,
     "symbol": "$",
     "label": "Low",
-    "basis": "Assumes the value is avoiding a bad bet; income comes later.",
+    "basis": "Assumes the value is avoiding a bad bet on a new offer.",
     "claim_label": "E",
-    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
   },
   "how_it_makes_money": [
     "You avoid building something nobody wants.",
     "A real customer conversation in 14 days."
   ],
   "who_its_for": [
-    "Aspiring founders and side-hustlers."
+    "Business owners and consultants testing a new offer."
   ],
   "stack": [
     {
@@ -38,7 +38,7 @@
       "bot": "steal-this-business",
       "name": "Steal This Business",
       "role": "Breaks down a working business.",
-      "creator": "Grok_Hub_IO",
+      "creator": "adxtyahq",
       "tools": [
         "Grok"
       ],
@@ -48,8 +48,8 @@
     {
       "bot": "opportunity-field-researcher",
       "name": "Opportunity Field Researcher",
-      "role": "Checks fit with your skills and budget.",
-      "creator": "elie2222",
+      "role": "Checks fit with your business and budget.",
+      "creator": "Community submission",
       "tools": [
         "Trends.vc"
       ],
@@ -92,7 +92,7 @@
         "tool": null
       },
       {
-        "label": "Your skills and budget",
+        "label": "Your business and budget",
         "tool": null
       }
     ],
@@ -156,7 +156,7 @@
     ]
   },
   "steps": [
-    "Pick three ideas.",
+    "Pick three offer ideas.",
     "Run the research on each.",
     "Choose one and talk to five people.",
     "Decide go or no-go."
@@ -168,7 +168,7 @@
   "claims": [],
   "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 123,
+    "rank": 162,
     "score": 69,
     "money": 13,
     "profile": 26,

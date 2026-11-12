@@ -1,7 +1,7 @@
 {
   "type": "use-case",
   "slug": "restaurant-orders-calls-recovery",
-  "title": "Take Restaurant Orders and Calls, and Recover Lost Money",
+  "title": "Take Restaurant Orders and Calls, and Catch Delivery Errors",
   "category": "E-Commerce",
   "category_slug": "e-commerce",
   "money_model": "Recover money",
@@ -13,7 +13,7 @@
     "label": "Medium",
     "basis": "Assumes recovered refunds plus a few extra bookings.",
     "claim_label": "E",
-    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
   },
   "how_it_makes_money": [
     "No missed calls at rush hour.",
@@ -159,7 +159,7 @@
   "claims": [],
   "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 76,
+    "rank": 102,
     "score": 79,
     "money": 27,
     "profile": 26,

@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "doc-merger",
+    "name": "Doc Merger",
+    "category": "Research and Ops",
+    "sub_use_case": "Compliance and admin",
+    "summary": "Merges a pile of documents into one master file with a table of contents and a check that every file made it in.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Brian",
+      "url": "https://x.ai/bot/tMEJdHdRUQHgQMOOy-xjj"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/tMEJdHdRUQHgQMOOy-xjj"
+    },
+    "official_share_url": "https://x.ai/bot/tMEJdHdRUQHgQMOOy-xjj",
+    "found_via": "https://x.ai/bot/tMEJdHdRUQHgQMOOy-xjj",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/doc-merger/",
+    "json_url": "https://moneywithai.net/api/bots/doc-merger.json"
+  }
+}

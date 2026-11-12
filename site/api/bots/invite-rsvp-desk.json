@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "invite-rsvp-desk",
+    "name": "Invite RSVP Desk",
+    "category": "Research and Ops",
+    "sub_use_case": "Inbox triage",
+    "summary": "Scans pending calendar invites each weekday and drafts accept, decline or new-time replies for your yes.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Mike Mosley",
+      "url": "https://x.ai/bot/d6V6qGTZjc2lGt2OIk_C_"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/d6V6qGTZjc2lGt2OIk_C_"
+    },
+    "official_share_url": "https://x.ai/bot/d6V6qGTZjc2lGt2OIk_C_",
+    "found_via": "https://x.ai/bot/d6V6qGTZjc2lGt2OIk_C_",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/invite-rsvp-desk/",
+    "json_url": "https://moneywithai.net/api/bots/invite-rsvp-desk.json"
+  }
+}

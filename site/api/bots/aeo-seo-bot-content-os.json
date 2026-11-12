@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "aeo-seo-bot-content-os",
+    "name": "AEO/SEO Bot (Content OS)",
+    "category": "Content and Marketing",
+    "sub_use_case": "SEO and AI search",
+    "summary": "Mines founder recordings for content ideas, checks them against your live pages and drafts unpublished posts for SEO and AI answers.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Eric Siu",
+      "url": "https://x.ai/bot/Jyx1Lg-VzYgyjDc-y-GQi"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/Jyx1Lg-VzYgyjDc-y-GQi"
+    },
+    "official_share_url": "https://x.ai/bot/Jyx1Lg-VzYgyjDc-y-GQi",
+    "found_via": "https://x.ai/bot/Jyx1Lg-VzYgyjDc-y-GQi",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/aeo-seo-bot-content-os/",
+    "json_url": "https://moneywithai.net/api/bots/aeo-seo-bot-content-os.json"
+  }
+}

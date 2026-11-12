@@ -11,7 +11,7 @@
   ],
   "creator": {
     "handle": "zilvestro",
-    "url": "https://botdirectory.ai/bots/affiliate-recruiter/"
+    "url": null
   },
   "scouted_by": null,
   "source": {
@@ -19,7 +19,7 @@
     "url": "https://x.ai/bot/TaCAhCtPGCvObAaK7ZDQQ"
   },
   "official_share_url": "https://x.ai/bot/TaCAhCtPGCvObAaK7ZDQQ",
-  "found_via": "https://botdirectory.ai/bots/affiliate-recruiter/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-25",
@@ -30,10 +30,10 @@
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 142,
-    "score": 83,
+    "rank": 257,
+    "score": 77,
     "money": 27,
-    "profile": 30,
+    "profile": 24,
     "visuals": 20,
     "difficulty": 6,
     "override": null,

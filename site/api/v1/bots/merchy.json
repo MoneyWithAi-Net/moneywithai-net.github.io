@@ -1,0 +1,40 @@
+{
+  "type": "bot",
+  "slug": "merchy",
+  "name": "Merchy",
+  "category": "E-Commerce",
+  "sub_use_case": "Product listings and creative",
+  "summary": "Turns moments, posts and fan requests into print-on-demand products on your Shopify store through Printful, with rights checks first.",
+  "tools": [
+    "Grok",
+    "Shopify"
+  ],
+  "creator": {
+    "handle": "Farzad",
+    "url": "https://x.ai/bot/uYI1q2h7nf7wynlwMaW2Z"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/uYI1q2h7nf7wynlwMaW2Z"
+  },
+  "official_share_url": "https://x.ai/bot/uYI1q2h7nf7wynlwMaW2Z",
+  "found_via": "https://x.ai/bot/uYI1q2h7nf7wynlwMaW2Z",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/merchy/",
+  "json_url": "https://moneywithai.net/api/v1/bots/merchy.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 513,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

@@ -16,13 +16,13 @@
     "handle": "euboid",
     "url": "https://x.com/euboid"
   },
-  "scouted_by": "elie2222",
+  "scouted_by": null,
   "source": {
     "kind": "x",
     "url": "https://x.com/euboid/status/2089291320271482895"
   },
   "official_share_url": null,
-  "found_via": "https://botdirectory.ai/bots/support-ticket-fixer/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-24",
@@ -34,7 +34,7 @@
   ],
   "added_at": "2026-10-24T08:00:00.000Z",
   "featured": {
-    "rank": 242,
+    "rank": 265,
     "score": 76,
     "money": 27,
     "profile": 26,

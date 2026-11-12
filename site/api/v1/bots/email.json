@@ -1,0 +1,42 @@
+{
+  "type": "bot",
+  "slug": "email",
+  "name": "Email",
+  "category": "Research and Ops",
+  "sub_use_case": "Inbox triage",
+  "summary": "Triages your inbox hard and drafts only the replies that matter. It never sends without your yes.",
+  "tools": [
+    "Grok",
+    "Email"
+  ],
+  "creator": {
+    "handle": "andrewkittridge",
+    "url": "https://x.com/andrewkittridge"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/BFjaZlR93AzcnDagMhktC"
+  },
+  "official_share_url": "https://x.ai/bot/BFjaZlR93AzcnDagMhktC",
+  "found_via": null,
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-11-07",
+  "url": "https://moneywithai.net/bots/email/",
+  "json_url": "https://moneywithai.net/api/v1/bots/email.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/triage-email-without-auto-send/"
+  ],
+  "added_at": "2026-11-07T10:00:00.000Z",
+  "featured": {
+    "rank": 270,
+    "score": 73,
+    "money": 13,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

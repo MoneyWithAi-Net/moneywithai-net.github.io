@@ -1,0 +1,32 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "paid-media-report-desk",
+    "name": "Paid Media Report Desk",
+    "category": "Content and Marketing",
+    "sub_use_case": "Analytics and monitoring",
+    "summary": "Combines Google Ads, Meta and LinkedIn exports into one weekly report with commentary and answers reporting questions in Slack.",
+    "tools": [
+      "Grok",
+      "Google Ads",
+      "LinkedIn",
+      "Slack"
+    ],
+    "creator": {
+      "handle": "Miguel Cruz",
+      "url": "https://x.ai/bot/qBFjPRQ3IbHG69qIFHblE"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/qBFjPRQ3IbHG69qIFHblE"
+    },
+    "official_share_url": "https://x.ai/bot/qBFjPRQ3IbHG69qIFHblE",
+    "found_via": "https://x.ai/bot/qBFjPRQ3IbHG69qIFHblE",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/paid-media-report-desk/",
+    "json_url": "https://moneywithai.net/api/bots/paid-media-report-desk.json"
+  }
+}

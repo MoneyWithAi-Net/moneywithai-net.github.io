@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "invite-rsvp-desk",
+  "name": "Invite RSVP Desk",
+  "category": "Research and Ops",
+  "sub_use_case": "Inbox triage",
+  "summary": "Scans pending calendar invites each weekday and drafts accept, decline or new-time replies for your yes.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Mike Mosley",
+    "url": "https://x.ai/bot/d6V6qGTZjc2lGt2OIk_C_"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/d6V6qGTZjc2lGt2OIk_C_"
+  },
+  "official_share_url": "https://x.ai/bot/d6V6qGTZjc2lGt2OIk_C_",
+  "found_via": "https://x.ai/bot/d6V6qGTZjc2lGt2OIk_C_",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/invite-rsvp-desk/",
+  "json_url": "https://moneywithai.net/api/v1/bots/invite-rsvp-desk.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 484,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "rental-desk",
+    "name": "Rental Desk",
+    "category": "Finance",
+    "sub_use_case": "Rental bookkeeping",
+    "summary": "Runs the rental cycle for small landlords: lease reminders, listing drafts, inquiries, showings, fair screening and a rent and repair log.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Branden Troutman",
+      "url": "https://x.ai/bot/0havI1dJhzL_gG11rueQN"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/0havI1dJhzL_gG11rueQN"
+    },
+    "official_share_url": "https://x.ai/bot/0havI1dJhzL_gG11rueQN",
+    "found_via": "https://x.ai/bot/0havI1dJhzL_gG11rueQN",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/rental-desk/",
+    "json_url": "https://moneywithai.net/api/bots/rental-desk.json"
+  }
+}

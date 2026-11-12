@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "when-it-matters",
+  "name": "When It Matters",
+  "category": "Research and Ops",
+  "sub_use_case": "Market notes",
+  "summary": "Gives an owner back the time spent checking the same things: it watches a topic for you and only messages when something would change your decision.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "hnshah",
+    "url": "https://x.com/hnshah"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/BqrH8_GNQvSYV-gcmJnd8"
+  },
+  "official_share_url": "https://x.ai/bot/BqrH8_GNQvSYV-gcmJnd8",
+  "found_via": null,
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-11-01",
+  "url": "https://moneywithai.net/bots/when-it-matters/",
+  "json_url": "https://moneywithai.net/api/v1/bots/when-it-matters.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/stop-checking-the-same-pages-every-day/"
+  ],
+  "added_at": "2026-11-01T10:00:00.000Z",
+  "featured": {
+    "rank": 291,
+    "score": 73,
+    "money": 13,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

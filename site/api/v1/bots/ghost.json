@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "ghost",
+  "name": "Ghost",
+  "category": "Research and Ops",
+  "sub_use_case": "Planning and projects",
+  "summary": "A chief of staff for reliability engineering and industrial service firms that turns the inbox into assignments for your crew.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Rob Law",
+    "url": "https://x.ai/bot/yejon8cHpxlKsx_joM1rf"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/yejon8cHpxlKsx_joM1rf"
+  },
+  "official_share_url": "https://x.ai/bot/yejon8cHpxlKsx_joM1rf",
+  "found_via": "https://x.ai/bot/yejon8cHpxlKsx_joM1rf",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/ghost/",
+  "json_url": "https://moneywithai.net/api/v1/bots/ghost.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 453,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

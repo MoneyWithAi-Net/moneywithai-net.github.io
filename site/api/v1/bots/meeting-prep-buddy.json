@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "meeting-prep-buddy",
+  "name": "Meeting Prep Buddy",
+  "category": "Leads and Sales",
+  "sub_use_case": "Sales-call support",
+  "summary": "Builds a prep pack for each meeting from calendar, notes, CRM, Gong and Slack: who is coming, last contact, open threads and an agenda.",
+  "tools": [
+    "Grok",
+    "Threads",
+    "Slack"
+  ],
+  "creator": {
+    "handle": "SpaceX",
+    "url": "https://x.ai/bot/s445a0c9a2ca4bea7729e"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/s445a0c9a2ca4bea7729e"
+  },
+  "official_share_url": "https://x.ai/bot/s445a0c9a2ca4bea7729e",
+  "found_via": "https://x.ai/bot/s445a0c9a2ca4bea7729e",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/meeting-prep-buddy/",
+  "json_url": "https://moneywithai.net/api/v1/bots/meeting-prep-buddy.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 510,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

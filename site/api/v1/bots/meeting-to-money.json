@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "meeting-to-money",
+  "name": "Meeting to Money",
+  "category": "Client Services",
+  "sub_use_case": "Quotes",
+  "summary": "For freelancers and small agencies: turns a sales meeting into a priced proposal, a go-ahead, an invoice and payment reminders, each sent on your OK.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Keith Vaughan",
+    "url": "https://x.ai/bot/Uicr9Dc3FKOmsMfbN_NHB"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/Uicr9Dc3FKOmsMfbN_NHB"
+  },
+  "official_share_url": "https://x.ai/bot/Uicr9Dc3FKOmsMfbN_NHB",
+  "found_via": "https://x.ai/bot/Uicr9Dc3FKOmsMfbN_NHB",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/meeting-to-money/",
+  "json_url": "https://moneywithai.net/api/v1/bots/meeting-to-money.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 512,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "security-johnson-joy",
+  "name": "Security",
+  "category": "Research and Ops",
+  "sub_use_case": "Compliance and admin",
+  "summary": "Screens incoming email and outside data for your other bots, checking for prompt injection, phishing, spoofed senders and money requests.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Johnson Joy",
+    "url": "https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l"
+  },
+  "official_share_url": "https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l",
+  "found_via": "https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/security-johnson-joy/",
+  "json_url": "https://moneywithai.net/api/v1/bots/security-johnson-joy.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 582,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

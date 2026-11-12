@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "haggle-bot-aaron-maga",
+  "name": "Haggle Bot",
+  "category": "Finance",
+  "sub_use_case": "SaaS spend",
+  "summary": "Sorts your SaaS and vendor spend into keep, cut or renegotiate and drafts the cancel and counter-offer emails.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "AARON MAGA",
+    "url": "https://x.ai/bot/tZ7zSNa0s1OEtrfFiFlHV"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/tZ7zSNa0s1OEtrfFiFlHV"
+  },
+  "official_share_url": "https://x.ai/bot/tZ7zSNa0s1OEtrfFiFlHV",
+  "found_via": "https://x.ai/bot/tZ7zSNa0s1OEtrfFiFlHV",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/haggle-bot-aaron-maga/",
+  "json_url": "https://moneywithai.net/api/v1/bots/haggle-bot-aaron-maga.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 464,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "chief-of-staff-spacex",
+    "name": "Chief of Staff",
+    "category": "Research and Ops",
+    "sub_use_case": "Inbox triage",
+    "summary": "Scans Slack, email, calendar and meeting notes and sends a short readout of what is new and what matters to your priorities, with sources.",
+    "tools": [
+      "Grok",
+      "Slack"
+    ],
+    "creator": {
+      "handle": "SpaceX",
+      "url": "https://x.ai/bot/sc0a0ec3ce9c675824106"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/sc0a0ec3ce9c675824106"
+    },
+    "official_share_url": "https://x.ai/bot/sc0a0ec3ce9c675824106",
+    "found_via": "https://x.ai/bot/sc0a0ec3ce9c675824106",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/chief-of-staff-spacex/",
+    "json_url": "https://moneywithai.net/api/bots/chief-of-staff-spacex.json"
+  }
+}

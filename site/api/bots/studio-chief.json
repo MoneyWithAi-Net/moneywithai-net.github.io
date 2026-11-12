@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "studio-chief",
+    "name": "Studio Chief",
+    "category": "Research and Ops",
+    "sub_use_case": "Planning and projects",
+    "summary": "Runs a team of bots for a product-photography studio covering code, CRM follow-ups, ads and outreach so the owner can stay on shoots.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Nicholas Barella",
+      "url": "https://x.ai/bot/afaVkl0isgnW-xrkGP6Sa"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/afaVkl0isgnW-xrkGP6Sa"
+    },
+    "official_share_url": "https://x.ai/bot/afaVkl0isgnW-xrkGP6Sa",
+    "found_via": "https://x.ai/bot/afaVkl0isgnW-xrkGP6Sa",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/studio-chief/",
+    "json_url": "https://moneywithai.net/api/bots/studio-chief.json"
+  }
+}

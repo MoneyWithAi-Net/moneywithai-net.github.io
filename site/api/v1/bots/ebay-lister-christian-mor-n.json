@@ -1,0 +1,40 @@
+{
+  "type": "bot",
+  "slug": "ebay-lister-christian-mor-n",
+  "name": "eBay Lister",
+  "category": "E-Commerce",
+  "sub_use_case": "Resale listings",
+  "summary": "Send a photo of an item to sell: it identifies it, checks eBay sold prices, suggests a price and drafts the listing for your approval.",
+  "tools": [
+    "Grok",
+    "eBay"
+  ],
+  "creator": {
+    "handle": "Christian Morón",
+    "url": "https://x.ai/bot/5m2ZmmvB9P0dtq4efpill"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/5m2ZmmvB9P0dtq4efpill"
+  },
+  "official_share_url": "https://x.ai/bot/5m2ZmmvB9P0dtq4efpill",
+  "found_via": "https://x.ai/bot/5m2ZmmvB9P0dtq4efpill",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/ebay-lister-christian-mor-n/",
+  "json_url": "https://moneywithai.net/api/v1/bots/ebay-lister-christian-mor-n.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 418,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

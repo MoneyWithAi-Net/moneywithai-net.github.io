@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "writer",
+    "name": "Writer",
+    "category": "Content and Marketing",
+    "sub_use_case": "Copy and creative",
+    "summary": "Writes one short weekly post in your voice from your research notes, for you to check and post yourself.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Anand",
+      "url": "https://x.ai/bot/jNEh8fKV4t37pPHkIi-Hu"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/jNEh8fKV4t37pPHkIi-Hu"
+    },
+    "official_share_url": "https://x.ai/bot/jNEh8fKV4t37pPHkIi-Hu",
+    "found_via": "https://x.ai/bot/jNEh8fKV4t37pPHkIi-Hu",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/writer/",
+    "json_url": "https://moneywithai.net/api/bots/writer.json"
+  }
+}

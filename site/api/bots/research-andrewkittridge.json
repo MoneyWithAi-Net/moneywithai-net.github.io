@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "research-andrewkittridge",
+    "name": "Research",
+    "category": "Research and Ops",
+    "sub_use_case": "Market notes",
+    "summary": "Gives you answers you can put in front of a client or partner: each finding is backed by a primary source, with the facts kept apart from opinion.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "andrewkittridge",
+      "url": "https://x.com/andrewkittridge"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/Q6NiveEqmhIiYir_ZQG-4"
+    },
+    "official_share_url": "https://x.ai/bot/Q6NiveEqmhIiYir_ZQG-4",
+    "found_via": null,
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-11-01",
+    "url": "https://moneywithai.net/bots/research-andrewkittridge/",
+    "json_url": "https://moneywithai.net/api/bots/research-andrewkittridge.json"
+  }
+}

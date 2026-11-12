@@ -1,0 +1,30 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "os-reviewer",
+    "name": "OS Reviewer",
+    "category": "Research and Ops",
+    "sub_use_case": "Product and engineering",
+    "summary": "Final reviewer for an open-source contribution crew: reads each diff and linked issue and runs checks before anything is pushed.",
+    "tools": [
+      "Grok",
+      "GitHub"
+    ],
+    "creator": {
+      "handle": "0xDaemon",
+      "url": "https://x.ai/bot/EDqq9TCA9F9EQ3XnStcKb"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/EDqq9TCA9F9EQ3XnStcKb"
+    },
+    "official_share_url": "https://x.ai/bot/EDqq9TCA9F9EQ3XnStcKb",
+    "found_via": "https://x.ai/bot/EDqq9TCA9F9EQ3XnStcKb",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/os-reviewer/",
+    "json_url": "https://moneywithai.net/api/bots/os-reviewer.json"
+  }
+}

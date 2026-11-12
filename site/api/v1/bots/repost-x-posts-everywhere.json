@@ -1,0 +1,44 @@
+{
+  "type": "bot",
+  "slug": "repost-x-posts-everywhere",
+  "name": "repost X posts everywhere",
+  "category": "Content and Marketing",
+  "sub_use_case": "Brand social",
+  "summary": "Copies your new X posts to Threads, LinkedIn, Facebook and Bluesky through Post Bridge.",
+  "tools": [
+    "Grok",
+    "Facebook",
+    "LinkedIn",
+    "Bluesky",
+    "Threads",
+    "X"
+  ],
+  "creator": {
+    "handle": "jack friks",
+    "url": "https://x.ai/bot/fu6JIwhLoBvrxtaZik0RP"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/fu6JIwhLoBvrxtaZik0RP"
+  },
+  "official_share_url": "https://x.ai/bot/fu6JIwhLoBvrxtaZik0RP",
+  "found_via": "https://x.ai/bot/fu6JIwhLoBvrxtaZik0RP",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/repost-x-posts-everywhere/",
+  "json_url": "https://moneywithai.net/api/v1/bots/repost-x-posts-everywhere.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 566,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

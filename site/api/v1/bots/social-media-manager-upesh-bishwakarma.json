@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "social-media-manager-upesh-bishwakarma",
+  "name": "Social Media Manager",
+  "category": "Content and Marketing",
+  "sub_use_case": "Brand social",
+  "summary": "Turns news emails, X trends and your notes into short posts for X and Threads and publishes them through Buffer.",
+  "tools": [
+    "Grok",
+    "Threads",
+    "X"
+  ],
+  "creator": {
+    "handle": "Upesh Bishwakarma",
+    "url": "https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL"
+  },
+  "official_share_url": "https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL",
+  "found_via": "https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/social-media-manager-upesh-bishwakarma/",
+  "json_url": "https://moneywithai.net/api/v1/bots/social-media-manager-upesh-bishwakarma.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 598,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

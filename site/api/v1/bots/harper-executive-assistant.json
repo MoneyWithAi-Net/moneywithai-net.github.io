@@ -10,16 +10,16 @@
     "SMS"
   ],
   "creator": {
-    "handle": "BotDirectoryAI",
-    "url": "https://x.com/BotDirectoryAI"
+    "handle": "Community submission",
+    "url": null
   },
   "scouted_by": null,
   "source": {
     "kind": "x",
-    "url": "https://x.com/BotDirectoryAI/status/2112318698572697955"
+    "url": "https://moneywithai.net/bots/harper-executive-assistant/"
   },
   "official_share_url": "https://x.ai/bot/A6er8L662aOk-vYUrRY9_",
-  "found_via": "https://botdirectory.ai/bots/harper-executive-assistant/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-25",
@@ -30,7 +30,7 @@
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 81,
+    "rank": 92,
     "score": 87,
     "money": 27,
     "profile": 30,

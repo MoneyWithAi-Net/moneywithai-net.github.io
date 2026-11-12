@@ -1,0 +1,121 @@
+{
+  "type": "use-case",
+  "slug": "offer-property-tax-appeal-help",
+  "title": "Offer Property Tax Appeal Help to Your Clients",
+  "category": "Client Services",
+  "category_slug": "client-services",
+  "money_model": "Sell a service",
+  "difficulty": "Beginner",
+  "summary": "Check whether a client's home looks over-assessed and hand them a drafted appeal with an evidence summary, as a useful extra service after a sale.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you already have past clients who own homes; the value is time saved and goodwill, not new fees.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "A useful extra service that keeps past clients coming back.",
+    "Less time per appeal than drafting it by hand."
+  ],
+  "who_its_for": [
+    "Real estate agents who stay in touch with past buyers.",
+    "Appraisers and property consultants."
+  ],
+  "stack": [
+    {
+      "bot": "property-tax-appeal",
+      "name": "Property Tax Appeal",
+      "role": "Compares the assessment with recent nearby sales and drafts the appeal and evidence summary under county rules.",
+      "creator": "chrishadges1",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/property-tax-appeal/",
+      "official_share_url": "https://x.ai/bot/raHfEQQz1Wbrszn27LgNU"
+    },
+    {
+      "bot": "post-call-assistant",
+      "name": "Post Call Assistant",
+      "role": "Turns each client call into to-dos and a follow-up draft.",
+      "creator": "itspriyaptl",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/post-call-assistant/",
+      "official_share_url": "https://x.ai/bot/xF12c5y4LVe7nf7IFguWI"
+    }
+  ],
+  "tools": [
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Assessment notice",
+        "tool": null
+      },
+      {
+        "label": "Recent nearby sales",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "property-tax-appeal",
+        "name": "Property Tax Appeal",
+        "does": "Drafts the appeal and evidence summary",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "you",
+        "name": "You",
+        "does": "Check comps and the deadline",
+        "tools": []
+      },
+      {
+        "order": 3,
+        "by": "post-call-assistant",
+        "name": "Post Call Assistant",
+        "does": "Lists next steps and drafts a follow-up",
+        "tools": [
+          "Grok"
+        ]
+      }
+    ],
+    "outputs": [
+      "A drafted appeal and evidence summary",
+      "A clear next step for the client"
+    ]
+  },
+  "steps": [
+    "Collect the client's assessment notice and address.",
+    "Run the check and read the comparable sales.",
+    "Review the draft appeal and the county deadline.",
+    "Hand it to the client to file, or refer them to a professional."
+  ],
+  "guardrails": [
+    "This is not tax or legal advice; check local rules on who may file for someone else.",
+    "Verify every comparable sale before anything is filed."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-31T15:00:00.000Z",
+  "featured": {
+    "rank": 46,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/offer-property-tax-appeal-help/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/offer-property-tax-appeal-help.json"
+}

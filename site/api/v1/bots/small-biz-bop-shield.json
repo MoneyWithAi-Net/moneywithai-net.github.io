@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "small-biz-bop-shield",
+  "name": "Small Biz BOP Shield",
+  "category": "Research and Ops",
+  "sub_use_case": "Compliance and admin",
+  "summary": "Explains a Business Owners Policy in plain words and flags common coverage gaps to ask your broker about. It is not insurance advice.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "LisaMAUSA",
+    "url": "https://x.com/LisaMAUSA"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/cTAWdbLtxrrrq1wZG4toH"
+  },
+  "official_share_url": "https://x.ai/bot/cTAWdbLtxrrrq1wZG4toH",
+  "found_via": null,
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-11-07",
+  "url": "https://moneywithai.net/bots/small-biz-bop-shield/",
+  "json_url": "https://moneywithai.net/api/v1/bots/small-biz-bop-shield.json",
+  "use_cases": [],
+  "added_at": "2026-11-07T10:00:00.000Z",
+  "featured": {
+    "rank": 593,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

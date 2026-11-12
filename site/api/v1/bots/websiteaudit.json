@@ -10,31 +10,33 @@
   ],
   "creator": {
     "handle": "websiteaudit_20261003",
-    "url": "https://botdirectory.ai/bots/websiteaudit/"
+    "url": null
   },
   "scouted_by": null,
   "source": {
     "kind": "web",
-    "url": "https://botdirectory.ai/bots/websiteaudit/"
+    "url": "https://moneywithai.net/bots/websiteaudit/"
   },
   "official_share_url": null,
-  "found_via": "https://botdirectory.ai/bots/websiteaudit/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-25",
   "url": "https://moneywithai.net/bots/websiteaudit/",
   "json_url": "https://moneywithai.net/api/v1/bots/websiteaudit.json",
   "use_cases": [
-    "https://moneywithai.net/use-cases/maps-leads-to-booked-calls/"
+    "https://moneywithai.net/use-cases/maps-leads-to-booked-calls/",
+    "https://moneywithai.net/use-cases/pitch-contractors-a-mobile-demo-site/",
+    "https://moneywithai.net/use-cases/put-your-business-online-in-an-afternoon/"
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 57,
-    "score": 92,
+    "rank": 60,
+    "score": 90,
     "money": 40,
-    "profile": 26,
+    "profile": 20,
     "visuals": 20,
-    "difficulty": 6,
+    "difficulty": 10,
     "override": null,
     "rules": "https://moneywithai.net/llms.txt"
   }

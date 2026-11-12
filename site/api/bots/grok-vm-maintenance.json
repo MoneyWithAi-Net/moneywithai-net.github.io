@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "grok-vm-maintenance",
+    "name": "Grok VM maintenance",
+    "category": "Research and Ops",
+    "sub_use_case": "Product and engineering",
+    "summary": "Looks after your bot's cloud Linux computer: installs, services, checks and disk and memory reports, asking before risky steps.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Will OldPgmrs",
+      "url": "https://x.ai/bot/9UZp5k0Fp0LYmkyos5swQ"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/9UZp5k0Fp0LYmkyos5swQ"
+    },
+    "official_share_url": "https://x.ai/bot/9UZp5k0Fp0LYmkyos5swQ",
+    "found_via": "https://x.ai/bot/9UZp5k0Fp0LYmkyos5swQ",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/grok-vm-maintenance/",
+    "json_url": "https://moneywithai.net/api/bots/grok-vm-maintenance.json"
+  }
+}

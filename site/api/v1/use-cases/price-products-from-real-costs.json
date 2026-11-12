@@ -1,0 +1,125 @@
+{
+  "type": "use-case",
+  "slug": "price-products-from-real-costs",
+  "title": "Price Every Product from Its Real Cost",
+  "category": "E-Commerce",
+  "category_slug": "e-commerce",
+  "money_model": "Grow sales",
+  "difficulty": "Beginner",
+  "summary": "Set retail prices from what each product actually costs you, then share the updated prices with buyers in a clean catalog.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes some products are priced from old costs; margin improves as those prices are fixed.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "No more products quietly sold at a loss because costs went up.",
+    "Buyers get one current price list instead of old numbers."
+  ],
+  "who_its_for": [
+    "Online stores and makers with many products or variants.",
+    "Shops whose supplier costs change often."
+  ],
+  "stack": [
+    {
+      "bot": "product-price-writer",
+      "name": "Product Price Writer",
+      "role": "Reads product costs from a sheet and suggests a retail price for each product and variant.",
+      "creator": "LBallz77283",
+      "tools": [
+        "Google Sheets",
+        "Shopify"
+      ],
+      "url": "https://moneywithai.net/bots/product-price-writer/",
+      "official_share_url": null
+    },
+    {
+      "bot": "product-cataloger",
+      "name": "Product Cataloger",
+      "role": "Builds a current catalog with the approved prices for buyers.",
+      "creator": "JennyMarquis",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/product-cataloger/",
+      "official_share_url": "https://x.ai/bot/yuRd3EvmDuoGYSr5_Tjz7"
+    }
+  ],
+  "tools": [
+    "Google Sheets",
+    "Shopify",
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Product costs",
+        "tool": "Google Sheets"
+      },
+      {
+        "label": "Store products",
+        "tool": "Shopify"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "product-price-writer",
+        "name": "Product Price Writer",
+        "does": "Suggests prices from costs",
+        "tools": [
+          "Google Sheets",
+          "Shopify"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "you",
+        "name": "You",
+        "does": "Approve or adjust each price",
+        "tools": []
+      },
+      {
+        "order": 3,
+        "by": "product-cataloger",
+        "name": "Product Cataloger",
+        "does": "Builds a current catalog",
+        "tools": [
+          "Grok"
+        ]
+      }
+    ],
+    "outputs": [
+      "Prices that cover your costs",
+      "A current catalog for buyers"
+    ]
+  },
+  "steps": [
+    "Keep product costs in one sheet.",
+    "Get suggested prices for each product and variant.",
+    "Approve or adjust each price yourself.",
+    "Update your store and send buyers the new catalog."
+  ],
+  "guardrails": [
+    "You approve every price before it goes live.",
+    "Check local rules on price changes and advertised prices."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-29T10:00:00.000Z",
+  "featured": {
+    "rank": 47,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/price-products-from-real-costs/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/price-products-from-real-costs.json"
+}

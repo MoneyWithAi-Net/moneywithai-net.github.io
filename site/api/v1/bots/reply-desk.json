@@ -18,7 +18,7 @@
     "url": "https://x.com/lonzom10/status/2103749418457681951"
   },
   "official_share_url": "https://x.ai/bot/8lLjBC7bXUqbfh-vLG9jf",
-  "found_via": "https://grokbot101.org/bots/reply-desk/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-24",
@@ -37,7 +37,7 @@
   ],
   "added_at": "2026-10-24T09:30:00.000Z",
   "featured": {
-    "rank": 7,
+    "rank": 8,
     "score": 100,
     "money": 40,
     "profile": 30,

@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "social-media-manager-charles-bonetti",
+  "name": "Social Media Manager",
+  "category": "Content and Marketing",
+  "sub_use_case": "Brand social",
+  "summary": "Learns your voice from past posts, keeps a weekly content calendar and drafts posts and replies for each platform.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Charles Bonetti",
+    "url": "https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo"
+  },
+  "official_share_url": "https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo",
+  "found_via": "https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/social-media-manager-charles-bonetti/",
+  "json_url": "https://moneywithai.net/api/v1/bots/social-media-manager-charles-bonetti.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 596,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

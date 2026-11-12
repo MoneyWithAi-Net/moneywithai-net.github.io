@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "devil-s-advocate",
+    "name": "Devil's Advocate",
+    "category": "Research and Ops",
+    "sub_use_case": "Planning and projects",
+    "summary": "Questions a founder's idea until the weak assumptions show, so you can fix them before you build.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Melvin Vivas",
+      "url": "https://x.ai/bot/Uj8zF0iprBX0AsSB3mU2V"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/Uj8zF0iprBX0AsSB3mU2V"
+    },
+    "official_share_url": "https://x.ai/bot/Uj8zF0iprBX0AsSB3mU2V",
+    "found_via": "https://x.ai/bot/Uj8zF0iprBX0AsSB3mU2V",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/devil-s-advocate/",
+    "json_url": "https://moneywithai.net/api/bots/devil-s-advocate.json"
+  }
+}

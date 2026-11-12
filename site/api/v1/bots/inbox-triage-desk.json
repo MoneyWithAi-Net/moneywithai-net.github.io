@@ -18,7 +18,7 @@
     "url": "https://x.com/Cypher0x9/status/2105189988979896469"
   },
   "official_share_url": "https://x.ai/bot/soRR-1IslCTX7U4YiBg3Y",
-  "found_via": "https://grokbot101.org/bots/inbox-triage-desk/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-25",
@@ -32,7 +32,7 @@
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 82,
+    "rank": 93,
     "score": 87,
     "money": 27,
     "profile": 30,

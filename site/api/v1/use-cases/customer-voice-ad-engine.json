@@ -13,7 +13,7 @@
     "label": "Medium",
     "basis": "Assumes an existing ad budget where better angles raise returns.",
     "claim_label": "E",
-    "note": "Money tiers are our estimates (labelled Estimate) of relative earning potential, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
   },
   "how_it_makes_money": [
     "Customer words usually beat brainstormed copy.",
@@ -27,7 +27,7 @@
       "bot": "voc-ad-angle-generator",
       "name": "VOC Ad Angle Generator",
       "role": "Ranks ad angles from customer feedback.",
-      "creator": "elie2222",
+      "creator": "Community submission",
       "tools": [
         "Gmail",
         "Google Sheets"
@@ -153,7 +153,7 @@
   "claims": [],
   "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 84,
+    "rank": 112,
     "score": 79,
     "money": 27,
     "profile": 26,

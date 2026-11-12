@@ -1,0 +1,43 @@
+{
+  "type": "bot",
+  "slug": "viral-hook-lab",
+  "name": "Viral Hook Lab",
+  "category": "Content and Marketing",
+  "sub_use_case": "Copy and creative",
+  "summary": "Finds short-video hooks that beat each channel's usual views in your niche, then writes scored hooks for your own idea.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "anatoly eidelman",
+    "url": "https://x.ai/bot/5igzs9OnCFbpd5hUopyJE"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/5igzs9OnCFbpd5hUopyJE"
+  },
+  "official_share_url": "https://x.ai/bot/5igzs9OnCFbpd5hUopyJE",
+  "found_via": null,
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-11-11",
+  "url": "https://moneywithai.net/bots/viral-hook-lab/",
+  "json_url": "https://moneywithai.net/api/v1/bots/viral-hook-lab.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/find-short-video-hooks-that-already-win/",
+    "https://moneywithai.net/use-cases/test-ad-hooks-before-the-budget-goes-out/",
+    "https://moneywithai.net/use-cases/sell-short-video-and-image-packs/"
+  ],
+  "added_at": "2026-11-11T08:07:15.000Z",
+  "featured": {
+    "rank": 17,
+    "score": 100,
+    "money": 40,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

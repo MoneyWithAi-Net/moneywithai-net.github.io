@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "event-guest-screener",
+    "name": "Event Guest Screener",
+    "category": "Leads and Sales",
+    "sub_use_case": "Inbound qualification",
+    "summary": "Scores event applicants against your ideal customer profile and approves the strong fits in your invite tool.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "SpaceX",
+      "url": "https://x.ai/bot/s47ebc74c9fcf9359b5a9"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/s47ebc74c9fcf9359b5a9"
+    },
+    "official_share_url": "https://x.ai/bot/s47ebc74c9fcf9359b5a9",
+    "found_via": "https://x.ai/bot/s47ebc74c9fcf9359b5a9",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/event-guest-screener/",
+    "json_url": "https://moneywithai.net/api/bots/event-guest-screener.json"
+  }
+}

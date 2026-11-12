@@ -11,15 +11,15 @@
   ],
   "creator": {
     "handle": "daniel-ddtech",
-    "url": "https://botdirectory.ai/bots/competitor-ad-watch/"
+    "url": null
   },
   "scouted_by": null,
   "source": {
     "kind": "web",
-    "url": "https://botdirectory.ai/bots/competitor-ad-watch/"
+    "url": "https://moneywithai.net/bots/competitor-ad-watch/"
   },
   "official_share_url": null,
-  "found_via": "https://botdirectory.ai/bots/competitor-ad-watch/",
+  "found_via": null,
   "prompt_included": false,
   "proof_level": "source_verified",
   "last_checked": "2026-10-25",
@@ -27,14 +27,15 @@
   "json_url": "https://moneywithai.net/api/v1/bots/competitor-ad-watch.json",
   "use_cases": [
     "https://moneywithai.net/use-cases/competitor-price-and-drop-watch/",
-    "https://moneywithai.net/use-cases/competitor-intel-subscription/"
+    "https://moneywithai.net/use-cases/competitor-intel-subscription/",
+    "https://moneywithai.net/use-cases/brief-ads-from-long-running-winners/"
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 106,
-    "score": 83,
+    "rank": 254,
+    "score": 77,
     "money": 27,
-    "profile": 26,
+    "profile": 20,
     "visuals": 20,
     "difficulty": 10,
     "override": null,

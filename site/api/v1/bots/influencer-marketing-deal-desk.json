@@ -1,0 +1,44 @@
+{
+  "type": "bot",
+  "slug": "influencer-marketing-deal-desk",
+  "name": "Influencer Marketing Deal Desk",
+  "category": "Content and Marketing",
+  "sub_use_case": "Brand-deal pricing",
+  "summary": "Bring a creator quote, brief or contract and get a view on price range, deal structure and next step for creator partnerships across the big social platforms.",
+  "tools": [
+    "Grok",
+    "Instagram",
+    "LinkedIn",
+    "YouTube",
+    "TikTok",
+    "X"
+  ],
+  "creator": {
+    "handle": "Matt Reichard",
+    "url": "https://x.ai/bot/j4jkqrRiTmFz64aiAWFgx"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/j4jkqrRiTmFz64aiAWFgx"
+  },
+  "official_share_url": "https://x.ai/bot/j4jkqrRiTmFz64aiAWFgx",
+  "found_via": "https://x.ai/bot/j4jkqrRiTmFz64aiAWFgx",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-10-31",
+  "url": "https://moneywithai.net/bots/influencer-marketing-deal-desk/",
+  "json_url": "https://moneywithai.net/api/v1/bots/influencer-marketing-deal-desk.json",
+  "use_cases": [],
+  "added_at": "2026-10-31T17:00:00.000Z",
+  "featured": {
+    "rank": 482,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

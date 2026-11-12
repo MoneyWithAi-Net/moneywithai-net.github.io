@@ -1,0 +1,30 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "foreman",
+    "name": "Foreman",
+    "category": "Content and Marketing",
+    "sub_use_case": "Analytics and monitoring",
+    "summary": "Takes the daily X busywork off your plate, catching unanswered replies, tracking followers and keeping your own analytics history, all read-only.",
+    "tools": [
+      "X API",
+      "Grok"
+    ],
+    "creator": {
+      "handle": "GlennHasABeard",
+      "url": "https://x.com/GlennHasABeard"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/GlennHasABeard/status/2113739345362297175"
+    },
+    "official_share_url": "https://x.ai/bot/Hfm0xbUx8FqPTd5EYvjat",
+    "found_via": "https://x.com/GlennHasABeard/status/2113739345362297175",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-29",
+    "url": "https://moneywithai.net/bots/foreman/",
+    "json_url": "https://moneywithai.net/api/bots/foreman.json"
+  }
+}

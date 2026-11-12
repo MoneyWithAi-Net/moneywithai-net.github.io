@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "contrarian",
+    "name": "Contrarian",
+    "category": "Research and Ops",
+    "sub_use_case": "Planning and projects",
+    "summary": "Send it a plan, deal, spend or idea and it argues against it, then names the cheapest test that would prove it wrong.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Tyler",
+      "url": "https://x.ai/bot/HSnT7YbUNKs-eVVyNYgg7"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/HSnT7YbUNKs-eVVyNYgg7"
+    },
+    "official_share_url": "https://x.ai/bot/HSnT7YbUNKs-eVVyNYgg7",
+    "found_via": "https://x.ai/bot/HSnT7YbUNKs-eVVyNYgg7",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-10-31",
+    "url": "https://moneywithai.net/bots/contrarian/",
+    "json_url": "https://moneywithai.net/api/bots/contrarian.json"
+  }
+}

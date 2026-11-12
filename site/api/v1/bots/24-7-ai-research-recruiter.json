@@ -1,0 +1,40 @@
+{
+  "type": "bot",
+  "slug": "24-7-ai-research-recruiter",
+  "name": "24/7 AI Research Recruiter",
+  "category": "Research and Ops",
+  "sub_use_case": "Hiring",
+  "summary": "Keeps a hard-to-fill hiring pipeline moving around the clock: it sources AI research candidates, follows up on replies and adds them to Greenhouse.",
+  "tools": [
+    "Grok",
+    "LinkedIn"
+  ],
+  "creator": {
+    "handle": "pradeepreddiar",
+    "url": "https://x.com/pradeepreddiar"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/pradeepreddiar/status/2114946722887795118"
+  },
+  "official_share_url": "https://x.ai/bot/rtEM6xC63WDWsufit3JsC",
+  "found_via": null,
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-11-01",
+  "url": "https://moneywithai.net/bots/24-7-ai-research-recruiter/",
+  "json_url": "https://moneywithai.net/api/v1/bots/24-7-ai-research-recruiter.json",
+  "use_cases": [],
+  "added_at": "2026-11-01T10:00:00.000Z",
+  "featured": {
+    "rank": 327,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}
