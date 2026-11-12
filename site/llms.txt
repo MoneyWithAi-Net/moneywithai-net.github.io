@@ -526,8 +526,8 @@ Value tiers are our rough estimates (labelled Estimate) of relative value to the
 - [Explainer Bot](https://moneywithai.net/bots/explainer-bot/): Guides you through setting up an open-source explainer video pipeline on a Mac, then writes the narrated explainer videos for you. By Mike Yeager.
 - [Explainer Video bot](https://moneywithai.net/bots/explainer-video-bot/): Makes explainer videos with checked numbers, AI voice-over, motion graphics and real footage. By X Freeze.
 - [figma bro](https://moneywithai.net/bots/figma-bro/): Designs in Figma with real components, sensible layouts and smooth motion. By John Bai.
-- [Foreman](https://moneywithai.net/bots/foreman-american-b/): Turns a rough idea into a social post pack: a hook, three plain post options, an image prompt, a backup angle and a list of things to avoid. By American™ B.
 - [Foreman](https://moneywithai.net/bots/foreman/): Takes the daily X busywork off your plate, catching unanswered replies, tracking followers and keeping your own analytics history, all read-only. By @GlennHasABeard.
+- [Foreman](https://moneywithai.net/bots/foreman-american-b/): Turns a rough idea into a social post pack: a hook, three plain post options, an image prompt, a backup angle and a list of things to avoid. By American™ B.
 - [Forensic Writing, Persuasion and Psychology Analysis](https://moneywithai.net/bots/forensic-writing-persuasion-and-psychology-analysis/): Studies viral X posts and explains why each hook works, using persuasion principles and the post's real numbers. By Avid.
 - [Fred](https://moneywithai.net/bots/fred/): Learns your niche, connects Buffer or another posting tool, checks what is trending each day and drafts posts for you. By Parker.
 - [Game Art Director](https://moneywithai.net/bots/game-art-director/): Keeps a small game studio art consistent without a full-time art director: it turns your concept into a style guide and catches palette and grid drift. By @DannyLimanseta.
@@ -541,8 +541,8 @@ Value tiers are our rough estimates (labelled Estimate) of relative value to the
 - [Graphic Design Assistant](https://moneywithai.net/bots/graphic-design-assistant/): Turns your brief into on-brand Canva graphics in the right sizes and saves them to Drive. By @shubgaur.
 - [Growth Desk](https://moneywithai.net/bots/growth-desk/): A draft-only X growth desk for one account that locks topic, audience and voice, then drafts posts for approval. By Avid.
 - [Highlight Reel](https://moneywithai.net/bots/highlight-reel/): Turns raw sports and training footage into short vertical reels cut to licensed music, with captions. By Michael Heckert.
-- [Human Copywriter](https://moneywithai.net/bots/human-copywriter-sultanov-ramil/): Rewrites emails, posts, DMs, blogs and landing pages so they sound human, keeping the facts and adding no new claims. By Sultanov Ramil.
 - [Human Copywriter](https://moneywithai.net/bots/human-copywriter/): Rewrites emails, posts and landing copy so they sound human while keeping your meaning and facts. By massimodeluisa.
+- [Human Copywriter](https://moneywithai.net/bots/human-copywriter-sultanov-ramil/): Rewrites emails, posts, DMs, blogs and landing pages so they sound human, keeping the facts and adding no new claims. By Sultanov Ramil.
 - [Image Gen Bot](https://moneywithai.net/bots/image-gen-bot/): Makes brand stills and short clips: gathers references, writes the image prompt, generates, removes backgrounds and iterates until you lock a result. By @Matt Palmer.
 - [Imogen](https://moneywithai.net/bots/imogen/): Writes short, copyable alt text that describes the most important part of an image. By Kent C. Dodds.
 - [Index (SEO/AEO Teammate)](https://moneywithai.net/bots/index-seo-aeo-teammate/): An SEO and answer-engine teammate that reads your connected tools, recommends a stack and runs the program. By @adamta.
@@ -596,9 +596,9 @@ Value tiers are our rough estimates (labelled Estimate) of relative value to the
 - [Situation monitor](https://moneywithai.net/bots/situation-monitor/): Turns what you save on X into a weekly roundup thread in your voice, held until you approve it. By @ChaseMc67.
 - [Social Design Agent](https://moneywithai.net/bots/social-design-agent/): Designs on-brand LinkedIn and Instagram carousels and graphics through ContentDrips. By CONTENTDRIPS.
 - [Social Media GTM Bot](https://moneywithai.net/bots/social-media-gtm-bot/): Acts as head of content across Instagram, TikTok, YouTube, X and LinkedIn, recycling winners and preparing comment-to-DM offers. By @AntoineBlanco99.
-- [Social Media Manager](https://moneywithai.net/bots/social-media-manager-charles-bonetti/): Learns your voice from past posts, keeps a weekly content calendar and drafts posts and replies for each platform. By Charles Bonetti.
 - [Social Media Manager](https://moneywithai.net/bots/social-media-manager-stacy-burnett/): Learns from your post history and publishes in your voice through Buffer, with auto-posting only if you turn it on. By Stacy Burnett.
 - [Social Media Manager](https://moneywithai.net/bots/social-media-manager-upesh-bishwakarma/): Turns news emails, X trends and your notes into short posts for X and Threads and publishes them through Buffer. By Upesh Bishwakarma.
+- [Social Media Manager](https://moneywithai.net/bots/social-media-manager-charles-bonetti/): Learns your voice from past posts, keeps a weekly content calendar and drafts posts and replies for each platform. By Charles Bonetti.
 - [Social Media Manager](https://moneywithai.net/bots/social-media-manager-vishvajeet-shukla/): Plans a content calendar for your brand's Instagram and X, gets visuals made and posts on schedule after your approval. By Vishvajeet Shukla.
 - [Social Media Manager](https://moneywithai.net/bots/social-media-manager/): Manages social posting and the social inbox through OmniSocials. By Lighthart99.
 - [Socials (Short-Form Scout)](https://moneywithai.net/bots/socials-short-form-scout/): Scouts X and Reddit hourly for AI and tech stories worth filming for TikTok, Reels and Shorts. By @ashen_one.

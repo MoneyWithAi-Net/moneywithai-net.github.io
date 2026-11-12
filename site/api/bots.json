@@ -7480,40 +7480,6 @@
       }
     },
     {
-      "slug": "foreman-american-b",
-      "name": "Foreman",
-      "category": "Content and Marketing",
-      "sub_use_case": "Copy and creative",
-      "summary": "Turns a rough idea into a social post pack: a hook, three plain post options, an image prompt, a backup angle and a list of things to avoid.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "American™ B",
-        "url": "https://x.ai/bot/FjaItlOeqggdXOLQ1luOk"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/FjaItlOeqggdXOLQ1luOk"
-      },
-      "official_share_url": "https://x.ai/bot/FjaItlOeqggdXOLQ1luOk",
-      "found_via": "https://x.ai/bot/FjaItlOeqggdXOLQ1luOk",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/foreman-american-b/",
-      "json_url": "https://moneywithai.net/api/bots/foreman-american-b.json",
-      "share_url": "https://x.ai/bot/FjaItlOeqggdXOLQ1luOk",
-      "credit": {
-        "creator": "American™ B",
-        "creator_url": "https://x.ai/bot/FjaItlOeqggdXOLQ1luOk",
-        "source_url": "https://x.ai/bot/FjaItlOeqggdXOLQ1luOk",
-        "found_via": "https://x.ai/bot/FjaItlOeqggdXOLQ1luOk",
-        "text": "Foreman by American™ B. Original source: https://x.ai/bot/FjaItlOeqggdXOLQ1luOk. Listed on Money With AI: https://moneywithai.net/bots/foreman-american-b/"
-      }
-    },
-    {
       "slug": "foreman",
       "name": "Foreman",
       "category": "Content and Marketing",
@@ -7546,6 +7512,40 @@
         "source_url": "https://x.com/GlennHasABeard/status/2113739345362297175",
         "found_via": "https://x.com/GlennHasABeard/status/2113739345362297175",
         "text": "Foreman by GlennHasABeard. Original source: https://x.com/GlennHasABeard/status/2113739345362297175. Listed on Money With AI: https://moneywithai.net/bots/foreman/"
+      }
+    },
+    {
+      "slug": "foreman-american-b",
+      "name": "Foreman",
+      "category": "Content and Marketing",
+      "sub_use_case": "Copy and creative",
+      "summary": "Turns a rough idea into a social post pack: a hook, three plain post options, an image prompt, a backup angle and a list of things to avoid.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "American™ B",
+        "url": "https://x.ai/bot/FjaItlOeqggdXOLQ1luOk"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/FjaItlOeqggdXOLQ1luOk"
+      },
+      "official_share_url": "https://x.ai/bot/FjaItlOeqggdXOLQ1luOk",
+      "found_via": "https://x.ai/bot/FjaItlOeqggdXOLQ1luOk",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/foreman-american-b/",
+      "json_url": "https://moneywithai.net/api/bots/foreman-american-b.json",
+      "share_url": "https://x.ai/bot/FjaItlOeqggdXOLQ1luOk",
+      "credit": {
+        "creator": "American™ B",
+        "creator_url": "https://x.ai/bot/FjaItlOeqggdXOLQ1luOk",
+        "source_url": "https://x.ai/bot/FjaItlOeqggdXOLQ1luOk",
+        "found_via": "https://x.ai/bot/FjaItlOeqggdXOLQ1luOk",
+        "text": "Foreman by American™ B. Original source: https://x.ai/bot/FjaItlOeqggdXOLQ1luOk. Listed on Money With AI: https://moneywithai.net/bots/foreman-american-b/"
       }
     },
     {
@@ -9170,40 +9170,6 @@
       }
     },
     {
-      "slug": "human-copywriter-sultanov-ramil",
-      "name": "Human Copywriter",
-      "category": "Content and Marketing",
-      "sub_use_case": "Copy and creative",
-      "summary": "Rewrites emails, posts, DMs, blogs and landing pages so they sound human, keeping the facts and adding no new claims.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "Sultanov Ramil",
-        "url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld"
-      },
-      "official_share_url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
-      "found_via": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/human-copywriter-sultanov-ramil/",
-      "json_url": "https://moneywithai.net/api/bots/human-copywriter-sultanov-ramil.json",
-      "share_url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
-      "credit": {
-        "creator": "Sultanov Ramil",
-        "creator_url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
-        "source_url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
-        "found_via": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
-        "text": "Human Copywriter by Sultanov Ramil. Original source: https://x.ai/bot/vgiYk0mJeijE4YXmfmQld. Listed on Money With AI: https://moneywithai.net/bots/human-copywriter-sultanov-ramil/"
-      }
-    },
-    {
       "slug": "human-copywriter",
       "name": "Human Copywriter",
       "category": "Content and Marketing",
@@ -9235,6 +9201,40 @@
         "source_url": "https://x.ai/bot/JZAccYtlRFvDSU2CnMnkZ",
         "found_via": null,
         "text": "Human Copywriter by massimodeluisa. Original source: https://x.ai/bot/JZAccYtlRFvDSU2CnMnkZ. Listed on Money With AI: https://moneywithai.net/bots/human-copywriter/"
+      }
+    },
+    {
+      "slug": "human-copywriter-sultanov-ramil",
+      "name": "Human Copywriter",
+      "category": "Content and Marketing",
+      "sub_use_case": "Copy and creative",
+      "summary": "Rewrites emails, posts, DMs, blogs and landing pages so they sound human, keeping the facts and adding no new claims.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "Sultanov Ramil",
+        "url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld"
+      },
+      "official_share_url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
+      "found_via": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/human-copywriter-sultanov-ramil/",
+      "json_url": "https://moneywithai.net/api/bots/human-copywriter-sultanov-ramil.json",
+      "share_url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
+      "credit": {
+        "creator": "Sultanov Ramil",
+        "creator_url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
+        "source_url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
+        "found_via": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
+        "text": "Human Copywriter by Sultanov Ramil. Original source: https://x.ai/bot/vgiYk0mJeijE4YXmfmQld. Listed on Money With AI: https://moneywithai.net/bots/human-copywriter-sultanov-ramil/"
       }
     },
     {
@@ -13420,42 +13420,6 @@
       }
     },
     {
-      "slug": "overheard",
-      "name": "Overheard",
-      "category": "Content and Marketing",
-      "sub_use_case": "Analytics and monitoring",
-      "summary": "Checks Reddit, Hacker News, X and chosen news sites for mentions of your brand and ranks them each weekday.",
-      "tools": [
-        "Reddit",
-        "Hacker News",
-        "X"
-      ],
-      "creator": {
-        "handle": "lennysan",
-        "url": null
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://moneywithai.net/bots/overheard/"
-      },
-      "official_share_url": null,
-      "found_via": null,
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-25",
-      "url": "https://moneywithai.net/bots/overheard/",
-      "json_url": "https://moneywithai.net/api/bots/overheard.json",
-      "share_url": null,
-      "credit": {
-        "creator": "lennysan",
-        "creator_url": null,
-        "source_url": "https://moneywithai.net/bots/overheard/",
-        "found_via": null,
-        "text": "Overheard by lennysan. Listed on Money With AI: https://moneywithai.net/bots/overheard/"
-      }
-    },
-    {
       "slug": "overheard-lenny-rachitsky",
       "name": "Overheard",
       "category": "Customer Support",
@@ -13490,6 +13454,42 @@
         "source_url": "https://x.ai/bot/NIEguoGUjA648fUPle8F5",
         "found_via": "https://x.ai/bot/NIEguoGUjA648fUPle8F5",
         "text": "Overheard by Lenny Rachitsky. Original source: https://x.ai/bot/NIEguoGUjA648fUPle8F5. Listed on Money With AI: https://moneywithai.net/bots/overheard-lenny-rachitsky/"
+      }
+    },
+    {
+      "slug": "overheard",
+      "name": "Overheard",
+      "category": "Content and Marketing",
+      "sub_use_case": "Analytics and monitoring",
+      "summary": "Checks Reddit, Hacker News, X and chosen news sites for mentions of your brand and ranks them each weekday.",
+      "tools": [
+        "Reddit",
+        "Hacker News",
+        "X"
+      ],
+      "creator": {
+        "handle": "lennysan",
+        "url": null
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://moneywithai.net/bots/overheard/"
+      },
+      "official_share_url": null,
+      "found_via": null,
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-25",
+      "url": "https://moneywithai.net/bots/overheard/",
+      "json_url": "https://moneywithai.net/api/bots/overheard.json",
+      "share_url": null,
+      "credit": {
+        "creator": "lennysan",
+        "creator_url": null,
+        "source_url": "https://moneywithai.net/bots/overheard/",
+        "found_via": null,
+        "text": "Overheard by lennysan. Listed on Money With AI: https://moneywithai.net/bots/overheard/"
       }
     },
     {
@@ -18941,40 +18941,6 @@
       }
     },
     {
-      "slug": "social-media-manager-charles-bonetti",
-      "name": "Social Media Manager",
-      "category": "Content and Marketing",
-      "sub_use_case": "Brand social",
-      "summary": "Learns your voice from past posts, keeps a weekly content calendar and drafts posts and replies for each platform.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "Charles Bonetti",
-        "url": "https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo"
-      },
-      "official_share_url": "https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo",
-      "found_via": "https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/social-media-manager-charles-bonetti/",
-      "json_url": "https://moneywithai.net/api/bots/social-media-manager-charles-bonetti.json",
-      "share_url": "https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo",
-      "credit": {
-        "creator": "Charles Bonetti",
-        "creator_url": "https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo",
-        "source_url": "https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo",
-        "found_via": "https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo",
-        "text": "Social Media Manager by Charles Bonetti. Original source: https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo. Listed on Money With AI: https://moneywithai.net/bots/social-media-manager-charles-bonetti/"
-      }
-    },
-    {
       "slug": "social-media-manager-stacy-burnett",
       "name": "Social Media Manager",
       "category": "Content and Marketing",
@@ -19042,6 +19008,40 @@
         "source_url": "https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL",
         "found_via": "https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL",
         "text": "Social Media Manager by Upesh Bishwakarma. Original source: https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL. Listed on Money With AI: https://moneywithai.net/bots/social-media-manager-upesh-bishwakarma/"
+      }
+    },
+    {
+      "slug": "social-media-manager-charles-bonetti",
+      "name": "Social Media Manager",
+      "category": "Content and Marketing",
+      "sub_use_case": "Brand social",
+      "summary": "Learns your voice from past posts, keeps a weekly content calendar and drafts posts and replies for each platform.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "Charles Bonetti",
+        "url": "https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo"
+      },
+      "official_share_url": "https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo",
+      "found_via": "https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/social-media-manager-charles-bonetti/",
+      "json_url": "https://moneywithai.net/api/bots/social-media-manager-charles-bonetti.json",
+      "share_url": "https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo",
+      "credit": {
+        "creator": "Charles Bonetti",
+        "creator_url": "https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo",
+        "source_url": "https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo",
+        "found_via": "https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo",
+        "text": "Social Media Manager by Charles Bonetti. Original source: https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo. Listed on Money With AI: https://moneywithai.net/bots/social-media-manager-charles-bonetti/"
       }
     },
     {
