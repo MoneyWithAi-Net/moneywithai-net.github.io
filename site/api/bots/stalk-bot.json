@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "stalk-bot",
+    "name": "Stalk Bot",
+    "category": "Research and Ops",
+    "sub_use_case": "Competitor intel",
+    "summary": "Monitors competitors across mail, product, site, pricing, changelog, X, and jobs; delivers delta reports with counterpositioning moves.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Shub Gaur",
+      "url": "https://x.ai/bot/Y7iWVNiPdorgu6oFY-PRG"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/marketplace/bots/stalk-bot"
+    },
+    "official_share_url": "https://x.ai/bot/Y7iWVNiPdorgu6oFY-PRG",
+    "found_via": "https://x.ai/bot/marketplace/product",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-11-12",
+    "url": "https://moneywithai.net/bots/stalk-bot/",
+    "json_url": "https://moneywithai.net/api/bots/stalk-bot.json"
+  }
+}

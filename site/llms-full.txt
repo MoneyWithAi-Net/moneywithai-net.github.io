@@ -420,19 +420,6 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Backup Bot
 
-- URL: https://moneywithai.net/bots/backup-bot-andres-ruggiero/
-- Category: Research and Ops
-- Summary (Money With AI's words): Backs up your bot's computer to Google Drive or OneDrive each night and tests a restore every week.
-- Tools: Grok, Google Drive
-- Creator: Andres Ruggiero (https://x.ai/bot/G3Du-G9_8zTwynr6sl9Z2)
-- Original source: https://x.ai/bot/G3Du-G9_8zTwynr6sl9Z2
-- Official share link: https://x.ai/bot/G3Du-G9_8zTwynr6sl9Z2
-- Found via: https://x.ai/bot/G3Du-G9_8zTwynr6sl9Z2
-- Proof level: Source verified: the original post exists and is by the named creator.
-- Prompt: not included; read it at the original source
-
-## Backup Bot
-
 - URL: https://moneywithai.net/bots/backup-bot/
 - Category: Research and Ops
 - Summary (Money With AI's words): Saves a restore pack for any of your bots with its profile, skills, routines and key notes, never passwords or keys, on a schedule you pick.
@@ -441,6 +428,19 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Original source: https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz
 - Official share link: https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz
 - Found via: https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Backup Bot
+
+- URL: https://moneywithai.net/bots/backup-bot-andres-ruggiero/
+- Category: Research and Ops
+- Summary (Money With AI's words): Backs up your bot's computer to Google Drive or OneDrive each night and tests a restore every week.
+- Tools: Grok, Google Drive
+- Creator: Andres Ruggiero (https://x.ai/bot/G3Du-G9_8zTwynr6sl9Z2)
+- Original source: https://x.ai/bot/G3Du-G9_8zTwynr6sl9Z2
+- Official share link: https://x.ai/bot/G3Du-G9_8zTwynr6sl9Z2
+- Found via: https://x.ai/bot/G3Du-G9_8zTwynr6sl9Z2
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
@@ -1701,6 +1701,19 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
+## Credit Card Max
+
+- URL: https://moneywithai.net/bots/credit-card-max/
+- Category: Finance
+- Summary (Money With AI's words): Recommends the best card to swipe for any purchase based on your priorities (points, cash back, airline/hotel status); tracks perks, statement credits, and wrong-card recurring charges.
+- Tools: Grok
+- Creator: Trevin Chow (https://x.ai/bot/q4u8YgzGQqCAOUZcg0Lgt)
+- Original source: https://x.ai/bot/marketplace/bots/credit-card-max
+- Official share link: https://x.ai/bot/q4u8YgzGQqCAOUZcg0Lgt
+- Found via: https://x.ai/bot/marketplace/personal
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
 ## Cringe Bot
 
 - URL: https://moneywithai.net/bots/cringe-bot/
@@ -2131,6 +2144,19 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Original source: https://x.ai/bot/91mq1IFljG-EWQhe5kdXe
 - Official share link: https://x.ai/bot/91mq1IFljG-EWQhe5kdXe
 - Found via: https://x.ai/bot/91mq1IFljG-EWQhe5kdXe
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## dr eggbot
+
+- URL: https://moneywithai.net/bots/dr-eggbot-v2/
+- Category: Research and Ops
+- Summary (Money With AI's words): Designs high-quality Grok Bots from preference questions via CreateAgent; applies poteto-mode standards for coding bots and one-job/one-voice/anti-jobs for non-coding bots.
+- Tools: Grok
+- Creator: Lauren Tan (https://x.ai/bot/_jOdbfkB16zxu7MRcmReE)
+- Original source: https://x.ai/bot/marketplace/bots/dr-eggbot-v2
+- Official share link: https://x.ai/bot/_jOdbfkB16zxu7MRcmReE
+- Found via: https://x.ai/bot/marketplace/from-grok-bot-team
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
@@ -2660,19 +2686,6 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Foreman
 
-- URL: https://moneywithai.net/bots/foreman/
-- Category: Content and Marketing
-- Summary (Money With AI's words): Takes the daily X busywork off your plate, catching unanswered replies, tracking followers and keeping your own analytics history, all read-only.
-- Tools: X API, Grok
-- Creator: @GlennHasABeard (https://x.com/GlennHasABeard)
-- Original source: https://x.com/GlennHasABeard/status/2113739345362297175
-- Official share link: https://x.ai/bot/Hfm0xbUx8FqPTd5EYvjat
-- Found via: https://x.com/GlennHasABeard/status/2113739345362297175
-- Proof level: Source verified: the original post exists and is by the named creator.
-- Prompt: not included; read it at the original source
-
-## Foreman
-
 - URL: https://moneywithai.net/bots/foreman-american-b/
 - Category: Content and Marketing
 - Summary (Money With AI's words): Turns a rough idea into a social post pack: a hook, three plain post options, an image prompt, a backup angle and a list of things to avoid.
@@ -2681,6 +2694,19 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Original source: https://x.ai/bot/FjaItlOeqggdXOLQ1luOk
 - Official share link: https://x.ai/bot/FjaItlOeqggdXOLQ1luOk
 - Found via: https://x.ai/bot/FjaItlOeqggdXOLQ1luOk
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Foreman
+
+- URL: https://moneywithai.net/bots/foreman/
+- Category: Content and Marketing
+- Summary (Money With AI's words): Takes the daily X busywork off your plate, catching unanswered replies, tracking followers and keeping your own analytics history, all read-only.
+- Tools: X API, Grok
+- Creator: @GlennHasABeard (https://x.com/GlennHasABeard)
+- Original source: https://x.com/GlennHasABeard/status/2113739345362297175
+- Official share link: https://x.ai/bot/Hfm0xbUx8FqPTd5EYvjat
+- Found via: https://x.com/GlennHasABeard/status/2113739345362297175
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
@@ -3264,18 +3290,6 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Human Copywriter
 
-- URL: https://moneywithai.net/bots/human-copywriter/
-- Category: Content and Marketing
-- Summary (Money With AI's words): Rewrites emails, posts and landing copy so they sound human while keeping your meaning and facts.
-- Tools: Grok
-- Creator: massimodeluisa
-- Original source: https://x.ai/bot/JZAccYtlRFvDSU2CnMnkZ
-- Official share link: https://x.ai/bot/JZAccYtlRFvDSU2CnMnkZ
-- Proof level: Source verified: the original post exists and is by the named creator.
-- Prompt: not included; read it at the original source
-
-## Human Copywriter
-
 - URL: https://moneywithai.net/bots/human-copywriter-sultanov-ramil/
 - Category: Content and Marketing
 - Summary (Money With AI's words): Rewrites emails, posts, DMs, blogs and landing pages so they sound human, keeping the facts and adding no new claims.
@@ -3284,6 +3298,18 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Original source: https://x.ai/bot/vgiYk0mJeijE4YXmfmQld
 - Official share link: https://x.ai/bot/vgiYk0mJeijE4YXmfmQld
 - Found via: https://x.ai/bot/vgiYk0mJeijE4YXmfmQld
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Human Copywriter
+
+- URL: https://moneywithai.net/bots/human-copywriter/
+- Category: Content and Marketing
+- Summary (Money With AI's words): Rewrites emails, posts and landing copy so they sound human while keeping your meaning and facts.
+- Tools: Grok
+- Creator: massimodeluisa
+- Original source: https://x.ai/bot/JZAccYtlRFvDSU2CnMnkZ
+- Official share link: https://x.ai/bot/JZAccYtlRFvDSU2CnMnkZ
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
@@ -3309,6 +3335,19 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Original source: https://x.ai/bot/Eeu5NZp62OzQjtlY4ons2
 - Official share link: https://x.ai/bot/Eeu5NZp62OzQjtlY4ons2
 - Found via: https://x.ai/bot/Eeu5NZp62OzQjtlY4ons2
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Import Bot
+
+- URL: https://moneywithai.net/bots/import-bot/
+- Category: Research and Ops
+- Summary (Money With AI's words): Migrates your setup from Claude Cowork, Codex, ChatGPT, OpenClaw, and Hermes into Grok Bot; creates or extends expert bots covering your workflows; non-destructive with secret scrubbing.
+- Tools: Grok
+- Creator: Shub Gaur (https://x.ai/bot/HP4Q8GHtSIjbyGeI2vg7S)
+- Original source: https://x.ai/bot/marketplace/bots/import-bot
+- Official share link: https://x.ai/bot/HP4Q8GHtSIjbyGeI2vg7S
+- Found via: https://x.ai/bot/marketplace/personal
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
@@ -6699,14 +6738,14 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Social Media Manager
 
-- URL: https://moneywithai.net/bots/social-media-manager-stacy-burnett/
+- URL: https://moneywithai.net/bots/social-media-manager-charles-bonetti/
 - Category: Content and Marketing
-- Summary (Money With AI's words): Learns from your post history and publishes in your voice through Buffer, with auto-posting only if you turn it on.
+- Summary (Money With AI's words): Learns your voice from past posts, keeps a weekly content calendar and drafts posts and replies for each platform.
 - Tools: Grok
-- Creator: Stacy Burnett (https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X)
-- Original source: https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X
-- Official share link: https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X
-- Found via: https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X
+- Creator: Charles Bonetti (https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo)
+- Original source: https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo
+- Official share link: https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo
+- Found via: https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
@@ -6725,16 +6764,13 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Social Media Manager
 
-- URL: https://moneywithai.net/bots/social-media-manager-charles-bonetti/
+- URL: https://moneywithai.net/bots/social-media-manager/
 - Category: Content and Marketing
-- Summary (Money With AI's words): Learns your voice from past posts, keeps a weekly content calendar and drafts posts and replies for each platform.
-- Tools: Grok
-- Creator: Charles Bonetti (https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo)
-- Original source: https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo
-- Official share link: https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo
-- Found via: https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo
+- Summary (Money With AI's words): Manages social posting and the social inbox through OmniSocials.
+- Tools: OmniSocials
+- Creator: Lighthart99
 - Proof level: Source verified: the original post exists and is by the named creator.
-- Prompt: not included; read it at the original source
+- Prompt: not included
 
 ## Social Media Manager
 
@@ -6751,13 +6787,16 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Social Media Manager
 
-- URL: https://moneywithai.net/bots/social-media-manager/
+- URL: https://moneywithai.net/bots/social-media-manager-stacy-burnett/
 - Category: Content and Marketing
-- Summary (Money With AI's words): Manages social posting and the social inbox through OmniSocials.
-- Tools: OmniSocials
-- Creator: Lighthart99
+- Summary (Money With AI's words): Learns from your post history and publishes in your voice through Buffer, with auto-posting only if you turn it on.
+- Tools: Grok
+- Creator: Stacy Burnett (https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X)
+- Original source: https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X
+- Official share link: https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X
+- Found via: https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X
 - Proof level: Source verified: the original post exists and is by the named creator.
-- Prompt: not included
+- Prompt: not included; read it at the original source
 
 ## Socials (Short-Form Scout)
 
@@ -6813,6 +6852,19 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Tools: Gmail
 - Creator: @AlexFinn (https://x.com/AlexFinn)
 - Original source: https://x.com/AlexFinn/status/2090939211159650633
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Stalk Bot
+
+- URL: https://moneywithai.net/bots/stalk-bot/
+- Category: Research and Ops
+- Summary (Money With AI's words): Monitors competitors across mail, product, site, pricing, changelog, X, and jobs; delivers delta reports with counterpositioning moves.
+- Tools: Grok
+- Creator: Shub Gaur (https://x.ai/bot/Y7iWVNiPdorgu6oFY-PRG)
+- Original source: https://x.ai/bot/marketplace/bots/stalk-bot
+- Official share link: https://x.ai/bot/Y7iWVNiPdorgu6oFY-PRG
+- Found via: https://x.ai/bot/marketplace/product
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 

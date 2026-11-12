@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "credit-card-max",
+    "name": "Credit Card Max",
+    "category": "Finance",
+    "sub_use_case": "SaaS spend",
+    "summary": "Recommends the best card to swipe for any purchase based on your priorities (points, cash back, airline/hotel status); tracks perks, statement credits, and wrong-card recurring charges.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Trevin Chow",
+      "url": "https://x.ai/bot/q4u8YgzGQqCAOUZcg0Lgt"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/marketplace/bots/credit-card-max"
+    },
+    "official_share_url": "https://x.ai/bot/q4u8YgzGQqCAOUZcg0Lgt",
+    "found_via": "https://x.ai/bot/marketplace/personal",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-11-12",
+    "url": "https://moneywithai.net/bots/credit-card-max/",
+    "json_url": "https://moneywithai.net/api/bots/credit-card-max.json"
+  }
+}

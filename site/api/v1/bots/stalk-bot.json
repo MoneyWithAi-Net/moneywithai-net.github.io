@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "stalk-bot",
+  "name": "Stalk Bot",
+  "category": "Research and Ops",
+  "sub_use_case": "Competitor intel",
+  "summary": "Monitors competitors across mail, product, site, pricing, changelog, X, and jobs; delivers delta reports with counterpositioning moves.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Shub Gaur",
+    "url": "https://x.ai/bot/Y7iWVNiPdorgu6oFY-PRG"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/marketplace/bots/stalk-bot"
+  },
+  "official_share_url": "https://x.ai/bot/Y7iWVNiPdorgu6oFY-PRG",
+  "found_via": "https://x.ai/bot/marketplace/product",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-11-12",
+  "url": "https://moneywithai.net/bots/stalk-bot/",
+  "json_url": "https://moneywithai.net/api/v1/bots/stalk-bot.json",
+  "use_cases": [],
+  "added_at": "2026-11-12T00:00:00.000Z",
+  "featured": {
+    "rank": 603,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

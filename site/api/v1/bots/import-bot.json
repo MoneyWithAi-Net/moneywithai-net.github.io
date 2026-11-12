@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "import-bot",
+  "name": "Import Bot",
+  "category": "Research and Ops",
+  "sub_use_case": "Team memory",
+  "summary": "Migrates your setup from Claude Cowork, Codex, ChatGPT, OpenClaw, and Hermes into Grok Bot; creates or extends expert bots covering your workflows; non-destructive with secret scrubbing.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Shub Gaur",
+    "url": "https://x.ai/bot/HP4Q8GHtSIjbyGeI2vg7S"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/marketplace/bots/import-bot"
+  },
+  "official_share_url": "https://x.ai/bot/HP4Q8GHtSIjbyGeI2vg7S",
+  "found_via": "https://x.ai/bot/marketplace/personal",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-11-12",
+  "url": "https://moneywithai.net/bots/import-bot/",
+  "json_url": "https://moneywithai.net/api/v1/bots/import-bot.json",
+  "use_cases": [],
+  "added_at": "2026-11-12T00:00:00.000Z",
+  "featured": {
+    "rank": 476,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

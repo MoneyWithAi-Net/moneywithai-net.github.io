@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T02:32:12.000Z",
+  "generated_at": "2026-11-12T18:15:37.000Z",
   "api_version": "v1",
   "schema_revision": 2,
   "status_url": "https://moneywithai.net/api/v1/status.json",
@@ -234,7 +234,7 @@
     {
       "slug": "finance",
       "label": "Finance",
-      "bots": 40,
+      "bots": 41,
       "use_cases": 18,
       "sub_use_cases": [
         {
@@ -265,7 +265,7 @@
         {
           "slug": "saas-spend",
           "label": "SaaS spend",
-          "bots": 13
+          "bots": 14
         },
         {
           "slug": "bookkeeping-and-reporting",
@@ -322,13 +322,13 @@
     {
       "slug": "research-and-ops",
       "label": "Research and Ops",
-      "bots": 231,
+      "bots": 234,
       "use_cases": 25,
       "sub_use_cases": [
         {
           "slug": "competitor-intel",
           "label": "Competitor intel",
-          "bots": 10
+          "bots": 11
         },
         {
           "slug": "market-notes",
@@ -348,7 +348,7 @@
         {
           "slug": "team-memory",
           "label": "Team memory",
-          "bots": 21
+          "bots": 22
         },
         {
           "slug": "property-maintenance",
@@ -373,7 +373,7 @@
         {
           "slug": "planning-and-projects",
           "label": "Planning and projects",
-          "bots": 35
+          "bots": 36
         },
         {
           "slug": "product-and-engineering",
