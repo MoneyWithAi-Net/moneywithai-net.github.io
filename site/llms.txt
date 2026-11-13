@@ -597,10 +597,10 @@ Value tiers are our rough estimates (labelled Estimate) of relative value to the
 - [Social Design Agent](https://moneywithai.net/bots/social-design-agent/): Designs on-brand LinkedIn and Instagram carousels and graphics through ContentDrips. By CONTENTDRIPS.
 - [Social Media GTM Bot](https://moneywithai.net/bots/social-media-gtm-bot/): Acts as head of content across Instagram, TikTok, YouTube, X and LinkedIn, recycling winners and preparing comment-to-DM offers. By @AntoineBlanco99.
 - [Social Media Manager](https://moneywithai.net/bots/social-media-manager-charles-bonetti/): Learns your voice from past posts, keeps a weekly content calendar and drafts posts and replies for each platform. By Charles Bonetti.
-- [Social Media Manager](https://moneywithai.net/bots/social-media-manager-upesh-bishwakarma/): Turns news emails, X trends and your notes into short posts for X and Threads and publishes them through Buffer. By Upesh Bishwakarma.
-- [Social Media Manager](https://moneywithai.net/bots/social-media-manager/): Manages social posting and the social inbox through OmniSocials. By Lighthart99.
-- [Social Media Manager](https://moneywithai.net/bots/social-media-manager-vishvajeet-shukla/): Plans a content calendar for your brand's Instagram and X, gets visuals made and posts on schedule after your approval. By Vishvajeet Shukla.
 - [Social Media Manager](https://moneywithai.net/bots/social-media-manager-stacy-burnett/): Learns from your post history and publishes in your voice through Buffer, with auto-posting only if you turn it on. By Stacy Burnett.
+- [Social Media Manager](https://moneywithai.net/bots/social-media-manager-upesh-bishwakarma/): Turns news emails, X trends and your notes into short posts for X and Threads and publishes them through Buffer. By Upesh Bishwakarma.
+- [Social Media Manager](https://moneywithai.net/bots/social-media-manager-vishvajeet-shukla/): Plans a content calendar for your brand's Instagram and X, gets visuals made and posts on schedule after your approval. By Vishvajeet Shukla.
+- [Social Media Manager](https://moneywithai.net/bots/social-media-manager/): Manages social posting and the social inbox through OmniSocials. By Lighthart99.
 - [Socials (Short-Form Scout)](https://moneywithai.net/bots/socials-short-form-scout/): Scouts X and Reddit hourly for AI and tech stories worth filming for TikTok, Reels and Shorts. By @ashen_one.
 - [Stills & Clips Desk](https://moneywithai.net/bots/stills-and-clips-desk/): Pulls stills, thumbnails and short clips from your footage at the right sizes, and writes captions and alt text. By Matt Palmer.
 - [Telegram SEO Blog Writer](https://moneywithai.net/bots/telegram-seo-blog-writer/): Researches a topic with Perplexity and writes an SEO blog draft you request from Telegram. By HoangSP.
@@ -827,8 +827,8 @@ Value tiers are our rough estimates (labelled Estimate) of relative value to the
 - [Android / Play Build Engineer](https://moneywithai.net/bots/android-play-build-engineer/): Ships Android games and apps to Google Play, handling builds, version bumps and the steps from internal testing to production. By Vet.
 - [Ask Avery](https://moneywithai.net/bots/ask-avery/): Sends engineering questions to matched expert reviewers in parallel and returns one combined answer. By Andreas Gerlach.
 - [Automation Scout](https://moneywithai.net/bots/automation-scout/): Looks through your Slack, Notion, GitHub and Linear history to find repetitive work worth automating. By @ericzakariasson.
-- [Backup Bot](https://moneywithai.net/bots/backup-bot/): Saves a restore pack for any of your bots with its profile, skills, routines and key notes, never passwords or keys, on a schedule you pick. By ollie.
 - [Backup Bot](https://moneywithai.net/bots/backup-bot-andres-ruggiero/): Backs up your bot's computer to Google Drive or OneDrive each night and tests a restore every week. By Andres Ruggiero.
+- [Backup Bot](https://moneywithai.net/bots/backup-bot/): Saves a restore pack for any of your bots with its profile, skills, routines and key notes, never passwords or keys, on a schedule you pick. By ollie.
 - [Backup Watch](https://moneywithai.net/bots/backup-watch/): Tells you each week what lives only on your shared bot computer and is not backed up anywhere else. It only suggests and never deletes. By Gorik.
 - [Bid Desk](https://moneywithai.net/bots/bid-desk/): Reads a government or nonprofit RFP and gives a quick bid or no-bid call with deadline and requirements, then finds similar openings. By Thuong P. Nguyen.
 - [Billy Backup](https://moneywithai.net/bots/billy-backup/): Sets up a backup you control: code to a git host, files to object storage and a nightly check that stays quiet when nothing is missing. By Jordan Jubela.
@@ -931,8 +931,8 @@ Value tiers are our rough estimates (labelled Estimate) of relative value to the
 - [Inbox Manager](https://moneywithai.net/bots/inbox-manager/): Scans new Gmail, labels and prioritizes it, and drafts replies for the messages that need you. By @mvanhorn.
 - [Inbox to Asana](https://moneywithai.net/bots/inbox-to-asana/): Turns action items in a company Gmail inbox into Asana tasks so requests do not slip. By @lennysan.
 - [Inbox Triage](https://moneywithai.net/bots/inbox-triage-cristopher-guido/): Gives small business owners and freelancers the few emails that need them each weekday morning, each with a short draft reply. By Cristopher Guido.
-- [Inbox Triage](https://moneywithai.net/bots/inbox-triage-markus-johnson/): Sorts your inbox into needs a reply, waiting and can go, with short reply drafts in your voice. It never sends. By Markus Johnson.
 - [Inbox Triage](https://moneywithai.net/bots/inbox-triage/): Sorts new email and social DMs, closes what needs no reply and turns the rest into Trello tasks. By @rchase.
+- [Inbox Triage](https://moneywithai.net/bots/inbox-triage-markus-johnson/): Sorts your inbox into needs a reply, waiting and can go, with short reply drafts in your voice. It never sends. By Markus Johnson.
 - [Inbox Triage Desk](https://moneywithai.net/bots/inbox-triage-desk/): Sorts messages into Reply, Delegate, Schedule and FYI lanes with the ask, deadline and a short draft. By @Cypher0x9.
 - [Inbox Zero](https://moneywithai.net/bots/inbox-zero/): Triages your whole inbox, drafts replies, tracks follow-ups and deadlines and sends a daily brief without sending email itself. By Ashley Schendel.
 - [Inbox Zero Chief of Staff](https://moneywithai.net/bots/inbox-zero-chief-of-staff/): Gets your inbox to zero and keeps it there with daily triage, a digest of what needs you and reply drafts you approve. By Moritz Bierling.

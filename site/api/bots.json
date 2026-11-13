@@ -1194,40 +1194,6 @@
       }
     },
     {
-      "slug": "backup-bot",
-      "name": "Backup Bot",
-      "category": "Research and Ops",
-      "sub_use_case": "Team memory",
-      "summary": "Saves a restore pack for any of your bots with its profile, skills, routines and key notes, never passwords or keys, on a schedule you pick.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "ollie",
-        "url": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz"
-      },
-      "official_share_url": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz",
-      "found_via": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/backup-bot/",
-      "json_url": "https://moneywithai.net/api/bots/backup-bot.json",
-      "share_url": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz",
-      "credit": {
-        "creator": "ollie",
-        "creator_url": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz",
-        "source_url": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz",
-        "found_via": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz",
-        "text": "Backup Bot by ollie. Original source: https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz. Listed on Money With AI: https://moneywithai.net/bots/backup-bot/"
-      }
-    },
-    {
       "slug": "backup-bot-andres-ruggiero",
       "name": "Backup Bot",
       "category": "Research and Ops",
@@ -1260,6 +1226,40 @@
         "source_url": "https://x.ai/bot/G3Du-G9_8zTwynr6sl9Z2",
         "found_via": "https://x.ai/bot/G3Du-G9_8zTwynr6sl9Z2",
         "text": "Backup Bot by Andres Ruggiero. Original source: https://x.ai/bot/G3Du-G9_8zTwynr6sl9Z2. Listed on Money With AI: https://moneywithai.net/bots/backup-bot-andres-ruggiero/"
+      }
+    },
+    {
+      "slug": "backup-bot",
+      "name": "Backup Bot",
+      "category": "Research and Ops",
+      "sub_use_case": "Team memory",
+      "summary": "Saves a restore pack for any of your bots with its profile, skills, routines and key notes, never passwords or keys, on a schedule you pick.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "ollie",
+        "url": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz"
+      },
+      "official_share_url": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz",
+      "found_via": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/backup-bot/",
+      "json_url": "https://moneywithai.net/api/bots/backup-bot.json",
+      "share_url": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz",
+      "credit": {
+        "creator": "ollie",
+        "creator_url": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz",
+        "source_url": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz",
+        "found_via": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz",
+        "text": "Backup Bot by ollie. Original source: https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz. Listed on Money With AI: https://moneywithai.net/bots/backup-bot/"
       }
     },
     {
@@ -9616,40 +9616,6 @@
       }
     },
     {
-      "slug": "inbox-triage-markus-johnson",
-      "name": "Inbox Triage",
-      "category": "Research and Ops",
-      "sub_use_case": "Inbox triage",
-      "summary": "Sorts your inbox into needs a reply, waiting and can go, with short reply drafts in your voice. It never sends.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "Markus Johnson",
-        "url": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6"
-      },
-      "official_share_url": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6",
-      "found_via": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/inbox-triage-markus-johnson/",
-      "json_url": "https://moneywithai.net/api/bots/inbox-triage-markus-johnson.json",
-      "share_url": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6",
-      "credit": {
-        "creator": "Markus Johnson",
-        "creator_url": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6",
-        "source_url": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6",
-        "found_via": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6",
-        "text": "Inbox Triage by Markus Johnson. Original source: https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6. Listed on Money With AI: https://moneywithai.net/bots/inbox-triage-markus-johnson/"
-      }
-    },
-    {
       "slug": "inbox-triage",
       "name": "Inbox Triage",
       "category": "Research and Ops",
@@ -9684,6 +9650,40 @@
         "source_url": "https://x.com/rchase/status/2091998096175645011",
         "found_via": null,
         "text": "Inbox Triage by rchase. Original source: https://x.com/rchase/status/2091998096175645011. Listed on Money With AI: https://moneywithai.net/bots/inbox-triage/"
+      }
+    },
+    {
+      "slug": "inbox-triage-markus-johnson",
+      "name": "Inbox Triage",
+      "category": "Research and Ops",
+      "sub_use_case": "Inbox triage",
+      "summary": "Sorts your inbox into needs a reply, waiting and can go, with short reply drafts in your voice. It never sends.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "Markus Johnson",
+        "url": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6"
+      },
+      "official_share_url": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6",
+      "found_via": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/inbox-triage-markus-johnson/",
+      "json_url": "https://moneywithai.net/api/bots/inbox-triage-markus-johnson.json",
+      "share_url": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6",
+      "credit": {
+        "creator": "Markus Johnson",
+        "creator_url": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6",
+        "source_url": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6",
+        "found_via": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6",
+        "text": "Inbox Triage by Markus Johnson. Original source: https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6. Listed on Money With AI: https://moneywithai.net/bots/inbox-triage-markus-johnson/"
       }
     },
     {
@@ -19077,6 +19077,40 @@
       }
     },
     {
+      "slug": "social-media-manager-stacy-burnett",
+      "name": "Social Media Manager",
+      "category": "Content and Marketing",
+      "sub_use_case": "Brand social",
+      "summary": "Learns from your post history and publishes in your voice through Buffer, with auto-posting only if you turn it on.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "Stacy Burnett",
+        "url": "https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X"
+      },
+      "official_share_url": "https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X",
+      "found_via": "https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/social-media-manager-stacy-burnett/",
+      "json_url": "https://moneywithai.net/api/bots/social-media-manager-stacy-burnett.json",
+      "share_url": "https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X",
+      "credit": {
+        "creator": "Stacy Burnett",
+        "creator_url": "https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X",
+        "source_url": "https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X",
+        "found_via": "https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X",
+        "text": "Social Media Manager by Stacy Burnett. Original source: https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X. Listed on Money With AI: https://moneywithai.net/bots/social-media-manager-stacy-burnett/"
+      }
+    },
+    {
       "slug": "social-media-manager-upesh-bishwakarma",
       "name": "Social Media Manager",
       "category": "Content and Marketing",
@@ -19110,40 +19144,6 @@
         "source_url": "https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL",
         "found_via": "https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL",
         "text": "Social Media Manager by Upesh Bishwakarma. Original source: https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL. Listed on Money With AI: https://moneywithai.net/bots/social-media-manager-upesh-bishwakarma/"
-      }
-    },
-    {
-      "slug": "social-media-manager",
-      "name": "Social Media Manager",
-      "category": "Content and Marketing",
-      "sub_use_case": "Brand social",
-      "summary": "Manages social posting and the social inbox through OmniSocials.",
-      "tools": [
-        "OmniSocials"
-      ],
-      "creator": {
-        "handle": "Lighthart99",
-        "url": null
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://moneywithai.net/bots/social-media-manager/"
-      },
-      "official_share_url": null,
-      "found_via": null,
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-25",
-      "url": "https://moneywithai.net/bots/social-media-manager/",
-      "json_url": "https://moneywithai.net/api/bots/social-media-manager.json",
-      "share_url": null,
-      "credit": {
-        "creator": "Lighthart99",
-        "creator_url": null,
-        "source_url": "https://moneywithai.net/bots/social-media-manager/",
-        "found_via": null,
-        "text": "Social Media Manager by Lighthart99. Listed on Money With AI: https://moneywithai.net/bots/social-media-manager/"
       }
     },
     {
@@ -19183,37 +19183,37 @@
       }
     },
     {
-      "slug": "social-media-manager-stacy-burnett",
+      "slug": "social-media-manager",
       "name": "Social Media Manager",
       "category": "Content and Marketing",
       "sub_use_case": "Brand social",
-      "summary": "Learns from your post history and publishes in your voice through Buffer, with auto-posting only if you turn it on.",
+      "summary": "Manages social posting and the social inbox through OmniSocials.",
       "tools": [
-        "Grok"
+        "OmniSocials"
       ],
       "creator": {
-        "handle": "Stacy Burnett",
-        "url": "https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X"
+        "handle": "Lighthart99",
+        "url": null
       },
       "scouted_by": null,
       "source": {
         "kind": "web",
-        "url": "https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X"
+        "url": "https://moneywithai.net/bots/social-media-manager/"
       },
-      "official_share_url": "https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X",
-      "found_via": "https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X",
+      "official_share_url": null,
+      "found_via": null,
       "prompt_included": false,
       "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/social-media-manager-stacy-burnett/",
-      "json_url": "https://moneywithai.net/api/bots/social-media-manager-stacy-burnett.json",
-      "share_url": "https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X",
+      "last_checked": "2026-10-25",
+      "url": "https://moneywithai.net/bots/social-media-manager/",
+      "json_url": "https://moneywithai.net/api/bots/social-media-manager.json",
+      "share_url": null,
       "credit": {
-        "creator": "Stacy Burnett",
-        "creator_url": "https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X",
-        "source_url": "https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X",
-        "found_via": "https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X",
-        "text": "Social Media Manager by Stacy Burnett. Original source: https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X. Listed on Money With AI: https://moneywithai.net/bots/social-media-manager-stacy-burnett/"
+        "creator": "Lighthart99",
+        "creator_url": null,
+        "source_url": "https://moneywithai.net/bots/social-media-manager/",
+        "found_via": null,
+        "text": "Social Media Manager by Lighthart99. Listed on Money With AI: https://moneywithai.net/bots/social-media-manager/"
       }
     },
     {

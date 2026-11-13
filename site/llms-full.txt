@@ -420,19 +420,6 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Backup Bot
 
-- URL: https://moneywithai.net/bots/backup-bot/
-- Category: Research and Ops
-- Summary (Money With AI's words): Saves a restore pack for any of your bots with its profile, skills, routines and key notes, never passwords or keys, on a schedule you pick.
-- Tools: Grok
-- Creator: ollie (https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz)
-- Original source: https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz
-- Official share link: https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz
-- Found via: https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz
-- Proof level: Source verified: the original post exists and is by the named creator.
-- Prompt: not included; read it at the original source
-
-## Backup Bot
-
 - URL: https://moneywithai.net/bots/backup-bot-andres-ruggiero/
 - Category: Research and Ops
 - Summary (Money With AI's words): Backs up your bot's computer to Google Drive or OneDrive each night and tests a restore every week.
@@ -441,6 +428,19 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Original source: https://x.ai/bot/G3Du-G9_8zTwynr6sl9Z2
 - Official share link: https://x.ai/bot/G3Du-G9_8zTwynr6sl9Z2
 - Found via: https://x.ai/bot/G3Du-G9_8zTwynr6sl9Z2
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Backup Bot
+
+- URL: https://moneywithai.net/bots/backup-bot/
+- Category: Research and Ops
+- Summary (Money With AI's words): Saves a restore pack for any of your bots with its profile, skills, routines and key notes, never passwords or keys, on a schedule you pick.
+- Tools: Grok
+- Creator: ollie (https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz)
+- Original source: https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz
+- Official share link: https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz
+- Found via: https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
@@ -3428,6 +3428,17 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Inbox Triage
 
+- URL: https://moneywithai.net/bots/inbox-triage/
+- Category: Research and Ops
+- Summary (Money With AI's words): Sorts new email and social DMs, closes what needs no reply and turns the rest into Trello tasks.
+- Tools: Facebook, X, LinkedIn, Trello
+- Creator: @rchase (https://x.com/rchase)
+- Original source: https://x.com/rchase/status/2091998096175645011
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Inbox Triage
+
 - URL: https://moneywithai.net/bots/inbox-triage-markus-johnson/
 - Category: Research and Ops
 - Summary (Money With AI's words): Sorts your inbox into needs a reply, waiting and can go, with short reply drafts in your voice. It never sends.
@@ -3436,17 +3447,6 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Original source: https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6
 - Official share link: https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6
 - Found via: https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6
-- Proof level: Source verified: the original post exists and is by the named creator.
-- Prompt: not included; read it at the original source
-
-## Inbox Triage
-
-- URL: https://moneywithai.net/bots/inbox-triage/
-- Category: Research and Ops
-- Summary (Money With AI's words): Sorts new email and social DMs, closes what needs no reply and turns the rest into Trello tasks.
-- Tools: Facebook, X, LinkedIn, Trello
-- Creator: @rchase (https://x.com/rchase)
-- Original source: https://x.com/rchase/status/2091998096175645011
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
@@ -6751,6 +6751,19 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Social Media Manager
 
+- URL: https://moneywithai.net/bots/social-media-manager-stacy-burnett/
+- Category: Content and Marketing
+- Summary (Money With AI's words): Learns from your post history and publishes in your voice through Buffer, with auto-posting only if you turn it on.
+- Tools: Grok
+- Creator: Stacy Burnett (https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X)
+- Original source: https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X
+- Official share link: https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X
+- Found via: https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Social Media Manager
+
 - URL: https://moneywithai.net/bots/social-media-manager-upesh-bishwakarma/
 - Category: Content and Marketing
 - Summary (Money With AI's words): Turns news emails, X trends and your notes into short posts for X and Threads and publishes them through Buffer.
@@ -6761,16 +6774,6 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Found via: https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
-
-## Social Media Manager
-
-- URL: https://moneywithai.net/bots/social-media-manager/
-- Category: Content and Marketing
-- Summary (Money With AI's words): Manages social posting and the social inbox through OmniSocials.
-- Tools: OmniSocials
-- Creator: Lighthart99
-- Proof level: Source verified: the original post exists and is by the named creator.
-- Prompt: not included
 
 ## Social Media Manager
 
@@ -6787,16 +6790,13 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Social Media Manager
 
-- URL: https://moneywithai.net/bots/social-media-manager-stacy-burnett/
+- URL: https://moneywithai.net/bots/social-media-manager/
 - Category: Content and Marketing
-- Summary (Money With AI's words): Learns from your post history and publishes in your voice through Buffer, with auto-posting only if you turn it on.
-- Tools: Grok
-- Creator: Stacy Burnett (https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X)
-- Original source: https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X
-- Official share link: https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X
-- Found via: https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X
+- Summary (Money With AI's words): Manages social posting and the social inbox through OmniSocials.
+- Tools: OmniSocials
+- Creator: Lighthart99
 - Proof level: Source verified: the original post exists and is by the named creator.
-- Prompt: not included; read it at the original source
+- Prompt: not included
 
 ## Socials (Short-Form Scout)
 
