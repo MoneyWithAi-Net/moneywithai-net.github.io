@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T18:15:37.000Z",
+  "generated_at": "2026-11-13T15:57:41.000Z",
   "api_version": "v1",
   "schema_revision": 2,
   "status_url": "https://moneywithai.net/api/v1/status.json",
@@ -8,8 +8,8 @@
     {
       "slug": "leads-and-sales",
       "label": "Leads and Sales",
-      "bots": 121,
-      "use_cases": 38,
+      "bots": 122,
+      "use_cases": 39,
       "sub_use_cases": [
         {
           "slug": "local-seo-prospect-lists",
@@ -24,7 +24,7 @@
         {
           "slug": "social-engagement-leads",
           "label": "Social engagement leads",
-          "bots": 6
+          "bots": 7
         },
         {
           "slug": "linkedin-funnels",
@@ -83,7 +83,7 @@
       "slug": "content-and-marketing",
       "label": "Content and Marketing",
       "bots": 164,
-      "use_cases": 42,
+      "use_cases": 43,
       "sub_use_cases": [
         {
           "slug": "x-posting",
@@ -167,7 +167,7 @@
       "slug": "e-commerce",
       "label": "E-Commerce",
       "bots": 34,
-      "use_cases": 19,
+      "use_cases": 20,
       "sub_use_cases": [
         {
           "slug": "store-operations",
@@ -279,7 +279,7 @@
       "slug": "customer-support",
       "label": "Customer Support",
       "bots": 47,
-      "use_cases": 12,
+      "use_cases": 13,
       "sub_use_cases": [
         {
           "slug": "ticket-fixing",
@@ -322,8 +322,8 @@
     {
       "slug": "research-and-ops",
       "label": "Research and Ops",
-      "bots": 234,
-      "use_cases": 25,
+      "bots": 235,
+      "use_cases": 26,
       "sub_use_cases": [
         {
           "slug": "competitor-intel",
@@ -383,7 +383,7 @@
         {
           "slug": "compliance-and-admin",
           "label": "Compliance and admin",
-          "bots": 15
+          "bots": 16
         },
         {
           "slug": "real-estate-analysis",

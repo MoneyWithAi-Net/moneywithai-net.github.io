@@ -28,11 +28,12 @@
   "json_url": "https://moneywithai.net/api/v1/bots/competitor-price-alert.json",
   "use_cases": [
     "https://moneywithai.net/use-cases/competitor-price-and-drop-watch/",
-    "https://moneywithai.net/use-cases/run-a-repair-and-parts-shop/"
+    "https://moneywithai.net/use-cases/run-a-repair-and-parts-shop/",
+    "https://moneywithai.net/use-cases/know-when-rivals-change-prices/"
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 129,
+    "rank": 131,
     "score": 83,
     "money": 27,
     "profile": 26,

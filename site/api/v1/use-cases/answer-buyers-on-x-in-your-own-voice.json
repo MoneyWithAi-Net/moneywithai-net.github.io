@@ -1,0 +1,129 @@
+{
+  "type": "use-case",
+  "slug": "answer-buyers-on-x-in-your-own-voice",
+  "title": "Answer Buyers on X in Your Own Voice",
+  "category": "Content and Marketing",
+  "category_slug": "content-and-marketing",
+  "money_model": "Grow sales",
+  "difficulty": "Intermediate",
+  "summary": "Turn posts that show buying intent into replies you choose to post, drafted in your voice so you can answer while the buyer is still looking.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you sell on X and get enquiries from posts; the value is faster replies, and you choose every post.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "You answer buyers while they are still looking.",
+    "Drafts save time, but you choose and post every reply."
+  ],
+  "who_its_for": [
+    "Founders who sell on X.",
+    "Consultants and agencies that get enquiries from posts."
+  ],
+  "stack": [
+    {
+      "bot": "buyer-intent-reply-queue",
+      "name": "Buyer Intent Reply Queue",
+      "role": "Queues social posts that show buyer intent, with draft replies sent to Slack.",
+      "creator": "alexandr-belogubov",
+      "tools": [
+        "HotMention",
+        "Slack"
+      ],
+      "url": "https://moneywithai.net/bots/buyer-intent-reply-queue/",
+      "official_share_url": null
+    },
+    {
+      "bot": "reply-drafter",
+      "name": "Reply Drafter",
+      "role": "Finds posts worth replying to and drafts a first take in your voice.",
+      "creator": "kevinace",
+      "tools": [
+        "X"
+      ],
+      "url": "https://moneywithai.net/bots/reply-drafter/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "HotMention",
+    "Slack",
+    "X"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Your X account",
+        "tool": "X"
+      },
+      {
+        "label": "Buying-signal phrases",
+        "tool": null
+      },
+      {
+        "label": "Slack",
+        "tool": "Slack"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "buyer-intent-reply-queue",
+        "name": "Buyer Intent Reply Queue",
+        "does": "Queues posts that show buying intent",
+        "tools": [
+          "HotMention",
+          "Slack"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "reply-drafter",
+        "name": "Reply Drafter",
+        "does": "Drafts a reply in your voice",
+        "tools": [
+          "X"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Edits and posts each reply yourself",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A short queue of buyer posts",
+      "Replies you post yourself"
+    ]
+  },
+  "steps": [
+    "Set the phrases and topics that signal a buyer.",
+    "Review the queue in Slack each day.",
+    "Edit the drafts so they sound like you.",
+    "Post each reply yourself."
+  ],
+  "guardrails": [
+    "You post every reply yourself. Nothing is sent or posted automatically.",
+    "Follow X rules on automation and unsolicited replies."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+  "featured": {
+    "rank": 67,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/answer-buyers-on-x-in-your-own-voice/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/answer-buyers-on-x-in-your-own-voice.json"
+}

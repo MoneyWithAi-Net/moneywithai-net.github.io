@@ -1,0 +1,121 @@
+{
+  "type": "use-case",
+  "slug": "find-buyers-asking-for-your-service",
+  "title": "Find Buyers Who Are Already Asking",
+  "category": "Leads and Sales",
+  "category_slug": "leads-and-sales",
+  "money_model": "Grow sales",
+  "difficulty": "Beginner",
+  "summary": "Spot people who publicly ask for what you sell, log them in one sheet and score which ones are worth a reply. You send every message yourself.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you already sell a service and can reply to public asks; the value is warmer conversations and better use of your time.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "You reach people who have already said they need something.",
+    "Warm leads get your time first, not a cold list."
+  ],
+  "who_its_for": [
+    "Freelancers and agencies that sell services.",
+    "Side-business owners who sell products or classes."
+  ],
+  "stack": [
+    {
+      "bot": "lead-finder",
+      "name": "Lead Finder",
+      "role": "Finds public posts asking for what you sell and logs each match in a Google Sheet with a draft first message.",
+      "creator": "ecoay",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/lead-finder/",
+      "official_share_url": "https://x.ai/bot/ptKW9Qlr6VgYe28aQPZ-y"
+    },
+    {
+      "bot": "lead-pipeline-desk",
+      "name": "Lead Pipeline Desk",
+      "role": "Scores the sheet, merges duplicates and flags leads that have gone quiet.",
+      "creator": "Miguel Cruz",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/lead-pipeline-desk/",
+      "official_share_url": "https://x.ai/bot/oPDkINUfpUXhJDdsfRZht"
+    }
+  ],
+  "tools": [
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Your service and search places",
+        "tool": null
+      },
+      {
+        "label": "Lead sheet",
+        "tool": "Google Sheets"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "lead-finder",
+        "name": "Lead Finder",
+        "does": "Finds public asks and drafts first messages",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "lead-pipeline-desk",
+        "name": "Lead Pipeline Desk",
+        "does": "Scores leads and flags stuck ones",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Reviews and sends each message",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "One scored list of warm leads",
+      "Messages you send yourself"
+    ]
+  },
+  "steps": [
+    "Describe the service you sell and the places your buyers post.",
+    "Review the matches in the sheet and drop the poor fits.",
+    "Work the top-scored leads first.",
+    "Read and send each message yourself."
+  ],
+  "guardrails": [
+    "Read each post before you reply, and follow each platform's rules on messages.",
+    "Lead with help, not a pitch. Nothing is sent without you."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-11-13T10:00:00.000Z",
+  "featured": {
+    "rank": 40,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/find-buyers-asking-for-your-service/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/find-buyers-asking-for-your-service.json"
+}

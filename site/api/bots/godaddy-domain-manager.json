@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "godaddy-domain-manager",
+    "name": "GoDaddy Domain Manager",
+    "category": "Research and Ops",
+    "sub_use_case": "Compliance and admin",
+    "summary": "Manages your domains at GoDaddy and its reseller storefronts such as LuckyRegister, covering renewals, DNS, nameservers, forwarding and locks. Read-only until you approve each change.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "ecoay",
+      "url": "https://x.com/ecoay"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/4VahnRcDJ0RahVUSs-MWt"
+    },
+    "official_share_url": "https://x.ai/bot/4VahnRcDJ0RahVUSs-MWt",
+    "found_via": "https://x.ai/bot/4VahnRcDJ0RahVUSs-MWt",
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-11-13",
+    "url": "https://moneywithai.net/bots/godaddy-domain-manager/",
+    "json_url": "https://moneywithai.net/api/bots/godaddy-domain-manager.json"
+  }
+}

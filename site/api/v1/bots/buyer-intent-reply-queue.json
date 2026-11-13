@@ -26,13 +26,14 @@
   "url": "https://moneywithai.net/bots/buyer-intent-reply-queue/",
   "json_url": "https://moneywithai.net/api/v1/bots/buyer-intent-reply-queue.json",
   "use_cases": [
-    "https://moneywithai.net/use-cases/reddit-to-revenue/"
+    "https://moneywithai.net/use-cases/reddit-to-revenue/",
+    "https://moneywithai.net/use-cases/answer-buyers-on-x-in-your-own-voice/"
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 322,
-    "score": 63,
-    "money": 13,
+    "rank": 254,
+    "score": 77,
+    "money": 27,
     "profile": 20,
     "visuals": 20,
     "difficulty": 10,

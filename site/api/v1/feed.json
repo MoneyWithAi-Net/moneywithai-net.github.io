@@ -1,10 +1,36 @@
 {
-  "generated_at": "2026-11-12T18:15:37.000Z",
+  "generated_at": "2026-11-13T15:57:41.000Z",
   "api_version": "v1",
   "schema_revision": 2,
   "status_url": "https://moneywithai.net/api/v1/status.json",
-  "count": 854,
+  "count": 861,
   "items": [
+    {
+      "type": "bot",
+      "slug": "godaddy-domain-manager",
+      "title": "GoDaddy Domain Manager",
+      "category": "Research and Ops",
+      "sub_use_case": "Compliance and admin",
+      "summary": "Manages your domains at GoDaddy and its reseller storefronts such as LuckyRegister, covering renewals, DNS, nameservers, forwarding and locks. Read-only until you approve each change.",
+      "creator": "ecoay",
+      "url": "https://moneywithai.net/bots/godaddy-domain-manager/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/godaddy-domain-manager.json",
+      "official_share_url": "https://x.ai/bot/4VahnRcDJ0RahVUSs-MWt",
+      "added_at": "2026-11-13T10:00:00.000Z"
+    },
+    {
+      "type": "bot",
+      "slug": "lead-finder",
+      "title": "Lead Finder",
+      "category": "Leads and Sales",
+      "sub_use_case": "Social engagement leads",
+      "summary": "Finds people publicly asking for what you sell across X, Reddit, LinkedIn, forums and job boards, logs them in a Google Sheet and drafts a helpful first message for the best ones.",
+      "creator": "ecoay",
+      "url": "https://moneywithai.net/bots/lead-finder/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/lead-finder.json",
+      "official_share_url": "https://x.ai/bot/ptKW9Qlr6VgYe28aQPZ-y",
+      "added_at": "2026-11-13T10:00:00.000Z"
+    },
     {
       "type": "bot",
       "slug": "credit-card-max",
@@ -9009,6 +9035,34 @@
     },
     {
       "type": "use-case",
+      "slug": "answer-buyers-on-x-in-your-own-voice",
+      "title": "Answer Buyers on X in Your Own Voice",
+      "category": "Content and Marketing",
+      "summary": "Turn posts that show buying intent into replies you choose to post, drafted in your voice so you can answer while the buyer is still looking.",
+      "bots": [
+        "buyer-intent-reply-queue",
+        "reply-drafter"
+      ],
+      "url": "https://moneywithai.net/use-cases/answer-buyers-on-x-in-your-own-voice/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/answer-buyers-on-x-in-your-own-voice.json",
+      "added_at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "type": "use-case",
+      "slug": "answer-repeat-product-questions-faster",
+      "title": "Answer Repeat Product Questions Faster",
+      "category": "Customer Support",
+      "summary": "Find the product questions that come in again and again, and draft answers from your own product details. You check and send each one.",
+      "bots": [
+        "product-support-inbox-assistant",
+        "product-cataloger"
+      ],
+      "url": "https://moneywithai.net/use-cases/answer-repeat-product-questions-faster/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/answer-repeat-product-questions-faster.json",
+      "added_at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "type": "use-case",
       "slug": "answer-whatsapp-customers-same-day",
       "title": "Answer Every WhatsApp Customer the Same Day",
       "category": "Customer Support",
@@ -9616,6 +9670,20 @@
     },
     {
       "type": "use-case",
+      "slug": "find-buyers-asking-for-your-service",
+      "title": "Find Buyers Who Are Already Asking",
+      "category": "Leads and Sales",
+      "summary": "Spot people who publicly ask for what you sell, log them in one sheet and score which ones are worth a reply. You send every message yourself.",
+      "bots": [
+        "lead-finder",
+        "lead-pipeline-desk"
+      ],
+      "url": "https://moneywithai.net/use-cases/find-buyers-asking-for-your-service/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/find-buyers-asking-for-your-service.json",
+      "added_at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "type": "use-case",
       "slug": "find-short-video-hooks-that-already-win",
       "title": "Find Short-Video Hooks That Already Win",
       "category": "Content and Marketing",
@@ -9887,6 +9955,20 @@
       ],
       "url": "https://moneywithai.net/use-cases/know-what-every-bot-did/",
       "detail_url": "https://moneywithai.net/api/v1/use-cases/know-what-every-bot-did.json",
+      "added_at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "type": "use-case",
+      "slug": "know-when-rivals-change-prices",
+      "title": "Know When Rivals Change Prices",
+      "category": "E-Commerce",
+      "summary": "Watch competitor product prices and get an alert when they move, then update your own prices from your real costs.",
+      "bots": [
+        "competitor-price-alert",
+        "product-price-writer"
+      ],
+      "url": "https://moneywithai.net/use-cases/know-when-rivals-change-prices/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/know-when-rivals-change-prices.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {
@@ -11094,6 +11176,20 @@
       ],
       "url": "https://moneywithai.net/use-cases/stop-checking-the-same-pages-every-day/",
       "detail_url": "https://moneywithai.net/api/v1/use-cases/stop-checking-the-same-pages-every-day.json",
+      "added_at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "type": "use-case",
+      "slug": "stop-paying-for-domains-you-forgot",
+      "title": "Stop Paying for Domains You Forgot",
+      "category": "Research and Ops",
+      "summary": "Keep one list of every domain, its renewal date and what it costs, so you renew what you use and let go of what you do not.",
+      "bots": [
+        "godaddy-domain-manager",
+        "watchdog-receipts"
+      ],
+      "url": "https://moneywithai.net/use-cases/stop-paying-for-domains-you-forgot/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/stop-paying-for-domains-you-forgot.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {

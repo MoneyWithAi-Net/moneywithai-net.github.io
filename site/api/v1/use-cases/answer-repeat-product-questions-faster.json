@@ -1,0 +1,121 @@
+{
+  "type": "use-case",
+  "slug": "answer-repeat-product-questions-faster",
+  "title": "Answer Repeat Product Questions Faster",
+  "category": "Customer Support",
+  "category_slug": "customer-support",
+  "money_model": "Save costs",
+  "difficulty": "Beginner",
+  "summary": "Find the product questions that come in again and again, and draft answers from your own product details. You check and send each one.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you answer the same product questions by email; the value is less time on repeat questions and consistent answers.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Your team spends less time on questions you have already answered.",
+    "Customers get consistent answers."
+  ],
+  "who_its_for": [
+    "Shops with a long product list.",
+    "Small teams that answer the same questions by email."
+  ],
+  "stack": [
+    {
+      "bot": "product-support-inbox-assistant",
+      "name": "Product Support Inbox Assistant",
+      "role": "Finds product questions in your inbox and drafts answers. Never sends a reply without you.",
+      "creator": "Anoop Baliga",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/product-support-inbox-assistant/",
+      "official_share_url": "https://x.ai/bot/Rw8d83KAzTYQWBAtAscin"
+    },
+    {
+      "bot": "product-cataloger",
+      "name": "Product Cataloger",
+      "role": "Keeps the product details, SKUs and stock in one catalog the answers can draw on.",
+      "creator": "JennyMarquis",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/product-cataloger/",
+      "official_share_url": "https://x.ai/bot/yuRd3EvmDuoGYSr5_Tjz7"
+    }
+  ],
+  "tools": [
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Product details",
+        "tool": null
+      },
+      {
+        "label": "Support inbox",
+        "tool": "Email"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "product-cataloger",
+        "name": "Product Cataloger",
+        "does": "Keeps product names, SKUs, prices and stock current",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "product-support-inbox-assistant",
+        "name": "Product Support Inbox Assistant",
+        "does": "Drafts answers from the catalog",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Checks and sends each reply",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Draft answers for repeat questions",
+      "Consistent replies you send yourself"
+    ]
+  },
+  "steps": [
+    "Export your current product details into one catalog.",
+    "Let the assistant find the repeat questions.",
+    "Check each draft against the catalog.",
+    "Send the answer yourself and save the good ones."
+  ],
+  "guardrails": [
+    "Check stock, price and policy details before any reply goes out.",
+    "Never share customer data outside your support tools."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 30,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/answer-repeat-product-questions-faster/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/answer-repeat-product-questions-faster.json"
+}

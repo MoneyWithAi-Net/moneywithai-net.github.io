@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "lead-finder",
+  "name": "Lead Finder",
+  "category": "Leads and Sales",
+  "sub_use_case": "Social engagement leads",
+  "summary": "Finds people publicly asking for what you sell across X, Reddit, LinkedIn, forums and job boards, logs them in a Google Sheet and drafts a helpful first message for the best ones.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "ecoay",
+    "url": "https://x.com/ecoay"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/ptKW9Qlr6VgYe28aQPZ-y"
+  },
+  "official_share_url": "https://x.ai/bot/ptKW9Qlr6VgYe28aQPZ-y",
+  "found_via": "https://x.ai/bot/ptKW9Qlr6VgYe28aQPZ-y",
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-11-13",
+  "url": "https://moneywithai.net/bots/lead-finder/",
+  "json_url": "https://moneywithai.net/api/v1/bots/lead-finder.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/find-buyers-asking-for-your-service/"
+  ],
+  "added_at": "2026-11-13T10:00:00.000Z",
+  "featured": {
+    "rank": 96,
+    "score": 87,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

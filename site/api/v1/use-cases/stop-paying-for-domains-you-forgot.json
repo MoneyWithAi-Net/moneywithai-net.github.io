@@ -1,0 +1,121 @@
+{
+  "type": "use-case",
+  "slug": "stop-paying-for-domains-you-forgot",
+  "title": "Stop Paying for Domains You Forgot",
+  "category": "Research and Ops",
+  "category_slug": "research-and-ops",
+  "money_model": "Save costs",
+  "difficulty": "Beginner",
+  "summary": "Keep one list of every domain, its renewal date and what it costs, so you renew what you use and let go of what you do not.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Assumes you hold domains you no longer use; the value is fees avoided and fewer surprise renewals, not new income.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "You stop paying for domains that no longer serve the business.",
+    "Renewals stop catching you by surprise."
+  ],
+  "who_its_for": [
+    "Owners who hold domains from old projects.",
+    "Agencies that manage domains for several clients."
+  ],
+  "stack": [
+    {
+      "bot": "godaddy-domain-manager",
+      "name": "GoDaddy Domain Manager",
+      "role": "Lists your GoDaddy and reseller domains with renewal dates, DNS and nameservers, and changes nothing until you approve.",
+      "creator": "ecoay",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/godaddy-domain-manager/",
+      "official_share_url": "https://x.ai/bot/4VahnRcDJ0RahVUSs-MWt"
+    },
+    {
+      "bot": "watchdog-receipts",
+      "name": "Watchdog Receipts",
+      "role": "Finds domain renewal and billing emails so the costs show up in one place.",
+      "creator": "jxckvibe",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/watchdog-receipts/",
+      "official_share_url": "https://x.ai/bot/PuAEE57P58Df5zskFY3pg"
+    }
+  ],
+  "tools": [
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Registrar account",
+        "tool": null
+      },
+      {
+        "label": "Renewal and billing emails",
+        "tool": "Email"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "godaddy-domain-manager",
+        "name": "GoDaddy Domain Manager",
+        "does": "Lists domains, renewal dates and DNS",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "watchdog-receipts",
+        "name": "Watchdog Receipts",
+        "does": "Finds renewal and billing emails",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Marks keep, park or release and approves",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "One domain list with renewal dates",
+      "Fewer unused domains on the bill"
+    ]
+  },
+  "steps": [
+    "Connect the registrar in read-only mode.",
+    "Mark each domain as keep, park or release.",
+    "Review the renewal list each month.",
+    "Approve any renewal or release yourself at the registrar."
+  ],
+  "guardrails": [
+    "Nothing is renewed, released or changed without your approval.",
+    "Check auto-renew settings at the registrar before a domain is released."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-11-13T10:00:00.000Z",
+  "featured": {
+    "rank": 162,
+    "score": 69,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/stop-paying-for-domains-you-forgot/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/stop-paying-for-domains-you-forgot.json"
+}

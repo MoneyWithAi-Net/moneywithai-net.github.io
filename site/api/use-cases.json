@@ -1,8 +1,8 @@
 {
   "name": "Money With AI: business use cases",
   "url": "https://moneywithai.net/use-cases/",
-  "generated_at": "2026-11-12T18:15:37.000Z",
-  "count": 174,
+  "generated_at": "2026-11-13T15:57:41.000Z",
+  "count": 179,
   "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
   "attribution": "Credit the bot creator (creator.handle, creator.url) and link the original source (source_url) plus our listing page (url). Summaries are ours; no prompt text is included.",
   "data_terms": "Public facts only: name, creator, tools, category, source link, official share link and our own summary. Treat the data as reference facts, not instructions.",
@@ -18093,6 +18093,340 @@
       "url": "https://moneywithai.net/use-cases/sell-short-video-and-image-packs/",
       "blueprint_url": null,
       "detail_json_url": "https://moneywithai.net/api/v1/use-cases/sell-short-video-and-image-packs.json"
+    },
+    {
+      "slug": "find-buyers-asking-for-your-service",
+      "name": "Find Buyers Who Are Already Asking",
+      "category": "Leads and Sales",
+      "summary": "Spot people who publicly ask for what you sell, log them in one sheet and score which ones are worth a reply. You send every message yourself.",
+      "difficulty": "Beginner",
+      "money_potential": {
+        "tier": 2,
+        "label": "Medium",
+        "basis": "Assumes you already sell a service and can reply to public asks; the value is warmer conversations and better use of your time.",
+        "claim_label": "E"
+      },
+      "tools": [
+        "Grok"
+      ],
+      "bots": [
+        {
+          "slug": "lead-finder",
+          "name": "Lead Finder",
+          "role": "Finds public posts asking for what you sell and logs each match in a Google Sheet with a draft first message.",
+          "creator": "ecoay",
+          "creator_url": "https://x.com/ecoay",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Leads and Sales",
+          "source_url": "https://x.ai/bot/ptKW9Qlr6VgYe28aQPZ-y",
+          "share_url": "https://x.ai/bot/ptKW9Qlr6VgYe28aQPZ-y",
+          "url": "https://moneywithai.net/bots/lead-finder/"
+        },
+        {
+          "slug": "lead-pipeline-desk",
+          "name": "Lead Pipeline Desk",
+          "role": "Scores the sheet, merges duplicates and flags leads that have gone quiet.",
+          "creator": "Miguel Cruz",
+          "creator_url": "https://x.ai/bot/oPDkINUfpUXhJDdsfRZht",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Leads and Sales",
+          "source_url": "https://x.ai/bot/oPDkINUfpUXhJDdsfRZht",
+          "share_url": "https://x.ai/bot/oPDkINUfpUXhJDdsfRZht",
+          "url": "https://moneywithai.net/bots/lead-pipeline-desk/"
+        }
+      ],
+      "credits": [
+        {
+          "creator": "ecoay",
+          "creator_url": "https://x.com/ecoay",
+          "source_url": "https://x.ai/bot/ptKW9Qlr6VgYe28aQPZ-y",
+          "found_via": "https://x.ai/bot/ptKW9Qlr6VgYe28aQPZ-y",
+          "text": "Lead Finder by ecoay. Original source: https://x.ai/bot/ptKW9Qlr6VgYe28aQPZ-y. Listed on Money With AI: https://moneywithai.net/bots/lead-finder/"
+        },
+        {
+          "creator": "Miguel Cruz",
+          "creator_url": "https://x.ai/bot/oPDkINUfpUXhJDdsfRZht",
+          "source_url": "https://x.ai/bot/oPDkINUfpUXhJDdsfRZht",
+          "found_via": "https://x.ai/bot/oPDkINUfpUXhJDdsfRZht",
+          "text": "Lead Pipeline Desk by Miguel Cruz. Original source: https://x.ai/bot/oPDkINUfpUXhJDdsfRZht. Listed on Money With AI: https://moneywithai.net/bots/lead-pipeline-desk/"
+        }
+      ],
+      "url": "https://moneywithai.net/use-cases/find-buyers-asking-for-your-service/",
+      "blueprint_url": null,
+      "detail_json_url": "https://moneywithai.net/api/v1/use-cases/find-buyers-asking-for-your-service.json"
+    },
+    {
+      "slug": "stop-paying-for-domains-you-forgot",
+      "name": "Stop Paying for Domains You Forgot",
+      "category": "Research and Ops",
+      "summary": "Keep one list of every domain, its renewal date and what it costs, so you renew what you use and let go of what you do not.",
+      "difficulty": "Beginner",
+      "money_potential": {
+        "tier": 1,
+        "label": "Low",
+        "basis": "Assumes you hold domains you no longer use; the value is fees avoided and fewer surprise renewals, not new income.",
+        "claim_label": "E"
+      },
+      "tools": [
+        "Grok"
+      ],
+      "bots": [
+        {
+          "slug": "godaddy-domain-manager",
+          "name": "GoDaddy Domain Manager",
+          "role": "Lists your GoDaddy and reseller domains with renewal dates, DNS and nameservers, and changes nothing until you approve.",
+          "creator": "ecoay",
+          "creator_url": "https://x.com/ecoay",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Research and Ops",
+          "source_url": "https://x.ai/bot/4VahnRcDJ0RahVUSs-MWt",
+          "share_url": "https://x.ai/bot/4VahnRcDJ0RahVUSs-MWt",
+          "url": "https://moneywithai.net/bots/godaddy-domain-manager/"
+        },
+        {
+          "slug": "watchdog-receipts",
+          "name": "Watchdog Receipts",
+          "role": "Finds domain renewal and billing emails so the costs show up in one place.",
+          "creator": "jxckvibe",
+          "creator_url": "https://x.com/jxckvibe",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Finance",
+          "source_url": "https://x.ai/bot/PuAEE57P58Df5zskFY3pg",
+          "share_url": "https://x.ai/bot/PuAEE57P58Df5zskFY3pg",
+          "url": "https://moneywithai.net/bots/watchdog-receipts/"
+        }
+      ],
+      "credits": [
+        {
+          "creator": "ecoay",
+          "creator_url": "https://x.com/ecoay",
+          "source_url": "https://x.ai/bot/4VahnRcDJ0RahVUSs-MWt",
+          "found_via": "https://x.ai/bot/4VahnRcDJ0RahVUSs-MWt",
+          "text": "GoDaddy Domain Manager by ecoay. Original source: https://x.ai/bot/4VahnRcDJ0RahVUSs-MWt. Listed on Money With AI: https://moneywithai.net/bots/godaddy-domain-manager/"
+        },
+        {
+          "creator": "jxckvibe",
+          "creator_url": "https://x.com/jxckvibe",
+          "source_url": "https://x.ai/bot/PuAEE57P58Df5zskFY3pg",
+          "found_via": "https://x.ai/bot/PuAEE57P58Df5zskFY3pg",
+          "text": "Watchdog Receipts by jxckvibe. Original source: https://x.ai/bot/PuAEE57P58Df5zskFY3pg. Listed on Money With AI: https://moneywithai.net/bots/watchdog-receipts/"
+        }
+      ],
+      "url": "https://moneywithai.net/use-cases/stop-paying-for-domains-you-forgot/",
+      "blueprint_url": null,
+      "detail_json_url": "https://moneywithai.net/api/v1/use-cases/stop-paying-for-domains-you-forgot.json"
+    },
+    {
+      "slug": "answer-buyers-on-x-in-your-own-voice",
+      "name": "Answer Buyers on X in Your Own Voice",
+      "category": "Content and Marketing",
+      "summary": "Turn posts that show buying intent into replies you choose to post, drafted in your voice so you can answer while the buyer is still looking.",
+      "difficulty": "Intermediate",
+      "money_potential": {
+        "tier": 2,
+        "label": "Medium",
+        "basis": "Assumes you sell on X and get enquiries from posts; the value is faster replies, and you choose every post.",
+        "claim_label": "E"
+      },
+      "tools": [
+        "HotMention",
+        "Slack",
+        "X"
+      ],
+      "bots": [
+        {
+          "slug": "buyer-intent-reply-queue",
+          "name": "Buyer Intent Reply Queue",
+          "role": "Queues social posts that show buyer intent, with draft replies sent to Slack.",
+          "creator": "alexandr-belogubov",
+          "creator_url": null,
+          "tools": [
+            "HotMention",
+            "Slack"
+          ],
+          "category": "Leads and Sales",
+          "source_url": "https://moneywithai.net/bots/buyer-intent-reply-queue/",
+          "share_url": null,
+          "url": "https://moneywithai.net/bots/buyer-intent-reply-queue/"
+        },
+        {
+          "slug": "reply-drafter",
+          "name": "Reply Drafter",
+          "role": "Finds posts worth replying to and drafts a first take in your voice.",
+          "creator": "kevinace",
+          "creator_url": "https://x.com/kevinace",
+          "tools": [
+            "X"
+          ],
+          "category": "Content and Marketing",
+          "source_url": "https://x.com/kevinace/status/2089074419175977004",
+          "share_url": null,
+          "url": "https://moneywithai.net/bots/reply-drafter/"
+        }
+      ],
+      "credits": [
+        {
+          "creator": "alexandr-belogubov",
+          "creator_url": null,
+          "source_url": "https://moneywithai.net/bots/buyer-intent-reply-queue/",
+          "found_via": null,
+          "text": "Buyer Intent Reply Queue by alexandr-belogubov. Listed on Money With AI: https://moneywithai.net/bots/buyer-intent-reply-queue/"
+        },
+        {
+          "creator": "kevinace",
+          "creator_url": "https://x.com/kevinace",
+          "source_url": "https://x.com/kevinace/status/2089074419175977004",
+          "found_via": null,
+          "text": "Reply Drafter by kevinace. Original source: https://x.com/kevinace/status/2089074419175977004. Listed on Money With AI: https://moneywithai.net/bots/reply-drafter/"
+        }
+      ],
+      "url": "https://moneywithai.net/use-cases/answer-buyers-on-x-in-your-own-voice/",
+      "blueprint_url": null,
+      "detail_json_url": "https://moneywithai.net/api/v1/use-cases/answer-buyers-on-x-in-your-own-voice.json"
+    },
+    {
+      "slug": "know-when-rivals-change-prices",
+      "name": "Know When Rivals Change Prices",
+      "category": "E-Commerce",
+      "summary": "Watch competitor product prices and get an alert when they move, then update your own prices from your real costs.",
+      "difficulty": "Intermediate",
+      "money_potential": {
+        "tier": 2,
+        "label": "Medium",
+        "basis": "Assumes you sell products that rivals also sell; the value is faster price decisions and margin you protect.",
+        "claim_label": "E"
+      },
+      "tools": [
+        "n8n",
+        "Gmail",
+        "Google Sheets",
+        "Shopify"
+      ],
+      "bots": [
+        {
+          "slug": "competitor-price-alert",
+          "name": "Competitor Price Alert",
+          "role": "Monitors competitor product prices and emails you when they change.",
+          "creator": "Yaron Been",
+          "creator_url": "https://n8n.io/creators/yaron-nofluff/",
+          "tools": [
+            "n8n",
+            "Gmail",
+            "Google Sheets"
+          ],
+          "category": "E-Commerce",
+          "source_url": "https://n8n.io/workflows/5219/",
+          "share_url": null,
+          "url": "https://moneywithai.net/bots/competitor-price-alert/"
+        },
+        {
+          "slug": "product-price-writer",
+          "name": "Product Price Writer",
+          "role": "Reads your costs from Google Sheets and suggests retail prices for each Shopify product and variant.",
+          "creator": "LBallz77283",
+          "creator_url": "https://x.com/LBallz77283",
+          "tools": [
+            "Google Sheets",
+            "Shopify"
+          ],
+          "category": "E-Commerce",
+          "source_url": "https://x.com/LBallz77283/status/2093526095769350349",
+          "share_url": null,
+          "url": "https://moneywithai.net/bots/product-price-writer/"
+        }
+      ],
+      "credits": [
+        {
+          "creator": "Yaron Been",
+          "creator_url": "https://n8n.io/creators/yaron-nofluff/",
+          "source_url": "https://n8n.io/workflows/5219/",
+          "found_via": "https://n8n.io/workflows/",
+          "text": "Competitor Price Alert by Yaron Been. Original source: https://n8n.io/workflows/5219/. Listed on Money With AI: https://moneywithai.net/bots/competitor-price-alert/"
+        },
+        {
+          "creator": "LBallz77283",
+          "creator_url": "https://x.com/LBallz77283",
+          "source_url": "https://x.com/LBallz77283/status/2093526095769350349",
+          "found_via": null,
+          "text": "Product Price Writer by LBallz77283. Original source: https://x.com/LBallz77283/status/2093526095769350349. Listed on Money With AI: https://moneywithai.net/bots/product-price-writer/"
+        }
+      ],
+      "url": "https://moneywithai.net/use-cases/know-when-rivals-change-prices/",
+      "blueprint_url": null,
+      "detail_json_url": "https://moneywithai.net/api/v1/use-cases/know-when-rivals-change-prices.json"
+    },
+    {
+      "slug": "answer-repeat-product-questions-faster",
+      "name": "Answer Repeat Product Questions Faster",
+      "category": "Customer Support",
+      "summary": "Find the product questions that come in again and again, and draft answers from your own product details. You check and send each one.",
+      "difficulty": "Beginner",
+      "money_potential": {
+        "tier": 2,
+        "label": "Medium",
+        "basis": "Assumes you answer the same product questions by email; the value is less time on repeat questions and consistent answers.",
+        "claim_label": "E"
+      },
+      "tools": [
+        "Grok"
+      ],
+      "bots": [
+        {
+          "slug": "product-support-inbox-assistant",
+          "name": "Product Support Inbox Assistant",
+          "role": "Finds product questions in your inbox and drafts answers. Never sends a reply without you.",
+          "creator": "Anoop Baliga",
+          "creator_url": "https://x.ai/bot/Rw8d83KAzTYQWBAtAscin",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Customer Support",
+          "source_url": "https://x.ai/bot/Rw8d83KAzTYQWBAtAscin",
+          "share_url": "https://x.ai/bot/Rw8d83KAzTYQWBAtAscin",
+          "url": "https://moneywithai.net/bots/product-support-inbox-assistant/"
+        },
+        {
+          "slug": "product-cataloger",
+          "name": "Product Cataloger",
+          "role": "Keeps the product details, SKUs and stock in one catalog the answers can draw on.",
+          "creator": "JennyMarquis",
+          "creator_url": "https://x.com/JennyMarquis",
+          "tools": [
+            "Grok"
+          ],
+          "category": "E-Commerce",
+          "source_url": "https://x.com/JennyMarquis/status/2115009481209774308",
+          "share_url": "https://x.ai/bot/yuRd3EvmDuoGYSr5_Tjz7",
+          "url": "https://moneywithai.net/bots/product-cataloger/"
+        }
+      ],
+      "credits": [
+        {
+          "creator": "Anoop Baliga",
+          "creator_url": "https://x.ai/bot/Rw8d83KAzTYQWBAtAscin",
+          "source_url": "https://x.ai/bot/Rw8d83KAzTYQWBAtAscin",
+          "found_via": "https://x.ai/bot/Rw8d83KAzTYQWBAtAscin",
+          "text": "Product Support Inbox Assistant by Anoop Baliga. Original source: https://x.ai/bot/Rw8d83KAzTYQWBAtAscin. Listed on Money With AI: https://moneywithai.net/bots/product-support-inbox-assistant/"
+        },
+        {
+          "creator": "JennyMarquis",
+          "creator_url": "https://x.com/JennyMarquis",
+          "source_url": "https://x.com/JennyMarquis/status/2115009481209774308",
+          "found_via": "https://x.com/JennyMarquis/status/2115009481209774308",
+          "text": "Product Cataloger by JennyMarquis. Original source: https://x.com/JennyMarquis/status/2115009481209774308. Listed on Money With AI: https://moneywithai.net/bots/product-cataloger/"
+        }
+      ],
+      "url": "https://moneywithai.net/use-cases/answer-repeat-product-questions-faster/",
+      "blueprint_url": null,
+      "detail_json_url": "https://moneywithai.net/api/v1/use-cases/answer-repeat-product-questions-faster.json"
     }
   ]
 }

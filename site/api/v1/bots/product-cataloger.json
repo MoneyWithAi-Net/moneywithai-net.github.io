@@ -26,11 +26,12 @@
   "json_url": "https://moneywithai.net/api/v1/bots/product-cataloger.json",
   "use_cases": [
     "https://moneywithai.net/use-cases/send-buyers-a-product-catalog/",
-    "https://moneywithai.net/use-cases/price-products-from-real-costs/"
+    "https://moneywithai.net/use-cases/price-products-from-real-costs/",
+    "https://moneywithai.net/use-cases/answer-repeat-product-questions-faster/"
   ],
   "added_at": "2026-10-29T10:00:00.000Z",
   "featured": {
-    "rank": 106,
+    "rank": 107,
     "score": 87,
     "money": 27,
     "profile": 30,

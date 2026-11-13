@@ -1,10 +1,92 @@
 {
-  "generated_at": "2026-11-12T18:15:37.000Z",
+  "generated_at": "2026-11-13T15:57:41.000Z",
   "api_version": "v1",
   "schema_revision": 2,
   "status_url": "https://moneywithai.net/api/v1/status.json",
-  "count": 680,
+  "count": 682,
   "items": [
+    {
+      "type": "bot",
+      "slug": "godaddy-domain-manager",
+      "name": "GoDaddy Domain Manager",
+      "category": "Research and Ops",
+      "sub_use_case": "Compliance and admin",
+      "summary": "Manages your domains at GoDaddy and its reseller storefronts such as LuckyRegister, covering renewals, DNS, nameservers, forwarding and locks. Read-only until you approve each change.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "ecoay",
+        "url": "https://x.com/ecoay"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/4VahnRcDJ0RahVUSs-MWt"
+      },
+      "official_share_url": "https://x.ai/bot/4VahnRcDJ0RahVUSs-MWt",
+      "found_via": "https://x.ai/bot/4VahnRcDJ0RahVUSs-MWt",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-11-13",
+      "url": "https://moneywithai.net/bots/godaddy-domain-manager/",
+      "json_url": "https://moneywithai.net/api/v1/bots/godaddy-domain-manager.json",
+      "use_cases": [
+        "https://moneywithai.net/use-cases/stop-paying-for-domains-you-forgot/"
+      ],
+      "added_at": "2026-11-13T10:00:00.000Z",
+      "featured": {
+        "rank": 278,
+        "score": 73,
+        "money": 13,
+        "profile": 30,
+        "visuals": 20,
+        "difficulty": 10,
+        "override": null,
+        "rules": "https://moneywithai.net/llms.txt"
+      }
+    },
+    {
+      "type": "bot",
+      "slug": "lead-finder",
+      "name": "Lead Finder",
+      "category": "Leads and Sales",
+      "sub_use_case": "Social engagement leads",
+      "summary": "Finds people publicly asking for what you sell across X, Reddit, LinkedIn, forums and job boards, logs them in a Google Sheet and drafts a helpful first message for the best ones.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "ecoay",
+        "url": "https://x.com/ecoay"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/ptKW9Qlr6VgYe28aQPZ-y"
+      },
+      "official_share_url": "https://x.ai/bot/ptKW9Qlr6VgYe28aQPZ-y",
+      "found_via": "https://x.ai/bot/ptKW9Qlr6VgYe28aQPZ-y",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-11-13",
+      "url": "https://moneywithai.net/bots/lead-finder/",
+      "json_url": "https://moneywithai.net/api/v1/bots/lead-finder.json",
+      "use_cases": [
+        "https://moneywithai.net/use-cases/find-buyers-asking-for-your-service/"
+      ],
+      "added_at": "2026-11-13T10:00:00.000Z",
+      "featured": {
+        "rank": 96,
+        "score": 87,
+        "money": 27,
+        "profile": 30,
+        "visuals": 20,
+        "difficulty": 10,
+        "override": null,
+        "rules": "https://moneywithai.net/llms.txt"
+      }
+    },
     {
       "type": "bot",
       "slug": "credit-card-max",
@@ -34,7 +116,7 @@
       "use_cases": [],
       "added_at": "2026-11-12T00:00:00.000Z",
       "featured": {
-        "rank": 396,
+        "rank": 399,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -73,7 +155,7 @@
       "use_cases": [],
       "added_at": "2026-11-12T00:00:00.000Z",
       "featured": {
-        "rank": 416,
+        "rank": 419,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -112,7 +194,7 @@
       "use_cases": [],
       "added_at": "2026-11-12T00:00:00.000Z",
       "featured": {
-        "rank": 476,
+        "rank": 479,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -151,7 +233,7 @@
       "use_cases": [],
       "added_at": "2026-11-12T00:00:00.000Z",
       "featured": {
-        "rank": 603,
+        "rank": 605,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -320,7 +402,7 @@
       "use_cases": [],
       "added_at": "2026-11-08T10:00:00.000Z",
       "featured": {
-        "rank": 355,
+        "rank": 358,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -361,7 +443,7 @@
       ],
       "added_at": "2026-11-08T10:00:00.000Z",
       "featured": {
-        "rank": 172,
+        "rank": 174,
         "score": 83,
         "money": 27,
         "profile": 30,
@@ -404,7 +486,7 @@
       ],
       "added_at": "2026-11-08T10:00:00.000Z",
       "featured": {
-        "rank": 274,
+        "rank": 277,
         "score": 73,
         "money": 13,
         "profile": 30,
@@ -489,7 +571,7 @@
       ],
       "added_at": "2026-11-08T10:00:00.000Z",
       "featured": {
-        "rank": 100,
+        "rank": 101,
         "score": 87,
         "money": 27,
         "profile": 30,
@@ -530,7 +612,7 @@
       "use_cases": [],
       "added_at": "2026-11-08T10:00:00.000Z",
       "featured": {
-        "rank": 564,
+        "rank": 566,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -570,7 +652,7 @@
       "use_cases": [],
       "added_at": "2026-11-08T10:00:00.000Z",
       "featured": {
-        "rank": 598,
+        "rank": 600,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -611,7 +693,7 @@
       ],
       "added_at": "2026-11-08T10:00:00.000Z",
       "featured": {
-        "rank": 286,
+        "rank": 290,
         "score": 73,
         "money": 13,
         "profile": 30,
@@ -653,7 +735,7 @@
       ],
       "added_at": "2026-11-08T10:00:00.000Z",
       "featured": {
-        "rank": 290,
+        "rank": 294,
         "score": 73,
         "money": 13,
         "profile": 30,
@@ -694,7 +776,7 @@
       ],
       "added_at": "2026-11-08T10:00:00.000Z",
       "featured": {
-        "rank": 292,
+        "rank": 296,
         "score": 73,
         "money": 13,
         "profile": 30,
@@ -777,7 +859,7 @@
       ],
       "added_at": "2026-11-07T10:00:00.000Z",
       "featured": {
-        "rank": 270,
+        "rank": 273,
         "score": 73,
         "money": 13,
         "profile": 30,
@@ -816,7 +898,7 @@
       "use_cases": [],
       "added_at": "2026-11-07T10:00:00.000Z",
       "featured": {
-        "rank": 430,
+        "rank": 433,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -855,7 +937,7 @@
       "use_cases": [],
       "added_at": "2026-11-07T10:00:00.000Z",
       "featured": {
-        "rank": 449,
+        "rank": 452,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -897,7 +979,7 @@
       ],
       "added_at": "2026-11-07T10:00:00.000Z",
       "featured": {
-        "rank": 175,
+        "rank": 177,
         "score": 83,
         "money": 27,
         "profile": 30,
@@ -939,7 +1021,7 @@
       ],
       "added_at": "2026-11-07T10:00:00.000Z",
       "featured": {
-        "rank": 283,
+        "rank": 287,
         "score": 73,
         "money": 13,
         "profile": 30,
@@ -980,7 +1062,7 @@
       ],
       "added_at": "2026-11-07T10:00:00.000Z",
       "featured": {
-        "rank": 114,
+        "rank": 116,
         "score": 87,
         "money": 27,
         "profile": 30,
@@ -1019,7 +1101,7 @@
       "use_cases": [],
       "added_at": "2026-11-07T10:00:00.000Z",
       "featured": {
-        "rank": 578,
+        "rank": 580,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -1058,7 +1140,7 @@
       "use_cases": [],
       "added_at": "2026-11-07T10:00:00.000Z",
       "featured": {
-        "rank": 596,
+        "rank": 598,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -1097,7 +1179,7 @@
       "use_cases": [],
       "added_at": "2026-11-07T10:00:00.000Z",
       "featured": {
-        "rank": 604,
+        "rank": 606,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -1137,7 +1219,7 @@
       "use_cases": [],
       "added_at": "2026-11-01T10:00:00.000Z",
       "featured": {
-        "rank": 327,
+        "rank": 330,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -1177,7 +1259,7 @@
       "use_cases": [],
       "added_at": "2026-11-01T10:00:00.000Z",
       "featured": {
-        "rank": 404,
+        "rank": 407,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -1259,7 +1341,7 @@
       ],
       "added_at": "2026-11-01T10:00:00.000Z",
       "featured": {
-        "rank": 317,
+        "rank": 321,
         "score": 69,
         "money": 13,
         "profile": 30,
@@ -1298,7 +1380,7 @@
       "use_cases": [],
       "added_at": "2026-11-01T10:00:00.000Z",
       "featured": {
-        "rank": 540,
+        "rank": 543,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -1337,7 +1419,7 @@
       "use_cases": [],
       "added_at": "2026-11-01T10:00:00.000Z",
       "featured": {
-        "rank": 549,
+        "rank": 552,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -1378,7 +1460,7 @@
       ],
       "added_at": "2026-11-01T10:00:00.000Z",
       "featured": {
-        "rank": 111,
+        "rank": 113,
         "score": 87,
         "money": 27,
         "profile": 30,
@@ -1419,7 +1501,7 @@
       ],
       "added_at": "2026-11-01T10:00:00.000Z",
       "featured": {
-        "rank": 196,
+        "rank": 198,
         "score": 81,
         "money": 27,
         "profile": 24,
@@ -1461,7 +1543,7 @@
       ],
       "added_at": "2026-11-01T10:00:00.000Z",
       "featured": {
-        "rank": 117,
+        "rank": 119,
         "score": 87,
         "money": 27,
         "profile": 30,
@@ -1502,7 +1584,7 @@
       ],
       "added_at": "2026-11-01T10:00:00.000Z",
       "featured": {
-        "rank": 291,
+        "rank": 295,
         "score": 73,
         "money": 13,
         "profile": 30,
@@ -1541,7 +1623,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 328,
+        "rank": 331,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -1621,7 +1703,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 338,
+        "rank": 341,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -1660,7 +1742,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 340,
+        "rank": 343,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -1701,7 +1783,7 @@
       ],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 315,
+        "rank": 319,
         "score": 69,
         "money": 13,
         "profile": 30,
@@ -1740,7 +1822,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 342,
+        "rank": 345,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -1779,7 +1861,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 343,
+        "rank": 346,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -1819,7 +1901,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 344,
+        "rank": 347,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -1858,7 +1940,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 345,
+        "rank": 348,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -1897,7 +1979,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 347,
+        "rank": 350,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -1936,7 +2018,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 348,
+        "rank": 351,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -1975,7 +2057,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 351,
+        "rank": 354,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -2014,7 +2096,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 353,
+        "rank": 356,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -2053,7 +2135,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 354,
+        "rank": 357,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -2092,7 +2174,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 357,
+        "rank": 360,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -2131,7 +2213,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 358,
+        "rank": 361,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -2170,7 +2252,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 361,
+        "rank": 364,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -2209,7 +2291,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 362,
+        "rank": 365,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -2248,7 +2330,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 363,
+        "rank": 366,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -2288,7 +2370,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 371,
+        "rank": 374,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -2327,7 +2409,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 375,
+        "rank": 378,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -2367,7 +2449,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 376,
+        "rank": 379,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -2407,7 +2489,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 377,
+        "rank": 380,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -2447,7 +2529,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 378,
+        "rank": 381,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -2486,7 +2568,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 380,
+        "rank": 383,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -2525,7 +2607,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 381,
+        "rank": 384,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -2564,7 +2646,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 382,
+        "rank": 385,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -2603,7 +2685,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 384,
+        "rank": 387,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -2644,7 +2726,7 @@
       ],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 171,
+        "rank": 173,
         "score": 83,
         "money": 27,
         "profile": 30,
@@ -2683,7 +2765,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 390,
+        "rank": 393,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -2722,7 +2804,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 398,
+        "rank": 401,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -2761,7 +2843,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 405,
+        "rank": 408,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -2800,7 +2882,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 406,
+        "rank": 409,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -2839,7 +2921,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 407,
+        "rank": 410,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -2878,7 +2960,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 408,
+        "rank": 411,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -2917,7 +2999,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 409,
+        "rank": 412,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -2956,7 +3038,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 410,
+        "rank": 413,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -2996,7 +3078,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 417,
+        "rank": 420,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -3035,7 +3117,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 419,
+        "rank": 422,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -3075,7 +3157,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 420,
+        "rank": 423,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -3114,7 +3196,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 429,
+        "rank": 432,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -3153,7 +3235,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 431,
+        "rank": 434,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -3192,7 +3274,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 432,
+        "rank": 435,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -3231,7 +3313,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 433,
+        "rank": 436,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -3270,7 +3352,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 434,
+        "rank": 437,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -3310,7 +3392,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 435,
+        "rank": 438,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -3349,7 +3431,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 436,
+        "rank": 439,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -3389,7 +3471,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 437,
+        "rank": 440,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -3428,7 +3510,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 438,
+        "rank": 441,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -3467,7 +3549,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 439,
+        "rank": 442,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -3507,7 +3589,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 440,
+        "rank": 443,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -3546,7 +3628,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 445,
+        "rank": 448,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -3585,7 +3667,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 447,
+        "rank": 450,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -3625,7 +3707,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 452,
+        "rank": 455,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -3664,7 +3746,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 455,
+        "rank": 458,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -3703,7 +3785,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 457,
+        "rank": 460,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -3742,7 +3824,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 459,
+        "rank": 462,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -3781,7 +3863,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 469,
+        "rank": 472,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -3820,7 +3902,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 470,
+        "rank": 473,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -3859,7 +3941,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 471,
+        "rank": 474,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -3898,7 +3980,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 473,
+        "rank": 476,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -3937,7 +4019,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 474,
+        "rank": 477,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -3981,7 +4063,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 485,
+        "rank": 488,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -4020,7 +4102,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 486,
+        "rank": 489,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -4059,7 +4141,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 487,
+        "rank": 490,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -4100,7 +4182,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 488,
+        "rank": 491,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -4140,7 +4222,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 493,
+        "rank": 496,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -4179,7 +4261,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 495,
+        "rank": 498,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -4218,7 +4300,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 496,
+        "rank": 499,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -4257,7 +4339,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 497,
+        "rank": 500,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -4296,7 +4378,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 502,
+        "rank": 505,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -4335,7 +4417,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 503,
+        "rank": 506,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -4375,7 +4457,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 505,
+        "rank": 508,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -4415,7 +4497,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 508,
+        "rank": 511,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -4454,7 +4536,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 511,
+        "rank": 514,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -4493,7 +4575,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 512,
+        "rank": 515,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -4534,7 +4616,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 513,
+        "rank": 516,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -4573,7 +4655,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 515,
+        "rank": 518,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -4612,7 +4694,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 517,
+        "rank": 520,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -4656,7 +4738,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 518,
+        "rank": 521,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -4695,7 +4777,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 523,
+        "rank": 526,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -4735,7 +4817,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 525,
+        "rank": 528,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -4774,7 +4856,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 526,
+        "rank": 529,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -4813,7 +4895,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 529,
+        "rank": 532,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -4852,7 +4934,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 530,
+        "rank": 533,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -4892,7 +4974,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 532,
+        "rank": 535,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -4931,7 +5013,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 536,
+        "rank": 539,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -4970,7 +5052,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 538,
+        "rank": 541,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -5009,7 +5091,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 539,
+        "rank": 542,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -5048,7 +5130,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 545,
+        "rank": 548,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -5089,7 +5171,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 546,
+        "rank": 549,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -5129,7 +5211,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 554,
+        "rank": 556,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -5169,7 +5251,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 557,
+        "rank": 559,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -5208,7 +5290,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 559,
+        "rank": 561,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -5247,7 +5329,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 565,
+        "rank": 567,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -5287,7 +5369,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 570,
+        "rank": 572,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -5326,7 +5408,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 574,
+        "rank": 576,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -5365,7 +5447,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 576,
+        "rank": 578,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -5407,7 +5489,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 579,
+        "rank": 581,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -5446,7 +5528,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 582,
+        "rank": 584,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -5485,7 +5567,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 581,
+        "rank": 583,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -5524,7 +5606,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 583,
+        "rank": 585,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -5564,7 +5646,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 586,
+        "rank": 588,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -5603,7 +5685,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 585,
+        "rank": 587,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -5642,7 +5724,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 588,
+        "rank": 590,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -5681,7 +5763,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 592,
+        "rank": 594,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -5720,7 +5802,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 597,
+        "rank": 599,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -5759,7 +5841,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 605,
+        "rank": 607,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -5798,7 +5880,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 608,
+        "rank": 610,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -5838,7 +5920,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 610,
+        "rank": 612,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -5878,7 +5960,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 611,
+        "rank": 613,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -5917,7 +5999,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 612,
+        "rank": 614,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -5956,7 +6038,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 613,
+        "rank": 615,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -5995,7 +6077,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 614,
+        "rank": 616,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -6034,7 +6116,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 615,
+        "rank": 617,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -6075,7 +6157,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 617,
+        "rank": 619,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -6117,7 +6199,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 619,
+        "rank": 621,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -6157,7 +6239,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 620,
+        "rank": 622,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -6196,7 +6278,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 624,
+        "rank": 626,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -6236,7 +6318,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 625,
+        "rank": 627,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -6275,7 +6357,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 626,
+        "rank": 628,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -6314,7 +6396,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 627,
+        "rank": 629,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -6353,7 +6435,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 629,
+        "rank": 631,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -6394,7 +6476,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 630,
+        "rank": 632,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -6433,7 +6515,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 634,
+        "rank": 636,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -6472,7 +6554,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 635,
+        "rank": 637,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -6511,7 +6593,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 637,
+        "rank": 639,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -6551,7 +6633,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 641,
+        "rank": 643,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -6591,7 +6673,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 646,
+        "rank": 648,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -6631,7 +6713,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 647,
+        "rank": 649,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -6671,7 +6753,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 650,
+        "rank": 652,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -6711,7 +6793,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 651,
+        "rank": 653,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -6752,7 +6834,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 652,
+        "rank": 654,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -6791,7 +6873,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 654,
+        "rank": 656,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -6830,7 +6912,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T17:00:00.000Z",
       "featured": {
-        "rank": 655,
+        "rank": 657,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -6869,7 +6951,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 329,
+        "rank": 332,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -6908,7 +6990,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 330,
+        "rank": 333,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -6947,7 +7029,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 331,
+        "rank": 334,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -6986,7 +7068,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 332,
+        "rank": 335,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -7025,7 +7107,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 333,
+        "rank": 336,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -7066,7 +7148,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 334,
+        "rank": 337,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -7105,7 +7187,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 335,
+        "rank": 338,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -7144,7 +7226,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 336,
+        "rank": 339,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -7183,7 +7265,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 337,
+        "rank": 340,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -7222,7 +7304,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 339,
+        "rank": 342,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -7261,7 +7343,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 341,
+        "rank": 344,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -7300,7 +7382,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 346,
+        "rank": 349,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -7339,7 +7421,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 349,
+        "rank": 352,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -7378,7 +7460,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 350,
+        "rank": 353,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -7417,7 +7499,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 352,
+        "rank": 355,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -7457,7 +7539,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 356,
+        "rank": 359,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -7496,7 +7578,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 359,
+        "rank": 362,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -7535,7 +7617,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 360,
+        "rank": 363,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -7575,7 +7657,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 364,
+        "rank": 367,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -7614,7 +7696,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 365,
+        "rank": 368,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -7654,7 +7736,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 366,
+        "rank": 369,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -7693,7 +7775,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 367,
+        "rank": 370,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -7733,7 +7815,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 368,
+        "rank": 371,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -7772,7 +7854,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 370,
+        "rank": 373,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -7811,7 +7893,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 372,
+        "rank": 375,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -7851,7 +7933,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 373,
+        "rank": 376,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -7890,7 +7972,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 369,
+        "rank": 372,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -7929,7 +8011,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 374,
+        "rank": 377,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -7968,7 +8050,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 379,
+        "rank": 382,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -8007,7 +8089,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 383,
+        "rank": 386,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -8048,7 +8130,7 @@
       ],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 269,
+        "rank": 272,
         "score": 73,
         "money": 13,
         "profile": 30,
@@ -8089,7 +8171,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 385,
+        "rank": 388,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -8128,7 +8210,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 387,
+        "rank": 390,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -8167,7 +8249,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 388,
+        "rank": 391,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -8206,7 +8288,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 389,
+        "rank": 392,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -8246,7 +8328,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 391,
+        "rank": 394,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -8285,7 +8367,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 392,
+        "rank": 395,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -8324,7 +8406,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 393,
+        "rank": 396,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -8363,7 +8445,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 394,
+        "rank": 397,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -8402,7 +8484,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 395,
+        "rank": 398,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -8442,7 +8524,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 397,
+        "rank": 400,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -8482,7 +8564,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 399,
+        "rank": 402,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -8522,7 +8604,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 400,
+        "rank": 403,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -8561,7 +8643,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 401,
+        "rank": 404,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -8600,7 +8682,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 402,
+        "rank": 405,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -8639,7 +8721,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 403,
+        "rank": 406,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -8679,7 +8761,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 411,
+        "rank": 414,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -8718,7 +8800,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 412,
+        "rank": 415,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -8758,7 +8840,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 413,
+        "rank": 416,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -8797,7 +8879,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 414,
+        "rank": 417,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -8838,7 +8920,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 415,
+        "rank": 418,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -8877,7 +8959,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 418,
+        "rank": 421,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -8916,7 +8998,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 421,
+        "rank": 424,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -8955,7 +9037,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 422,
+        "rank": 425,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -8994,7 +9076,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 423,
+        "rank": 426,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -9033,7 +9115,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 424,
+        "rank": 427,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -9072,7 +9154,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 425,
+        "rank": 428,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -9112,7 +9194,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 426,
+        "rank": 429,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -9151,7 +9233,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 427,
+        "rank": 430,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -9191,7 +9273,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 428,
+        "rank": 431,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -9230,7 +9312,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 442,
+        "rank": 445,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -9269,7 +9351,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 441,
+        "rank": 444,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -9308,7 +9390,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 443,
+        "rank": 446,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -9348,7 +9430,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 444,
+        "rank": 447,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -9388,7 +9470,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 446,
+        "rank": 449,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -9428,7 +9510,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 448,
+        "rank": 451,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -9467,7 +9549,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 450,
+        "rank": 453,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -9507,7 +9589,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 451,
+        "rank": 454,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -9546,7 +9628,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 453,
+        "rank": 456,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -9585,7 +9667,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 454,
+        "rank": 457,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -9625,7 +9707,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 456,
+        "rank": 459,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -9667,7 +9749,7 @@
       ],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 273,
+        "rank": 276,
         "score": 73,
         "money": 13,
         "profile": 30,
@@ -9707,7 +9789,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 458,
+        "rank": 461,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -9746,7 +9828,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 460,
+        "rank": 463,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -9786,7 +9868,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 461,
+        "rank": 464,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -9825,7 +9907,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 462,
+        "rank": 465,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -9865,7 +9947,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 463,
+        "rank": 466,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -9905,7 +9987,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 465,
+        "rank": 468,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -9944,7 +10026,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 466,
+        "rank": 469,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -9983,7 +10065,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 467,
+        "rank": 470,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -10022,7 +10104,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 468,
+        "rank": 471,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -10061,7 +10143,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 472,
+        "rank": 475,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -10100,7 +10182,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 475,
+        "rank": 478,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -10141,7 +10223,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 477,
+        "rank": 480,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -10180,7 +10262,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 478,
+        "rank": 481,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -10219,7 +10301,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 479,
+        "rank": 482,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -10258,7 +10340,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 480,
+        "rank": 483,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -10297,7 +10379,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 481,
+        "rank": 484,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -10336,7 +10418,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 482,
+        "rank": 485,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -10375,7 +10457,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 483,
+        "rank": 486,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -10419,7 +10501,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 490,
+        "rank": 493,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -10456,11 +10538,12 @@
       "url": "https://moneywithai.net/bots/lead-pipeline-desk/",
       "json_url": "https://moneywithai.net/api/v1/bots/lead-pipeline-desk.json",
       "use_cases": [
-        "https://moneywithai.net/use-cases/catch-every-new-lead-in-one-sweep/"
+        "https://moneywithai.net/use-cases/catch-every-new-lead-in-one-sweep/",
+        "https://moneywithai.net/use-cases/find-buyers-asking-for-your-service/"
       ],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 96,
+        "rank": 97,
         "score": 87,
         "money": 27,
         "profile": 30,
@@ -10499,7 +10582,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 491,
+        "rank": 494,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -10540,7 +10623,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 492,
+        "rank": 495,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -10579,7 +10662,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 494,
+        "rank": 497,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -10619,7 +10702,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 498,
+        "rank": 501,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -10659,7 +10742,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 499,
+        "rank": 502,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -10698,7 +10781,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 501,
+        "rank": 504,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -10737,7 +10820,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 504,
+        "rank": 507,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -10776,7 +10859,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 506,
+        "rank": 509,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -10816,7 +10899,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 507,
+        "rank": 510,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -10855,7 +10938,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 509,
+        "rank": 512,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -10894,7 +10977,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 510,
+        "rank": 513,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -10933,7 +11016,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 514,
+        "rank": 517,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -10973,7 +11056,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 516,
+        "rank": 519,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -11012,7 +11095,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 519,
+        "rank": 522,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -11051,7 +11134,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 520,
+        "rank": 523,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -11090,7 +11173,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 521,
+        "rank": 524,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -11130,7 +11213,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 522,
+        "rank": 525,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -11169,7 +11252,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 524,
+        "rank": 527,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -11209,7 +11292,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 527,
+        "rank": 530,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -11248,7 +11331,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 528,
+        "rank": 531,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -11287,7 +11370,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 531,
+        "rank": 534,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -11326,7 +11409,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 533,
+        "rank": 536,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -11365,7 +11448,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 534,
+        "rank": 537,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -11407,7 +11490,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 535,
+        "rank": 538,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -11449,7 +11532,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 537,
+        "rank": 540,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -11489,7 +11572,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 541,
+        "rank": 544,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -11528,7 +11611,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 542,
+        "rank": 545,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -11567,7 +11650,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 544,
+        "rank": 547,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -11606,7 +11689,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 547,
+        "rank": 550,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -11645,7 +11728,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 548,
+        "rank": 551,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -11684,7 +11767,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 550,
+        "rank": 553,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -11723,7 +11806,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 551,
+        "rank": 554,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -11759,15 +11842,17 @@
       "last_checked": "2026-10-31",
       "url": "https://moneywithai.net/bots/product-support-inbox-assistant/",
       "json_url": "https://moneywithai.net/api/v1/bots/product-support-inbox-assistant.json",
-      "use_cases": [],
+      "use_cases": [
+        "https://moneywithai.net/use-cases/answer-repeat-product-questions-faster/"
+      ],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 552,
-        "score": 40,
-        "money": 0,
+        "rank": 108,
+        "score": 87,
+        "money": 27,
         "profile": 30,
-        "visuals": 10,
-        "difficulty": 0,
+        "visuals": 20,
+        "difficulty": 10,
         "override": null,
         "rules": "https://moneywithai.net/llms.txt"
       }
@@ -11801,7 +11886,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 553,
+        "rank": 555,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -11840,7 +11925,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 326,
+        "rank": 329,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -11879,7 +11964,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 555,
+        "rank": 557,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -11919,7 +12004,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 556,
+        "rank": 558,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -11958,7 +12043,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 558,
+        "rank": 560,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -11997,7 +12082,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 560,
+        "rank": 562,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -12037,7 +12122,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 561,
+        "rank": 563,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -12076,7 +12161,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 562,
+        "rank": 564,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -12115,7 +12200,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 563,
+        "rank": 565,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -12154,7 +12239,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 566,
+        "rank": 568,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -12193,7 +12278,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 567,
+        "rank": 569,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -12233,7 +12318,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 568,
+        "rank": 570,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -12277,7 +12362,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 569,
+        "rank": 571,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -12316,7 +12401,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 571,
+        "rank": 573,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -12357,7 +12442,7 @@
       ],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 112,
+        "rank": 114,
         "score": 87,
         "money": 27,
         "profile": 30,
@@ -12396,7 +12481,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 572,
+        "rank": 574,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -12435,7 +12520,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 573,
+        "rank": 575,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -12474,7 +12559,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 575,
+        "rank": 577,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -12513,7 +12598,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 577,
+        "rank": 579,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -12552,7 +12637,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 580,
+        "rank": 582,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -12592,7 +12677,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 584,
+        "rank": 586,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -12631,7 +12716,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 587,
+        "rank": 589,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -12670,7 +12755,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 589,
+        "rank": 591,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -12709,7 +12794,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 590,
+        "rank": 592,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -12749,7 +12834,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 591,
+        "rank": 593,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -12788,7 +12873,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 593,
+        "rank": 595,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -12827,7 +12912,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 594,
+        "rank": 596,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -12866,7 +12951,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 595,
+        "rank": 597,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -12905,7 +12990,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 599,
+        "rank": 601,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -12944,7 +13029,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 600,
+        "rank": 602,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -12985,7 +13070,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 601,
+        "rank": 603,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -13026,7 +13111,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 602,
+        "rank": 604,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -13065,7 +13150,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 606,
+        "rank": 608,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -13104,7 +13189,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 607,
+        "rank": 609,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -13143,7 +13228,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 609,
+        "rank": 611,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -13182,7 +13267,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 616,
+        "rank": 618,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -13221,7 +13306,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 618,
+        "rank": 620,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -13260,7 +13345,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 621,
+        "rank": 623,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -13299,7 +13384,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 622,
+        "rank": 624,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -13339,7 +13424,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 623,
+        "rank": 625,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -13381,7 +13466,7 @@
       ],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 118,
+        "rank": 120,
         "score": 87,
         "money": 27,
         "profile": 30,
@@ -13420,7 +13505,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 631,
+        "rank": 633,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -13459,7 +13544,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 632,
+        "rank": 634,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -13500,7 +13585,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 633,
+        "rank": 635,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -13540,7 +13625,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 636,
+        "rank": 638,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -13579,7 +13664,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 638,
+        "rank": 640,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -13619,7 +13704,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 639,
+        "rank": 641,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -13659,7 +13744,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 640,
+        "rank": 642,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -13699,7 +13784,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 642,
+        "rank": 644,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -13739,7 +13824,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 643,
+        "rank": 645,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -13779,7 +13864,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 644,
+        "rank": 646,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -13819,7 +13904,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 645,
+        "rank": 647,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -13859,7 +13944,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 648,
+        "rank": 650,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -13900,7 +13985,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 649,
+        "rank": 651,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -13940,7 +14025,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 653,
+        "rank": 655,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -13979,7 +14064,7 @@
       "use_cases": [],
       "added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 656,
+        "rank": 658,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -14062,7 +14147,7 @@
       ],
       "added_at": "2026-10-31T15:00:00.000Z",
       "featured": {
-        "rank": 103,
+        "rank": 104,
         "score": 87,
         "money": 27,
         "profile": 30,
@@ -14103,7 +14188,7 @@
       ],
       "added_at": "2026-10-31T15:00:00.000Z",
       "featured": {
-        "rank": 108,
+        "rank": 110,
         "score": 87,
         "money": 27,
         "profile": 30,
@@ -14352,7 +14437,7 @@
       ],
       "added_at": "2026-10-31T10:00:00.000Z",
       "featured": {
-        "rank": 316,
+        "rank": 320,
         "score": 69,
         "money": 13,
         "profile": 30,
@@ -14393,7 +14478,7 @@
       ],
       "added_at": "2026-10-31T10:00:00.000Z",
       "featured": {
-        "rank": 119,
+        "rank": 121,
         "score": 87,
         "money": 27,
         "profile": 30,
@@ -14437,7 +14522,7 @@
       ],
       "added_at": "2026-10-31T10:00:00.000Z",
       "featured": {
-        "rank": 121,
+        "rank": 123,
         "score": 87,
         "money": 27,
         "profile": 30,
@@ -14522,7 +14607,7 @@
       ],
       "added_at": "2026-10-30T10:00:00.000Z",
       "featured": {
-        "rank": 185,
+        "rank": 187,
         "score": 83,
         "money": 27,
         "profile": 30,
@@ -14564,7 +14649,7 @@
       ],
       "added_at": "2026-10-30T10:00:00.000Z",
       "featured": {
-        "rank": 318,
+        "rank": 322,
         "score": 69,
         "money": 13,
         "profile": 30,
@@ -14605,7 +14690,7 @@
       ],
       "added_at": "2026-10-30T10:00:00.000Z",
       "featured": {
-        "rank": 288,
+        "rank": 292,
         "score": 73,
         "money": 13,
         "profile": 30,
@@ -14647,7 +14732,7 @@
       ],
       "added_at": "2026-10-30T10:00:00.000Z",
       "featured": {
-        "rank": 294,
+        "rank": 298,
         "score": 73,
         "money": 13,
         "profile": 30,
@@ -14690,7 +14775,7 @@
       ],
       "added_at": "2026-10-29T10:00:00.000Z",
       "featured": {
-        "rank": 272,
+        "rank": 275,
         "score": 73,
         "money": 13,
         "profile": 30,
@@ -14732,7 +14817,7 @@
       ],
       "added_at": "2026-10-29T10:00:00.000Z",
       "featured": {
-        "rank": 319,
+        "rank": 323,
         "score": 65,
         "money": 13,
         "profile": 26,
@@ -14770,11 +14855,12 @@
       "json_url": "https://moneywithai.net/api/v1/bots/product-cataloger.json",
       "use_cases": [
         "https://moneywithai.net/use-cases/send-buyers-a-product-catalog/",
-        "https://moneywithai.net/use-cases/price-products-from-real-costs/"
+        "https://moneywithai.net/use-cases/price-products-from-real-costs/",
+        "https://moneywithai.net/use-cases/answer-repeat-product-questions-faster/"
       ],
       "added_at": "2026-10-29T10:00:00.000Z",
       "featured": {
-        "rank": 106,
+        "rank": 107,
         "score": 87,
         "money": 27,
         "profile": 30,
@@ -14815,7 +14901,7 @@
       ],
       "added_at": "2026-10-29T10:00:00.000Z",
       "featured": {
-        "rank": 189,
+        "rank": 191,
         "score": 83,
         "money": 27,
         "profile": 30,
@@ -14854,7 +14940,7 @@
       "use_cases": [],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 657,
+        "rank": 659,
         "score": 36,
         "money": 0,
         "profile": 26,
@@ -14896,7 +14982,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 205,
+        "rank": 207,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -14986,7 +15072,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 251,
+        "rank": 253,
         "score": 77,
         "money": 27,
         "profile": 20,
@@ -15032,7 +15118,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 206,
+        "rank": 208,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -15073,7 +15159,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 296,
+        "rank": 300,
         "score": 73,
         "money": 27,
         "profile": 20,
@@ -15115,7 +15201,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 257,
+        "rank": 260,
         "score": 77,
         "money": 27,
         "profile": 24,
@@ -15158,7 +15244,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 324,
+        "rank": 327,
         "score": 59,
         "money": 13,
         "profile": 20,
@@ -15240,7 +15326,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 198,
+        "rank": 200,
         "score": 80,
         "money": 27,
         "profile": 30,
@@ -15284,7 +15370,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 207,
+        "rank": 209,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -15325,7 +15411,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 164,
+        "rank": 166,
         "score": 83,
         "money": 27,
         "profile": 30,
@@ -15411,7 +15497,7 @@
       "use_cases": [],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 658,
+        "rank": 660,
         "score": 36,
         "money": 0,
         "profile": 26,
@@ -15453,7 +15539,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 126,
+        "rank": 128,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -15539,7 +15625,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 127,
+        "rank": 129,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -15587,7 +15673,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 306,
+        "rank": 310,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -15672,7 +15758,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 297,
+        "rank": 301,
         "score": 73,
         "money": 27,
         "profile": 20,
@@ -15756,7 +15842,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 199,
+        "rank": 201,
         "score": 80,
         "money": 27,
         "profile": 30,
@@ -15841,7 +15927,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 194,
+        "rank": 196,
         "score": 83,
         "money": 40,
         "profile": 20,
@@ -15879,13 +15965,14 @@
       "url": "https://moneywithai.net/bots/buyer-intent-reply-queue/",
       "json_url": "https://moneywithai.net/api/v1/bots/buyer-intent-reply-queue.json",
       "use_cases": [
-        "https://moneywithai.net/use-cases/reddit-to-revenue/"
+        "https://moneywithai.net/use-cases/reddit-to-revenue/",
+        "https://moneywithai.net/use-cases/answer-buyers-on-x-in-your-own-voice/"
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 322,
-        "score": 63,
-        "money": 13,
+        "rank": 254,
+        "score": 77,
+        "money": 27,
         "profile": 20,
         "visuals": 20,
         "difficulty": 10,
@@ -15925,7 +16012,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 208,
+        "rank": 210,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -15969,7 +16056,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 209,
+        "rank": 211,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -16017,7 +16104,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 252,
+        "rank": 255,
         "score": 77,
         "money": 27,
         "profile": 20,
@@ -16103,7 +16190,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 268,
+        "rank": 271,
         "score": 73,
         "money": 13,
         "profile": 30,
@@ -16146,7 +16233,7 @@
       "use_cases": [],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 659,
+        "rank": 661,
         "score": 36,
         "money": 0,
         "profile": 26,
@@ -16191,7 +16278,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 210,
+        "rank": 212,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -16234,7 +16321,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 165,
+        "rank": 167,
         "score": 83,
         "money": 27,
         "profile": 30,
@@ -16278,7 +16365,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 128,
+        "rank": 130,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -16319,7 +16406,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 166,
+        "rank": 168,
         "score": 83,
         "money": 27,
         "profile": 30,
@@ -16404,7 +16491,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 211,
+        "rank": 213,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -16446,7 +16533,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 212,
+        "rank": 214,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -16488,7 +16575,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 253,
+        "rank": 256,
         "score": 77,
         "money": 27,
         "profile": 20,
@@ -16528,7 +16615,7 @@
       "use_cases": [],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 660,
+        "rank": 662,
         "score": 36,
         "money": 0,
         "profile": 26,
@@ -16572,7 +16659,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 254,
+        "rank": 257,
         "score": 77,
         "money": 27,
         "profile": 20,
@@ -16613,7 +16700,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 298,
+        "rank": 302,
         "score": 73,
         "money": 27,
         "profile": 20,
@@ -16653,11 +16740,12 @@
       "json_url": "https://moneywithai.net/api/v1/bots/competitor-price-alert.json",
       "use_cases": [
         "https://moneywithai.net/use-cases/competitor-price-and-drop-watch/",
-        "https://moneywithai.net/use-cases/run-a-repair-and-parts-shop/"
+        "https://moneywithai.net/use-cases/run-a-repair-and-parts-shop/",
+        "https://moneywithai.net/use-cases/know-when-rivals-change-prices/"
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 129,
+        "rank": 131,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -16698,7 +16786,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 167,
+        "rank": 169,
         "score": 83,
         "money": 27,
         "profile": 30,
@@ -16740,7 +16828,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 213,
+        "rank": 215,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -16781,7 +16869,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 169,
+        "rank": 171,
         "score": 83,
         "money": 27,
         "profile": 30,
@@ -16820,7 +16908,7 @@
       "use_cases": [],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 386,
+        "rank": 389,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -16863,7 +16951,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 214,
+        "rank": 216,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -16906,7 +16994,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 215,
+        "rank": 217,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -16994,7 +17082,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 130,
+        "rank": 132,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -17036,7 +17124,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 170,
+        "rank": 172,
         "score": 83,
         "money": 27,
         "profile": 30,
@@ -17079,7 +17167,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 216,
+        "rank": 218,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -17122,7 +17210,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 299,
+        "rank": 303,
         "score": 73,
         "money": 27,
         "profile": 20,
@@ -17164,7 +17252,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 300,
+        "rank": 304,
         "score": 73,
         "money": 27,
         "profile": 20,
@@ -17205,7 +17293,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 258,
+        "rank": 261,
         "score": 77,
         "money": 27,
         "profile": 24,
@@ -17246,7 +17334,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 259,
+        "rank": 262,
         "score": 77,
         "money": 27,
         "profile": 24,
@@ -17329,7 +17417,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 304,
+        "rank": 308,
         "score": 70,
         "money": 27,
         "profile": 20,
@@ -17420,7 +17508,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 131,
+        "rank": 133,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -17502,7 +17590,7 @@
       "use_cases": [],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 661,
+        "rank": 663,
         "score": 36,
         "money": 0,
         "profile": 26,
@@ -17546,7 +17634,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 217,
+        "rank": 219,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -17678,7 +17766,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 218,
+        "rank": 220,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -17720,7 +17808,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 307,
+        "rank": 311,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -17762,7 +17850,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 174,
+        "rank": 176,
         "score": 83,
         "money": 27,
         "profile": 30,
@@ -17850,7 +17938,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 308,
+        "rank": 312,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -17893,7 +17981,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 133,
+        "rank": 135,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -17981,7 +18069,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 134,
+        "rank": 136,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -18108,7 +18196,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 301,
+        "rank": 305,
         "score": 73,
         "money": 27,
         "profile": 20,
@@ -18151,7 +18239,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 219,
+        "rank": 221,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -18194,7 +18282,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 220,
+        "rank": 222,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -18235,7 +18323,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 176,
+        "rank": 178,
         "score": 83,
         "money": 27,
         "profile": 30,
@@ -18279,7 +18367,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 135,
+        "rank": 137,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -18318,7 +18406,7 @@
       "use_cases": [],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 674,
+        "rank": 676,
         "score": 34,
         "money": 0,
         "profile": 24,
@@ -18362,7 +18450,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 136,
+        "rank": 138,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -18446,7 +18534,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 177,
+        "rank": 179,
         "score": 83,
         "money": 27,
         "profile": 30,
@@ -18487,7 +18575,7 @@
       "use_cases": [],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 676,
+        "rank": 678,
         "score": 30,
         "money": 0,
         "profile": 20,
@@ -18571,7 +18659,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 309,
+        "rank": 313,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -18614,7 +18702,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 275,
+        "rank": 279,
         "score": 73,
         "money": 13,
         "profile": 30,
@@ -18697,7 +18785,7 @@
       "use_cases": [],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 484,
+        "rank": 487,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -18736,7 +18824,7 @@
       "use_cases": [],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 677,
+        "rank": 679,
         "score": 30,
         "money": 0,
         "profile": 20,
@@ -18778,7 +18866,7 @@
       "use_cases": [],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 662,
+        "rank": 664,
         "score": 36,
         "money": 0,
         "profile": 26,
@@ -18821,7 +18909,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 139,
+        "rank": 141,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -18867,7 +18955,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 140,
+        "rank": 142,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -18952,7 +19040,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 276,
+        "rank": 280,
         "score": 73,
         "money": 13,
         "profile": 30,
@@ -19035,7 +19123,7 @@
       "use_cases": [],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 489,
+        "rank": 492,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -19076,7 +19164,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 255,
+        "rank": 258,
         "score": 77,
         "money": 27,
         "profile": 20,
@@ -19117,7 +19205,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 201,
+        "rank": 203,
         "score": 80,
         "money": 27,
         "profile": 30,
@@ -19159,7 +19247,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 277,
+        "rank": 281,
         "score": 73,
         "money": 13,
         "profile": 30,
@@ -19205,7 +19293,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 124,
+        "rank": 126,
         "score": 86,
         "money": 40,
         "profile": 20,
@@ -19287,7 +19375,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 178,
+        "rank": 180,
         "score": 83,
         "money": 27,
         "profile": 30,
@@ -19326,7 +19414,7 @@
       "use_cases": [],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 663,
+        "rank": 665,
         "score": 36,
         "money": 0,
         "profile": 26,
@@ -19367,7 +19455,7 @@
       "use_cases": [],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 664,
+        "rank": 666,
         "score": 36,
         "money": 0,
         "profile": 26,
@@ -19408,7 +19496,7 @@
       "use_cases": [],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 665,
+        "rank": 667,
         "score": 36,
         "money": 0,
         "profile": 26,
@@ -19447,7 +19535,7 @@
       "use_cases": [],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 500,
+        "rank": 503,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -19493,7 +19581,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 221,
+        "rank": 223,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -19537,7 +19625,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 223,
+        "rank": 225,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -19622,7 +19710,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 278,
+        "rank": 282,
         "score": 73,
         "money": 13,
         "profile": 30,
@@ -19666,7 +19754,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 98,
+        "rank": 99,
         "score": 87,
         "money": 27,
         "profile": 30,
@@ -19792,7 +19880,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 180,
+        "rank": 182,
         "score": 83,
         "money": 27,
         "profile": 30,
@@ -19839,7 +19927,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 224,
+        "rank": 226,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -19880,7 +19968,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 181,
+        "rank": 183,
         "score": 83,
         "money": 27,
         "profile": 30,
@@ -19925,7 +20013,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 99,
+        "rank": 100,
         "score": 87,
         "money": 27,
         "profile": 30,
@@ -19969,7 +20057,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 141,
+        "rank": 143,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -20010,7 +20098,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 195,
+        "rank": 197,
         "score": 83,
         "money": 40,
         "profile": 20,
@@ -20051,7 +20139,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 183,
+        "rank": 185,
         "score": 83,
         "money": 27,
         "profile": 30,
@@ -20138,7 +20226,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 225,
+        "rank": 227,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -20183,7 +20271,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 142,
+        "rank": 144,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -20224,7 +20312,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 184,
+        "rank": 186,
         "score": 83,
         "money": 27,
         "profile": 30,
@@ -20265,7 +20353,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 305,
+        "rank": 309,
         "score": 70,
         "money": 27,
         "profile": 20,
@@ -20308,7 +20396,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 226,
+        "rank": 228,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -20349,7 +20437,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 280,
+        "rank": 284,
         "score": 73,
         "money": 13,
         "profile": 30,
@@ -20390,7 +20478,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 310,
+        "rank": 314,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -20433,7 +20521,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 323,
+        "rank": 326,
         "score": 63,
         "money": 13,
         "profile": 20,
@@ -20474,7 +20562,7 @@
       "use_cases": [],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 678,
+        "rank": 680,
         "score": 30,
         "money": 0,
         "profile": 20,
@@ -20516,7 +20604,7 @@
       "use_cases": [],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 675,
+        "rank": 677,
         "score": 34,
         "money": 0,
         "profile": 24,
@@ -20596,7 +20684,7 @@
       "use_cases": [],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 464,
+        "rank": 467,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -20639,7 +20727,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 144,
+        "rank": 146,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -20681,7 +20769,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 267,
+        "rank": 270,
         "score": 74,
         "money": 27,
         "profile": 24,
@@ -20721,7 +20809,7 @@
       "use_cases": [],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 543,
+        "rank": 546,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -20763,7 +20851,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 281,
+        "rank": 285,
         "score": 73,
         "money": 13,
         "profile": 30,
@@ -20808,7 +20896,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 227,
+        "rank": 229,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -20850,7 +20938,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 102,
+        "rank": 103,
         "score": 87,
         "money": 27,
         "profile": 30,
@@ -20891,7 +20979,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 186,
+        "rank": 188,
         "score": 83,
         "money": 27,
         "profile": 30,
@@ -20932,7 +21020,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 228,
+        "rank": 230,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -21015,7 +21103,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 229,
+        "rank": 231,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -21061,7 +21149,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 104,
+        "rank": 105,
         "score": 87,
         "money": 27,
         "profile": 30,
@@ -21107,7 +21195,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 145,
+        "rank": 147,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -21193,11 +21281,12 @@
         "https://moneywithai.net/use-cases/competitor-price-and-drop-watch/",
         "https://moneywithai.net/use-cases/multi-marketplace-resale/",
         "https://moneywithai.net/use-cases/price-products-from-real-costs/",
-        "https://moneywithai.net/use-cases/price-pod-listings-for-real-profit/"
+        "https://moneywithai.net/use-cases/price-pod-listings-for-real-profit/",
+        "https://moneywithai.net/use-cases/know-when-rivals-change-prices/"
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 146,
+        "rank": 148,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -21239,7 +21328,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 107,
+        "rank": 109,
         "score": 87,
         "money": 27,
         "profile": 30,
@@ -21280,7 +21369,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 203,
+        "rank": 205,
         "score": 80,
         "money": 27,
         "profile": 30,
@@ -21324,7 +21413,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 231,
+        "rank": 233,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -21367,7 +21456,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 262,
+        "rank": 265,
         "score": 76,
         "money": 27,
         "profile": 26,
@@ -21408,7 +21497,7 @@
       "use_cases": [],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 666,
+        "rank": 668,
         "score": 36,
         "money": 0,
         "profile": 26,
@@ -21453,7 +21542,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 125,
+        "rank": 127,
         "score": 86,
         "money": 40,
         "profile": 20,
@@ -21543,7 +21632,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 147,
+        "rank": 149,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -21584,7 +21673,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 109,
+        "rank": 111,
         "score": 87,
         "money": 27,
         "profile": 30,
@@ -21669,7 +21758,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 311,
+        "rank": 315,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -21710,7 +21799,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 110,
+        "rank": 112,
         "score": 87,
         "money": 27,
         "profile": 30,
@@ -21751,7 +21840,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 232,
+        "rank": 234,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -21792,7 +21881,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 320,
+        "rank": 324,
         "score": 65,
         "money": 13,
         "profile": 26,
@@ -21835,7 +21924,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 233,
+        "rank": 235,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -21877,7 +21966,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 187,
+        "rank": 189,
         "score": 83,
         "money": 27,
         "profile": 30,
@@ -21962,7 +22051,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 234,
+        "rank": 236,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -22004,7 +22093,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 235,
+        "rank": 237,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -22134,7 +22223,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 260,
+        "rank": 263,
         "score": 77,
         "money": 27,
         "profile": 24,
@@ -22217,7 +22306,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 236,
+        "rank": 238,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -22298,7 +22387,7 @@
       "use_cases": [],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 667,
+        "rank": 669,
         "score": 36,
         "money": 0,
         "profile": 26,
@@ -22340,7 +22429,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 237,
+        "rank": 239,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -22381,7 +22470,7 @@
       "use_cases": [],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 668,
+        "rank": 670,
         "score": 36,
         "money": 0,
         "profile": 26,
@@ -22420,7 +22509,7 @@
       "use_cases": [],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 679,
+        "rank": 681,
         "score": 30,
         "money": 0,
         "profile": 20,
@@ -22461,7 +22550,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 284,
+        "rank": 288,
         "score": 73,
         "money": 13,
         "profile": 30,
@@ -22503,7 +22592,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 302,
+        "rank": 306,
         "score": 73,
         "money": 27,
         "profile": 20,
@@ -22588,7 +22677,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 325,
+        "rank": 328,
         "score": 56,
         "money": 13,
         "profile": 20,
@@ -22633,7 +22722,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 238,
+        "rank": 240,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -22673,7 +22762,7 @@
       "use_cases": [],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 669,
+        "rank": 671,
         "score": 36,
         "money": 0,
         "profile": 26,
@@ -22758,7 +22847,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 150,
+        "rank": 152,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -22800,7 +22889,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 239,
+        "rank": 241,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -22841,7 +22930,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 285,
+        "rank": 289,
         "score": 73,
         "money": 13,
         "profile": 30,
@@ -22927,7 +23016,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 240,
+        "rank": 242,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -22970,7 +23059,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 241,
+        "rank": 243,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -23018,7 +23107,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 151,
+        "rank": 153,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -23063,7 +23152,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 242,
+        "rank": 244,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -23105,7 +23194,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 152,
+        "rank": 154,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -23234,7 +23323,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 188,
+        "rank": 190,
         "score": 83,
         "money": 27,
         "profile": 30,
@@ -23275,7 +23364,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 243,
+        "rank": 245,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -23318,7 +23407,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 204,
+        "rank": 206,
         "score": 80,
         "money": 27,
         "profile": 30,
@@ -23407,7 +23496,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 256,
+        "rank": 259,
         "score": 77,
         "money": 27,
         "profile": 20,
@@ -23448,7 +23537,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 190,
+        "rank": 192,
         "score": 83,
         "money": 27,
         "profile": 30,
@@ -23487,7 +23576,7 @@
       "use_cases": [],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 680,
+        "rank": 682,
         "score": 30,
         "money": 0,
         "profile": 20,
@@ -23528,7 +23617,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 116,
+        "rank": 118,
         "score": 87,
         "money": 27,
         "profile": 30,
@@ -23614,7 +23703,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 153,
+        "rank": 155,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -23659,7 +23748,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 154,
+        "rank": 156,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -23701,7 +23790,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 155,
+        "rank": 157,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -23743,7 +23832,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 263,
+        "rank": 266,
         "score": 76,
         "money": 27,
         "profile": 26,
@@ -23784,7 +23873,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 287,
+        "rank": 291,
         "score": 73,
         "money": 13,
         "profile": 30,
@@ -23827,7 +23916,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 156,
+        "rank": 158,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -23870,7 +23959,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 264,
+        "rank": 267,
         "score": 76,
         "money": 27,
         "profile": 26,
@@ -23913,7 +24002,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 244,
+        "rank": 246,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -23955,7 +24044,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 245,
+        "rank": 247,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -23997,7 +24086,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 157,
+        "rank": 159,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -24036,7 +24125,7 @@
       "use_cases": [],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 670,
+        "rank": 672,
         "score": 36,
         "money": 0,
         "profile": 26,
@@ -24079,7 +24168,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 246,
+        "rank": 248,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -24121,7 +24210,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 312,
+        "rank": 316,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -24163,7 +24252,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 261,
+        "rank": 264,
         "score": 77,
         "money": 27,
         "profile": 24,
@@ -24207,7 +24296,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 158,
+        "rank": 160,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -24251,7 +24340,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 247,
+        "rank": 249,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -24292,7 +24381,7 @@
       "use_cases": [],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 671,
+        "rank": 673,
         "score": 36,
         "money": 0,
         "profile": 26,
@@ -24335,7 +24424,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 313,
+        "rank": 317,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -24379,7 +24468,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 159,
+        "rank": 161,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -24424,7 +24513,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 314,
+        "rank": 318,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -24463,7 +24552,7 @@
       "use_cases": [],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 628,
+        "rank": 630,
         "score": 40,
         "money": 0,
         "profile": 30,
@@ -24505,7 +24594,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 266,
+        "rank": 269,
         "score": 76,
         "money": 27,
         "profile": 26,
@@ -24550,7 +24639,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 160,
+        "rank": 162,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -24592,7 +24681,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 191,
+        "rank": 193,
         "score": 83,
         "money": 27,
         "profile": 30,
@@ -24634,7 +24723,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 321,
+        "rank": 325,
         "score": 65,
         "money": 13,
         "profile": 26,
@@ -24766,7 +24855,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 248,
+        "rank": 250,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -24938,11 +25027,12 @@
         "https://moneywithai.net/use-cases/founder-finance-weekly/",
         "https://moneywithai.net/use-cases/tax-ready-books-all-year/",
         "https://moneywithai.net/use-cases/catch-contracts-before-auto-renewal/",
-        "https://moneywithai.net/use-cases/never-lose-a-domain-to-a-missed-renewal/"
+        "https://moneywithai.net/use-cases/never-lose-a-domain-to-a-missed-renewal/",
+        "https://moneywithai.net/use-cases/stop-paying-for-domains-you-forgot/"
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 120,
+        "rank": 122,
         "score": 87,
         "money": 27,
         "profile": 30,
@@ -25026,7 +25116,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 192,
+        "rank": 194,
         "score": 83,
         "money": 27,
         "profile": 30,
@@ -25114,7 +25204,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 249,
+        "rank": 251,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -25158,7 +25248,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 161,
+        "rank": 163,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -25202,7 +25292,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 250,
+        "rank": 252,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -25244,7 +25334,7 @@
       "use_cases": [],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 672,
+        "rank": 674,
         "score": 36,
         "money": 0,
         "profile": 26,
@@ -25330,7 +25420,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 162,
+        "rank": 164,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -25371,7 +25461,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 293,
+        "rank": 297,
         "score": 73,
         "money": 13,
         "profile": 30,
@@ -25413,7 +25503,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 122,
+        "rank": 124,
         "score": 87,
         "money": 27,
         "profile": 30,
@@ -25457,7 +25547,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 163,
+        "rank": 165,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -25541,7 +25631,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 197,
+        "rank": 199,
         "score": 81,
         "money": 27,
         "profile": 24,
@@ -25582,7 +25672,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 303,
+        "rank": 307,
         "score": 73,
         "money": 27,
         "profile": 20,
@@ -25664,7 +25754,7 @@
       "use_cases": [],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 673,
+        "rank": 675,
         "score": 36,
         "money": 0,
         "profile": 26,
@@ -25747,7 +25837,7 @@
       ],
       "added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 193,
+        "rank": 195,
         "score": 83,
         "money": 27,
         "profile": 30,
@@ -25872,7 +25962,7 @@
       ],
       "added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 200,
+        "rank": 202,
         "score": 80,
         "money": 27,
         "profile": 30,
@@ -25915,7 +26005,7 @@
       ],
       "added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 168,
+        "rank": 170,
         "score": 83,
         "money": 27,
         "profile": 30,
@@ -26170,7 +26260,7 @@
       ],
       "added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 271,
+        "rank": 274,
         "score": 73,
         "money": 13,
         "profile": 30,
@@ -26389,7 +26479,7 @@
       ],
       "added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 97,
+        "rank": 98,
         "score": 87,
         "money": 27,
         "profile": 30,
@@ -26475,7 +26565,7 @@
       ],
       "added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 179,
+        "rank": 181,
         "score": 83,
         "money": 27,
         "profile": 30,
@@ -26558,7 +26648,7 @@
       ],
       "added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 202,
+        "rank": 204,
         "score": 80,
         "money": 27,
         "profile": 30,
@@ -26600,7 +26690,7 @@
       ],
       "added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 279,
+        "rank": 283,
         "score": 73,
         "money": 13,
         "profile": 30,
@@ -26643,7 +26733,7 @@
       ],
       "added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 182,
+        "rank": 184,
         "score": 83,
         "money": 27,
         "profile": 30,
@@ -26730,7 +26820,7 @@
       ],
       "added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 101,
+        "rank": 102,
         "score": 87,
         "money": 27,
         "profile": 30,
@@ -26774,7 +26864,7 @@
       ],
       "added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 282,
+        "rank": 286,
         "score": 73,
         "money": 13,
         "profile": 30,
@@ -26815,7 +26905,7 @@
       ],
       "added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 105,
+        "rank": 106,
         "score": 87,
         "money": 27,
         "profile": 30,
@@ -26906,7 +26996,7 @@
       ],
       "added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 113,
+        "rank": 115,
         "score": 87,
         "money": 27,
         "profile": 30,
@@ -27164,7 +27254,7 @@
       ],
       "added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 289,
+        "rank": 293,
         "score": 73,
         "money": 13,
         "profile": 30,
@@ -27207,7 +27297,7 @@
       ],
       "added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 123,
+        "rank": 125,
         "score": 87,
         "money": 27,
         "profile": 30,
@@ -27249,7 +27339,7 @@
       ],
       "added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 295,
+        "rank": 299,
         "score": 73,
         "money": 13,
         "profile": 30,
@@ -27332,7 +27422,7 @@
       ],
       "added_at": "2026-10-24T08:00:00.000Z",
       "featured": {
-        "rank": 173,
+        "rank": 175,
         "score": 83,
         "money": 27,
         "profile": 30,
@@ -27374,7 +27464,7 @@
       ],
       "added_at": "2026-10-24T08:00:00.000Z",
       "featured": {
-        "rank": 132,
+        "rank": 134,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -27461,7 +27551,7 @@
       ],
       "added_at": "2026-10-24T08:00:00.000Z",
       "featured": {
-        "rank": 137,
+        "rank": 139,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -27508,7 +27598,7 @@
       ],
       "added_at": "2026-10-24T08:00:00.000Z",
       "featured": {
-        "rank": 138,
+        "rank": 140,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -27611,7 +27701,7 @@
       ],
       "added_at": "2026-10-24T08:00:00.000Z",
       "featured": {
-        "rank": 222,
+        "rank": 224,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -27654,7 +27744,7 @@
       ],
       "added_at": "2026-10-24T08:00:00.000Z",
       "featured": {
-        "rank": 143,
+        "rank": 145,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -27698,7 +27788,7 @@
       ],
       "added_at": "2026-10-24T08:00:00.000Z",
       "featured": {
-        "rank": 230,
+        "rank": 232,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -27737,11 +27827,12 @@
       "use_cases": [
         "https://moneywithai.net/use-cases/x-audience-prospecting/",
         "https://moneywithai.net/use-cases/x-creator-desk/",
-        "https://moneywithai.net/use-cases/switchers-from-competitor-complaints/"
+        "https://moneywithai.net/use-cases/switchers-from-competitor-complaints/",
+        "https://moneywithai.net/use-cases/answer-buyers-on-x-in-your-own-voice/"
       ],
       "added_at": "2026-10-24T08:00:00.000Z",
       "featured": {
-        "rank": 148,
+        "rank": 150,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -27787,7 +27878,7 @@
       ],
       "added_at": "2026-10-24T08:00:00.000Z",
       "featured": {
-        "rank": 149,
+        "rank": 151,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -27830,7 +27921,7 @@
       ],
       "added_at": "2026-10-24T08:00:00.000Z",
       "featured": {
-        "rank": 115,
+        "rank": 117,
         "score": 87,
         "money": 27,
         "profile": 30,
@@ -27876,7 +27967,7 @@
       ],
       "added_at": "2026-10-24T08:00:00.000Z",
       "featured": {
-        "rank": 265,
+        "rank": 268,
         "score": 76,
         "money": 27,
         "profile": 26,

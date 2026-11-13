@@ -27,11 +27,12 @@
   "use_cases": [
     "https://moneywithai.net/use-cases/x-audience-prospecting/",
     "https://moneywithai.net/use-cases/x-creator-desk/",
-    "https://moneywithai.net/use-cases/switchers-from-competitor-complaints/"
+    "https://moneywithai.net/use-cases/switchers-from-competitor-complaints/",
+    "https://moneywithai.net/use-cases/answer-buyers-on-x-in-your-own-voice/"
   ],
   "added_at": "2026-10-24T08:00:00.000Z",
   "featured": {
-    "rank": 148,
+    "rank": 150,
     "score": 83,
     "money": 27,
     "profile": 26,
