@@ -420,19 +420,6 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Backup Bot
 
-- URL: https://moneywithai.net/bots/backup-bot-andres-ruggiero/
-- Category: Research and Ops
-- Summary (Money With AI's words): Backs up your bot's computer to Google Drive or OneDrive each night and tests a restore every week.
-- Tools: Grok, Google Drive
-- Creator: Andres Ruggiero (https://x.ai/bot/G3Du-G9_8zTwynr6sl9Z2)
-- Original source: https://x.ai/bot/G3Du-G9_8zTwynr6sl9Z2
-- Official share link: https://x.ai/bot/G3Du-G9_8zTwynr6sl9Z2
-- Found via: https://x.ai/bot/G3Du-G9_8zTwynr6sl9Z2
-- Proof level: Source verified: the original post exists and is by the named creator.
-- Prompt: not included; read it at the original source
-
-## Backup Bot
-
 - URL: https://moneywithai.net/bots/backup-bot/
 - Category: Research and Ops
 - Summary (Money With AI's words): Saves a restore pack for any of your bots with its profile, skills, routines and key notes, never passwords or keys, on a schedule you pick.
@@ -441,6 +428,19 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Original source: https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz
 - Official share link: https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz
 - Found via: https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Backup Bot
+
+- URL: https://moneywithai.net/bots/backup-bot-andres-ruggiero/
+- Category: Research and Ops
+- Summary (Money With AI's words): Backs up your bot's computer to Google Drive or OneDrive each night and tests a restore every week.
+- Tools: Grok, Google Drive
+- Creator: Andres Ruggiero (https://x.ai/bot/G3Du-G9_8zTwynr6sl9Z2)
+- Original source: https://x.ai/bot/G3Du-G9_8zTwynr6sl9Z2
+- Official share link: https://x.ai/bot/G3Du-G9_8zTwynr6sl9Z2
+- Found via: https://x.ai/bot/G3Du-G9_8zTwynr6sl9Z2
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
@@ -2550,19 +2550,6 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Executive Assistant
 
-- URL: https://moneywithai.net/bots/executive-assistant-natasha-kuo/
-- Category: Research and Ops
-- Summary (Money With AI's words): An executive assistant for exec support: room booking, interview prep, leadership outreach drafts and checks between sheets and calendars.
-- Tools: Grok, Slack
-- Creator: Natasha Kuo (https://x.ai/bot/_DnP777DCicZpaTtm9_h5)
-- Original source: https://x.ai/bot/_DnP777DCicZpaTtm9_h5
-- Official share link: https://x.ai/bot/_DnP777DCicZpaTtm9_h5
-- Found via: https://x.ai/bot/_DnP777DCicZpaTtm9_h5
-- Proof level: Source verified: the original post exists and is by the named creator.
-- Prompt: not included; read it at the original source
-
-## Executive Assistant
-
 - URL: https://moneywithai.net/bots/executive-assistant/
 - Category: Research and Ops
 - Summary (Money With AI's words): Sends a morning briefing and a catch-up summary whenever you join a new Slack room, so you do not have to read every thread.
@@ -2571,6 +2558,19 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Original source: https://x.ai/bot/sf813cbd3aadad1cfda46
 - Official share link: https://x.ai/bot/sf813cbd3aadad1cfda46
 - Found via: https://x.ai/bot/sf813cbd3aadad1cfda46
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Executive Assistant
+
+- URL: https://moneywithai.net/bots/executive-assistant-natasha-kuo/
+- Category: Research and Ops
+- Summary (Money With AI's words): An executive assistant for exec support: room booking, interview prep, leadership outreach drafts and checks between sheets and calendars.
+- Tools: Grok, Slack
+- Creator: Natasha Kuo (https://x.ai/bot/_DnP777DCicZpaTtm9_h5)
+- Original source: https://x.ai/bot/_DnP777DCicZpaTtm9_h5
+- Official share link: https://x.ai/bot/_DnP777DCicZpaTtm9_h5
+- Found via: https://x.ai/bot/_DnP777DCicZpaTtm9_h5
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
@@ -6790,19 +6790,6 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Social Media Manager
 
-- URL: https://moneywithai.net/bots/social-media-manager-upesh-bishwakarma/
-- Category: Content and Marketing
-- Summary (Money With AI's words): Turns news emails, X trends and your notes into short posts for X and Threads and publishes them through Buffer.
-- Tools: Grok, Threads, X
-- Creator: Upesh Bishwakarma (https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL)
-- Original source: https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL
-- Official share link: https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL
-- Found via: https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL
-- Proof level: Source verified: the original post exists and is by the named creator.
-- Prompt: not included; read it at the original source
-
-## Social Media Manager
-
 - URL: https://moneywithai.net/bots/social-media-manager-vishvajeet-shukla/
 - Category: Content and Marketing
 - Summary (Money With AI's words): Plans a content calendar for your brand's Instagram and X, gets visuals made and posts on schedule after your approval.
@@ -6811,6 +6798,19 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Original source: https://x.ai/bot/DqAO8x8wjsb7jazJCBEdl
 - Official share link: https://x.ai/bot/DqAO8x8wjsb7jazJCBEdl
 - Found via: https://x.ai/bot/DqAO8x8wjsb7jazJCBEdl
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Social Media Manager
+
+- URL: https://moneywithai.net/bots/social-media-manager-upesh-bishwakarma/
+- Category: Content and Marketing
+- Summary (Money With AI's words): Turns news emails, X trends and your notes into short posts for X and Threads and publishes them through Buffer.
+- Tools: Grok, Threads, X
+- Creator: Upesh Bishwakarma (https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL)
+- Original source: https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL
+- Official share link: https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL
+- Found via: https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
