@@ -1,7 +1,7 @@
 {
   "name": "Money With AI",
   "url": "https://moneywithai.net",
-  "generated_at": "2026-11-13T16:17:46.000Z",
+  "generated_at": "2026-11-13T16:21:07.000Z",
   "count": 682,
   "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
   "attribution": "Credit the bot creator (creator.handle, creator.url) and link the original source (source_url) plus our listing page (url). Summaries are ours; no prompt text is included.",
@@ -1194,40 +1194,6 @@
       }
     },
     {
-      "slug": "backup-bot",
-      "name": "Backup Bot",
-      "category": "Research and Ops",
-      "sub_use_case": "Team memory",
-      "summary": "Saves a restore pack for any of your bots with its profile, skills, routines and key notes, never passwords or keys, on a schedule you pick.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "ollie",
-        "url": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz"
-      },
-      "official_share_url": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz",
-      "found_via": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/backup-bot/",
-      "json_url": "https://moneywithai.net/api/bots/backup-bot.json",
-      "share_url": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz",
-      "credit": {
-        "creator": "ollie",
-        "creator_url": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz",
-        "source_url": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz",
-        "found_via": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz",
-        "text": "Backup Bot by ollie. Original source: https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz. Listed on Money With AI: https://moneywithai.net/bots/backup-bot/"
-      }
-    },
-    {
       "slug": "backup-bot-andres-ruggiero",
       "name": "Backup Bot",
       "category": "Research and Ops",
@@ -1260,6 +1226,40 @@
         "source_url": "https://x.ai/bot/G3Du-G9_8zTwynr6sl9Z2",
         "found_via": "https://x.ai/bot/G3Du-G9_8zTwynr6sl9Z2",
         "text": "Backup Bot by Andres Ruggiero. Original source: https://x.ai/bot/G3Du-G9_8zTwynr6sl9Z2. Listed on Money With AI: https://moneywithai.net/bots/backup-bot-andres-ruggiero/"
+      }
+    },
+    {
+      "slug": "backup-bot",
+      "name": "Backup Bot",
+      "category": "Research and Ops",
+      "sub_use_case": "Team memory",
+      "summary": "Saves a restore pack for any of your bots with its profile, skills, routines and key notes, never passwords or keys, on a schedule you pick.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "ollie",
+        "url": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz"
+      },
+      "official_share_url": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz",
+      "found_via": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/backup-bot/",
+      "json_url": "https://moneywithai.net/api/bots/backup-bot.json",
+      "share_url": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz",
+      "credit": {
+        "creator": "ollie",
+        "creator_url": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz",
+        "source_url": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz",
+        "found_via": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz",
+        "text": "Backup Bot by ollie. Original source: https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz. Listed on Money With AI: https://moneywithai.net/bots/backup-bot/"
       }
     },
     {
@@ -7169,40 +7169,6 @@
       }
     },
     {
-      "slug": "executive-assistant",
-      "name": "Executive Assistant",
-      "category": "Research and Ops",
-      "sub_use_case": "Inbox triage",
-      "summary": "Sends a morning briefing and a catch-up summary whenever you join a new Slack room, so you do not have to read every thread.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "SpaceX",
-        "url": "https://x.ai/bot/sf813cbd3aadad1cfda46"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/sf813cbd3aadad1cfda46"
-      },
-      "official_share_url": "https://x.ai/bot/sf813cbd3aadad1cfda46",
-      "found_via": "https://x.ai/bot/sf813cbd3aadad1cfda46",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/executive-assistant/",
-      "json_url": "https://moneywithai.net/api/bots/executive-assistant.json",
-      "share_url": "https://x.ai/bot/sf813cbd3aadad1cfda46",
-      "credit": {
-        "creator": "SpaceX",
-        "creator_url": "https://x.ai/bot/sf813cbd3aadad1cfda46",
-        "source_url": "https://x.ai/bot/sf813cbd3aadad1cfda46",
-        "found_via": "https://x.ai/bot/sf813cbd3aadad1cfda46",
-        "text": "Executive Assistant by SpaceX. Original source: https://x.ai/bot/sf813cbd3aadad1cfda46. Listed on Money With AI: https://moneywithai.net/bots/executive-assistant/"
-      }
-    },
-    {
       "slug": "executive-assistant-natasha-kuo",
       "name": "Executive Assistant",
       "category": "Research and Ops",
@@ -7235,6 +7201,40 @@
         "source_url": "https://x.ai/bot/_DnP777DCicZpaTtm9_h5",
         "found_via": "https://x.ai/bot/_DnP777DCicZpaTtm9_h5",
         "text": "Executive Assistant by Natasha Kuo. Original source: https://x.ai/bot/_DnP777DCicZpaTtm9_h5. Listed on Money With AI: https://moneywithai.net/bots/executive-assistant-natasha-kuo/"
+      }
+    },
+    {
+      "slug": "executive-assistant",
+      "name": "Executive Assistant",
+      "category": "Research and Ops",
+      "sub_use_case": "Inbox triage",
+      "summary": "Sends a morning briefing and a catch-up summary whenever you join a new Slack room, so you do not have to read every thread.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "SpaceX",
+        "url": "https://x.ai/bot/sf813cbd3aadad1cfda46"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/sf813cbd3aadad1cfda46"
+      },
+      "official_share_url": "https://x.ai/bot/sf813cbd3aadad1cfda46",
+      "found_via": "https://x.ai/bot/sf813cbd3aadad1cfda46",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/executive-assistant/",
+      "json_url": "https://moneywithai.net/api/bots/executive-assistant.json",
+      "share_url": "https://x.ai/bot/sf813cbd3aadad1cfda46",
+      "credit": {
+        "creator": "SpaceX",
+        "creator_url": "https://x.ai/bot/sf813cbd3aadad1cfda46",
+        "source_url": "https://x.ai/bot/sf813cbd3aadad1cfda46",
+        "found_via": "https://x.ai/bot/sf813cbd3aadad1cfda46",
+        "text": "Executive Assistant by SpaceX. Original source: https://x.ai/bot/sf813cbd3aadad1cfda46. Listed on Money With AI: https://moneywithai.net/bots/executive-assistant/"
       }
     },
     {
@@ -8858,40 +8858,6 @@
       }
     },
     {
-      "slug": "haggle-bot-daniel-gartshein",
-      "name": "Haggle Bot",
-      "category": "Finance",
-      "sub_use_case": "SaaS spend",
-      "summary": "Lists your SaaS spend from Ramp and bills, finds savings such as unused seats and duplicates, and drafts vendor negotiation emails.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "Daniel Gartshein",
-        "url": "https://x.ai/bot/pwQ612YrX3R0eACnIMlom"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/pwQ612YrX3R0eACnIMlom"
-      },
-      "official_share_url": "https://x.ai/bot/pwQ612YrX3R0eACnIMlom",
-      "found_via": "https://x.ai/bot/pwQ612YrX3R0eACnIMlom",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/haggle-bot-daniel-gartshein/",
-      "json_url": "https://moneywithai.net/api/bots/haggle-bot-daniel-gartshein.json",
-      "share_url": "https://x.ai/bot/pwQ612YrX3R0eACnIMlom",
-      "credit": {
-        "creator": "Daniel Gartshein",
-        "creator_url": "https://x.ai/bot/pwQ612YrX3R0eACnIMlom",
-        "source_url": "https://x.ai/bot/pwQ612YrX3R0eACnIMlom",
-        "found_via": "https://x.ai/bot/pwQ612YrX3R0eACnIMlom",
-        "text": "Haggle Bot by Daniel Gartshein. Original source: https://x.ai/bot/pwQ612YrX3R0eACnIMlom. Listed on Money With AI: https://moneywithai.net/bots/haggle-bot-daniel-gartshein/"
-      }
-    },
-    {
       "slug": "haggle-bot",
       "name": "Haggle Bot",
       "category": "Finance",
@@ -8924,6 +8890,40 @@
         "source_url": "https://x.com/lennysan/status/2095975395602710779",
         "found_via": null,
         "text": "Haggle Bot by lennysan. Original source: https://x.com/lennysan/status/2095975395602710779. Listed on Money With AI: https://moneywithai.net/bots/haggle-bot/"
+      }
+    },
+    {
+      "slug": "haggle-bot-daniel-gartshein",
+      "name": "Haggle Bot",
+      "category": "Finance",
+      "sub_use_case": "SaaS spend",
+      "summary": "Lists your SaaS spend from Ramp and bills, finds savings such as unused seats and duplicates, and drafts vendor negotiation emails.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "Daniel Gartshein",
+        "url": "https://x.ai/bot/pwQ612YrX3R0eACnIMlom"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/pwQ612YrX3R0eACnIMlom"
+      },
+      "official_share_url": "https://x.ai/bot/pwQ612YrX3R0eACnIMlom",
+      "found_via": "https://x.ai/bot/pwQ612YrX3R0eACnIMlom",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/haggle-bot-daniel-gartshein/",
+      "json_url": "https://moneywithai.net/api/bots/haggle-bot-daniel-gartshein.json",
+      "share_url": "https://x.ai/bot/pwQ612YrX3R0eACnIMlom",
+      "credit": {
+        "creator": "Daniel Gartshein",
+        "creator_url": "https://x.ai/bot/pwQ612YrX3R0eACnIMlom",
+        "source_url": "https://x.ai/bot/pwQ612YrX3R0eACnIMlom",
+        "found_via": "https://x.ai/bot/pwQ612YrX3R0eACnIMlom",
+        "text": "Haggle Bot by Daniel Gartshein. Original source: https://x.ai/bot/pwQ612YrX3R0eACnIMlom. Listed on Money With AI: https://moneywithai.net/bots/haggle-bot-daniel-gartshein/"
       }
     },
     {
@@ -14048,40 +14048,6 @@
       }
     },
     {
-      "slug": "phone-receptionist-i668",
-      "name": "Phone Receptionist",
-      "category": "Customer Support",
-      "sub_use_case": "Phone answering",
-      "summary": "Answers calls in your browser as an automated receptionist, asks a few questions and passes on a summary.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "i668",
-        "url": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C"
-      },
-      "official_share_url": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C",
-      "found_via": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/phone-receptionist-i668/",
-      "json_url": "https://moneywithai.net/api/bots/phone-receptionist-i668.json",
-      "share_url": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C",
-      "credit": {
-        "creator": "i668",
-        "creator_url": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C",
-        "source_url": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C",
-        "found_via": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C",
-        "text": "Phone Receptionist by i668. Original source: https://x.ai/bot/vxvNEoprSLLwOa2d02f6C. Listed on Money With AI: https://moneywithai.net/bots/phone-receptionist-i668/"
-      }
-    },
-    {
       "slug": "phone-receptionist",
       "name": "Phone Receptionist",
       "category": "Customer Support",
@@ -14114,6 +14080,40 @@
         "source_url": "https://x.com/SimplyColeB/status/2107971762831114461",
         "found_via": null,
         "text": "Phone Receptionist by SimplyColeB. Original source: https://x.com/SimplyColeB/status/2107971762831114461. Listed on Money With AI: https://moneywithai.net/bots/phone-receptionist/"
+      }
+    },
+    {
+      "slug": "phone-receptionist-i668",
+      "name": "Phone Receptionist",
+      "category": "Customer Support",
+      "sub_use_case": "Phone answering",
+      "summary": "Answers calls in your browser as an automated receptionist, asks a few questions and passes on a summary.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "i668",
+        "url": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C"
+      },
+      "official_share_url": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C",
+      "found_via": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/phone-receptionist-i668/",
+      "json_url": "https://moneywithai.net/api/bots/phone-receptionist-i668.json",
+      "share_url": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C",
+      "credit": {
+        "creator": "i668",
+        "creator_url": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C",
+        "source_url": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C",
+        "found_via": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C",
+        "text": "Phone Receptionist by i668. Original source: https://x.ai/bot/vxvNEoprSLLwOa2d02f6C. Listed on Money With AI: https://moneywithai.net/bots/phone-receptionist-i668/"
       }
     },
     {
@@ -19179,42 +19179,6 @@
       }
     },
     {
-      "slug": "social-media-manager-vishvajeet-shukla",
-      "name": "Social Media Manager",
-      "category": "Content and Marketing",
-      "sub_use_case": "Brand social",
-      "summary": "Plans a content calendar for your brand's Instagram and X, gets visuals made and posts on schedule after your approval.",
-      "tools": [
-        "Grok",
-        "Instagram",
-        "X"
-      ],
-      "creator": {
-        "handle": "Vishvajeet Shukla",
-        "url": "https://x.ai/bot/DqAO8x8wjsb7jazJCBEdl"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/DqAO8x8wjsb7jazJCBEdl"
-      },
-      "official_share_url": "https://x.ai/bot/DqAO8x8wjsb7jazJCBEdl",
-      "found_via": "https://x.ai/bot/DqAO8x8wjsb7jazJCBEdl",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/social-media-manager-vishvajeet-shukla/",
-      "json_url": "https://moneywithai.net/api/bots/social-media-manager-vishvajeet-shukla.json",
-      "share_url": "https://x.ai/bot/DqAO8x8wjsb7jazJCBEdl",
-      "credit": {
-        "creator": "Vishvajeet Shukla",
-        "creator_url": "https://x.ai/bot/DqAO8x8wjsb7jazJCBEdl",
-        "source_url": "https://x.ai/bot/DqAO8x8wjsb7jazJCBEdl",
-        "found_via": "https://x.ai/bot/DqAO8x8wjsb7jazJCBEdl",
-        "text": "Social Media Manager by Vishvajeet Shukla. Original source: https://x.ai/bot/DqAO8x8wjsb7jazJCBEdl. Listed on Money With AI: https://moneywithai.net/bots/social-media-manager-vishvajeet-shukla/"
-      }
-    },
-    {
       "slug": "social-media-manager-upesh-bishwakarma",
       "name": "Social Media Manager",
       "category": "Content and Marketing",
@@ -19248,6 +19212,42 @@
         "source_url": "https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL",
         "found_via": "https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL",
         "text": "Social Media Manager by Upesh Bishwakarma. Original source: https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL. Listed on Money With AI: https://moneywithai.net/bots/social-media-manager-upesh-bishwakarma/"
+      }
+    },
+    {
+      "slug": "social-media-manager-vishvajeet-shukla",
+      "name": "Social Media Manager",
+      "category": "Content and Marketing",
+      "sub_use_case": "Brand social",
+      "summary": "Plans a content calendar for your brand's Instagram and X, gets visuals made and posts on schedule after your approval.",
+      "tools": [
+        "Grok",
+        "Instagram",
+        "X"
+      ],
+      "creator": {
+        "handle": "Vishvajeet Shukla",
+        "url": "https://x.ai/bot/DqAO8x8wjsb7jazJCBEdl"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/DqAO8x8wjsb7jazJCBEdl"
+      },
+      "official_share_url": "https://x.ai/bot/DqAO8x8wjsb7jazJCBEdl",
+      "found_via": "https://x.ai/bot/DqAO8x8wjsb7jazJCBEdl",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/social-media-manager-vishvajeet-shukla/",
+      "json_url": "https://moneywithai.net/api/bots/social-media-manager-vishvajeet-shukla.json",
+      "share_url": "https://x.ai/bot/DqAO8x8wjsb7jazJCBEdl",
+      "credit": {
+        "creator": "Vishvajeet Shukla",
+        "creator_url": "https://x.ai/bot/DqAO8x8wjsb7jazJCBEdl",
+        "source_url": "https://x.ai/bot/DqAO8x8wjsb7jazJCBEdl",
+        "found_via": "https://x.ai/bot/DqAO8x8wjsb7jazJCBEdl",
+        "text": "Social Media Manager by Vishvajeet Shukla. Original source: https://x.ai/bot/DqAO8x8wjsb7jazJCBEdl. Listed on Money With AI: https://moneywithai.net/bots/social-media-manager-vishvajeet-shukla/"
       }
     },
     {

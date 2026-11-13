@@ -604,8 +604,8 @@ Value tiers are our rough estimates (labelled Estimate) of relative value to the
 - [Social Media GTM Bot](https://moneywithai.net/bots/social-media-gtm-bot/): Acts as head of content across Instagram, TikTok, YouTube, X and LinkedIn, recycling winners and preparing comment-to-DM offers. By @AntoineBlanco99.
 - [Social Media Manager](https://moneywithai.net/bots/social-media-manager-charles-bonetti/): Learns your voice from past posts, keeps a weekly content calendar and drafts posts and replies for each platform. By Charles Bonetti.
 - [Social Media Manager](https://moneywithai.net/bots/social-media-manager-stacy-burnett/): Learns from your post history and publishes in your voice through Buffer, with auto-posting only if you turn it on. By Stacy Burnett.
-- [Social Media Manager](https://moneywithai.net/bots/social-media-manager-vishvajeet-shukla/): Plans a content calendar for your brand's Instagram and X, gets visuals made and posts on schedule after your approval. By Vishvajeet Shukla.
 - [Social Media Manager](https://moneywithai.net/bots/social-media-manager-upesh-bishwakarma/): Turns news emails, X trends and your notes into short posts for X and Threads and publishes them through Buffer. By Upesh Bishwakarma.
+- [Social Media Manager](https://moneywithai.net/bots/social-media-manager-vishvajeet-shukla/): Plans a content calendar for your brand's Instagram and X, gets visuals made and posts on schedule after your approval. By Vishvajeet Shukla.
 - [Social Media Manager](https://moneywithai.net/bots/social-media-manager/): Manages social posting and the social inbox through OmniSocials. By Lighthart99.
 - [Socials (Short-Form Scout)](https://moneywithai.net/bots/socials-short-form-scout/): Scouts X and Reddit hourly for AI and tech stories worth filming for TikTok, Reels and Shorts. By @ashen_one.
 - [Stills & Clips Desk](https://moneywithai.net/bots/stills-and-clips-desk/): Pulls stills, thumbnails and short clips from your footage at the right sizes, and writes captions and alt text. By Matt Palmer.
@@ -744,8 +744,8 @@ Value tiers are our rough estimates (labelled Estimate) of relative value to the
 - [Financial Document Analyst](https://moneywithai.net/bots/financial-document-analyst/): Reads uploaded financial statements and rebuilds them as clean Excel tables you can analyze. By Community submission.
 - [Gig Books Closer](https://moneywithai.net/bots/gig-books-closer/): Closes the books after live events by reconciling Soundcheck gigs with QuickBooks. By steventt07.
 - [Haggle Bot](https://moneywithai.net/bots/haggle-bot-aaron-maga/): Sorts your SaaS and vendor spend into keep, cut or renegotiate and drafts the cancel and counter-offer emails. By AARON MAGA.
-- [Haggle Bot](https://moneywithai.net/bots/haggle-bot-daniel-gartshein/): Lists your SaaS spend from Ramp and bills, finds savings such as unused seats and duplicates, and drafts vendor negotiation emails. By Daniel Gartshein.
 - [Haggle Bot](https://moneywithai.net/bots/haggle-bot/): Reviews vendor and SaaS bills every month, then drafts negotiation emails to cut prices or move you to a better plan. By @lennysan.
+- [Haggle Bot](https://moneywithai.net/bots/haggle-bot-daniel-gartshein/): Lists your SaaS spend from Ramp and bills, finds savings such as unused seats and duplicates, and drafts vendor negotiation emails. By Daniel Gartshein.
 - [Harvey Specter](https://moneywithai.net/bots/harvey-specter/): Negotiates deals, renewals and quotes by email for better price and terms, never signing or paying for you. By @liam_fallen.
 - [Invoice Approval Router](https://moneywithai.net/bots/invoice-approval-router/): Picks up PDF invoices from Gmail, extracts the data and routes each one through an approval step in Sheets. By Billy Christi.
 - [Invoice Hunter](https://moneywithai.net/bots/invoice-hunter/): Finds invoices in your email, pulls out the key details and bundles them by month for your accountant, after you approve. By @scheemunai.
@@ -791,8 +791,8 @@ Value tiers are our rough estimates (labelled Estimate) of relative value to the
 - [Multilingual Support Inbox](https://moneywithai.net/bots/multilingual-support-inbox/): Handles support across WhatsApp and email with automatic translation and a shared log. By Oneclick AI Squad.
 - [Overheard](https://moneywithai.net/bots/overheard-lenny-rachitsky/): Watches Reddit, Hacker News, news sites and X for mentions of your name, brand and site, and sends a short weekday report. By Lenny Rachitsky.
 - [OwnPhoneBot](https://moneywithai.net/bots/ownphonebot/): Gives your bot a real phone number through VoIP.ms and Asterisk so it can handle voice calls. By claudia_cardume.
-- [Phone Receptionist](https://moneywithai.net/bots/phone-receptionist-i668/): Answers calls in your browser as an automated receptionist, asks a few questions and passes on a summary. By i668.
 - [Phone Receptionist](https://moneywithai.net/bots/phone-receptionist/): Answers a business phone line and books meetings on Google Calendar. The share card lists a paid phone plan. By @SimplyColeB.
+- [Phone Receptionist](https://moneywithai.net/bots/phone-receptionist-i668/): Answers calls in your browser as an automated receptionist, asks a few questions and passes on a summary. By i668.
 - [Product Support Inbox Assistant](https://moneywithai.net/bots/product-support-inbox-assistant/): Helps you find and draft answers to product questions in your inbox, and never sends a reply without you. By Anoop Baliga.
 - [Refund Resolution Desk](https://moneywithai.net/bots/refund-resolution-desk/): Checks routine refund requests in Plain against account context and prepares a resolution for you to approve. By Community submission.
 - [Reply Desk](https://moneywithai.net/bots/reply-desk/): Drafts replies to customer emails, messages and public reviews for local service businesses. You send them. By @lonzom10.
@@ -833,8 +833,8 @@ Value tiers are our rough estimates (labelled Estimate) of relative value to the
 - [Android / Play Build Engineer](https://moneywithai.net/bots/android-play-build-engineer/): Ships Android games and apps to Google Play, handling builds, version bumps and the steps from internal testing to production. By Vet.
 - [Ask Avery](https://moneywithai.net/bots/ask-avery/): Sends engineering questions to matched expert reviewers in parallel and returns one combined answer. By Andreas Gerlach.
 - [Automation Scout](https://moneywithai.net/bots/automation-scout/): Looks through your Slack, Notion, GitHub and Linear history to find repetitive work worth automating. By @ericzakariasson.
-- [Backup Bot](https://moneywithai.net/bots/backup-bot/): Saves a restore pack for any of your bots with its profile, skills, routines and key notes, never passwords or keys, on a schedule you pick. By ollie.
 - [Backup Bot](https://moneywithai.net/bots/backup-bot-andres-ruggiero/): Backs up your bot's computer to Google Drive or OneDrive each night and tests a restore every week. By Andres Ruggiero.
+- [Backup Bot](https://moneywithai.net/bots/backup-bot/): Saves a restore pack for any of your bots with its profile, skills, routines and key notes, never passwords or keys, on a schedule you pick. By ollie.
 - [Backup Watch](https://moneywithai.net/bots/backup-watch/): Tells you each week what lives only on your shared bot computer and is not backed up anywhere else. It only suggests and never deletes. By Gorik.
 - [Bid Desk](https://moneywithai.net/bots/bid-desk/): Reads a government or nonprofit RFP and gives a quick bid or no-bid call with deadline and requirements, then finds similar openings. By Thuong P. Nguyen.
 - [Billy Backup](https://moneywithai.net/bots/billy-backup/): Sets up a backup you control: code to a git host, files to object storage and a nightly check that stays quiet when nothing is missing. By Jordan Jubela.
@@ -911,8 +911,8 @@ Value tiers are our rough estimates (labelled Estimate) of relative value to the
 - [Entrepreneur Scout](https://moneywithai.net/bots/entrepreneur-scout/): Finds and vets side-venture ideas from a short brief, with sources, risks and a next step, and keeps a weekly scorecard. By @hjackson2.
 - [Event Request Desk](https://moneywithai.net/bots/event-request-desk/): Scores each event, sponsorship and speaking request and drafts your yes or no. It never sends without you. By Emma Weyrauch.
 - [Execution Operator](https://moneywithai.net/bots/execution-operator/): Takes coding and repo tasks and works them through to a finished pull request instead of stopping at a plan. By Avid.
-- [Executive Assistant](https://moneywithai.net/bots/executive-assistant/): Sends a morning briefing and a catch-up summary whenever you join a new Slack room, so you do not have to read every thread. By SpaceX.
 - [Executive Assistant](https://moneywithai.net/bots/executive-assistant-natasha-kuo/): An executive assistant for exec support: room booking, interview prep, leadership outreach drafts and checks between sheets and calendars. By Natasha Kuo.
+- [Executive Assistant](https://moneywithai.net/bots/executive-assistant/): Sends a morning briefing and a catch-up summary whenever you join a new Slack room, so you do not have to read every thread. By SpaceX.
 - [Fleet Doctor](https://moneywithai.net/bots/fleet-doctor/): Checks each weekday that your Grok Bot routines actually ran, tells you only about failures and suggests fresh rebuilds for bloated bots. By DBCrypto.
 - [Form Filler](https://moneywithai.net/bots/form-filler/): Drafts forms, claims, rebates, warranties and admin intakes with cited answers. Nothing is submitted until you type APPROVE. By @exzacklyright.
 - [Founder Chief of Staff](https://moneywithai.net/bots/founder-chief-of-staff/): Gives a founder with several ventures a morning brief across calendars and inboxes, a weekly recap and CRM follow-ups. By Mike Makar.
