@@ -272,19 +272,6 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Alfred
 
-- URL: https://moneywithai.net/bots/alfred/
-- Category: Research and Ops
-- Summary (Money With AI's words): Designs and audits your team of Grok Bots around real business outcomes, with a named human owner for each job and no duplicates.
-- Tools: Grok
-- Creator: Robin Delta (https://x.ai/bot/p7Gh6HIrfv4AGzIow6-9X)
-- Original source: https://x.ai/bot/p7Gh6HIrfv4AGzIow6-9X
-- Official share link: https://x.ai/bot/p7Gh6HIrfv4AGzIow6-9X
-- Found via: https://x.ai/bot/p7Gh6HIrfv4AGzIow6-9X
-- Proof level: Source verified: the original post exists and is by the named creator.
-- Prompt: not included; read it at the original source
-
-## Alfred
-
 - URL: https://moneywithai.net/bots/alfred-michael-krantz/
 - Category: Research and Ops
 - Summary (Money With AI's words): A chief of staff that runs email, Drive and calendar tasks, watches your inboxes and builds a daily brief.
@@ -293,6 +280,19 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Original source: https://x.ai/bot/moKscJ7PToJw_PVQWvkf_
 - Official share link: https://x.ai/bot/moKscJ7PToJw_PVQWvkf_
 - Found via: https://x.ai/bot/moKscJ7PToJw_PVQWvkf_
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Alfred
+
+- URL: https://moneywithai.net/bots/alfred/
+- Category: Research and Ops
+- Summary (Money With AI's words): Designs and audits your team of Grok Bots around real business outcomes, with a named human owner for each job and no duplicates.
+- Tools: Grok
+- Creator: Robin Delta (https://x.ai/bot/p7Gh6HIrfv4AGzIow6-9X)
+- Original source: https://x.ai/bot/p7Gh6HIrfv4AGzIow6-9X
+- Official share link: https://x.ai/bot/p7Gh6HIrfv4AGzIow6-9X
+- Found via: https://x.ai/bot/p7Gh6HIrfv4AGzIow6-9X
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 

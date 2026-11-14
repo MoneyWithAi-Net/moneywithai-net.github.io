@@ -828,8 +828,8 @@ Value tiers are our rough estimates (labelled Estimate) of relative value to the
 - [AI Output Guard](https://moneywithai.net/bots/ai-output-guard/): Checks your AI bots' output against a schema with AISchemaGate, repairs what it can and explains failures in plain words. By Alex Suarez.
 - [AI Radar](https://moneywithai.net/bots/ai-radar/): Watches AI labs, researchers, blogs and changelogs and sends you the AI news that matters as it happens. By Gota.
 - [Airfield Electrical Bid Scout](https://moneywithai.net/bots/airfield-electrical-bid-scout/): Finds and qualifies public bids for airfield lighting and electrical work and sends a recap sheet. By @thefit24couple.
-- [Alfred](https://moneywithai.net/bots/alfred/): Designs and audits your team of Grok Bots around real business outcomes, with a named human owner for each job and no duplicates. By Robin Delta.
 - [Alfred](https://moneywithai.net/bots/alfred-michael-krantz/): A chief of staff that runs email, Drive and calendar tasks, watches your inboxes and builds a daily brief. By Michael Krantz.
+- [Alfred](https://moneywithai.net/bots/alfred/): Designs and audits your team of Grok Bots around real business outcomes, with a named human owner for each job and no duplicates. By Robin Delta.
 - [Android / Play Build Engineer](https://moneywithai.net/bots/android-play-build-engineer/): Ships Android games and apps to Google Play, handling builds, version bumps and the steps from internal testing to production. By Vet.
 - [Ask Avery](https://moneywithai.net/bots/ask-avery/): Sends engineering questions to matched expert reviewers in parallel and returns one combined answer. By Andreas Gerlach.
 - [Automation Scout](https://moneywithai.net/bots/automation-scout/): Looks through your Slack, Notion, GitHub and Linear history to find repetitive work worth automating. By @ericzakariasson.
