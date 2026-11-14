@@ -586,8 +586,8 @@ Value tiers are our rough estimates (labelled Estimate) of relative value to the
 - [Scribe](https://moneywithai.net/bots/scribe/): Writes honest, search-friendly articles about your real project and runs a free article hub for them. By Slowfreeze.eth.sol.tez.
 - [Scripter Orc](https://moneywithai.net/bots/scripter-orc/): Writes YouTube scripts that follow your channel's process, audience and style, stored in Notion. By orcdev.
 - [Sentinel](https://moneywithai.net/bots/sentinel/): Reviews insurance marketing emails, pages and posts before they go out and flags fixes for disclosures and claims. By @CluSloan.
-- [SEO & AEO Desk](https://moneywithai.net/bots/seo-and-aeo-desk-jaime-hernandez/): Finds what people search for and ask AI, ranks the openings into page ideas and writes briefs for your writers. By Jaime Hernandez.
 - [SEO & AEO Desk](https://moneywithai.net/bots/seo-and-aeo-desk/): Turns a keyword list or Search Console data into content ideas and writer-ready briefs for search and AI answers. By Adam Tanguay.
+- [SEO & AEO Desk](https://moneywithai.net/bots/seo-and-aeo-desk-jaime-hernandez/): Finds what people search for and ask AI, ranks the openings into page ideas and writes briefs for your writers. By Jaime Hernandez.
 - [SEO Finisher](https://moneywithai.net/bots/seo-finisher/): Builds an SEO agent inside your repo that keeps working the same target pages until they climb, using Search Console data. By Nicolas Lecocq.
 - [SEO Improver](https://moneywithai.net/bots/seo-improver/): Every two weeks finds pages losing impressions and ships fixes through GitHub. By Community submission.
 - [SEO Site Fixer](https://moneywithai.net/bots/seo-site-fixer/): Runs a daily SEO and AI-search report for a Squarespace site with Semrush data and applies the fixes you approve. By @mattyp.

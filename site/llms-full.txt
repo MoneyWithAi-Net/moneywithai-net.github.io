@@ -6344,19 +6344,6 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## SEO & AEO Desk
 
-- URL: https://moneywithai.net/bots/seo-and-aeo-desk-jaime-hernandez/
-- Category: Content and Marketing
-- Summary (Money With AI's words): Finds what people search for and ask AI, ranks the openings into page ideas and writes briefs for your writers.
-- Tools: Grok
-- Creator: Jaime Hernandez (https://x.ai/bot/CaNidmFikjRDtkc7_2OnO)
-- Original source: https://x.ai/bot/CaNidmFikjRDtkc7_2OnO
-- Official share link: https://x.ai/bot/CaNidmFikjRDtkc7_2OnO
-- Found via: https://x.ai/bot/CaNidmFikjRDtkc7_2OnO
-- Proof level: Source verified: the original post exists and is by the named creator.
-- Prompt: not included; read it at the original source
-
-## SEO & AEO Desk
-
 - URL: https://moneywithai.net/bots/seo-and-aeo-desk/
 - Category: Content and Marketing
 - Summary (Money With AI's words): Turns a keyword list or Search Console data into content ideas and writer-ready briefs for search and AI answers.
@@ -6365,6 +6352,19 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Original source: https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL
 - Official share link: https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL
 - Found via: https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## SEO & AEO Desk
+
+- URL: https://moneywithai.net/bots/seo-and-aeo-desk-jaime-hernandez/
+- Category: Content and Marketing
+- Summary (Money With AI's words): Finds what people search for and ask AI, ranks the openings into page ideas and writes briefs for your writers.
+- Tools: Grok
+- Creator: Jaime Hernandez (https://x.ai/bot/CaNidmFikjRDtkc7_2OnO)
+- Original source: https://x.ai/bot/CaNidmFikjRDtkc7_2OnO
+- Official share link: https://x.ai/bot/CaNidmFikjRDtkc7_2OnO
+- Found via: https://x.ai/bot/CaNidmFikjRDtkc7_2OnO
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
