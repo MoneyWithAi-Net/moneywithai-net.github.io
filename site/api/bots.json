@@ -777,40 +777,6 @@
       }
     },
     {
-      "slug": "alfred-michael-krantz",
-      "name": "Alfred",
-      "category": "Research and Ops",
-      "sub_use_case": "Inbox triage",
-      "summary": "A chief of staff that runs email, Drive and calendar tasks, watches your inboxes and builds a daily brief.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "Michael Krantz",
-        "url": "https://x.ai/bot/moKscJ7PToJw_PVQWvkf_"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/moKscJ7PToJw_PVQWvkf_"
-      },
-      "official_share_url": "https://x.ai/bot/moKscJ7PToJw_PVQWvkf_",
-      "found_via": "https://x.ai/bot/moKscJ7PToJw_PVQWvkf_",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/alfred-michael-krantz/",
-      "json_url": "https://moneywithai.net/api/bots/alfred-michael-krantz.json",
-      "share_url": "https://x.ai/bot/moKscJ7PToJw_PVQWvkf_",
-      "credit": {
-        "creator": "Michael Krantz",
-        "creator_url": "https://x.ai/bot/moKscJ7PToJw_PVQWvkf_",
-        "source_url": "https://x.ai/bot/moKscJ7PToJw_PVQWvkf_",
-        "found_via": "https://x.ai/bot/moKscJ7PToJw_PVQWvkf_",
-        "text": "Alfred by Michael Krantz. Original source: https://x.ai/bot/moKscJ7PToJw_PVQWvkf_. Listed on Money With AI: https://moneywithai.net/bots/alfred-michael-krantz/"
-      }
-    },
-    {
       "slug": "alfred",
       "name": "Alfred",
       "category": "Research and Ops",
@@ -842,6 +808,40 @@
         "source_url": "https://x.ai/bot/p7Gh6HIrfv4AGzIow6-9X",
         "found_via": "https://x.ai/bot/p7Gh6HIrfv4AGzIow6-9X",
         "text": "Alfred by Robin Delta. Original source: https://x.ai/bot/p7Gh6HIrfv4AGzIow6-9X. Listed on Money With AI: https://moneywithai.net/bots/alfred/"
+      }
+    },
+    {
+      "slug": "alfred-michael-krantz",
+      "name": "Alfred",
+      "category": "Research and Ops",
+      "sub_use_case": "Inbox triage",
+      "summary": "A chief of staff that runs email, Drive and calendar tasks, watches your inboxes and builds a daily brief.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "Michael Krantz",
+        "url": "https://x.ai/bot/moKscJ7PToJw_PVQWvkf_"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/moKscJ7PToJw_PVQWvkf_"
+      },
+      "official_share_url": "https://x.ai/bot/moKscJ7PToJw_PVQWvkf_",
+      "found_via": "https://x.ai/bot/moKscJ7PToJw_PVQWvkf_",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/alfred-michael-krantz/",
+      "json_url": "https://moneywithai.net/api/bots/alfred-michael-krantz.json",
+      "share_url": "https://x.ai/bot/moKscJ7PToJw_PVQWvkf_",
+      "credit": {
+        "creator": "Michael Krantz",
+        "creator_url": "https://x.ai/bot/moKscJ7PToJw_PVQWvkf_",
+        "source_url": "https://x.ai/bot/moKscJ7PToJw_PVQWvkf_",
+        "found_via": "https://x.ai/bot/moKscJ7PToJw_PVQWvkf_",
+        "text": "Alfred by Michael Krantz. Original source: https://x.ai/bot/moKscJ7PToJw_PVQWvkf_. Listed on Money With AI: https://moneywithai.net/bots/alfred-michael-krantz/"
       }
     },
     {
@@ -8858,6 +8858,40 @@
       }
     },
     {
+      "slug": "haggle-bot-daniel-gartshein",
+      "name": "Haggle Bot",
+      "category": "Finance",
+      "sub_use_case": "SaaS spend",
+      "summary": "Lists your SaaS spend from Ramp and bills, finds savings such as unused seats and duplicates, and drafts vendor negotiation emails.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "Daniel Gartshein",
+        "url": "https://x.ai/bot/pwQ612YrX3R0eACnIMlom"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/pwQ612YrX3R0eACnIMlom"
+      },
+      "official_share_url": "https://x.ai/bot/pwQ612YrX3R0eACnIMlom",
+      "found_via": "https://x.ai/bot/pwQ612YrX3R0eACnIMlom",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/haggle-bot-daniel-gartshein/",
+      "json_url": "https://moneywithai.net/api/bots/haggle-bot-daniel-gartshein.json",
+      "share_url": "https://x.ai/bot/pwQ612YrX3R0eACnIMlom",
+      "credit": {
+        "creator": "Daniel Gartshein",
+        "creator_url": "https://x.ai/bot/pwQ612YrX3R0eACnIMlom",
+        "source_url": "https://x.ai/bot/pwQ612YrX3R0eACnIMlom",
+        "found_via": "https://x.ai/bot/pwQ612YrX3R0eACnIMlom",
+        "text": "Haggle Bot by Daniel Gartshein. Original source: https://x.ai/bot/pwQ612YrX3R0eACnIMlom. Listed on Money With AI: https://moneywithai.net/bots/haggle-bot-daniel-gartshein/"
+      }
+    },
+    {
       "slug": "haggle-bot",
       "name": "Haggle Bot",
       "category": "Finance",
@@ -8890,40 +8924,6 @@
         "source_url": "https://x.com/lennysan/status/2095975395602710779",
         "found_via": null,
         "text": "Haggle Bot by lennysan. Original source: https://x.com/lennysan/status/2095975395602710779. Listed on Money With AI: https://moneywithai.net/bots/haggle-bot/"
-      }
-    },
-    {
-      "slug": "haggle-bot-daniel-gartshein",
-      "name": "Haggle Bot",
-      "category": "Finance",
-      "sub_use_case": "SaaS spend",
-      "summary": "Lists your SaaS spend from Ramp and bills, finds savings such as unused seats and duplicates, and drafts vendor negotiation emails.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "Daniel Gartshein",
-        "url": "https://x.ai/bot/pwQ612YrX3R0eACnIMlom"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/pwQ612YrX3R0eACnIMlom"
-      },
-      "official_share_url": "https://x.ai/bot/pwQ612YrX3R0eACnIMlom",
-      "found_via": "https://x.ai/bot/pwQ612YrX3R0eACnIMlom",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/haggle-bot-daniel-gartshein/",
-      "json_url": "https://moneywithai.net/api/bots/haggle-bot-daniel-gartshein.json",
-      "share_url": "https://x.ai/bot/pwQ612YrX3R0eACnIMlom",
-      "credit": {
-        "creator": "Daniel Gartshein",
-        "creator_url": "https://x.ai/bot/pwQ612YrX3R0eACnIMlom",
-        "source_url": "https://x.ai/bot/pwQ612YrX3R0eACnIMlom",
-        "found_via": "https://x.ai/bot/pwQ612YrX3R0eACnIMlom",
-        "text": "Haggle Bot by Daniel Gartshein. Original source: https://x.ai/bot/pwQ612YrX3R0eACnIMlom. Listed on Money With AI: https://moneywithai.net/bots/haggle-bot-daniel-gartshein/"
       }
     },
     {
@@ -14048,6 +14048,40 @@
       }
     },
     {
+      "slug": "phone-receptionist-i668",
+      "name": "Phone Receptionist",
+      "category": "Customer Support",
+      "sub_use_case": "Phone answering",
+      "summary": "Answers calls in your browser as an automated receptionist, asks a few questions and passes on a summary.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "i668",
+        "url": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C"
+      },
+      "official_share_url": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C",
+      "found_via": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/phone-receptionist-i668/",
+      "json_url": "https://moneywithai.net/api/bots/phone-receptionist-i668.json",
+      "share_url": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C",
+      "credit": {
+        "creator": "i668",
+        "creator_url": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C",
+        "source_url": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C",
+        "found_via": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C",
+        "text": "Phone Receptionist by i668. Original source: https://x.ai/bot/vxvNEoprSLLwOa2d02f6C. Listed on Money With AI: https://moneywithai.net/bots/phone-receptionist-i668/"
+      }
+    },
+    {
       "slug": "phone-receptionist",
       "name": "Phone Receptionist",
       "category": "Customer Support",
@@ -14080,40 +14114,6 @@
         "source_url": "https://x.com/SimplyColeB/status/2107971762831114461",
         "found_via": null,
         "text": "Phone Receptionist by SimplyColeB. Original source: https://x.com/SimplyColeB/status/2107971762831114461. Listed on Money With AI: https://moneywithai.net/bots/phone-receptionist/"
-      }
-    },
-    {
-      "slug": "phone-receptionist-i668",
-      "name": "Phone Receptionist",
-      "category": "Customer Support",
-      "sub_use_case": "Phone answering",
-      "summary": "Answers calls in your browser as an automated receptionist, asks a few questions and passes on a summary.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "i668",
-        "url": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C"
-      },
-      "official_share_url": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C",
-      "found_via": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/phone-receptionist-i668/",
-      "json_url": "https://moneywithai.net/api/bots/phone-receptionist-i668.json",
-      "share_url": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C",
-      "credit": {
-        "creator": "i668",
-        "creator_url": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C",
-        "source_url": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C",
-        "found_via": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C",
-        "text": "Phone Receptionist by i668. Original source: https://x.ai/bot/vxvNEoprSLLwOa2d02f6C. Listed on Money With AI: https://moneywithai.net/bots/phone-receptionist-i668/"
       }
     },
     {

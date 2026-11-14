@@ -272,19 +272,6 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Alfred
 
-- URL: https://moneywithai.net/bots/alfred-michael-krantz/
-- Category: Research and Ops
-- Summary (Money With AI's words): A chief of staff that runs email, Drive and calendar tasks, watches your inboxes and builds a daily brief.
-- Tools: Grok
-- Creator: Michael Krantz (https://x.ai/bot/moKscJ7PToJw_PVQWvkf_)
-- Original source: https://x.ai/bot/moKscJ7PToJw_PVQWvkf_
-- Official share link: https://x.ai/bot/moKscJ7PToJw_PVQWvkf_
-- Found via: https://x.ai/bot/moKscJ7PToJw_PVQWvkf_
-- Proof level: Source verified: the original post exists and is by the named creator.
-- Prompt: not included; read it at the original source
-
-## Alfred
-
 - URL: https://moneywithai.net/bots/alfred/
 - Category: Research and Ops
 - Summary (Money With AI's words): Designs and audits your team of Grok Bots around real business outcomes, with a named human owner for each job and no duplicates.
@@ -293,6 +280,19 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Original source: https://x.ai/bot/p7Gh6HIrfv4AGzIow6-9X
 - Official share link: https://x.ai/bot/p7Gh6HIrfv4AGzIow6-9X
 - Found via: https://x.ai/bot/p7Gh6HIrfv4AGzIow6-9X
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Alfred
+
+- URL: https://moneywithai.net/bots/alfred-michael-krantz/
+- Category: Research and Ops
+- Summary (Money With AI's words): A chief of staff that runs email, Drive and calendar tasks, watches your inboxes and builds a daily brief.
+- Tools: Grok
+- Creator: Michael Krantz (https://x.ai/bot/moKscJ7PToJw_PVQWvkf_)
+- Original source: https://x.ai/bot/moKscJ7PToJw_PVQWvkf_
+- Official share link: https://x.ai/bot/moKscJ7PToJw_PVQWvkf_
+- Found via: https://x.ai/bot/moKscJ7PToJw_PVQWvkf_
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
@@ -3157,17 +3157,6 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Haggle Bot
 
-- URL: https://moneywithai.net/bots/haggle-bot/
-- Category: Finance
-- Summary (Money With AI's words): Reviews vendor and SaaS bills every month, then drafts negotiation emails to cut prices or move you to a better plan.
-- Tools: Gmail, Google Sheets
-- Creator: @lennysan (https://x.com/lennysan)
-- Original source: https://x.com/lennysan/status/2095975395602710779
-- Proof level: Source verified: the original post exists and is by the named creator.
-- Prompt: not included; read it at the original source
-
-## Haggle Bot
-
 - URL: https://moneywithai.net/bots/haggle-bot-daniel-gartshein/
 - Category: Finance
 - Summary (Money With AI's words): Lists your SaaS spend from Ramp and bills, finds savings such as unused seats and duplicates, and drafts vendor negotiation emails.
@@ -3176,6 +3165,17 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Original source: https://x.ai/bot/pwQ612YrX3R0eACnIMlom
 - Official share link: https://x.ai/bot/pwQ612YrX3R0eACnIMlom
 - Found via: https://x.ai/bot/pwQ612YrX3R0eACnIMlom
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Haggle Bot
+
+- URL: https://moneywithai.net/bots/haggle-bot/
+- Category: Finance
+- Summary (Money With AI's words): Reviews vendor and SaaS bills every month, then drafts negotiation emails to cut prices or move you to a better plan.
+- Tools: Gmail, Google Sheets
+- Creator: @lennysan (https://x.com/lennysan)
+- Original source: https://x.com/lennysan/status/2095975395602710779
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
@@ -4986,18 +4986,6 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Phone Receptionist
 
-- URL: https://moneywithai.net/bots/phone-receptionist/
-- Category: Customer Support
-- Summary (Money With AI's words): Answers a business phone line and books meetings on Google Calendar. The share card lists a paid phone plan.
-- Tools: Google Calendar, Bland
-- Creator: @SimplyColeB (https://x.com/SimplyColeB)
-- Original source: https://x.com/SimplyColeB/status/2107971762831114461
-- Official share link: https://x.ai/bot/Z7LfRtBtwfaojaomMrAuX
-- Proof level: Source verified: the original post exists and is by the named creator.
-- Prompt: not included; read it at the original source
-
-## Phone Receptionist
-
 - URL: https://moneywithai.net/bots/phone-receptionist-i668/
 - Category: Customer Support
 - Summary (Money With AI's words): Answers calls in your browser as an automated receptionist, asks a few questions and passes on a summary.
@@ -5006,6 +4994,18 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Original source: https://x.ai/bot/vxvNEoprSLLwOa2d02f6C
 - Official share link: https://x.ai/bot/vxvNEoprSLLwOa2d02f6C
 - Found via: https://x.ai/bot/vxvNEoprSLLwOa2d02f6C
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Phone Receptionist
+
+- URL: https://moneywithai.net/bots/phone-receptionist/
+- Category: Customer Support
+- Summary (Money With AI's words): Answers a business phone line and books meetings on Google Calendar. The share card lists a paid phone plan.
+- Tools: Google Calendar, Bland
+- Creator: @SimplyColeB (https://x.com/SimplyColeB)
+- Original source: https://x.com/SimplyColeB/status/2107971762831114461
+- Official share link: https://x.ai/bot/Z7LfRtBtwfaojaomMrAuX
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
