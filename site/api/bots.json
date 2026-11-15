@@ -1,7 +1,7 @@
 {
   "name": "Money With AI",
   "url": "https://moneywithai.net",
-  "generated_at": "2026-11-14T04:19:56.000Z",
+  "generated_at": "2026-11-15T03:52:29.000Z",
   "count": 682,
   "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
   "attribution": "Credit the bot creator (creator.handle, creator.url) and link the original source (source_url) plus our listing page (url). Summaries are ours; no prompt text is included.",
@@ -2691,40 +2691,6 @@
       }
     },
     {
-      "slug": "chief-top-shelf-capital",
-      "name": "Chief",
-      "category": "Research and Ops",
-      "sub_use_case": "Compliance and admin",
-      "summary": "Helps small business owners track filings and compliance, drafts emails and social posts for approval and keeps the website current.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "Top Shelf Capital",
-        "url": "https://x.ai/bot/A4haB5wrqQewiNFIukYZ5"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/A4haB5wrqQewiNFIukYZ5"
-      },
-      "official_share_url": "https://x.ai/bot/A4haB5wrqQewiNFIukYZ5",
-      "found_via": "https://x.ai/bot/A4haB5wrqQewiNFIukYZ5",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/chief-top-shelf-capital/",
-      "json_url": "https://moneywithai.net/api/bots/chief-top-shelf-capital.json",
-      "share_url": "https://x.ai/bot/A4haB5wrqQewiNFIukYZ5",
-      "credit": {
-        "creator": "Top Shelf Capital",
-        "creator_url": "https://x.ai/bot/A4haB5wrqQewiNFIukYZ5",
-        "source_url": "https://x.ai/bot/A4haB5wrqQewiNFIukYZ5",
-        "found_via": "https://x.ai/bot/A4haB5wrqQewiNFIukYZ5",
-        "text": "Chief by Top Shelf Capital. Original source: https://x.ai/bot/A4haB5wrqQewiNFIukYZ5. Listed on Money With AI: https://moneywithai.net/bots/chief-top-shelf-capital/"
-      }
-    },
-    {
       "slug": "chief",
       "name": "Chief",
       "category": "Research and Ops",
@@ -2756,6 +2722,40 @@
         "source_url": "https://x.ai/bot/QIfSY8pPwjqBSIdal-5CI",
         "found_via": "https://x.ai/bot/QIfSY8pPwjqBSIdal-5CI",
         "text": "Chief by SmoresBoy Jack. Original source: https://x.ai/bot/QIfSY8pPwjqBSIdal-5CI. Listed on Money With AI: https://moneywithai.net/bots/chief/"
+      }
+    },
+    {
+      "slug": "chief-top-shelf-capital",
+      "name": "Chief",
+      "category": "Research and Ops",
+      "sub_use_case": "Compliance and admin",
+      "summary": "Helps small business owners track filings and compliance, drafts emails and social posts for approval and keeps the website current.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "Top Shelf Capital",
+        "url": "https://x.ai/bot/A4haB5wrqQewiNFIukYZ5"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/A4haB5wrqQewiNFIukYZ5"
+      },
+      "official_share_url": "https://x.ai/bot/A4haB5wrqQewiNFIukYZ5",
+      "found_via": "https://x.ai/bot/A4haB5wrqQewiNFIukYZ5",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/chief-top-shelf-capital/",
+      "json_url": "https://moneywithai.net/api/bots/chief-top-shelf-capital.json",
+      "share_url": "https://x.ai/bot/A4haB5wrqQewiNFIukYZ5",
+      "credit": {
+        "creator": "Top Shelf Capital",
+        "creator_url": "https://x.ai/bot/A4haB5wrqQewiNFIukYZ5",
+        "source_url": "https://x.ai/bot/A4haB5wrqQewiNFIukYZ5",
+        "found_via": "https://x.ai/bot/A4haB5wrqQewiNFIukYZ5",
+        "text": "Chief by Top Shelf Capital. Original source: https://x.ai/bot/A4haB5wrqQewiNFIukYZ5. Listed on Money With AI: https://moneywithai.net/bots/chief-top-shelf-capital/"
       }
     },
     {
@@ -5687,40 +5687,6 @@
       }
     },
     {
-      "slug": "devil-s-advocate-cyberlytics",
-      "name": "Devil's Advocate",
-      "category": "Research and Ops",
-      "sub_use_case": "Planning and projects",
-      "summary": "Gives sharp, constructive pushback on plans and specs before you commit to them.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "Cyberlytics",
-        "url": "https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v"
-      },
-      "official_share_url": "https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v",
-      "found_via": "https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/devil-s-advocate-cyberlytics/",
-      "json_url": "https://moneywithai.net/api/bots/devil-s-advocate-cyberlytics.json",
-      "share_url": "https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v",
-      "credit": {
-        "creator": "Cyberlytics",
-        "creator_url": "https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v",
-        "source_url": "https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v",
-        "found_via": "https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v",
-        "text": "Devil's Advocate by Cyberlytics. Original source: https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v. Listed on Money With AI: https://moneywithai.net/bots/devil-s-advocate-cyberlytics/"
-      }
-    },
-    {
       "slug": "devil-s-advocate",
       "name": "Devil's Advocate",
       "category": "Research and Ops",
@@ -5752,6 +5718,40 @@
         "source_url": "https://x.ai/bot/Uj8zF0iprBX0AsSB3mU2V",
         "found_via": "https://x.ai/bot/Uj8zF0iprBX0AsSB3mU2V",
         "text": "Devil's Advocate by Melvin Vivas. Original source: https://x.ai/bot/Uj8zF0iprBX0AsSB3mU2V. Listed on Money With AI: https://moneywithai.net/bots/devil-s-advocate/"
+      }
+    },
+    {
+      "slug": "devil-s-advocate-cyberlytics",
+      "name": "Devil's Advocate",
+      "category": "Research and Ops",
+      "sub_use_case": "Planning and projects",
+      "summary": "Gives sharp, constructive pushback on plans and specs before you commit to them.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "Cyberlytics",
+        "url": "https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v"
+      },
+      "official_share_url": "https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v",
+      "found_via": "https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/devil-s-advocate-cyberlytics/",
+      "json_url": "https://moneywithai.net/api/bots/devil-s-advocate-cyberlytics.json",
+      "share_url": "https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v",
+      "credit": {
+        "creator": "Cyberlytics",
+        "creator_url": "https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v",
+        "source_url": "https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v",
+        "found_via": "https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v",
+        "text": "Devil's Advocate by Cyberlytics. Original source: https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v. Listed on Money With AI: https://moneywithai.net/bots/devil-s-advocate-cyberlytics/"
       }
     },
     {
@@ -9272,40 +9272,6 @@
       }
     },
     {
-      "slug": "human-copywriter",
-      "name": "Human Copywriter",
-      "category": "Content and Marketing",
-      "sub_use_case": "Copy and creative",
-      "summary": "Rewrites emails, posts and landing copy so they sound human while keeping your meaning and facts.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "massimodeluisa",
-        "url": null
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/JZAccYtlRFvDSU2CnMnkZ"
-      },
-      "official_share_url": "https://x.ai/bot/JZAccYtlRFvDSU2CnMnkZ",
-      "found_via": null,
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-25",
-      "url": "https://moneywithai.net/bots/human-copywriter/",
-      "json_url": "https://moneywithai.net/api/bots/human-copywriter.json",
-      "share_url": "https://x.ai/bot/JZAccYtlRFvDSU2CnMnkZ",
-      "credit": {
-        "creator": "massimodeluisa",
-        "creator_url": null,
-        "source_url": "https://x.ai/bot/JZAccYtlRFvDSU2CnMnkZ",
-        "found_via": null,
-        "text": "Human Copywriter by massimodeluisa. Original source: https://x.ai/bot/JZAccYtlRFvDSU2CnMnkZ. Listed on Money With AI: https://moneywithai.net/bots/human-copywriter/"
-      }
-    },
-    {
       "slug": "human-copywriter-sultanov-ramil",
       "name": "Human Copywriter",
       "category": "Content and Marketing",
@@ -9337,6 +9303,40 @@
         "source_url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
         "found_via": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
         "text": "Human Copywriter by Sultanov Ramil. Original source: https://x.ai/bot/vgiYk0mJeijE4YXmfmQld. Listed on Money With AI: https://moneywithai.net/bots/human-copywriter-sultanov-ramil/"
+      }
+    },
+    {
+      "slug": "human-copywriter",
+      "name": "Human Copywriter",
+      "category": "Content and Marketing",
+      "sub_use_case": "Copy and creative",
+      "summary": "Rewrites emails, posts and landing copy so they sound human while keeping your meaning and facts.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "massimodeluisa",
+        "url": null
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/JZAccYtlRFvDSU2CnMnkZ"
+      },
+      "official_share_url": "https://x.ai/bot/JZAccYtlRFvDSU2CnMnkZ",
+      "found_via": null,
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-25",
+      "url": "https://moneywithai.net/bots/human-copywriter/",
+      "json_url": "https://moneywithai.net/api/bots/human-copywriter.json",
+      "share_url": "https://x.ai/bot/JZAccYtlRFvDSU2CnMnkZ",
+      "credit": {
+        "creator": "massimodeluisa",
+        "creator_url": null,
+        "source_url": "https://x.ai/bot/JZAccYtlRFvDSU2CnMnkZ",
+        "found_via": null,
+        "text": "Human Copywriter by massimodeluisa. Original source: https://x.ai/bot/JZAccYtlRFvDSU2CnMnkZ. Listed on Money With AI: https://moneywithai.net/bots/human-copywriter/"
       }
     },
     {
@@ -9616,40 +9616,6 @@
       }
     },
     {
-      "slug": "inbox-triage-markus-johnson",
-      "name": "Inbox Triage",
-      "category": "Research and Ops",
-      "sub_use_case": "Inbox triage",
-      "summary": "Sorts your inbox into needs a reply, waiting and can go, with short reply drafts in your voice. It never sends.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "Markus Johnson",
-        "url": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6"
-      },
-      "official_share_url": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6",
-      "found_via": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/inbox-triage-markus-johnson/",
-      "json_url": "https://moneywithai.net/api/bots/inbox-triage-markus-johnson.json",
-      "share_url": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6",
-      "credit": {
-        "creator": "Markus Johnson",
-        "creator_url": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6",
-        "source_url": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6",
-        "found_via": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6",
-        "text": "Inbox Triage by Markus Johnson. Original source: https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6. Listed on Money With AI: https://moneywithai.net/bots/inbox-triage-markus-johnson/"
-      }
-    },
-    {
       "slug": "inbox-triage-cristopher-guido",
       "name": "Inbox Triage",
       "category": "Research and Ops",
@@ -9681,6 +9647,40 @@
         "source_url": "https://x.ai/bot/lDp666Fm-QgyBGqK7ee4l",
         "found_via": "https://x.ai/bot/lDp666Fm-QgyBGqK7ee4l",
         "text": "Inbox Triage by Cristopher Guido. Original source: https://x.ai/bot/lDp666Fm-QgyBGqK7ee4l. Listed on Money With AI: https://moneywithai.net/bots/inbox-triage-cristopher-guido/"
+      }
+    },
+    {
+      "slug": "inbox-triage-markus-johnson",
+      "name": "Inbox Triage",
+      "category": "Research and Ops",
+      "sub_use_case": "Inbox triage",
+      "summary": "Sorts your inbox into needs a reply, waiting and can go, with short reply drafts in your voice. It never sends.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "Markus Johnson",
+        "url": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6"
+      },
+      "official_share_url": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6",
+      "found_via": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/inbox-triage-markus-johnson/",
+      "json_url": "https://moneywithai.net/api/bots/inbox-triage-markus-johnson.json",
+      "share_url": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6",
+      "credit": {
+        "creator": "Markus Johnson",
+        "creator_url": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6",
+        "source_url": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6",
+        "found_via": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6",
+        "text": "Inbox Triage by Markus Johnson. Original source: https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6. Listed on Money With AI: https://moneywithai.net/bots/inbox-triage-markus-johnson/"
       }
     },
     {
@@ -20353,40 +20353,6 @@
       }
     },
     {
-      "slug": "tax-firm-os-amervim-bonano",
-      "name": "Tax Firm OS",
-      "category": "Finance",
-      "sub_use_case": "Accounting office ops",
-      "summary": "An operating helper for small tax and accounting offices that drafts compliance, client follow-up and planning work while staff handle filing and signing.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "Amervim Bonano",
-        "url": "https://x.ai/bot/vMr8x1Lm8mpo-jKBrdxCh"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/vMr8x1Lm8mpo-jKBrdxCh"
-      },
-      "official_share_url": "https://x.ai/bot/vMr8x1Lm8mpo-jKBrdxCh",
-      "found_via": "https://x.ai/bot/vMr8x1Lm8mpo-jKBrdxCh",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/tax-firm-os-amervim-bonano/",
-      "json_url": "https://moneywithai.net/api/bots/tax-firm-os-amervim-bonano.json",
-      "share_url": "https://x.ai/bot/vMr8x1Lm8mpo-jKBrdxCh",
-      "credit": {
-        "creator": "Amervim Bonano",
-        "creator_url": "https://x.ai/bot/vMr8x1Lm8mpo-jKBrdxCh",
-        "source_url": "https://x.ai/bot/vMr8x1Lm8mpo-jKBrdxCh",
-        "found_via": "https://x.ai/bot/vMr8x1Lm8mpo-jKBrdxCh",
-        "text": "Tax Firm OS by Amervim Bonano. Original source: https://x.ai/bot/vMr8x1Lm8mpo-jKBrdxCh. Listed on Money With AI: https://moneywithai.net/bots/tax-firm-os-amervim-bonano/"
-      }
-    },
-    {
       "slug": "tax-firm-os",
       "name": "Tax Firm OS",
       "category": "Finance",
@@ -20418,6 +20384,40 @@
         "source_url": "https://x.com/Amervim/status/2105949306025128186",
         "found_via": null,
         "text": "Tax Firm OS by Amervim. Original source: https://x.com/Amervim/status/2105949306025128186. Listed on Money With AI: https://moneywithai.net/bots/tax-firm-os/"
+      }
+    },
+    {
+      "slug": "tax-firm-os-amervim-bonano",
+      "name": "Tax Firm OS",
+      "category": "Finance",
+      "sub_use_case": "Accounting office ops",
+      "summary": "An operating helper for small tax and accounting offices that drafts compliance, client follow-up and planning work while staff handle filing and signing.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "Amervim Bonano",
+        "url": "https://x.ai/bot/vMr8x1Lm8mpo-jKBrdxCh"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/vMr8x1Lm8mpo-jKBrdxCh"
+      },
+      "official_share_url": "https://x.ai/bot/vMr8x1Lm8mpo-jKBrdxCh",
+      "found_via": "https://x.ai/bot/vMr8x1Lm8mpo-jKBrdxCh",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/tax-firm-os-amervim-bonano/",
+      "json_url": "https://moneywithai.net/api/bots/tax-firm-os-amervim-bonano.json",
+      "share_url": "https://x.ai/bot/vMr8x1Lm8mpo-jKBrdxCh",
+      "credit": {
+        "creator": "Amervim Bonano",
+        "creator_url": "https://x.ai/bot/vMr8x1Lm8mpo-jKBrdxCh",
+        "source_url": "https://x.ai/bot/vMr8x1Lm8mpo-jKBrdxCh",
+        "found_via": "https://x.ai/bot/vMr8x1Lm8mpo-jKBrdxCh",
+        "text": "Tax Firm OS by Amervim Bonano. Original source: https://x.ai/bot/vMr8x1Lm8mpo-jKBrdxCh. Listed on Money With AI: https://moneywithai.net/bots/tax-firm-os-amervim-bonano/"
       }
     },
     {
@@ -20947,6 +20947,40 @@
       }
     },
     {
+      "slug": "tiffany-micah-watson",
+      "name": "Tiffany",
+      "category": "Client Services",
+      "sub_use_case": "Quotes",
+      "summary": "An ops helper for pool and plumbing trades that tracks customers, jobs, quotes, suppliers and stock and follows up on unpaid invoices.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "Micah Watson",
+        "url": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95"
+      },
+      "official_share_url": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95",
+      "found_via": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/tiffany-micah-watson/",
+      "json_url": "https://moneywithai.net/api/bots/tiffany-micah-watson.json",
+      "share_url": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95",
+      "credit": {
+        "creator": "Micah Watson",
+        "creator_url": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95",
+        "source_url": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95",
+        "found_via": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95",
+        "text": "Tiffany by Micah Watson. Original source: https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95. Listed on Money With AI: https://moneywithai.net/bots/tiffany-micah-watson/"
+      }
+    },
+    {
       "slug": "tiffany",
       "name": "Tiffany",
       "category": "Content and Marketing",
@@ -20979,40 +21013,6 @@
         "source_url": "https://x.ai/bot/VS2G5p1b_nQixeiYcdwFs",
         "found_via": "https://x.ai/bot/VS2G5p1b_nQixeiYcdwFs",
         "text": "Tiffany by Tripper Wood. Original source: https://x.ai/bot/VS2G5p1b_nQixeiYcdwFs. Listed on Money With AI: https://moneywithai.net/bots/tiffany/"
-      }
-    },
-    {
-      "slug": "tiffany-micah-watson",
-      "name": "Tiffany",
-      "category": "Client Services",
-      "sub_use_case": "Quotes",
-      "summary": "An ops helper for pool and plumbing trades that tracks customers, jobs, quotes, suppliers and stock and follows up on unpaid invoices.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "Micah Watson",
-        "url": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95"
-      },
-      "official_share_url": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95",
-      "found_via": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/tiffany-micah-watson/",
-      "json_url": "https://moneywithai.net/api/bots/tiffany-micah-watson.json",
-      "share_url": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95",
-      "credit": {
-        "creator": "Micah Watson",
-        "creator_url": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95",
-        "source_url": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95",
-        "found_via": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95",
-        "text": "Tiffany by Micah Watson. Original source: https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95. Listed on Money With AI: https://moneywithai.net/bots/tiffany-micah-watson/"
       }
     },
     {

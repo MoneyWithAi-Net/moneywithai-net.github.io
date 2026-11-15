@@ -947,19 +947,6 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Chief
 
-- URL: https://moneywithai.net/bots/chief-top-shelf-capital/
-- Category: Research and Ops
-- Summary (Money With AI's words): Helps small business owners track filings and compliance, drafts emails and social posts for approval and keeps the website current.
-- Tools: Grok
-- Creator: Top Shelf Capital (https://x.ai/bot/A4haB5wrqQewiNFIukYZ5)
-- Original source: https://x.ai/bot/A4haB5wrqQewiNFIukYZ5
-- Official share link: https://x.ai/bot/A4haB5wrqQewiNFIukYZ5
-- Found via: https://x.ai/bot/A4haB5wrqQewiNFIukYZ5
-- Proof level: Source verified: the original post exists and is by the named creator.
-- Prompt: not included; read it at the original source
-
-## Chief
-
 - URL: https://moneywithai.net/bots/chief/
 - Category: Research and Ops
 - Summary (Money With AI's words): Scans email and calendar every weekday morning, archives junk, drafts replies it never sends and hands you a short brief.
@@ -968,6 +955,19 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Original source: https://x.ai/bot/QIfSY8pPwjqBSIdal-5CI
 - Official share link: https://x.ai/bot/QIfSY8pPwjqBSIdal-5CI
 - Found via: https://x.ai/bot/QIfSY8pPwjqBSIdal-5CI
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Chief
+
+- URL: https://moneywithai.net/bots/chief-top-shelf-capital/
+- Category: Research and Ops
+- Summary (Money With AI's words): Helps small business owners track filings and compliance, drafts emails and social posts for approval and keeps the website current.
+- Tools: Grok
+- Creator: Top Shelf Capital (https://x.ai/bot/A4haB5wrqQewiNFIukYZ5)
+- Original source: https://x.ai/bot/A4haB5wrqQewiNFIukYZ5
+- Official share link: https://x.ai/bot/A4haB5wrqQewiNFIukYZ5
+- Found via: https://x.ai/bot/A4haB5wrqQewiNFIukYZ5
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
@@ -2008,19 +2008,6 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Devil's Advocate
 
-- URL: https://moneywithai.net/bots/devil-s-advocate-cyberlytics/
-- Category: Research and Ops
-- Summary (Money With AI's words): Gives sharp, constructive pushback on plans and specs before you commit to them.
-- Tools: Grok
-- Creator: Cyberlytics (https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v)
-- Original source: https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v
-- Official share link: https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v
-- Found via: https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v
-- Proof level: Source verified: the original post exists and is by the named creator.
-- Prompt: not included; read it at the original source
-
-## Devil's Advocate
-
 - URL: https://moneywithai.net/bots/devil-s-advocate/
 - Category: Research and Ops
 - Summary (Money With AI's words): Questions a founder's idea until the weak assumptions show, so you can fix them before you build.
@@ -2029,6 +2016,19 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Original source: https://x.ai/bot/Uj8zF0iprBX0AsSB3mU2V
 - Official share link: https://x.ai/bot/Uj8zF0iprBX0AsSB3mU2V
 - Found via: https://x.ai/bot/Uj8zF0iprBX0AsSB3mU2V
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Devil's Advocate
+
+- URL: https://moneywithai.net/bots/devil-s-advocate-cyberlytics/
+- Category: Research and Ops
+- Summary (Money With AI's words): Gives sharp, constructive pushback on plans and specs before you commit to them.
+- Tools: Grok
+- Creator: Cyberlytics (https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v)
+- Original source: https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v
+- Official share link: https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v
+- Found via: https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
@@ -3303,18 +3303,6 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Human Copywriter
 
-- URL: https://moneywithai.net/bots/human-copywriter/
-- Category: Content and Marketing
-- Summary (Money With AI's words): Rewrites emails, posts and landing copy so they sound human while keeping your meaning and facts.
-- Tools: Grok
-- Creator: massimodeluisa
-- Original source: https://x.ai/bot/JZAccYtlRFvDSU2CnMnkZ
-- Official share link: https://x.ai/bot/JZAccYtlRFvDSU2CnMnkZ
-- Proof level: Source verified: the original post exists and is by the named creator.
-- Prompt: not included; read it at the original source
-
-## Human Copywriter
-
 - URL: https://moneywithai.net/bots/human-copywriter-sultanov-ramil/
 - Category: Content and Marketing
 - Summary (Money With AI's words): Rewrites emails, posts, DMs, blogs and landing pages so they sound human, keeping the facts and adding no new claims.
@@ -3323,6 +3311,18 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Original source: https://x.ai/bot/vgiYk0mJeijE4YXmfmQld
 - Official share link: https://x.ai/bot/vgiYk0mJeijE4YXmfmQld
 - Found via: https://x.ai/bot/vgiYk0mJeijE4YXmfmQld
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Human Copywriter
+
+- URL: https://moneywithai.net/bots/human-copywriter/
+- Category: Content and Marketing
+- Summary (Money With AI's words): Rewrites emails, posts and landing copy so they sound human while keeping your meaning and facts.
+- Tools: Grok
+- Creator: massimodeluisa
+- Original source: https://x.ai/bot/JZAccYtlRFvDSU2CnMnkZ
+- Official share link: https://x.ai/bot/JZAccYtlRFvDSU2CnMnkZ
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
@@ -3428,19 +3428,6 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Inbox Triage
 
-- URL: https://moneywithai.net/bots/inbox-triage-markus-johnson/
-- Category: Research and Ops
-- Summary (Money With AI's words): Sorts your inbox into needs a reply, waiting and can go, with short reply drafts in your voice. It never sends.
-- Tools: Grok
-- Creator: Markus Johnson (https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6)
-- Original source: https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6
-- Official share link: https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6
-- Found via: https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6
-- Proof level: Source verified: the original post exists and is by the named creator.
-- Prompt: not included; read it at the original source
-
-## Inbox Triage
-
 - URL: https://moneywithai.net/bots/inbox-triage-cristopher-guido/
 - Category: Research and Ops
 - Summary (Money With AI's words): Gives small business owners and freelancers the few emails that need them each weekday morning, each with a short draft reply.
@@ -3449,6 +3436,19 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Original source: https://x.ai/bot/lDp666Fm-QgyBGqK7ee4l
 - Official share link: https://x.ai/bot/lDp666Fm-QgyBGqK7ee4l
 - Found via: https://x.ai/bot/lDp666Fm-QgyBGqK7ee4l
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Inbox Triage
+
+- URL: https://moneywithai.net/bots/inbox-triage-markus-johnson/
+- Category: Research and Ops
+- Summary (Money With AI's words): Sorts your inbox into needs a reply, waiting and can go, with short reply drafts in your voice. It never sends.
+- Tools: Grok
+- Creator: Markus Johnson (https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6)
+- Original source: https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6
+- Official share link: https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6
+- Found via: https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
@@ -7191,6 +7191,18 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Tax Firm OS
 
+- URL: https://moneywithai.net/bots/tax-firm-os/
+- Category: Finance
+- Summary (Money With AI's words): Keeps a tax or accounting office on track with client replies, document chasing and early due-date notices.
+- Tools: Grok
+- Creator: @Amervim (https://x.com/Amervim)
+- Original source: https://x.com/Amervim/status/2105949306025128186
+- Official share link: https://x.ai/bot/vJqjJphtZRkdBTYBxmWur
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Tax Firm OS
+
 - URL: https://moneywithai.net/bots/tax-firm-os-amervim-bonano/
 - Category: Finance
 - Summary (Money With AI's words): An operating helper for small tax and accounting offices that drafts compliance, client follow-up and planning work while staff handle filing and signing.
@@ -7199,18 +7211,6 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Original source: https://x.ai/bot/vMr8x1Lm8mpo-jKBrdxCh
 - Official share link: https://x.ai/bot/vMr8x1Lm8mpo-jKBrdxCh
 - Found via: https://x.ai/bot/vMr8x1Lm8mpo-jKBrdxCh
-- Proof level: Source verified: the original post exists and is by the named creator.
-- Prompt: not included; read it at the original source
-
-## Tax Firm OS
-
-- URL: https://moneywithai.net/bots/tax-firm-os/
-- Category: Finance
-- Summary (Money With AI's words): Keeps a tax or accounting office on track with client replies, document chasing and early due-date notices.
-- Tools: Grok
-- Creator: @Amervim (https://x.com/Amervim)
-- Original source: https://x.com/Amervim/status/2105949306025128186
-- Official share link: https://x.ai/bot/vJqjJphtZRkdBTYBxmWur
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
@@ -7403,19 +7403,6 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Tiffany
 
-- URL: https://moneywithai.net/bots/tiffany/
-- Category: Content and Marketing
-- Summary (Money With AI's words): Runs the specialist bots of a local marketing agency across clients for Google Business Profile, social, SEO blogs and YouTube, with approvals.
-- Tools: Grok, YouTube
-- Creator: Tripper Wood (https://x.ai/bot/VS2G5p1b_nQixeiYcdwFs)
-- Original source: https://x.ai/bot/VS2G5p1b_nQixeiYcdwFs
-- Official share link: https://x.ai/bot/VS2G5p1b_nQixeiYcdwFs
-- Found via: https://x.ai/bot/VS2G5p1b_nQixeiYcdwFs
-- Proof level: Source verified: the original post exists and is by the named creator.
-- Prompt: not included; read it at the original source
-
-## Tiffany
-
 - URL: https://moneywithai.net/bots/tiffany-micah-watson/
 - Category: Client Services
 - Summary (Money With AI's words): An ops helper for pool and plumbing trades that tracks customers, jobs, quotes, suppliers and stock and follows up on unpaid invoices.
@@ -7424,6 +7411,19 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Original source: https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95
 - Official share link: https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95
 - Found via: https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Tiffany
+
+- URL: https://moneywithai.net/bots/tiffany/
+- Category: Content and Marketing
+- Summary (Money With AI's words): Runs the specialist bots of a local marketing agency across clients for Google Business Profile, social, SEO blogs and YouTube, with approvals.
+- Tools: Grok, YouTube
+- Creator: Tripper Wood (https://x.ai/bot/VS2G5p1b_nQixeiYcdwFs)
+- Original source: https://x.ai/bot/VS2G5p1b_nQixeiYcdwFs
+- Official share link: https://x.ai/bot/VS2G5p1b_nQixeiYcdwFs
+- Found via: https://x.ai/bot/VS2G5p1b_nQixeiYcdwFs
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
