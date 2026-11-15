@@ -1,7 +1,7 @@
 {
   "name": "Money With AI",
   "url": "https://moneywithai.net",
-  "generated_at": "2026-11-15T05:37:35.000Z",
+  "generated_at": "2026-11-15T06:54:17.000Z",
   "count": 682,
   "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
   "attribution": "Credit the bot creator (creator.handle, creator.url) and link the original source (source_url) plus our listing page (url). Summaries are ours; no prompt text is included.",
@@ -6548,40 +6548,6 @@
       }
     },
     {
-      "slug": "email-bot",
-      "name": "Email Bot",
-      "category": "Research and Ops",
-      "sub_use_case": "Inbox triage",
-      "summary": "Triages your inbox every hour, archiving noise, keeping what needs you and drafting replies in your voice. It never sends.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "Austen Allred",
-        "url": "https://x.ai/bot/v5U_zbJBHfp6jZU6R3buT"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/v5U_zbJBHfp6jZU6R3buT"
-      },
-      "official_share_url": "https://x.ai/bot/v5U_zbJBHfp6jZU6R3buT",
-      "found_via": "https://x.ai/bot/v5U_zbJBHfp6jZU6R3buT",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/email-bot/",
-      "json_url": "https://moneywithai.net/api/bots/email-bot.json",
-      "share_url": "https://x.ai/bot/v5U_zbJBHfp6jZU6R3buT",
-      "credit": {
-        "creator": "Austen Allred",
-        "creator_url": "https://x.ai/bot/v5U_zbJBHfp6jZU6R3buT",
-        "source_url": "https://x.ai/bot/v5U_zbJBHfp6jZU6R3buT",
-        "found_via": "https://x.ai/bot/v5U_zbJBHfp6jZU6R3buT",
-        "text": "Email Bot by Austen Allred. Original source: https://x.ai/bot/v5U_zbJBHfp6jZU6R3buT. Listed on Money With AI: https://moneywithai.net/bots/email-bot/"
-      }
-    },
-    {
       "slug": "email-bot-colin-mcdermott",
       "name": "Email Bot",
       "category": "Research and Ops",
@@ -6614,6 +6580,40 @@
         "source_url": "https://x.ai/bot/RiqLdJ0BipnpJEjzadgy_",
         "found_via": "https://x.ai/bot/RiqLdJ0BipnpJEjzadgy_",
         "text": "Email Bot by Colin McDermott. Original source: https://x.ai/bot/RiqLdJ0BipnpJEjzadgy_. Listed on Money With AI: https://moneywithai.net/bots/email-bot-colin-mcdermott/"
+      }
+    },
+    {
+      "slug": "email-bot",
+      "name": "Email Bot",
+      "category": "Research and Ops",
+      "sub_use_case": "Inbox triage",
+      "summary": "Triages your inbox every hour, archiving noise, keeping what needs you and drafting replies in your voice. It never sends.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "Austen Allred",
+        "url": "https://x.ai/bot/v5U_zbJBHfp6jZU6R3buT"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/v5U_zbJBHfp6jZU6R3buT"
+      },
+      "official_share_url": "https://x.ai/bot/v5U_zbJBHfp6jZU6R3buT",
+      "found_via": "https://x.ai/bot/v5U_zbJBHfp6jZU6R3buT",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/email-bot/",
+      "json_url": "https://moneywithai.net/api/bots/email-bot.json",
+      "share_url": "https://x.ai/bot/v5U_zbJBHfp6jZU6R3buT",
+      "credit": {
+        "creator": "Austen Allred",
+        "creator_url": "https://x.ai/bot/v5U_zbJBHfp6jZU6R3buT",
+        "source_url": "https://x.ai/bot/v5U_zbJBHfp6jZU6R3buT",
+        "found_via": "https://x.ai/bot/v5U_zbJBHfp6jZU6R3buT",
+        "text": "Email Bot by Austen Allred. Original source: https://x.ai/bot/v5U_zbJBHfp6jZU6R3buT. Listed on Money With AI: https://moneywithai.net/bots/email-bot/"
       }
     },
     {
@@ -9272,40 +9272,6 @@
       }
     },
     {
-      "slug": "human-copywriter-sultanov-ramil",
-      "name": "Human Copywriter",
-      "category": "Content and Marketing",
-      "sub_use_case": "Copy and creative",
-      "summary": "Rewrites emails, posts, DMs, blogs and landing pages so they sound human, keeping the facts and adding no new claims.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "Sultanov Ramil",
-        "url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld"
-      },
-      "official_share_url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
-      "found_via": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/human-copywriter-sultanov-ramil/",
-      "json_url": "https://moneywithai.net/api/bots/human-copywriter-sultanov-ramil.json",
-      "share_url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
-      "credit": {
-        "creator": "Sultanov Ramil",
-        "creator_url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
-        "source_url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
-        "found_via": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
-        "text": "Human Copywriter by Sultanov Ramil. Original source: https://x.ai/bot/vgiYk0mJeijE4YXmfmQld. Listed on Money With AI: https://moneywithai.net/bots/human-copywriter-sultanov-ramil/"
-      }
-    },
-    {
       "slug": "human-copywriter",
       "name": "Human Copywriter",
       "category": "Content and Marketing",
@@ -9337,6 +9303,40 @@
         "source_url": "https://x.ai/bot/JZAccYtlRFvDSU2CnMnkZ",
         "found_via": null,
         "text": "Human Copywriter by massimodeluisa. Original source: https://x.ai/bot/JZAccYtlRFvDSU2CnMnkZ. Listed on Money With AI: https://moneywithai.net/bots/human-copywriter/"
+      }
+    },
+    {
+      "slug": "human-copywriter-sultanov-ramil",
+      "name": "Human Copywriter",
+      "category": "Content and Marketing",
+      "sub_use_case": "Copy and creative",
+      "summary": "Rewrites emails, posts, DMs, blogs and landing pages so they sound human, keeping the facts and adding no new claims.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "Sultanov Ramil",
+        "url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld"
+      },
+      "official_share_url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
+      "found_via": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/human-copywriter-sultanov-ramil/",
+      "json_url": "https://moneywithai.net/api/bots/human-copywriter-sultanov-ramil.json",
+      "share_url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
+      "credit": {
+        "creator": "Sultanov Ramil",
+        "creator_url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
+        "source_url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
+        "found_via": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
+        "text": "Human Copywriter by Sultanov Ramil. Original source: https://x.ai/bot/vgiYk0mJeijE4YXmfmQld. Listed on Money With AI: https://moneywithai.net/bots/human-copywriter-sultanov-ramil/"
       }
     },
     {
@@ -17892,40 +17892,6 @@
       }
     },
     {
-      "slug": "seo-and-aeo-desk",
-      "name": "SEO & AEO Desk",
-      "category": "Content and Marketing",
-      "sub_use_case": "SEO and AI search",
-      "summary": "Turns a keyword list or Search Console data into content ideas and writer-ready briefs for search and AI answers.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "Adam Tanguay",
-        "url": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL"
-      },
-      "official_share_url": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL",
-      "found_via": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/seo-and-aeo-desk/",
-      "json_url": "https://moneywithai.net/api/bots/seo-and-aeo-desk.json",
-      "share_url": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL",
-      "credit": {
-        "creator": "Adam Tanguay",
-        "creator_url": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL",
-        "source_url": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL",
-        "found_via": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL",
-        "text": "SEO & AEO Desk by Adam Tanguay. Original source: https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL. Listed on Money With AI: https://moneywithai.net/bots/seo-and-aeo-desk/"
-      }
-    },
-    {
       "slug": "seo-and-aeo-desk-jaime-hernandez",
       "name": "SEO & AEO Desk",
       "category": "Content and Marketing",
@@ -17957,6 +17923,40 @@
         "source_url": "https://x.ai/bot/CaNidmFikjRDtkc7_2OnO",
         "found_via": "https://x.ai/bot/CaNidmFikjRDtkc7_2OnO",
         "text": "SEO & AEO Desk by Jaime Hernandez. Original source: https://x.ai/bot/CaNidmFikjRDtkc7_2OnO. Listed on Money With AI: https://moneywithai.net/bots/seo-and-aeo-desk-jaime-hernandez/"
+      }
+    },
+    {
+      "slug": "seo-and-aeo-desk",
+      "name": "SEO & AEO Desk",
+      "category": "Content and Marketing",
+      "sub_use_case": "SEO and AI search",
+      "summary": "Turns a keyword list or Search Console data into content ideas and writer-ready briefs for search and AI answers.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "Adam Tanguay",
+        "url": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL"
+      },
+      "official_share_url": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL",
+      "found_via": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/seo-and-aeo-desk/",
+      "json_url": "https://moneywithai.net/api/bots/seo-and-aeo-desk.json",
+      "share_url": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL",
+      "credit": {
+        "creator": "Adam Tanguay",
+        "creator_url": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL",
+        "source_url": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL",
+        "found_via": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL",
+        "text": "SEO & AEO Desk by Adam Tanguay. Original source: https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL. Listed on Money With AI: https://moneywithai.net/bots/seo-and-aeo-desk/"
       }
     },
     {
@@ -19179,6 +19179,42 @@
       }
     },
     {
+      "slug": "social-media-manager-upesh-bishwakarma",
+      "name": "Social Media Manager",
+      "category": "Content and Marketing",
+      "sub_use_case": "Brand social",
+      "summary": "Turns news emails, X trends and your notes into short posts for X and Threads and publishes them through Buffer.",
+      "tools": [
+        "Grok",
+        "Threads",
+        "X"
+      ],
+      "creator": {
+        "handle": "Upesh Bishwakarma",
+        "url": "https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL"
+      },
+      "official_share_url": "https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL",
+      "found_via": "https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/social-media-manager-upesh-bishwakarma/",
+      "json_url": "https://moneywithai.net/api/bots/social-media-manager-upesh-bishwakarma.json",
+      "share_url": "https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL",
+      "credit": {
+        "creator": "Upesh Bishwakarma",
+        "creator_url": "https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL",
+        "source_url": "https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL",
+        "found_via": "https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL",
+        "text": "Social Media Manager by Upesh Bishwakarma. Original source: https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL. Listed on Money With AI: https://moneywithai.net/bots/social-media-manager-upesh-bishwakarma/"
+      }
+    },
+    {
       "slug": "social-media-manager-vishvajeet-shukla",
       "name": "Social Media Manager",
       "category": "Content and Marketing",
@@ -19246,42 +19282,6 @@
         "source_url": "https://moneywithai.net/bots/social-media-manager/",
         "found_via": null,
         "text": "Social Media Manager by Lighthart99. Listed on Money With AI: https://moneywithai.net/bots/social-media-manager/"
-      }
-    },
-    {
-      "slug": "social-media-manager-upesh-bishwakarma",
-      "name": "Social Media Manager",
-      "category": "Content and Marketing",
-      "sub_use_case": "Brand social",
-      "summary": "Turns news emails, X trends and your notes into short posts for X and Threads and publishes them through Buffer.",
-      "tools": [
-        "Grok",
-        "Threads",
-        "X"
-      ],
-      "creator": {
-        "handle": "Upesh Bishwakarma",
-        "url": "https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL"
-      },
-      "official_share_url": "https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL",
-      "found_via": "https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/social-media-manager-upesh-bishwakarma/",
-      "json_url": "https://moneywithai.net/api/bots/social-media-manager-upesh-bishwakarma.json",
-      "share_url": "https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL",
-      "credit": {
-        "creator": "Upesh Bishwakarma",
-        "creator_url": "https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL",
-        "source_url": "https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL",
-        "found_via": "https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL",
-        "text": "Social Media Manager by Upesh Bishwakarma. Original source: https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL. Listed on Money With AI: https://moneywithai.net/bots/social-media-manager-upesh-bishwakarma/"
       }
     },
     {
