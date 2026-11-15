@@ -586,8 +586,8 @@ Value tiers are our rough estimates (labelled Estimate) of relative value to the
 - [Scribe](https://moneywithai.net/bots/scribe/): Writes honest, search-friendly articles about your real project and runs a free article hub for them. By Slowfreeze.eth.sol.tez.
 - [Scripter Orc](https://moneywithai.net/bots/scripter-orc/): Writes YouTube scripts that follow your channel's process, audience and style, stored in Notion. By orcdev.
 - [Sentinel](https://moneywithai.net/bots/sentinel/): Reviews insurance marketing emails, pages and posts before they go out and flags fixes for disclosures and claims. By @CluSloan.
-- [SEO & AEO Desk](https://moneywithai.net/bots/seo-and-aeo-desk-jaime-hernandez/): Finds what people search for and ask AI, ranks the openings into page ideas and writes briefs for your writers. By Jaime Hernandez.
 - [SEO & AEO Desk](https://moneywithai.net/bots/seo-and-aeo-desk/): Turns a keyword list or Search Console data into content ideas and writer-ready briefs for search and AI answers. By Adam Tanguay.
+- [SEO & AEO Desk](https://moneywithai.net/bots/seo-and-aeo-desk-jaime-hernandez/): Finds what people search for and ask AI, ranks the openings into page ideas and writes briefs for your writers. By Jaime Hernandez.
 - [SEO Finisher](https://moneywithai.net/bots/seo-finisher/): Builds an SEO agent inside your repo that keeps working the same target pages until they climb, using Search Console data. By Nicolas Lecocq.
 - [SEO Improver](https://moneywithai.net/bots/seo-improver/): Every two weeks finds pages losing impressions and ships fixes through GitHub. By Community submission.
 - [SEO Site Fixer](https://moneywithai.net/bots/seo-site-fixer/): Runs a daily SEO and AI-search report for a Squarespace site with Semrush data and applies the fixes you approve. By @mattyp.
@@ -604,9 +604,9 @@ Value tiers are our rough estimates (labelled Estimate) of relative value to the
 - [Social Media GTM Bot](https://moneywithai.net/bots/social-media-gtm-bot/): Acts as head of content across Instagram, TikTok, YouTube, X and LinkedIn, recycling winners and preparing comment-to-DM offers. By @AntoineBlanco99.
 - [Social Media Manager](https://moneywithai.net/bots/social-media-manager-charles-bonetti/): Learns your voice from past posts, keeps a weekly content calendar and drafts posts and replies for each platform. By Charles Bonetti.
 - [Social Media Manager](https://moneywithai.net/bots/social-media-manager-stacy-burnett/): Learns from your post history and publishes in your voice through Buffer, with auto-posting only if you turn it on. By Stacy Burnett.
-- [Social Media Manager](https://moneywithai.net/bots/social-media-manager-upesh-bishwakarma/): Turns news emails, X trends and your notes into short posts for X and Threads and publishes them through Buffer. By Upesh Bishwakarma.
 - [Social Media Manager](https://moneywithai.net/bots/social-media-manager-vishvajeet-shukla/): Plans a content calendar for your brand's Instagram and X, gets visuals made and posts on schedule after your approval. By Vishvajeet Shukla.
 - [Social Media Manager](https://moneywithai.net/bots/social-media-manager/): Manages social posting and the social inbox through OmniSocials. By Lighthart99.
+- [Social Media Manager](https://moneywithai.net/bots/social-media-manager-upesh-bishwakarma/): Turns news emails, X trends and your notes into short posts for X and Threads and publishes them through Buffer. By Upesh Bishwakarma.
 - [Socials (Short-Form Scout)](https://moneywithai.net/bots/socials-short-form-scout/): Scouts X and Reddit hourly for AI and tech stories worth filming for TikTok, Reels and Shorts. By @ashen_one.
 - [Stills & Clips Desk](https://moneywithai.net/bots/stills-and-clips-desk/): Pulls stills, thumbnails and short clips from your footage at the right sizes, and writes captions and alt text. By Matt Palmer.
 - [Telegram SEO Blog Writer](https://moneywithai.net/bots/telegram-seo-blog-writer/): Researches a topic with Perplexity and writes an SEO blog draft you request from Telegram. By HoangSP.
@@ -901,8 +901,8 @@ Value tiers are our rough estimates (labelled Estimate) of relative value to the
 - [Dropped-Ball Scanner](https://moneywithai.net/bots/dropped-ball-scanner/): Checks your email, chat and texts each evening for questions you left unanswered and promises with no next step, with a draft for each. By Austen Allred.
 - [Druski](https://moneywithai.net/bots/druski/): A chief of staff for a productized-services founder: runs the bot team, checks offers before they go out and keeps work moving. By Shawn G.
 - [Email](https://moneywithai.net/bots/email/): Triages your inbox hard and drafts only the replies that matter. It never sends without your yes. By @andrewkittridge.
-- [Email Bot](https://moneywithai.net/bots/email-bot-colin-mcdermott/): Turns inbox threads into action lists and drafts replies in your voice, sending nothing until you approve. By Colin McDermott.
 - [Email Bot](https://moneywithai.net/bots/email-bot/): Triages your inbox every hour, archiving noise, keeping what needs you and drafting replies in your voice. It never sends. By Austen Allred.
+- [Email Bot](https://moneywithai.net/bots/email-bot-colin-mcdermott/): Turns inbox threads into action lists and drafts replies in your voice, sending nothing until you approve. By Colin McDermott.
 - [Email Newsletter Daily Report](https://moneywithai.net/bots/email-newsletter-daily-report/): Reads the newsletters and podcasts you subscribe it to and sends one daily report with summaries and a uniqueness rating. By Brian.
 - [Email Scam Filter](https://moneywithai.net/bots/email-scam-filter/): Scores suspicious Gmail each morning for scam risk using current public fraud alerts. Read-only: it never clicks, replies or deletes. By Brian.
 - [Engenheiro](https://moneywithai.net/bots/engenheiro/): A tech lead that drives your AI coding command-line tools from plan and design through build, review and pull request. Merging waits for your OK. By Igor Beleza.

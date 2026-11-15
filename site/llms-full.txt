@@ -2325,19 +2325,6 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Email Bot
 
-- URL: https://moneywithai.net/bots/email-bot-colin-mcdermott/
-- Category: Research and Ops
-- Summary (Money With AI's words): Turns inbox threads into action lists and drafts replies in your voice, sending nothing until you approve.
-- Tools: Grok, Threads
-- Creator: Colin McDermott (https://x.ai/bot/RiqLdJ0BipnpJEjzadgy_)
-- Original source: https://x.ai/bot/RiqLdJ0BipnpJEjzadgy_
-- Official share link: https://x.ai/bot/RiqLdJ0BipnpJEjzadgy_
-- Found via: https://x.ai/bot/RiqLdJ0BipnpJEjzadgy_
-- Proof level: Source verified: the original post exists and is by the named creator.
-- Prompt: not included; read it at the original source
-
-## Email Bot
-
 - URL: https://moneywithai.net/bots/email-bot/
 - Category: Research and Ops
 - Summary (Money With AI's words): Triages your inbox every hour, archiving noise, keeping what needs you and drafting replies in your voice. It never sends.
@@ -2346,6 +2333,19 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Original source: https://x.ai/bot/v5U_zbJBHfp6jZU6R3buT
 - Official share link: https://x.ai/bot/v5U_zbJBHfp6jZU6R3buT
 - Found via: https://x.ai/bot/v5U_zbJBHfp6jZU6R3buT
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Email Bot
+
+- URL: https://moneywithai.net/bots/email-bot-colin-mcdermott/
+- Category: Research and Ops
+- Summary (Money With AI's words): Turns inbox threads into action lists and drafts replies in your voice, sending nothing until you approve.
+- Tools: Grok, Threads
+- Creator: Colin McDermott (https://x.ai/bot/RiqLdJ0BipnpJEjzadgy_)
+- Original source: https://x.ai/bot/RiqLdJ0BipnpJEjzadgy_
+- Official share link: https://x.ai/bot/RiqLdJ0BipnpJEjzadgy_
+- Found via: https://x.ai/bot/RiqLdJ0BipnpJEjzadgy_
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
@@ -6344,19 +6344,6 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## SEO & AEO Desk
 
-- URL: https://moneywithai.net/bots/seo-and-aeo-desk-jaime-hernandez/
-- Category: Content and Marketing
-- Summary (Money With AI's words): Finds what people search for and ask AI, ranks the openings into page ideas and writes briefs for your writers.
-- Tools: Grok
-- Creator: Jaime Hernandez (https://x.ai/bot/CaNidmFikjRDtkc7_2OnO)
-- Original source: https://x.ai/bot/CaNidmFikjRDtkc7_2OnO
-- Official share link: https://x.ai/bot/CaNidmFikjRDtkc7_2OnO
-- Found via: https://x.ai/bot/CaNidmFikjRDtkc7_2OnO
-- Proof level: Source verified: the original post exists and is by the named creator.
-- Prompt: not included; read it at the original source
-
-## SEO & AEO Desk
-
 - URL: https://moneywithai.net/bots/seo-and-aeo-desk/
 - Category: Content and Marketing
 - Summary (Money With AI's words): Turns a keyword list or Search Console data into content ideas and writer-ready briefs for search and AI answers.
@@ -6365,6 +6352,19 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Original source: https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL
 - Official share link: https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL
 - Found via: https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## SEO & AEO Desk
+
+- URL: https://moneywithai.net/bots/seo-and-aeo-desk-jaime-hernandez/
+- Category: Content and Marketing
+- Summary (Money With AI's words): Finds what people search for and ask AI, ranks the openings into page ideas and writes briefs for your writers.
+- Tools: Grok
+- Creator: Jaime Hernandez (https://x.ai/bot/CaNidmFikjRDtkc7_2OnO)
+- Original source: https://x.ai/bot/CaNidmFikjRDtkc7_2OnO
+- Official share link: https://x.ai/bot/CaNidmFikjRDtkc7_2OnO
+- Found via: https://x.ai/bot/CaNidmFikjRDtkc7_2OnO
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
@@ -6790,19 +6790,6 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Social Media Manager
 
-- URL: https://moneywithai.net/bots/social-media-manager-upesh-bishwakarma/
-- Category: Content and Marketing
-- Summary (Money With AI's words): Turns news emails, X trends and your notes into short posts for X and Threads and publishes them through Buffer.
-- Tools: Grok, Threads, X
-- Creator: Upesh Bishwakarma (https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL)
-- Original source: https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL
-- Official share link: https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL
-- Found via: https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL
-- Proof level: Source verified: the original post exists and is by the named creator.
-- Prompt: not included; read it at the original source
-
-## Social Media Manager
-
 - URL: https://moneywithai.net/bots/social-media-manager-vishvajeet-shukla/
 - Category: Content and Marketing
 - Summary (Money With AI's words): Plans a content calendar for your brand's Instagram and X, gets visuals made and posts on schedule after your approval.
@@ -6823,6 +6810,19 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Creator: Lighthart99
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included
+
+## Social Media Manager
+
+- URL: https://moneywithai.net/bots/social-media-manager-upesh-bishwakarma/
+- Category: Content and Marketing
+- Summary (Money With AI's words): Turns news emails, X trends and your notes into short posts for X and Threads and publishes them through Buffer.
+- Tools: Grok, Threads, X
+- Creator: Upesh Bishwakarma (https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL)
+- Original source: https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL
+- Official share link: https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL
+- Found via: https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
 
 ## Socials (Short-Form Scout)
 
