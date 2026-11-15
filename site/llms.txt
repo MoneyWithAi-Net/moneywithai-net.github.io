@@ -547,8 +547,8 @@ Value tiers are our rough estimates (labelled Estimate) of relative value to the
 - [Graphic Design Assistant](https://moneywithai.net/bots/graphic-design-assistant/): Turns your brief into on-brand Canva graphics in the right sizes and saves them to Drive. By @shubgaur.
 - [Growth Desk](https://moneywithai.net/bots/growth-desk/): A draft-only X growth desk for one account that locks topic, audience and voice, then drafts posts for approval. By Avid.
 - [Highlight Reel](https://moneywithai.net/bots/highlight-reel/): Turns raw sports and training footage into short vertical reels cut to licensed music, with captions. By Michael Heckert.
-- [Human Copywriter](https://moneywithai.net/bots/human-copywriter-sultanov-ramil/): Rewrites emails, posts, DMs, blogs and landing pages so they sound human, keeping the facts and adding no new claims. By Sultanov Ramil.
 - [Human Copywriter](https://moneywithai.net/bots/human-copywriter/): Rewrites emails, posts and landing copy so they sound human while keeping your meaning and facts. By massimodeluisa.
+- [Human Copywriter](https://moneywithai.net/bots/human-copywriter-sultanov-ramil/): Rewrites emails, posts, DMs, blogs and landing pages so they sound human, keeping the facts and adding no new claims. By Sultanov Ramil.
 - [Image Gen Bot](https://moneywithai.net/bots/image-gen-bot/): Makes brand stills and short clips: gathers references, writes the image prompt, generates, removes backgrounds and iterates until you lock a result. By @Matt Palmer.
 - [Imogen](https://moneywithai.net/bots/imogen/): Writes short, copyable alt text that describes the most important part of an image. By Kent C. Dodds.
 - [Index (SEO/AEO Teammate)](https://moneywithai.net/bots/index-seo-aeo-teammate/): An SEO and answer-engine teammate that reads your connected tools, recommends a stack and runs the program. By @adamta.
@@ -586,8 +586,8 @@ Value tiers are our rough estimates (labelled Estimate) of relative value to the
 - [Scribe](https://moneywithai.net/bots/scribe/): Writes honest, search-friendly articles about your real project and runs a free article hub for them. By Slowfreeze.eth.sol.tez.
 - [Scripter Orc](https://moneywithai.net/bots/scripter-orc/): Writes YouTube scripts that follow your channel's process, audience and style, stored in Notion. By orcdev.
 - [Sentinel](https://moneywithai.net/bots/sentinel/): Reviews insurance marketing emails, pages and posts before they go out and flags fixes for disclosures and claims. By @CluSloan.
-- [SEO & AEO Desk](https://moneywithai.net/bots/seo-and-aeo-desk/): Turns a keyword list or Search Console data into content ideas and writer-ready briefs for search and AI answers. By Adam Tanguay.
 - [SEO & AEO Desk](https://moneywithai.net/bots/seo-and-aeo-desk-jaime-hernandez/): Finds what people search for and ask AI, ranks the openings into page ideas and writes briefs for your writers. By Jaime Hernandez.
+- [SEO & AEO Desk](https://moneywithai.net/bots/seo-and-aeo-desk/): Turns a keyword list or Search Console data into content ideas and writer-ready briefs for search and AI answers. By Adam Tanguay.
 - [SEO Finisher](https://moneywithai.net/bots/seo-finisher/): Builds an SEO agent inside your repo that keeps working the same target pages until they climb, using Search Console data. By Nicolas Lecocq.
 - [SEO Improver](https://moneywithai.net/bots/seo-improver/): Every two weeks finds pages losing impressions and ships fixes through GitHub. By Community submission.
 - [SEO Site Fixer](https://moneywithai.net/bots/seo-site-fixer/): Runs a daily SEO and AI-search report for a Squarespace site with Semrush data and applies the fixes you approve. By @mattyp.
@@ -937,8 +937,8 @@ Value tiers are our rough estimates (labelled Estimate) of relative value to the
 - [Inbox Injection Guard](https://moneywithai.net/bots/inbox-injection-guard/): Screens your email for hidden instructions aimed at AI assistants, such as white text or invisible characters, before your bots read it. By Thuong P. Nguyen.
 - [Inbox Manager](https://moneywithai.net/bots/inbox-manager/): Scans new Gmail, labels and prioritizes it, and drafts replies for the messages that need you. By @mvanhorn.
 - [Inbox to Asana](https://moneywithai.net/bots/inbox-to-asana/): Turns action items in a company Gmail inbox into Asana tasks so requests do not slip. By @lennysan.
-- [Inbox Triage](https://moneywithai.net/bots/inbox-triage-cristopher-guido/): Gives small business owners and freelancers the few emails that need them each weekday morning, each with a short draft reply. By Cristopher Guido.
 - [Inbox Triage](https://moneywithai.net/bots/inbox-triage-markus-johnson/): Sorts your inbox into needs a reply, waiting and can go, with short reply drafts in your voice. It never sends. By Markus Johnson.
+- [Inbox Triage](https://moneywithai.net/bots/inbox-triage-cristopher-guido/): Gives small business owners and freelancers the few emails that need them each weekday morning, each with a short draft reply. By Cristopher Guido.
 - [Inbox Triage](https://moneywithai.net/bots/inbox-triage/): Sorts new email and social DMs, closes what needs no reply and turns the rest into Trello tasks. By @rchase.
 - [Inbox Triage Desk](https://moneywithai.net/bots/inbox-triage-desk/): Sorts messages into Reply, Delegate, Schedule and FYI lanes with the ask, deadline and a short draft. By @Cypher0x9.
 - [Inbox Zero](https://moneywithai.net/bots/inbox-zero/): Triages your whole inbox, drafts replies, tracks follow-ups and deadlines and sends a daily brief without sending email itself. By Ashley Schendel.

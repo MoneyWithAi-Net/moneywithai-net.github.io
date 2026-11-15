@@ -9272,40 +9272,6 @@
       }
     },
     {
-      "slug": "human-copywriter-sultanov-ramil",
-      "name": "Human Copywriter",
-      "category": "Content and Marketing",
-      "sub_use_case": "Copy and creative",
-      "summary": "Rewrites emails, posts, DMs, blogs and landing pages so they sound human, keeping the facts and adding no new claims.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "Sultanov Ramil",
-        "url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld"
-      },
-      "official_share_url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
-      "found_via": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/human-copywriter-sultanov-ramil/",
-      "json_url": "https://moneywithai.net/api/bots/human-copywriter-sultanov-ramil.json",
-      "share_url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
-      "credit": {
-        "creator": "Sultanov Ramil",
-        "creator_url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
-        "source_url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
-        "found_via": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
-        "text": "Human Copywriter by Sultanov Ramil. Original source: https://x.ai/bot/vgiYk0mJeijE4YXmfmQld. Listed on Money With AI: https://moneywithai.net/bots/human-copywriter-sultanov-ramil/"
-      }
-    },
-    {
       "slug": "human-copywriter",
       "name": "Human Copywriter",
       "category": "Content and Marketing",
@@ -9337,6 +9303,40 @@
         "source_url": "https://x.ai/bot/JZAccYtlRFvDSU2CnMnkZ",
         "found_via": null,
         "text": "Human Copywriter by massimodeluisa. Original source: https://x.ai/bot/JZAccYtlRFvDSU2CnMnkZ. Listed on Money With AI: https://moneywithai.net/bots/human-copywriter/"
+      }
+    },
+    {
+      "slug": "human-copywriter-sultanov-ramil",
+      "name": "Human Copywriter",
+      "category": "Content and Marketing",
+      "sub_use_case": "Copy and creative",
+      "summary": "Rewrites emails, posts, DMs, blogs and landing pages so they sound human, keeping the facts and adding no new claims.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "Sultanov Ramil",
+        "url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld"
+      },
+      "official_share_url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
+      "found_via": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/human-copywriter-sultanov-ramil/",
+      "json_url": "https://moneywithai.net/api/bots/human-copywriter-sultanov-ramil.json",
+      "share_url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
+      "credit": {
+        "creator": "Sultanov Ramil",
+        "creator_url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
+        "source_url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
+        "found_via": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
+        "text": "Human Copywriter by Sultanov Ramil. Original source: https://x.ai/bot/vgiYk0mJeijE4YXmfmQld. Listed on Money With AI: https://moneywithai.net/bots/human-copywriter-sultanov-ramil/"
       }
     },
     {
@@ -9616,40 +9616,6 @@
       }
     },
     {
-      "slug": "inbox-triage-cristopher-guido",
-      "name": "Inbox Triage",
-      "category": "Research and Ops",
-      "sub_use_case": "Inbox triage",
-      "summary": "Gives small business owners and freelancers the few emails that need them each weekday morning, each with a short draft reply.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "Cristopher Guido",
-        "url": "https://x.ai/bot/lDp666Fm-QgyBGqK7ee4l"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/lDp666Fm-QgyBGqK7ee4l"
-      },
-      "official_share_url": "https://x.ai/bot/lDp666Fm-QgyBGqK7ee4l",
-      "found_via": "https://x.ai/bot/lDp666Fm-QgyBGqK7ee4l",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/inbox-triage-cristopher-guido/",
-      "json_url": "https://moneywithai.net/api/bots/inbox-triage-cristopher-guido.json",
-      "share_url": "https://x.ai/bot/lDp666Fm-QgyBGqK7ee4l",
-      "credit": {
-        "creator": "Cristopher Guido",
-        "creator_url": "https://x.ai/bot/lDp666Fm-QgyBGqK7ee4l",
-        "source_url": "https://x.ai/bot/lDp666Fm-QgyBGqK7ee4l",
-        "found_via": "https://x.ai/bot/lDp666Fm-QgyBGqK7ee4l",
-        "text": "Inbox Triage by Cristopher Guido. Original source: https://x.ai/bot/lDp666Fm-QgyBGqK7ee4l. Listed on Money With AI: https://moneywithai.net/bots/inbox-triage-cristopher-guido/"
-      }
-    },
-    {
       "slug": "inbox-triage-markus-johnson",
       "name": "Inbox Triage",
       "category": "Research and Ops",
@@ -9681,6 +9647,40 @@
         "source_url": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6",
         "found_via": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6",
         "text": "Inbox Triage by Markus Johnson. Original source: https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6. Listed on Money With AI: https://moneywithai.net/bots/inbox-triage-markus-johnson/"
+      }
+    },
+    {
+      "slug": "inbox-triage-cristopher-guido",
+      "name": "Inbox Triage",
+      "category": "Research and Ops",
+      "sub_use_case": "Inbox triage",
+      "summary": "Gives small business owners and freelancers the few emails that need them each weekday morning, each with a short draft reply.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "Cristopher Guido",
+        "url": "https://x.ai/bot/lDp666Fm-QgyBGqK7ee4l"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/lDp666Fm-QgyBGqK7ee4l"
+      },
+      "official_share_url": "https://x.ai/bot/lDp666Fm-QgyBGqK7ee4l",
+      "found_via": "https://x.ai/bot/lDp666Fm-QgyBGqK7ee4l",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/inbox-triage-cristopher-guido/",
+      "json_url": "https://moneywithai.net/api/bots/inbox-triage-cristopher-guido.json",
+      "share_url": "https://x.ai/bot/lDp666Fm-QgyBGqK7ee4l",
+      "credit": {
+        "creator": "Cristopher Guido",
+        "creator_url": "https://x.ai/bot/lDp666Fm-QgyBGqK7ee4l",
+        "source_url": "https://x.ai/bot/lDp666Fm-QgyBGqK7ee4l",
+        "found_via": "https://x.ai/bot/lDp666Fm-QgyBGqK7ee4l",
+        "text": "Inbox Triage by Cristopher Guido. Original source: https://x.ai/bot/lDp666Fm-QgyBGqK7ee4l. Listed on Money With AI: https://moneywithai.net/bots/inbox-triage-cristopher-guido/"
       }
     },
     {
@@ -17892,40 +17892,6 @@
       }
     },
     {
-      "slug": "seo-and-aeo-desk",
-      "name": "SEO & AEO Desk",
-      "category": "Content and Marketing",
-      "sub_use_case": "SEO and AI search",
-      "summary": "Turns a keyword list or Search Console data into content ideas and writer-ready briefs for search and AI answers.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "Adam Tanguay",
-        "url": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL"
-      },
-      "official_share_url": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL",
-      "found_via": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/seo-and-aeo-desk/",
-      "json_url": "https://moneywithai.net/api/bots/seo-and-aeo-desk.json",
-      "share_url": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL",
-      "credit": {
-        "creator": "Adam Tanguay",
-        "creator_url": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL",
-        "source_url": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL",
-        "found_via": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL",
-        "text": "SEO & AEO Desk by Adam Tanguay. Original source: https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL. Listed on Money With AI: https://moneywithai.net/bots/seo-and-aeo-desk/"
-      }
-    },
-    {
       "slug": "seo-and-aeo-desk-jaime-hernandez",
       "name": "SEO & AEO Desk",
       "category": "Content and Marketing",
@@ -17957,6 +17923,40 @@
         "source_url": "https://x.ai/bot/CaNidmFikjRDtkc7_2OnO",
         "found_via": "https://x.ai/bot/CaNidmFikjRDtkc7_2OnO",
         "text": "SEO & AEO Desk by Jaime Hernandez. Original source: https://x.ai/bot/CaNidmFikjRDtkc7_2OnO. Listed on Money With AI: https://moneywithai.net/bots/seo-and-aeo-desk-jaime-hernandez/"
+      }
+    },
+    {
+      "slug": "seo-and-aeo-desk",
+      "name": "SEO & AEO Desk",
+      "category": "Content and Marketing",
+      "sub_use_case": "SEO and AI search",
+      "summary": "Turns a keyword list or Search Console data into content ideas and writer-ready briefs for search and AI answers.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "Adam Tanguay",
+        "url": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL"
+      },
+      "official_share_url": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL",
+      "found_via": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/seo-and-aeo-desk/",
+      "json_url": "https://moneywithai.net/api/bots/seo-and-aeo-desk.json",
+      "share_url": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL",
+      "credit": {
+        "creator": "Adam Tanguay",
+        "creator_url": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL",
+        "source_url": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL",
+        "found_via": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL",
+        "text": "SEO & AEO Desk by Adam Tanguay. Original source: https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL. Listed on Money With AI: https://moneywithai.net/bots/seo-and-aeo-desk/"
       }
     },
     {
@@ -20947,40 +20947,6 @@
       }
     },
     {
-      "slug": "tiffany-micah-watson",
-      "name": "Tiffany",
-      "category": "Client Services",
-      "sub_use_case": "Quotes",
-      "summary": "An ops helper for pool and plumbing trades that tracks customers, jobs, quotes, suppliers and stock and follows up on unpaid invoices.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "Micah Watson",
-        "url": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95"
-      },
-      "official_share_url": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95",
-      "found_via": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/tiffany-micah-watson/",
-      "json_url": "https://moneywithai.net/api/bots/tiffany-micah-watson.json",
-      "share_url": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95",
-      "credit": {
-        "creator": "Micah Watson",
-        "creator_url": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95",
-        "source_url": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95",
-        "found_via": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95",
-        "text": "Tiffany by Micah Watson. Original source: https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95. Listed on Money With AI: https://moneywithai.net/bots/tiffany-micah-watson/"
-      }
-    },
-    {
       "slug": "tiffany",
       "name": "Tiffany",
       "category": "Content and Marketing",
@@ -21013,6 +20979,40 @@
         "source_url": "https://x.ai/bot/VS2G5p1b_nQixeiYcdwFs",
         "found_via": "https://x.ai/bot/VS2G5p1b_nQixeiYcdwFs",
         "text": "Tiffany by Tripper Wood. Original source: https://x.ai/bot/VS2G5p1b_nQixeiYcdwFs. Listed on Money With AI: https://moneywithai.net/bots/tiffany/"
+      }
+    },
+    {
+      "slug": "tiffany-micah-watson",
+      "name": "Tiffany",
+      "category": "Client Services",
+      "sub_use_case": "Quotes",
+      "summary": "An ops helper for pool and plumbing trades that tracks customers, jobs, quotes, suppliers and stock and follows up on unpaid invoices.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "Micah Watson",
+        "url": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95"
+      },
+      "official_share_url": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95",
+      "found_via": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/tiffany-micah-watson/",
+      "json_url": "https://moneywithai.net/api/bots/tiffany-micah-watson.json",
+      "share_url": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95",
+      "credit": {
+        "creator": "Micah Watson",
+        "creator_url": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95",
+        "source_url": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95",
+        "found_via": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95",
+        "text": "Tiffany by Micah Watson. Original source: https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95. Listed on Money With AI: https://moneywithai.net/bots/tiffany-micah-watson/"
       }
     },
     {
