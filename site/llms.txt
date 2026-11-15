@@ -765,8 +765,8 @@ Value tiers are our rough estimates (labelled Estimate) of relative value to the
 - [Startup Finances Bot](https://moneywithai.net/bots/startup-finances-bot/): Pulls startup finance data from Nuvio each morning and summarizes cash and what changed. By @ali_ilhami.
 - [Steward](https://moneywithai.net/bots/steward/): Acts as a finance controller that sets up books and runs cash, receivables and payables as drafts for your approval. By Samuel Riddle.
 - [SubCut](https://moneywithai.net/bots/subcut/): Reads your inbox for recurring charges, splits monthly from yearly and shows where cancelling or switching would save money. By Taha.
-- [Tax Firm OS](https://moneywithai.net/bots/tax-firm-os/): Keeps a tax or accounting office on track with client replies, document chasing and early due-date notices. By @Amervim.
 - [Tax Firm OS](https://moneywithai.net/bots/tax-firm-os-amervim-bonano/): An operating helper for small tax and accounting offices that drafts compliance, client follow-up and planning work while staff handle filing and signing. By Amervim Bonano.
+- [Tax Firm OS](https://moneywithai.net/bots/tax-firm-os/): Keeps a tax or accounting office on track with client replies, document chasing and early due-date notices. By @Amervim.
 - [Travel Expenses](https://moneywithai.net/bots/travel-expenses/): Logs trip spending in any currency from text or receipt photos and exports an Excel and PDF expense report. By @shareitround.
 - [Unpaid Invoice Reminder Flow](https://moneywithai.net/bots/unpaid-invoice-reminder-flow/): Chases unpaid invoices with polite, escalating Gmail reminders driven from a Google Sheet. By Nick Saraev.
 - [Watchdog Receipts](https://moneywithai.net/bots/watchdog-receipts/): Scans email for receipts, renewals and trials and lists what is charging you and what is due in the next two weeks. By @jxckvibe.
@@ -855,8 +855,8 @@ Value tiers are our rough estimates (labelled Estimate) of relative value to the
 - [ChatPRD](https://moneywithai.net/bots/chatprd/): Works as a product manager in ChatPRD, writing specs and discovery notes grounded in your existing docs and meetings. By Claire.
 - [Chief](https://moneywithai.net/bots/chief-ben/): Keeps your priorities, inbox and calendar in order with a live Notion dashboard and a daily briefing. By Ben.
 - [Chief](https://moneywithai.net/bots/chief-cameron/): Keeps track of open loops, drafts replies and runs a morning inbox and calendar check, leaving a written log after each job. By Cameron.
-- [Chief](https://moneywithai.net/bots/chief/): Scans email and calendar every weekday morning, archives junk, drafts replies it never sends and hands you a short brief. By SmoresBoy Jack.
 - [Chief](https://moneywithai.net/bots/chief-top-shelf-capital/): Helps small business owners track filings and compliance, drafts emails and social posts for approval and keeps the website current. By Top Shelf Capital.
+- [Chief](https://moneywithai.net/bots/chief/): Scans email and calendar every weekday morning, archives junk, drafts replies it never sends and hands you a short brief. By SmoresBoy Jack.
 - [Chief of Staff](https://moneywithai.net/bots/chief-of-staff-spacex/): Scans Slack, email, calendar and meeting notes and sends a short readout of what is new and what matters to your priorities, with sources. By SpaceX.
 - [Chief of Staff](https://moneywithai.net/bots/chief-of-staff/): Runs specialist bots for a speaking and product business, protecting your time and keeping revenue work first. By Andrew.
 - [Chief of Staff (Aryaman)](https://moneywithai.net/bots/chief-of-staff-aryaman/): A low-noise chief of staff across Slack, inbox and calendar that surfaces only decisions and drafts email without sending. By @aryamankhawow.
@@ -890,8 +890,8 @@ Value tiers are our rough estimates (labelled Estimate) of relative value to the
 - [Decision Desk](https://moneywithai.net/bots/decision-desk/): Stretches your Grok Bot usage across the whole week by handing heavy background jobs to coding agents you already pay for, then telling you when each one is done. By @Av1dlive.
 - [Decision Queue Clearer](https://moneywithai.net/bots/decision-queue-clearer/): Collects every question your bots, inbox and calendar are waiting on, drafts a default answer for each and sends one short daily card. By Prithvi Datla.
 - [Dero](https://moneywithai.net/bots/dero/): Coordinates a Spanish-language bot team that prepares bids for Chilean municipal tenders, from spec sheet to QA. By @jorgesoffia.
-- [Devil's Advocate](https://moneywithai.net/bots/devil-s-advocate/): Questions a founder's idea until the weak assumptions show, so you can fix them before you build. By Melvin Vivas.
 - [Devil's Advocate](https://moneywithai.net/bots/devil-s-advocate-cyberlytics/): Gives sharp, constructive pushback on plans and specs before you commit to them. By Cyberlytics.
+- [Devil's Advocate](https://moneywithai.net/bots/devil-s-advocate/): Questions a founder's idea until the weak assumptions show, so you can fix them before you build. By Melvin Vivas.
 - [Devin Manager](https://moneywithai.net/bots/devin-manager/): Starts, tracks and steers Devin coding agent sessions, brings recordings and screenshots into chat and keeps playbooks tidy. By Anthony Kroeger.
 - [Doc Merger](https://moneywithai.net/bots/doc-merger/): Merges a pile of documents into one master file with a table of contents and a check that every file made it in. By Brian.
 - [Don't Leave Me Hanging](https://moneywithai.net/bots/don-t-leave-me-hanging/): Finds older Gmail threads with promises nobody closed, ranks them by deadline and stakes and drafts a short follow-up for each. By Brian.

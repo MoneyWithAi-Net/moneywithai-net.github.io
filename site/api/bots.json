@@ -1,7 +1,7 @@
 {
   "name": "Money With AI",
   "url": "https://moneywithai.net",
-  "generated_at": "2026-11-15T03:52:29.000Z",
+  "generated_at": "2026-11-15T04:58:08.000Z",
   "count": 682,
   "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
   "attribution": "Credit the bot creator (creator.handle, creator.url) and link the original source (source_url) plus our listing page (url). Summaries are ours; no prompt text is included.",
@@ -2691,40 +2691,6 @@
       }
     },
     {
-      "slug": "chief",
-      "name": "Chief",
-      "category": "Research and Ops",
-      "sub_use_case": "Inbox triage",
-      "summary": "Scans email and calendar every weekday morning, archives junk, drafts replies it never sends and hands you a short brief.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "SmoresBoy Jack",
-        "url": "https://x.ai/bot/QIfSY8pPwjqBSIdal-5CI"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/QIfSY8pPwjqBSIdal-5CI"
-      },
-      "official_share_url": "https://x.ai/bot/QIfSY8pPwjqBSIdal-5CI",
-      "found_via": "https://x.ai/bot/QIfSY8pPwjqBSIdal-5CI",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/chief/",
-      "json_url": "https://moneywithai.net/api/bots/chief.json",
-      "share_url": "https://x.ai/bot/QIfSY8pPwjqBSIdal-5CI",
-      "credit": {
-        "creator": "SmoresBoy Jack",
-        "creator_url": "https://x.ai/bot/QIfSY8pPwjqBSIdal-5CI",
-        "source_url": "https://x.ai/bot/QIfSY8pPwjqBSIdal-5CI",
-        "found_via": "https://x.ai/bot/QIfSY8pPwjqBSIdal-5CI",
-        "text": "Chief by SmoresBoy Jack. Original source: https://x.ai/bot/QIfSY8pPwjqBSIdal-5CI. Listed on Money With AI: https://moneywithai.net/bots/chief/"
-      }
-    },
-    {
       "slug": "chief-top-shelf-capital",
       "name": "Chief",
       "category": "Research and Ops",
@@ -2756,6 +2722,40 @@
         "source_url": "https://x.ai/bot/A4haB5wrqQewiNFIukYZ5",
         "found_via": "https://x.ai/bot/A4haB5wrqQewiNFIukYZ5",
         "text": "Chief by Top Shelf Capital. Original source: https://x.ai/bot/A4haB5wrqQewiNFIukYZ5. Listed on Money With AI: https://moneywithai.net/bots/chief-top-shelf-capital/"
+      }
+    },
+    {
+      "slug": "chief",
+      "name": "Chief",
+      "category": "Research and Ops",
+      "sub_use_case": "Inbox triage",
+      "summary": "Scans email and calendar every weekday morning, archives junk, drafts replies it never sends and hands you a short brief.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "SmoresBoy Jack",
+        "url": "https://x.ai/bot/QIfSY8pPwjqBSIdal-5CI"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/QIfSY8pPwjqBSIdal-5CI"
+      },
+      "official_share_url": "https://x.ai/bot/QIfSY8pPwjqBSIdal-5CI",
+      "found_via": "https://x.ai/bot/QIfSY8pPwjqBSIdal-5CI",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/chief/",
+      "json_url": "https://moneywithai.net/api/bots/chief.json",
+      "share_url": "https://x.ai/bot/QIfSY8pPwjqBSIdal-5CI",
+      "credit": {
+        "creator": "SmoresBoy Jack",
+        "creator_url": "https://x.ai/bot/QIfSY8pPwjqBSIdal-5CI",
+        "source_url": "https://x.ai/bot/QIfSY8pPwjqBSIdal-5CI",
+        "found_via": "https://x.ai/bot/QIfSY8pPwjqBSIdal-5CI",
+        "text": "Chief by SmoresBoy Jack. Original source: https://x.ai/bot/QIfSY8pPwjqBSIdal-5CI. Listed on Money With AI: https://moneywithai.net/bots/chief/"
       }
     },
     {
@@ -5687,40 +5687,6 @@
       }
     },
     {
-      "slug": "devil-s-advocate",
-      "name": "Devil's Advocate",
-      "category": "Research and Ops",
-      "sub_use_case": "Planning and projects",
-      "summary": "Questions a founder's idea until the weak assumptions show, so you can fix them before you build.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "Melvin Vivas",
-        "url": "https://x.ai/bot/Uj8zF0iprBX0AsSB3mU2V"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/Uj8zF0iprBX0AsSB3mU2V"
-      },
-      "official_share_url": "https://x.ai/bot/Uj8zF0iprBX0AsSB3mU2V",
-      "found_via": "https://x.ai/bot/Uj8zF0iprBX0AsSB3mU2V",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/devil-s-advocate/",
-      "json_url": "https://moneywithai.net/api/bots/devil-s-advocate.json",
-      "share_url": "https://x.ai/bot/Uj8zF0iprBX0AsSB3mU2V",
-      "credit": {
-        "creator": "Melvin Vivas",
-        "creator_url": "https://x.ai/bot/Uj8zF0iprBX0AsSB3mU2V",
-        "source_url": "https://x.ai/bot/Uj8zF0iprBX0AsSB3mU2V",
-        "found_via": "https://x.ai/bot/Uj8zF0iprBX0AsSB3mU2V",
-        "text": "Devil's Advocate by Melvin Vivas. Original source: https://x.ai/bot/Uj8zF0iprBX0AsSB3mU2V. Listed on Money With AI: https://moneywithai.net/bots/devil-s-advocate/"
-      }
-    },
-    {
       "slug": "devil-s-advocate-cyberlytics",
       "name": "Devil's Advocate",
       "category": "Research and Ops",
@@ -5752,6 +5718,40 @@
         "source_url": "https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v",
         "found_via": "https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v",
         "text": "Devil's Advocate by Cyberlytics. Original source: https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v. Listed on Money With AI: https://moneywithai.net/bots/devil-s-advocate-cyberlytics/"
+      }
+    },
+    {
+      "slug": "devil-s-advocate",
+      "name": "Devil's Advocate",
+      "category": "Research and Ops",
+      "sub_use_case": "Planning and projects",
+      "summary": "Questions a founder's idea until the weak assumptions show, so you can fix them before you build.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "Melvin Vivas",
+        "url": "https://x.ai/bot/Uj8zF0iprBX0AsSB3mU2V"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/Uj8zF0iprBX0AsSB3mU2V"
+      },
+      "official_share_url": "https://x.ai/bot/Uj8zF0iprBX0AsSB3mU2V",
+      "found_via": "https://x.ai/bot/Uj8zF0iprBX0AsSB3mU2V",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/devil-s-advocate/",
+      "json_url": "https://moneywithai.net/api/bots/devil-s-advocate.json",
+      "share_url": "https://x.ai/bot/Uj8zF0iprBX0AsSB3mU2V",
+      "credit": {
+        "creator": "Melvin Vivas",
+        "creator_url": "https://x.ai/bot/Uj8zF0iprBX0AsSB3mU2V",
+        "source_url": "https://x.ai/bot/Uj8zF0iprBX0AsSB3mU2V",
+        "found_via": "https://x.ai/bot/Uj8zF0iprBX0AsSB3mU2V",
+        "text": "Devil's Advocate by Melvin Vivas. Original source: https://x.ai/bot/Uj8zF0iprBX0AsSB3mU2V. Listed on Money With AI: https://moneywithai.net/bots/devil-s-advocate/"
       }
     },
     {
@@ -20353,40 +20353,6 @@
       }
     },
     {
-      "slug": "tax-firm-os",
-      "name": "Tax Firm OS",
-      "category": "Finance",
-      "sub_use_case": "Accounting office ops",
-      "summary": "Keeps a tax or accounting office on track with client replies, document chasing and early due-date notices.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "Amervim",
-        "url": "https://x.com/Amervim"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "x",
-        "url": "https://x.com/Amervim/status/2105949306025128186"
-      },
-      "official_share_url": "https://x.ai/bot/vJqjJphtZRkdBTYBxmWur",
-      "found_via": null,
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-24",
-      "url": "https://moneywithai.net/bots/tax-firm-os/",
-      "json_url": "https://moneywithai.net/api/bots/tax-firm-os.json",
-      "share_url": "https://x.ai/bot/vJqjJphtZRkdBTYBxmWur",
-      "credit": {
-        "creator": "Amervim",
-        "creator_url": "https://x.com/Amervim",
-        "source_url": "https://x.com/Amervim/status/2105949306025128186",
-        "found_via": null,
-        "text": "Tax Firm OS by Amervim. Original source: https://x.com/Amervim/status/2105949306025128186. Listed on Money With AI: https://moneywithai.net/bots/tax-firm-os/"
-      }
-    },
-    {
       "slug": "tax-firm-os-amervim-bonano",
       "name": "Tax Firm OS",
       "category": "Finance",
@@ -20418,6 +20384,40 @@
         "source_url": "https://x.ai/bot/vMr8x1Lm8mpo-jKBrdxCh",
         "found_via": "https://x.ai/bot/vMr8x1Lm8mpo-jKBrdxCh",
         "text": "Tax Firm OS by Amervim Bonano. Original source: https://x.ai/bot/vMr8x1Lm8mpo-jKBrdxCh. Listed on Money With AI: https://moneywithai.net/bots/tax-firm-os-amervim-bonano/"
+      }
+    },
+    {
+      "slug": "tax-firm-os",
+      "name": "Tax Firm OS",
+      "category": "Finance",
+      "sub_use_case": "Accounting office ops",
+      "summary": "Keeps a tax or accounting office on track with client replies, document chasing and early due-date notices.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "Amervim",
+        "url": "https://x.com/Amervim"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/Amervim/status/2105949306025128186"
+      },
+      "official_share_url": "https://x.ai/bot/vJqjJphtZRkdBTYBxmWur",
+      "found_via": null,
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://moneywithai.net/bots/tax-firm-os/",
+      "json_url": "https://moneywithai.net/api/bots/tax-firm-os.json",
+      "share_url": "https://x.ai/bot/vJqjJphtZRkdBTYBxmWur",
+      "credit": {
+        "creator": "Amervim",
+        "creator_url": "https://x.com/Amervim",
+        "source_url": "https://x.com/Amervim/status/2105949306025128186",
+        "found_via": null,
+        "text": "Tax Firm OS by Amervim. Original source: https://x.com/Amervim/status/2105949306025128186. Listed on Money With AI: https://moneywithai.net/bots/tax-firm-os/"
       }
     },
     {
