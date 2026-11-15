@@ -1,0 +1,45 @@
+{
+  "type": "bot",
+  "slug": "contract-signer",
+  "name": "Contract Signer",
+  "category": "Client Services",
+  "sub_use_case": "Quotes",
+  "summary": "Drafts NDAs, service agreements and offers from a short brief, flags risky or missing terms in plain language, and sends the final PDF for e-signature.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Julian Andrin Weber",
+    "url": "https://x.com/julianweber"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/emH53moZpEP8rqAECJBAd"
+  },
+  "official_share_url": "https://x.ai/bot/emH53moZpEP8rqAECJBAd",
+  "found_via": null,
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-11-15",
+  "url": "https://moneywithai.net/bots/contract-signer/",
+  "json_url": "https://moneywithai.net/api/v1/bots/contract-signer.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/send-service-agreements-after-sales-calls/",
+    "https://moneywithai.net/use-cases/nda-before-sharing-pricing/",
+    "https://moneywithai.net/use-cases/check-vendor-contracts-before-they-renew/",
+    "https://moneywithai.net/use-cases/sign-subcontractor-agreements-for-field-jobs/",
+    "https://moneywithai.net/use-cases/turn-client-calls-into-retainer-agreements/"
+  ],
+  "added_at": "2026-11-15T10:00:00.000Z",
+  "featured": {
+    "rank": 79,
+    "score": 87,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

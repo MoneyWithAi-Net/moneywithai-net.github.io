@@ -1,0 +1,131 @@
+{
+  "type": "use-case",
+  "slug": "check-vendor-contracts-before-they-renew",
+  "title": "Check Vendor Contracts Before They Auto-Renew",
+  "category": "Finance",
+  "category_slug": "finance",
+  "money_model": "Save costs",
+  "difficulty": "Intermediate",
+  "summary": "Track renewal dates for vendor contracts, and review the terms of each renewal or replacement before the notice window closes.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you hold vendor contracts with auto-renewal; the value is fewer missed notice windows and terms checked before you commit.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Renewal dates are on one list, so no contract renews by accident.",
+    "Terms are checked before the notice window closes, not after."
+  ],
+  "who_its_for": [
+    "Owner-run businesses with several software and service contracts.",
+    "Operations leads who manage vendor renewals."
+  ],
+  "stack": [
+    {
+      "bot": "contract-renewal-reminder",
+      "name": "Contract Renewal Reminder",
+      "role": "Tracks vendor renewal dates and sends reminders before they auto-renew.",
+      "creator": "Trung Tran",
+      "tools": [
+        "n8n",
+        "Google Sheets",
+        "OpenAI",
+        "Slack"
+      ],
+      "url": "https://moneywithai.net/bots/contract-renewal-reminder/",
+      "official_share_url": null
+    },
+    {
+      "bot": "contract-signer",
+      "name": "Contract Signer",
+      "role": "Flags risky or missing terms in a renewal or replacement contract, in plain language.",
+      "creator": "Julian Andrin Weber",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/contract-signer/",
+      "official_share_url": "https://x.ai/bot/emH53moZpEP8rqAECJBAd"
+    }
+  ],
+  "tools": [
+    "n8n",
+    "Google Sheets",
+    "OpenAI",
+    "Slack",
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Contract renewal dates and notice periods",
+        "tool": null
+      },
+      {
+        "label": "Renewal or replacement contract",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "contract-renewal-reminder",
+        "name": "Contract Renewal Reminder",
+        "does": "Sends reminders before each notice window",
+        "tools": [
+          "n8n",
+          "Google Sheets",
+          "OpenAI",
+          "Slack"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "contract-signer",
+        "name": "Contract Signer",
+        "does": "Flags risky or missing terms",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Decides to renew, renegotiate or cancel",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Reminders before each notice window",
+      "A plain-language list of terms to check"
+    ]
+  },
+  "steps": [
+    "List each vendor contract with its renewal date and notice period.",
+    "Let the reminder bot send alerts before each notice window.",
+    "Ask the contract signer to flag the terms of any renewal or replacement.",
+    "Decide to renew, renegotiate or cancel, and sign only what you approve."
+  ],
+  "guardrails": [
+    "No contract is signed or cancelled without your approval.",
+    "Check notice periods against the contract itself; the reminder is only as good as the dates entered."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-11-15T10:00:00.000Z",
+  "featured": {
+    "rank": 76,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/check-vendor-contracts-before-they-renew/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/check-vendor-contracts-before-they-renew.json"
+}

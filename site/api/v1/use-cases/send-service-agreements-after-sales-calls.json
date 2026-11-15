@@ -1,0 +1,135 @@
+{
+  "type": "use-case",
+  "slug": "send-service-agreements-after-sales-calls",
+  "title": "Send a Service Agreement Right After the Sales Call",
+  "category": "Client Services",
+  "category_slug": "client-services",
+  "money_model": "Sell a service",
+  "difficulty": "Beginner",
+  "summary": "Turn the proposal from a sales call into a service agreement a client can sign the same week, with the risky terms flagged before it goes out.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you already send proposals after sales calls; the value is a faster signed agreement and fewer rewritten contracts.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Clients can sign while the call is still fresh, instead of waiting for a draft.",
+    "You review flagged terms in minutes rather than rewriting a contract from scratch."
+  ],
+  "who_its_for": [
+    "Agencies and freelancers who sell fixed-scope work.",
+    "Small service firms that send their own agreements."
+  ],
+  "stack": [
+    {
+      "bot": "post-call-proposal-builder",
+      "name": "Post Call Proposal Builder",
+      "role": "Drafts a tailored proposal after the sales call and emails it for your review.",
+      "creator": "Gerald Denor",
+      "tools": [
+        "n8n",
+        "Gmail",
+        "Google Drive",
+        "Google Slides",
+        "OpenAI"
+      ],
+      "url": "https://moneywithai.net/bots/post-call-proposal-builder/",
+      "official_share_url": null
+    },
+    {
+      "bot": "contract-signer",
+      "name": "Contract Signer",
+      "role": "Drafts the service agreement from the agreed scope, flags risky or missing terms and sends the PDF for e-signature.",
+      "creator": "Julian Andrin Weber",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/contract-signer/",
+      "official_share_url": "https://x.ai/bot/emH53moZpEP8rqAECJBAd"
+    }
+  ],
+  "tools": [
+    "n8n",
+    "Gmail",
+    "Google Drive",
+    "Google Slides",
+    "OpenAI",
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Sales call notes",
+        "tool": null
+      },
+      {
+        "label": "Agreed scope, price and dates",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "post-call-proposal-builder",
+        "name": "Post Call Proposal Builder",
+        "does": "Drafts a tailored proposal",
+        "tools": [
+          "n8n",
+          "Gmail",
+          "Google Drive",
+          "Google Slides",
+          "OpenAI"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "contract-signer",
+        "name": "Contract Signer",
+        "does": "Drafts the service agreement and flags risky terms",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Reads flags, checks with a lawyer and sends for signature",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A proposal and an agreement draft from one brief",
+      "A signed agreement sent while interest is fresh"
+    ]
+  },
+  "steps": [
+    "Confirm the scope, price and dates from the call.",
+    "Let the proposal builder draft the proposal and check it.",
+    "Have the contract signer draft the service agreement from the same brief.",
+    "Read every flagged term and have a lawyer check anything binding.",
+    "Send the PDF for e-signature once you approve it."
+  ],
+  "guardrails": [
+    "Nothing is sent for signature until you approve the final draft.",
+    "This is drafting help, not legal advice; a lawyer has the final word on binding terms."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-11-15T10:00:00.000Z",
+  "featured": {
+    "rank": 61,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/send-service-agreements-after-sales-calls/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/send-service-agreements-after-sales-calls.json"
+}

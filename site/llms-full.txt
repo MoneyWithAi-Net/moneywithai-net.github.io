@@ -1507,6 +1507,18 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
+## Contract Signer
+
+- URL: https://moneywithai.net/bots/contract-signer/
+- Category: Client Services
+- Summary (Money With AI's words): Drafts NDAs, service agreements and offers from a short brief, flags risky or missing terms in plain language, and sends the final PDF for e-signature.
+- Tools: Grok
+- Creator: @Julian Andrin Weber (https://x.com/julianweber)
+- Original source: https://x.ai/bot/emH53moZpEP8rqAECJBAd
+- Official share link: https://x.ai/bot/emH53moZpEP8rqAECJBAd
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
 ## Contractor Daily
 
 - URL: https://moneywithai.net/bots/contractor-daily/
@@ -4986,18 +4998,6 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Phone Receptionist
 
-- URL: https://moneywithai.net/bots/phone-receptionist/
-- Category: Customer Support
-- Summary (Money With AI's words): Answers a business phone line and books meetings on Google Calendar. The share card lists a paid phone plan.
-- Tools: Google Calendar, Bland
-- Creator: @SimplyColeB (https://x.com/SimplyColeB)
-- Original source: https://x.com/SimplyColeB/status/2107971762831114461
-- Official share link: https://x.ai/bot/Z7LfRtBtwfaojaomMrAuX
-- Proof level: Source verified: the original post exists and is by the named creator.
-- Prompt: not included; read it at the original source
-
-## Phone Receptionist
-
 - URL: https://moneywithai.net/bots/phone-receptionist-i668/
 - Category: Customer Support
 - Summary (Money With AI's words): Answers calls in your browser as an automated receptionist, asks a few questions and passes on a summary.
@@ -5006,6 +5006,18 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Original source: https://x.ai/bot/vxvNEoprSLLwOa2d02f6C
 - Official share link: https://x.ai/bot/vxvNEoprSLLwOa2d02f6C
 - Found via: https://x.ai/bot/vxvNEoprSLLwOa2d02f6C
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Phone Receptionist
+
+- URL: https://moneywithai.net/bots/phone-receptionist/
+- Category: Customer Support
+- Summary (Money With AI's words): Answers a business phone line and books meetings on Google Calendar. The share card lists a paid phone plan.
+- Tools: Google Calendar, Bland
+- Creator: @SimplyColeB (https://x.com/SimplyColeB)
+- Original source: https://x.com/SimplyColeB/status/2107971762831114461
+- Official share link: https://x.ai/bot/Z7LfRtBtwfaojaomMrAuX
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
@@ -6015,19 +6027,6 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Sales Call Coach
 
-- URL: https://moneywithai.net/bots/sales-call-coach-spacex/
-- Category: Leads and Sales
-- Summary (Money With AI's words): Reviews Gong calls and leaves timed coaching notes on discovery, objections and presence, with a call score.
-- Tools: Grok
-- Creator: SpaceX (https://x.ai/bot/s8173b3a9c49917de5b2d)
-- Original source: https://x.ai/bot/s8173b3a9c49917de5b2d
-- Official share link: https://x.ai/bot/s8173b3a9c49917de5b2d
-- Found via: https://x.ai/bot/s8173b3a9c49917de5b2d
-- Proof level: Source verified: the original post exists and is by the named creator.
-- Prompt: not included; read it at the original source
-
-## Sales Call Coach
-
 - URL: https://moneywithai.net/bots/sales-call-coach/
 - Category: Leads and Sales
 - Summary (Money With AI's words): Scores a sales call from a transcript or recording and tells you the few things to change before your next one.
@@ -6036,6 +6035,19 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Original source: https://x.ai/bot/yZ5MFQFdl32vHt6fcIJAc
 - Official share link: https://x.ai/bot/yZ5MFQFdl32vHt6fcIJAc
 - Found via: https://x.ai/bot/yZ5MFQFdl32vHt6fcIJAc
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Sales Call Coach
+
+- URL: https://moneywithai.net/bots/sales-call-coach-spacex/
+- Category: Leads and Sales
+- Summary (Money With AI's words): Reviews Gong calls and leaves timed coaching notes on discovery, objections and presence, with a call score.
+- Tools: Grok
+- Creator: SpaceX (https://x.ai/bot/s8173b3a9c49917de5b2d)
+- Original source: https://x.ai/bot/s8173b3a9c49917de5b2d
+- Official share link: https://x.ai/bot/s8173b3a9c49917de5b2d
+- Found via: https://x.ai/bot/s8173b3a9c49917de5b2d
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
@@ -6777,19 +6789,6 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Social Media Manager
 
-- URL: https://moneywithai.net/bots/social-media-manager-stacy-burnett/
-- Category: Content and Marketing
-- Summary (Money With AI's words): Learns from your post history and publishes in your voice through Buffer, with auto-posting only if you turn it on.
-- Tools: Grok
-- Creator: Stacy Burnett (https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X)
-- Original source: https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X
-- Official share link: https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X
-- Found via: https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X
-- Proof level: Source verified: the original post exists and is by the named creator.
-- Prompt: not included; read it at the original source
-
-## Social Media Manager
-
 - URL: https://moneywithai.net/bots/social-media-manager-upesh-bishwakarma/
 - Category: Content and Marketing
 - Summary (Money With AI's words): Turns news emails, X trends and your notes into short posts for X and Threads and publishes them through Buffer.
@@ -6803,14 +6802,14 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Social Media Manager
 
-- URL: https://moneywithai.net/bots/social-media-manager-vishvajeet-shukla/
+- URL: https://moneywithai.net/bots/social-media-manager-stacy-burnett/
 - Category: Content and Marketing
-- Summary (Money With AI's words): Plans a content calendar for your brand's Instagram and X, gets visuals made and posts on schedule after your approval.
-- Tools: Grok, Instagram, X
-- Creator: Vishvajeet Shukla (https://x.ai/bot/DqAO8x8wjsb7jazJCBEdl)
-- Original source: https://x.ai/bot/DqAO8x8wjsb7jazJCBEdl
-- Official share link: https://x.ai/bot/DqAO8x8wjsb7jazJCBEdl
-- Found via: https://x.ai/bot/DqAO8x8wjsb7jazJCBEdl
+- Summary (Money With AI's words): Learns from your post history and publishes in your voice through Buffer, with auto-posting only if you turn it on.
+- Tools: Grok
+- Creator: Stacy Burnett (https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X)
+- Original source: https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X
+- Official share link: https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X
+- Found via: https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
@@ -6823,6 +6822,19 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Creator: Lighthart99
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included
+
+## Social Media Manager
+
+- URL: https://moneywithai.net/bots/social-media-manager-vishvajeet-shukla/
+- Category: Content and Marketing
+- Summary (Money With AI's words): Plans a content calendar for your brand's Instagram and X, gets visuals made and posts on schedule after your approval.
+- Tools: Grok, Instagram, X
+- Creator: Vishvajeet Shukla (https://x.ai/bot/DqAO8x8wjsb7jazJCBEdl)
+- Original source: https://x.ai/bot/DqAO8x8wjsb7jazJCBEdl
+- Official share link: https://x.ai/bot/DqAO8x8wjsb7jazJCBEdl
+- Found via: https://x.ai/bot/DqAO8x8wjsb7jazJCBEdl
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
 
 ## Socials (Short-Form Scout)
 

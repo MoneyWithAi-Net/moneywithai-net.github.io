@@ -156,7 +156,7 @@
               "type": "string",
               "pattern": "^[a-z0-9-]+$"
             },
-            "example": "godaddy-domain-manager"
+            "example": "contract-signer"
           }
         ],
         "responses": {

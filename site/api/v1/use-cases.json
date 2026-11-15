@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-15T15:40:02.000Z",
+  "generated_at": "2026-11-15T15:41:11.000Z",
   "api_version": "v1",
   "schema_revision": 2,
   "status_url": "https://moneywithai.net/api/v1/status.json",
-  "count": 179,
+  "count": 184,
   "items": [
     {
       "type": "use-case",
@@ -239,7 +239,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T08:00:00.000Z",
       "featured": {
-        "rank": 118,
+        "rank": 123,
         "score": 77,
         "money": 27,
         "profile": 20,
@@ -367,7 +367,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 93,
+        "rank": 96,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -487,7 +487,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 139,
+        "rank": 144,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -933,7 +933,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 51,
+        "rank": 52,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -1061,7 +1061,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T08:00:00.000Z",
       "featured": {
-        "rank": 132,
+        "rank": 137,
         "score": 76,
         "money": 27,
         "profile": 26,
@@ -1188,7 +1188,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 101,
+        "rank": 104,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -1328,7 +1328,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 144,
+        "rank": 149,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -1429,7 +1429,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 117,
+        "rank": 122,
         "score": 77,
         "money": 27,
         "profile": 20,
@@ -1670,7 +1670,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 178,
+        "rank": 183,
         "score": 63,
         "money": 13,
         "profile": 20,
@@ -1795,7 +1795,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 168,
+        "rank": 173,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -1937,7 +1937,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 155,
+        "rank": 160,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -2056,7 +2056,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 52,
+        "rank": 53,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -2544,7 +2544,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 123,
+        "rank": 128,
         "score": 76,
         "money": 27,
         "profile": 26,
@@ -2664,7 +2664,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 145,
+        "rank": 150,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -2762,7 +2762,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 177,
+        "rank": 182,
         "score": 63,
         "money": 13,
         "profile": 20,
@@ -2888,7 +2888,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T08:00:00.000Z",
       "featured": {
-        "rank": 176,
+        "rank": 181,
         "score": 65,
         "money": 13,
         "profile": 26,
@@ -3018,7 +3018,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 96,
+        "rank": 99,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -3177,7 +3177,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T08:00:00.000Z",
       "featured": {
-        "rank": 131,
+        "rank": 136,
         "score": 76,
         "money": 27,
         "profile": 26,
@@ -3425,7 +3425,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 163,
+        "rank": 168,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -3544,7 +3544,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 146,
+        "rank": 151,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -3664,7 +3664,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 127,
+        "rank": 132,
         "score": 76,
         "money": 27,
         "profile": 26,
@@ -3816,7 +3816,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 79,
+        "rank": 82,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -4309,7 +4309,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 66,
+        "rank": 68,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -4659,7 +4659,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 100,
+        "rank": 103,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -4840,7 +4840,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 115,
+        "rank": 120,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -5006,7 +5006,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 55,
+        "rank": 56,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -5205,7 +5205,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 41,
+        "rank": 42,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -5570,7 +5570,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 78,
+        "rank": 81,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -5920,7 +5920,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 124,
+        "rank": 129,
         "score": 76,
         "money": 27,
         "profile": 26,
@@ -6085,7 +6085,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 92,
+        "rank": 95,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -6264,7 +6264,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 89,
+        "rank": 92,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -6597,7 +6597,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 158,
+        "rank": 163,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -6774,7 +6774,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 122,
+        "rank": 127,
         "score": 76,
         "money": 27,
         "profile": 26,
@@ -6951,7 +6951,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 88,
+        "rank": 91,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -7317,7 +7317,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 112,
+        "rank": 117,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -7483,7 +7483,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 59,
+        "rank": 60,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -7651,7 +7651,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 159,
+        "rank": 164,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -7858,7 +7858,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 125,
+        "rank": 130,
         "score": 76,
         "money": 27,
         "profile": 26,
@@ -8063,7 +8063,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 72,
+        "rank": 74,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -8251,7 +8251,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 111,
+        "rank": 116,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -8610,7 +8610,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 116,
+        "rank": 121,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -8811,7 +8811,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 87,
+        "rank": 90,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -9181,7 +9181,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 94,
+        "rank": 97,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -9375,7 +9375,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 43,
+        "rank": 44,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -9761,7 +9761,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 172,
+        "rank": 177,
         "score": 65,
         "money": 13,
         "profile": 26,
@@ -9946,7 +9946,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 58,
+        "rank": 59,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -10127,7 +10127,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 110,
+        "rank": 115,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -10326,7 +10326,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 152,
+        "rank": 157,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -10500,7 +10500,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 137,
+        "rank": 142,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -10666,7 +10666,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 82,
+        "rank": 85,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -10848,7 +10848,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 63,
+        "rank": 65,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -11036,7 +11036,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 71,
+        "rank": 73,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -11428,7 +11428,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 103,
+        "rank": 106,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -11590,7 +11590,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 129,
+        "rank": 134,
         "score": 76,
         "money": 27,
         "profile": 26,
@@ -11752,7 +11752,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 154,
+        "rank": 159,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -11956,7 +11956,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 95,
+        "rank": 98,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -12163,7 +12163,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 134,
+        "rank": 139,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -12325,7 +12325,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 104,
+        "rank": 107,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -12505,7 +12505,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 65,
+        "rank": 67,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -12693,7 +12693,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 113,
+        "rank": 118,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -12862,7 +12862,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 153,
+        "rank": 158,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -13055,7 +13055,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 91,
+        "rank": 94,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -13228,7 +13228,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 106,
+        "rank": 110,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -13408,7 +13408,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 179,
+        "rank": 184,
         "score": 62,
         "money": 13,
         "profile": 26,
@@ -13578,7 +13578,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 44,
+        "rank": 45,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -13751,7 +13751,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 157,
+        "rank": 162,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -13941,7 +13941,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 86,
+        "rank": 89,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -14344,7 +14344,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 73,
+        "rank": 75,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -14534,7 +14534,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 56,
+        "rank": 57,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -14739,7 +14739,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 42,
+        "rank": 43,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -15093,7 +15093,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 105,
+        "rank": 108,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -15263,7 +15263,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 126,
+        "rank": 131,
         "score": 76,
         "money": 27,
         "profile": 26,
@@ -15432,7 +15432,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 97,
+        "rank": 100,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -15597,7 +15597,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 148,
+        "rank": 153,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -15796,7 +15796,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 76,
+        "rank": 79,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -16172,7 +16172,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 53,
+        "rank": 54,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -16548,7 +16548,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 69,
+        "rank": 71,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -17092,7 +17092,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 84,
+        "rank": 87,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -17264,7 +17264,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 128,
+        "rank": 133,
         "score": 76,
         "money": 27,
         "profile": 26,
@@ -17438,7 +17438,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 143,
+        "rank": 148,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -17600,7 +17600,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 99,
+        "rank": 102,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -17775,7 +17775,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 151,
+        "rank": 156,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -17941,7 +17941,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 164,
+        "rank": 169,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -18112,7 +18112,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 98,
+        "rank": 101,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -18284,7 +18284,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 74,
+        "rank": 77,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -18461,7 +18461,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 120,
+        "rank": 125,
         "score": 76,
         "money": 27,
         "profile": 26,
@@ -18633,7 +18633,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 109,
+        "rank": 114,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -18818,7 +18818,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 85,
+        "rank": 88,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -18980,7 +18980,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 57,
+        "rank": 58,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -19167,7 +19167,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 75,
+        "rank": 78,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -19344,7 +19344,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 156,
+        "rank": 161,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -19526,7 +19526,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 167,
+        "rank": 172,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -19715,7 +19715,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 102,
+        "rank": 105,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -20109,7 +20109,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 90,
+        "rank": 93,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -20301,7 +20301,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 119,
+        "rank": 124,
         "score": 76,
         "money": 27,
         "profile": 26,
@@ -20489,7 +20489,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 80,
+        "rank": 83,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -20658,7 +20658,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 160,
+        "rank": 165,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -20826,7 +20826,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 136,
+        "rank": 141,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -20988,7 +20988,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 175,
+        "rank": 180,
         "score": 65,
         "money": 13,
         "profile": 26,
@@ -21189,7 +21189,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 130,
+        "rank": 135,
         "score": 76,
         "money": 27,
         "profile": 26,
@@ -21354,7 +21354,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 121,
+        "rank": 126,
         "score": 76,
         "money": 27,
         "profile": 26,
@@ -21541,7 +21541,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 173,
+        "rank": 178,
         "score": 65,
         "money": 13,
         "profile": 26,
@@ -21707,7 +21707,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 166,
+        "rank": 171,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -21902,7 +21902,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 83,
+        "rank": 86,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -22078,7 +22078,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 114,
+        "rank": 119,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -22188,7 +22188,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 133,
+        "rank": 138,
         "score": 73,
         "money": 27,
         "profile": 20,
@@ -22330,7 +22330,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 138,
+        "rank": 143,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -22458,7 +22458,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-29T10:00:00.000Z",
       "featured": {
-        "rank": 60,
+        "rank": 62,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -22599,7 +22599,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-29T10:00:00.000Z",
       "featured": {
-        "rank": 70,
+        "rank": 72,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -22749,7 +22749,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-29T10:00:00.000Z",
       "featured": {
-        "rank": 174,
+        "rank": 179,
         "score": 65,
         "money": 13,
         "profile": 26,
@@ -23005,7 +23005,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-29T10:00:00.000Z",
       "featured": {
-        "rank": 49,
+        "rank": 50,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -23142,7 +23142,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-30T10:00:00.000Z",
       "featured": {
-        "rank": 141,
+        "rank": 146,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -23273,7 +23273,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-30T10:00:00.000Z",
       "featured": {
-        "rank": 107,
+        "rank": 111,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -23531,7 +23531,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-30T10:00:00.000Z",
       "featured": {
-        "rank": 171,
+        "rank": 176,
         "score": 65,
         "money": 13,
         "profile": 26,
@@ -23680,7 +23680,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-30T10:00:00.000Z",
       "featured": {
-        "rank": 147,
+        "rank": 152,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -23964,7 +23964,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-31T10:00:00.000Z",
       "featured": {
-        "rank": 61,
+        "rank": 63,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -24115,7 +24115,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-31T10:00:00.000Z",
       "featured": {
-        "rank": 54,
+        "rank": 55,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -24262,7 +24262,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-31T10:00:00.000Z",
       "featured": {
-        "rank": 170,
+        "rank": 175,
         "score": 65,
         "money": 13,
         "profile": 26,
@@ -24399,7 +24399,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-31T10:00:00.000Z",
       "featured": {
-        "rank": 64,
+        "rank": 66,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -24776,7 +24776,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-31T15:00:00.000Z",
       "featured": {
-        "rank": 48,
+        "rank": 49,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -24900,7 +24900,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-31T15:00:00.000Z",
       "featured": {
-        "rank": 47,
+        "rank": 48,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -25017,7 +25017,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-31T15:00:00.000Z",
       "featured": {
-        "rank": 62,
+        "rank": 64,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -25301,7 +25301,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-11-01T10:00:00.000Z",
       "featured": {
-        "rank": 50,
+        "rank": 51,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -25422,7 +25422,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-11-01T10:00:00.000Z",
       "featured": {
-        "rank": 45,
+        "rank": 46,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -25701,7 +25701,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-11-01T10:00:00.000Z",
       "featured": {
-        "rank": 161,
+        "rank": 166,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -25838,7 +25838,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-11-01T10:00:00.000Z",
       "featured": {
-        "rank": 169,
+        "rank": 174,
         "score": 65,
         "money": 13,
         "profile": 26,
@@ -25985,7 +25985,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-11-07T10:00:00.000Z",
       "featured": {
-        "rank": 68,
+        "rank": 70,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -26139,7 +26139,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-11-07T10:00:00.000Z",
       "featured": {
-        "rank": 165,
+        "rank": 170,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -26582,7 +26582,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-11-07T10:00:00.000Z",
       "featured": {
-        "rank": 150,
+        "rank": 155,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -26733,7 +26733,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-11-08T10:00:00.000Z",
       "featured": {
-        "rank": 142,
+        "rank": 147,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -27023,7 +27023,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-11-08T10:00:00.000Z",
       "featured": {
-        "rank": 77,
+        "rank": 80,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -27174,7 +27174,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-11-08T10:00:00.000Z",
       "featured": {
-        "rank": 149,
+        "rank": 154,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -27320,7 +27320,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-11-08T10:00:00.000Z",
       "featured": {
-        "rank": 135,
+        "rank": 140,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -27562,7 +27562,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-11-11T08:07:15.000Z",
       "featured": {
-        "rank": 140,
+        "rank": 145,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -27693,7 +27693,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-11-11T08:07:15.000Z",
       "featured": {
-        "rank": 46,
+        "rank": 47,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -27838,7 +27838,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-11-11T08:07:15.000Z",
       "featured": {
-        "rank": 108,
+        "rank": 112,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -28224,7 +28224,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-11-13T10:00:00.000Z",
       "featured": {
-        "rank": 162,
+        "rank": 167,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -28353,7 +28353,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 67,
+        "rank": 69,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -28487,7 +28487,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 81,
+        "rank": 84,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -28619,6 +28619,649 @@
       },
       "url": "https://moneywithai.net/use-cases/answer-repeat-product-questions-faster/",
       "json_url": "https://moneywithai.net/api/v1/use-cases/answer-repeat-product-questions-faster.json"
+    },
+    {
+      "type": "use-case",
+      "slug": "send-service-agreements-after-sales-calls",
+      "title": "Send a Service Agreement Right After the Sales Call",
+      "category": "Client Services",
+      "category_slug": "client-services",
+      "money_model": "Sell a service",
+      "difficulty": "Beginner",
+      "summary": "Turn the proposal from a sales call into a service agreement a client can sign the same week, with the risky terms flagged before it goes out.",
+      "money_potential": {
+        "tier": 2,
+        "symbol": "$$",
+        "label": "Medium",
+        "basis": "Assumes you already send proposals after sales calls; the value is a faster signed agreement and fewer rewritten contracts.",
+        "claim_label": "E",
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+      },
+      "how_it_makes_money": [
+        "Clients can sign while the call is still fresh, instead of waiting for a draft.",
+        "You review flagged terms in minutes rather than rewriting a contract from scratch."
+      ],
+      "who_its_for": [
+        "Agencies and freelancers who sell fixed-scope work.",
+        "Small service firms that send their own agreements."
+      ],
+      "stack": [
+        {
+          "bot": "post-call-proposal-builder",
+          "name": "Post Call Proposal Builder",
+          "role": "Drafts a tailored proposal after the sales call and emails it for your review.",
+          "creator": "Gerald Denor",
+          "tools": [
+            "n8n",
+            "Gmail",
+            "Google Drive",
+            "Google Slides",
+            "OpenAI"
+          ],
+          "url": "https://moneywithai.net/bots/post-call-proposal-builder/",
+          "official_share_url": null
+        },
+        {
+          "bot": "contract-signer",
+          "name": "Contract Signer",
+          "role": "Drafts the service agreement from the agreed scope, flags risky or missing terms and sends the PDF for e-signature.",
+          "creator": "Julian Andrin Weber",
+          "tools": [
+            "Grok"
+          ],
+          "url": "https://moneywithai.net/bots/contract-signer/",
+          "official_share_url": "https://x.ai/bot/emH53moZpEP8rqAECJBAd"
+        }
+      ],
+      "tools": [
+        "n8n",
+        "Gmail",
+        "Google Drive",
+        "Google Slides",
+        "OpenAI",
+        "Grok"
+      ],
+      "diagram": {
+        "engine": "Grok Bot",
+        "inputs": [
+          {
+            "label": "Sales call notes",
+            "tool": null
+          },
+          {
+            "label": "Agreed scope, price and dates",
+            "tool": null
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "by": "post-call-proposal-builder",
+            "name": "Post Call Proposal Builder",
+            "does": "Drafts a tailored proposal",
+            "tools": [
+              "n8n",
+              "Gmail",
+              "Google Drive",
+              "Google Slides",
+              "OpenAI"
+            ]
+          },
+          {
+            "order": 2,
+            "by": "contract-signer",
+            "name": "Contract Signer",
+            "does": "Drafts the service agreement and flags risky terms",
+            "tools": [
+              "Grok"
+            ]
+          },
+          {
+            "order": 3,
+            "by": "you",
+            "name": "You",
+            "does": "Reads flags, checks with a lawyer and sends for signature",
+            "tools": []
+          }
+        ],
+        "outputs": [
+          "A proposal and an agreement draft from one brief",
+          "A signed agreement sent while interest is fresh"
+        ]
+      },
+      "steps": [
+        "Confirm the scope, price and dates from the call.",
+        "Let the proposal builder draft the proposal and check it.",
+        "Have the contract signer draft the service agreement from the same brief.",
+        "Read every flagged term and have a lawyer check anything binding.",
+        "Send the PDF for e-signature once you approve it."
+      ],
+      "guardrails": [
+        "Nothing is sent for signature until you approve the final draft.",
+        "This is drafting help, not legal advice; a lawyer has the final word on binding terms."
+      ],
+      "claims": [],
+      "latest_bot_added_at": "2026-11-15T10:00:00.000Z",
+      "featured": {
+        "rank": 61,
+        "score": 83,
+        "money": 27,
+        "profile": 26,
+        "visuals": 20,
+        "difficulty": 10,
+        "override": null,
+        "rules": "https://moneywithai.net/llms.txt"
+      },
+      "url": "https://moneywithai.net/use-cases/send-service-agreements-after-sales-calls/",
+      "json_url": "https://moneywithai.net/api/v1/use-cases/send-service-agreements-after-sales-calls.json"
+    },
+    {
+      "type": "use-case",
+      "slug": "nda-before-sharing-pricing",
+      "title": "Get an NDA Signed Before You Share Pricing",
+      "category": "Client Services",
+      "category_slug": "client-services",
+      "money_model": "Grow sales",
+      "difficulty": "Beginner",
+      "summary": "Put a mutual NDA in front of a prospect before you share pricing, roadmap or client details, and book the call once it is signed.",
+      "money_potential": {
+        "tier": 2,
+        "symbol": "$$",
+        "label": "Medium",
+        "basis": "Assumes you share pricing or client details with prospects before a contract; the value is a clear confidentiality step and faster calls.",
+        "claim_label": "E",
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+      },
+      "how_it_makes_money": [
+        "Prospects see a clear confidentiality step before sensitive details are shared.",
+        "Your pricing and client details stay with the people you chose to share them with."
+      ],
+      "who_its_for": [
+        "Consultants and agencies that quote custom work.",
+        "Founders who share product plans with partners."
+      ],
+      "stack": [
+        {
+          "bot": "prospect-meeting-booker",
+          "name": "Prospect Meeting Booker",
+          "role": "Finds a time and drafts the meeting request to the prospect.",
+          "creator": "benln",
+          "tools": [
+            "Gmail",
+            "Google Calendar"
+          ],
+          "url": "https://moneywithai.net/bots/prospect-meeting-booker/",
+          "official_share_url": null
+        },
+        {
+          "bot": "contract-signer",
+          "name": "Contract Signer",
+          "role": "Drafts a mutual NDA from a short brief, flags missing terms and sends it for e-signature.",
+          "creator": "Julian Andrin Weber",
+          "tools": [
+            "Grok"
+          ],
+          "url": "https://moneywithai.net/bots/contract-signer/",
+          "official_share_url": "https://x.ai/bot/emH53moZpEP8rqAECJBAd"
+        }
+      ],
+      "tools": [
+        "Gmail",
+        "Google Calendar",
+        "Grok"
+      ],
+      "diagram": {
+        "engine": "Grok Bot",
+        "inputs": [
+          {
+            "label": "Prospect name and preferred times",
+            "tool": "Gmail"
+          },
+          {
+            "label": "Parties and what will be shared",
+            "tool": null
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "by": "prospect-meeting-booker",
+            "name": "Prospect Meeting Booker",
+            "does": "Finds a time and drafts the request",
+            "tools": [
+              "Gmail",
+              "Google Calendar"
+            ]
+          },
+          {
+            "order": 2,
+            "by": "contract-signer",
+            "name": "Contract Signer",
+            "does": "Drafts the NDA and flags missing terms",
+            "tools": [
+              "Grok"
+            ]
+          },
+          {
+            "order": 3,
+            "by": "you",
+            "name": "You",
+            "does": "Reads, approves and sends the NDA",
+            "tools": []
+          }
+        ],
+        "outputs": [
+          "A booked call",
+          "A signed NDA before pricing is shared"
+        ]
+      },
+      "steps": [
+        "Book the first call with the prospect.",
+        "Write a short brief: the parties, what will be shared and for how long.",
+        "Have the contract signer draft the NDA and flag any missing terms.",
+        "Read the draft and send it for e-signature before the detailed call."
+      ],
+      "guardrails": [
+        "Share pricing and client details only after the NDA is signed.",
+        "Use a lawyer for any NDA that covers regulated or sensitive data."
+      ],
+      "claims": [],
+      "latest_bot_added_at": "2026-11-15T10:00:00.000Z",
+      "featured": {
+        "rank": 41,
+        "score": 83,
+        "money": 27,
+        "profile": 26,
+        "visuals": 20,
+        "difficulty": 10,
+        "override": null,
+        "rules": "https://moneywithai.net/llms.txt"
+      },
+      "url": "https://moneywithai.net/use-cases/nda-before-sharing-pricing/",
+      "json_url": "https://moneywithai.net/api/v1/use-cases/nda-before-sharing-pricing.json"
+    },
+    {
+      "type": "use-case",
+      "slug": "check-vendor-contracts-before-they-renew",
+      "title": "Check Vendor Contracts Before They Auto-Renew",
+      "category": "Finance",
+      "category_slug": "finance",
+      "money_model": "Save costs",
+      "difficulty": "Intermediate",
+      "summary": "Track renewal dates for vendor contracts, and review the terms of each renewal or replacement before the notice window closes.",
+      "money_potential": {
+        "tier": 2,
+        "symbol": "$$",
+        "label": "Medium",
+        "basis": "Assumes you hold vendor contracts with auto-renewal; the value is fewer missed notice windows and terms checked before you commit.",
+        "claim_label": "E",
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+      },
+      "how_it_makes_money": [
+        "Renewal dates are on one list, so no contract renews by accident.",
+        "Terms are checked before the notice window closes, not after."
+      ],
+      "who_its_for": [
+        "Owner-run businesses with several software and service contracts.",
+        "Operations leads who manage vendor renewals."
+      ],
+      "stack": [
+        {
+          "bot": "contract-renewal-reminder",
+          "name": "Contract Renewal Reminder",
+          "role": "Tracks vendor renewal dates and sends reminders before they auto-renew.",
+          "creator": "Trung Tran",
+          "tools": [
+            "n8n",
+            "Google Sheets",
+            "OpenAI",
+            "Slack"
+          ],
+          "url": "https://moneywithai.net/bots/contract-renewal-reminder/",
+          "official_share_url": null
+        },
+        {
+          "bot": "contract-signer",
+          "name": "Contract Signer",
+          "role": "Flags risky or missing terms in a renewal or replacement contract, in plain language.",
+          "creator": "Julian Andrin Weber",
+          "tools": [
+            "Grok"
+          ],
+          "url": "https://moneywithai.net/bots/contract-signer/",
+          "official_share_url": "https://x.ai/bot/emH53moZpEP8rqAECJBAd"
+        }
+      ],
+      "tools": [
+        "n8n",
+        "Google Sheets",
+        "OpenAI",
+        "Slack",
+        "Grok"
+      ],
+      "diagram": {
+        "engine": "Grok Bot",
+        "inputs": [
+          {
+            "label": "Contract renewal dates and notice periods",
+            "tool": null
+          },
+          {
+            "label": "Renewal or replacement contract",
+            "tool": null
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "by": "contract-renewal-reminder",
+            "name": "Contract Renewal Reminder",
+            "does": "Sends reminders before each notice window",
+            "tools": [
+              "n8n",
+              "Google Sheets",
+              "OpenAI",
+              "Slack"
+            ]
+          },
+          {
+            "order": 2,
+            "by": "contract-signer",
+            "name": "Contract Signer",
+            "does": "Flags risky or missing terms",
+            "tools": [
+              "Grok"
+            ]
+          },
+          {
+            "order": 3,
+            "by": "you",
+            "name": "You",
+            "does": "Decides to renew, renegotiate or cancel",
+            "tools": []
+          }
+        ],
+        "outputs": [
+          "Reminders before each notice window",
+          "A plain-language list of terms to check"
+        ]
+      },
+      "steps": [
+        "List each vendor contract with its renewal date and notice period.",
+        "Let the reminder bot send alerts before each notice window.",
+        "Ask the contract signer to flag the terms of any renewal or replacement.",
+        "Decide to renew, renegotiate or cancel, and sign only what you approve."
+      ],
+      "guardrails": [
+        "No contract is signed or cancelled without your approval.",
+        "Check notice periods against the contract itself; the reminder is only as good as the dates entered."
+      ],
+      "claims": [],
+      "latest_bot_added_at": "2026-11-15T10:00:00.000Z",
+      "featured": {
+        "rank": 76,
+        "score": 79,
+        "money": 27,
+        "profile": 26,
+        "visuals": 20,
+        "difficulty": 6,
+        "override": null,
+        "rules": "https://moneywithai.net/llms.txt"
+      },
+      "url": "https://moneywithai.net/use-cases/check-vendor-contracts-before-they-renew/",
+      "json_url": "https://moneywithai.net/api/v1/use-cases/check-vendor-contracts-before-they-renew.json"
+    },
+    {
+      "type": "use-case",
+      "slug": "sign-subcontractor-agreements-for-field-jobs",
+      "title": "Sign Subcontractor Agreements Before a Job Starts",
+      "category": "Client Services",
+      "category_slug": "client-services",
+      "money_model": "Save costs",
+      "difficulty": "Intermediate",
+      "summary": "Compare subcontractor quotes, then turn the chosen quote into a written agreement with the scope, dates and payment terms spelled out before work starts.",
+      "money_potential": {
+        "tier": 2,
+        "symbol": "$$",
+        "label": "Medium",
+        "basis": "Assumes you hire subcontractors for jobs; the value is quotes compared on the same scope and a written agreement before work starts.",
+        "claim_label": "E",
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+      },
+      "how_it_makes_money": [
+        "Quotes are compared side by side before one is chosen.",
+        "The agreement is drafted from the chosen quote, so the scope matches what was agreed."
+      ],
+      "who_its_for": [
+        "Trades and field service businesses that hire subcontractors.",
+        "General contractors who manage several jobs at once."
+      ],
+      "stack": [
+        {
+          "bot": "contractor-quote-negotiator",
+          "name": "Contractor Quote Negotiator",
+          "role": "Collects contractor quotes, compares them in Google Sheets and drafts negotiation emails.",
+          "creator": "benln",
+          "tools": [
+            "Gmail",
+            "Google Sheets"
+          ],
+          "url": "https://moneywithai.net/bots/contractor-quote-negotiator/",
+          "official_share_url": null
+        },
+        {
+          "bot": "contract-signer",
+          "name": "Contract Signer",
+          "role": "Drafts the subcontractor agreement from the chosen quote, flags missing terms and sends it for e-signature.",
+          "creator": "Julian Andrin Weber",
+          "tools": [
+            "Grok"
+          ],
+          "url": "https://moneywithai.net/bots/contract-signer/",
+          "official_share_url": "https://x.ai/bot/emH53moZpEP8rqAECJBAd"
+        }
+      ],
+      "tools": [
+        "Gmail",
+        "Google Sheets",
+        "Grok"
+      ],
+      "diagram": {
+        "engine": "Grok Bot",
+        "inputs": [
+          {
+            "label": "Subcontractor quotes",
+            "tool": "Google Sheets"
+          },
+          {
+            "label": "Chosen quote, scope and payment terms",
+            "tool": null
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "by": "contractor-quote-negotiator",
+            "name": "Contractor Quote Negotiator",
+            "does": "Compares quotes and drafts replies",
+            "tools": [
+              "Gmail",
+              "Google Sheets"
+            ]
+          },
+          {
+            "order": 2,
+            "by": "contract-signer",
+            "name": "Contract Signer",
+            "does": "Drafts the agreement and flags missing terms",
+            "tools": [
+              "Grok"
+            ]
+          },
+          {
+            "order": 3,
+            "by": "you",
+            "name": "You",
+            "does": "Approves the scope and sends for signature",
+            "tools": []
+          }
+        ],
+        "outputs": [
+          "A quote comparison sheet",
+          "A signed agreement before work starts"
+        ]
+      },
+      "steps": [
+        "Collect at least two quotes for the same scope.",
+        "Let the negotiator compare them in a sheet and draft replies.",
+        "Pick a quote and write the scope, dates and payment terms in a brief.",
+        "Have the contract signer draft the agreement and flag missing terms.",
+        "Review the agreement and send it for signature before work starts."
+      ],
+      "guardrails": [
+        "No agreement is sent until you approve the scope and payment terms.",
+        "Check insurance and licence requirements yourself; the bot does not verify them."
+      ],
+      "claims": [],
+      "latest_bot_added_at": "2026-11-15T10:00:00.000Z",
+      "featured": {
+        "rank": 109,
+        "score": 79,
+        "money": 27,
+        "profile": 26,
+        "visuals": 20,
+        "difficulty": 6,
+        "override": null,
+        "rules": "https://moneywithai.net/llms.txt"
+      },
+      "url": "https://moneywithai.net/use-cases/sign-subcontractor-agreements-for-field-jobs/",
+      "json_url": "https://moneywithai.net/api/v1/use-cases/sign-subcontractor-agreements-for-field-jobs.json"
+    },
+    {
+      "type": "use-case",
+      "slug": "turn-client-calls-into-retainer-agreements",
+      "title": "Turn Client Calls into Retainer Agreements",
+      "category": "Client Services",
+      "category_slug": "client-services",
+      "money_model": "Grow sales",
+      "difficulty": "Intermediate",
+      "summary": "Pull the agreed scope and action items from a client call into a retainer agreement, so the ongoing work is written down and signed.",
+      "money_potential": {
+        "tier": 2,
+        "symbol": "$$",
+        "label": "Medium",
+        "basis": "Assumes you run monthly retainers with clients; the value is written scope and fewer disputes over what was agreed.",
+        "claim_label": "E",
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+      },
+      "how_it_makes_money": [
+        "Ongoing work is written down, so the scope is clear from month to month.",
+        "Action items from the call go straight into the agreement brief."
+      ],
+      "who_its_for": [
+        "Agencies and consultants with monthly retainer clients.",
+        "Service firms that renew client work each quarter."
+      ],
+      "stack": [
+        {
+          "bot": "meeting-notes-assistant",
+          "name": "Meeting Notes Assistant",
+          "role": "Writes notes, decisions and action items from the call to Google Docs.",
+          "creator": "mvanhorn",
+          "tools": [
+            "Google Calendar",
+            "Google Docs"
+          ],
+          "url": "https://moneywithai.net/bots/meeting-notes-assistant/",
+          "official_share_url": null
+        },
+        {
+          "bot": "contract-signer",
+          "name": "Contract Signer",
+          "role": "Drafts the retainer agreement from the agreed scope, flags missing terms and sends the PDF for e-signature.",
+          "creator": "Julian Andrin Weber",
+          "tools": [
+            "Grok"
+          ],
+          "url": "https://moneywithai.net/bots/contract-signer/",
+          "official_share_url": "https://x.ai/bot/emH53moZpEP8rqAECJBAd"
+        }
+      ],
+      "tools": [
+        "Google Calendar",
+        "Google Docs",
+        "Grok"
+      ],
+      "diagram": {
+        "engine": "Grok Bot",
+        "inputs": [
+          {
+            "label": "Client call transcript",
+            "tool": null
+          },
+          {
+            "label": "Agreed scope and fees",
+            "tool": "Google Docs"
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "by": "meeting-notes-assistant",
+            "name": "Meeting Notes Assistant",
+            "does": "Writes notes, decisions and action items",
+            "tools": [
+              "Google Calendar",
+              "Google Docs"
+            ]
+          },
+          {
+            "order": 2,
+            "by": "contract-signer",
+            "name": "Contract Signer",
+            "does": "Drafts the retainer and flags missing terms",
+            "tools": [
+              "Grok"
+            ]
+          },
+          {
+            "order": 3,
+            "by": "you",
+            "name": "You",
+            "does": "Confirms scope with the client and sends for signature",
+            "tools": []
+          }
+        ],
+        "outputs": [
+          "Call notes in Google Docs",
+          "A signed retainer on file"
+        ]
+      },
+      "steps": [
+        "Record or transcribe the client call.",
+        "Let the notes assistant write the decisions and action items.",
+        "Copy the agreed scope and fees into a short retainer brief.",
+        "Have the contract signer draft the agreement and flag terms.",
+        "Review and send the agreement for e-signature once the client has confirmed the scope."
+      ],
+      "guardrails": [
+        "Confirm the scope with the client in writing before drafting the agreement.",
+        "Have a lawyer review any retainer that includes exclusivity or liability terms."
+      ],
+      "claims": [],
+      "latest_bot_added_at": "2026-11-15T10:00:00.000Z",
+      "featured": {
+        "rank": 113,
+        "score": 79,
+        "money": 27,
+        "profile": 26,
+        "visuals": 20,
+        "difficulty": 6,
+        "override": null,
+        "rules": "https://moneywithai.net/llms.txt"
+      },
+      "url": "https://moneywithai.net/use-cases/turn-client-calls-into-retainer-agreements/",
+      "json_url": "https://moneywithai.net/api/v1/use-cases/turn-client-calls-into-retainer-agreements.json"
     }
   ]
 }

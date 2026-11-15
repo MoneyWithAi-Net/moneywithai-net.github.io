@@ -1,10 +1,23 @@
 {
-  "generated_at": "2026-11-15T15:40:02.000Z",
+  "generated_at": "2026-11-15T15:41:11.000Z",
   "api_version": "v1",
   "schema_revision": 2,
   "status_url": "https://moneywithai.net/api/v1/status.json",
-  "count": 861,
+  "count": 867,
   "items": [
+    {
+      "type": "bot",
+      "slug": "contract-signer",
+      "title": "Contract Signer",
+      "category": "Client Services",
+      "sub_use_case": "Quotes",
+      "summary": "Drafts NDAs, service agreements and offers from a short brief, flags risky or missing terms in plain language, and sends the final PDF for e-signature.",
+      "creator": "Julian Andrin Weber",
+      "url": "https://moneywithai.net/bots/contract-signer/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/contract-signer.json",
+      "official_share_url": "https://x.ai/bot/emH53moZpEP8rqAECJBAd",
+      "added_at": "2026-11-15T10:00:00.000Z"
+    },
     {
       "type": "bot",
       "slug": "godaddy-domain-manager",
@@ -9289,6 +9302,20 @@
     },
     {
       "type": "use-case",
+      "slug": "check-vendor-contracts-before-they-renew",
+      "title": "Check Vendor Contracts Before They Auto-Renew",
+      "category": "Finance",
+      "summary": "Track renewal dates for vendor contracts, and review the terms of each renewal or replacement before the notice window closes.",
+      "bots": [
+        "contract-renewal-reminder",
+        "contract-signer"
+      ],
+      "url": "https://moneywithai.net/use-cases/check-vendor-contracts-before-they-renew/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/check-vendor-contracts-before-they-renew.json",
+      "added_at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "type": "use-case",
       "slug": "churn-save-program",
       "title": "Save Customers Before They Cancel",
       "category": "Customer Support",
@@ -10344,6 +10371,20 @@
     },
     {
       "type": "use-case",
+      "slug": "nda-before-sharing-pricing",
+      "title": "Get an NDA Signed Before You Share Pricing",
+      "category": "Client Services",
+      "summary": "Put a mutual NDA in front of a prospect before you share pricing, roadmap or client details, and book the call once it is signed.",
+      "bots": [
+        "prospect-meeting-booker",
+        "contract-signer"
+      ],
+      "url": "https://moneywithai.net/use-cases/nda-before-sharing-pricing/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/nda-before-sharing-pricing.json",
+      "added_at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "type": "use-case",
       "slug": "never-lose-a-domain-to-a-missed-renewal",
       "title": "Never Lose a Domain to a Missed Renewal",
       "category": "Research and Ops",
@@ -11038,6 +11079,20 @@
     },
     {
       "type": "use-case",
+      "slug": "send-service-agreements-after-sales-calls",
+      "title": "Send a Service Agreement Right After the Sales Call",
+      "category": "Client Services",
+      "summary": "Turn the proposal from a sales call into a service agreement a client can sign the same week, with the risky terms flagged before it goes out.",
+      "bots": [
+        "post-call-proposal-builder",
+        "contract-signer"
+      ],
+      "url": "https://moneywithai.net/use-cases/send-service-agreements-after-sales-calls/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/send-service-agreements-after-sales-calls.json",
+      "added_at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "type": "use-case",
       "slug": "seo-agency-pitch-pack",
       "title": "Build a Pitch Pack for an SEO Agency",
       "category": "Leads and Sales",
@@ -11143,6 +11198,20 @@
       ],
       "url": "https://moneywithai.net/use-cases/show-clients-the-remodel-before-they-sign/",
       "detail_url": "https://moneywithai.net/api/v1/use-cases/show-clients-the-remodel-before-they-sign.json",
+      "added_at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "type": "use-case",
+      "slug": "sign-subcontractor-agreements-for-field-jobs",
+      "title": "Sign Subcontractor Agreements Before a Job Starts",
+      "category": "Client Services",
+      "summary": "Compare subcontractor quotes, then turn the chosen quote into a written agreement with the scope, dates and payment terms spelled out before work starts.",
+      "bots": [
+        "contractor-quote-negotiator",
+        "contract-signer"
+      ],
+      "url": "https://moneywithai.net/use-cases/sign-subcontractor-agreements-for-field-jobs/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/sign-subcontractor-agreements-for-field-jobs.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {
@@ -11421,6 +11490,20 @@
       ],
       "url": "https://moneywithai.net/use-cases/triage-email-without-auto-send/",
       "detail_url": "https://moneywithai.net/api/v1/use-cases/triage-email-without-auto-send.json",
+      "added_at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "type": "use-case",
+      "slug": "turn-client-calls-into-retainer-agreements",
+      "title": "Turn Client Calls into Retainer Agreements",
+      "category": "Client Services",
+      "summary": "Pull the agreed scope and action items from a client call into a retainer agreement, so the ongoing work is written down and signed.",
+      "bots": [
+        "meeting-notes-assistant",
+        "contract-signer"
+      ],
+      "url": "https://moneywithai.net/use-cases/turn-client-calls-into-retainer-agreements/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/turn-client-calls-into-retainer-agreements.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {

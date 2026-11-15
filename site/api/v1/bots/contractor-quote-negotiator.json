@@ -27,11 +27,12 @@
   "json_url": "https://moneywithai.net/api/v1/bots/contractor-quote-negotiator.json",
   "use_cases": [
     "https://moneywithai.net/use-cases/vendor-and-contractor-negotiation/",
-    "https://moneywithai.net/use-cases/trade-bid-desk/"
+    "https://moneywithai.net/use-cases/trade-bid-desk/",
+    "https://moneywithai.net/use-cases/sign-subcontractor-agreements-for-field-jobs/"
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 218,
+    "rank": 219,
     "score": 79,
     "money": 27,
     "profile": 26,

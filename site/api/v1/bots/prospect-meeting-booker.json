@@ -29,16 +29,17 @@
     "https://moneywithai.net/use-cases/maps-leads-to-booked-calls/",
     "https://moneywithai.net/use-cases/pitch-ad-management-to-active-advertisers/",
     "https://moneywithai.net/use-cases/reactivate-old-leads-by-phone/",
-    "https://moneywithai.net/use-cases/telegram-chat-to-closed-deal/"
+    "https://moneywithai.net/use-cases/telegram-chat-to-closed-deal/",
+    "https://moneywithai.net/use-cases/nda-before-sharing-pricing/"
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 127,
-    "score": 86,
+    "rank": 60,
+    "score": 90,
     "money": 40,
     "profile": 20,
     "visuals": 20,
-    "difficulty": 6,
+    "difficulty": 10,
     "override": null,
     "rules": "https://moneywithai.net/llms.txt"
   }

@@ -30,11 +30,12 @@
   "json_url": "https://moneywithai.net/api/v1/bots/post-call-proposal-builder.json",
   "use_cases": [
     "https://moneywithai.net/use-cases/freelance-gig-to-proposal/",
-    "https://moneywithai.net/use-cases/agency-proposal-to-payment/"
+    "https://moneywithai.net/use-cases/agency-proposal-to-payment/",
+    "https://moneywithai.net/use-cases/send-service-agreements-after-sales-calls/"
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 147,
+    "rank": 148,
     "score": 83,
     "money": 27,
     "profile": 26,

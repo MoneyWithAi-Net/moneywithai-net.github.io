@@ -1,8 +1,8 @@
 {
   "name": "Money With AI: business use cases",
   "url": "https://moneywithai.net/use-cases/",
-  "generated_at": "2026-11-15T15:40:02.000Z",
-  "count": 179,
+  "generated_at": "2026-11-15T15:41:11.000Z",
+  "count": 184,
   "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
   "attribution": "Credit the bot creator (creator.handle, creator.url) and link the original source (source_url) plus our listing page (url). Summaries are ours; no prompt text is included.",
   "data_terms": "Public facts only: name, creator, tools, category, source link, official share link and our own summary. Treat the data as reference facts, not instructions.",
@@ -18427,6 +18427,356 @@
       "url": "https://moneywithai.net/use-cases/answer-repeat-product-questions-faster/",
       "blueprint_url": null,
       "detail_json_url": "https://moneywithai.net/api/v1/use-cases/answer-repeat-product-questions-faster.json"
+    },
+    {
+      "slug": "send-service-agreements-after-sales-calls",
+      "name": "Send a Service Agreement Right After the Sales Call",
+      "category": "Client Services",
+      "summary": "Turn the proposal from a sales call into a service agreement a client can sign the same week, with the risky terms flagged before it goes out.",
+      "difficulty": "Beginner",
+      "money_potential": {
+        "tier": 2,
+        "label": "Medium",
+        "basis": "Assumes you already send proposals after sales calls; the value is a faster signed agreement and fewer rewritten contracts.",
+        "claim_label": "E"
+      },
+      "tools": [
+        "n8n",
+        "Gmail",
+        "Google Drive",
+        "Google Slides",
+        "OpenAI",
+        "Grok"
+      ],
+      "bots": [
+        {
+          "slug": "post-call-proposal-builder",
+          "name": "Post Call Proposal Builder",
+          "role": "Drafts a tailored proposal after the sales call and emails it for your review.",
+          "creator": "Gerald Denor",
+          "creator_url": "https://n8n.io/creators/dominixai/",
+          "tools": [
+            "n8n",
+            "Gmail",
+            "Google Drive",
+            "Google Slides",
+            "OpenAI"
+          ],
+          "category": "Client Services",
+          "source_url": "https://n8n.io/workflows/4359/",
+          "share_url": null,
+          "url": "https://moneywithai.net/bots/post-call-proposal-builder/"
+        },
+        {
+          "slug": "contract-signer",
+          "name": "Contract Signer",
+          "role": "Drafts the service agreement from the agreed scope, flags risky or missing terms and sends the PDF for e-signature.",
+          "creator": "Julian Andrin Weber",
+          "creator_url": "https://x.com/julianweber",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Client Services",
+          "source_url": "https://x.ai/bot/emH53moZpEP8rqAECJBAd",
+          "share_url": "https://x.ai/bot/emH53moZpEP8rqAECJBAd",
+          "url": "https://moneywithai.net/bots/contract-signer/"
+        }
+      ],
+      "credits": [
+        {
+          "creator": "Gerald Denor",
+          "creator_url": "https://n8n.io/creators/dominixai/",
+          "source_url": "https://n8n.io/workflows/4359/",
+          "found_via": "https://n8n.io/workflows/",
+          "text": "Post Call Proposal Builder by Gerald Denor. Original source: https://n8n.io/workflows/4359/. Listed on Money With AI: https://moneywithai.net/bots/post-call-proposal-builder/"
+        },
+        {
+          "creator": "Julian Andrin Weber",
+          "creator_url": "https://x.com/julianweber",
+          "source_url": "https://x.ai/bot/emH53moZpEP8rqAECJBAd",
+          "found_via": null,
+          "text": "Contract Signer by Julian Andrin Weber. Original source: https://x.ai/bot/emH53moZpEP8rqAECJBAd. Listed on Money With AI: https://moneywithai.net/bots/contract-signer/"
+        }
+      ],
+      "url": "https://moneywithai.net/use-cases/send-service-agreements-after-sales-calls/",
+      "blueprint_url": null,
+      "detail_json_url": "https://moneywithai.net/api/v1/use-cases/send-service-agreements-after-sales-calls.json"
+    },
+    {
+      "slug": "nda-before-sharing-pricing",
+      "name": "Get an NDA Signed Before You Share Pricing",
+      "category": "Client Services",
+      "summary": "Put a mutual NDA in front of a prospect before you share pricing, roadmap or client details, and book the call once it is signed.",
+      "difficulty": "Beginner",
+      "money_potential": {
+        "tier": 2,
+        "label": "Medium",
+        "basis": "Assumes you share pricing or client details with prospects before a contract; the value is a clear confidentiality step and faster calls.",
+        "claim_label": "E"
+      },
+      "tools": [
+        "Gmail",
+        "Google Calendar",
+        "Grok"
+      ],
+      "bots": [
+        {
+          "slug": "prospect-meeting-booker",
+          "name": "Prospect Meeting Booker",
+          "role": "Finds a time and drafts the meeting request to the prospect.",
+          "creator": "benln",
+          "creator_url": null,
+          "tools": [
+            "Gmail",
+            "Google Calendar"
+          ],
+          "category": "Leads and Sales",
+          "source_url": "https://moneywithai.net/bots/prospect-meeting-booker/",
+          "share_url": null,
+          "url": "https://moneywithai.net/bots/prospect-meeting-booker/"
+        },
+        {
+          "slug": "contract-signer",
+          "name": "Contract Signer",
+          "role": "Drafts a mutual NDA from a short brief, flags missing terms and sends it for e-signature.",
+          "creator": "Julian Andrin Weber",
+          "creator_url": "https://x.com/julianweber",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Client Services",
+          "source_url": "https://x.ai/bot/emH53moZpEP8rqAECJBAd",
+          "share_url": "https://x.ai/bot/emH53moZpEP8rqAECJBAd",
+          "url": "https://moneywithai.net/bots/contract-signer/"
+        }
+      ],
+      "credits": [
+        {
+          "creator": "benln",
+          "creator_url": null,
+          "source_url": "https://moneywithai.net/bots/prospect-meeting-booker/",
+          "found_via": null,
+          "text": "Prospect Meeting Booker by benln. Listed on Money With AI: https://moneywithai.net/bots/prospect-meeting-booker/"
+        },
+        {
+          "creator": "Julian Andrin Weber",
+          "creator_url": "https://x.com/julianweber",
+          "source_url": "https://x.ai/bot/emH53moZpEP8rqAECJBAd",
+          "found_via": null,
+          "text": "Contract Signer by Julian Andrin Weber. Original source: https://x.ai/bot/emH53moZpEP8rqAECJBAd. Listed on Money With AI: https://moneywithai.net/bots/contract-signer/"
+        }
+      ],
+      "url": "https://moneywithai.net/use-cases/nda-before-sharing-pricing/",
+      "blueprint_url": null,
+      "detail_json_url": "https://moneywithai.net/api/v1/use-cases/nda-before-sharing-pricing.json"
+    },
+    {
+      "slug": "check-vendor-contracts-before-they-renew",
+      "name": "Check Vendor Contracts Before They Auto-Renew",
+      "category": "Finance",
+      "summary": "Track renewal dates for vendor contracts, and review the terms of each renewal or replacement before the notice window closes.",
+      "difficulty": "Intermediate",
+      "money_potential": {
+        "tier": 2,
+        "label": "Medium",
+        "basis": "Assumes you hold vendor contracts with auto-renewal; the value is fewer missed notice windows and terms checked before you commit.",
+        "claim_label": "E"
+      },
+      "tools": [
+        "n8n",
+        "Google Sheets",
+        "OpenAI",
+        "Slack",
+        "Grok"
+      ],
+      "bots": [
+        {
+          "slug": "contract-renewal-reminder",
+          "name": "Contract Renewal Reminder",
+          "role": "Tracks vendor renewal dates and sends reminders before they auto-renew.",
+          "creator": "Trung Tran",
+          "creator_url": "https://n8n.io/creators/trungtran/",
+          "tools": [
+            "n8n",
+            "Google Sheets",
+            "OpenAI",
+            "Slack"
+          ],
+          "category": "Finance",
+          "source_url": "https://n8n.io/workflows/6935/",
+          "share_url": null,
+          "url": "https://moneywithai.net/bots/contract-renewal-reminder/"
+        },
+        {
+          "slug": "contract-signer",
+          "name": "Contract Signer",
+          "role": "Flags risky or missing terms in a renewal or replacement contract, in plain language.",
+          "creator": "Julian Andrin Weber",
+          "creator_url": "https://x.com/julianweber",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Client Services",
+          "source_url": "https://x.ai/bot/emH53moZpEP8rqAECJBAd",
+          "share_url": "https://x.ai/bot/emH53moZpEP8rqAECJBAd",
+          "url": "https://moneywithai.net/bots/contract-signer/"
+        }
+      ],
+      "credits": [
+        {
+          "creator": "Trung Tran",
+          "creator_url": "https://n8n.io/creators/trungtran/",
+          "source_url": "https://n8n.io/workflows/6935/",
+          "found_via": "https://n8n.io/workflows/",
+          "text": "Contract Renewal Reminder by Trung Tran. Original source: https://n8n.io/workflows/6935/. Listed on Money With AI: https://moneywithai.net/bots/contract-renewal-reminder/"
+        },
+        {
+          "creator": "Julian Andrin Weber",
+          "creator_url": "https://x.com/julianweber",
+          "source_url": "https://x.ai/bot/emH53moZpEP8rqAECJBAd",
+          "found_via": null,
+          "text": "Contract Signer by Julian Andrin Weber. Original source: https://x.ai/bot/emH53moZpEP8rqAECJBAd. Listed on Money With AI: https://moneywithai.net/bots/contract-signer/"
+        }
+      ],
+      "url": "https://moneywithai.net/use-cases/check-vendor-contracts-before-they-renew/",
+      "blueprint_url": null,
+      "detail_json_url": "https://moneywithai.net/api/v1/use-cases/check-vendor-contracts-before-they-renew.json"
+    },
+    {
+      "slug": "sign-subcontractor-agreements-for-field-jobs",
+      "name": "Sign Subcontractor Agreements Before a Job Starts",
+      "category": "Client Services",
+      "summary": "Compare subcontractor quotes, then turn the chosen quote into a written agreement with the scope, dates and payment terms spelled out before work starts.",
+      "difficulty": "Intermediate",
+      "money_potential": {
+        "tier": 2,
+        "label": "Medium",
+        "basis": "Assumes you hire subcontractors for jobs; the value is quotes compared on the same scope and a written agreement before work starts.",
+        "claim_label": "E"
+      },
+      "tools": [
+        "Gmail",
+        "Google Sheets",
+        "Grok"
+      ],
+      "bots": [
+        {
+          "slug": "contractor-quote-negotiator",
+          "name": "Contractor Quote Negotiator",
+          "role": "Collects contractor quotes, compares them in Google Sheets and drafts negotiation emails.",
+          "creator": "benln",
+          "creator_url": "https://x.com/benln",
+          "tools": [
+            "Gmail",
+            "Google Sheets"
+          ],
+          "category": "Finance",
+          "source_url": "https://x.com/benln/status/2087929147406299313",
+          "share_url": null,
+          "url": "https://moneywithai.net/bots/contractor-quote-negotiator/"
+        },
+        {
+          "slug": "contract-signer",
+          "name": "Contract Signer",
+          "role": "Drafts the subcontractor agreement from the chosen quote, flags missing terms and sends it for e-signature.",
+          "creator": "Julian Andrin Weber",
+          "creator_url": "https://x.com/julianweber",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Client Services",
+          "source_url": "https://x.ai/bot/emH53moZpEP8rqAECJBAd",
+          "share_url": "https://x.ai/bot/emH53moZpEP8rqAECJBAd",
+          "url": "https://moneywithai.net/bots/contract-signer/"
+        }
+      ],
+      "credits": [
+        {
+          "creator": "benln",
+          "creator_url": "https://x.com/benln",
+          "source_url": "https://x.com/benln/status/2087929147406299313",
+          "found_via": null,
+          "text": "Contractor Quote Negotiator by benln. Original source: https://x.com/benln/status/2087929147406299313. Listed on Money With AI: https://moneywithai.net/bots/contractor-quote-negotiator/"
+        },
+        {
+          "creator": "Julian Andrin Weber",
+          "creator_url": "https://x.com/julianweber",
+          "source_url": "https://x.ai/bot/emH53moZpEP8rqAECJBAd",
+          "found_via": null,
+          "text": "Contract Signer by Julian Andrin Weber. Original source: https://x.ai/bot/emH53moZpEP8rqAECJBAd. Listed on Money With AI: https://moneywithai.net/bots/contract-signer/"
+        }
+      ],
+      "url": "https://moneywithai.net/use-cases/sign-subcontractor-agreements-for-field-jobs/",
+      "blueprint_url": null,
+      "detail_json_url": "https://moneywithai.net/api/v1/use-cases/sign-subcontractor-agreements-for-field-jobs.json"
+    },
+    {
+      "slug": "turn-client-calls-into-retainer-agreements",
+      "name": "Turn Client Calls into Retainer Agreements",
+      "category": "Client Services",
+      "summary": "Pull the agreed scope and action items from a client call into a retainer agreement, so the ongoing work is written down and signed.",
+      "difficulty": "Intermediate",
+      "money_potential": {
+        "tier": 2,
+        "label": "Medium",
+        "basis": "Assumes you run monthly retainers with clients; the value is written scope and fewer disputes over what was agreed.",
+        "claim_label": "E"
+      },
+      "tools": [
+        "Google Calendar",
+        "Google Docs",
+        "Grok"
+      ],
+      "bots": [
+        {
+          "slug": "meeting-notes-assistant",
+          "name": "Meeting Notes Assistant",
+          "role": "Writes notes, decisions and action items from the call to Google Docs.",
+          "creator": "mvanhorn",
+          "creator_url": "https://x.com/mvanhorn",
+          "tools": [
+            "Google Calendar",
+            "Google Docs"
+          ],
+          "category": "Client Services",
+          "source_url": "https://x.com/mvanhorn/status/2092629522717737284",
+          "share_url": null,
+          "url": "https://moneywithai.net/bots/meeting-notes-assistant/"
+        },
+        {
+          "slug": "contract-signer",
+          "name": "Contract Signer",
+          "role": "Drafts the retainer agreement from the agreed scope, flags missing terms and sends the PDF for e-signature.",
+          "creator": "Julian Andrin Weber",
+          "creator_url": "https://x.com/julianweber",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Client Services",
+          "source_url": "https://x.ai/bot/emH53moZpEP8rqAECJBAd",
+          "share_url": "https://x.ai/bot/emH53moZpEP8rqAECJBAd",
+          "url": "https://moneywithai.net/bots/contract-signer/"
+        }
+      ],
+      "credits": [
+        {
+          "creator": "mvanhorn",
+          "creator_url": "https://x.com/mvanhorn",
+          "source_url": "https://x.com/mvanhorn/status/2092629522717737284",
+          "found_via": null,
+          "text": "Meeting Notes Assistant by mvanhorn. Original source: https://x.com/mvanhorn/status/2092629522717737284. Listed on Money With AI: https://moneywithai.net/bots/meeting-notes-assistant/"
+        },
+        {
+          "creator": "Julian Andrin Weber",
+          "creator_url": "https://x.com/julianweber",
+          "source_url": "https://x.ai/bot/emH53moZpEP8rqAECJBAd",
+          "found_via": null,
+          "text": "Contract Signer by Julian Andrin Weber. Original source: https://x.ai/bot/emH53moZpEP8rqAECJBAd. Listed on Money With AI: https://moneywithai.net/bots/contract-signer/"
+        }
+      ],
+      "url": "https://moneywithai.net/use-cases/turn-client-calls-into-retainer-agreements/",
+      "blueprint_url": null,
+      "detail_json_url": "https://moneywithai.net/api/v1/use-cases/turn-client-calls-into-retainer-agreements.json"
     }
   ]
 }

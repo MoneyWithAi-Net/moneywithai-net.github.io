@@ -1,0 +1,125 @@
+{
+  "type": "use-case",
+  "slug": "nda-before-sharing-pricing",
+  "title": "Get an NDA Signed Before You Share Pricing",
+  "category": "Client Services",
+  "category_slug": "client-services",
+  "money_model": "Grow sales",
+  "difficulty": "Beginner",
+  "summary": "Put a mutual NDA in front of a prospect before you share pricing, roadmap or client details, and book the call once it is signed.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you share pricing or client details with prospects before a contract; the value is a clear confidentiality step and faster calls.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Prospects see a clear confidentiality step before sensitive details are shared.",
+    "Your pricing and client details stay with the people you chose to share them with."
+  ],
+  "who_its_for": [
+    "Consultants and agencies that quote custom work.",
+    "Founders who share product plans with partners."
+  ],
+  "stack": [
+    {
+      "bot": "prospect-meeting-booker",
+      "name": "Prospect Meeting Booker",
+      "role": "Finds a time and drafts the meeting request to the prospect.",
+      "creator": "benln",
+      "tools": [
+        "Gmail",
+        "Google Calendar"
+      ],
+      "url": "https://moneywithai.net/bots/prospect-meeting-booker/",
+      "official_share_url": null
+    },
+    {
+      "bot": "contract-signer",
+      "name": "Contract Signer",
+      "role": "Drafts a mutual NDA from a short brief, flags missing terms and sends it for e-signature.",
+      "creator": "Julian Andrin Weber",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/contract-signer/",
+      "official_share_url": "https://x.ai/bot/emH53moZpEP8rqAECJBAd"
+    }
+  ],
+  "tools": [
+    "Gmail",
+    "Google Calendar",
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Prospect name and preferred times",
+        "tool": "Gmail"
+      },
+      {
+        "label": "Parties and what will be shared",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "prospect-meeting-booker",
+        "name": "Prospect Meeting Booker",
+        "does": "Finds a time and drafts the request",
+        "tools": [
+          "Gmail",
+          "Google Calendar"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "contract-signer",
+        "name": "Contract Signer",
+        "does": "Drafts the NDA and flags missing terms",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Reads, approves and sends the NDA",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A booked call",
+      "A signed NDA before pricing is shared"
+    ]
+  },
+  "steps": [
+    "Book the first call with the prospect.",
+    "Write a short brief: the parties, what will be shared and for how long.",
+    "Have the contract signer draft the NDA and flag any missing terms.",
+    "Read the draft and send it for e-signature before the detailed call."
+  ],
+  "guardrails": [
+    "Share pricing and client details only after the NDA is signed.",
+    "Use a lawyer for any NDA that covers regulated or sensitive data."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-11-15T10:00:00.000Z",
+  "featured": {
+    "rank": 41,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/nda-before-sharing-pricing/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/nda-before-sharing-pricing.json"
+}

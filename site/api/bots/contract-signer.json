@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "contract-signer",
+    "name": "Contract Signer",
+    "category": "Client Services",
+    "sub_use_case": "Quotes",
+    "summary": "Drafts NDAs, service agreements and offers from a short brief, flags risky or missing terms in plain language, and sends the final PDF for e-signature.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Julian Andrin Weber",
+      "url": "https://x.com/julianweber"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/emH53moZpEP8rqAECJBAd"
+    },
+    "official_share_url": "https://x.ai/bot/emH53moZpEP8rqAECJBAd",
+    "found_via": null,
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-11-15",
+    "url": "https://moneywithai.net/bots/contract-signer/",
+    "json_url": "https://moneywithai.net/api/bots/contract-signer.json"
+  }
+}

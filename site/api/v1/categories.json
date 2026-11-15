@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T15:40:02.000Z",
+  "generated_at": "2026-11-15T15:41:11.000Z",
   "api_version": "v1",
   "schema_revision": 2,
   "status_url": "https://moneywithai.net/api/v1/status.json",
@@ -200,8 +200,8 @@
     {
       "slug": "client-services",
       "label": "Client Services",
-      "bots": 39,
-      "use_cases": 20,
+      "bots": 40,
+      "use_cases": 24,
       "sub_use_cases": [
         {
           "slug": "client-confirmations",
@@ -211,7 +211,7 @@
         {
           "slug": "quotes",
           "label": "Quotes",
-          "bots": 6
+          "bots": 7
         },
         {
           "slug": "client-delivery",
@@ -235,7 +235,7 @@
       "slug": "finance",
       "label": "Finance",
       "bots": 41,
-      "use_cases": 18,
+      "use_cases": 19,
       "sub_use_cases": [
         {
           "slug": "invoices",

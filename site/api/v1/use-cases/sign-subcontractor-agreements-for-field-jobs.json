@@ -1,0 +1,126 @@
+{
+  "type": "use-case",
+  "slug": "sign-subcontractor-agreements-for-field-jobs",
+  "title": "Sign Subcontractor Agreements Before a Job Starts",
+  "category": "Client Services",
+  "category_slug": "client-services",
+  "money_model": "Save costs",
+  "difficulty": "Intermediate",
+  "summary": "Compare subcontractor quotes, then turn the chosen quote into a written agreement with the scope, dates and payment terms spelled out before work starts.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you hire subcontractors for jobs; the value is quotes compared on the same scope and a written agreement before work starts.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Quotes are compared side by side before one is chosen.",
+    "The agreement is drafted from the chosen quote, so the scope matches what was agreed."
+  ],
+  "who_its_for": [
+    "Trades and field service businesses that hire subcontractors.",
+    "General contractors who manage several jobs at once."
+  ],
+  "stack": [
+    {
+      "bot": "contractor-quote-negotiator",
+      "name": "Contractor Quote Negotiator",
+      "role": "Collects contractor quotes, compares them in Google Sheets and drafts negotiation emails.",
+      "creator": "benln",
+      "tools": [
+        "Gmail",
+        "Google Sheets"
+      ],
+      "url": "https://moneywithai.net/bots/contractor-quote-negotiator/",
+      "official_share_url": null
+    },
+    {
+      "bot": "contract-signer",
+      "name": "Contract Signer",
+      "role": "Drafts the subcontractor agreement from the chosen quote, flags missing terms and sends it for e-signature.",
+      "creator": "Julian Andrin Weber",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/contract-signer/",
+      "official_share_url": "https://x.ai/bot/emH53moZpEP8rqAECJBAd"
+    }
+  ],
+  "tools": [
+    "Gmail",
+    "Google Sheets",
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Subcontractor quotes",
+        "tool": "Google Sheets"
+      },
+      {
+        "label": "Chosen quote, scope and payment terms",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "contractor-quote-negotiator",
+        "name": "Contractor Quote Negotiator",
+        "does": "Compares quotes and drafts replies",
+        "tools": [
+          "Gmail",
+          "Google Sheets"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "contract-signer",
+        "name": "Contract Signer",
+        "does": "Drafts the agreement and flags missing terms",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Approves the scope and sends for signature",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A quote comparison sheet",
+      "A signed agreement before work starts"
+    ]
+  },
+  "steps": [
+    "Collect at least two quotes for the same scope.",
+    "Let the negotiator compare them in a sheet and draft replies.",
+    "Pick a quote and write the scope, dates and payment terms in a brief.",
+    "Have the contract signer draft the agreement and flag missing terms.",
+    "Review the agreement and send it for signature before work starts."
+  ],
+  "guardrails": [
+    "No agreement is sent until you approve the scope and payment terms.",
+    "Check insurance and licence requirements yourself; the bot does not verify them."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-11-15T10:00:00.000Z",
+  "featured": {
+    "rank": 109,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/sign-subcontractor-agreements-for-field-jobs/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/sign-subcontractor-agreements-for-field-jobs.json"
+}

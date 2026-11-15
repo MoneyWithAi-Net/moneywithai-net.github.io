@@ -1,0 +1,126 @@
+{
+  "type": "use-case",
+  "slug": "turn-client-calls-into-retainer-agreements",
+  "title": "Turn Client Calls into Retainer Agreements",
+  "category": "Client Services",
+  "category_slug": "client-services",
+  "money_model": "Grow sales",
+  "difficulty": "Intermediate",
+  "summary": "Pull the agreed scope and action items from a client call into a retainer agreement, so the ongoing work is written down and signed.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you run monthly retainers with clients; the value is written scope and fewer disputes over what was agreed.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Ongoing work is written down, so the scope is clear from month to month.",
+    "Action items from the call go straight into the agreement brief."
+  ],
+  "who_its_for": [
+    "Agencies and consultants with monthly retainer clients.",
+    "Service firms that renew client work each quarter."
+  ],
+  "stack": [
+    {
+      "bot": "meeting-notes-assistant",
+      "name": "Meeting Notes Assistant",
+      "role": "Writes notes, decisions and action items from the call to Google Docs.",
+      "creator": "mvanhorn",
+      "tools": [
+        "Google Calendar",
+        "Google Docs"
+      ],
+      "url": "https://moneywithai.net/bots/meeting-notes-assistant/",
+      "official_share_url": null
+    },
+    {
+      "bot": "contract-signer",
+      "name": "Contract Signer",
+      "role": "Drafts the retainer agreement from the agreed scope, flags missing terms and sends the PDF for e-signature.",
+      "creator": "Julian Andrin Weber",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/contract-signer/",
+      "official_share_url": "https://x.ai/bot/emH53moZpEP8rqAECJBAd"
+    }
+  ],
+  "tools": [
+    "Google Calendar",
+    "Google Docs",
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Client call transcript",
+        "tool": null
+      },
+      {
+        "label": "Agreed scope and fees",
+        "tool": "Google Docs"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "meeting-notes-assistant",
+        "name": "Meeting Notes Assistant",
+        "does": "Writes notes, decisions and action items",
+        "tools": [
+          "Google Calendar",
+          "Google Docs"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "contract-signer",
+        "name": "Contract Signer",
+        "does": "Drafts the retainer and flags missing terms",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Confirms scope with the client and sends for signature",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Call notes in Google Docs",
+      "A signed retainer on file"
+    ]
+  },
+  "steps": [
+    "Record or transcribe the client call.",
+    "Let the notes assistant write the decisions and action items.",
+    "Copy the agreed scope and fees into a short retainer brief.",
+    "Have the contract signer draft the agreement and flag terms.",
+    "Review and send the agreement for e-signature once the client has confirmed the scope."
+  ],
+  "guardrails": [
+    "Confirm the scope with the client in writing before drafting the agreement.",
+    "Have a lawyer review any retainer that includes exclusivity or liability terms."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-11-15T10:00:00.000Z",
+  "featured": {
+    "rank": 113,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/turn-client-calls-into-retainer-agreements/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/turn-client-calls-into-retainer-agreements.json"
+}

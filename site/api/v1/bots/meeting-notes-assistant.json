@@ -28,11 +28,12 @@
   "use_cases": [
     "https://moneywithai.net/use-cases/virtual-assistant-business/",
     "https://moneywithai.net/use-cases/consulting-meeting-system/",
-    "https://moneywithai.net/use-cases/ceo-morning-ops/"
+    "https://moneywithai.net/use-cases/ceo-morning-ops/",
+    "https://moneywithai.net/use-cases/turn-client-calls-into-retainer-agreements/"
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 143,
+    "rank": 144,
     "score": 83,
     "money": 27,
     "profile": 26,
