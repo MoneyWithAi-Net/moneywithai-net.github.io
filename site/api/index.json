@@ -2,7 +2,7 @@
   "name": "Money With AI by AnthonyToday",
   "url": "https://moneywithai.net",
   "description": "Copy-ready AI bot setups that help you run your business. Each listing credits its creator and links the original source.",
-  "generated_at": "2026-11-15T06:54:17.000Z",
+  "generated_at": "2026-11-15T15:40:02.000Z",
   "counts": {
     "bots": 682,
     "use_cases": 179,
@@ -28,7 +28,7 @@
     },
     "use_case_detail": {
       "url": "https://moneywithai.net/api/v1/use-cases/{slug}.json",
-      "about": "One use case with diagram, steps, guardrails and labelled claims."
+      "about": "One use case with diagram, steps, guardrails and labeled claims."
     },
     "api_v1_status": {
       "url": "https://moneywithai.net/api/v1/status.json",

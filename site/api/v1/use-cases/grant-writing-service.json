@@ -6,14 +6,14 @@
   "category_slug": "client-services",
   "money_model": "Sell a service",
   "difficulty": "Intermediate",
-  "summary": "Find live funding programmes for a client and prepare the application pack they review and file.",
+  "summary": "Find live funding programs for a client and prepare the application pack they review and file.",
   "money_potential": {
     "tier": 3,
     "symbol": "$$$",
     "label": "High",
     "basis": "Assumes you charge clients per application pack or on a retainer.",
     "claim_label": "E",
-    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+    "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
   },
   "how_it_makes_money": [
     "Charge clients for research and application preparation.",
@@ -26,7 +26,7 @@
     {
       "bot": "grantogre",
       "name": "GrantOgre",
-      "role": "Finds live programmes and prepares the pack a person files.",
+      "role": "Finds live programs and prepares the pack a person files.",
       "creator": "HoneybadgerFan4",
       "tools": [
         "Grok"
@@ -48,7 +48,7 @@
         "tool": null
       },
       {
-        "label": "Live funding programmes",
+        "label": "Live funding programs",
         "tool": null
       }
     ],
@@ -57,7 +57,7 @@
         "order": 1,
         "by": "grantogre",
         "name": "GrantOgre",
-        "does": "Finds programmes and prepares the pack",
+        "does": "Finds programs and prepares the pack",
         "tools": [
           "Grok"
         ]
@@ -77,7 +77,7 @@
   },
   "steps": [
     "Describe the client or project.",
-    "Check each programme on its official page.",
+    "Check each program on its official page.",
     "Review the pack with the client and let them file it."
   ],
   "guardrails": [

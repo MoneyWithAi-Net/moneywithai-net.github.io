@@ -4,7 +4,7 @@
   "name": "GrantOgre",
   "category": "Client Services",
   "sub_use_case": "Grant packs",
-  "summary": "Finds live funding programmes for a company or client project and prepares the pack a person files.",
+  "summary": "Finds live funding programs for a company or client project and prepares the pack a person files.",
   "tools": [
     "Grok"
   ],

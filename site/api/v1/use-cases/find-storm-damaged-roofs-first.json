@@ -13,7 +13,7 @@
     "label": "High",
     "basis": "Assumes you already sell roof repairs; the value is visits that turn into jobs, which depends on the storm season.",
     "claim_label": "E",
-    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+    "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
   },
   "how_it_makes_money": [
     "Less time driving streets that took no damage.",

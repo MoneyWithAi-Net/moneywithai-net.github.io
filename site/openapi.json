@@ -182,7 +182,7 @@
     "/api/v1/use-cases.json": {
       "get": {
         "operationId": "listUseCases",
-        "summary": "Full use-case records (stack, diagram, steps, labelled claims).",
+        "summary": "Full use-case records (stack, diagram, steps, labeled claims).",
         "tags": [
           "Directory"
         ],

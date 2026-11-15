@@ -13,7 +13,7 @@
     "label": "Medium",
     "basis": "Assumes you work insurance jobs with required code upgrades; the value is getting paid for that work, though the carrier decides.",
     "claim_label": "E",
-    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+    "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
   },
   "how_it_makes_money": [
     "Fewer insurance jobs short-paid for required code work.",

@@ -5,7 +5,7 @@
     "name": "Google Earth",
     "category": "Content and Marketing",
     "sub_use_case": "Video production",
-    "summary": "Makes 3D map stills and fly-through videos between places, with labelled pins and Google Earth KML files, for listings, tours and location pages.",
+    "summary": "Makes 3D map stills and fly-through videos between places, with labeled pins and Google Earth KML files, for listings, tours and location pages.",
     "tools": [
       "Grok",
       "Google Earth"

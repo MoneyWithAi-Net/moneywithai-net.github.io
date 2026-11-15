@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T06:54:17.000Z",
+  "generated_at": "2026-11-15T15:40:02.000Z",
   "api_version": "v1",
   "schema_revision": 2,
   "status_url": "https://moneywithai.net/api/v1/status.json",
@@ -20,7 +20,7 @@
         "label": "High",
         "basis": "Assumes you charge per website build or a monthly care plan, so income grows with each client who says yes.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "You sell a website build or a monthly care plan to each business that says yes.",
@@ -166,7 +166,7 @@
         "label": "Medium",
         "basis": "Assumes you already sell on Instagram; it adds warm conversations, not a new product.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "More conversations with people who already know your brand.",
@@ -266,7 +266,7 @@
         "label": "Medium",
         "basis": "Assumes you sell a B2B service; leads still need your follow-up to close.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Each comment becomes a tracked lead you can follow up.",
@@ -394,7 +394,7 @@
         "label": "Low",
         "basis": "Assumes replies bring profile visits first; sales come later and depend on your offer.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Helpful replies in the right threads bring profile visits and inbound leads.",
@@ -514,7 +514,7 @@
         "label": "High",
         "basis": "Assumes you sell SEO retainers; specific pitches can win more paying clients.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Specific audits win more discovery calls than generic offers.",
@@ -662,7 +662,7 @@
         "label": "High",
         "basis": "Assumes each home-service job is high value, so winning a few more jobs matters.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Fast, complete replies win more of the jobs you already paid to attract.",
@@ -827,7 +827,7 @@
         "label": "Medium",
         "basis": "Assumes you get more inbound requests than you can answer well.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "You spend your time on the leads most likely to pay.",
@@ -960,7 +960,7 @@
         "label": "Medium",
         "basis": "Assumes technical deals often stall on open questions; it helps calls move, it does not create demand.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Fewer deals slip while you wait for an engineer.",
@@ -1088,7 +1088,7 @@
         "label": "Medium",
         "basis": "Assumes the channel already earns from ads or sponsors; more and better uploads compound over time.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "You publish more often with the same hours.",
@@ -1215,7 +1215,7 @@
         "label": "Low",
         "basis": "Assumes audience growth comes first; income comes later from what you sell or get paid for.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "A steady posting rhythm grows the audience you sell to or get paid by.",
@@ -1355,7 +1355,7 @@
         "label": "Medium",
         "basis": "Assumes you already do brand deals; fair pricing raises what each deal pays.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Creators stop underpricing; brands stop overpaying.",
@@ -1456,7 +1456,7 @@
         "label": "High",
         "basis": "Assumes a store with steady orders; gains scale with your sales volume.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Fewer missed orders, stockouts and slow replies.",
@@ -1599,7 +1599,7 @@
         "label": "Low",
         "basis": "Assumes small margins per item; income grows with how many items you source and list.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "You list more items per hour.",
@@ -1697,7 +1697,7 @@
         "label": "Low",
         "basis": "Indirect: it gives you timing and ideas, not income on its own.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "React to launches with offers or content while they are fresh.",
@@ -1822,7 +1822,7 @@
         "label": "Low",
         "basis": "Mainly saves time and wasted trips; income grows only if you book more shoots.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Fewer wasted trips and rained-out shoots.",
@@ -1964,7 +1964,7 @@
         "label": "Medium",
         "basis": "Assumes faster, consistent quotes win more small custom orders.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Quick quotes win more small jobs.",
@@ -2076,14 +2076,14 @@
       "category_slug": "client-services",
       "money_model": "Sell a service",
       "difficulty": "Intermediate",
-      "summary": "Find live funding programmes for a client and prepare the application pack they review and file.",
+      "summary": "Find live funding programs for a client and prepare the application pack they review and file.",
       "money_potential": {
         "tier": 3,
         "symbol": "$$$",
         "label": "High",
         "basis": "Assumes you charge clients per application pack or on a retainer.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Charge clients for research and application preparation.",
@@ -2096,7 +2096,7 @@
         {
           "bot": "grantogre",
           "name": "GrantOgre",
-          "role": "Finds live programmes and prepares the pack a person files.",
+          "role": "Finds live programs and prepares the pack a person files.",
           "creator": "HoneybadgerFan4",
           "tools": [
             "Grok"
@@ -2118,7 +2118,7 @@
             "tool": null
           },
           {
-            "label": "Live funding programmes",
+            "label": "Live funding programs",
             "tool": null
           }
         ],
@@ -2127,7 +2127,7 @@
             "order": 1,
             "by": "grantogre",
             "name": "GrantOgre",
-            "does": "Finds programmes and prepares the pack",
+            "does": "Finds programs and prepares the pack",
             "tools": [
               "Grok"
             ]
@@ -2147,7 +2147,7 @@
       },
       "steps": [
         "Describe the client or project.",
-        "Check each programme on its official page.",
+        "Check each program on its official page.",
         "Review the pack with the client and let them file it."
       ],
       "guardrails": [
@@ -2184,7 +2184,7 @@
         "label": "High",
         "basis": "Assumes you sell it as a monthly retainer to several local businesses.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Sell it as a monthly retainer to local businesses.",
@@ -2326,7 +2326,7 @@
         "label": "High",
         "basis": "Assumes you sell social management to brands on monthly terms.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Sell social management to brands at studio quality.",
@@ -2451,7 +2451,7 @@
         "label": "Medium",
         "basis": "Assumes steady campaigns bring new clients; you set the ad budget.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Steady campaigns bring new patients or clients.",
@@ -2571,7 +2571,7 @@
         "label": "Low",
         "basis": "Saves bookkeeping time and catches late rent; it does not add new income.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Late rent gets chased sooner.",
@@ -2691,7 +2691,7 @@
         "label": "Low",
         "basis": "Recovers money owed to you; the amount depends on your order volume and error rate.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Refund errors get caught and filed instead of missed.",
@@ -2789,7 +2789,7 @@
         "label": "Low",
         "basis": "Mainly saves costs: it finds waste and speeds up the close.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Catch unused subscriptions and billing surprises.",
@@ -2915,7 +2915,7 @@
         "label": "Medium",
         "basis": "Assumes drafted routine work lets each accountant serve more clients.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "More clients per accountant.",
@@ -3045,7 +3045,7 @@
         "label": "Medium",
         "basis": "Assumes fewer repeat tickets keep customers paying; it protects revenue more than it adds it.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Fewer repeat tickets and faster fixes keep customers paying.",
@@ -3204,7 +3204,7 @@
         "label": "Medium",
         "basis": "Assumes missed calls and slow replies currently lose you bookings.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Good replies to reviews win future customers.",
@@ -3333,7 +3333,7 @@
         "label": "Low",
         "basis": "Research only: value depends on the new line you pick and run.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Pick a new line with evidence instead of a hunch.",
@@ -3452,7 +3452,7 @@
         "label": "Low",
         "basis": "Indirect: it informs your pricing and offers, not income on its own.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Respond to price and offer changes quickly.",
@@ -3571,7 +3571,7 @@
         "label": "Medium",
         "basis": "Mainly saves costs; gains grow with the number of units you manage.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Faster repairs keep tenants and reduce turnover.",
@@ -3691,7 +3691,7 @@
         "label": "Medium",
         "basis": "Assumes project managers lose hours to the inbox that could go to billable site work.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Project managers spend more time on site and less in the inbox.",
@@ -3843,7 +3843,7 @@
         "label": "High",
         "basis": "Assumes public contracts are large, so each extra bid won matters.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Bid on more tenders with the same team.",
@@ -3867,7 +3867,7 @@
         {
           "bot": "grantogre",
           "name": "GrantOgre",
-          "role": "Finds funding programmes and prepares packs.",
+          "role": "Finds funding programs and prepares packs.",
           "creator": "HoneybadgerFan4",
           "tools": [
             "Grok"
@@ -3887,7 +3887,7 @@
             "tool": null
           },
           {
-            "label": "Funding programmes",
+            "label": "Funding programs",
             "tool": null
           }
         ],
@@ -3961,7 +3961,7 @@
         "label": "High",
         "basis": "Assumes you sell builds or monthly retainers, so each client who signs adds recurring income.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Each booked call is a shot at a website, SEO or care-plan client.",
@@ -4166,7 +4166,7 @@
         "label": "Medium",
         "basis": "Assumes you already have a product people switch to; it adds conversations, not a new offer.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "People already shopping for a switch convert faster than cold leads.",
@@ -4336,7 +4336,7 @@
         "label": "High",
         "basis": "Assumes a monthly management fee per client, so each signed account repeats.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Active advertisers already have a budget, so the pitch is about results, not convincing.",
@@ -4514,7 +4514,7 @@
         "label": "Medium",
         "basis": "Assumes a B2B offer where a few extra meetings a month matter.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Intent-based lists waste fewer messages than bought lists.",
@@ -4686,7 +4686,7 @@
         "label": "Medium",
         "basis": "Assumes a mid-ticket B2B offer with a sales cycle of weeks.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Lookalikes of a real customer convert better than broad lists.",
@@ -4867,7 +4867,7 @@
         "label": "Medium",
         "basis": "Assumes you already get some inbound brand interest.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Legit sponsors get a fast, confident answer.",
@@ -5033,7 +5033,7 @@
         "label": "Medium",
         "basis": "Assumes project-based freelance work at a set day or project rate.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "You answer high-fit gigs first, while competition is low.",
@@ -5232,7 +5232,7 @@
         "label": "High",
         "basis": "Assumes a commission or assignment fee per closed deal, which is large but infrequent.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Earlier contact with motivated sellers means better deals.",
@@ -5416,7 +5416,7 @@
         "label": "Medium",
         "basis": "Assumes each vacant week costs real rent, so filling faster saves money.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Fewer vacant days on each unit.",
@@ -5597,7 +5597,7 @@
         "label": "High",
         "basis": "Assumes high-value jobs, so winning a few more each month matters.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Fewer jobs lost to the next contractor who called back first.",
@@ -5777,7 +5777,7 @@
         "label": "Medium",
         "basis": "Assumes large deal sizes where a single extra win is meaningful.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Personal hooks lift reply rates with senior buyers.",
@@ -5947,7 +5947,7 @@
         "label": "Medium",
         "basis": "Assumes commission or margin per account, so more visits convert to more orders.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "More good visits per day and fewer forgotten follow-ups.",
@@ -6112,7 +6112,7 @@
         "label": "Medium",
         "basis": "Assumes a list of past inquiries that never bought.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Old leads you already paid for get a second chance.",
@@ -6291,7 +6291,7 @@
         "label": "High",
         "basis": "Assumes a monthly package per channel, so each client repeats.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "A free sample made from their content is hard to ignore.",
@@ -6458,7 +6458,7 @@
         "label": "Low",
         "basis": "Assumes a product that Reddit users already ask about; growth is slow and steady.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Helpful answers in the right threads bring steady inbound.",
@@ -6624,7 +6624,7 @@
         "label": "Medium",
         "basis": "Assumes annual contracts where one saved deal is worth a lot.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Deals stall less in security review.",
@@ -6801,7 +6801,7 @@
         "label": "Medium",
         "basis": "Assumes a mid-ticket offer sold over a call.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "No lead waits hours for a first answer.",
@@ -6978,7 +6978,7 @@
         "label": "High",
         "basis": "Assumes subscription revenue, so each new customer adds monthly income.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "A solo founder keeps outbound and follow-up going every week.",
@@ -7165,7 +7165,7 @@
         "label": "Medium",
         "basis": "Assumes a B2B service where a few calls a month lead to deals.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Content builds trust; tracking turns it into meetings.",
@@ -7344,7 +7344,7 @@
         "label": "Medium",
         "basis": "Assumes a low monthly fee per business, so income builds with client count.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "A simple, recurring offer many local owners need.",
@@ -7510,7 +7510,7 @@
         "label": "Low",
         "basis": "Assumes sales come from relationships over months, not days.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Relationships turn into referrals and inbound deals.",
@@ -7678,7 +7678,7 @@
         "label": "Medium",
         "basis": "Assumes income from sponsors, ads or products that grows with audience.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Consistent output without hiring a team.",
@@ -7885,7 +7885,7 @@
         "label": "Medium",
         "basis": "Assumes marketing output drives sales you already make.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Marketing keeps shipping while you run the business.",
@@ -8090,7 +8090,7 @@
         "label": "Medium",
         "basis": "Assumes traffic converts to leads or sales on your site over time.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "One recording feeds several channels.",
@@ -8278,7 +8278,7 @@
         "label": "High",
         "basis": "Assumes a monthly retainer per client.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "A new service many businesses are asking about.",
@@ -8470,7 +8470,7 @@
         "label": "Medium",
         "basis": "Assumes an existing ad budget where better angles raise returns.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Customer words usually beat brainstormed copy.",
@@ -8637,7 +8637,7 @@
         "label": "Medium",
         "basis": "Assumes sponsor or client income that grows with listeners.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "More reach per episode without more recording.",
@@ -8838,7 +8838,7 @@
         "label": "High",
         "basis": "Assumes a monthly package per show.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Recurring monthly work per show.",
@@ -9009,7 +9009,7 @@
         "label": "Medium",
         "basis": "Assumes sponsor income once the list reaches a few thousand readers.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "An audience you own that sponsors want to reach.",
@@ -9208,7 +9208,7 @@
         "label": "Medium",
         "basis": "Assumes followers turn into customers over time.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Steady posting that sounds like you.",
@@ -9402,7 +9402,7 @@
         "label": "High",
         "basis": "Assumes a monthly retainer per client.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Recurring retainers from busy founders.",
@@ -9596,7 +9596,7 @@
         "label": "Low",
         "basis": "Assumes slow growth; ad income usually takes months to start.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "A steady channel that brings viewers to your business without you on camera.",
@@ -9788,7 +9788,7 @@
         "label": "Medium",
         "basis": "Assumes a monthly fee per client.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Simple, repeatable monthly offer.",
@@ -9973,7 +9973,7 @@
         "label": "Medium",
         "basis": "Assumes releases can win back or upsell existing users.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Customers learn what is new and come back.",
@@ -10154,7 +10154,7 @@
         "label": "Low",
         "basis": "Assumes social reach supports sales you already make.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Proven posts reach new followers.",
@@ -10353,7 +10353,7 @@
         "label": "Low",
         "basis": "Assumes reputation affects sales; value shows over time.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Happy mentions get amplified; complaints get handled.",
@@ -10527,7 +10527,7 @@
         "label": "Medium",
         "basis": "Assumes partners drive sales you pay for only when they happen.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Partners sell for you on commission only.",
@@ -10693,7 +10693,7 @@
         "label": "Medium",
         "basis": "Assumes you already sell to an Instagram audience.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Posts based on proven formats.",
@@ -10875,7 +10875,7 @@
         "label": "Medium",
         "basis": "Assumes a B2B offer where trust drives deals.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "A sharper profile converts visits.",
@@ -11063,7 +11063,7 @@
         "label": "High",
         "basis": "Assumes monthly retainers per client.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Recurring local SEO retainers.",
@@ -11247,7 +11247,7 @@
         "label": "Medium",
         "basis": "Assumes fixed audit fees plus some monthly retainers.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "A fixed-price audit is an easy first sale.",
@@ -11455,7 +11455,7 @@
         "label": "Medium",
         "basis": "Assumes monthly retainers from firms that need careful marketing.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Regulated firms pay for safe, steady marketing.",
@@ -11617,7 +11617,7 @@
         "label": "Low",
         "basis": "Assumes recurring membership fees, so retention matters.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Members stay longer.",
@@ -11779,7 +11779,7 @@
         "label": "Medium",
         "basis": "Assumes time saved and a few extra repeat orders.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Fewer hours on routine store work.",
@@ -11983,7 +11983,7 @@
         "label": "Low",
         "basis": "Assumes thin margins per item, so income grows slowly with volume.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "No inventory risk.",
@@ -12190,7 +12190,7 @@
         "label": "Medium",
         "basis": "Assumes fixed audit fees.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Fixed-price audits are easy to sell.",
@@ -12352,7 +12352,7 @@
         "label": "Medium",
         "basis": "Assumes small margin gains across many orders.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "You react to price moves the same week.",
@@ -12532,7 +12532,7 @@
         "label": "Medium",
         "basis": "Assumes organic traffic converts to orders over months.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "More pages for buyers to find.",
@@ -12720,7 +12720,7 @@
         "label": "Low",
         "basis": "Assumes small margins per item.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "More buyers see each item.",
@@ -12889,7 +12889,7 @@
         "label": "Medium",
         "basis": "Assumes custom jobs with healthy margins.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Quotes go out the same day.",
@@ -13082,7 +13082,7 @@
         "label": "Medium",
         "basis": "Assumes recovered refunds plus a few extra bookings.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "No missed calls at rush hour.",
@@ -13255,7 +13255,7 @@
         "label": "Low",
         "basis": "Assumes slow traffic growth and small commissions.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Useful guides readers trust, with affiliate links disclosed.",
@@ -13435,7 +13435,7 @@
         "label": "Medium",
         "basis": "Assumes repeat purchases from existing customers.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Repeat buyers cost less than new ones.",
@@ -13605,7 +13605,7 @@
         "label": "Low",
         "basis": "Assumes time saved rather than new revenue.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Less time in dashboards.",
@@ -13778,7 +13778,7 @@
         "label": "Medium",
         "basis": "Assumes creative quality lifts conversion on existing traffic.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Fresh creative for every launch.",
@@ -13968,7 +13968,7 @@
         "label": "High",
         "basis": "Assumes a monthly fee per business.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Local owners stop missing customer calls.",
@@ -14166,7 +14166,7 @@
         "label": "Medium",
         "basis": "Assumes a setup fee plus monthly support per client.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "WhatsApp is where many customers already ask.",
@@ -14371,7 +14371,7 @@
         "label": "Medium",
         "basis": "Assumes a monthly retainer per client.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Serve more clients per assistant.",
@@ -14561,7 +14561,7 @@
         "label": "Medium",
         "basis": "Assumes faster proposals win a few more deals.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Proposals go out while the call is fresh.",
@@ -14766,7 +14766,7 @@
         "label": "High",
         "basis": "Assumes build fees plus monthly care plans.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Build fees up front, care plans every month.",
@@ -14952,7 +14952,7 @@
         "label": "Medium",
         "basis": "Assumes a monthly plan per site.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Predictable monthly work for your studio.",
@@ -15120,7 +15120,7 @@
         "label": "Medium",
         "basis": "Assumes event fees with fewer costly mistakes.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Fewer dropped details on event day.",
@@ -15290,7 +15290,7 @@
         "label": "Medium",
         "basis": "Assumes commission per booked show.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "More gigs handled per agent.",
@@ -15459,7 +15459,7 @@
         "label": "Low",
         "basis": "Assumes occasional prizes and licensing fees.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Your existing photo library gets more use.",
@@ -15624,7 +15624,7 @@
         "label": "Medium",
         "basis": "Assumes monthly retainers per client.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "More clients per writer.",
@@ -15823,7 +15823,7 @@
         "label": "High",
         "basis": "Assumes discovery fees plus project builds.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Paid discovery leads to bigger builds.",
@@ -16014,7 +16014,7 @@
         "label": "Medium",
         "basis": "Assumes admin time saved becomes billable time.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "More billable hours, less admin.",
@@ -16199,7 +16199,7 @@
         "label": "High",
         "basis": "Assumes cleanup fees plus monthly retainers.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Cleanups are a clear, paid first project.",
@@ -16388,7 +16388,7 @@
         "label": "Medium",
         "basis": "Assumes savings from fewer errors and better vendor terms.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Fewer late fees and duplicate payments.",
@@ -16575,7 +16575,7 @@
         "label": "Medium",
         "basis": "Assumes money owed to you that is paid late.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Fewer invoices sit unpaid.",
@@ -16746,7 +16746,7 @@
         "label": "Medium",
         "basis": "Assumes some unused or overpriced subscriptions exist.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Immediate savings on forgotten tools.",
@@ -16949,7 +16949,7 @@
         "label": "Medium",
         "basis": "Assumes regular spend on vendors and contractors.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Better prices without awkward calls.",
@@ -17119,7 +17119,7 @@
         "label": "Medium",
         "basis": "Assumes fixed migration fees.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Fixed-price projects for businesses forced to move.",
@@ -17291,7 +17291,7 @@
         "label": "Low",
         "basis": "Assumes savings from catching waste and late renewals.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Fewer cash surprises.",
@@ -17465,7 +17465,7 @@
         "label": "Medium",
         "basis": "Assumes more clients served per month.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "More clients per accountant.",
@@ -17627,7 +17627,7 @@
         "label": "Low",
         "basis": "Assumes time saved at month end.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Month-end takes hours, not days.",
@@ -17802,7 +17802,7 @@
         "label": "Low",
         "basis": "Assumes some leakage exists; amounts vary widely.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Unpaid invoices and missing credits get tracked down.",
@@ -17968,7 +17968,7 @@
         "label": "Medium",
         "basis": "Assumes fewer support hours per ticket.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Faster answers with fewer escalations.",
@@ -18139,7 +18139,7 @@
         "label": "Medium",
         "basis": "Assumes support time saved.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Shorter queues.",
@@ -18311,7 +18311,7 @@
         "label": "Medium",
         "basis": "Assumes fewer churned customers after incidents.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Incidents caught before they spread.",
@@ -18488,7 +18488,7 @@
         "label": "Medium",
         "basis": "Assumes better retention and ad returns.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Build what customers ask for.",
@@ -18660,7 +18660,7 @@
         "label": "Medium",
         "basis": "Assumes new-market sales that need local-language support.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Serve buyers in new markets.",
@@ -18845,7 +18845,7 @@
         "label": "Medium",
         "basis": "Assumes recurring revenue where saves add up.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Each saved customer keeps paying.",
@@ -19007,7 +19007,7 @@
         "label": "Medium",
         "basis": "Assumes inquiries outside opening hours that used to go unanswered.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Late inquiries become bookings.",
@@ -19194,7 +19194,7 @@
         "label": "Low",
         "basis": "Assumes support time saved.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Answers stay accurate as the product changes.",
@@ -19371,7 +19371,7 @@
         "label": "Low",
         "basis": "Assumes the value is avoiding a bad bet on a new offer.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "You avoid building something nobody wants.",
@@ -19553,7 +19553,7 @@
         "label": "Medium",
         "basis": "Assumes a monthly fee per client.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Recurring reports with low delivery time.",
@@ -19742,7 +19742,7 @@
         "label": "High",
         "basis": "Assumes a placement fee per hire.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Placement fees are large per hire.",
@@ -19951,7 +19951,7 @@
         "label": "Medium",
         "basis": "Assumes saved time and fewer costly mistakes.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Fewer missed issues and disputes.",
@@ -20136,7 +20136,7 @@
         "label": "Medium",
         "basis": "Assumes an owned or planned rental.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Better buy decisions.",
@@ -20328,7 +20328,7 @@
         "label": "Medium",
         "basis": "Assumes founder time saved.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Hours back each week.",
@@ -20516,7 +20516,7 @@
         "label": "Low",
         "basis": "Assumes executive time saved.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "A calmer start to the day.",
@@ -20685,7 +20685,7 @@
         "label": "Low",
         "basis": "Assumes time saved answering questions.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "New staff and bots ramp faster.",
@@ -20853,7 +20853,7 @@
         "label": "Low",
         "basis": "Assumes avoided penalties and adviser hours.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Fewer missed obligations.",
@@ -21015,7 +21015,7 @@
         "label": "Medium",
         "basis": "Assumes less churn and support load from bugs.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Fewer bugs reach customers.",
@@ -21216,7 +21216,7 @@
         "label": "Medium",
         "basis": "Assumes a few won contracts a year.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "More qualified bids each month.",
@@ -21381,7 +21381,7 @@
         "label": "Low",
         "basis": "Assumes sponsor income once traffic is steady.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "A useful directory attracts steady visitors.",
@@ -21568,7 +21568,7 @@
         "label": "Low",
         "basis": "Assumes admin time saved.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Client requests never get lost.",
@@ -21734,7 +21734,7 @@
         "label": "Medium",
         "basis": "Assumes commission per closed deal.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Listings get more attention.",
@@ -21929,7 +21929,7 @@
         "label": "Medium",
         "basis": "Assumes better win rates from product fit.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Product builds what closes deals.",
@@ -22105,7 +22105,7 @@
         "label": "Medium",
         "basis": "Assumes you already invoice on terms and spend time chasing late payers by hand.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Less time writing chasing emails by hand.",
@@ -22215,7 +22215,7 @@
         "label": "Low",
         "basis": "Assumes you keep your own books and pay an accountant at month end or year end.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Errors are found each month, not at tax time.",
@@ -22357,7 +22357,7 @@
         "label": "Medium",
         "basis": "Assumes you already sell to stores or bulk buyers; a clear catalog saves layout time and makes ordering easier.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Buyers can order from a clear catalog instead of asking you for prices one by one.",
@@ -22485,7 +22485,7 @@
         "label": "Medium",
         "basis": "Assumes you do your own books today; the value is time saved and fewer lost receipts, not new income.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "No more paying for a rushed catch-up before the tax deadline.",
@@ -22626,7 +22626,7 @@
         "label": "Low",
         "basis": "Assumes X already brings you some enquiries; the stack saves checking time and helps you post what works.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Replies from potential clients get answered instead of lost in the feed.",
@@ -22776,7 +22776,7 @@
         "label": "Medium",
         "basis": "Assumes you pay several vendors on renewing contracts; savings come from cancelling or renegotiating in time.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "You stop paying for renewals nobody meant to keep.",
@@ -22907,7 +22907,7 @@
         "label": "Medium",
         "basis": "Assumes some products are priced from old costs; margin improves as those prices are fixed.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "No more products quietly sold at a loss because costs went up.",
@@ -23032,7 +23032,7 @@
         "label": "Low",
         "basis": "Assumes the page already gets visitors; value comes from more of them buying, not from new traffic.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "More of the visitors you already have turn into buyers.",
@@ -23169,7 +23169,7 @@
         "label": "Medium",
         "basis": "Assumes you sell to businesses and want to test a new type of customer; the value is research time saved and a clear answer before hiring.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "You learn if a new market replies before you pay for a salesperson.",
@@ -23300,7 +23300,7 @@
         "label": "Medium",
         "basis": "Assumes you pay for simple product videos today; savings come from making explainers and ad drafts in house.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Fewer paid freelance edits for simple explainers and ads.",
@@ -23437,7 +23437,7 @@
         "label": "Low",
         "basis": "Assumes you run several bots that can buy, post or sign in; the value is checking time saved and problems caught early.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Mistakes and odd purchases get caught in days, not at the end of the month.",
@@ -23558,7 +23558,7 @@
         "label": "Low",
         "basis": "Assumes you launch offers on X; the stack saves checking time and helps each launch learn from the last.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Your next launch uses the hook and timing that worked last time.",
@@ -23707,7 +23707,7 @@
         "label": "Medium",
         "basis": "Assumes customers already message you on WhatsApp; the value is reply time saved and fewer buyers left waiting.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Fewer buyers lost to slow replies on the channel they prefer.",
@@ -23871,7 +23871,7 @@
         "label": "Medium",
         "basis": "Assumes you already send client or investor updates; the value is chart-building time saved.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Updates go out faster, so you spend more hours on paid work.",
@@ -23991,7 +23991,7 @@
         "label": "Medium",
         "basis": "Assumes you already sell parts on eBay; the value is admin time saved and prices that cover fees.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Every part is priced to make money after fees and shipping.",
@@ -24142,7 +24142,7 @@
         "label": "Low",
         "basis": "Assumes you run several bots and already pay for a coding agent plan; the value is work that does not stall.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Work keeps moving instead of waiting for your usage to reset.",
@@ -24289,7 +24289,7 @@
         "label": "Medium",
         "basis": "Assumes you would otherwise pay an editor for short promos; savings come from making them in house.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Steady promo videos for launches, events and offers.",
@@ -24426,7 +24426,7 @@
         "label": "High",
         "basis": "Assumes you already sell remodels; the value is jobs that sign sooner and quotes that do not go quiet.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Clients who can see the result decide sooner.",
@@ -24554,7 +24554,7 @@
         "label": "High",
         "basis": "Assumes you already sell roof repairs; the value is visits that turn into jobs, which depends on the storm season.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Less time driving streets that took no damage.",
@@ -24682,7 +24682,7 @@
         "label": "Medium",
         "basis": "Assumes you already have past clients who own homes; the value is time saved and goodwill, not new fees.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "A useful extra service that keeps past clients coming back.",
@@ -24796,14 +24796,14 @@
       "category_slug": "content-and-marketing",
       "money_model": "Save costs",
       "difficulty": "Beginner",
-      "summary": "Give each listing a 3D map fly-through and stills of the area with labelled pins, then cut short clips with a title and thumbnail for your posts.",
+      "summary": "Give each listing a 3D map fly-through and stills of the area with labeled pins, then cut short clips with a title and thumbnail for your posts.",
       "money_potential": {
         "tier": 2,
         "symbol": "$$",
         "label": "Medium",
         "basis": "Assumes you would otherwise pay for location videos; the value is cost saved per listing.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Fewer paid location videos for each listing.",
@@ -24817,7 +24817,7 @@
         {
           "bot": "google-earth",
           "name": "Google Earth",
-          "role": "Makes 3D map stills and fly-through videos with labelled pins and Google Earth files.",
+          "role": "Makes 3D map stills and fly-through videos with labeled pins and Google Earth files.",
           "creator": "sia14u",
           "tools": [
             "Grok",
@@ -24927,7 +24927,7 @@
         "label": "Medium",
         "basis": "Assumes you already sell from plans; the value is drafting time saved and clearer client decisions.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Clients understand a layout faster and ask fewer questions.",
@@ -25044,7 +25044,7 @@
         "label": "High",
         "basis": "Assumes you can build and host simple sites; the value is rebuilds and care plans you sell.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "You sell site rebuilds and care plans to local trades.",
@@ -25186,7 +25186,7 @@
         "label": "Medium",
         "basis": "Assumes you have no site today; the value is enquiries from customers who can now find and contact you.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Customers who search for you find a page they can call or message from.",
@@ -25328,7 +25328,7 @@
         "label": "Medium",
         "basis": "Assumes you make game art with several people or tools; the value is fewer redraws.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Fewer redraws when art from different people or tools does not match.",
@@ -25417,7 +25417,7 @@
       ],
       "guardrails": [
         "Use only references you own or have the right to use.",
-        "Check the licence of any AI image tool you use commercially."
+        "Check the license of any AI image tool you use commercially."
       ],
       "claims": [],
       "latest_bot_added_at": "2026-11-01T10:00:00.000Z",
@@ -25449,7 +25449,7 @@
         "label": "Medium",
         "basis": "Assumes you write proposals or client briefs; the value is research time saved and claims clients can check.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Proposals with sources are easier for clients to say yes to.",
@@ -25586,7 +25586,7 @@
         "label": "Low",
         "basis": "Assumes you check the same pages by hand each week; the value is time saved and changes caught early.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Hours back each month from checking pages by hand.",
@@ -25728,7 +25728,7 @@
         "label": "Low",
         "basis": "Assumes you pay for an app you use one feature of; the value is that subscription saved.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "One less subscription when a simple tool does the job.",
@@ -25865,7 +25865,7 @@
         "label": "Medium",
         "basis": "Assumes you already run Google Search ads; the value is clearer audits and less unsupervised waste, not new demand.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Less wasted Search spend from clearer negatives and search-term reviews.",
@@ -26012,7 +26012,7 @@
         "label": "Low",
         "basis": "Assumes you sort and draft email by hand today; the value is time saved with you still sending every reply.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Hours back from sorting and drafting.",
@@ -26166,7 +26166,7 @@
         "label": "Medium",
         "basis": "Assumes you already have a waitlist or missed booking messages; the value is filling open chairs you already could sell.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Open slots filled from people already waiting.",
@@ -26314,7 +26314,7 @@
         "label": "Medium",
         "basis": "Assumes some brand threads stall after interest or delivery; the value is collecting on work already done and answering real inquiries faster.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Cash collected on work you already did.",
@@ -26456,7 +26456,7 @@
         "label": "Low",
         "basis": "Assumes you sell print-on-demand or printables; the value is pricing from real costs and clearer listings, not guaranteed sales.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Listings priced from real costs instead of guesses.",
@@ -26609,7 +26609,7 @@
         "label": "Low",
         "basis": "Assumes your inbox is near its storage limit; the value is time saved and an upgrade put off, with you approving every trash.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Delay or skip a storage upgrade you may not need.",
@@ -26760,7 +26760,7 @@
         "label": "Medium",
         "basis": "Assumes leads already reach you in several places; the value is answering more of them while they are warm.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "More leads answered while they are still warm.",
@@ -26909,7 +26909,7 @@
         "label": "Medium",
         "basis": "Assumes you work insurance jobs with required code upgrades; the value is getting paid for that work, though the carrier decides.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Fewer insurance jobs short-paid for required code work.",
@@ -27050,7 +27050,7 @@
         "label": "Low",
         "basis": "Assumes your site and email depend on domains you renew yourself; the value is time saved and avoiding a lapse.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "No lost sales from a site or inbox that went dark.",
@@ -27201,7 +27201,7 @@
         "label": "Low",
         "basis": "Assumes you already test paid social ads; the value is fewer weak tests, not guaranteed sales.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Less ad spend wasted on weak first tests.",
@@ -27347,7 +27347,7 @@
         "label": "Medium",
         "basis": "Assumes you publish video often enough that re-edits cost real time; the value is fewer fixes after release.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Fewer re-edits after a video has already gone out.",
@@ -27468,7 +27468,7 @@
         "label": "Low",
         "basis": "Assumes you script short videos yourself; the value is fewer filmed versions, not guaranteed views.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Videos open with a hook that has a pattern behind it, not a guess.",
@@ -27589,7 +27589,7 @@
         "label": "Medium",
         "basis": "Assumes you buy studio time or reshoots for social and listing visuals; the value is avoided studio costs.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Fewer studio booking and reshoot costs for social and listing visuals.",
@@ -27720,7 +27720,7 @@
         "label": "Medium",
         "basis": "Assumes you already run paid social; the value is fewer weak tests, not guaranteed sales.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Spend goes to angles you have already screened, not guesses.",
@@ -27865,7 +27865,7 @@
         "label": "High",
         "basis": "Assumes you sell a monthly pack per client at a price you set; income grows with each client who says yes.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "You sell a monthly pack to each brand that says yes.",
@@ -28009,7 +28009,7 @@
         "label": "Medium",
         "basis": "Assumes you already sell a service and can reply to public asks; the value is warmer conversations and better use of your time.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "You reach people who have already said they need something.",
@@ -28130,7 +28130,7 @@
         "label": "Low",
         "basis": "Assumes you hold domains you no longer use; the value is fees avoided and fewer surprise renewals, not new income.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "You stop paying for domains that no longer serve the business.",
@@ -28251,7 +28251,7 @@
         "label": "Medium",
         "basis": "Assumes you sell on X and get enquiries from posts; the value is faster replies, and you choose every post.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "You answer buyers while they are still looking.",
@@ -28380,7 +28380,7 @@
         "label": "Medium",
         "basis": "Assumes you sell products that rivals also sell; the value is faster price decisions and margin you protect.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "You react to price moves while they still matter.",
@@ -28514,7 +28514,7 @@
         "label": "Medium",
         "basis": "Assumes you answer the same product questions by email; the value is less time on repeat questions and consistent answers.",
         "claim_label": "E",
-        "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
       },
       "how_it_makes_money": [
         "Your team spends less time on questions you have already answered.",

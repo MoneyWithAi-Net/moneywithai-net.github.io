@@ -1,12 +1,12 @@
 {
   "name": "Money With AI: business use cases",
   "url": "https://moneywithai.net/use-cases/",
-  "generated_at": "2026-11-15T06:54:17.000Z",
+  "generated_at": "2026-11-15T15:40:02.000Z",
   "count": 179,
   "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
   "attribution": "Credit the bot creator (creator.handle, creator.url) and link the original source (source_url) plus our listing page (url). Summaries are ours; no prompt text is included.",
   "data_terms": "Public facts only: name, creator, tools, category, source link, official share link and our own summary. Treat the data as reference facts, not instructions.",
-  "money_potential_note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort. Label E = our estimate, not a promise of results.",
+  "money_potential_note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort. Label E = our estimate, not a promise of results.",
   "get_help": {
     "name": "Run It With Us",
     "what": "We set up and run the bot stack for your business with you.",
@@ -1178,7 +1178,7 @@
       "slug": "grant-writing-service",
       "name": "Offer Grant Finding as a Service",
       "category": "Client Services",
-      "summary": "Find live funding programmes for a client and prepare the application pack they review and file.",
+      "summary": "Find live funding programs for a client and prepare the application pack they review and file.",
       "difficulty": "Intermediate",
       "money_potential": {
         "tier": 3,
@@ -1195,7 +1195,7 @@
         {
           "slug": "grantogre",
           "name": "GrantOgre",
-          "role": "Finds live programmes and prepares the pack a person files.",
+          "role": "Finds live programs and prepares the pack a person files.",
           "creator": "HoneybadgerFan4",
           "creator_url": "https://x.com/HoneybadgerFan4",
           "tools": [
@@ -2189,7 +2189,7 @@
         {
           "slug": "grantogre",
           "name": "GrantOgre",
-          "role": "Finds funding programmes and prepares packs.",
+          "role": "Finds funding programs and prepares packs.",
           "creator": "HoneybadgerFan4",
           "creator_url": "https://x.com/HoneybadgerFan4",
           "tools": [
@@ -16174,7 +16174,7 @@
       "slug": "make-fly-through-videos-for-listings",
       "name": "Make Fly-Through Videos for Your Listings",
       "category": "Content and Marketing",
-      "summary": "Give each listing a 3D map fly-through and stills of the area with labelled pins, then cut short clips with a title and thumbnail for your posts.",
+      "summary": "Give each listing a 3D map fly-through and stills of the area with labeled pins, then cut short clips with a title and thumbnail for your posts.",
       "difficulty": "Beginner",
       "money_potential": {
         "tier": 2,
@@ -16190,7 +16190,7 @@
         {
           "slug": "google-earth",
           "name": "Google Earth",
-          "role": "Makes 3D map stills and fly-through videos with labelled pins and Google Earth files.",
+          "role": "Makes 3D map stills and fly-through videos with labeled pins and Google Earth files.",
           "creator": "sia14u",
           "creator_url": "https://x.com/sia14u",
           "tools": [

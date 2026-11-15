@@ -2958,7 +2958,7 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 - URL: https://moneywithai.net/bots/google-earth/
 - Category: Content and Marketing
-- Summary (Money With AI's words): Makes 3D map stills and fly-through videos between places, with labelled pins and Google Earth KML files, for listings, tours and location pages.
+- Summary (Money With AI's words): Makes 3D map stills and fly-through videos between places, with labeled pins and Google Earth KML files, for listings, tours and location pages.
 - Tools: Grok, Google Earth
 - Creator: @sia14u (https://x.com/sia14u)
 - Original source: https://x.com/sia14u/status/2115122476422467606
@@ -2996,7 +2996,7 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 - URL: https://moneywithai.net/bots/grantogre/
 - Category: Client Services
-- Summary (Money With AI's words): Finds live funding programmes for a company or client project and prepares the pack a person files.
+- Summary (Money With AI's words): Finds live funding programs for a company or client project and prepares the pack a person files.
 - Tools: Grok
 - Creator: @HoneybadgerFan4 (https://x.com/HoneybadgerFan4)
 - Original source: https://x.com/HoneybadgerFan4/status/2105258225922707792
@@ -3303,18 +3303,6 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Human Copywriter
 
-- URL: https://moneywithai.net/bots/human-copywriter/
-- Category: Content and Marketing
-- Summary (Money With AI's words): Rewrites emails, posts and landing copy so they sound human while keeping your meaning and facts.
-- Tools: Grok
-- Creator: massimodeluisa
-- Original source: https://x.ai/bot/JZAccYtlRFvDSU2CnMnkZ
-- Official share link: https://x.ai/bot/JZAccYtlRFvDSU2CnMnkZ
-- Proof level: Source verified: the original post exists and is by the named creator.
-- Prompt: not included; read it at the original source
-
-## Human Copywriter
-
 - URL: https://moneywithai.net/bots/human-copywriter-sultanov-ramil/
 - Category: Content and Marketing
 - Summary (Money With AI's words): Rewrites emails, posts, DMs, blogs and landing pages so they sound human, keeping the facts and adding no new claims.
@@ -3323,6 +3311,18 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Original source: https://x.ai/bot/vgiYk0mJeijE4YXmfmQld
 - Official share link: https://x.ai/bot/vgiYk0mJeijE4YXmfmQld
 - Found via: https://x.ai/bot/vgiYk0mJeijE4YXmfmQld
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Human Copywriter
+
+- URL: https://moneywithai.net/bots/human-copywriter/
+- Category: Content and Marketing
+- Summary (Money With AI's words): Rewrites emails, posts and landing copy so they sound human while keeping your meaning and facts.
+- Tools: Grok
+- Creator: massimodeluisa
+- Original source: https://x.ai/bot/JZAccYtlRFvDSU2CnMnkZ
+- Official share link: https://x.ai/bot/JZAccYtlRFvDSU2CnMnkZ
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
@@ -4986,6 +4986,18 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Phone Receptionist
 
+- URL: https://moneywithai.net/bots/phone-receptionist/
+- Category: Customer Support
+- Summary (Money With AI's words): Answers a business phone line and books meetings on Google Calendar. The share card lists a paid phone plan.
+- Tools: Google Calendar, Bland
+- Creator: @SimplyColeB (https://x.com/SimplyColeB)
+- Original source: https://x.com/SimplyColeB/status/2107971762831114461
+- Official share link: https://x.ai/bot/Z7LfRtBtwfaojaomMrAuX
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Phone Receptionist
+
 - URL: https://moneywithai.net/bots/phone-receptionist-i668/
 - Category: Customer Support
 - Summary (Money With AI's words): Answers calls in your browser as an automated receptionist, asks a few questions and passes on a summary.
@@ -4994,18 +5006,6 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Original source: https://x.ai/bot/vxvNEoprSLLwOa2d02f6C
 - Official share link: https://x.ai/bot/vxvNEoprSLLwOa2d02f6C
 - Found via: https://x.ai/bot/vxvNEoprSLLwOa2d02f6C
-- Proof level: Source verified: the original post exists and is by the named creator.
-- Prompt: not included; read it at the original source
-
-## Phone Receptionist
-
-- URL: https://moneywithai.net/bots/phone-receptionist/
-- Category: Customer Support
-- Summary (Money With AI's words): Answers a business phone line and books meetings on Google Calendar. The share card lists a paid phone plan.
-- Tools: Google Calendar, Bland
-- Creator: @SimplyColeB (https://x.com/SimplyColeB)
-- Original source: https://x.com/SimplyColeB/status/2107971762831114461
-- Official share link: https://x.ai/bot/Z7LfRtBtwfaojaomMrAuX
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 

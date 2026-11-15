@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T06:54:17.000Z",
+  "generated_at": "2026-11-15T15:40:02.000Z",
   "api_version": "v1",
   "schema_revision": 2,
   "status_url": "https://moneywithai.net/api/v1/status.json",
@@ -14080,7 +14080,7 @@
       "name": "Google Earth",
       "category": "Content and Marketing",
       "sub_use_case": "Video production",
-      "summary": "Makes 3D map stills and fly-through videos between places, with labelled pins and Google Earth KML files, for listings, tours and location pages.",
+      "summary": "Makes 3D map stills and fly-through videos between places, with labeled pins and Google Earth KML files, for listings, tours and location pages.",
       "tools": [
         "Grok",
         "Google Earth"
@@ -26276,7 +26276,7 @@
       "name": "GrantOgre",
       "category": "Client Services",
       "sub_use_case": "Grant packs",
-      "summary": "Finds live funding programmes for a company or client project and prepares the pack a person files.",
+      "summary": "Finds live funding programs for a company or client project and prepares the pack a person files.",
       "tools": [
         "Grok"
       ],

@@ -13,7 +13,7 @@
     "label": "Medium",
     "basis": "Assumes you make game art with several people or tools; the value is fewer redraws.",
     "claim_label": "E",
-    "note": "Value tiers are our rough estimates (labelled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+    "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
   },
   "how_it_makes_money": [
     "Fewer redraws when art from different people or tools does not match.",
@@ -102,7 +102,7 @@
   ],
   "guardrails": [
     "Use only references you own or have the right to use.",
-    "Check the licence of any AI image tool you use commercially."
+    "Check the license of any AI image tool you use commercially."
   ],
   "claims": [],
   "latest_bot_added_at": "2026-11-01T10:00:00.000Z",
