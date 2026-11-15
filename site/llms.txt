@@ -472,8 +472,8 @@ Value tiers are our rough estimates (labeled Estimate) of relative value to the 
 - [RoomFlip](https://moneywithai.net/bots/roomflip/): Shows a remodel client their own room redone from one photo, then lets them try other finishes from your catalog while a running price updates. By @teeRex247.
 - [Routebook](https://moneywithai.net/bots/routebook/): A desk helper for tour and travel agencies that tracks leads, quotes, bookings and guest documents. Confirmations wait for a person to approve. By Anan Jaiswal.
 - [SaaSbot](https://moneywithai.net/bots/saasbot/): Runs a SaaS founder's weekday go-to-market routine: prep, approved outbound, reply handling and onboarding. By @danielfoch.
-- [Sales Call Coach](https://moneywithai.net/bots/sales-call-coach/): Scores a sales call from a transcript or recording and tells you the few things to change before your next one. By Daniel Brill.
 - [Sales Call Coach](https://moneywithai.net/bots/sales-call-coach-spacex/): Reviews Gong calls and leaves timed coaching notes on discovery, objections and presence, with a call score. By SpaceX.
+- [Sales Call Coach](https://moneywithai.net/bots/sales-call-coach/): Scores a sales call from a transcript or recording and tells you the few things to change before your next one. By Daniel Brill.
 - [Sales Call Insight Logger](https://moneywithai.net/bots/sales-call-insight-logger/): Pulls product insights from recorded sales calls into Notion so product and sales see the same feedback. By Angel Menendez.
 - [Sales Orchestrator](https://moneywithai.net/bots/sales-orchestrator/): Routes each sales request in a group chat to the right specialist bot so your sales bots do not overlap. By @idleshubh.
 - [Sales Outbound](https://moneywithai.net/bots/sales-outbound/): Researches prospects on your schedule, logs them in Google Sheets and drafts follow-up emails in Gmail for you to send. By Community submission.
@@ -567,8 +567,8 @@ Value tiers are our rough estimates (labeled Estimate) of relative value to the 
 - [Graphic Design Assistant](https://moneywithai.net/bots/graphic-design-assistant/): Turns your brief into on-brand Canva graphics in the right sizes and saves them to Drive. By @shubgaur.
 - [Growth Desk](https://moneywithai.net/bots/growth-desk/): A draft-only X growth desk for one account that locks topic, audience and voice, then drafts posts for approval. By Avid.
 - [Highlight Reel](https://moneywithai.net/bots/highlight-reel/): Turns raw sports and training footage into short vertical reels cut to licensed music, with captions. By Michael Heckert.
-- [Human Copywriter](https://moneywithai.net/bots/human-copywriter-sultanov-ramil/): Rewrites emails, posts, DMs, blogs and landing pages so they sound human, keeping the facts and adding no new claims. By Sultanov Ramil.
 - [Human Copywriter](https://moneywithai.net/bots/human-copywriter/): Rewrites emails, posts and landing copy so they sound human while keeping your meaning and facts. By massimodeluisa.
+- [Human Copywriter](https://moneywithai.net/bots/human-copywriter-sultanov-ramil/): Rewrites emails, posts, DMs, blogs and landing pages so they sound human, keeping the facts and adding no new claims. By Sultanov Ramil.
 - [Image Gen Bot](https://moneywithai.net/bots/image-gen-bot/): Makes brand stills and short clips: gathers references, writes the image prompt, generates, removes backgrounds and iterates until you lock a result. By @Matt Palmer.
 - [Imogen](https://moneywithai.net/bots/imogen/): Writes short, copyable alt text that describes the most important part of an image. By Kent C. Dodds.
 - [Index (SEO/AEO Teammate)](https://moneywithai.net/bots/index-seo-aeo-teammate/): An SEO and answer-engine teammate that reads your connected tools, recommends a stack and runs the program. By @adamta.
@@ -623,10 +623,10 @@ Value tiers are our rough estimates (labeled Estimate) of relative value to the 
 - [Social Design Agent](https://moneywithai.net/bots/social-design-agent/): Designs on-brand LinkedIn and Instagram carousels and graphics through ContentDrips. By CONTENTDRIPS.
 - [Social Media GTM Bot](https://moneywithai.net/bots/social-media-gtm-bot/): Acts as head of content across Instagram, TikTok, YouTube, X and LinkedIn, recycling winners and preparing comment-to-DM offers. By @AntoineBlanco99.
 - [Social Media Manager](https://moneywithai.net/bots/social-media-manager-charles-bonetti/): Learns your voice from past posts, keeps a weekly content calendar and drafts posts and replies for each platform. By Charles Bonetti.
-- [Social Media Manager](https://moneywithai.net/bots/social-media-manager-upesh-bishwakarma/): Turns news emails, X trends and your notes into short posts for X and Threads and publishes them through Buffer. By Upesh Bishwakarma.
 - [Social Media Manager](https://moneywithai.net/bots/social-media-manager-stacy-burnett/): Learns from your post history and publishes in your voice through Buffer, with auto-posting only if you turn it on. By Stacy Burnett.
-- [Social Media Manager](https://moneywithai.net/bots/social-media-manager/): Manages social posting and the social inbox through OmniSocials. By Lighthart99.
+- [Social Media Manager](https://moneywithai.net/bots/social-media-manager-upesh-bishwakarma/): Turns news emails, X trends and your notes into short posts for X and Threads and publishes them through Buffer. By Upesh Bishwakarma.
 - [Social Media Manager](https://moneywithai.net/bots/social-media-manager-vishvajeet-shukla/): Plans a content calendar for your brand's Instagram and X, gets visuals made and posts on schedule after your approval. By Vishvajeet Shukla.
+- [Social Media Manager](https://moneywithai.net/bots/social-media-manager/): Manages social posting and the social inbox through OmniSocials. By Lighthart99.
 - [Socials (Short-Form Scout)](https://moneywithai.net/bots/socials-short-form-scout/): Scouts X and Reddit hourly for AI and tech stories worth filming for TikTok, Reels and Shorts. By @ashen_one.
 - [Stills & Clips Desk](https://moneywithai.net/bots/stills-and-clips-desk/): Pulls stills, thumbnails and short clips from your footage at the right sizes, and writes captions and alt text. By Matt Palmer.
 - [Telegram SEO Blog Writer](https://moneywithai.net/bots/telegram-seo-blog-writer/): Researches a topic with Perplexity and writes an SEO blog draft you request from Telegram. By HoangSP.
@@ -812,8 +812,8 @@ Value tiers are our rough estimates (labeled Estimate) of relative value to the 
 - [Multilingual Support Inbox](https://moneywithai.net/bots/multilingual-support-inbox/): Handles support across WhatsApp and email with automatic translation and a shared log. By Oneclick AI Squad.
 - [Overheard](https://moneywithai.net/bots/overheard-lenny-rachitsky/): Watches Reddit, Hacker News, news sites and X for mentions of your name, brand and site, and sends a short weekday report. By Lenny Rachitsky.
 - [OwnPhoneBot](https://moneywithai.net/bots/ownphonebot/): Gives your bot a real phone number through VoIP.ms and Asterisk so it can handle voice calls. By claudia_cardume.
-- [Phone Receptionist](https://moneywithai.net/bots/phone-receptionist-i668/): Answers calls in your browser as an automated receptionist, asks a few questions and passes on a summary. By i668.
 - [Phone Receptionist](https://moneywithai.net/bots/phone-receptionist/): Answers a business phone line and books meetings on Google Calendar. The share card lists a paid phone plan. By @SimplyColeB.
+- [Phone Receptionist](https://moneywithai.net/bots/phone-receptionist-i668/): Answers calls in your browser as an automated receptionist, asks a few questions and passes on a summary. By i668.
 - [Product Support Inbox Assistant](https://moneywithai.net/bots/product-support-inbox-assistant/): Helps you find and draft answers to product questions in your inbox, and never sends a reply without you. By Anoop Baliga.
 - [Refund Resolution Desk](https://moneywithai.net/bots/refund-resolution-desk/): Checks routine refund requests in Plain against account context and prepares a resolution for you to approve. By Community submission.
 - [Reply Desk](https://moneywithai.net/bots/reply-desk/): Drafts replies to customer emails, messages and public reviews for local service businesses. You send them. By @lonzom10.

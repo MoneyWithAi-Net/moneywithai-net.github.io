@@ -3315,6 +3315,18 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Human Copywriter
 
+- URL: https://moneywithai.net/bots/human-copywriter/
+- Category: Content and Marketing
+- Summary (Money With AI's words): Rewrites emails, posts and landing copy so they sound human while keeping your meaning and facts.
+- Tools: Grok
+- Creator: massimodeluisa
+- Original source: https://x.ai/bot/JZAccYtlRFvDSU2CnMnkZ
+- Official share link: https://x.ai/bot/JZAccYtlRFvDSU2CnMnkZ
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Human Copywriter
+
 - URL: https://moneywithai.net/bots/human-copywriter-sultanov-ramil/
 - Category: Content and Marketing
 - Summary (Money With AI's words): Rewrites emails, posts, DMs, blogs and landing pages so they sound human, keeping the facts and adding no new claims.
@@ -3323,18 +3335,6 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Original source: https://x.ai/bot/vgiYk0mJeijE4YXmfmQld
 - Official share link: https://x.ai/bot/vgiYk0mJeijE4YXmfmQld
 - Found via: https://x.ai/bot/vgiYk0mJeijE4YXmfmQld
-- Proof level: Source verified: the original post exists and is by the named creator.
-- Prompt: not included; read it at the original source
-
-## Human Copywriter
-
-- URL: https://moneywithai.net/bots/human-copywriter/
-- Category: Content and Marketing
-- Summary (Money With AI's words): Rewrites emails, posts and landing copy so they sound human while keeping your meaning and facts.
-- Tools: Grok
-- Creator: massimodeluisa
-- Original source: https://x.ai/bot/JZAccYtlRFvDSU2CnMnkZ
-- Official share link: https://x.ai/bot/JZAccYtlRFvDSU2CnMnkZ
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
@@ -4998,6 +4998,18 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Phone Receptionist
 
+- URL: https://moneywithai.net/bots/phone-receptionist/
+- Category: Customer Support
+- Summary (Money With AI's words): Answers a business phone line and books meetings on Google Calendar. The share card lists a paid phone plan.
+- Tools: Google Calendar, Bland
+- Creator: @SimplyColeB (https://x.com/SimplyColeB)
+- Original source: https://x.com/SimplyColeB/status/2107971762831114461
+- Official share link: https://x.ai/bot/Z7LfRtBtwfaojaomMrAuX
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Phone Receptionist
+
 - URL: https://moneywithai.net/bots/phone-receptionist-i668/
 - Category: Customer Support
 - Summary (Money With AI's words): Answers calls in your browser as an automated receptionist, asks a few questions and passes on a summary.
@@ -5006,18 +5018,6 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Original source: https://x.ai/bot/vxvNEoprSLLwOa2d02f6C
 - Official share link: https://x.ai/bot/vxvNEoprSLLwOa2d02f6C
 - Found via: https://x.ai/bot/vxvNEoprSLLwOa2d02f6C
-- Proof level: Source verified: the original post exists and is by the named creator.
-- Prompt: not included; read it at the original source
-
-## Phone Receptionist
-
-- URL: https://moneywithai.net/bots/phone-receptionist/
-- Category: Customer Support
-- Summary (Money With AI's words): Answers a business phone line and books meetings on Google Calendar. The share card lists a paid phone plan.
-- Tools: Google Calendar, Bland
-- Creator: @SimplyColeB (https://x.com/SimplyColeB)
-- Original source: https://x.com/SimplyColeB/status/2107971762831114461
-- Official share link: https://x.ai/bot/Z7LfRtBtwfaojaomMrAuX
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
@@ -6027,19 +6027,6 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Sales Call Coach
 
-- URL: https://moneywithai.net/bots/sales-call-coach/
-- Category: Leads and Sales
-- Summary (Money With AI's words): Scores a sales call from a transcript or recording and tells you the few things to change before your next one.
-- Tools: Grok
-- Creator: Daniel Brill (https://x.ai/bot/yZ5MFQFdl32vHt6fcIJAc)
-- Original source: https://x.ai/bot/yZ5MFQFdl32vHt6fcIJAc
-- Official share link: https://x.ai/bot/yZ5MFQFdl32vHt6fcIJAc
-- Found via: https://x.ai/bot/yZ5MFQFdl32vHt6fcIJAc
-- Proof level: Source verified: the original post exists and is by the named creator.
-- Prompt: not included; read it at the original source
-
-## Sales Call Coach
-
 - URL: https://moneywithai.net/bots/sales-call-coach-spacex/
 - Category: Leads and Sales
 - Summary (Money With AI's words): Reviews Gong calls and leaves timed coaching notes on discovery, objections and presence, with a call score.
@@ -6048,6 +6035,19 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Original source: https://x.ai/bot/s8173b3a9c49917de5b2d
 - Official share link: https://x.ai/bot/s8173b3a9c49917de5b2d
 - Found via: https://x.ai/bot/s8173b3a9c49917de5b2d
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Sales Call Coach
+
+- URL: https://moneywithai.net/bots/sales-call-coach/
+- Category: Leads and Sales
+- Summary (Money With AI's words): Scores a sales call from a transcript or recording and tells you the few things to change before your next one.
+- Tools: Grok
+- Creator: Daniel Brill (https://x.ai/bot/yZ5MFQFdl32vHt6fcIJAc)
+- Original source: https://x.ai/bot/yZ5MFQFdl32vHt6fcIJAc
+- Official share link: https://x.ai/bot/yZ5MFQFdl32vHt6fcIJAc
+- Found via: https://x.ai/bot/yZ5MFQFdl32vHt6fcIJAc
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
@@ -6789,19 +6789,6 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Social Media Manager
 
-- URL: https://moneywithai.net/bots/social-media-manager-upesh-bishwakarma/
-- Category: Content and Marketing
-- Summary (Money With AI's words): Turns news emails, X trends and your notes into short posts for X and Threads and publishes them through Buffer.
-- Tools: Grok, Threads, X
-- Creator: Upesh Bishwakarma (https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL)
-- Original source: https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL
-- Official share link: https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL
-- Found via: https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL
-- Proof level: Source verified: the original post exists and is by the named creator.
-- Prompt: not included; read it at the original source
-
-## Social Media Manager
-
 - URL: https://moneywithai.net/bots/social-media-manager-stacy-burnett/
 - Category: Content and Marketing
 - Summary (Money With AI's words): Learns from your post history and publishes in your voice through Buffer, with auto-posting only if you turn it on.
@@ -6815,13 +6802,16 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Social Media Manager
 
-- URL: https://moneywithai.net/bots/social-media-manager/
+- URL: https://moneywithai.net/bots/social-media-manager-upesh-bishwakarma/
 - Category: Content and Marketing
-- Summary (Money With AI's words): Manages social posting and the social inbox through OmniSocials.
-- Tools: OmniSocials
-- Creator: Lighthart99
+- Summary (Money With AI's words): Turns news emails, X trends and your notes into short posts for X and Threads and publishes them through Buffer.
+- Tools: Grok, Threads, X
+- Creator: Upesh Bishwakarma (https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL)
+- Original source: https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL
+- Official share link: https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL
+- Found via: https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL
 - Proof level: Source verified: the original post exists and is by the named creator.
-- Prompt: not included
+- Prompt: not included; read it at the original source
 
 ## Social Media Manager
 
@@ -6835,6 +6825,16 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Found via: https://x.ai/bot/DqAO8x8wjsb7jazJCBEdl
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
+
+## Social Media Manager
+
+- URL: https://moneywithai.net/bots/social-media-manager/
+- Category: Content and Marketing
+- Summary (Money With AI's words): Manages social posting and the social inbox through OmniSocials.
+- Tools: OmniSocials
+- Creator: Lighthart99
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included
 
 ## Socials (Short-Form Scout)
 
