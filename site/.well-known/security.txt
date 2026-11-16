@@ -1,0 +1,5 @@
+# Security contact for moneywithai.net (RFC 9116)
+Contact: https://moneywithai.net/report/?type=other
+Expires: 2027-11-16T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://moneywithai.net/.well-known/security.txt
