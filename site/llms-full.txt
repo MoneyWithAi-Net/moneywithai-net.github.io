@@ -6776,19 +6776,6 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Social Media Manager
 
-- URL: https://moneywithai.net/bots/social-media-manager-charles-bonetti/
-- Category: Content and Marketing
-- Summary (Money With AI's words): Learns your voice from past posts, keeps a weekly content calendar and drafts posts and replies for each platform.
-- Tools: Grok
-- Creator: Charles Bonetti (https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo)
-- Original source: https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo
-- Official share link: https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo
-- Found via: https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo
-- Proof level: Source verified: the original post exists and is by the named creator.
-- Prompt: not included; read it at the original source
-
-## Social Media Manager
-
 - URL: https://moneywithai.net/bots/social-media-manager-stacy-burnett/
 - Category: Content and Marketing
 - Summary (Money With AI's words): Learns from your post history and publishes in your voice through Buffer, with auto-posting only if you turn it on.
@@ -6797,6 +6784,19 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Original source: https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X
 - Official share link: https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X
 - Found via: https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Social Media Manager
+
+- URL: https://moneywithai.net/bots/social-media-manager-charles-bonetti/
+- Category: Content and Marketing
+- Summary (Money With AI's words): Learns your voice from past posts, keeps a weekly content calendar and drafts posts and replies for each platform.
+- Tools: Grok
+- Creator: Charles Bonetti (https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo)
+- Original source: https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo
+- Official share link: https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo
+- Found via: https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 

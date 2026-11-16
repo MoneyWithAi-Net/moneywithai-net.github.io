@@ -19145,40 +19145,6 @@
       }
     },
     {
-      "slug": "social-media-manager-charles-bonetti",
-      "name": "Social Media Manager",
-      "category": "Content and Marketing",
-      "sub_use_case": "Brand social",
-      "summary": "Learns your voice from past posts, keeps a weekly content calendar and drafts posts and replies for each platform.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "Charles Bonetti",
-        "url": "https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo"
-      },
-      "official_share_url": "https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo",
-      "found_via": "https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/social-media-manager-charles-bonetti/",
-      "json_url": "https://moneywithai.net/api/bots/social-media-manager-charles-bonetti.json",
-      "share_url": "https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo",
-      "credit": {
-        "creator": "Charles Bonetti",
-        "creator_url": "https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo",
-        "source_url": "https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo",
-        "found_via": "https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo",
-        "text": "Social Media Manager by Charles Bonetti. Original source: https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo. Listed on Money With AI: https://moneywithai.net/bots/social-media-manager-charles-bonetti/"
-      }
-    },
-    {
       "slug": "social-media-manager-stacy-burnett",
       "name": "Social Media Manager",
       "category": "Content and Marketing",
@@ -19210,6 +19176,40 @@
         "source_url": "https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X",
         "found_via": "https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X",
         "text": "Social Media Manager by Stacy Burnett. Original source: https://x.ai/bot/Jh9Rlh-ynMYjCqw4V6B9X. Listed on Money With AI: https://moneywithai.net/bots/social-media-manager-stacy-burnett/"
+      }
+    },
+    {
+      "slug": "social-media-manager-charles-bonetti",
+      "name": "Social Media Manager",
+      "category": "Content and Marketing",
+      "sub_use_case": "Brand social",
+      "summary": "Learns your voice from past posts, keeps a weekly content calendar and drafts posts and replies for each platform.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "Charles Bonetti",
+        "url": "https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo"
+      },
+      "official_share_url": "https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo",
+      "found_via": "https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/social-media-manager-charles-bonetti/",
+      "json_url": "https://moneywithai.net/api/bots/social-media-manager-charles-bonetti.json",
+      "share_url": "https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo",
+      "credit": {
+        "creator": "Charles Bonetti",
+        "creator_url": "https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo",
+        "source_url": "https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo",
+        "found_via": "https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo",
+        "text": "Social Media Manager by Charles Bonetti. Original source: https://x.ai/bot/IIpqei3mrbiDeXL-cuhQo. Listed on Money With AI: https://moneywithai.net/bots/social-media-manager-charles-bonetti/"
       }
     },
     {
