@@ -472,8 +472,8 @@ Value tiers are our rough estimates (labeled Estimate) of relative value to the 
 - [RoomFlip](https://moneywithai.net/bots/roomflip/): Shows a remodel client their own room redone from one photo, then lets them try other finishes from your catalog while a running price updates. By @teeRex247.
 - [Routebook](https://moneywithai.net/bots/routebook/): A desk helper for tour and travel agencies that tracks leads, quotes, bookings and guest documents. Confirmations wait for a person to approve. By Anan Jaiswal.
 - [SaaSbot](https://moneywithai.net/bots/saasbot/): Runs a SaaS founder's weekday go-to-market routine: prep, approved outbound, reply handling and onboarding. By @danielfoch.
-- [Sales Call Coach](https://moneywithai.net/bots/sales-call-coach/): Scores a sales call from a transcript or recording and tells you the few things to change before your next one. By Daniel Brill.
 - [Sales Call Coach](https://moneywithai.net/bots/sales-call-coach-spacex/): Reviews Gong calls and leaves timed coaching notes on discovery, objections and presence, with a call score. By SpaceX.
+- [Sales Call Coach](https://moneywithai.net/bots/sales-call-coach/): Scores a sales call from a transcript or recording and tells you the few things to change before your next one. By Daniel Brill.
 - [Sales Call Insight Logger](https://moneywithai.net/bots/sales-call-insight-logger/): Pulls product insights from recorded sales calls into Notion so product and sales see the same feedback. By Angel Menendez.
 - [Sales Orchestrator](https://moneywithai.net/bots/sales-orchestrator/): Routes each sales request in a group chat to the right specialist bot so your sales bots do not overlap. By @idleshubh.
 - [Sales Outbound](https://moneywithai.net/bots/sales-outbound/): Researches prospects on your schedule, logs them in Google Sheets and drafts follow-up emails in Gmail for you to send. By Community submission.
@@ -624,9 +624,9 @@ Value tiers are our rough estimates (labeled Estimate) of relative value to the 
 - [Social Media GTM Bot](https://moneywithai.net/bots/social-media-gtm-bot/): Acts as head of content across Instagram, TikTok, YouTube, X and LinkedIn, recycling winners and preparing comment-to-DM offers. By @AntoineBlanco99.
 - [Social Media Manager](https://moneywithai.net/bots/social-media-manager-charles-bonetti/): Learns your voice from past posts, keeps a weekly content calendar and drafts posts and replies for each platform. By Charles Bonetti.
 - [Social Media Manager](https://moneywithai.net/bots/social-media-manager-stacy-burnett/): Learns from your post history and publishes in your voice through Buffer, with auto-posting only if you turn it on. By Stacy Burnett.
+- [Social Media Manager](https://moneywithai.net/bots/social-media-manager-upesh-bishwakarma/): Turns news emails, X trends and your notes into short posts for X and Threads and publishes them through Buffer. By Upesh Bishwakarma.
 - [Social Media Manager](https://moneywithai.net/bots/social-media-manager-vishvajeet-shukla/): Plans a content calendar for your brand's Instagram and X, gets visuals made and posts on schedule after your approval. By Vishvajeet Shukla.
 - [Social Media Manager](https://moneywithai.net/bots/social-media-manager/): Manages social posting and the social inbox through OmniSocials. By Lighthart99.
-- [Social Media Manager](https://moneywithai.net/bots/social-media-manager-upesh-bishwakarma/): Turns news emails, X trends and your notes into short posts for X and Threads and publishes them through Buffer. By Upesh Bishwakarma.
 - [Socials (Short-Form Scout)](https://moneywithai.net/bots/socials-short-form-scout/): Scouts X and Reddit hourly for AI and tech stories worth filming for TikTok, Reels and Shorts. By @ashen_one.
 - [Stills & Clips Desk](https://moneywithai.net/bots/stills-and-clips-desk/): Pulls stills, thumbnails and short clips from your footage at the right sizes, and writes captions and alt text. By Matt Palmer.
 - [Telegram SEO Blog Writer](https://moneywithai.net/bots/telegram-seo-blog-writer/): Researches a topic with Perplexity and writes an SEO blog draft you request from Telegram. By HoangSP.
@@ -854,8 +854,8 @@ Value tiers are our rough estimates (labeled Estimate) of relative value to the 
 - [Android / Play Build Engineer](https://moneywithai.net/bots/android-play-build-engineer/): Ships Android games and apps to Google Play, handling builds, version bumps and the steps from internal testing to production. By Vet.
 - [Ask Avery](https://moneywithai.net/bots/ask-avery/): Sends engineering questions to matched expert reviewers in parallel and returns one combined answer. By Andreas Gerlach.
 - [Automation Scout](https://moneywithai.net/bots/automation-scout/): Looks through your Slack, Notion, GitHub and Linear history to find repetitive work worth automating. By @ericzakariasson.
-- [Backup Bot](https://moneywithai.net/bots/backup-bot/): Saves a restore pack for any of your bots with its profile, skills, routines and key notes, never passwords or keys, on a schedule you pick. By ollie.
 - [Backup Bot](https://moneywithai.net/bots/backup-bot-andres-ruggiero/): Backs up your bot's computer to Google Drive or OneDrive each night and tests a restore every week. By Andres Ruggiero.
+- [Backup Bot](https://moneywithai.net/bots/backup-bot/): Saves a restore pack for any of your bots with its profile, skills, routines and key notes, never passwords or keys, on a schedule you pick. By ollie.
 - [Backup Watch](https://moneywithai.net/bots/backup-watch/): Tells you each week what lives only on your shared bot computer and is not backed up anywhere else. It only suggests and never deletes. By Gorik.
 - [Bid Desk](https://moneywithai.net/bots/bid-desk/): Reads a government or nonprofit RFP and gives a quick bid or no-bid call with deadline and requirements, then finds similar openings. By Thuong P. Nguyen.
 - [Billy Backup](https://moneywithai.net/bots/billy-backup/): Sets up a backup you control: code to a git host, files to object storage and a nightly check that stays quiet when nothing is missing. By Jordan Jubela.
