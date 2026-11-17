@@ -1,7 +1,7 @@
 {
   "name": "Money With AI",
   "url": "https://moneywithai.net",
-  "generated_at": "2026-11-17T14:33:08.000Z",
+  "generated_at": "2026-11-17T16:18:58.000Z",
   "count": 683,
   "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
   "attribution": "Credit the bot creator (creator.handle, creator.url) and link the original source (source_url) plus our listing page (url). Summaries are ours; no prompt text is included.",
@@ -777,40 +777,6 @@
       }
     },
     {
-      "slug": "alfred-michael-krantz",
-      "name": "Alfred",
-      "category": "Research and Ops",
-      "sub_use_case": "Inbox triage",
-      "summary": "A chief of staff that runs email, Drive and calendar tasks, watches your inboxes and builds a daily brief.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "Michael Krantz",
-        "url": "https://x.ai/bot/moKscJ7PToJw_PVQWvkf_"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/moKscJ7PToJw_PVQWvkf_"
-      },
-      "official_share_url": "https://x.ai/bot/moKscJ7PToJw_PVQWvkf_",
-      "found_via": "https://x.ai/bot/moKscJ7PToJw_PVQWvkf_",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/alfred-michael-krantz/",
-      "json_url": "https://moneywithai.net/api/bots/alfred-michael-krantz.json",
-      "share_url": "https://x.ai/bot/moKscJ7PToJw_PVQWvkf_",
-      "credit": {
-        "creator": "Michael Krantz",
-        "creator_url": "https://x.ai/bot/moKscJ7PToJw_PVQWvkf_",
-        "source_url": "https://x.ai/bot/moKscJ7PToJw_PVQWvkf_",
-        "found_via": "https://x.ai/bot/moKscJ7PToJw_PVQWvkf_",
-        "text": "Alfred by Michael Krantz. Original source: https://x.ai/bot/moKscJ7PToJw_PVQWvkf_. Listed on Money With AI: https://moneywithai.net/bots/alfred-michael-krantz/"
-      }
-    },
-    {
       "slug": "alfred",
       "name": "Alfred",
       "category": "Research and Ops",
@@ -842,6 +808,40 @@
         "source_url": "https://x.ai/bot/p7Gh6HIrfv4AGzIow6-9X",
         "found_via": "https://x.ai/bot/p7Gh6HIrfv4AGzIow6-9X",
         "text": "Alfred by Robin Delta. Original source: https://x.ai/bot/p7Gh6HIrfv4AGzIow6-9X. Listed on Money With AI: https://moneywithai.net/bots/alfred/"
+      }
+    },
+    {
+      "slug": "alfred-michael-krantz",
+      "name": "Alfred",
+      "category": "Research and Ops",
+      "sub_use_case": "Inbox triage",
+      "summary": "A chief of staff that runs email, Drive and calendar tasks, watches your inboxes and builds a daily brief.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "Michael Krantz",
+        "url": "https://x.ai/bot/moKscJ7PToJw_PVQWvkf_"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/moKscJ7PToJw_PVQWvkf_"
+      },
+      "official_share_url": "https://x.ai/bot/moKscJ7PToJw_PVQWvkf_",
+      "found_via": "https://x.ai/bot/moKscJ7PToJw_PVQWvkf_",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/alfred-michael-krantz/",
+      "json_url": "https://moneywithai.net/api/bots/alfred-michael-krantz.json",
+      "share_url": "https://x.ai/bot/moKscJ7PToJw_PVQWvkf_",
+      "credit": {
+        "creator": "Michael Krantz",
+        "creator_url": "https://x.ai/bot/moKscJ7PToJw_PVQWvkf_",
+        "source_url": "https://x.ai/bot/moKscJ7PToJw_PVQWvkf_",
+        "found_via": "https://x.ai/bot/moKscJ7PToJw_PVQWvkf_",
+        "text": "Alfred by Michael Krantz. Original source: https://x.ai/bot/moKscJ7PToJw_PVQWvkf_. Listed on Money With AI: https://moneywithai.net/bots/alfred-michael-krantz/"
       }
     },
     {
@@ -1194,6 +1194,40 @@
       }
     },
     {
+      "slug": "backup-bot",
+      "name": "Backup Bot",
+      "category": "Research and Ops",
+      "sub_use_case": "Team memory",
+      "summary": "Saves a restore pack for any of your bots with its profile, skills, routines and key notes, never passwords or keys, on a schedule you pick.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "ollie",
+        "url": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz"
+      },
+      "official_share_url": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz",
+      "found_via": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/backup-bot/",
+      "json_url": "https://moneywithai.net/api/bots/backup-bot.json",
+      "share_url": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz",
+      "credit": {
+        "creator": "ollie",
+        "creator_url": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz",
+        "source_url": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz",
+        "found_via": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz",
+        "text": "Backup Bot by ollie. Original source: https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz. Listed on Money With AI: https://moneywithai.net/bots/backup-bot/"
+      }
+    },
+    {
       "slug": "backup-bot-andres-ruggiero",
       "name": "Backup Bot",
       "category": "Research and Ops",
@@ -1226,40 +1260,6 @@
         "source_url": "https://x.ai/bot/G3Du-G9_8zTwynr6sl9Z2",
         "found_via": "https://x.ai/bot/G3Du-G9_8zTwynr6sl9Z2",
         "text": "Backup Bot by Andres Ruggiero. Original source: https://x.ai/bot/G3Du-G9_8zTwynr6sl9Z2. Listed on Money With AI: https://moneywithai.net/bots/backup-bot-andres-ruggiero/"
-      }
-    },
-    {
-      "slug": "backup-bot",
-      "name": "Backup Bot",
-      "category": "Research and Ops",
-      "sub_use_case": "Team memory",
-      "summary": "Saves a restore pack for any of your bots with its profile, skills, routines and key notes, never passwords or keys, on a schedule you pick.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "ollie",
-        "url": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz"
-      },
-      "official_share_url": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz",
-      "found_via": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/backup-bot/",
-      "json_url": "https://moneywithai.net/api/bots/backup-bot.json",
-      "share_url": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz",
-      "credit": {
-        "creator": "ollie",
-        "creator_url": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz",
-        "source_url": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz",
-        "found_via": "https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz",
-        "text": "Backup Bot by ollie. Original source: https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz. Listed on Money With AI: https://moneywithai.net/bots/backup-bot/"
       }
     },
     {
@@ -2587,6 +2587,40 @@
       }
     },
     {
+      "slug": "chief",
+      "name": "Chief",
+      "category": "Research and Ops",
+      "sub_use_case": "Inbox triage",
+      "summary": "Scans email and calendar every weekday morning, archives junk, drafts replies it never sends and hands you a short brief.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "SmoresBoy Jack",
+        "url": "https://x.ai/bot/QIfSY8pPwjqBSIdal-5CI"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/QIfSY8pPwjqBSIdal-5CI"
+      },
+      "official_share_url": "https://x.ai/bot/QIfSY8pPwjqBSIdal-5CI",
+      "found_via": "https://x.ai/bot/QIfSY8pPwjqBSIdal-5CI",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/chief/",
+      "json_url": "https://moneywithai.net/api/bots/chief.json",
+      "share_url": "https://x.ai/bot/QIfSY8pPwjqBSIdal-5CI",
+      "credit": {
+        "creator": "SmoresBoy Jack",
+        "creator_url": "https://x.ai/bot/QIfSY8pPwjqBSIdal-5CI",
+        "source_url": "https://x.ai/bot/QIfSY8pPwjqBSIdal-5CI",
+        "found_via": "https://x.ai/bot/QIfSY8pPwjqBSIdal-5CI",
+        "text": "Chief by SmoresBoy Jack. Original source: https://x.ai/bot/QIfSY8pPwjqBSIdal-5CI. Listed on Money With AI: https://moneywithai.net/bots/chief/"
+      }
+    },
+    {
       "slug": "chief-ben",
       "name": "Chief",
       "category": "Research and Ops",
@@ -2725,37 +2759,37 @@
       }
     },
     {
-      "slug": "chief",
-      "name": "Chief",
+      "slug": "chief-of-staff",
+      "name": "Chief of Staff",
       "category": "Research and Ops",
-      "sub_use_case": "Inbox triage",
-      "summary": "Scans email and calendar every weekday morning, archives junk, drafts replies it never sends and hands you a short brief.",
+      "sub_use_case": "Planning and projects",
+      "summary": "Runs specialist bots for a speaking and product business, protecting your time and keeping revenue work first.",
       "tools": [
         "Grok"
       ],
       "creator": {
-        "handle": "SmoresBoy Jack",
-        "url": "https://x.ai/bot/QIfSY8pPwjqBSIdal-5CI"
+        "handle": "Andrew",
+        "url": "https://x.ai/bot/5hJ_io8a7Y0IImGtFbvJL"
       },
       "scouted_by": null,
       "source": {
         "kind": "web",
-        "url": "https://x.ai/bot/QIfSY8pPwjqBSIdal-5CI"
+        "url": "https://x.ai/bot/5hJ_io8a7Y0IImGtFbvJL"
       },
-      "official_share_url": "https://x.ai/bot/QIfSY8pPwjqBSIdal-5CI",
-      "found_via": "https://x.ai/bot/QIfSY8pPwjqBSIdal-5CI",
+      "official_share_url": "https://x.ai/bot/5hJ_io8a7Y0IImGtFbvJL",
+      "found_via": "https://x.ai/bot/5hJ_io8a7Y0IImGtFbvJL",
       "prompt_included": false,
       "proof_level": "source_verified",
       "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/chief/",
-      "json_url": "https://moneywithai.net/api/bots/chief.json",
-      "share_url": "https://x.ai/bot/QIfSY8pPwjqBSIdal-5CI",
+      "url": "https://moneywithai.net/bots/chief-of-staff/",
+      "json_url": "https://moneywithai.net/api/bots/chief-of-staff.json",
+      "share_url": "https://x.ai/bot/5hJ_io8a7Y0IImGtFbvJL",
       "credit": {
-        "creator": "SmoresBoy Jack",
-        "creator_url": "https://x.ai/bot/QIfSY8pPwjqBSIdal-5CI",
-        "source_url": "https://x.ai/bot/QIfSY8pPwjqBSIdal-5CI",
-        "found_via": "https://x.ai/bot/QIfSY8pPwjqBSIdal-5CI",
-        "text": "Chief by SmoresBoy Jack. Original source: https://x.ai/bot/QIfSY8pPwjqBSIdal-5CI. Listed on Money With AI: https://moneywithai.net/bots/chief/"
+        "creator": "Andrew",
+        "creator_url": "https://x.ai/bot/5hJ_io8a7Y0IImGtFbvJL",
+        "source_url": "https://x.ai/bot/5hJ_io8a7Y0IImGtFbvJL",
+        "found_via": "https://x.ai/bot/5hJ_io8a7Y0IImGtFbvJL",
+        "text": "Chief of Staff by Andrew. Original source: https://x.ai/bot/5hJ_io8a7Y0IImGtFbvJL. Listed on Money With AI: https://moneywithai.net/bots/chief-of-staff/"
       }
     },
     {
@@ -2791,40 +2825,6 @@
         "source_url": "https://x.ai/bot/sc0a0ec3ce9c675824106",
         "found_via": "https://x.ai/bot/sc0a0ec3ce9c675824106",
         "text": "Chief of Staff by SpaceX. Original source: https://x.ai/bot/sc0a0ec3ce9c675824106. Listed on Money With AI: https://moneywithai.net/bots/chief-of-staff-spacex/"
-      }
-    },
-    {
-      "slug": "chief-of-staff",
-      "name": "Chief of Staff",
-      "category": "Research and Ops",
-      "sub_use_case": "Planning and projects",
-      "summary": "Runs specialist bots for a speaking and product business, protecting your time and keeping revenue work first.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "Andrew",
-        "url": "https://x.ai/bot/5hJ_io8a7Y0IImGtFbvJL"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/5hJ_io8a7Y0IImGtFbvJL"
-      },
-      "official_share_url": "https://x.ai/bot/5hJ_io8a7Y0IImGtFbvJL",
-      "found_via": "https://x.ai/bot/5hJ_io8a7Y0IImGtFbvJL",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/chief-of-staff/",
-      "json_url": "https://moneywithai.net/api/bots/chief-of-staff.json",
-      "share_url": "https://x.ai/bot/5hJ_io8a7Y0IImGtFbvJL",
-      "credit": {
-        "creator": "Andrew",
-        "creator_url": "https://x.ai/bot/5hJ_io8a7Y0IImGtFbvJL",
-        "source_url": "https://x.ai/bot/5hJ_io8a7Y0IImGtFbvJL",
-        "found_via": "https://x.ai/bot/5hJ_io8a7Y0IImGtFbvJL",
-        "text": "Chief of Staff by Andrew. Original source: https://x.ai/bot/5hJ_io8a7Y0IImGtFbvJL. Listed on Money With AI: https://moneywithai.net/bots/chief-of-staff/"
       }
     },
     {
@@ -3138,40 +3138,6 @@
       }
     },
     {
-      "slug": "clip-bot-this-week-in-ai",
-      "name": "Clip Bot",
-      "category": "Content and Marketing",
-      "sub_use_case": "Video production",
-      "summary": "Finds the best moments in a long recording and cuts them into short captioned clips from an upload or link.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "This Week in AI",
-        "url": "https://x.ai/bot/-L1yFJ5mtwPgn3O_iYUo_"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/-L1yFJ5mtwPgn3O_iYUo_"
-      },
-      "official_share_url": "https://x.ai/bot/-L1yFJ5mtwPgn3O_iYUo_",
-      "found_via": "https://x.ai/bot/-L1yFJ5mtwPgn3O_iYUo_",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/clip-bot-this-week-in-ai/",
-      "json_url": "https://moneywithai.net/api/bots/clip-bot-this-week-in-ai.json",
-      "share_url": "https://x.ai/bot/-L1yFJ5mtwPgn3O_iYUo_",
-      "credit": {
-        "creator": "This Week in AI",
-        "creator_url": "https://x.ai/bot/-L1yFJ5mtwPgn3O_iYUo_",
-        "source_url": "https://x.ai/bot/-L1yFJ5mtwPgn3O_iYUo_",
-        "found_via": "https://x.ai/bot/-L1yFJ5mtwPgn3O_iYUo_",
-        "text": "Clip Bot by This Week in AI. Original source: https://x.ai/bot/-L1yFJ5mtwPgn3O_iYUo_. Listed on Money With AI: https://moneywithai.net/bots/clip-bot-this-week-in-ai/"
-      }
-    },
-    {
       "slug": "clip-bot",
       "name": "Clip Bot",
       "category": "Content and Marketing",
@@ -3203,6 +3169,40 @@
         "source_url": "https://x.com/ThisWeeknAI/status/2093465404303720846",
         "found_via": null,
         "text": "Clip Bot by ThisWeeknAI. Original source: https://x.com/ThisWeeknAI/status/2093465404303720846. Listed on Money With AI: https://moneywithai.net/bots/clip-bot/"
+      }
+    },
+    {
+      "slug": "clip-bot-this-week-in-ai",
+      "name": "Clip Bot",
+      "category": "Content and Marketing",
+      "sub_use_case": "Video production",
+      "summary": "Finds the best moments in a long recording and cuts them into short captioned clips from an upload or link.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "This Week in AI",
+        "url": "https://x.ai/bot/-L1yFJ5mtwPgn3O_iYUo_"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/-L1yFJ5mtwPgn3O_iYUo_"
+      },
+      "official_share_url": "https://x.ai/bot/-L1yFJ5mtwPgn3O_iYUo_",
+      "found_via": "https://x.ai/bot/-L1yFJ5mtwPgn3O_iYUo_",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/clip-bot-this-week-in-ai/",
+      "json_url": "https://moneywithai.net/api/bots/clip-bot-this-week-in-ai.json",
+      "share_url": "https://x.ai/bot/-L1yFJ5mtwPgn3O_iYUo_",
+      "credit": {
+        "creator": "This Week in AI",
+        "creator_url": "https://x.ai/bot/-L1yFJ5mtwPgn3O_iYUo_",
+        "source_url": "https://x.ai/bot/-L1yFJ5mtwPgn3O_iYUo_",
+        "found_via": "https://x.ai/bot/-L1yFJ5mtwPgn3O_iYUo_",
+        "text": "Clip Bot by This Week in AI. Original source: https://x.ai/bot/-L1yFJ5mtwPgn3O_iYUo_. Listed on Money With AI: https://moneywithai.net/bots/clip-bot-this-week-in-ai/"
       }
     },
     {
@@ -5721,40 +5721,6 @@
       }
     },
     {
-      "slug": "devil-s-advocate-cyberlytics",
-      "name": "Devil's Advocate",
-      "category": "Research and Ops",
-      "sub_use_case": "Planning and projects",
-      "summary": "Gives sharp, constructive pushback on plans and specs before you commit to them.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "Cyberlytics",
-        "url": "https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v"
-      },
-      "official_share_url": "https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v",
-      "found_via": "https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/devil-s-advocate-cyberlytics/",
-      "json_url": "https://moneywithai.net/api/bots/devil-s-advocate-cyberlytics.json",
-      "share_url": "https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v",
-      "credit": {
-        "creator": "Cyberlytics",
-        "creator_url": "https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v",
-        "source_url": "https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v",
-        "found_via": "https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v",
-        "text": "Devil's Advocate by Cyberlytics. Original source: https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v. Listed on Money With AI: https://moneywithai.net/bots/devil-s-advocate-cyberlytics/"
-      }
-    },
-    {
       "slug": "devil-s-advocate",
       "name": "Devil's Advocate",
       "category": "Research and Ops",
@@ -5786,6 +5752,40 @@
         "source_url": "https://x.ai/bot/Uj8zF0iprBX0AsSB3mU2V",
         "found_via": "https://x.ai/bot/Uj8zF0iprBX0AsSB3mU2V",
         "text": "Devil's Advocate by Melvin Vivas. Original source: https://x.ai/bot/Uj8zF0iprBX0AsSB3mU2V. Listed on Money With AI: https://moneywithai.net/bots/devil-s-advocate/"
+      }
+    },
+    {
+      "slug": "devil-s-advocate-cyberlytics",
+      "name": "Devil's Advocate",
+      "category": "Research and Ops",
+      "sub_use_case": "Planning and projects",
+      "summary": "Gives sharp, constructive pushback on plans and specs before you commit to them.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "Cyberlytics",
+        "url": "https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v"
+      },
+      "official_share_url": "https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v",
+      "found_via": "https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/devil-s-advocate-cyberlytics/",
+      "json_url": "https://moneywithai.net/api/bots/devil-s-advocate-cyberlytics.json",
+      "share_url": "https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v",
+      "credit": {
+        "creator": "Cyberlytics",
+        "creator_url": "https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v",
+        "source_url": "https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v",
+        "found_via": "https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v",
+        "text": "Devil's Advocate by Cyberlytics. Original source: https://x.ai/bot/vl06Y9ix4dUpsyFfX5K6v. Listed on Money With AI: https://moneywithai.net/bots/devil-s-advocate-cyberlytics/"
       }
     },
     {
@@ -5858,40 +5858,6 @@
       }
     },
     {
-      "slug": "director-xi-yan",
-      "name": "Director",
-      "category": "Content and Marketing",
-      "sub_use_case": "Video production",
-      "summary": "Turns a brief into a short film, ad or explainer: plans, generates, cuts and delivers the video.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "Xi Yan",
-        "url": "https://x.ai/bot/r9v2LNQY0VHF8JXe8y6VF"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/r9v2LNQY0VHF8JXe8y6VF"
-      },
-      "official_share_url": "https://x.ai/bot/r9v2LNQY0VHF8JXe8y6VF",
-      "found_via": "https://x.ai/bot/r9v2LNQY0VHF8JXe8y6VF",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/director-xi-yan/",
-      "json_url": "https://moneywithai.net/api/bots/director-xi-yan.json",
-      "share_url": "https://x.ai/bot/r9v2LNQY0VHF8JXe8y6VF",
-      "credit": {
-        "creator": "Xi Yan",
-        "creator_url": "https://x.ai/bot/r9v2LNQY0VHF8JXe8y6VF",
-        "source_url": "https://x.ai/bot/r9v2LNQY0VHF8JXe8y6VF",
-        "found_via": "https://x.ai/bot/r9v2LNQY0VHF8JXe8y6VF",
-        "text": "Director by Xi Yan. Original source: https://x.ai/bot/r9v2LNQY0VHF8JXe8y6VF. Listed on Money With AI: https://moneywithai.net/bots/director-xi-yan/"
-      }
-    },
-    {
       "slug": "director",
       "name": "Director",
       "category": "Content and Marketing",
@@ -5923,6 +5889,40 @@
         "source_url": "https://x.com/TeslaAIBot/status/2115232037439160773",
         "found_via": "https://x.com/TeslaAIBot/status/2115232037439160773",
         "text": "Director by TeslaAIBot. Original source: https://x.com/TeslaAIBot/status/2115232037439160773. Listed on Money With AI: https://moneywithai.net/bots/director/"
+      }
+    },
+    {
+      "slug": "director-xi-yan",
+      "name": "Director",
+      "category": "Content and Marketing",
+      "sub_use_case": "Video production",
+      "summary": "Turns a brief into a short film, ad or explainer: plans, generates, cuts and delivers the video.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "Xi Yan",
+        "url": "https://x.ai/bot/r9v2LNQY0VHF8JXe8y6VF"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/r9v2LNQY0VHF8JXe8y6VF"
+      },
+      "official_share_url": "https://x.ai/bot/r9v2LNQY0VHF8JXe8y6VF",
+      "found_via": "https://x.ai/bot/r9v2LNQY0VHF8JXe8y6VF",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/director-xi-yan/",
+      "json_url": "https://moneywithai.net/api/bots/director-xi-yan.json",
+      "share_url": "https://x.ai/bot/r9v2LNQY0VHF8JXe8y6VF",
+      "credit": {
+        "creator": "Xi Yan",
+        "creator_url": "https://x.ai/bot/r9v2LNQY0VHF8JXe8y6VF",
+        "source_url": "https://x.ai/bot/r9v2LNQY0VHF8JXe8y6VF",
+        "found_via": "https://x.ai/bot/r9v2LNQY0VHF8JXe8y6VF",
+        "text": "Director by Xi Yan. Original source: https://x.ai/bot/r9v2LNQY0VHF8JXe8y6VF. Listed on Money With AI: https://moneywithai.net/bots/director-xi-yan/"
       }
     },
     {
@@ -6308,6 +6308,40 @@
       }
     },
     {
+      "slug": "ebay-lister",
+      "name": "eBay Lister",
+      "category": "E-Commerce",
+      "sub_use_case": "Resale listings",
+      "summary": "Turns a photo of a thrift find, card or toy into an eBay draft with sold comps, a title and a price.",
+      "tools": [
+        "eBay"
+      ],
+      "creator": {
+        "handle": "Gabi_Valerio3",
+        "url": "https://x.com/Gabi_Valerio3"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/Gabi_Valerio3/status/2105892546245546309"
+      },
+      "official_share_url": "https://x.ai/bot/q9Q8EPKFx45CmVwjUAFY5",
+      "found_via": null,
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://moneywithai.net/bots/ebay-lister/",
+      "json_url": "https://moneywithai.net/api/bots/ebay-lister.json",
+      "share_url": "https://x.ai/bot/q9Q8EPKFx45CmVwjUAFY5",
+      "credit": {
+        "creator": "Gabi_Valerio3",
+        "creator_url": "https://x.com/Gabi_Valerio3",
+        "source_url": "https://x.com/Gabi_Valerio3/status/2105892546245546309",
+        "found_via": null,
+        "text": "eBay Lister by Gabi_Valerio3. Original source: https://x.com/Gabi_Valerio3/status/2105892546245546309. Listed on Money With AI: https://moneywithai.net/bots/ebay-lister/"
+      }
+    },
+    {
       "slug": "ebay-lister-christian-mor-n",
       "name": "eBay Lister",
       "category": "E-Commerce",
@@ -6340,40 +6374,6 @@
         "source_url": "https://x.ai/bot/5m2ZmmvB9P0dtq4efpill",
         "found_via": "https://x.ai/bot/5m2ZmmvB9P0dtq4efpill",
         "text": "eBay Lister by Christian Morón. Original source: https://x.ai/bot/5m2ZmmvB9P0dtq4efpill. Listed on Money With AI: https://moneywithai.net/bots/ebay-lister-christian-mor-n/"
-      }
-    },
-    {
-      "slug": "ebay-lister",
-      "name": "eBay Lister",
-      "category": "E-Commerce",
-      "sub_use_case": "Resale listings",
-      "summary": "Turns a photo of a thrift find, card or toy into an eBay draft with sold comps, a title and a price.",
-      "tools": [
-        "eBay"
-      ],
-      "creator": {
-        "handle": "Gabi_Valerio3",
-        "url": "https://x.com/Gabi_Valerio3"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "x",
-        "url": "https://x.com/Gabi_Valerio3/status/2105892546245546309"
-      },
-      "official_share_url": "https://x.ai/bot/q9Q8EPKFx45CmVwjUAFY5",
-      "found_via": null,
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-24",
-      "url": "https://moneywithai.net/bots/ebay-lister/",
-      "json_url": "https://moneywithai.net/api/bots/ebay-lister.json",
-      "share_url": "https://x.ai/bot/q9Q8EPKFx45CmVwjUAFY5",
-      "credit": {
-        "creator": "Gabi_Valerio3",
-        "creator_url": "https://x.com/Gabi_Valerio3",
-        "source_url": "https://x.com/Gabi_Valerio3/status/2105892546245546309",
-        "found_via": null,
-        "text": "eBay Lister by Gabi_Valerio3. Original source: https://x.com/Gabi_Valerio3/status/2105892546245546309. Listed on Money With AI: https://moneywithai.net/bots/ebay-lister/"
       }
     },
     {
@@ -6411,40 +6411,6 @@
       }
     },
     {
-      "slug": "echo-jaime-hernandez",
-      "name": "Echo",
-      "category": "Customer Support",
-      "sub_use_case": "Chat and messaging support",
-      "summary": "Handles replies and community engagement on your social accounts while you keep control of what gets posted.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "Jaime Hernandez",
-        "url": "https://x.ai/bot/nUcS_RpBYZV5XqCM-ncWm"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/nUcS_RpBYZV5XqCM-ncWm"
-      },
-      "official_share_url": "https://x.ai/bot/nUcS_RpBYZV5XqCM-ncWm",
-      "found_via": "https://x.ai/bot/nUcS_RpBYZV5XqCM-ncWm",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/echo-jaime-hernandez/",
-      "json_url": "https://moneywithai.net/api/bots/echo-jaime-hernandez.json",
-      "share_url": "https://x.ai/bot/nUcS_RpBYZV5XqCM-ncWm",
-      "credit": {
-        "creator": "Jaime Hernandez",
-        "creator_url": "https://x.ai/bot/nUcS_RpBYZV5XqCM-ncWm",
-        "source_url": "https://x.ai/bot/nUcS_RpBYZV5XqCM-ncWm",
-        "found_via": "https://x.ai/bot/nUcS_RpBYZV5XqCM-ncWm",
-        "text": "Echo by Jaime Hernandez. Original source: https://x.ai/bot/nUcS_RpBYZV5XqCM-ncWm. Listed on Money With AI: https://moneywithai.net/bots/echo-jaime-hernandez/"
-      }
-    },
-    {
       "slug": "echo",
       "name": "Echo",
       "category": "Leads and Sales",
@@ -6476,6 +6442,40 @@
         "source_url": "https://x.com/kristaletz/status/2093494509682217308",
         "found_via": null,
         "text": "Echo by kristaletz. Original source: https://x.com/kristaletz/status/2093494509682217308. Listed on Money With AI: https://moneywithai.net/bots/echo/"
+      }
+    },
+    {
+      "slug": "echo-jaime-hernandez",
+      "name": "Echo",
+      "category": "Customer Support",
+      "sub_use_case": "Chat and messaging support",
+      "summary": "Handles replies and community engagement on your social accounts while you keep control of what gets posted.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "Jaime Hernandez",
+        "url": "https://x.ai/bot/nUcS_RpBYZV5XqCM-ncWm"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/nUcS_RpBYZV5XqCM-ncWm"
+      },
+      "official_share_url": "https://x.ai/bot/nUcS_RpBYZV5XqCM-ncWm",
+      "found_via": "https://x.ai/bot/nUcS_RpBYZV5XqCM-ncWm",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/echo-jaime-hernandez/",
+      "json_url": "https://moneywithai.net/api/bots/echo-jaime-hernandez.json",
+      "share_url": "https://x.ai/bot/nUcS_RpBYZV5XqCM-ncWm",
+      "credit": {
+        "creator": "Jaime Hernandez",
+        "creator_url": "https://x.ai/bot/nUcS_RpBYZV5XqCM-ncWm",
+        "source_url": "https://x.ai/bot/nUcS_RpBYZV5XqCM-ncWm",
+        "found_via": "https://x.ai/bot/nUcS_RpBYZV5XqCM-ncWm",
+        "text": "Echo by Jaime Hernandez. Original source: https://x.ai/bot/nUcS_RpBYZV5XqCM-ncWm. Listed on Money With AI: https://moneywithai.net/bots/echo-jaime-hernandez/"
       }
     },
     {
@@ -6582,6 +6582,40 @@
       }
     },
     {
+      "slug": "email-bot",
+      "name": "Email Bot",
+      "category": "Research and Ops",
+      "sub_use_case": "Inbox triage",
+      "summary": "Triages your inbox every hour, archiving noise, keeping what needs you and drafting replies in your voice. It never sends.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "Austen Allred",
+        "url": "https://x.ai/bot/v5U_zbJBHfp6jZU6R3buT"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/v5U_zbJBHfp6jZU6R3buT"
+      },
+      "official_share_url": "https://x.ai/bot/v5U_zbJBHfp6jZU6R3buT",
+      "found_via": "https://x.ai/bot/v5U_zbJBHfp6jZU6R3buT",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/email-bot/",
+      "json_url": "https://moneywithai.net/api/bots/email-bot.json",
+      "share_url": "https://x.ai/bot/v5U_zbJBHfp6jZU6R3buT",
+      "credit": {
+        "creator": "Austen Allred",
+        "creator_url": "https://x.ai/bot/v5U_zbJBHfp6jZU6R3buT",
+        "source_url": "https://x.ai/bot/v5U_zbJBHfp6jZU6R3buT",
+        "found_via": "https://x.ai/bot/v5U_zbJBHfp6jZU6R3buT",
+        "text": "Email Bot by Austen Allred. Original source: https://x.ai/bot/v5U_zbJBHfp6jZU6R3buT. Listed on Money With AI: https://moneywithai.net/bots/email-bot/"
+      }
+    },
+    {
       "slug": "email-bot-colin-mcdermott",
       "name": "Email Bot",
       "category": "Research and Ops",
@@ -6614,40 +6648,6 @@
         "source_url": "https://x.ai/bot/RiqLdJ0BipnpJEjzadgy_",
         "found_via": "https://x.ai/bot/RiqLdJ0BipnpJEjzadgy_",
         "text": "Email Bot by Colin McDermott. Original source: https://x.ai/bot/RiqLdJ0BipnpJEjzadgy_. Listed on Money With AI: https://moneywithai.net/bots/email-bot-colin-mcdermott/"
-      }
-    },
-    {
-      "slug": "email-bot",
-      "name": "Email Bot",
-      "category": "Research and Ops",
-      "sub_use_case": "Inbox triage",
-      "summary": "Triages your inbox every hour, archiving noise, keeping what needs you and drafting replies in your voice. It never sends.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "Austen Allred",
-        "url": "https://x.ai/bot/v5U_zbJBHfp6jZU6R3buT"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/v5U_zbJBHfp6jZU6R3buT"
-      },
-      "official_share_url": "https://x.ai/bot/v5U_zbJBHfp6jZU6R3buT",
-      "found_via": "https://x.ai/bot/v5U_zbJBHfp6jZU6R3buT",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/email-bot/",
-      "json_url": "https://moneywithai.net/api/bots/email-bot.json",
-      "share_url": "https://x.ai/bot/v5U_zbJBHfp6jZU6R3buT",
-      "credit": {
-        "creator": "Austen Allred",
-        "creator_url": "https://x.ai/bot/v5U_zbJBHfp6jZU6R3buT",
-        "source_url": "https://x.ai/bot/v5U_zbJBHfp6jZU6R3buT",
-        "found_via": "https://x.ai/bot/v5U_zbJBHfp6jZU6R3buT",
-        "text": "Email Bot by Austen Allred. Original source: https://x.ai/bot/v5U_zbJBHfp6jZU6R3buT. Listed on Money With AI: https://moneywithai.net/bots/email-bot/"
       }
     },
     {
@@ -7203,6 +7203,40 @@
       }
     },
     {
+      "slug": "executive-assistant",
+      "name": "Executive Assistant",
+      "category": "Research and Ops",
+      "sub_use_case": "Inbox triage",
+      "summary": "Sends a morning briefing and a catch-up summary whenever you join a new Slack room, so you do not have to read every thread.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "SpaceX",
+        "url": "https://x.ai/bot/sf813cbd3aadad1cfda46"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/sf813cbd3aadad1cfda46"
+      },
+      "official_share_url": "https://x.ai/bot/sf813cbd3aadad1cfda46",
+      "found_via": "https://x.ai/bot/sf813cbd3aadad1cfda46",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/executive-assistant/",
+      "json_url": "https://moneywithai.net/api/bots/executive-assistant.json",
+      "share_url": "https://x.ai/bot/sf813cbd3aadad1cfda46",
+      "credit": {
+        "creator": "SpaceX",
+        "creator_url": "https://x.ai/bot/sf813cbd3aadad1cfda46",
+        "source_url": "https://x.ai/bot/sf813cbd3aadad1cfda46",
+        "found_via": "https://x.ai/bot/sf813cbd3aadad1cfda46",
+        "text": "Executive Assistant by SpaceX. Original source: https://x.ai/bot/sf813cbd3aadad1cfda46. Listed on Money With AI: https://moneywithai.net/bots/executive-assistant/"
+      }
+    },
+    {
       "slug": "executive-assistant-natasha-kuo",
       "name": "Executive Assistant",
       "category": "Research and Ops",
@@ -7235,40 +7269,6 @@
         "source_url": "https://x.ai/bot/_DnP777DCicZpaTtm9_h5",
         "found_via": "https://x.ai/bot/_DnP777DCicZpaTtm9_h5",
         "text": "Executive Assistant by Natasha Kuo. Original source: https://x.ai/bot/_DnP777DCicZpaTtm9_h5. Listed on Money With AI: https://moneywithai.net/bots/executive-assistant-natasha-kuo/"
-      }
-    },
-    {
-      "slug": "executive-assistant",
-      "name": "Executive Assistant",
-      "category": "Research and Ops",
-      "sub_use_case": "Inbox triage",
-      "summary": "Sends a morning briefing and a catch-up summary whenever you join a new Slack room, so you do not have to read every thread.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "SpaceX",
-        "url": "https://x.ai/bot/sf813cbd3aadad1cfda46"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/sf813cbd3aadad1cfda46"
-      },
-      "official_share_url": "https://x.ai/bot/sf813cbd3aadad1cfda46",
-      "found_via": "https://x.ai/bot/sf813cbd3aadad1cfda46",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/executive-assistant/",
-      "json_url": "https://moneywithai.net/api/bots/executive-assistant.json",
-      "share_url": "https://x.ai/bot/sf813cbd3aadad1cfda46",
-      "credit": {
-        "creator": "SpaceX",
-        "creator_url": "https://x.ai/bot/sf813cbd3aadad1cfda46",
-        "source_url": "https://x.ai/bot/sf813cbd3aadad1cfda46",
-        "found_via": "https://x.ai/bot/sf813cbd3aadad1cfda46",
-        "text": "Executive Assistant by SpaceX. Original source: https://x.ai/bot/sf813cbd3aadad1cfda46. Listed on Money With AI: https://moneywithai.net/bots/executive-assistant/"
       }
     },
     {
@@ -7582,40 +7582,6 @@
       }
     },
     {
-      "slug": "foreman-american-b",
-      "name": "Foreman",
-      "category": "Content and Marketing",
-      "sub_use_case": "Copy and creative",
-      "summary": "Turns a rough idea into a social post pack: a hook, three plain post options, an image prompt, a backup angle and a list of things to avoid.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "American™ B",
-        "url": "https://x.ai/bot/FjaItlOeqggdXOLQ1luOk"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/FjaItlOeqggdXOLQ1luOk"
-      },
-      "official_share_url": "https://x.ai/bot/FjaItlOeqggdXOLQ1luOk",
-      "found_via": "https://x.ai/bot/FjaItlOeqggdXOLQ1luOk",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/foreman-american-b/",
-      "json_url": "https://moneywithai.net/api/bots/foreman-american-b.json",
-      "share_url": "https://x.ai/bot/FjaItlOeqggdXOLQ1luOk",
-      "credit": {
-        "creator": "American™ B",
-        "creator_url": "https://x.ai/bot/FjaItlOeqggdXOLQ1luOk",
-        "source_url": "https://x.ai/bot/FjaItlOeqggdXOLQ1luOk",
-        "found_via": "https://x.ai/bot/FjaItlOeqggdXOLQ1luOk",
-        "text": "Foreman by American™ B. Original source: https://x.ai/bot/FjaItlOeqggdXOLQ1luOk. Listed on Money With AI: https://moneywithai.net/bots/foreman-american-b/"
-      }
-    },
-    {
       "slug": "foreman",
       "name": "Foreman",
       "category": "Content and Marketing",
@@ -7648,6 +7614,40 @@
         "source_url": "https://x.com/GlennHasABeard/status/2113739345362297175",
         "found_via": "https://x.com/GlennHasABeard/status/2113739345362297175",
         "text": "Foreman by GlennHasABeard. Original source: https://x.com/GlennHasABeard/status/2113739345362297175. Listed on Money With AI: https://moneywithai.net/bots/foreman/"
+      }
+    },
+    {
+      "slug": "foreman-american-b",
+      "name": "Foreman",
+      "category": "Content and Marketing",
+      "sub_use_case": "Copy and creative",
+      "summary": "Turns a rough idea into a social post pack: a hook, three plain post options, an image prompt, a backup angle and a list of things to avoid.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "American™ B",
+        "url": "https://x.ai/bot/FjaItlOeqggdXOLQ1luOk"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/FjaItlOeqggdXOLQ1luOk"
+      },
+      "official_share_url": "https://x.ai/bot/FjaItlOeqggdXOLQ1luOk",
+      "found_via": "https://x.ai/bot/FjaItlOeqggdXOLQ1luOk",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/foreman-american-b/",
+      "json_url": "https://moneywithai.net/api/bots/foreman-american-b.json",
+      "share_url": "https://x.ai/bot/FjaItlOeqggdXOLQ1luOk",
+      "credit": {
+        "creator": "American™ B",
+        "creator_url": "https://x.ai/bot/FjaItlOeqggdXOLQ1luOk",
+        "source_url": "https://x.ai/bot/FjaItlOeqggdXOLQ1luOk",
+        "found_via": "https://x.ai/bot/FjaItlOeqggdXOLQ1luOk",
+        "text": "Foreman by American™ B. Original source: https://x.ai/bot/FjaItlOeqggdXOLQ1luOk. Listed on Money With AI: https://moneywithai.net/bots/foreman-american-b/"
       }
     },
     {
@@ -8858,6 +8858,41 @@
       }
     },
     {
+      "slug": "haggle-bot",
+      "name": "Haggle Bot",
+      "category": "Finance",
+      "sub_use_case": "SaaS spend",
+      "summary": "Reviews vendor and SaaS bills every month, then drafts negotiation emails to cut prices or move you to a better plan.",
+      "tools": [
+        "Gmail",
+        "Google Sheets"
+      ],
+      "creator": {
+        "handle": "lennysan",
+        "url": "https://x.com/lennysan"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/lennysan/status/2095975395602710779"
+      },
+      "official_share_url": null,
+      "found_via": null,
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-25",
+      "url": "https://moneywithai.net/bots/haggle-bot/",
+      "json_url": "https://moneywithai.net/api/bots/haggle-bot.json",
+      "share_url": null,
+      "credit": {
+        "creator": "lennysan",
+        "creator_url": "https://x.com/lennysan",
+        "source_url": "https://x.com/lennysan/status/2095975395602710779",
+        "found_via": null,
+        "text": "Haggle Bot by lennysan. Original source: https://x.com/lennysan/status/2095975395602710779. Listed on Money With AI: https://moneywithai.net/bots/haggle-bot/"
+      }
+    },
+    {
       "slug": "haggle-bot-aaron-maga",
       "name": "Haggle Bot",
       "category": "Finance",
@@ -8923,41 +8958,6 @@
         "source_url": "https://x.ai/bot/pwQ612YrX3R0eACnIMlom",
         "found_via": "https://x.ai/bot/pwQ612YrX3R0eACnIMlom",
         "text": "Haggle Bot by Daniel Gartshein. Original source: https://x.ai/bot/pwQ612YrX3R0eACnIMlom. Listed on Money With AI: https://moneywithai.net/bots/haggle-bot-daniel-gartshein/"
-      }
-    },
-    {
-      "slug": "haggle-bot",
-      "name": "Haggle Bot",
-      "category": "Finance",
-      "sub_use_case": "SaaS spend",
-      "summary": "Reviews vendor and SaaS bills every month, then drafts negotiation emails to cut prices or move you to a better plan.",
-      "tools": [
-        "Gmail",
-        "Google Sheets"
-      ],
-      "creator": {
-        "handle": "lennysan",
-        "url": "https://x.com/lennysan"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "x",
-        "url": "https://x.com/lennysan/status/2095975395602710779"
-      },
-      "official_share_url": null,
-      "found_via": null,
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-25",
-      "url": "https://moneywithai.net/bots/haggle-bot/",
-      "json_url": "https://moneywithai.net/api/bots/haggle-bot.json",
-      "share_url": null,
-      "credit": {
-        "creator": "lennysan",
-        "creator_url": "https://x.com/lennysan",
-        "source_url": "https://x.com/lennysan/status/2095975395602710779",
-        "found_via": null,
-        "text": "Haggle Bot by lennysan. Original source: https://x.com/lennysan/status/2095975395602710779. Listed on Money With AI: https://moneywithai.net/bots/haggle-bot/"
       }
     },
     {
@@ -9306,40 +9306,6 @@
       }
     },
     {
-      "slug": "human-copywriter-sultanov-ramil",
-      "name": "Human Copywriter",
-      "category": "Content and Marketing",
-      "sub_use_case": "Copy and creative",
-      "summary": "Rewrites emails, posts, DMs, blogs and landing pages so they sound human, keeping the facts and adding no new claims.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "Sultanov Ramil",
-        "url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld"
-      },
-      "official_share_url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
-      "found_via": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/human-copywriter-sultanov-ramil/",
-      "json_url": "https://moneywithai.net/api/bots/human-copywriter-sultanov-ramil.json",
-      "share_url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
-      "credit": {
-        "creator": "Sultanov Ramil",
-        "creator_url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
-        "source_url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
-        "found_via": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
-        "text": "Human Copywriter by Sultanov Ramil. Original source: https://x.ai/bot/vgiYk0mJeijE4YXmfmQld. Listed on Money With AI: https://moneywithai.net/bots/human-copywriter-sultanov-ramil/"
-      }
-    },
-    {
       "slug": "human-copywriter",
       "name": "Human Copywriter",
       "category": "Content and Marketing",
@@ -9371,6 +9337,40 @@
         "source_url": "https://x.ai/bot/JZAccYtlRFvDSU2CnMnkZ",
         "found_via": null,
         "text": "Human Copywriter by massimodeluisa. Original source: https://x.ai/bot/JZAccYtlRFvDSU2CnMnkZ. Listed on Money With AI: https://moneywithai.net/bots/human-copywriter/"
+      }
+    },
+    {
+      "slug": "human-copywriter-sultanov-ramil",
+      "name": "Human Copywriter",
+      "category": "Content and Marketing",
+      "sub_use_case": "Copy and creative",
+      "summary": "Rewrites emails, posts, DMs, blogs and landing pages so they sound human, keeping the facts and adding no new claims.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "Sultanov Ramil",
+        "url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld"
+      },
+      "official_share_url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
+      "found_via": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/human-copywriter-sultanov-ramil/",
+      "json_url": "https://moneywithai.net/api/bots/human-copywriter-sultanov-ramil.json",
+      "share_url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
+      "credit": {
+        "creator": "Sultanov Ramil",
+        "creator_url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
+        "source_url": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
+        "found_via": "https://x.ai/bot/vgiYk0mJeijE4YXmfmQld",
+        "text": "Human Copywriter by Sultanov Ramil. Original source: https://x.ai/bot/vgiYk0mJeijE4YXmfmQld. Listed on Money With AI: https://moneywithai.net/bots/human-copywriter-sultanov-ramil/"
       }
     },
     {
@@ -9650,6 +9650,43 @@
       }
     },
     {
+      "slug": "inbox-triage",
+      "name": "Inbox Triage",
+      "category": "Research and Ops",
+      "sub_use_case": "Inbox triage",
+      "summary": "Sorts new email and social DMs, closes what needs no reply and turns the rest into Trello tasks.",
+      "tools": [
+        "Facebook",
+        "X",
+        "LinkedIn",
+        "Trello"
+      ],
+      "creator": {
+        "handle": "rchase",
+        "url": "https://x.com/rchase"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/rchase/status/2091998096175645011"
+      },
+      "official_share_url": null,
+      "found_via": null,
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://moneywithai.net/bots/inbox-triage/",
+      "json_url": "https://moneywithai.net/api/bots/inbox-triage.json",
+      "share_url": null,
+      "credit": {
+        "creator": "rchase",
+        "creator_url": "https://x.com/rchase",
+        "source_url": "https://x.com/rchase/status/2091998096175645011",
+        "found_via": null,
+        "text": "Inbox Triage by rchase. Original source: https://x.com/rchase/status/2091998096175645011. Listed on Money With AI: https://moneywithai.net/bots/inbox-triage/"
+      }
+    },
+    {
       "slug": "inbox-triage-cristopher-guido",
       "name": "Inbox Triage",
       "category": "Research and Ops",
@@ -9715,43 +9752,6 @@
         "source_url": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6",
         "found_via": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6",
         "text": "Inbox Triage by Markus Johnson. Original source: https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6. Listed on Money With AI: https://moneywithai.net/bots/inbox-triage-markus-johnson/"
-      }
-    },
-    {
-      "slug": "inbox-triage",
-      "name": "Inbox Triage",
-      "category": "Research and Ops",
-      "sub_use_case": "Inbox triage",
-      "summary": "Sorts new email and social DMs, closes what needs no reply and turns the rest into Trello tasks.",
-      "tools": [
-        "Facebook",
-        "X",
-        "LinkedIn",
-        "Trello"
-      ],
-      "creator": {
-        "handle": "rchase",
-        "url": "https://x.com/rchase"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "x",
-        "url": "https://x.com/rchase/status/2091998096175645011"
-      },
-      "official_share_url": null,
-      "found_via": null,
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-24",
-      "url": "https://moneywithai.net/bots/inbox-triage/",
-      "json_url": "https://moneywithai.net/api/bots/inbox-triage.json",
-      "share_url": null,
-      "credit": {
-        "creator": "rchase",
-        "creator_url": "https://x.com/rchase",
-        "source_url": "https://x.com/rchase/status/2091998096175645011",
-        "found_via": null,
-        "text": "Inbox Triage by rchase. Original source: https://x.com/rchase/status/2091998096175645011. Listed on Money With AI: https://moneywithai.net/bots/inbox-triage/"
       }
     },
     {
@@ -10492,6 +10492,40 @@
       }
     },
     {
+      "slug": "last30days",
+      "name": "last30days",
+      "category": "Research and Ops",
+      "sub_use_case": "Market notes",
+      "summary": "Researches what people actually said about any topic over the last 30 days across social and the web.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "mvanhorn",
+        "url": "https://x.com/mvanhorn"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/mvanhorn/status/2093466618718245198"
+      },
+      "official_share_url": "https://x.ai/bot/ANv3NrqPfRcS9PdXku7h8",
+      "found_via": null,
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-25",
+      "url": "https://moneywithai.net/bots/last30days/",
+      "json_url": "https://moneywithai.net/api/bots/last30days.json",
+      "share_url": "https://x.ai/bot/ANv3NrqPfRcS9PdXku7h8",
+      "credit": {
+        "creator": "mvanhorn",
+        "creator_url": "https://x.com/mvanhorn",
+        "source_url": "https://x.com/mvanhorn/status/2093466618718245198",
+        "found_via": null,
+        "text": "last30days by mvanhorn. Original source: https://x.com/mvanhorn/status/2093466618718245198. Listed on Money With AI: https://moneywithai.net/bots/last30days/"
+      }
+    },
+    {
       "slug": "last30days-matt-van-horn",
       "name": "last30days",
       "category": "Research and Ops",
@@ -10528,40 +10562,6 @@
         "source_url": "https://x.ai/bot/TxB-fy1KryaYJLYWBcGtT",
         "found_via": "https://x.ai/bot/TxB-fy1KryaYJLYWBcGtT",
         "text": "last30days by Matt Van Horn. Original source: https://x.ai/bot/TxB-fy1KryaYJLYWBcGtT. Listed on Money With AI: https://moneywithai.net/bots/last30days-matt-van-horn/"
-      }
-    },
-    {
-      "slug": "last30days",
-      "name": "last30days",
-      "category": "Research and Ops",
-      "sub_use_case": "Market notes",
-      "summary": "Researches what people actually said about any topic over the last 30 days across social and the web.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "mvanhorn",
-        "url": "https://x.com/mvanhorn"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "x",
-        "url": "https://x.com/mvanhorn/status/2093466618718245198"
-      },
-      "official_share_url": "https://x.ai/bot/ANv3NrqPfRcS9PdXku7h8",
-      "found_via": null,
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-25",
-      "url": "https://moneywithai.net/bots/last30days/",
-      "json_url": "https://moneywithai.net/api/bots/last30days.json",
-      "share_url": "https://x.ai/bot/ANv3NrqPfRcS9PdXku7h8",
-      "credit": {
-        "creator": "mvanhorn",
-        "creator_url": "https://x.com/mvanhorn",
-        "source_url": "https://x.com/mvanhorn/status/2093466618718245198",
-        "found_via": null,
-        "text": "last30days by mvanhorn. Original source: https://x.com/mvanhorn/status/2093466618718245198. Listed on Money With AI: https://moneywithai.net/bots/last30days/"
       }
     },
     {
@@ -10706,6 +10706,40 @@
       }
     },
     {
+      "slug": "lead-scout",
+      "name": "Lead Scout",
+      "category": "Leads and Sales",
+      "sub_use_case": "Local SEO prospect lists",
+      "summary": "Builds lists of local businesses whose sites show search gaps, so an agency has warm reasons to reach out.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "itsryanlenk",
+        "url": "https://x.com/itsryanlenk"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/itsryanlenk/status/2101336928134001090"
+      },
+      "official_share_url": "https://x.ai/bot/j3Qule6BFplSpVqgLpVnV",
+      "found_via": null,
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-24",
+      "url": "https://moneywithai.net/bots/lead-scout/",
+      "json_url": "https://moneywithai.net/api/bots/lead-scout.json",
+      "share_url": "https://x.ai/bot/j3Qule6BFplSpVqgLpVnV",
+      "credit": {
+        "creator": "itsryanlenk",
+        "creator_url": "https://x.com/itsryanlenk",
+        "source_url": "https://x.com/itsryanlenk/status/2101336928134001090",
+        "found_via": null,
+        "text": "Lead Scout by itsryanlenk. Original source: https://x.com/itsryanlenk/status/2101336928134001090. Listed on Money With AI: https://moneywithai.net/bots/lead-scout/"
+      }
+    },
+    {
       "slug": "lead-scout-0xdaemon",
       "name": "Lead Scout",
       "category": "Leads and Sales",
@@ -10773,40 +10807,6 @@
         "source_url": "https://x.ai/bot/bFY4jZu-Wwf3LNencvnzD",
         "found_via": "https://x.ai/bot/bFY4jZu-Wwf3LNencvnzD",
         "text": "Lead Scout by Fan Grok Bot Radar. Original source: https://x.ai/bot/bFY4jZu-Wwf3LNencvnzD. Listed on Money With AI: https://moneywithai.net/bots/lead-scout-fan-grok-bot-radar/"
-      }
-    },
-    {
-      "slug": "lead-scout",
-      "name": "Lead Scout",
-      "category": "Leads and Sales",
-      "sub_use_case": "Local SEO prospect lists",
-      "summary": "Builds lists of local businesses whose sites show search gaps, so an agency has warm reasons to reach out.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "itsryanlenk",
-        "url": "https://x.com/itsryanlenk"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "x",
-        "url": "https://x.com/itsryanlenk/status/2101336928134001090"
-      },
-      "official_share_url": "https://x.ai/bot/j3Qule6BFplSpVqgLpVnV",
-      "found_via": null,
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-24",
-      "url": "https://moneywithai.net/bots/lead-scout/",
-      "json_url": "https://moneywithai.net/api/bots/lead-scout.json",
-      "share_url": "https://x.ai/bot/j3Qule6BFplSpVqgLpVnV",
-      "credit": {
-        "creator": "itsryanlenk",
-        "creator_url": "https://x.com/itsryanlenk",
-        "source_url": "https://x.com/itsryanlenk/status/2101336928134001090",
-        "found_via": null,
-        "text": "Lead Scout by itsryanlenk. Original source: https://x.com/itsryanlenk/status/2101336928134001090. Listed on Money With AI: https://moneywithai.net/bots/lead-scout/"
       }
     },
     {
@@ -10880,40 +10880,6 @@
       }
     },
     {
-      "slug": "ledger-michael",
-      "name": "Ledger",
-      "category": "Finance",
-      "sub_use_case": "SaaS spend",
-      "summary": "Finds subscriptions, bills, renewals and deadlines in your inbox and drafts the replies, sending nothing without you.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "Michael",
-        "url": "https://x.ai/bot/XWuhGoPY9Ak9b-1QqQ_q0"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/XWuhGoPY9Ak9b-1QqQ_q0"
-      },
-      "official_share_url": "https://x.ai/bot/XWuhGoPY9Ak9b-1QqQ_q0",
-      "found_via": "https://x.ai/bot/XWuhGoPY9Ak9b-1QqQ_q0",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/ledger-michael/",
-      "json_url": "https://moneywithai.net/api/bots/ledger-michael.json",
-      "share_url": "https://x.ai/bot/XWuhGoPY9Ak9b-1QqQ_q0",
-      "credit": {
-        "creator": "Michael",
-        "creator_url": "https://x.ai/bot/XWuhGoPY9Ak9b-1QqQ_q0",
-        "source_url": "https://x.ai/bot/XWuhGoPY9Ak9b-1QqQ_q0",
-        "found_via": "https://x.ai/bot/XWuhGoPY9Ak9b-1QqQ_q0",
-        "text": "Ledger by Michael. Original source: https://x.ai/bot/XWuhGoPY9Ak9b-1QqQ_q0. Listed on Money With AI: https://moneywithai.net/bots/ledger-michael/"
-      }
-    },
-    {
       "slug": "ledger",
       "name": "Ledger",
       "category": "Finance",
@@ -10945,6 +10911,40 @@
         "source_url": "https://x.com/Voxyz_ai/status/2089355252306767990",
         "found_via": null,
         "text": "Ledger by Voxyz_ai. Original source: https://x.com/Voxyz_ai/status/2089355252306767990. Listed on Money With AI: https://moneywithai.net/bots/ledger/"
+      }
+    },
+    {
+      "slug": "ledger-michael",
+      "name": "Ledger",
+      "category": "Finance",
+      "sub_use_case": "SaaS spend",
+      "summary": "Finds subscriptions, bills, renewals and deadlines in your inbox and drafts the replies, sending nothing without you.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "Michael",
+        "url": "https://x.ai/bot/XWuhGoPY9Ak9b-1QqQ_q0"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/XWuhGoPY9Ak9b-1QqQ_q0"
+      },
+      "official_share_url": "https://x.ai/bot/XWuhGoPY9Ak9b-1QqQ_q0",
+      "found_via": "https://x.ai/bot/XWuhGoPY9Ak9b-1QqQ_q0",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/ledger-michael/",
+      "json_url": "https://moneywithai.net/api/bots/ledger-michael.json",
+      "share_url": "https://x.ai/bot/XWuhGoPY9Ak9b-1QqQ_q0",
+      "credit": {
+        "creator": "Michael",
+        "creator_url": "https://x.ai/bot/XWuhGoPY9Ak9b-1QqQ_q0",
+        "source_url": "https://x.ai/bot/XWuhGoPY9Ak9b-1QqQ_q0",
+        "found_via": "https://x.ai/bot/XWuhGoPY9Ak9b-1QqQ_q0",
+        "text": "Ledger by Michael. Original source: https://x.ai/bot/XWuhGoPY9Ak9b-1QqQ_q0. Listed on Money With AI: https://moneywithai.net/bots/ledger-michael/"
       }
     },
     {
@@ -13624,6 +13624,42 @@
       }
     },
     {
+      "slug": "overheard",
+      "name": "Overheard",
+      "category": "Content and Marketing",
+      "sub_use_case": "Analytics and monitoring",
+      "summary": "Checks Reddit, Hacker News, X and chosen news sites for mentions of your brand and ranks them each weekday.",
+      "tools": [
+        "Reddit",
+        "Hacker News",
+        "X"
+      ],
+      "creator": {
+        "handle": "lennysan",
+        "url": null
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://moneywithai.net/bots/overheard/"
+      },
+      "official_share_url": null,
+      "found_via": null,
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-25",
+      "url": "https://moneywithai.net/bots/overheard/",
+      "json_url": "https://moneywithai.net/api/bots/overheard.json",
+      "share_url": null,
+      "credit": {
+        "creator": "lennysan",
+        "creator_url": null,
+        "source_url": "https://moneywithai.net/bots/overheard/",
+        "found_via": null,
+        "text": "Overheard by lennysan. Listed on Money With AI: https://moneywithai.net/bots/overheard/"
+      }
+    },
+    {
       "slug": "overheard-lenny-rachitsky",
       "name": "Overheard",
       "category": "Customer Support",
@@ -13658,42 +13694,6 @@
         "source_url": "https://x.ai/bot/NIEguoGUjA648fUPle8F5",
         "found_via": "https://x.ai/bot/NIEguoGUjA648fUPle8F5",
         "text": "Overheard by Lenny Rachitsky. Original source: https://x.ai/bot/NIEguoGUjA648fUPle8F5. Listed on Money With AI: https://moneywithai.net/bots/overheard-lenny-rachitsky/"
-      }
-    },
-    {
-      "slug": "overheard",
-      "name": "Overheard",
-      "category": "Content and Marketing",
-      "sub_use_case": "Analytics and monitoring",
-      "summary": "Checks Reddit, Hacker News, X and chosen news sites for mentions of your brand and ranks them each weekday.",
-      "tools": [
-        "Reddit",
-        "Hacker News",
-        "X"
-      ],
-      "creator": {
-        "handle": "lennysan",
-        "url": null
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://moneywithai.net/bots/overheard/"
-      },
-      "official_share_url": null,
-      "found_via": null,
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-25",
-      "url": "https://moneywithai.net/bots/overheard/",
-      "json_url": "https://moneywithai.net/api/bots/overheard.json",
-      "share_url": null,
-      "credit": {
-        "creator": "lennysan",
-        "creator_url": null,
-        "source_url": "https://moneywithai.net/bots/overheard/",
-        "found_via": null,
-        "text": "Overheard by lennysan. Listed on Money With AI: https://moneywithai.net/bots/overheard/"
       }
     },
     {
@@ -14082,40 +14082,6 @@
       }
     },
     {
-      "slug": "phone-receptionist-i668",
-      "name": "Phone Receptionist",
-      "category": "Customer Support",
-      "sub_use_case": "Phone answering",
-      "summary": "Answers calls in your browser as an automated receptionist, asks a few questions and passes on a summary.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "i668",
-        "url": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C"
-      },
-      "official_share_url": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C",
-      "found_via": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/phone-receptionist-i668/",
-      "json_url": "https://moneywithai.net/api/bots/phone-receptionist-i668.json",
-      "share_url": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C",
-      "credit": {
-        "creator": "i668",
-        "creator_url": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C",
-        "source_url": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C",
-        "found_via": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C",
-        "text": "Phone Receptionist by i668. Original source: https://x.ai/bot/vxvNEoprSLLwOa2d02f6C. Listed on Money With AI: https://moneywithai.net/bots/phone-receptionist-i668/"
-      }
-    },
-    {
       "slug": "phone-receptionist",
       "name": "Phone Receptionist",
       "category": "Customer Support",
@@ -14148,6 +14114,40 @@
         "source_url": "https://x.com/SimplyColeB/status/2107971762831114461",
         "found_via": null,
         "text": "Phone Receptionist by SimplyColeB. Original source: https://x.com/SimplyColeB/status/2107971762831114461. Listed on Money With AI: https://moneywithai.net/bots/phone-receptionist/"
+      }
+    },
+    {
+      "slug": "phone-receptionist-i668",
+      "name": "Phone Receptionist",
+      "category": "Customer Support",
+      "sub_use_case": "Phone answering",
+      "summary": "Answers calls in your browser as an automated receptionist, asks a few questions and passes on a summary.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "i668",
+        "url": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C"
+      },
+      "official_share_url": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C",
+      "found_via": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/phone-receptionist-i668/",
+      "json_url": "https://moneywithai.net/api/bots/phone-receptionist-i668.json",
+      "share_url": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C",
+      "credit": {
+        "creator": "i668",
+        "creator_url": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C",
+        "source_url": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C",
+        "found_via": "https://x.ai/bot/vxvNEoprSLLwOa2d02f6C",
+        "text": "Phone Receptionist by i668. Original source: https://x.ai/bot/vxvNEoprSLLwOa2d02f6C. Listed on Money With AI: https://moneywithai.net/bots/phone-receptionist-i668/"
       }
     },
     {
@@ -16997,40 +16997,6 @@
       }
     },
     {
-      "slug": "sales-call-coach-spacex",
-      "name": "Sales Call Coach",
-      "category": "Leads and Sales",
-      "sub_use_case": "Sales-call support",
-      "summary": "Reviews Gong calls and leaves timed coaching notes on discovery, objections and presence, with a call score.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "SpaceX",
-        "url": "https://x.ai/bot/s8173b3a9c49917de5b2d"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/s8173b3a9c49917de5b2d"
-      },
-      "official_share_url": "https://x.ai/bot/s8173b3a9c49917de5b2d",
-      "found_via": "https://x.ai/bot/s8173b3a9c49917de5b2d",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/sales-call-coach-spacex/",
-      "json_url": "https://moneywithai.net/api/bots/sales-call-coach-spacex.json",
-      "share_url": "https://x.ai/bot/s8173b3a9c49917de5b2d",
-      "credit": {
-        "creator": "SpaceX",
-        "creator_url": "https://x.ai/bot/s8173b3a9c49917de5b2d",
-        "source_url": "https://x.ai/bot/s8173b3a9c49917de5b2d",
-        "found_via": "https://x.ai/bot/s8173b3a9c49917de5b2d",
-        "text": "Sales Call Coach by SpaceX. Original source: https://x.ai/bot/s8173b3a9c49917de5b2d. Listed on Money With AI: https://moneywithai.net/bots/sales-call-coach-spacex/"
-      }
-    },
-    {
       "slug": "sales-call-coach",
       "name": "Sales Call Coach",
       "category": "Leads and Sales",
@@ -17062,6 +17028,40 @@
         "source_url": "https://x.ai/bot/yZ5MFQFdl32vHt6fcIJAc",
         "found_via": "https://x.ai/bot/yZ5MFQFdl32vHt6fcIJAc",
         "text": "Sales Call Coach by Daniel Brill. Original source: https://x.ai/bot/yZ5MFQFdl32vHt6fcIJAc. Listed on Money With AI: https://moneywithai.net/bots/sales-call-coach/"
+      }
+    },
+    {
+      "slug": "sales-call-coach-spacex",
+      "name": "Sales Call Coach",
+      "category": "Leads and Sales",
+      "sub_use_case": "Sales-call support",
+      "summary": "Reviews Gong calls and leaves timed coaching notes on discovery, objections and presence, with a call score.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "SpaceX",
+        "url": "https://x.ai/bot/s8173b3a9c49917de5b2d"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/s8173b3a9c49917de5b2d"
+      },
+      "official_share_url": "https://x.ai/bot/s8173b3a9c49917de5b2d",
+      "found_via": "https://x.ai/bot/s8173b3a9c49917de5b2d",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/sales-call-coach-spacex/",
+      "json_url": "https://moneywithai.net/api/bots/sales-call-coach-spacex.json",
+      "share_url": "https://x.ai/bot/s8173b3a9c49917de5b2d",
+      "credit": {
+        "creator": "SpaceX",
+        "creator_url": "https://x.ai/bot/s8173b3a9c49917de5b2d",
+        "source_url": "https://x.ai/bot/s8173b3a9c49917de5b2d",
+        "found_via": "https://x.ai/bot/s8173b3a9c49917de5b2d",
+        "text": "Sales Call Coach by SpaceX. Original source: https://x.ai/bot/s8173b3a9c49917de5b2d. Listed on Money With AI: https://moneywithai.net/bots/sales-call-coach-spacex/"
       }
     },
     {
@@ -17651,40 +17651,6 @@
       }
     },
     {
-      "slug": "security-johnson-joy",
-      "name": "Security",
-      "category": "Research and Ops",
-      "sub_use_case": "Compliance and admin",
-      "summary": "Screens incoming email and outside data for your other bots, checking for prompt injection, phishing, spoofed senders and money requests.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "Johnson Joy",
-        "url": "https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l"
-      },
-      "official_share_url": "https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l",
-      "found_via": "https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/security-johnson-joy/",
-      "json_url": "https://moneywithai.net/api/bots/security-johnson-joy.json",
-      "share_url": "https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l",
-      "credit": {
-        "creator": "Johnson Joy",
-        "creator_url": "https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l",
-        "source_url": "https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l",
-        "found_via": "https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l",
-        "text": "Security by Johnson Joy. Original source: https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l. Listed on Money With AI: https://moneywithai.net/bots/security-johnson-joy/"
-      }
-    },
-    {
       "slug": "security",
       "name": "Security",
       "category": "Research and Ops",
@@ -17717,6 +17683,40 @@
         "source_url": "https://x.ai/bot/-qkf41F4R1MtZRetyUrxW",
         "found_via": "https://x.ai/bot/-qkf41F4R1MtZRetyUrxW",
         "text": "Security by PWN. Original source: https://x.ai/bot/-qkf41F4R1MtZRetyUrxW. Listed on Money With AI: https://moneywithai.net/bots/security/"
+      }
+    },
+    {
+      "slug": "security-johnson-joy",
+      "name": "Security",
+      "category": "Research and Ops",
+      "sub_use_case": "Compliance and admin",
+      "summary": "Screens incoming email and outside data for your other bots, checking for prompt injection, phishing, spoofed senders and money requests.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "Johnson Joy",
+        "url": "https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l"
+      },
+      "official_share_url": "https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l",
+      "found_via": "https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/security-johnson-joy/",
+      "json_url": "https://moneywithai.net/api/bots/security-johnson-joy.json",
+      "share_url": "https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l",
+      "credit": {
+        "creator": "Johnson Joy",
+        "creator_url": "https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l",
+        "source_url": "https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l",
+        "found_via": "https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l",
+        "text": "Security by Johnson Joy. Original source: https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l. Listed on Money With AI: https://moneywithai.net/bots/security-johnson-joy/"
       }
     },
     {
@@ -17926,40 +17926,6 @@
       }
     },
     {
-      "slug": "seo-and-aeo-desk-jaime-hernandez",
-      "name": "SEO & AEO Desk",
-      "category": "Content and Marketing",
-      "sub_use_case": "SEO and AI search",
-      "summary": "Finds what people search for and ask AI, ranks the openings into page ideas and writes briefs for your writers.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "Jaime Hernandez",
-        "url": "https://x.ai/bot/CaNidmFikjRDtkc7_2OnO"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/CaNidmFikjRDtkc7_2OnO"
-      },
-      "official_share_url": "https://x.ai/bot/CaNidmFikjRDtkc7_2OnO",
-      "found_via": "https://x.ai/bot/CaNidmFikjRDtkc7_2OnO",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/seo-and-aeo-desk-jaime-hernandez/",
-      "json_url": "https://moneywithai.net/api/bots/seo-and-aeo-desk-jaime-hernandez.json",
-      "share_url": "https://x.ai/bot/CaNidmFikjRDtkc7_2OnO",
-      "credit": {
-        "creator": "Jaime Hernandez",
-        "creator_url": "https://x.ai/bot/CaNidmFikjRDtkc7_2OnO",
-        "source_url": "https://x.ai/bot/CaNidmFikjRDtkc7_2OnO",
-        "found_via": "https://x.ai/bot/CaNidmFikjRDtkc7_2OnO",
-        "text": "SEO & AEO Desk by Jaime Hernandez. Original source: https://x.ai/bot/CaNidmFikjRDtkc7_2OnO. Listed on Money With AI: https://moneywithai.net/bots/seo-and-aeo-desk-jaime-hernandez/"
-      }
-    },
-    {
       "slug": "seo-and-aeo-desk",
       "name": "SEO & AEO Desk",
       "category": "Content and Marketing",
@@ -17991,6 +17957,40 @@
         "source_url": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL",
         "found_via": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL",
         "text": "SEO & AEO Desk by Adam Tanguay. Original source: https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL. Listed on Money With AI: https://moneywithai.net/bots/seo-and-aeo-desk/"
+      }
+    },
+    {
+      "slug": "seo-and-aeo-desk-jaime-hernandez",
+      "name": "SEO & AEO Desk",
+      "category": "Content and Marketing",
+      "sub_use_case": "SEO and AI search",
+      "summary": "Finds what people search for and ask AI, ranks the openings into page ideas and writes briefs for your writers.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "Jaime Hernandez",
+        "url": "https://x.ai/bot/CaNidmFikjRDtkc7_2OnO"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/CaNidmFikjRDtkc7_2OnO"
+      },
+      "official_share_url": "https://x.ai/bot/CaNidmFikjRDtkc7_2OnO",
+      "found_via": "https://x.ai/bot/CaNidmFikjRDtkc7_2OnO",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/seo-and-aeo-desk-jaime-hernandez/",
+      "json_url": "https://moneywithai.net/api/bots/seo-and-aeo-desk-jaime-hernandez.json",
+      "share_url": "https://x.ai/bot/CaNidmFikjRDtkc7_2OnO",
+      "credit": {
+        "creator": "Jaime Hernandez",
+        "creator_url": "https://x.ai/bot/CaNidmFikjRDtkc7_2OnO",
+        "source_url": "https://x.ai/bot/CaNidmFikjRDtkc7_2OnO",
+        "found_via": "https://x.ai/bot/CaNidmFikjRDtkc7_2OnO",
+        "text": "SEO & AEO Desk by Jaime Hernandez. Original source: https://x.ai/bot/CaNidmFikjRDtkc7_2OnO. Listed on Money With AI: https://moneywithai.net/bots/seo-and-aeo-desk-jaime-hernandez/"
       }
     },
     {
@@ -18660,6 +18660,40 @@
       }
     },
     {
+      "slug": "site-audit",
+      "name": "Site Audit",
+      "category": "Leads and Sales",
+      "sub_use_case": "Pre-pitch audits",
+      "summary": "Scores a site on SEO, content, speed, accessibility, conversion and schema, with priorities and evidence links.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "scheemunai",
+        "url": "https://x.com/scheemunai"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/scheemunai/status/2093397637487596019"
+      },
+      "official_share_url": "https://x.ai/bot/s6JVFYDIDMsCQMBeTcznW",
+      "found_via": null,
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-25",
+      "url": "https://moneywithai.net/bots/site-audit/",
+      "json_url": "https://moneywithai.net/api/bots/site-audit.json",
+      "share_url": "https://x.ai/bot/s6JVFYDIDMsCQMBeTcznW",
+      "credit": {
+        "creator": "scheemunai",
+        "creator_url": "https://x.com/scheemunai",
+        "source_url": "https://x.com/scheemunai/status/2093397637487596019",
+        "found_via": null,
+        "text": "Site Audit by scheemunai. Original source: https://x.com/scheemunai/status/2093397637487596019. Listed on Money With AI: https://moneywithai.net/bots/site-audit/"
+      }
+    },
+    {
       "slug": "site-audit-rananjay-raj",
       "name": "Site Audit",
       "category": "Content and Marketing",
@@ -18725,40 +18759,6 @@
         "source_url": "https://x.ai/bot/_rzRrKKlUyBD3znUN5b3Q",
         "found_via": "https://x.ai/bot/_rzRrKKlUyBD3znUN5b3Q",
         "text": "Site Audit by Shimecki. Original source: https://x.ai/bot/_rzRrKKlUyBD3znUN5b3Q. Listed on Money With AI: https://moneywithai.net/bots/site-audit-shimecki/"
-      }
-    },
-    {
-      "slug": "site-audit",
-      "name": "Site Audit",
-      "category": "Leads and Sales",
-      "sub_use_case": "Pre-pitch audits",
-      "summary": "Scores a site on SEO, content, speed, accessibility, conversion and schema, with priorities and evidence links.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "scheemunai",
-        "url": "https://x.com/scheemunai"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "x",
-        "url": "https://x.com/scheemunai/status/2093397637487596019"
-      },
-      "official_share_url": "https://x.ai/bot/s6JVFYDIDMsCQMBeTcznW",
-      "found_via": null,
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-25",
-      "url": "https://moneywithai.net/bots/site-audit/",
-      "json_url": "https://moneywithai.net/api/bots/site-audit.json",
-      "share_url": "https://x.ai/bot/s6JVFYDIDMsCQMBeTcznW",
-      "credit": {
-        "creator": "scheemunai",
-        "creator_url": "https://x.com/scheemunai",
-        "source_url": "https://x.com/scheemunai/status/2093397637487596019",
-        "found_via": null,
-        "text": "Site Audit by scheemunai. Original source: https://x.com/scheemunai/status/2093397637487596019. Listed on Money With AI: https://moneywithai.net/bots/site-audit/"
       }
     },
     {
@@ -19145,6 +19145,40 @@
       }
     },
     {
+      "slug": "social-media-manager",
+      "name": "Social Media Manager",
+      "category": "Content and Marketing",
+      "sub_use_case": "Brand social",
+      "summary": "Manages social posting and the social inbox through OmniSocials.",
+      "tools": [
+        "OmniSocials"
+      ],
+      "creator": {
+        "handle": "Lighthart99",
+        "url": null
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://moneywithai.net/bots/social-media-manager/"
+      },
+      "official_share_url": null,
+      "found_via": null,
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-25",
+      "url": "https://moneywithai.net/bots/social-media-manager/",
+      "json_url": "https://moneywithai.net/api/bots/social-media-manager.json",
+      "share_url": null,
+      "credit": {
+        "creator": "Lighthart99",
+        "creator_url": null,
+        "source_url": "https://moneywithai.net/bots/social-media-manager/",
+        "found_via": null,
+        "text": "Social Media Manager by Lighthart99. Listed on Money With AI: https://moneywithai.net/bots/social-media-manager/"
+      }
+    },
+    {
       "slug": "social-media-manager-charles-bonetti",
       "name": "Social Media Manager",
       "category": "Content and Marketing",
@@ -19282,40 +19316,6 @@
         "source_url": "https://x.ai/bot/DqAO8x8wjsb7jazJCBEdl",
         "found_via": "https://x.ai/bot/DqAO8x8wjsb7jazJCBEdl",
         "text": "Social Media Manager by Vishvajeet Shukla. Original source: https://x.ai/bot/DqAO8x8wjsb7jazJCBEdl. Listed on Money With AI: https://moneywithai.net/bots/social-media-manager-vishvajeet-shukla/"
-      }
-    },
-    {
-      "slug": "social-media-manager",
-      "name": "Social Media Manager",
-      "category": "Content and Marketing",
-      "sub_use_case": "Brand social",
-      "summary": "Manages social posting and the social inbox through OmniSocials.",
-      "tools": [
-        "OmniSocials"
-      ],
-      "creator": {
-        "handle": "Lighthart99",
-        "url": null
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://moneywithai.net/bots/social-media-manager/"
-      },
-      "official_share_url": null,
-      "found_via": null,
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-25",
-      "url": "https://moneywithai.net/bots/social-media-manager/",
-      "json_url": "https://moneywithai.net/api/bots/social-media-manager.json",
-      "share_url": null,
-      "credit": {
-        "creator": "Lighthart99",
-        "creator_url": null,
-        "source_url": "https://moneywithai.net/bots/social-media-manager/",
-        "found_via": null,
-        "text": "Social Media Manager by Lighthart99. Listed on Money With AI: https://moneywithai.net/bots/social-media-manager/"
       }
     },
     {
@@ -19591,40 +19591,6 @@
       }
     },
     {
-      "slug": "startup-qa-bot-shub-gaur",
-      "name": "Startup QA Bot",
-      "category": "Research and Ops",
-      "sub_use_case": "Product and engineering",
-      "summary": "Uses your product each weekday from a test account and reports what shipped, what broke with repro steps and what needs your call.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "Shub Gaur",
-        "url": "https://x.ai/bot/XBauviUoNcdi05-ExoOo4"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/XBauviUoNcdi05-ExoOo4"
-      },
-      "official_share_url": "https://x.ai/bot/XBauviUoNcdi05-ExoOo4",
-      "found_via": "https://x.ai/bot/XBauviUoNcdi05-ExoOo4",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/startup-qa-bot-shub-gaur/",
-      "json_url": "https://moneywithai.net/api/bots/startup-qa-bot-shub-gaur.json",
-      "share_url": "https://x.ai/bot/XBauviUoNcdi05-ExoOo4",
-      "credit": {
-        "creator": "Shub Gaur",
-        "creator_url": "https://x.ai/bot/XBauviUoNcdi05-ExoOo4",
-        "source_url": "https://x.ai/bot/XBauviUoNcdi05-ExoOo4",
-        "found_via": "https://x.ai/bot/XBauviUoNcdi05-ExoOo4",
-        "text": "Startup QA Bot by Shub Gaur. Original source: https://x.ai/bot/XBauviUoNcdi05-ExoOo4. Listed on Money With AI: https://moneywithai.net/bots/startup-qa-bot-shub-gaur/"
-      }
-    },
-    {
       "slug": "startup-qa-bot",
       "name": "Startup QA Bot",
       "category": "Research and Ops",
@@ -19657,6 +19623,40 @@
         "source_url": "https://moneywithai.net/bots/startup-qa-bot/",
         "found_via": null,
         "text": "Startup QA Bot by Community submission. Listed on Money With AI: https://moneywithai.net/bots/startup-qa-bot/"
+      }
+    },
+    {
+      "slug": "startup-qa-bot-shub-gaur",
+      "name": "Startup QA Bot",
+      "category": "Research and Ops",
+      "sub_use_case": "Product and engineering",
+      "summary": "Uses your product each weekday from a test account and reports what shipped, what broke with repro steps and what needs your call.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "Shub Gaur",
+        "url": "https://x.ai/bot/XBauviUoNcdi05-ExoOo4"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/XBauviUoNcdi05-ExoOo4"
+      },
+      "official_share_url": "https://x.ai/bot/XBauviUoNcdi05-ExoOo4",
+      "found_via": "https://x.ai/bot/XBauviUoNcdi05-ExoOo4",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/startup-qa-bot-shub-gaur/",
+      "json_url": "https://moneywithai.net/api/bots/startup-qa-bot-shub-gaur.json",
+      "share_url": "https://x.ai/bot/XBauviUoNcdi05-ExoOo4",
+      "credit": {
+        "creator": "Shub Gaur",
+        "creator_url": "https://x.ai/bot/XBauviUoNcdi05-ExoOo4",
+        "source_url": "https://x.ai/bot/XBauviUoNcdi05-ExoOo4",
+        "found_via": "https://x.ai/bot/XBauviUoNcdi05-ExoOo4",
+        "text": "Startup QA Bot by Shub Gaur. Original source: https://x.ai/bot/XBauviUoNcdi05-ExoOo4. Listed on Money With AI: https://moneywithai.net/bots/startup-qa-bot-shub-gaur/"
       }
     },
     {
@@ -20387,40 +20387,6 @@
       }
     },
     {
-      "slug": "tax-firm-os-amervim-bonano",
-      "name": "Tax Firm OS",
-      "category": "Finance",
-      "sub_use_case": "Accounting office ops",
-      "summary": "An operating helper for small tax and accounting offices that drafts compliance, client follow-up and planning work while staff handle filing and signing.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "Amervim Bonano",
-        "url": "https://x.ai/bot/vMr8x1Lm8mpo-jKBrdxCh"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/vMr8x1Lm8mpo-jKBrdxCh"
-      },
-      "official_share_url": "https://x.ai/bot/vMr8x1Lm8mpo-jKBrdxCh",
-      "found_via": "https://x.ai/bot/vMr8x1Lm8mpo-jKBrdxCh",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/tax-firm-os-amervim-bonano/",
-      "json_url": "https://moneywithai.net/api/bots/tax-firm-os-amervim-bonano.json",
-      "share_url": "https://x.ai/bot/vMr8x1Lm8mpo-jKBrdxCh",
-      "credit": {
-        "creator": "Amervim Bonano",
-        "creator_url": "https://x.ai/bot/vMr8x1Lm8mpo-jKBrdxCh",
-        "source_url": "https://x.ai/bot/vMr8x1Lm8mpo-jKBrdxCh",
-        "found_via": "https://x.ai/bot/vMr8x1Lm8mpo-jKBrdxCh",
-        "text": "Tax Firm OS by Amervim Bonano. Original source: https://x.ai/bot/vMr8x1Lm8mpo-jKBrdxCh. Listed on Money With AI: https://moneywithai.net/bots/tax-firm-os-amervim-bonano/"
-      }
-    },
-    {
       "slug": "tax-firm-os",
       "name": "Tax Firm OS",
       "category": "Finance",
@@ -20452,6 +20418,40 @@
         "source_url": "https://x.com/Amervim/status/2105949306025128186",
         "found_via": null,
         "text": "Tax Firm OS by Amervim. Original source: https://x.com/Amervim/status/2105949306025128186. Listed on Money With AI: https://moneywithai.net/bots/tax-firm-os/"
+      }
+    },
+    {
+      "slug": "tax-firm-os-amervim-bonano",
+      "name": "Tax Firm OS",
+      "category": "Finance",
+      "sub_use_case": "Accounting office ops",
+      "summary": "An operating helper for small tax and accounting offices that drafts compliance, client follow-up and planning work while staff handle filing and signing.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "Amervim Bonano",
+        "url": "https://x.ai/bot/vMr8x1Lm8mpo-jKBrdxCh"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/vMr8x1Lm8mpo-jKBrdxCh"
+      },
+      "official_share_url": "https://x.ai/bot/vMr8x1Lm8mpo-jKBrdxCh",
+      "found_via": "https://x.ai/bot/vMr8x1Lm8mpo-jKBrdxCh",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/tax-firm-os-amervim-bonano/",
+      "json_url": "https://moneywithai.net/api/bots/tax-firm-os-amervim-bonano.json",
+      "share_url": "https://x.ai/bot/vMr8x1Lm8mpo-jKBrdxCh",
+      "credit": {
+        "creator": "Amervim Bonano",
+        "creator_url": "https://x.ai/bot/vMr8x1Lm8mpo-jKBrdxCh",
+        "source_url": "https://x.ai/bot/vMr8x1Lm8mpo-jKBrdxCh",
+        "found_via": "https://x.ai/bot/vMr8x1Lm8mpo-jKBrdxCh",
+        "text": "Tax Firm OS by Amervim Bonano. Original source: https://x.ai/bot/vMr8x1Lm8mpo-jKBrdxCh. Listed on Money With AI: https://moneywithai.net/bots/tax-firm-os-amervim-bonano/"
       }
     },
     {
@@ -20981,40 +20981,6 @@
       }
     },
     {
-      "slug": "tiffany-micah-watson",
-      "name": "Tiffany",
-      "category": "Client Services",
-      "sub_use_case": "Quotes",
-      "summary": "An ops helper for pool and plumbing trades that tracks customers, jobs, quotes, suppliers and stock and follows up on unpaid invoices.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "Micah Watson",
-        "url": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95"
-      },
-      "official_share_url": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95",
-      "found_via": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/tiffany-micah-watson/",
-      "json_url": "https://moneywithai.net/api/bots/tiffany-micah-watson.json",
-      "share_url": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95",
-      "credit": {
-        "creator": "Micah Watson",
-        "creator_url": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95",
-        "source_url": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95",
-        "found_via": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95",
-        "text": "Tiffany by Micah Watson. Original source: https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95. Listed on Money With AI: https://moneywithai.net/bots/tiffany-micah-watson/"
-      }
-    },
-    {
       "slug": "tiffany",
       "name": "Tiffany",
       "category": "Content and Marketing",
@@ -21047,6 +21013,40 @@
         "source_url": "https://x.ai/bot/VS2G5p1b_nQixeiYcdwFs",
         "found_via": "https://x.ai/bot/VS2G5p1b_nQixeiYcdwFs",
         "text": "Tiffany by Tripper Wood. Original source: https://x.ai/bot/VS2G5p1b_nQixeiYcdwFs. Listed on Money With AI: https://moneywithai.net/bots/tiffany/"
+      }
+    },
+    {
+      "slug": "tiffany-micah-watson",
+      "name": "Tiffany",
+      "category": "Client Services",
+      "sub_use_case": "Quotes",
+      "summary": "An ops helper for pool and plumbing trades that tracks customers, jobs, quotes, suppliers and stock and follows up on unpaid invoices.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "Micah Watson",
+        "url": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95"
+      },
+      "official_share_url": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95",
+      "found_via": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/tiffany-micah-watson/",
+      "json_url": "https://moneywithai.net/api/bots/tiffany-micah-watson.json",
+      "share_url": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95",
+      "credit": {
+        "creator": "Micah Watson",
+        "creator_url": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95",
+        "source_url": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95",
+        "found_via": "https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95",
+        "text": "Tiffany by Micah Watson. Original source: https://x.ai/bot/7DlZjgLrcgPUNVkl_cC95. Listed on Money With AI: https://moneywithai.net/bots/tiffany-micah-watson/"
       }
     },
     {
@@ -21539,40 +21539,6 @@
       }
     },
     {
-      "slug": "video-editor-ethan-ng",
-      "name": "Video Editor",
-      "category": "Content and Marketing",
-      "sub_use_case": "Video production",
-      "summary": "Edits short vertical talking-head videos: picks the best takes, adds accurate captions and B-roll.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "Ethan Ng",
-        "url": "https://x.ai/bot/14O3EsptD43aAhoAzvfq3"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/14O3EsptD43aAhoAzvfq3"
-      },
-      "official_share_url": "https://x.ai/bot/14O3EsptD43aAhoAzvfq3",
-      "found_via": "https://x.ai/bot/14O3EsptD43aAhoAzvfq3",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/video-editor-ethan-ng/",
-      "json_url": "https://moneywithai.net/api/bots/video-editor-ethan-ng.json",
-      "share_url": "https://x.ai/bot/14O3EsptD43aAhoAzvfq3",
-      "credit": {
-        "creator": "Ethan Ng",
-        "creator_url": "https://x.ai/bot/14O3EsptD43aAhoAzvfq3",
-        "source_url": "https://x.ai/bot/14O3EsptD43aAhoAzvfq3",
-        "found_via": "https://x.ai/bot/14O3EsptD43aAhoAzvfq3",
-        "text": "Video Editor by Ethan Ng. Original source: https://x.ai/bot/14O3EsptD43aAhoAzvfq3. Listed on Money With AI: https://moneywithai.net/bots/video-editor-ethan-ng/"
-      }
-    },
-    {
       "slug": "video-editor",
       "name": "Video Editor",
       "category": "Content and Marketing",
@@ -21604,6 +21570,40 @@
         "source_url": "https://x.com/john_a_isaacson/status/2107037040445661621",
         "found_via": null,
         "text": "Video Editor by john_a_isaacson. Original source: https://x.com/john_a_isaacson/status/2107037040445661621. Listed on Money With AI: https://moneywithai.net/bots/video-editor/"
+      }
+    },
+    {
+      "slug": "video-editor-ethan-ng",
+      "name": "Video Editor",
+      "category": "Content and Marketing",
+      "sub_use_case": "Video production",
+      "summary": "Edits short vertical talking-head videos: picks the best takes, adds accurate captions and B-roll.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "Ethan Ng",
+        "url": "https://x.ai/bot/14O3EsptD43aAhoAzvfq3"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/14O3EsptD43aAhoAzvfq3"
+      },
+      "official_share_url": "https://x.ai/bot/14O3EsptD43aAhoAzvfq3",
+      "found_via": "https://x.ai/bot/14O3EsptD43aAhoAzvfq3",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/video-editor-ethan-ng/",
+      "json_url": "https://moneywithai.net/api/bots/video-editor-ethan-ng.json",
+      "share_url": "https://x.ai/bot/14O3EsptD43aAhoAzvfq3",
+      "credit": {
+        "creator": "Ethan Ng",
+        "creator_url": "https://x.ai/bot/14O3EsptD43aAhoAzvfq3",
+        "source_url": "https://x.ai/bot/14O3EsptD43aAhoAzvfq3",
+        "found_via": "https://x.ai/bot/14O3EsptD43aAhoAzvfq3",
+        "text": "Video Editor by Ethan Ng. Original source: https://x.ai/bot/14O3EsptD43aAhoAzvfq3. Listed on Money With AI: https://moneywithai.net/bots/video-editor-ethan-ng/"
       }
     },
     {
@@ -23180,41 +23180,6 @@
       }
     },
     {
-      "slug": "x-researcher-melvin-vivas",
-      "name": "X Researcher",
-      "category": "Content and Marketing",
-      "sub_use_case": "X posting",
-      "summary": "An X helper for research, drafts, replies and shortlists of popular posts about AI coding, agents and models.",
-      "tools": [
-        "Grok",
-        "X"
-      ],
-      "creator": {
-        "handle": "Melvin Vivas",
-        "url": "https://x.ai/bot/Y0HBAodNhuJB2Gt5i9LEm"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/Y0HBAodNhuJB2Gt5i9LEm"
-      },
-      "official_share_url": "https://x.ai/bot/Y0HBAodNhuJB2Gt5i9LEm",
-      "found_via": "https://x.ai/bot/Y0HBAodNhuJB2Gt5i9LEm",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/x-researcher-melvin-vivas/",
-      "json_url": "https://moneywithai.net/api/bots/x-researcher-melvin-vivas.json",
-      "share_url": "https://x.ai/bot/Y0HBAodNhuJB2Gt5i9LEm",
-      "credit": {
-        "creator": "Melvin Vivas",
-        "creator_url": "https://x.ai/bot/Y0HBAodNhuJB2Gt5i9LEm",
-        "source_url": "https://x.ai/bot/Y0HBAodNhuJB2Gt5i9LEm",
-        "found_via": "https://x.ai/bot/Y0HBAodNhuJB2Gt5i9LEm",
-        "text": "X Researcher by Melvin Vivas. Original source: https://x.ai/bot/Y0HBAodNhuJB2Gt5i9LEm. Listed on Money With AI: https://moneywithai.net/bots/x-researcher-melvin-vivas/"
-      }
-    },
-    {
       "slug": "x-researcher",
       "name": "X Researcher",
       "category": "Research and Ops",
@@ -23248,6 +23213,41 @@
         "source_url": "https://x.ai/bot/LSdxvT3cVnTC4tJV9T_WA",
         "found_via": "https://x.ai/bot/LSdxvT3cVnTC4tJV9T_WA",
         "text": "X Researcher by Lida Wang. Original source: https://x.ai/bot/LSdxvT3cVnTC4tJV9T_WA. Listed on Money With AI: https://moneywithai.net/bots/x-researcher/"
+      }
+    },
+    {
+      "slug": "x-researcher-melvin-vivas",
+      "name": "X Researcher",
+      "category": "Content and Marketing",
+      "sub_use_case": "X posting",
+      "summary": "An X helper for research, drafts, replies and shortlists of popular posts about AI coding, agents and models.",
+      "tools": [
+        "Grok",
+        "X"
+      ],
+      "creator": {
+        "handle": "Melvin Vivas",
+        "url": "https://x.ai/bot/Y0HBAodNhuJB2Gt5i9LEm"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/Y0HBAodNhuJB2Gt5i9LEm"
+      },
+      "official_share_url": "https://x.ai/bot/Y0HBAodNhuJB2Gt5i9LEm",
+      "found_via": "https://x.ai/bot/Y0HBAodNhuJB2Gt5i9LEm",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/x-researcher-melvin-vivas/",
+      "json_url": "https://moneywithai.net/api/bots/x-researcher-melvin-vivas.json",
+      "share_url": "https://x.ai/bot/Y0HBAodNhuJB2Gt5i9LEm",
+      "credit": {
+        "creator": "Melvin Vivas",
+        "creator_url": "https://x.ai/bot/Y0HBAodNhuJB2Gt5i9LEm",
+        "source_url": "https://x.ai/bot/Y0HBAodNhuJB2Gt5i9LEm",
+        "found_via": "https://x.ai/bot/Y0HBAodNhuJB2Gt5i9LEm",
+        "text": "X Researcher by Melvin Vivas. Original source: https://x.ai/bot/Y0HBAodNhuJB2Gt5i9LEm. Listed on Money With AI: https://moneywithai.net/bots/x-researcher-melvin-vivas/"
       }
     },
     {

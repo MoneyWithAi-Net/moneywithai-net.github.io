@@ -1,0 +1,1 @@
+document.querySelectorAll(`[data-copy-target]`).forEach(e=>e.addEventListener(`click`,()=>{let t=document.getElementById(e.dataset.copyTarget||``)?.textContent||``;navigator.clipboard&&t&&navigator.clipboard.writeText(t).catch(()=>{}),e.textContent=e.dataset.copiedLabel||`Copied`}));
