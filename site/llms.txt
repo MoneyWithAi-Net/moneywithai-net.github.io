@@ -634,8 +634,8 @@ Value tiers are our rough estimates (labeled Estimate) of relative value to the 
 - [Tiffany](https://moneywithai.net/bots/tiffany/): Runs the specialist bots of a local marketing agency across clients for Google Business Profile, social, SEO blogs and YouTube, with approvals. By Tripper Wood.
 - [Top Post Crossposter](https://moneywithai.net/bots/top-post-crossposter/): Finds your best X posts and refreshes them for Threads, LinkedIn and Bluesky through PostBridge. By @jackfriks.
 - [Video Edit Desk](https://moneywithai.net/bots/video-edit-desk/): Turns uploaded footage into cut clips with burned-in captions and exports sized for each platform. By X Freeze.
-- [Video Editor](https://moneywithai.net/bots/video-editor/): Edits footage for creators and small teams into shorts, titles, thumbnails and product videos. By john_a_isaacson.
 - [Video Editor](https://moneywithai.net/bots/video-editor-ethan-ng/): Edits short vertical talking-head videos: picks the best takes, adds accurate captions and B-roll. By Ethan Ng.
+- [Video Editor](https://moneywithai.net/bots/video-editor/): Edits footage for creators and small teams into shorts, titles, thumbnails and product videos. By john_a_isaacson.
 - [Video Lab](https://moneywithai.net/bots/video-lab/): Makes videos with code, such as explainers, motion graphics, ads and product demos, rendered by cloud agents. By Felipe.
 - [Video QA Gate](https://moneywithai.net/bots/video-qa-gate/): QA gate for short videos, screen-recorded tutorials and web pages. Checks spec, captions and sensitive data before release. By anatoly eidelman.
 - [Vidness](https://moneywithai.net/bots/vidness/): Turns the footage, photos and music you already have into finished promo videos and social clips, cut to the beat and captioned, without hiring an editor. By @AunySillyMe.
@@ -959,8 +959,8 @@ Value tiers are our rough estimates (labeled Estimate) of relative value to the 
 - [Inbox Manager](https://moneywithai.net/bots/inbox-manager/): Scans new Gmail, labels and prioritizes it, and drafts replies for the messages that need you. By @mvanhorn.
 - [Inbox to Asana](https://moneywithai.net/bots/inbox-to-asana/): Turns action items in a company Gmail inbox into Asana tasks so requests do not slip. By @lennysan.
 - [Inbox Triage](https://moneywithai.net/bots/inbox-triage-cristopher-guido/): Gives small business owners and freelancers the few emails that need them each weekday morning, each with a short draft reply. By Cristopher Guido.
-- [Inbox Triage](https://moneywithai.net/bots/inbox-triage/): Sorts new email and social DMs, closes what needs no reply and turns the rest into Trello tasks. By @rchase.
 - [Inbox Triage](https://moneywithai.net/bots/inbox-triage-markus-johnson/): Sorts your inbox into needs a reply, waiting and can go, with short reply drafts in your voice. It never sends. By Markus Johnson.
+- [Inbox Triage](https://moneywithai.net/bots/inbox-triage/): Sorts new email and social DMs, closes what needs no reply and turns the rest into Trello tasks. By @rchase.
 - [Inbox Triage Desk](https://moneywithai.net/bots/inbox-triage-desk/): Sorts messages into Reply, Delegate, Schedule and FYI lanes with the ask, deadline and a short draft. By @Cypher0x9.
 - [Inbox Zero](https://moneywithai.net/bots/inbox-zero/): Triages your whole inbox, drafts replies, tracks follow-ups and deadlines and sends a daily brief without sending email itself. By Ashley Schendel.
 - [Inbox Zero Chief of Staff](https://moneywithai.net/bots/inbox-zero-chief-of-staff/): Gets your inbox to zero and keeps it there with daily triage, a digest of what needs you and reply drafts you approve. By Moritz Bierling.
@@ -1036,8 +1036,8 @@ Value tiers are our rough estimates (labeled Estimate) of relative value to the 
 - [Scout (Competitive Intelligence)](https://moneywithai.net/bots/scout-competitive-intelligence/): Tracks competitor sites, search rankings and AI answer visibility, and sends a weekly brief when something moves. By @adamta.
 - [Script This Routine](https://moneywithai.net/bots/script-this-routine/): Audits routines across your Grok Bots and turns mechanical checks into small tested scripts so routines only spend usage when there is work. By Kevin Logan.
 - [Script-it](https://moneywithai.net/bots/script-it/): Moves routine checks off the model onto scripts on your own computer, proves they match and then reports only status changes. By D'Artagnan.
-- [Security](https://moneywithai.net/bots/security-johnson-joy/): Screens incoming email and outside data for your other bots, checking for prompt injection, phishing, spoofed senders and money requests. By Johnson Joy.
 - [Security](https://moneywithai.net/bots/security/): A read-and-report security teammate: triages GitHub alerts, scans for leaked secrets and checks your sites' TLS, headers and email setup. By PWN.
+- [Security](https://moneywithai.net/bots/security-johnson-joy/): Screens incoming email and outside data for your other bots, checking for prompt injection, phishing, spoofed senders and money requests. By Johnson Joy.
 - [Security Agent](https://moneywithai.net/bots/security-agent/): Lets you answer who did what, where and with whose permission across your bot team, with one daily record of purchases, outside contact and red flags. By @JennyMarquis.
 - [Security Audit Bot](https://moneywithai.net/bots/security-audit-bot/): Reviews code you own and returns a private security report that starts with up to five plain fixes, with checks for common AI-built app mistakes. By Phillip Holland.
 - [Sherpa Bot](https://moneywithai.net/bots/sherpa-bot/): Helps a would-be founder find a real problem, a real customer and one next action within 14 days. By @MorganWKhan.

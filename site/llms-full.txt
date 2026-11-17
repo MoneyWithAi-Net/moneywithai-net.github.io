@@ -3453,17 +3453,6 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Inbox Triage
 
-- URL: https://moneywithai.net/bots/inbox-triage/
-- Category: Research and Ops
-- Summary (Money With AI's words): Sorts new email and social DMs, closes what needs no reply and turns the rest into Trello tasks.
-- Tools: Facebook, X, LinkedIn, Trello
-- Creator: @rchase (https://x.com/rchase)
-- Original source: https://x.com/rchase/status/2091998096175645011
-- Proof level: Source verified: the original post exists and is by the named creator.
-- Prompt: not included; read it at the original source
-
-## Inbox Triage
-
 - URL: https://moneywithai.net/bots/inbox-triage-markus-johnson/
 - Category: Research and Ops
 - Summary (Money With AI's words): Sorts your inbox into needs a reply, waiting and can go, with short reply drafts in your voice. It never sends.
@@ -3472,6 +3461,17 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Original source: https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6
 - Official share link: https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6
 - Found via: https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Inbox Triage
+
+- URL: https://moneywithai.net/bots/inbox-triage/
+- Category: Research and Ops
+- Summary (Money With AI's words): Sorts new email and social DMs, closes what needs no reply and turns the rest into Trello tasks.
+- Tools: Facebook, X, LinkedIn, Trello
+- Creator: @rchase (https://x.com/rchase)
+- Original source: https://x.com/rchase/status/2091998096175645011
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
@@ -6254,19 +6254,6 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Security
 
-- URL: https://moneywithai.net/bots/security-johnson-joy/
-- Category: Research and Ops
-- Summary (Money With AI's words): Screens incoming email and outside data for your other bots, checking for prompt injection, phishing, spoofed senders and money requests.
-- Tools: Grok
-- Creator: Johnson Joy (https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l)
-- Original source: https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l
-- Official share link: https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l
-- Found via: https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l
-- Proof level: Source verified: the original post exists and is by the named creator.
-- Prompt: not included; read it at the original source
-
-## Security
-
 - URL: https://moneywithai.net/bots/security/
 - Category: Research and Ops
 - Summary (Money With AI's words): A read-and-report security teammate: triages GitHub alerts, scans for leaked secrets and checks your sites' TLS, headers and email setup.
@@ -6275,6 +6262,19 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Original source: https://x.ai/bot/-qkf41F4R1MtZRetyUrxW
 - Official share link: https://x.ai/bot/-qkf41F4R1MtZRetyUrxW
 - Found via: https://x.ai/bot/-qkf41F4R1MtZRetyUrxW
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Security
+
+- URL: https://moneywithai.net/bots/security-johnson-joy/
+- Category: Research and Ops
+- Summary (Money With AI's words): Screens incoming email and outside data for your other bots, checking for prompt injection, phishing, spoofed senders and money requests.
+- Tools: Grok
+- Creator: Johnson Joy (https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l)
+- Original source: https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l
+- Official share link: https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l
+- Found via: https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
@@ -7611,18 +7611,6 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Video Editor
 
-- URL: https://moneywithai.net/bots/video-editor/
-- Category: Content and Marketing
-- Summary (Money With AI's words): Edits footage for creators and small teams into shorts, titles, thumbnails and product videos.
-- Tools: Grok
-- Creator: john_a_isaacson
-- Original source: https://x.com/john_a_isaacson/status/2107037040445661621
-- Official share link: https://x.ai/bot/TUBFpf9exUG-qi7RYKZLs
-- Proof level: Source verified: the original post exists and is by the named creator.
-- Prompt: not included; read it at the original source
-
-## Video Editor
-
 - URL: https://moneywithai.net/bots/video-editor-ethan-ng/
 - Category: Content and Marketing
 - Summary (Money With AI's words): Edits short vertical talking-head videos: picks the best takes, adds accurate captions and B-roll.
@@ -7631,6 +7619,18 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Original source: https://x.ai/bot/14O3EsptD43aAhoAzvfq3
 - Official share link: https://x.ai/bot/14O3EsptD43aAhoAzvfq3
 - Found via: https://x.ai/bot/14O3EsptD43aAhoAzvfq3
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Video Editor
+
+- URL: https://moneywithai.net/bots/video-editor/
+- Category: Content and Marketing
+- Summary (Money With AI's words): Edits footage for creators and small teams into shorts, titles, thumbnails and product videos.
+- Tools: Grok
+- Creator: john_a_isaacson
+- Original source: https://x.com/john_a_isaacson/status/2107037040445661621
+- Official share link: https://x.ai/bot/TUBFpf9exUG-qi7RYKZLs
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 

@@ -9684,6 +9684,40 @@
       }
     },
     {
+      "slug": "inbox-triage-markus-johnson",
+      "name": "Inbox Triage",
+      "category": "Research and Ops",
+      "sub_use_case": "Inbox triage",
+      "summary": "Sorts your inbox into needs a reply, waiting and can go, with short reply drafts in your voice. It never sends.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "Markus Johnson",
+        "url": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6"
+      },
+      "official_share_url": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6",
+      "found_via": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/inbox-triage-markus-johnson/",
+      "json_url": "https://moneywithai.net/api/bots/inbox-triage-markus-johnson.json",
+      "share_url": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6",
+      "credit": {
+        "creator": "Markus Johnson",
+        "creator_url": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6",
+        "source_url": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6",
+        "found_via": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6",
+        "text": "Inbox Triage by Markus Johnson. Original source: https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6. Listed on Money With AI: https://moneywithai.net/bots/inbox-triage-markus-johnson/"
+      }
+    },
+    {
       "slug": "inbox-triage",
       "name": "Inbox Triage",
       "category": "Research and Ops",
@@ -9718,40 +9752,6 @@
         "source_url": "https://x.com/rchase/status/2091998096175645011",
         "found_via": null,
         "text": "Inbox Triage by rchase. Original source: https://x.com/rchase/status/2091998096175645011. Listed on Money With AI: https://moneywithai.net/bots/inbox-triage/"
-      }
-    },
-    {
-      "slug": "inbox-triage-markus-johnson",
-      "name": "Inbox Triage",
-      "category": "Research and Ops",
-      "sub_use_case": "Inbox triage",
-      "summary": "Sorts your inbox into needs a reply, waiting and can go, with short reply drafts in your voice. It never sends.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "Markus Johnson",
-        "url": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6"
-      },
-      "official_share_url": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6",
-      "found_via": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/inbox-triage-markus-johnson/",
-      "json_url": "https://moneywithai.net/api/bots/inbox-triage-markus-johnson.json",
-      "share_url": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6",
-      "credit": {
-        "creator": "Markus Johnson",
-        "creator_url": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6",
-        "source_url": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6",
-        "found_via": "https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6",
-        "text": "Inbox Triage by Markus Johnson. Original source: https://x.ai/bot/RBK79O-MXl4ZRHyuJYag6. Listed on Money With AI: https://moneywithai.net/bots/inbox-triage-markus-johnson/"
       }
     },
     {
@@ -17651,40 +17651,6 @@
       }
     },
     {
-      "slug": "security-johnson-joy",
-      "name": "Security",
-      "category": "Research and Ops",
-      "sub_use_case": "Compliance and admin",
-      "summary": "Screens incoming email and outside data for your other bots, checking for prompt injection, phishing, spoofed senders and money requests.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "Johnson Joy",
-        "url": "https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l"
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "web",
-        "url": "https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l"
-      },
-      "official_share_url": "https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l",
-      "found_via": "https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l",
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-31",
-      "url": "https://moneywithai.net/bots/security-johnson-joy/",
-      "json_url": "https://moneywithai.net/api/bots/security-johnson-joy.json",
-      "share_url": "https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l",
-      "credit": {
-        "creator": "Johnson Joy",
-        "creator_url": "https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l",
-        "source_url": "https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l",
-        "found_via": "https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l",
-        "text": "Security by Johnson Joy. Original source: https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l. Listed on Money With AI: https://moneywithai.net/bots/security-johnson-joy/"
-      }
-    },
-    {
       "slug": "security",
       "name": "Security",
       "category": "Research and Ops",
@@ -17717,6 +17683,40 @@
         "source_url": "https://x.ai/bot/-qkf41F4R1MtZRetyUrxW",
         "found_via": "https://x.ai/bot/-qkf41F4R1MtZRetyUrxW",
         "text": "Security by PWN. Original source: https://x.ai/bot/-qkf41F4R1MtZRetyUrxW. Listed on Money With AI: https://moneywithai.net/bots/security/"
+      }
+    },
+    {
+      "slug": "security-johnson-joy",
+      "name": "Security",
+      "category": "Research and Ops",
+      "sub_use_case": "Compliance and admin",
+      "summary": "Screens incoming email and outside data for your other bots, checking for prompt injection, phishing, spoofed senders and money requests.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "Johnson Joy",
+        "url": "https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l"
+      },
+      "official_share_url": "https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l",
+      "found_via": "https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l",
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-31",
+      "url": "https://moneywithai.net/bots/security-johnson-joy/",
+      "json_url": "https://moneywithai.net/api/bots/security-johnson-joy.json",
+      "share_url": "https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l",
+      "credit": {
+        "creator": "Johnson Joy",
+        "creator_url": "https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l",
+        "source_url": "https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l",
+        "found_via": "https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l",
+        "text": "Security by Johnson Joy. Original source: https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l. Listed on Money With AI: https://moneywithai.net/bots/security-johnson-joy/"
       }
     },
     {
@@ -21539,40 +21539,6 @@
       }
     },
     {
-      "slug": "video-editor",
-      "name": "Video Editor",
-      "category": "Content and Marketing",
-      "sub_use_case": "Video production",
-      "summary": "Edits footage for creators and small teams into shorts, titles, thumbnails and product videos.",
-      "tools": [
-        "Grok"
-      ],
-      "creator": {
-        "handle": "john_a_isaacson",
-        "url": null
-      },
-      "scouted_by": null,
-      "source": {
-        "kind": "x",
-        "url": "https://x.com/john_a_isaacson/status/2107037040445661621"
-      },
-      "official_share_url": "https://x.ai/bot/TUBFpf9exUG-qi7RYKZLs",
-      "found_via": null,
-      "prompt_included": false,
-      "proof_level": "source_verified",
-      "last_checked": "2026-10-25",
-      "url": "https://moneywithai.net/bots/video-editor/",
-      "json_url": "https://moneywithai.net/api/bots/video-editor.json",
-      "share_url": "https://x.ai/bot/TUBFpf9exUG-qi7RYKZLs",
-      "credit": {
-        "creator": "john_a_isaacson",
-        "creator_url": null,
-        "source_url": "https://x.com/john_a_isaacson/status/2107037040445661621",
-        "found_via": null,
-        "text": "Video Editor by john_a_isaacson. Original source: https://x.com/john_a_isaacson/status/2107037040445661621. Listed on Money With AI: https://moneywithai.net/bots/video-editor/"
-      }
-    },
-    {
       "slug": "video-editor-ethan-ng",
       "name": "Video Editor",
       "category": "Content and Marketing",
@@ -21604,6 +21570,40 @@
         "source_url": "https://x.ai/bot/14O3EsptD43aAhoAzvfq3",
         "found_via": "https://x.ai/bot/14O3EsptD43aAhoAzvfq3",
         "text": "Video Editor by Ethan Ng. Original source: https://x.ai/bot/14O3EsptD43aAhoAzvfq3. Listed on Money With AI: https://moneywithai.net/bots/video-editor-ethan-ng/"
+      }
+    },
+    {
+      "slug": "video-editor",
+      "name": "Video Editor",
+      "category": "Content and Marketing",
+      "sub_use_case": "Video production",
+      "summary": "Edits footage for creators and small teams into shorts, titles, thumbnails and product videos.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "john_a_isaacson",
+        "url": null
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/john_a_isaacson/status/2107037040445661621"
+      },
+      "official_share_url": "https://x.ai/bot/TUBFpf9exUG-qi7RYKZLs",
+      "found_via": null,
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-10-25",
+      "url": "https://moneywithai.net/bots/video-editor/",
+      "json_url": "https://moneywithai.net/api/bots/video-editor.json",
+      "share_url": "https://x.ai/bot/TUBFpf9exUG-qi7RYKZLs",
+      "credit": {
+        "creator": "john_a_isaacson",
+        "creator_url": null,
+        "source_url": "https://x.com/john_a_isaacson/status/2107037040445661621",
+        "found_via": null,
+        "text": "Video Editor by john_a_isaacson. Original source: https://x.com/john_a_isaacson/status/2107037040445661621. Listed on Money With AI: https://moneywithai.net/bots/video-editor/"
       }
     },
     {
