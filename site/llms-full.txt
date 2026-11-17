@@ -420,19 +420,6 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Backup Bot
 
-- URL: https://moneywithai.net/bots/backup-bot-andres-ruggiero/
-- Category: Research and Ops
-- Summary (Money With AI's words): Backs up your bot's computer to Google Drive or OneDrive each night and tests a restore every week.
-- Tools: Grok, Google Drive
-- Creator: Andres Ruggiero (https://x.ai/bot/G3Du-G9_8zTwynr6sl9Z2)
-- Original source: https://x.ai/bot/G3Du-G9_8zTwynr6sl9Z2
-- Official share link: https://x.ai/bot/G3Du-G9_8zTwynr6sl9Z2
-- Found via: https://x.ai/bot/G3Du-G9_8zTwynr6sl9Z2
-- Proof level: Source verified: the original post exists and is by the named creator.
-- Prompt: not included; read it at the original source
-
-## Backup Bot
-
 - URL: https://moneywithai.net/bots/backup-bot/
 - Category: Research and Ops
 - Summary (Money With AI's words): Saves a restore pack for any of your bots with its profile, skills, routines and key notes, never passwords or keys, on a schedule you pick.
@@ -441,6 +428,19 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Original source: https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz
 - Official share link: https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz
 - Found via: https://x.ai/bot/rqXQbdE-1PSCsqgjRyFVz
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Backup Bot
+
+- URL: https://moneywithai.net/bots/backup-bot-andres-ruggiero/
+- Category: Research and Ops
+- Summary (Money With AI's words): Backs up your bot's computer to Google Drive or OneDrive each night and tests a restore every week.
+- Tools: Grok, Google Drive
+- Creator: Andres Ruggiero (https://x.ai/bot/G3Du-G9_8zTwynr6sl9Z2)
+- Original source: https://x.ai/bot/G3Du-G9_8zTwynr6sl9Z2
+- Official share link: https://x.ai/bot/G3Du-G9_8zTwynr6sl9Z2
+- Found via: https://x.ai/bot/G3Du-G9_8zTwynr6sl9Z2
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
@@ -6027,19 +6027,6 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Sales Call Coach
 
-- URL: https://moneywithai.net/bots/sales-call-coach-spacex/
-- Category: Leads and Sales
-- Summary (Money With AI's words): Reviews Gong calls and leaves timed coaching notes on discovery, objections and presence, with a call score.
-- Tools: Grok
-- Creator: SpaceX (https://x.ai/bot/s8173b3a9c49917de5b2d)
-- Original source: https://x.ai/bot/s8173b3a9c49917de5b2d
-- Official share link: https://x.ai/bot/s8173b3a9c49917de5b2d
-- Found via: https://x.ai/bot/s8173b3a9c49917de5b2d
-- Proof level: Source verified: the original post exists and is by the named creator.
-- Prompt: not included; read it at the original source
-
-## Sales Call Coach
-
 - URL: https://moneywithai.net/bots/sales-call-coach/
 - Category: Leads and Sales
 - Summary (Money With AI's words): Scores a sales call from a transcript or recording and tells you the few things to change before your next one.
@@ -6048,6 +6035,19 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Original source: https://x.ai/bot/yZ5MFQFdl32vHt6fcIJAc
 - Official share link: https://x.ai/bot/yZ5MFQFdl32vHt6fcIJAc
 - Found via: https://x.ai/bot/yZ5MFQFdl32vHt6fcIJAc
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Sales Call Coach
+
+- URL: https://moneywithai.net/bots/sales-call-coach-spacex/
+- Category: Leads and Sales
+- Summary (Money With AI's words): Reviews Gong calls and leaves timed coaching notes on discovery, objections and presence, with a call score.
+- Tools: Grok
+- Creator: SpaceX (https://x.ai/bot/s8173b3a9c49917de5b2d)
+- Original source: https://x.ai/bot/s8173b3a9c49917de5b2d
+- Official share link: https://x.ai/bot/s8173b3a9c49917de5b2d
+- Found via: https://x.ai/bot/s8173b3a9c49917de5b2d
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
@@ -6254,19 +6254,6 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Security
 
-- URL: https://moneywithai.net/bots/security/
-- Category: Research and Ops
-- Summary (Money With AI's words): A read-and-report security teammate: triages GitHub alerts, scans for leaked secrets and checks your sites' TLS, headers and email setup.
-- Tools: Grok, GitHub
-- Creator: PWN (https://x.ai/bot/-qkf41F4R1MtZRetyUrxW)
-- Original source: https://x.ai/bot/-qkf41F4R1MtZRetyUrxW
-- Official share link: https://x.ai/bot/-qkf41F4R1MtZRetyUrxW
-- Found via: https://x.ai/bot/-qkf41F4R1MtZRetyUrxW
-- Proof level: Source verified: the original post exists and is by the named creator.
-- Prompt: not included; read it at the original source
-
-## Security
-
 - URL: https://moneywithai.net/bots/security-johnson-joy/
 - Category: Research and Ops
 - Summary (Money With AI's words): Screens incoming email and outside data for your other bots, checking for prompt injection, phishing, spoofed senders and money requests.
@@ -6275,6 +6262,19 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Original source: https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l
 - Official share link: https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l
 - Found via: https://x.ai/bot/DWcrUM2ZY3g7lhp0pPA5l
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Security
+
+- URL: https://moneywithai.net/bots/security/
+- Category: Research and Ops
+- Summary (Money With AI's words): A read-and-report security teammate: triages GitHub alerts, scans for leaked secrets and checks your sites' TLS, headers and email setup.
+- Tools: Grok, GitHub
+- Creator: PWN (https://x.ai/bot/-qkf41F4R1MtZRetyUrxW)
+- Original source: https://x.ai/bot/-qkf41F4R1MtZRetyUrxW
+- Official share link: https://x.ai/bot/-qkf41F4R1MtZRetyUrxW
+- Found via: https://x.ai/bot/-qkf41F4R1MtZRetyUrxW
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
@@ -6802,19 +6802,6 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Social Media Manager
 
-- URL: https://moneywithai.net/bots/social-media-manager-upesh-bishwakarma/
-- Category: Content and Marketing
-- Summary (Money With AI's words): Turns news emails, X trends and your notes into short posts for X and Threads and publishes them through Buffer.
-- Tools: Grok, Threads, X
-- Creator: Upesh Bishwakarma (https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL)
-- Original source: https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL
-- Official share link: https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL
-- Found via: https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL
-- Proof level: Source verified: the original post exists and is by the named creator.
-- Prompt: not included; read it at the original source
-
-## Social Media Manager
-
 - URL: https://moneywithai.net/bots/social-media-manager-vishvajeet-shukla/
 - Category: Content and Marketing
 - Summary (Money With AI's words): Plans a content calendar for your brand's Instagram and X, gets visuals made and posts on schedule after your approval.
@@ -6835,6 +6822,19 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Creator: Lighthart99
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included
+
+## Social Media Manager
+
+- URL: https://moneywithai.net/bots/social-media-manager-upesh-bishwakarma/
+- Category: Content and Marketing
+- Summary (Money With AI's words): Turns news emails, X trends and your notes into short posts for X and Threads and publishes them through Buffer.
+- Tools: Grok, Threads, X
+- Creator: Upesh Bishwakarma (https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL)
+- Original source: https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL
+- Official share link: https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL
+- Found via: https://x.ai/bot/EN9Ftdn8ZaoLEg-SLPkZL
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
 
 ## Socials (Short-Form Scout)
 
