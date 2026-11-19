@@ -6483,6 +6483,18 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
+## Shop Phone Line Bot
+
+- URL: https://moneywithai.net/bots/shop-phone-line-bot-gsepac/
+- Category: Customer Support
+- Summary (Money With AI's words): Sets up an AI phone line for online shops that checks orders for verified callers and answers from your own policies.
+- Tools: Grok
+- Creator: dean oakford (https://x.ai/bot/gsEpaC7v6a7PAgxV2YrUu)
+- Original source: https://x.ai/bot/gsEpaC7v6a7PAgxV2YrUu
+- Official share link: https://x.ai/bot/gsEpaC7v6a7PAgxV2YrUu
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
 ## ShopFront
 
 - URL: https://moneywithai.net/bots/shopfront/
@@ -6724,6 +6736,18 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Original source: https://x.com/MarsHomestead/status/2114777307084923290
 - Official share link: https://x.ai/bot/GsgpmqqJ4aUMtHBYZlDgJ
 - Found via: https://x.com/MarsHomestead/status/2114777307084923290
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Small-biz Holiday Rush Desk
+
+- URL: https://moneywithai.net/bots/small-biz-holiday-rush-desk/
+- Category: E-Commerce
+- Summary (Money With AI's words): Black Friday to Christmas front desk for small shops: tracks rush orders and returns, sets shipping cutoffs, drafts replies.
+- Tools: Grok
+- Creator: Lisa (https://x.ai/bot/W3Q8PdXhJX9Yby8TC7T3U)
+- Original source: https://x.ai/bot/W3Q8PdXhJX9Yby8TC7T3U
+- Official share link: https://x.ai/bot/W3Q8PdXhJX9Yby8TC7T3U
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 

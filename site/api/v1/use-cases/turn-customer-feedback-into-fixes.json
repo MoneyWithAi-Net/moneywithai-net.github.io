@@ -1,0 +1,117 @@
+{
+  "type": "use-case",
+  "slug": "turn-customer-feedback-into-fixes",
+  "title": "Turn Customer Feedback into Fixes",
+  "category": "Research and Ops",
+  "category_slug": "research-and-ops",
+  "money_model": "Save costs",
+  "difficulty": "Intermediate",
+  "summary": "Gather customer feedback into themes, then update your help pages for the questions that repeat.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you get steady feedback; the value is fewer repeat questions.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Repeat questions get a fixed help page.",
+    "The team sees what customers ask most."
+  ],
+  "who_its_for": [
+    "Shops that get the same questions again and again."
+  ],
+  "stack": [
+    {
+      "bot": "customer-feedback-watch",
+      "name": "Customer Feedback Watch",
+      "role": "Collects feedback and flags repeat themes.",
+      "creator": "egavrilenko11",
+      "tools": [
+        "X API"
+      ],
+      "url": "https://moneywithai.net/bots/customer-feedback-watch/",
+      "official_share_url": "https://x.ai/bot/8Snl1TovbMwClPoBiHrWT"
+    },
+    {
+      "bot": "help-center-updater",
+      "name": "Help Center Updater",
+      "role": "Updates help pages for repeat questions.",
+      "creator": "damonchen",
+      "tools": [
+        "Intercom",
+        "GitHub"
+      ],
+      "url": "https://moneywithai.net/bots/help-center-updater/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "X API",
+    "Intercom",
+    "GitHub"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Your shop data",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "customer-feedback-watch",
+        "name": "Customer Feedback Watch",
+        "does": "Groups customer feedback by theme",
+        "tools": [
+          "X API"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "help-center-updater",
+        "name": "Help Center Updater",
+        "does": "Drafts help-centre updates for review",
+        "tools": [
+          "Intercom",
+          "GitHub"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Approves each result",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A result you review before it is used"
+    ]
+  },
+  "steps": [
+    "Point the feedback watch at your inbox or reviews.",
+    "Review the themes each week.",
+    "Approve each help page change."
+  ],
+  "guardrails": [
+    "Nothing is published without your review."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-24T08:00:00.000Z",
+  "featured": {
+    "rank": 118,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/turn-customer-feedback-into-fixes/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/turn-customer-feedback-into-fixes.json"
+}

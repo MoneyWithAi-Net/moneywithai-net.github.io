@@ -1,10 +1,36 @@
 {
-  "generated_at": "2026-11-17T16:18:58.000Z",
+  "generated_at": "2026-11-19T06:47:24.000Z",
   "api_version": "v1",
   "schema_revision": 2,
   "status_url": "https://moneywithai.net/api/v1/status.json",
-  "count": 867,
+  "count": 874,
   "items": [
+    {
+      "type": "bot",
+      "slug": "shop-phone-line-bot-gsepac",
+      "title": "Shop Phone Line Bot",
+      "category": "Customer Support",
+      "sub_use_case": "Phone answering",
+      "summary": "Sets up an AI phone line for online shops that checks orders for verified callers and answers from your own policies.",
+      "creator": "dean oakford",
+      "url": "https://moneywithai.net/bots/shop-phone-line-bot-gsepac/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/shop-phone-line-bot-gsepac.json",
+      "official_share_url": "https://x.ai/bot/gsEpaC7v6a7PAgxV2YrUu",
+      "added_at": "2026-11-19T06:00:00.000Z"
+    },
+    {
+      "type": "bot",
+      "slug": "small-biz-holiday-rush-desk",
+      "title": "Small-biz Holiday Rush Desk",
+      "category": "E-Commerce",
+      "sub_use_case": "Store operations",
+      "summary": "Black Friday to Christmas front desk for small shops: tracks rush orders and returns, sets shipping cutoffs, drafts replies.",
+      "creator": "Lisa",
+      "url": "https://moneywithai.net/bots/small-biz-holiday-rush-desk/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/small-biz-holiday-rush-desk.json",
+      "official_share_url": "https://x.ai/bot/W3Q8PdXhJX9Yby8TC7T3U",
+      "added_at": "2026-11-19T06:00:00.000Z"
+    },
     {
       "type": "bot",
       "slug": "contract-signer",
@@ -9032,6 +9058,20 @@
     },
     {
       "type": "use-case",
+      "slug": "alert-the-team-on-big-orders",
+      "title": "Alert the Team on Big Orders",
+      "category": "E-Commerce",
+      "summary": "Post a message to your team when a large order lands, with the items and the fulfilment next step.",
+      "bots": [
+        "big-order-slack-alert",
+        "shopify-fulfillment-runner"
+      ],
+      "url": "https://moneywithai.net/use-cases/alert-the-team-on-big-orders/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/alert-the-team-on-big-orders.json",
+      "added_at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "type": "use-case",
       "slug": "amazon-associates-guide-site",
       "title": "Build an Honest Affiliate Guide Site",
       "category": "E-Commerce",
@@ -9058,6 +9098,34 @@
       ],
       "url": "https://moneywithai.net/use-cases/answer-buyers-on-x-in-your-own-voice/",
       "detail_url": "https://moneywithai.net/api/v1/use-cases/answer-buyers-on-x-in-your-own-voice.json",
+      "added_at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "type": "use-case",
+      "slug": "answer-order-calls-after-hours",
+      "title": "Answer Order Calls After Hours",
+      "category": "Customer Support",
+      "summary": "A phone line that answers order-status and policy calls when your team is off, and passes the hard ones to a person.",
+      "bots": [
+        "shop-phone-line-bot-gsepac",
+        "after-hours-front-desk"
+      ],
+      "url": "https://moneywithai.net/use-cases/answer-order-calls-after-hours/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/answer-order-calls-after-hours.json",
+      "added_at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "type": "use-case",
+      "slug": "answer-refund-questions-from-your-policy",
+      "title": "Answer Refund Questions from Your Policy",
+      "category": "Customer Support",
+      "summary": "Answer refund questions from your written policy, and pass any exception to you with a clear summary.",
+      "bots": [
+        "refund-resolution-desk",
+        "shop-phone-line-bot-gsepac"
+      ],
+      "url": "https://moneywithai.net/use-cases/answer-refund-questions-from-your-policy/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/answer-refund-questions-from-your-policy.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {
@@ -10908,6 +10976,20 @@
     },
     {
       "type": "use-case",
+      "slug": "run-the-holiday-rush-order-desk",
+      "title": "Run the Holiday Rush Order Desk",
+      "category": "E-Commerce",
+      "summary": "A front desk for Black Friday to Christmas: order and return tracking, shipping cutoffs and drafted replies you approve.",
+      "bots": [
+        "small-biz-holiday-rush-desk",
+        "shopify-fulfillment-runner"
+      ],
+      "url": "https://moneywithai.net/use-cases/run-the-holiday-rush-order-desk/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/run-the-holiday-rush-order-desk.json",
+      "added_at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "type": "use-case",
       "slug": "saas-finance-watch",
       "title": "Watch SaaS Spend and Revenue Weekly",
       "category": "Finance",
@@ -11504,6 +11586,20 @@
       ],
       "url": "https://moneywithai.net/use-cases/turn-client-calls-into-retainer-agreements/",
       "detail_url": "https://moneywithai.net/api/v1/use-cases/turn-client-calls-into-retainer-agreements.json",
+      "added_at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "type": "use-case",
+      "slug": "turn-customer-feedback-into-fixes",
+      "title": "Turn Customer Feedback into Fixes",
+      "category": "Research and Ops",
+      "summary": "Gather customer feedback into themes, then update your help pages for the questions that repeat.",
+      "bots": [
+        "customer-feedback-watch",
+        "help-center-updater"
+      ],
+      "url": "https://moneywithai.net/use-cases/turn-customer-feedback-into-fixes/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/turn-customer-feedback-into-fixes.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {

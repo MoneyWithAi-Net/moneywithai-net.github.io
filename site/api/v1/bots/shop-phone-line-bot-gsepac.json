@@ -1,0 +1,42 @@
+{
+  "type": "bot",
+  "slug": "shop-phone-line-bot-gsepac",
+  "name": "Shop Phone Line Bot",
+  "category": "Customer Support",
+  "sub_use_case": "Phone answering",
+  "summary": "Sets up an AI phone line for online shops that checks orders for verified callers and answers from your own policies.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "dean oakford",
+    "url": "https://x.ai/bot/gsEpaC7v6a7PAgxV2YrUu"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/gsEpaC7v6a7PAgxV2YrUu"
+  },
+  "official_share_url": "https://x.ai/bot/gsEpaC7v6a7PAgxV2YrUu",
+  "found_via": null,
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-11-19",
+  "url": "https://moneywithai.net/bots/shop-phone-line-bot-gsepac/",
+  "json_url": "https://moneywithai.net/api/v1/bots/shop-phone-line-bot-gsepac.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/answer-order-calls-after-hours/",
+    "https://moneywithai.net/use-cases/answer-refund-questions-from-your-policy/"
+  ],
+  "added_at": "2026-11-19T06:00:00.000Z",
+  "featured": {
+    "rank": 120,
+    "score": 87,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

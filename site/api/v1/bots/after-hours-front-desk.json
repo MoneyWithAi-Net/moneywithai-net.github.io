@@ -25,7 +25,8 @@
   "url": "https://moneywithai.net/bots/after-hours-front-desk/",
   "json_url": "https://moneywithai.net/api/v1/bots/after-hours-front-desk.json",
   "use_cases": [
-    "https://moneywithai.net/use-cases/fill-salon-gaps-from-your-waitlist/"
+    "https://moneywithai.net/use-cases/fill-salon-gaps-from-your-waitlist/",
+    "https://moneywithai.net/use-cases/answer-order-calls-after-hours/"
   ],
   "added_at": "2026-10-31T17:00:00.000Z",
   "featured": {

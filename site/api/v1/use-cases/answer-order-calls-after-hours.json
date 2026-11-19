@@ -1,0 +1,116 @@
+{
+  "type": "use-case",
+  "slug": "answer-order-calls-after-hours",
+  "title": "Answer Order Calls After Hours",
+  "category": "Customer Support",
+  "category_slug": "customer-support",
+  "money_model": "Save costs",
+  "difficulty": "Beginner",
+  "summary": "A phone line that answers order-status and policy calls when your team is off, and passes the hard ones to a person.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you get after-hours order calls; the value is fewer missed calls and a summary each morning.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Fewer missed calls about orders.",
+    "Your team starts the day with a summary, not a voicemail pile."
+  ],
+  "who_its_for": [
+    "Online shops with customers who call after hours.",
+    "Small teams without a phone desk."
+  ],
+  "stack": [
+    {
+      "bot": "shop-phone-line-bot-gsepac",
+      "name": "Shop Phone Line Bot",
+      "role": "Checks order status for verified callers and answers from your policies.",
+      "creator": "dean oakford",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/shop-phone-line-bot-gsepac/",
+      "official_share_url": "https://x.ai/bot/gsEpaC7v6a7PAgxV2YrUu"
+    },
+    {
+      "bot": "after-hours-front-desk",
+      "name": "After-Hours Front Desk",
+      "role": "Takes the after-hours contact and records the request.",
+      "creator": "John Shetler",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/after-hours-front-desk/",
+      "official_share_url": "https://x.ai/bot/vPREznXsecJi_51MeJNRQ"
+    }
+  ],
+  "tools": [
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Your shop data",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "shop-phone-line-bot-gsepac",
+        "name": "Shop Phone Line Bot",
+        "does": "Checks the order for a verified caller and answers from your policy",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "after-hours-front-desk",
+        "name": "After-Hours Front Desk",
+        "does": "Takes the after-hours call and logs the request",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Approves each result",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A result you review before it is used"
+    ]
+  },
+  "steps": [
+    "Set your shop policies and the verified-caller rule.",
+    "Connect the phone line and the order lookup.",
+    "Review the call summaries each morning.",
+    "Move the hard calls to a person."
+  ],
+  "guardrails": [
+    "The bot never takes payments or changes orders without your yes.",
+    "Keep a person on the escalation path."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-11-19T06:00:00.000Z",
+  "featured": {
+    "rank": 30,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/answer-order-calls-after-hours/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/answer-order-calls-after-hours.json"
+}

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T16:18:58.000Z",
+  "generated_at": "2026-11-19T06:47:24.000Z",
   "api_version": "v1",
   "schema_revision": 2,
   "status_url": "https://moneywithai.net/api/v1/status.json",
@@ -166,13 +166,13 @@
     {
       "slug": "e-commerce",
       "label": "E-Commerce",
-      "bots": 34,
-      "use_cases": 20,
+      "bots": 35,
+      "use_cases": 22,
       "sub_use_cases": [
         {
           "slug": "store-operations",
           "label": "Store operations",
-          "bots": 17
+          "bots": 18
         },
         {
           "slug": "store-chief-of-staff",
@@ -278,8 +278,8 @@
     {
       "slug": "customer-support",
       "label": "Customer Support",
-      "bots": 47,
-      "use_cases": 13,
+      "bots": 48,
+      "use_cases": 15,
       "sub_use_cases": [
         {
           "slug": "ticket-fixing",
@@ -304,7 +304,7 @@
         {
           "slug": "phone-answering",
           "label": "Phone answering",
-          "bots": 12
+          "bots": 13
         },
         {
           "slug": "support-triage",
@@ -323,7 +323,7 @@
       "slug": "research-and-ops",
       "label": "Research and Ops",
       "bots": 235,
-      "use_cases": 26,
+      "use_cases": 27,
       "sub_use_cases": [
         {
           "slug": "competitor-intel",

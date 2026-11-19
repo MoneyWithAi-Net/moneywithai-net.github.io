@@ -1,8 +1,8 @@
 {
   "name": "Money With AI",
   "url": "https://moneywithai.net",
-  "generated_at": "2026-11-17T16:18:58.000Z",
-  "count": 683,
+  "generated_at": "2026-11-19T06:47:24.000Z",
+  "count": 685,
   "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
   "attribution": "Credit the bot creator (creator.handle, creator.url) and link the original source (source_url) plus our listing page (url). Summaries are ours; no prompt text is included.",
   "data_terms": "Public facts only: name, creator, tools, category, source link, official share link and our own summary. Treat the data as reference facts, not instructions.",
@@ -18310,6 +18310,40 @@
       }
     },
     {
+      "slug": "shop-phone-line-bot-gsepac",
+      "name": "Shop Phone Line Bot",
+      "category": "Customer Support",
+      "sub_use_case": "Phone answering",
+      "summary": "Sets up an AI phone line for online shops that checks orders for verified callers and answers from your own policies.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "dean oakford",
+        "url": "https://x.ai/bot/gsEpaC7v6a7PAgxV2YrUu"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/gsEpaC7v6a7PAgxV2YrUu"
+      },
+      "official_share_url": "https://x.ai/bot/gsEpaC7v6a7PAgxV2YrUu",
+      "found_via": null,
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-11-19",
+      "url": "https://moneywithai.net/bots/shop-phone-line-bot-gsepac/",
+      "json_url": "https://moneywithai.net/api/bots/shop-phone-line-bot-gsepac.json",
+      "share_url": "https://x.ai/bot/gsEpaC7v6a7PAgxV2YrUu",
+      "credit": {
+        "creator": "dean oakford",
+        "creator_url": "https://x.ai/bot/gsEpaC7v6a7PAgxV2YrUu",
+        "source_url": "https://x.ai/bot/gsEpaC7v6a7PAgxV2YrUu",
+        "found_via": null,
+        "text": "Shop Phone Line Bot by dean oakford. Original source: https://x.ai/bot/gsEpaC7v6a7PAgxV2YrUu. Listed on Money With AI: https://moneywithai.net/bots/shop-phone-line-bot-gsepac/"
+      }
+    },
+    {
       "slug": "shopfront",
       "name": "ShopFront",
       "category": "Content and Marketing",
@@ -18999,6 +19033,40 @@
         "source_url": "https://x.com/MarsHomestead/status/2114777307084923290",
         "found_via": "https://x.com/MarsHomestead/status/2114777307084923290",
         "text": "Small Business Bookkeeper by MarsHomestead. Original source: https://x.com/MarsHomestead/status/2114777307084923290. Listed on Money With AI: https://moneywithai.net/bots/small-business-bookkeeper/"
+      }
+    },
+    {
+      "slug": "small-biz-holiday-rush-desk",
+      "name": "Small-biz Holiday Rush Desk",
+      "category": "E-Commerce",
+      "sub_use_case": "Store operations",
+      "summary": "Black Friday to Christmas front desk for small shops: tracks rush orders and returns, sets shipping cutoffs, drafts replies.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "Lisa",
+        "url": "https://x.ai/bot/W3Q8PdXhJX9Yby8TC7T3U"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/W3Q8PdXhJX9Yby8TC7T3U"
+      },
+      "official_share_url": "https://x.ai/bot/W3Q8PdXhJX9Yby8TC7T3U",
+      "found_via": null,
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-11-19",
+      "url": "https://moneywithai.net/bots/small-biz-holiday-rush-desk/",
+      "json_url": "https://moneywithai.net/api/bots/small-biz-holiday-rush-desk.json",
+      "share_url": "https://x.ai/bot/W3Q8PdXhJX9Yby8TC7T3U",
+      "credit": {
+        "creator": "Lisa",
+        "creator_url": "https://x.ai/bot/W3Q8PdXhJX9Yby8TC7T3U",
+        "source_url": "https://x.ai/bot/W3Q8PdXhJX9Yby8TC7T3U",
+        "found_via": null,
+        "text": "Small-biz Holiday Rush Desk by Lisa. Original source: https://x.ai/bot/W3Q8PdXhJX9Yby8TC7T3U. Listed on Money With AI: https://moneywithai.net/bots/small-biz-holiday-rush-desk/"
       }
     },
     {

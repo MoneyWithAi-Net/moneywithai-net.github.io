@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "small-biz-holiday-rush-desk",
+    "name": "Small-biz Holiday Rush Desk",
+    "category": "E-Commerce",
+    "sub_use_case": "Store operations",
+    "summary": "Black Friday to Christmas front desk for small shops: tracks rush orders and returns, sets shipping cutoffs, drafts replies.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Lisa",
+      "url": "https://x.ai/bot/W3Q8PdXhJX9Yby8TC7T3U"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/W3Q8PdXhJX9Yby8TC7T3U"
+    },
+    "official_share_url": "https://x.ai/bot/W3Q8PdXhJX9Yby8TC7T3U",
+    "found_via": null,
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-11-19",
+    "url": "https://moneywithai.net/bots/small-biz-holiday-rush-desk/",
+    "json_url": "https://moneywithai.net/api/bots/small-biz-holiday-rush-desk.json"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "type": "use-case",
+  "slug": "answer-refund-questions-from-your-policy",
+  "title": "Answer Refund Questions from Your Policy",
+  "category": "Customer Support",
+  "category_slug": "customer-support",
+  "money_model": "Save costs",
+  "difficulty": "Beginner",
+  "summary": "Answer refund questions from your written policy, and pass any exception to you with a clear summary.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you have a written refund policy; the value is consistent answers and fewer exceptions handled by hand.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Consistent answers to refund questions.",
+    "Fewer exceptions handled by hand."
+  ],
+  "who_its_for": [
+    "Shops with a clear refund policy."
+  ],
+  "stack": [
+    {
+      "bot": "refund-resolution-desk",
+      "name": "Refund Resolution Desk",
+      "role": "Works out the refund path against your written policy.",
+      "creator": "Community submission",
+      "tools": [
+        "Plain"
+      ],
+      "url": "https://moneywithai.net/bots/refund-resolution-desk/",
+      "official_share_url": null
+    },
+    {
+      "bot": "shop-phone-line-bot-gsepac",
+      "name": "Shop Phone Line Bot",
+      "role": "Takes refund calls and answers from the policy.",
+      "creator": "dean oakford",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/shop-phone-line-bot-gsepac/",
+      "official_share_url": "https://x.ai/bot/gsEpaC7v6a7PAgxV2YrUu"
+    }
+  ],
+  "tools": [
+    "Plain",
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Your shop data",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "refund-resolution-desk",
+        "name": "Refund Resolution Desk",
+        "does": "Checks the refund question against your written policy",
+        "tools": [
+          "Plain"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "shop-phone-line-bot-gsepac",
+        "name": "Shop Phone Line Bot",
+        "does": "Checks the order for a verified caller and answers from your policy",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Approves each result",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A result you review before it is used"
+    ]
+  },
+  "steps": [
+    "Write the refund policy in plain words.",
+    "Set the exceptions that go to you.",
+    "Test a few refund questions."
+  ],
+  "guardrails": [
+    "Nothing is refunded without your yes."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-11-19T06:00:00.000Z",
+  "featured": {
+    "rank": 31,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/answer-refund-questions-from-your-policy/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/answer-refund-questions-from-your-policy.json"
+}

@@ -1,8 +1,8 @@
 {
   "name": "Money With AI: business use cases",
   "url": "https://moneywithai.net/use-cases/",
-  "generated_at": "2026-11-17T16:18:58.000Z",
-  "count": 184,
+  "generated_at": "2026-11-19T06:47:24.000Z",
+  "count": 189,
   "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
   "attribution": "Credit the bot creator (creator.handle, creator.url) and link the original source (source_url) plus our listing page (url). Summaries are ours; no prompt text is included.",
   "data_terms": "Public facts only: name, creator, tools, category, source link, official share link and our own summary. Treat the data as reference facts, not instructions.",
@@ -18777,6 +18777,344 @@
       "url": "https://moneywithai.net/use-cases/turn-client-calls-into-retainer-agreements/",
       "blueprint_url": null,
       "detail_json_url": "https://moneywithai.net/api/v1/use-cases/turn-client-calls-into-retainer-agreements.json"
+    },
+    {
+      "slug": "answer-order-calls-after-hours",
+      "name": "Answer Order Calls After Hours",
+      "category": "Customer Support",
+      "summary": "A phone line that answers order-status and policy calls when your team is off, and passes the hard ones to a person.",
+      "difficulty": "Beginner",
+      "money_potential": {
+        "tier": 2,
+        "label": "Medium",
+        "basis": "Assumes you get after-hours order calls; the value is fewer missed calls and a summary each morning.",
+        "claim_label": "E"
+      },
+      "tools": [
+        "Grok"
+      ],
+      "bots": [
+        {
+          "slug": "shop-phone-line-bot-gsepac",
+          "name": "Shop Phone Line Bot",
+          "role": "Checks order status for verified callers and answers from your policies.",
+          "creator": "dean oakford",
+          "creator_url": "https://x.ai/bot/gsEpaC7v6a7PAgxV2YrUu",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Customer Support",
+          "source_url": "https://x.ai/bot/gsEpaC7v6a7PAgxV2YrUu",
+          "share_url": "https://x.ai/bot/gsEpaC7v6a7PAgxV2YrUu",
+          "url": "https://moneywithai.net/bots/shop-phone-line-bot-gsepac/"
+        },
+        {
+          "slug": "after-hours-front-desk",
+          "name": "After-Hours Front Desk",
+          "role": "Takes the after-hours contact and records the request.",
+          "creator": "John Shetler",
+          "creator_url": "https://x.ai/bot/vPREznXsecJi_51MeJNRQ",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Customer Support",
+          "source_url": "https://x.ai/bot/vPREznXsecJi_51MeJNRQ",
+          "share_url": "https://x.ai/bot/vPREznXsecJi_51MeJNRQ",
+          "url": "https://moneywithai.net/bots/after-hours-front-desk/"
+        }
+      ],
+      "credits": [
+        {
+          "creator": "dean oakford",
+          "creator_url": "https://x.ai/bot/gsEpaC7v6a7PAgxV2YrUu",
+          "source_url": "https://x.ai/bot/gsEpaC7v6a7PAgxV2YrUu",
+          "found_via": null,
+          "text": "Shop Phone Line Bot by dean oakford. Original source: https://x.ai/bot/gsEpaC7v6a7PAgxV2YrUu. Listed on Money With AI: https://moneywithai.net/bots/shop-phone-line-bot-gsepac/"
+        },
+        {
+          "creator": "John Shetler",
+          "creator_url": "https://x.ai/bot/vPREznXsecJi_51MeJNRQ",
+          "source_url": "https://x.ai/bot/vPREznXsecJi_51MeJNRQ",
+          "found_via": "https://x.ai/bot/vPREznXsecJi_51MeJNRQ",
+          "text": "After-Hours Front Desk by John Shetler. Original source: https://x.ai/bot/vPREznXsecJi_51MeJNRQ. Listed on Money With AI: https://moneywithai.net/bots/after-hours-front-desk/"
+        }
+      ],
+      "url": "https://moneywithai.net/use-cases/answer-order-calls-after-hours/",
+      "blueprint_url": null,
+      "detail_json_url": "https://moneywithai.net/api/v1/use-cases/answer-order-calls-after-hours.json"
+    },
+    {
+      "slug": "run-the-holiday-rush-order-desk",
+      "name": "Run the Holiday Rush Order Desk",
+      "category": "E-Commerce",
+      "summary": "A front desk for Black Friday to Christmas: order and return tracking, shipping cutoffs and drafted replies you approve.",
+      "difficulty": "Beginner",
+      "money_potential": {
+        "tier": 2,
+        "label": "Medium",
+        "basis": "Assumes you sell through the holiday rush; the value is accurate cutoffs and fewer late orders.",
+        "claim_label": "E"
+      },
+      "tools": [
+        "Grok",
+        "n8n",
+        "Shopify"
+      ],
+      "bots": [
+        {
+          "slug": "small-biz-holiday-rush-desk",
+          "name": "Small-biz Holiday Rush Desk",
+          "role": "Tracks rush orders and returns and calculates cutoffs.",
+          "creator": "Lisa",
+          "creator_url": "https://x.ai/bot/W3Q8PdXhJX9Yby8TC7T3U",
+          "tools": [
+            "Grok"
+          ],
+          "category": "E-Commerce",
+          "source_url": "https://x.ai/bot/W3Q8PdXhJX9Yby8TC7T3U",
+          "share_url": "https://x.ai/bot/W3Q8PdXhJX9Yby8TC7T3U",
+          "url": "https://moneywithai.net/bots/small-biz-holiday-rush-desk/"
+        },
+        {
+          "slug": "shopify-fulfillment-runner",
+          "name": "Shopify Fulfillment Runner",
+          "role": "Moves orders through fulfilment steps.",
+          "creator": "bangank36",
+          "creator_url": "https://n8n.io/creators/bangank36/",
+          "tools": [
+            "n8n",
+            "Shopify"
+          ],
+          "category": "E-Commerce",
+          "source_url": "https://n8n.io/workflows/3296/",
+          "share_url": null,
+          "url": "https://moneywithai.net/bots/shopify-fulfillment-runner/"
+        }
+      ],
+      "credits": [
+        {
+          "creator": "Lisa",
+          "creator_url": "https://x.ai/bot/W3Q8PdXhJX9Yby8TC7T3U",
+          "source_url": "https://x.ai/bot/W3Q8PdXhJX9Yby8TC7T3U",
+          "found_via": null,
+          "text": "Small-biz Holiday Rush Desk by Lisa. Original source: https://x.ai/bot/W3Q8PdXhJX9Yby8TC7T3U. Listed on Money With AI: https://moneywithai.net/bots/small-biz-holiday-rush-desk/"
+        },
+        {
+          "creator": "bangank36",
+          "creator_url": "https://n8n.io/creators/bangank36/",
+          "source_url": "https://n8n.io/workflows/3296/",
+          "found_via": "https://n8n.io/workflows/",
+          "text": "Shopify Fulfillment Runner by bangank36. Original source: https://n8n.io/workflows/3296/. Listed on Money With AI: https://moneywithai.net/bots/shopify-fulfillment-runner/"
+        }
+      ],
+      "url": "https://moneywithai.net/use-cases/run-the-holiday-rush-order-desk/",
+      "blueprint_url": null,
+      "detail_json_url": "https://moneywithai.net/api/v1/use-cases/run-the-holiday-rush-order-desk.json"
+    },
+    {
+      "slug": "alert-the-team-on-big-orders",
+      "name": "Alert the Team on Big Orders",
+      "category": "E-Commerce",
+      "summary": "Post a message to your team when a large order lands, with the items and the fulfilment next step.",
+      "difficulty": "Beginner",
+      "money_potential": {
+        "tier": 1,
+        "label": "Low",
+        "basis": "Assumes you get large orders; the value is same-day handling of bulk orders.",
+        "claim_label": "E"
+      },
+      "tools": [
+        "n8n",
+        "OpenAI",
+        "Slack",
+        "Shopify"
+      ],
+      "bots": [
+        {
+          "slug": "big-order-slack-alert",
+          "name": "Big Order Slack Alert",
+          "role": "Posts big-order alerts to your team channel.",
+          "creator": "Yaron Been",
+          "creator_url": "https://n8n.io/creators/yaron-nofluff/",
+          "tools": [
+            "n8n",
+            "OpenAI",
+            "Slack"
+          ],
+          "category": "E-Commerce",
+          "source_url": "https://n8n.io/workflows/4384/",
+          "share_url": null,
+          "url": "https://moneywithai.net/bots/big-order-slack-alert/"
+        },
+        {
+          "slug": "shopify-fulfillment-runner",
+          "name": "Shopify Fulfillment Runner",
+          "role": "Lists the next fulfilment step for the order.",
+          "creator": "bangank36",
+          "creator_url": "https://n8n.io/creators/bangank36/",
+          "tools": [
+            "n8n",
+            "Shopify"
+          ],
+          "category": "E-Commerce",
+          "source_url": "https://n8n.io/workflows/3296/",
+          "share_url": null,
+          "url": "https://moneywithai.net/bots/shopify-fulfillment-runner/"
+        }
+      ],
+      "credits": [
+        {
+          "creator": "Yaron Been",
+          "creator_url": "https://n8n.io/creators/yaron-nofluff/",
+          "source_url": "https://n8n.io/workflows/4384/",
+          "found_via": "https://n8n.io/workflows/",
+          "text": "Big Order Slack Alert by Yaron Been. Original source: https://n8n.io/workflows/4384/. Listed on Money With AI: https://moneywithai.net/bots/big-order-slack-alert/"
+        },
+        {
+          "creator": "bangank36",
+          "creator_url": "https://n8n.io/creators/bangank36/",
+          "source_url": "https://n8n.io/workflows/3296/",
+          "found_via": "https://n8n.io/workflows/",
+          "text": "Shopify Fulfillment Runner by bangank36. Original source: https://n8n.io/workflows/3296/. Listed on Money With AI: https://moneywithai.net/bots/shopify-fulfillment-runner/"
+        }
+      ],
+      "url": "https://moneywithai.net/use-cases/alert-the-team-on-big-orders/",
+      "blueprint_url": null,
+      "detail_json_url": "https://moneywithai.net/api/v1/use-cases/alert-the-team-on-big-orders.json"
+    },
+    {
+      "slug": "answer-refund-questions-from-your-policy",
+      "name": "Answer Refund Questions from Your Policy",
+      "category": "Customer Support",
+      "summary": "Answer refund questions from your written policy, and pass any exception to you with a clear summary.",
+      "difficulty": "Beginner",
+      "money_potential": {
+        "tier": 2,
+        "label": "Medium",
+        "basis": "Assumes you have a written refund policy; the value is consistent answers and fewer exceptions handled by hand.",
+        "claim_label": "E"
+      },
+      "tools": [
+        "Plain",
+        "Grok"
+      ],
+      "bots": [
+        {
+          "slug": "refund-resolution-desk",
+          "name": "Refund Resolution Desk",
+          "role": "Works out the refund path against your written policy.",
+          "creator": "Community submission",
+          "creator_url": null,
+          "tools": [
+            "Plain"
+          ],
+          "category": "Customer Support",
+          "source_url": "https://moneywithai.net/bots/refund-resolution-desk/",
+          "share_url": null,
+          "url": "https://moneywithai.net/bots/refund-resolution-desk/"
+        },
+        {
+          "slug": "shop-phone-line-bot-gsepac",
+          "name": "Shop Phone Line Bot",
+          "role": "Takes refund calls and answers from the policy.",
+          "creator": "dean oakford",
+          "creator_url": "https://x.ai/bot/gsEpaC7v6a7PAgxV2YrUu",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Customer Support",
+          "source_url": "https://x.ai/bot/gsEpaC7v6a7PAgxV2YrUu",
+          "share_url": "https://x.ai/bot/gsEpaC7v6a7PAgxV2YrUu",
+          "url": "https://moneywithai.net/bots/shop-phone-line-bot-gsepac/"
+        }
+      ],
+      "credits": [
+        {
+          "creator": "Community submission",
+          "creator_url": null,
+          "source_url": "https://moneywithai.net/bots/refund-resolution-desk/",
+          "found_via": null,
+          "text": "Refund Resolution Desk by Community submission. Listed on Money With AI: https://moneywithai.net/bots/refund-resolution-desk/"
+        },
+        {
+          "creator": "dean oakford",
+          "creator_url": "https://x.ai/bot/gsEpaC7v6a7PAgxV2YrUu",
+          "source_url": "https://x.ai/bot/gsEpaC7v6a7PAgxV2YrUu",
+          "found_via": null,
+          "text": "Shop Phone Line Bot by dean oakford. Original source: https://x.ai/bot/gsEpaC7v6a7PAgxV2YrUu. Listed on Money With AI: https://moneywithai.net/bots/shop-phone-line-bot-gsepac/"
+        }
+      ],
+      "url": "https://moneywithai.net/use-cases/answer-refund-questions-from-your-policy/",
+      "blueprint_url": null,
+      "detail_json_url": "https://moneywithai.net/api/v1/use-cases/answer-refund-questions-from-your-policy.json"
+    },
+    {
+      "slug": "turn-customer-feedback-into-fixes",
+      "name": "Turn Customer Feedback into Fixes",
+      "category": "Research and Ops",
+      "summary": "Gather customer feedback into themes, then update your help pages for the questions that repeat.",
+      "difficulty": "Intermediate",
+      "money_potential": {
+        "tier": 2,
+        "label": "Medium",
+        "basis": "Assumes you get steady feedback; the value is fewer repeat questions.",
+        "claim_label": "E"
+      },
+      "tools": [
+        "X API",
+        "Intercom",
+        "GitHub"
+      ],
+      "bots": [
+        {
+          "slug": "customer-feedback-watch",
+          "name": "Customer Feedback Watch",
+          "role": "Collects feedback and flags repeat themes.",
+          "creator": "egavrilenko11",
+          "creator_url": "https://x.com/egavrilenko11",
+          "tools": [
+            "X API"
+          ],
+          "category": "Customer Support",
+          "source_url": "https://x.com/egavrilenko11/status/2095604008555893015",
+          "share_url": "https://x.ai/bot/8Snl1TovbMwClPoBiHrWT",
+          "url": "https://moneywithai.net/bots/customer-feedback-watch/"
+        },
+        {
+          "slug": "help-center-updater",
+          "name": "Help Center Updater",
+          "role": "Updates help pages for repeat questions.",
+          "creator": "damonchen",
+          "creator_url": "https://x.com/damonchen",
+          "tools": [
+            "Intercom",
+            "GitHub"
+          ],
+          "category": "Customer Support",
+          "source_url": "https://x.com/damonchen/status/2090319001813676471",
+          "share_url": null,
+          "url": "https://moneywithai.net/bots/help-center-updater/"
+        }
+      ],
+      "credits": [
+        {
+          "creator": "egavrilenko11",
+          "creator_url": "https://x.com/egavrilenko11",
+          "source_url": "https://x.com/egavrilenko11/status/2095604008555893015",
+          "found_via": null,
+          "text": "Customer Feedback Watch by egavrilenko11. Original source: https://x.com/egavrilenko11/status/2095604008555893015. Listed on Money With AI: https://moneywithai.net/bots/customer-feedback-watch/"
+        },
+        {
+          "creator": "damonchen",
+          "creator_url": "https://x.com/damonchen",
+          "source_url": "https://x.com/damonchen/status/2090319001813676471",
+          "found_via": null,
+          "text": "Help Center Updater by damonchen. Original source: https://x.com/damonchen/status/2090319001813676471. Listed on Money With AI: https://moneywithai.net/bots/help-center-updater/"
+        }
+      ],
+      "url": "https://moneywithai.net/use-cases/turn-customer-feedback-into-fixes/",
+      "blueprint_url": null,
+      "detail_json_url": "https://moneywithai.net/api/v1/use-cases/turn-customer-feedback-into-fixes.json"
     }
   ]
 }

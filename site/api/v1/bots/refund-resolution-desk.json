@@ -25,16 +25,17 @@
   "url": "https://moneywithai.net/bots/refund-resolution-desk/",
   "json_url": "https://moneywithai.net/api/v1/bots/refund-resolution-desk.json",
   "use_cases": [
-    "https://moneywithai.net/use-cases/support-desk-with-refund-gate/"
+    "https://moneywithai.net/use-cases/support-desk-with-refund-gate/",
+    "https://moneywithai.net/use-cases/answer-refund-questions-from-your-policy/"
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 235,
-    "score": 79,
+    "rank": 153,
+    "score": 83,
     "money": 27,
     "profile": 26,
     "visuals": 20,
-    "difficulty": 6,
+    "difficulty": 10,
     "override": null,
     "rules": "https://moneywithai.net/llms.txt"
   }

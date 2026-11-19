@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "small-biz-holiday-rush-desk",
+  "name": "Small-biz Holiday Rush Desk",
+  "category": "E-Commerce",
+  "sub_use_case": "Store operations",
+  "summary": "Black Friday to Christmas front desk for small shops: tracks rush orders and returns, sets shipping cutoffs, drafts replies.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Lisa",
+    "url": "https://x.ai/bot/W3Q8PdXhJX9Yby8TC7T3U"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/W3Q8PdXhJX9Yby8TC7T3U"
+  },
+  "official_share_url": "https://x.ai/bot/W3Q8PdXhJX9Yby8TC7T3U",
+  "found_via": null,
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-11-19",
+  "url": "https://moneywithai.net/bots/small-biz-holiday-rush-desk/",
+  "json_url": "https://moneywithai.net/api/v1/bots/small-biz-holiday-rush-desk.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/run-the-holiday-rush-order-desk/"
+  ],
+  "added_at": "2026-11-19T06:00:00.000Z",
+  "featured": {
+    "rank": 121,
+    "score": 87,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

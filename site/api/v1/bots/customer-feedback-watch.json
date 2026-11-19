@@ -26,11 +26,12 @@
   "json_url": "https://moneywithai.net/api/v1/bots/customer-feedback-watch.json",
   "use_cases": [
     "https://moneywithai.net/use-cases/support-that-fixes-bugs/",
-    "https://moneywithai.net/use-cases/voice-of-customer-to-roadmap/"
+    "https://moneywithai.net/use-cases/voice-of-customer-to-roadmap/",
+    "https://moneywithai.net/use-cases/turn-customer-feedback-into-fixes/"
   ],
   "added_at": "2026-10-24T08:00:00.000Z",
   "featured": {
-    "rank": 176,
+    "rank": 180,
     "score": 83,
     "money": 27,
     "profile": 30,

@@ -29,11 +29,12 @@
   "use_cases": [
     "https://moneywithai.net/use-cases/shopify-ops-roster/",
     "https://moneywithai.net/use-cases/store-vip-and-winback/",
-    "https://moneywithai.net/use-cases/telegram-store-command-center/"
+    "https://moneywithai.net/use-cases/telegram-store-command-center/",
+    "https://moneywithai.net/use-cases/alert-the-team-on-big-orders/"
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 130,
+    "rank": 132,
     "score": 83,
     "money": 27,
     "profile": 26,

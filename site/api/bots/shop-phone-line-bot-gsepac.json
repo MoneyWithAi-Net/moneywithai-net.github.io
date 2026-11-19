@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "shop-phone-line-bot-gsepac",
+    "name": "Shop Phone Line Bot",
+    "category": "Customer Support",
+    "sub_use_case": "Phone answering",
+    "summary": "Sets up an AI phone line for online shops that checks orders for verified callers and answers from your own policies.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "dean oakford",
+      "url": "https://x.ai/bot/gsEpaC7v6a7PAgxV2YrUu"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/gsEpaC7v6a7PAgxV2YrUu"
+    },
+    "official_share_url": "https://x.ai/bot/gsEpaC7v6a7PAgxV2YrUu",
+    "found_via": null,
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-11-19",
+    "url": "https://moneywithai.net/bots/shop-phone-line-bot-gsepac/",
+    "json_url": "https://moneywithai.net/api/bots/shop-phone-line-bot-gsepac.json"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "type": "use-case",
+  "slug": "run-the-holiday-rush-order-desk",
+  "title": "Run the Holiday Rush Order Desk",
+  "category": "E-Commerce",
+  "category_slug": "e-commerce",
+  "money_model": "Grow sales",
+  "difficulty": "Beginner",
+  "summary": "A front desk for Black Friday to Christmas: order and return tracking, shipping cutoffs and drafted replies you approve.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you sell through the holiday rush; the value is accurate cutoffs and fewer late orders.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Customers get accurate cutoffs before they buy.",
+    "Fewer late orders during the rush."
+  ],
+  "who_its_for": [
+    "Small shops during the holiday rush.",
+    "Print-on-demand sellers."
+  ],
+  "stack": [
+    {
+      "bot": "small-biz-holiday-rush-desk",
+      "name": "Small-biz Holiday Rush Desk",
+      "role": "Tracks rush orders and returns and calculates cutoffs.",
+      "creator": "Lisa",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/small-biz-holiday-rush-desk/",
+      "official_share_url": "https://x.ai/bot/W3Q8PdXhJX9Yby8TC7T3U"
+    },
+    {
+      "bot": "shopify-fulfillment-runner",
+      "name": "Shopify Fulfillment Runner",
+      "role": "Moves orders through fulfilment steps.",
+      "creator": "bangank36",
+      "tools": [
+        "n8n",
+        "Shopify"
+      ],
+      "url": "https://moneywithai.net/bots/shopify-fulfillment-runner/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Grok",
+    "n8n",
+    "Shopify"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Your shop data",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "small-biz-holiday-rush-desk",
+        "name": "Small-biz Holiday Rush Desk",
+        "does": "Tracks holiday orders and works out shipping cutoffs",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "shopify-fulfillment-runner",
+        "name": "Shopify Fulfillment Runner",
+        "does": "Moves the order through fulfilment steps",
+        "tools": [
+          "n8n",
+          "Shopify"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Approves each result",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A result you review before it is used"
+    ]
+  },
+  "steps": [
+    "Give the desk your carrier and print-on-demand dates.",
+    "Check each cutoff against the official page.",
+    "Post the cutoffs in your shop.",
+    "Send the drafted replies after you read them."
+  ],
+  "guardrails": [
+    "Nothing is sent to customers without your review.",
+    "Confirm cutoffs on the official carrier page."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-11-19T06:00:00.000Z",
+  "featured": {
+    "rank": 60,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/run-the-holiday-rush-order-desk/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/run-the-holiday-rush-order-desk.json"
+}
