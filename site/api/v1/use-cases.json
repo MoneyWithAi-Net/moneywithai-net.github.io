@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-23T06:34:15.000Z",
+  "generated_at": "2026-11-23T07:10:37.000Z",
   "api_version": "v1",
   "schema_revision": 2,
   "status_url": "https://moneywithai.net/api/v1/status.json",
-  "count": 189,
+  "count": 194,
   "items": [
     {
       "type": "use-case",
@@ -1670,7 +1670,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 188,
+        "rank": 193,
         "score": 63,
         "money": 13,
         "profile": 20,
@@ -1795,7 +1795,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 178,
+        "rank": 183,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -2762,7 +2762,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 187,
+        "rank": 192,
         "score": 63,
         "money": 13,
         "profile": 20,
@@ -2888,7 +2888,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T08:00:00.000Z",
       "featured": {
-        "rank": 186,
+        "rank": 191,
         "score": 65,
         "money": 13,
         "profile": 26,
@@ -3425,7 +3425,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 173,
+        "rank": 176,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -9761,7 +9761,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 182,
+        "rank": 187,
         "score": 65,
         "money": 13,
         "profile": 26,
@@ -13408,7 +13408,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 189,
+        "rank": 194,
         "score": 62,
         "money": 13,
         "profile": 26,
@@ -17941,7 +17941,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 174,
+        "rank": 177,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -19526,7 +19526,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 177,
+        "rank": 182,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -20658,7 +20658,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 170,
+        "rank": 172,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -20988,7 +20988,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 185,
+        "rank": 190,
         "score": 65,
         "money": 13,
         "profile": 26,
@@ -21541,7 +21541,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 183,
+        "rank": 188,
         "score": 65,
         "money": 13,
         "profile": 26,
@@ -21707,7 +21707,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 176,
+        "rank": 180,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -22749,7 +22749,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-29T10:00:00.000Z",
       "featured": {
-        "rank": 184,
+        "rank": 189,
         "score": 65,
         "money": 13,
         "profile": 26,
@@ -23531,7 +23531,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-30T10:00:00.000Z",
       "featured": {
-        "rank": 181,
+        "rank": 186,
         "score": 65,
         "money": 13,
         "profile": 26,
@@ -24262,7 +24262,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-31T10:00:00.000Z",
       "featured": {
-        "rank": 180,
+        "rank": 185,
         "score": 65,
         "money": 13,
         "profile": 26,
@@ -25701,7 +25701,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-11-01T10:00:00.000Z",
       "featured": {
-        "rank": 171,
+        "rank": 173,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -25838,7 +25838,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-11-01T10:00:00.000Z",
       "featured": {
-        "rank": 179,
+        "rank": 184,
         "score": 65,
         "money": 13,
         "profile": 26,
@@ -26139,7 +26139,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-11-07T10:00:00.000Z",
       "featured": {
-        "rank": 175,
+        "rank": 178,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -28224,7 +28224,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-11-13T10:00:00.000Z",
       "featured": {
-        "rank": 172,
+        "rank": 174,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -29851,6 +29851,614 @@
       },
       "url": "https://moneywithai.net/use-cases/turn-customer-feedback-into-fixes/",
       "json_url": "https://moneywithai.net/api/v1/use-cases/turn-customer-feedback-into-fixes.json"
+    },
+    {
+      "type": "use-case",
+      "slug": "book-and-prep-escort-visits",
+      "title": "Take Escort Orders and Prep Each Visit",
+      "category": "Client Services",
+      "category_slug": "client-services",
+      "money_model": "Sell a service",
+      "difficulty": "Beginner",
+      "summary": "Sort new escort orders, draft a visit prep note and write a short summary after each visit, with you checking every draft.",
+      "money_potential": {
+        "tier": 1,
+        "symbol": "$",
+        "label": "Low",
+        "basis": "Assumes you take orders and visits yourself; the value is fewer lost orders and faster prep notes.",
+        "claim_label": "E",
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+      },
+      "how_it_makes_money": [
+        "Orders are logged in one list, so fewer requests are lost.",
+        "Prep and summary drafts save time between visits."
+      ],
+      "who_its_for": [
+        "Independent escort workers.",
+        "Small escort and companion services."
+      ],
+      "stack": [
+        {
+          "bot": "patient-escort-assistant",
+          "name": "Patient Escort Assistant",
+          "role": "Sorts orders, drafts visit prep notes and writes visit summaries.",
+          "creator": "Unknown creator",
+          "tools": [
+            "Grok"
+          ],
+          "url": "https://moneywithai.net/bots/patient-escort-assistant/",
+          "official_share_url": "https://x.ai/bot/E0lXwyM-Wbe52X7anj3iV"
+        },
+        {
+          "bot": "calendar-manager",
+          "name": "Calendar Manager",
+          "role": "Keeps your own visit times in one calendar you control.",
+          "creator": "@josephscottelli",
+          "tools": [
+            "Grok"
+          ],
+          "url": "https://moneywithai.net/bots/calendar-manager/",
+          "official_share_url": "https://x.ai/bot/Awo50vxQeDKxmot5ZjphN"
+        }
+      ],
+      "tools": [
+        "Grok"
+      ],
+      "diagram": {
+        "engine": "Grok Bot",
+        "inputs": [
+          {
+            "label": "Order details without patient records",
+            "tool": null
+          },
+          {
+            "label": "Your visit times",
+            "tool": null
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "by": "patient-escort-assistant",
+            "name": "Patient Escort Assistant",
+            "does": "Sorts orders and drafts prep notes",
+            "tools": [
+              "Grok"
+            ]
+          },
+          {
+            "order": 2,
+            "by": "calendar-manager",
+            "name": "Calendar Manager",
+            "does": "Keeps visit times in your calendar",
+            "tools": [
+              "Grok"
+            ]
+          },
+          {
+            "order": 3,
+            "by": "you",
+            "name": "You",
+            "does": "Checks and sends each message",
+            "tools": []
+          }
+        ],
+        "outputs": [
+          "An order list",
+          "Draft prep notes and summaries you approve"
+        ]
+      },
+      "steps": [
+        "Paste each order without patient records.",
+        "Check the order list and fill in any gaps.",
+        "Review the prep note before the visit.",
+        "Review the visit summary before you send it."
+      ],
+      "guardrails": [
+        "No medical judgment from the bot.",
+        "No patient records in the chat.",
+        "You book the visit and send every message yourself."
+      ],
+      "claims": [],
+      "latest_bot_added_at": "2026-11-23T07:00:00.000Z",
+      "featured": {
+        "rank": 175,
+        "score": 69,
+        "money": 13,
+        "profile": 26,
+        "visuals": 20,
+        "difficulty": 10,
+        "override": null,
+        "rules": "https://moneywithai.net/llms.txt"
+      },
+      "url": "https://moneywithai.net/use-cases/book-and-prep-escort-visits/",
+      "json_url": "https://moneywithai.net/api/v1/use-cases/book-and-prep-escort-visits.json"
+    },
+    {
+      "type": "use-case",
+      "slug": "send-quote-follow-ups-on-time",
+      "title": "Send Quote Follow-Ups on Time",
+      "category": "Leads and Sales",
+      "category_slug": "leads-and-sales",
+      "money_model": "Grow sales",
+      "difficulty": "Beginner",
+      "summary": "Track open quotes and send a short follow-up at the right gap, so no quote goes quiet by accident.",
+      "money_potential": {
+        "tier": 1,
+        "symbol": "$",
+        "label": "Low",
+        "basis": "Assumes you send quotes that wait on a reply; the value is fewer quotes forgotten.",
+        "claim_label": "E",
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+      },
+      "how_it_makes_money": [
+        "Open quotes get a reply instead of being forgotten.",
+        "You spend minutes reviewing follow-ups, not chasing each client."
+      ],
+      "who_its_for": [
+        "Service businesses that send quotes.",
+        "Contractors and agencies with open proposals."
+      ],
+      "stack": [
+        {
+          "bot": "quote-follow-up-sequence",
+          "name": "Quote Follow Up Sequence",
+          "role": "Writes a short follow-up sequence for each open quote.",
+          "creator": "43 Sunsets",
+          "tools": [
+            "n8n",
+            "Gmail",
+            "Google Sheets"
+          ],
+          "url": "https://moneywithai.net/bots/quote-follow-up-sequence/",
+          "official_share_url": null
+        },
+        {
+          "bot": "follow-up-nudge",
+          "name": "Follow-Up Nudge",
+          "role": "Reminds you which quotes are due a follow-up.",
+          "creator": "Mike Mosley",
+          "tools": [
+            "Grok",
+            "Threads"
+          ],
+          "url": "https://moneywithai.net/bots/follow-up-nudge/",
+          "official_share_url": "https://x.ai/bot/ylBNvuYu7IDolbSmmKHUU"
+        }
+      ],
+      "tools": [
+        "n8n",
+        "Gmail",
+        "Google Sheets",
+        "Grok",
+        "Threads"
+      ],
+      "diagram": {
+        "engine": "Grok Bot",
+        "inputs": [
+          {
+            "label": "Open quotes and dates",
+            "tool": null
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "by": "follow-up-nudge",
+            "name": "Follow-Up Nudge",
+            "does": "Flags quotes due a follow-up",
+            "tools": [
+              "Grok",
+              "Threads"
+            ]
+          },
+          {
+            "order": 2,
+            "by": "quote-follow-up-sequence",
+            "name": "Quote Follow Up Sequence",
+            "does": "Writes the follow-up draft",
+            "tools": [
+              "n8n",
+              "Gmail",
+              "Google Sheets"
+            ]
+          },
+          {
+            "order": 3,
+            "by": "you",
+            "name": "You",
+            "does": "Approves and sends",
+            "tools": []
+          }
+        ],
+        "outputs": [
+          "A due list",
+          "Draft follow-ups you approve"
+        ]
+      },
+      "steps": [
+        "List the open quotes in one place.",
+        "Set the follow-up gaps you want.",
+        "Review each draft before it goes out.",
+        "Mark quotes as won or closed."
+      ],
+      "guardrails": [
+        "You approve each message before it is sent.",
+        "Stop a sequence as soon as a client replies."
+      ],
+      "claims": [],
+      "latest_bot_added_at": "2026-10-31T16:00:00.000Z",
+      "featured": {
+        "rank": 170,
+        "score": 69,
+        "money": 13,
+        "profile": 26,
+        "visuals": 20,
+        "difficulty": 10,
+        "override": null,
+        "rules": "https://moneywithai.net/llms.txt"
+      },
+      "url": "https://moneywithai.net/use-cases/send-quote-follow-ups-on-time/",
+      "json_url": "https://moneywithai.net/api/v1/use-cases/send-quote-follow-ups-on-time.json"
+    },
+    {
+      "type": "use-case",
+      "slug": "turn-sales-calls-into-next-steps",
+      "title": "Turn Sales Calls into Clear Next Steps",
+      "category": "Leads and Sales",
+      "category_slug": "leads-and-sales",
+      "money_model": "Grow sales",
+      "difficulty": "Beginner",
+      "summary": "After each sales call, get a short brief of what the buyer needs and a clear next step to send.",
+      "money_potential": {
+        "tier": 1,
+        "symbol": "$",
+        "label": "Low",
+        "basis": "Assumes you run your own sales calls; the value is next steps sent the same day.",
+        "claim_label": "E",
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+      },
+      "how_it_makes_money": [
+        "Next steps go out the same day.",
+        "Fewer deals stall because nobody owned the follow-up."
+      ],
+      "who_its_for": [
+        "Sales reps and founders who run their own calls."
+      ],
+      "stack": [
+        {
+          "bot": "sales-call-coach",
+          "name": "Sales Call Coach",
+          "role": "Reviews the call and points out what to improve.",
+          "creator": "Daniel Brill",
+          "tools": [
+            "Grok"
+          ],
+          "url": "https://moneywithai.net/bots/sales-call-coach/",
+          "official_share_url": "https://x.ai/bot/yZ5MFQFdl32vHt6fcIJAc"
+        },
+        {
+          "bot": "meeting-brief",
+          "name": "Meeting Brief",
+          "role": "Writes a short brief with the agreed next step.",
+          "creator": "Limok_igit",
+          "tools": [
+            "Grok"
+          ],
+          "url": "https://moneywithai.net/bots/meeting-brief/",
+          "official_share_url": "https://x.ai/bot/JN9e1WggIKVWhCEZrySlj"
+        }
+      ],
+      "tools": [
+        "Grok"
+      ],
+      "diagram": {
+        "engine": "Grok Bot",
+        "inputs": [
+          {
+            "label": "Call notes or transcript",
+            "tool": null
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "by": "meeting-brief",
+            "name": "Meeting Brief",
+            "does": "Writes the brief and next step",
+            "tools": [
+              "Grok"
+            ]
+          },
+          {
+            "order": 2,
+            "by": "sales-call-coach",
+            "name": "Sales Call Coach",
+            "does": "Points out what to improve",
+            "tools": [
+              "Grok"
+            ]
+          },
+          {
+            "order": 3,
+            "by": "you",
+            "name": "You",
+            "does": "Sends the follow-up",
+            "tools": []
+          }
+        ],
+        "outputs": [
+          "A short brief",
+          "One next step to confirm"
+        ]
+      },
+      "steps": [
+        "Paste your call notes or transcript.",
+        "Review the coaching points.",
+        "Check the brief and agreed next step.",
+        "Send the follow-up yourself."
+      ],
+      "guardrails": [
+        "Check every claim against the call before you send it.",
+        "Never send a commitment the call did not agree."
+      ],
+      "claims": [],
+      "latest_bot_added_at": "2026-10-31T16:00:00.000Z",
+      "featured": {
+        "rank": 181,
+        "score": 69,
+        "money": 13,
+        "profile": 26,
+        "visuals": 20,
+        "difficulty": 10,
+        "override": null,
+        "rules": "https://moneywithai.net/llms.txt"
+      },
+      "url": "https://moneywithai.net/use-cases/turn-sales-calls-into-next-steps/",
+      "json_url": "https://moneywithai.net/api/v1/use-cases/turn-sales-calls-into-next-steps.json"
+    },
+    {
+      "type": "use-case",
+      "slug": "sort-receipts-for-the-bookkeeper",
+      "title": "Sort Receipts for the Bookkeeper",
+      "category": "Finance",
+      "category_slug": "finance",
+      "money_model": "Save costs",
+      "difficulty": "Beginner",
+      "summary": "Collect receipts in one place, sort them into expense groups and flag gaps before the bookkeeper sees them.",
+      "money_potential": {
+        "tier": 1,
+        "symbol": "$",
+        "label": "Low",
+        "basis": "Assumes you send receipts to a bookkeeper each month; the value is less month-end chasing.",
+        "claim_label": "E",
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+      },
+      "how_it_makes_money": [
+        "Fewer missing receipts at month end.",
+        "Less time spent by the bookkeeper chasing details."
+      ],
+      "who_its_for": [
+        "Small businesses that send receipts to a bookkeeper.",
+        "Freelancers who track their own expenses."
+      ],
+      "stack": [
+        {
+          "bot": "receipt-scanner-expense-tracking",
+          "name": "Receipt Scanner / Expense Tracking",
+          "role": "Reads receipts and sorts them into expense lines.",
+          "creator": "limeunfiltered",
+          "tools": [
+            "Grok"
+          ],
+          "url": "https://moneywithai.net/bots/receipt-scanner-expense-tracking/",
+          "official_share_url": "https://x.ai/bot/qod4CrNQBlDIMm5wFYVQp"
+        },
+        {
+          "bot": "bookkeeping-auditor",
+          "name": "Bookkeeping Auditor",
+          "role": "Checks the expense lines for gaps and odd entries.",
+          "creator": "mrfundman",
+          "tools": [
+            "QuickBooks"
+          ],
+          "url": "https://moneywithai.net/bots/bookkeeping-auditor/",
+          "official_share_url": null
+        }
+      ],
+      "tools": [
+        "Grok",
+        "QuickBooks"
+      ],
+      "diagram": {
+        "engine": "Grok Bot",
+        "inputs": [
+          {
+            "label": "Receipt photos or PDFs",
+            "tool": null
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "by": "receipt-scanner-expense-tracking",
+            "name": "Receipt Scanner / Expense Tracking",
+            "does": "Sorts receipts into expense lines",
+            "tools": [
+              "Grok"
+            ]
+          },
+          {
+            "order": 2,
+            "by": "bookkeeping-auditor",
+            "name": "Bookkeeping Auditor",
+            "does": "Flags gaps and odd entries",
+            "tools": [
+              "QuickBooks"
+            ]
+          },
+          {
+            "order": 3,
+            "by": "you",
+            "name": "You",
+            "does": "Fixes gaps and sends the list",
+            "tools": []
+          }
+        ],
+        "outputs": [
+          "An expense list",
+          "A gap list to fix"
+        ]
+      },
+      "steps": [
+        "Collect receipts in one folder.",
+        "Run the receipt scanner on the folder.",
+        "Review flagged gaps.",
+        "Send the checked list to your bookkeeper."
+      ],
+      "guardrails": [
+        "Check every amount against the original receipt.",
+        "The bots do not file taxes or move money."
+      ],
+      "claims": [],
+      "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
+      "featured": {
+        "rank": 171,
+        "score": 69,
+        "money": 13,
+        "profile": 26,
+        "visuals": 20,
+        "difficulty": 10,
+        "override": null,
+        "rules": "https://moneywithai.net/llms.txt"
+      },
+      "url": "https://moneywithai.net/use-cases/sort-receipts-for-the-bookkeeper/",
+      "json_url": "https://moneywithai.net/api/v1/use-cases/sort-receipts-for-the-bookkeeper.json"
+    },
+    {
+      "type": "use-case",
+      "slug": "triage-the-shared-inbox",
+      "title": "Triage the Shared Inbox",
+      "category": "Customer Support",
+      "category_slug": "customer-support",
+      "money_model": "Save costs",
+      "difficulty": "Beginner",
+      "summary": "Sort incoming messages by type and urgency, and draft replies for you to approve before anything is sent.",
+      "money_potential": {
+        "tier": 1,
+        "symbol": "$",
+        "label": "Low",
+        "basis": "Assumes one shared inbox gets steady messages; the value is faster replies to urgent ones.",
+        "claim_label": "E",
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+      },
+      "how_it_makes_money": [
+        "Urgent messages get seen first.",
+        "Routine replies take less time to write."
+      ],
+      "who_its_for": [
+        "Small teams with one shared support or sales inbox."
+      ],
+      "stack": [
+        {
+          "bot": "inbox-triage",
+          "name": "Inbox Triage",
+          "role": "Sorts messages by type and urgency.",
+          "creator": "rchase",
+          "tools": [
+            "Facebook",
+            "X",
+            "LinkedIn",
+            "Trello"
+          ],
+          "url": "https://moneywithai.net/bots/inbox-triage/",
+          "official_share_url": null
+        },
+        {
+          "bot": "reply-drafter",
+          "name": "Reply Drafter",
+          "role": "Drafts replies for you to approve.",
+          "creator": "kevinace",
+          "tools": [
+            "X"
+          ],
+          "url": "https://moneywithai.net/bots/reply-drafter/",
+          "official_share_url": null
+        }
+      ],
+      "tools": [
+        "Facebook",
+        "X",
+        "LinkedIn",
+        "Trello"
+      ],
+      "diagram": {
+        "engine": "Grok Bot",
+        "inputs": [
+          {
+            "label": "Shared inbox messages",
+            "tool": "Gmail"
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "by": "inbox-triage",
+            "name": "Inbox Triage",
+            "does": "Sorts messages by type and urgency",
+            "tools": [
+              "Facebook",
+              "X",
+              "LinkedIn",
+              "Trello"
+            ]
+          },
+          {
+            "order": 2,
+            "by": "reply-drafter",
+            "name": "Reply Drafter",
+            "does": "Drafts replies",
+            "tools": [
+              "X"
+            ]
+          },
+          {
+            "order": 3,
+            "by": "you",
+            "name": "You",
+            "does": "Approves and sends",
+            "tools": []
+          }
+        ],
+        "outputs": [
+          "A sorted list",
+          "Draft replies you approve"
+        ]
+      },
+      "steps": [
+        "Connect the shared inbox you want sorted.",
+        "Review the sort for the first week.",
+        "Approve or edit each draft.",
+        "Send the replies yourself."
+      ],
+      "guardrails": [
+        "Nothing is sent without your approval.",
+        "Refunds and legal questions go to a person."
+      ],
+      "claims": [],
+      "latest_bot_added_at": "2026-10-24T08:00:00.000Z",
+      "featured": {
+        "rank": 179,
+        "score": 69,
+        "money": 13,
+        "profile": 26,
+        "visuals": 20,
+        "difficulty": 10,
+        "override": null,
+        "rules": "https://moneywithai.net/llms.txt"
+      },
+      "url": "https://moneywithai.net/use-cases/triage-the-shared-inbox/",
+      "json_url": "https://moneywithai.net/api/v1/use-cases/triage-the-shared-inbox.json"
     }
   ]
 }

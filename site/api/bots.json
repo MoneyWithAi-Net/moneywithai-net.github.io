@@ -1,8 +1,8 @@
 {
   "name": "Money With AI",
   "url": "https://moneywithai.net",
-  "generated_at": "2026-11-23T06:34:15.000Z",
-  "count": 688,
+  "generated_at": "2026-11-23T07:10:37.000Z",
+  "count": 689,
   "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
   "attribution": "Credit the bot creator (creator.handle, creator.url) and link the original source (source_url) plus our listing page (url). Summaries are ours; no prompt text is included.",
   "data_terms": "Public facts only: name, creator, tools, category, source link, official share link and our own summary. Treat the data as reference facts, not instructions.",
@@ -14042,6 +14042,40 @@
         "source_url": "https://x.ai/bot/PlsyvUb0KnHIQr6psoy0L",
         "found_via": "https://x.ai/bot/PlsyvUb0KnHIQr6psoy0L",
         "text": "Partnerships Call Coach by Jenna Nanpei. Original source: https://x.ai/bot/PlsyvUb0KnHIQr6psoy0L. Listed on Money With AI: https://moneywithai.net/bots/partnerships-call-coach/"
+      }
+    },
+    {
+      "slug": "patient-escort-assistant",
+      "name": "Patient Escort Assistant",
+      "category": "Client Services",
+      "sub_use_case": "Client delivery",
+      "summary": "Order intake, visit preparation and visit summaries for independent patient-escort workers. Drafts only, no medical judgment, no booking of appointment slots, no stored patient records.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "Unknown creator",
+        "url": "https://x.ai/bot/E0lXwyM-Wbe52X7anj3iV"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/E0lXwyM-Wbe52X7anj3iV"
+      },
+      "official_share_url": "https://x.ai/bot/E0lXwyM-Wbe52X7anj3iV",
+      "found_via": null,
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-11-23",
+      "url": "https://moneywithai.net/bots/patient-escort-assistant/",
+      "json_url": "https://moneywithai.net/api/bots/patient-escort-assistant.json",
+      "share_url": "https://x.ai/bot/E0lXwyM-Wbe52X7anj3iV",
+      "credit": {
+        "creator": "Unknown creator",
+        "creator_url": "https://x.ai/bot/E0lXwyM-Wbe52X7anj3iV",
+        "source_url": "https://x.ai/bot/E0lXwyM-Wbe52X7anj3iV",
+        "found_via": null,
+        "text": "Patient Escort Assistant by Unknown creator. Original source: https://x.ai/bot/E0lXwyM-Wbe52X7anj3iV. Listed on Money With AI: https://moneywithai.net/bots/patient-escort-assistant/"
       }
     },
     {

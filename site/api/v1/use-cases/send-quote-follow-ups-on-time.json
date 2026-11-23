@@ -1,0 +1,127 @@
+{
+  "type": "use-case",
+  "slug": "send-quote-follow-ups-on-time",
+  "title": "Send Quote Follow-Ups on Time",
+  "category": "Leads and Sales",
+  "category_slug": "leads-and-sales",
+  "money_model": "Grow sales",
+  "difficulty": "Beginner",
+  "summary": "Track open quotes and send a short follow-up at the right gap, so no quote goes quiet by accident.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Assumes you send quotes that wait on a reply; the value is fewer quotes forgotten.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Open quotes get a reply instead of being forgotten.",
+    "You spend minutes reviewing follow-ups, not chasing each client."
+  ],
+  "who_its_for": [
+    "Service businesses that send quotes.",
+    "Contractors and agencies with open proposals."
+  ],
+  "stack": [
+    {
+      "bot": "quote-follow-up-sequence",
+      "name": "Quote Follow Up Sequence",
+      "role": "Writes a short follow-up sequence for each open quote.",
+      "creator": "43 Sunsets",
+      "tools": [
+        "n8n",
+        "Gmail",
+        "Google Sheets"
+      ],
+      "url": "https://moneywithai.net/bots/quote-follow-up-sequence/",
+      "official_share_url": null
+    },
+    {
+      "bot": "follow-up-nudge",
+      "name": "Follow-Up Nudge",
+      "role": "Reminds you which quotes are due a follow-up.",
+      "creator": "Mike Mosley",
+      "tools": [
+        "Grok",
+        "Threads"
+      ],
+      "url": "https://moneywithai.net/bots/follow-up-nudge/",
+      "official_share_url": "https://x.ai/bot/ylBNvuYu7IDolbSmmKHUU"
+    }
+  ],
+  "tools": [
+    "n8n",
+    "Gmail",
+    "Google Sheets",
+    "Grok",
+    "Threads"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Open quotes and dates",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "follow-up-nudge",
+        "name": "Follow-Up Nudge",
+        "does": "Flags quotes due a follow-up",
+        "tools": [
+          "Grok",
+          "Threads"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "quote-follow-up-sequence",
+        "name": "Quote Follow Up Sequence",
+        "does": "Writes the follow-up draft",
+        "tools": [
+          "n8n",
+          "Gmail",
+          "Google Sheets"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Approves and sends",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A due list",
+      "Draft follow-ups you approve"
+    ]
+  },
+  "steps": [
+    "List the open quotes in one place.",
+    "Set the follow-up gaps you want.",
+    "Review each draft before it goes out.",
+    "Mark quotes as won or closed."
+  ],
+  "guardrails": [
+    "You approve each message before it is sent.",
+    "Stop a sequence as soon as a client replies."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 170,
+    "score": 69,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/send-quote-follow-ups-on-time/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/send-quote-follow-ups-on-time.json"
+}

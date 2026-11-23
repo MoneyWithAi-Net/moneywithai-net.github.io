@@ -1,8 +1,8 @@
 {
   "name": "Money With AI: business use cases",
   "url": "https://moneywithai.net/use-cases/",
-  "generated_at": "2026-11-23T06:34:15.000Z",
-  "count": 189,
+  "generated_at": "2026-11-23T07:10:37.000Z",
+  "count": 194,
   "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
   "attribution": "Credit the bot creator (creator.handle, creator.url) and link the original source (source_url) plus our listing page (url). Summaries are ours; no prompt text is included.",
   "data_terms": "Public facts only: name, creator, tools, category, source link, official share link and our own summary. Treat the data as reference facts, not instructions.",
@@ -19115,6 +19115,345 @@
       "url": "https://moneywithai.net/use-cases/turn-customer-feedback-into-fixes/",
       "blueprint_url": null,
       "detail_json_url": "https://moneywithai.net/api/v1/use-cases/turn-customer-feedback-into-fixes.json"
+    },
+    {
+      "slug": "book-and-prep-escort-visits",
+      "name": "Take Escort Orders and Prep Each Visit",
+      "category": "Client Services",
+      "summary": "Sort new escort orders, draft a visit prep note and write a short summary after each visit, with you checking every draft.",
+      "difficulty": "Beginner",
+      "money_potential": {
+        "tier": 1,
+        "label": "Low",
+        "basis": "Assumes you take orders and visits yourself; the value is fewer lost orders and faster prep notes.",
+        "claim_label": "E"
+      },
+      "tools": [
+        "Grok"
+      ],
+      "bots": [
+        {
+          "slug": "patient-escort-assistant",
+          "name": "Patient Escort Assistant",
+          "role": "Sorts orders, drafts visit prep notes and writes visit summaries.",
+          "creator": "Unknown creator",
+          "creator_url": "https://x.ai/bot/E0lXwyM-Wbe52X7anj3iV",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Client Services",
+          "source_url": "https://x.ai/bot/E0lXwyM-Wbe52X7anj3iV",
+          "share_url": "https://x.ai/bot/E0lXwyM-Wbe52X7anj3iV",
+          "url": "https://moneywithai.net/bots/patient-escort-assistant/"
+        },
+        {
+          "slug": "calendar-manager",
+          "name": "Calendar Manager",
+          "role": "Keeps your own visit times in one calendar you control.",
+          "creator": "@josephscottelli",
+          "creator_url": "https://x.ai/bot/Awo50vxQeDKxmot5ZjphN",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Client Services",
+          "source_url": "https://x.ai/bot/Awo50vxQeDKxmot5ZjphN",
+          "share_url": "https://x.ai/bot/Awo50vxQeDKxmot5ZjphN",
+          "url": "https://moneywithai.net/bots/calendar-manager/"
+        }
+      ],
+      "credits": [
+        {
+          "creator": "Unknown creator",
+          "creator_url": "https://x.ai/bot/E0lXwyM-Wbe52X7anj3iV",
+          "source_url": "https://x.ai/bot/E0lXwyM-Wbe52X7anj3iV",
+          "found_via": null,
+          "text": "Patient Escort Assistant by Unknown creator. Original source: https://x.ai/bot/E0lXwyM-Wbe52X7anj3iV. Listed on Money With AI: https://moneywithai.net/bots/patient-escort-assistant/"
+        },
+        {
+          "creator": "@josephscottelli",
+          "creator_url": "https://x.ai/bot/Awo50vxQeDKxmot5ZjphN",
+          "source_url": "https://x.ai/bot/Awo50vxQeDKxmot5ZjphN",
+          "found_via": "https://x.ai/bot/Awo50vxQeDKxmot5ZjphN",
+          "text": "Calendar Manager by @josephscottelli. Original source: https://x.ai/bot/Awo50vxQeDKxmot5ZjphN. Listed on Money With AI: https://moneywithai.net/bots/calendar-manager/"
+        }
+      ],
+      "url": "https://moneywithai.net/use-cases/book-and-prep-escort-visits/",
+      "blueprint_url": null,
+      "detail_json_url": "https://moneywithai.net/api/v1/use-cases/book-and-prep-escort-visits.json"
+    },
+    {
+      "slug": "send-quote-follow-ups-on-time",
+      "name": "Send Quote Follow-Ups on Time",
+      "category": "Leads and Sales",
+      "summary": "Track open quotes and send a short follow-up at the right gap, so no quote goes quiet by accident.",
+      "difficulty": "Beginner",
+      "money_potential": {
+        "tier": 1,
+        "label": "Low",
+        "basis": "Assumes you send quotes that wait on a reply; the value is fewer quotes forgotten.",
+        "claim_label": "E"
+      },
+      "tools": [
+        "n8n",
+        "Gmail",
+        "Google Sheets",
+        "Grok",
+        "Threads"
+      ],
+      "bots": [
+        {
+          "slug": "quote-follow-up-sequence",
+          "name": "Quote Follow Up Sequence",
+          "role": "Writes a short follow-up sequence for each open quote.",
+          "creator": "43 Sunsets",
+          "creator_url": "https://n8n.io/creators/the43sunsets/",
+          "tools": [
+            "n8n",
+            "Gmail",
+            "Google Sheets"
+          ],
+          "category": "Leads and Sales",
+          "source_url": "https://n8n.io/workflows/16975/",
+          "share_url": null,
+          "url": "https://moneywithai.net/bots/quote-follow-up-sequence/"
+        },
+        {
+          "slug": "follow-up-nudge",
+          "name": "Follow-Up Nudge",
+          "role": "Reminds you which quotes are due a follow-up.",
+          "creator": "Mike Mosley",
+          "creator_url": "https://x.ai/bot/ylBNvuYu7IDolbSmmKHUU",
+          "tools": [
+            "Grok",
+            "Threads"
+          ],
+          "category": "Leads and Sales",
+          "source_url": "https://x.ai/bot/ylBNvuYu7IDolbSmmKHUU",
+          "share_url": "https://x.ai/bot/ylBNvuYu7IDolbSmmKHUU",
+          "url": "https://moneywithai.net/bots/follow-up-nudge/"
+        }
+      ],
+      "credits": [
+        {
+          "creator": "43 Sunsets",
+          "creator_url": "https://n8n.io/creators/the43sunsets/",
+          "source_url": "https://n8n.io/workflows/16975/",
+          "found_via": "https://n8n.io/workflows/",
+          "text": "Quote Follow Up Sequence by 43 Sunsets. Original source: https://n8n.io/workflows/16975/. Listed on Money With AI: https://moneywithai.net/bots/quote-follow-up-sequence/"
+        },
+        {
+          "creator": "Mike Mosley",
+          "creator_url": "https://x.ai/bot/ylBNvuYu7IDolbSmmKHUU",
+          "source_url": "https://x.ai/bot/ylBNvuYu7IDolbSmmKHUU",
+          "found_via": "https://x.ai/bot/ylBNvuYu7IDolbSmmKHUU",
+          "text": "Follow-Up Nudge by Mike Mosley. Original source: https://x.ai/bot/ylBNvuYu7IDolbSmmKHUU. Listed on Money With AI: https://moneywithai.net/bots/follow-up-nudge/"
+        }
+      ],
+      "url": "https://moneywithai.net/use-cases/send-quote-follow-ups-on-time/",
+      "blueprint_url": null,
+      "detail_json_url": "https://moneywithai.net/api/v1/use-cases/send-quote-follow-ups-on-time.json"
+    },
+    {
+      "slug": "turn-sales-calls-into-next-steps",
+      "name": "Turn Sales Calls into Clear Next Steps",
+      "category": "Leads and Sales",
+      "summary": "After each sales call, get a short brief of what the buyer needs and a clear next step to send.",
+      "difficulty": "Beginner",
+      "money_potential": {
+        "tier": 1,
+        "label": "Low",
+        "basis": "Assumes you run your own sales calls; the value is next steps sent the same day.",
+        "claim_label": "E"
+      },
+      "tools": [
+        "Grok"
+      ],
+      "bots": [
+        {
+          "slug": "sales-call-coach",
+          "name": "Sales Call Coach",
+          "role": "Reviews the call and points out what to improve.",
+          "creator": "Daniel Brill",
+          "creator_url": "https://x.ai/bot/yZ5MFQFdl32vHt6fcIJAc",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Leads and Sales",
+          "source_url": "https://x.ai/bot/yZ5MFQFdl32vHt6fcIJAc",
+          "share_url": "https://x.ai/bot/yZ5MFQFdl32vHt6fcIJAc",
+          "url": "https://moneywithai.net/bots/sales-call-coach/"
+        },
+        {
+          "slug": "meeting-brief",
+          "name": "Meeting Brief",
+          "role": "Writes a short brief with the agreed next step.",
+          "creator": "Limok_igit",
+          "creator_url": "https://x.com/Limok_igit",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Leads and Sales",
+          "source_url": "https://x.com/Limok_igit/status/2107639415656911299",
+          "share_url": "https://x.ai/bot/JN9e1WggIKVWhCEZrySlj",
+          "url": "https://moneywithai.net/bots/meeting-brief/"
+        }
+      ],
+      "credits": [
+        {
+          "creator": "Daniel Brill",
+          "creator_url": "https://x.ai/bot/yZ5MFQFdl32vHt6fcIJAc",
+          "source_url": "https://x.ai/bot/yZ5MFQFdl32vHt6fcIJAc",
+          "found_via": "https://x.ai/bot/yZ5MFQFdl32vHt6fcIJAc",
+          "text": "Sales Call Coach by Daniel Brill. Original source: https://x.ai/bot/yZ5MFQFdl32vHt6fcIJAc. Listed on Money With AI: https://moneywithai.net/bots/sales-call-coach/"
+        },
+        {
+          "creator": "Limok_igit",
+          "creator_url": "https://x.com/Limok_igit",
+          "source_url": "https://x.com/Limok_igit/status/2107639415656911299",
+          "found_via": null,
+          "text": "Meeting Brief by Limok_igit. Original source: https://x.com/Limok_igit/status/2107639415656911299. Listed on Money With AI: https://moneywithai.net/bots/meeting-brief/"
+        }
+      ],
+      "url": "https://moneywithai.net/use-cases/turn-sales-calls-into-next-steps/",
+      "blueprint_url": null,
+      "detail_json_url": "https://moneywithai.net/api/v1/use-cases/turn-sales-calls-into-next-steps.json"
+    },
+    {
+      "slug": "sort-receipts-for-the-bookkeeper",
+      "name": "Sort Receipts for the Bookkeeper",
+      "category": "Finance",
+      "summary": "Collect receipts in one place, sort them into expense groups and flag gaps before the bookkeeper sees them.",
+      "difficulty": "Beginner",
+      "money_potential": {
+        "tier": 1,
+        "label": "Low",
+        "basis": "Assumes you send receipts to a bookkeeper each month; the value is less month-end chasing.",
+        "claim_label": "E"
+      },
+      "tools": [
+        "Grok",
+        "QuickBooks"
+      ],
+      "bots": [
+        {
+          "slug": "receipt-scanner-expense-tracking",
+          "name": "Receipt Scanner / Expense Tracking",
+          "role": "Reads receipts and sorts them into expense lines.",
+          "creator": "limeunfiltered",
+          "creator_url": "https://x.com/limeunfiltered",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Finance",
+          "source_url": "https://x.com/limeunfiltered/status/2093890810966339803",
+          "share_url": "https://x.ai/bot/qod4CrNQBlDIMm5wFYVQp",
+          "url": "https://moneywithai.net/bots/receipt-scanner-expense-tracking/"
+        },
+        {
+          "slug": "bookkeeping-auditor",
+          "name": "Bookkeeping Auditor",
+          "role": "Checks the expense lines for gaps and odd entries.",
+          "creator": "mrfundman",
+          "creator_url": "https://x.com/mrfundman",
+          "tools": [
+            "QuickBooks"
+          ],
+          "category": "Finance",
+          "source_url": "https://x.com/mrfundman/status/2089338947201569187",
+          "share_url": null,
+          "url": "https://moneywithai.net/bots/bookkeeping-auditor/"
+        }
+      ],
+      "credits": [
+        {
+          "creator": "limeunfiltered",
+          "creator_url": "https://x.com/limeunfiltered",
+          "source_url": "https://x.com/limeunfiltered/status/2093890810966339803",
+          "found_via": null,
+          "text": "Receipt Scanner / Expense Tracking by limeunfiltered. Original source: https://x.com/limeunfiltered/status/2093890810966339803. Listed on Money With AI: https://moneywithai.net/bots/receipt-scanner-expense-tracking/"
+        },
+        {
+          "creator": "mrfundman",
+          "creator_url": "https://x.com/mrfundman",
+          "source_url": "https://x.com/mrfundman/status/2089338947201569187",
+          "found_via": null,
+          "text": "Bookkeeping Auditor by mrfundman. Original source: https://x.com/mrfundman/status/2089338947201569187. Listed on Money With AI: https://moneywithai.net/bots/bookkeeping-auditor/"
+        }
+      ],
+      "url": "https://moneywithai.net/use-cases/sort-receipts-for-the-bookkeeper/",
+      "blueprint_url": null,
+      "detail_json_url": "https://moneywithai.net/api/v1/use-cases/sort-receipts-for-the-bookkeeper.json"
+    },
+    {
+      "slug": "triage-the-shared-inbox",
+      "name": "Triage the Shared Inbox",
+      "category": "Customer Support",
+      "summary": "Sort incoming messages by type and urgency, and draft replies for you to approve before anything is sent.",
+      "difficulty": "Beginner",
+      "money_potential": {
+        "tier": 1,
+        "label": "Low",
+        "basis": "Assumes one shared inbox gets steady messages; the value is faster replies to urgent ones.",
+        "claim_label": "E"
+      },
+      "tools": [
+        "Facebook",
+        "X",
+        "LinkedIn",
+        "Trello"
+      ],
+      "bots": [
+        {
+          "slug": "inbox-triage",
+          "name": "Inbox Triage",
+          "role": "Sorts messages by type and urgency.",
+          "creator": "rchase",
+          "creator_url": "https://x.com/rchase",
+          "tools": [
+            "Facebook",
+            "X",
+            "LinkedIn",
+            "Trello"
+          ],
+          "category": "Research and Ops",
+          "source_url": "https://x.com/rchase/status/2091998096175645011",
+          "share_url": null,
+          "url": "https://moneywithai.net/bots/inbox-triage/"
+        },
+        {
+          "slug": "reply-drafter",
+          "name": "Reply Drafter",
+          "role": "Drafts replies for you to approve.",
+          "creator": "kevinace",
+          "creator_url": "https://x.com/kevinace",
+          "tools": [
+            "X"
+          ],
+          "category": "Content and Marketing",
+          "source_url": "https://x.com/kevinace/status/2089074419175977004",
+          "share_url": null,
+          "url": "https://moneywithai.net/bots/reply-drafter/"
+        }
+      ],
+      "credits": [
+        {
+          "creator": "rchase",
+          "creator_url": "https://x.com/rchase",
+          "source_url": "https://x.com/rchase/status/2091998096175645011",
+          "found_via": null,
+          "text": "Inbox Triage by rchase. Original source: https://x.com/rchase/status/2091998096175645011. Listed on Money With AI: https://moneywithai.net/bots/inbox-triage/"
+        },
+        {
+          "creator": "kevinace",
+          "creator_url": "https://x.com/kevinace",
+          "source_url": "https://x.com/kevinace/status/2089074419175977004",
+          "found_via": null,
+          "text": "Reply Drafter by kevinace. Original source: https://x.com/kevinace/status/2089074419175977004. Listed on Money With AI: https://moneywithai.net/bots/reply-drafter/"
+        }
+      ],
+      "url": "https://moneywithai.net/use-cases/triage-the-shared-inbox/",
+      "blueprint_url": null,
+      "detail_json_url": "https://moneywithai.net/api/v1/use-cases/triage-the-shared-inbox.json"
     }
   ]
 }

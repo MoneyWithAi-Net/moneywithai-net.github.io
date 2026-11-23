@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-23T06:34:15.000Z",
+  "generated_at": "2026-11-23T07:10:37.000Z",
   "api_version": "v1",
   "schema_revision": 2,
   "status_url": "https://moneywithai.net/api/v1/status.json",
-  "count": 877,
+  "count": 883,
   "items": [
     {
       "type": "bot",
@@ -43,6 +43,19 @@
       "detail_url": "https://moneywithai.net/api/v1/bots/list-my-grok-bot.json",
       "official_share_url": "https://x.ai/bot/Wm9Jb-e72U06wdzPB6CmS",
       "added_at": "2026-11-23T10:00:00.000Z"
+    },
+    {
+      "type": "bot",
+      "slug": "patient-escort-assistant",
+      "title": "Patient Escort Assistant",
+      "category": "Client Services",
+      "sub_use_case": "Client delivery",
+      "summary": "Order intake, visit preparation and visit summaries for independent patient-escort workers. Drafts only, no medical judgment, no booking of appointment slots, no stored patient records.",
+      "creator": "Unknown creator",
+      "url": "https://moneywithai.net/bots/patient-escort-assistant/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/patient-escort-assistant.json",
+      "official_share_url": "https://x.ai/bot/E0lXwyM-Wbe52X7anj3iV",
+      "added_at": "2026-11-23T07:00:00.000Z"
     },
     {
       "type": "bot",
@@ -9245,6 +9258,20 @@
     },
     {
       "type": "use-case",
+      "slug": "book-and-prep-escort-visits",
+      "title": "Take Escort Orders and Prep Each Visit",
+      "category": "Client Services",
+      "summary": "Sort new escort orders, draft a visit prep note and write a short summary after each visit, with you checking every draft.",
+      "bots": [
+        "patient-escort-assistant",
+        "calendar-manager"
+      ],
+      "url": "https://moneywithai.net/use-cases/book-and-prep-escort-visits/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/book-and-prep-escort-visits.json",
+      "added_at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "type": "use-case",
       "slug": "bookkeeping-cleanup-service",
       "title": "Sell Bookkeeping Cleanups to Small Businesses",
       "category": "Finance",
@@ -11200,6 +11227,20 @@
     },
     {
       "type": "use-case",
+      "slug": "send-quote-follow-ups-on-time",
+      "title": "Send Quote Follow-Ups on Time",
+      "category": "Leads and Sales",
+      "summary": "Track open quotes and send a short follow-up at the right gap, so no quote goes quiet by accident.",
+      "bots": [
+        "quote-follow-up-sequence",
+        "follow-up-nudge"
+      ],
+      "url": "https://moneywithai.net/use-cases/send-quote-follow-ups-on-time/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/send-quote-follow-ups-on-time.json",
+      "added_at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "type": "use-case",
       "slug": "send-service-agreements-after-sales-calls",
       "title": "Send a Service Agreement Right After the Sales Call",
       "category": "Client Services",
@@ -11351,6 +11392,20 @@
       ],
       "url": "https://moneywithai.net/use-cases/six-bot-content-calendar/",
       "detail_url": "https://moneywithai.net/api/v1/use-cases/six-bot-content-calendar.json",
+      "added_at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "type": "use-case",
+      "slug": "sort-receipts-for-the-bookkeeper",
+      "title": "Sort Receipts for the Bookkeeper",
+      "category": "Finance",
+      "summary": "Collect receipts in one place, sort them into expense groups and flag gaps before the bookkeeper sees them.",
+      "bots": [
+        "receipt-scanner-expense-tracking",
+        "bookkeeping-auditor"
+      ],
+      "url": "https://moneywithai.net/use-cases/sort-receipts-for-the-bookkeeper/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/sort-receipts-for-the-bookkeeper.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {
@@ -11615,6 +11670,20 @@
     },
     {
       "type": "use-case",
+      "slug": "triage-the-shared-inbox",
+      "title": "Triage the Shared Inbox",
+      "category": "Customer Support",
+      "summary": "Sort incoming messages by type and urgency, and draft replies for you to approve before anything is sent.",
+      "bots": [
+        "inbox-triage",
+        "reply-drafter"
+      ],
+      "url": "https://moneywithai.net/use-cases/triage-the-shared-inbox/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/triage-the-shared-inbox.json",
+      "added_at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "type": "use-case",
       "slug": "turn-client-calls-into-retainer-agreements",
       "title": "Turn Client Calls into Retainer Agreements",
       "category": "Client Services",
@@ -11639,6 +11708,20 @@
       ],
       "url": "https://moneywithai.net/use-cases/turn-customer-feedback-into-fixes/",
       "detail_url": "https://moneywithai.net/api/v1/use-cases/turn-customer-feedback-into-fixes.json",
+      "added_at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "type": "use-case",
+      "slug": "turn-sales-calls-into-next-steps",
+      "title": "Turn Sales Calls into Clear Next Steps",
+      "category": "Leads and Sales",
+      "summary": "After each sales call, get a short brief of what the buyer needs and a clear next step to send.",
+      "bots": [
+        "sales-call-coach",
+        "meeting-brief"
+      ],
+      "url": "https://moneywithai.net/use-cases/turn-sales-calls-into-next-steps/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/turn-sales-calls-into-next-steps.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {

@@ -1,0 +1,125 @@
+{
+  "type": "use-case",
+  "slug": "triage-the-shared-inbox",
+  "title": "Triage the Shared Inbox",
+  "category": "Customer Support",
+  "category_slug": "customer-support",
+  "money_model": "Save costs",
+  "difficulty": "Beginner",
+  "summary": "Sort incoming messages by type and urgency, and draft replies for you to approve before anything is sent.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Assumes one shared inbox gets steady messages; the value is faster replies to urgent ones.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Urgent messages get seen first.",
+    "Routine replies take less time to write."
+  ],
+  "who_its_for": [
+    "Small teams with one shared support or sales inbox."
+  ],
+  "stack": [
+    {
+      "bot": "inbox-triage",
+      "name": "Inbox Triage",
+      "role": "Sorts messages by type and urgency.",
+      "creator": "rchase",
+      "tools": [
+        "Facebook",
+        "X",
+        "LinkedIn",
+        "Trello"
+      ],
+      "url": "https://moneywithai.net/bots/inbox-triage/",
+      "official_share_url": null
+    },
+    {
+      "bot": "reply-drafter",
+      "name": "Reply Drafter",
+      "role": "Drafts replies for you to approve.",
+      "creator": "kevinace",
+      "tools": [
+        "X"
+      ],
+      "url": "https://moneywithai.net/bots/reply-drafter/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Facebook",
+    "X",
+    "LinkedIn",
+    "Trello"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Shared inbox messages",
+        "tool": "Gmail"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "inbox-triage",
+        "name": "Inbox Triage",
+        "does": "Sorts messages by type and urgency",
+        "tools": [
+          "Facebook",
+          "X",
+          "LinkedIn",
+          "Trello"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "reply-drafter",
+        "name": "Reply Drafter",
+        "does": "Drafts replies",
+        "tools": [
+          "X"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Approves and sends",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A sorted list",
+      "Draft replies you approve"
+    ]
+  },
+  "steps": [
+    "Connect the shared inbox you want sorted.",
+    "Review the sort for the first week.",
+    "Approve or edit each draft.",
+    "Send the replies yourself."
+  ],
+  "guardrails": [
+    "Nothing is sent without your approval.",
+    "Refunds and legal questions go to a person."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-24T08:00:00.000Z",
+  "featured": {
+    "rank": 179,
+    "score": 69,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/triage-the-shared-inbox/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/triage-the-shared-inbox.json"
+}

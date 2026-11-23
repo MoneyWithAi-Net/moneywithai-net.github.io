@@ -1,0 +1,116 @@
+{
+  "type": "use-case",
+  "slug": "turn-sales-calls-into-next-steps",
+  "title": "Turn Sales Calls into Clear Next Steps",
+  "category": "Leads and Sales",
+  "category_slug": "leads-and-sales",
+  "money_model": "Grow sales",
+  "difficulty": "Beginner",
+  "summary": "After each sales call, get a short brief of what the buyer needs and a clear next step to send.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Assumes you run your own sales calls; the value is next steps sent the same day.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Next steps go out the same day.",
+    "Fewer deals stall because nobody owned the follow-up."
+  ],
+  "who_its_for": [
+    "Sales reps and founders who run their own calls."
+  ],
+  "stack": [
+    {
+      "bot": "sales-call-coach",
+      "name": "Sales Call Coach",
+      "role": "Reviews the call and points out what to improve.",
+      "creator": "Daniel Brill",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/sales-call-coach/",
+      "official_share_url": "https://x.ai/bot/yZ5MFQFdl32vHt6fcIJAc"
+    },
+    {
+      "bot": "meeting-brief",
+      "name": "Meeting Brief",
+      "role": "Writes a short brief with the agreed next step.",
+      "creator": "Limok_igit",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/meeting-brief/",
+      "official_share_url": "https://x.ai/bot/JN9e1WggIKVWhCEZrySlj"
+    }
+  ],
+  "tools": [
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Call notes or transcript",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "meeting-brief",
+        "name": "Meeting Brief",
+        "does": "Writes the brief and next step",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "sales-call-coach",
+        "name": "Sales Call Coach",
+        "does": "Points out what to improve",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Sends the follow-up",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A short brief",
+      "One next step to confirm"
+    ]
+  },
+  "steps": [
+    "Paste your call notes or transcript.",
+    "Review the coaching points.",
+    "Check the brief and agreed next step.",
+    "Send the follow-up yourself."
+  ],
+  "guardrails": [
+    "Check every claim against the call before you send it.",
+    "Never send a commitment the call did not agree."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-10-31T16:00:00.000Z",
+  "featured": {
+    "rank": 181,
+    "score": 69,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/turn-sales-calls-into-next-steps/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/turn-sales-calls-into-next-steps.json"
+}

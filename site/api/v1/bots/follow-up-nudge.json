@@ -25,15 +25,17 @@
   "last_checked": "2026-10-31",
   "url": "https://moneywithai.net/bots/follow-up-nudge/",
   "json_url": "https://moneywithai.net/api/v1/bots/follow-up-nudge.json",
-  "use_cases": [],
+  "use_cases": [
+    "https://moneywithai.net/use-cases/send-quote-follow-ups-on-time/"
+  ],
   "added_at": "2026-10-31T16:00:00.000Z",
   "featured": {
-    "rank": 453,
-    "score": 40,
-    "money": 0,
+    "rank": 279,
+    "score": 73,
+    "money": 13,
     "profile": 30,
-    "visuals": 10,
-    "difficulty": 0,
+    "visuals": 20,
+    "difficulty": 10,
     "override": null,
     "rules": "https://moneywithai.net/llms.txt"
   }

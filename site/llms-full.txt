@@ -4984,6 +4984,18 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
+## Patient Escort Assistant
+
+- URL: https://moneywithai.net/bots/patient-escort-assistant/
+- Category: Client Services
+- Summary (Money With AI's words): Order intake, visit preparation and visit summaries for independent patient-escort workers. Drafts only, no medical judgment, no booking of appointment slots, no stored patient records.
+- Tools: Grok
+- Creator: Unknown creator (https://x.ai/bot/E0lXwyM-Wbe52X7anj3iV)
+- Original source: https://x.ai/bot/E0lXwyM-Wbe52X7anj3iV
+- Official share link: https://x.ai/bot/E0lXwyM-Wbe52X7anj3iV
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
 ## Pattern of Pain
 
 - URL: https://moneywithai.net/bots/pattern-of-pain/

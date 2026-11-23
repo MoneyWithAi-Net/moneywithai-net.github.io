@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T06:34:15.000Z",
+  "generated_at": "2026-11-23T07:10:37.000Z",
   "api_version": "v1",
   "schema_revision": 2,
   "status_url": "https://moneywithai.net/api/v1/status.json",
@@ -9,7 +9,7 @@
       "slug": "leads-and-sales",
       "label": "Leads and Sales",
       "bots": 122,
-      "use_cases": 39,
+      "use_cases": 41,
       "sub_use_cases": [
         {
           "slug": "local-seo-prospect-lists",
@@ -200,8 +200,8 @@
     {
       "slug": "client-services",
       "label": "Client Services",
-      "bots": 40,
-      "use_cases": 24,
+      "bots": 41,
+      "use_cases": 25,
       "sub_use_cases": [
         {
           "slug": "client-confirmations",
@@ -216,7 +216,7 @@
         {
           "slug": "client-delivery",
           "label": "Client delivery",
-          "bots": 18
+          "bots": 19
         },
         {
           "slug": "grant-packs",
@@ -235,7 +235,7 @@
       "slug": "finance",
       "label": "Finance",
       "bots": 41,
-      "use_cases": 19,
+      "use_cases": 20,
       "sub_use_cases": [
         {
           "slug": "invoices",
@@ -279,7 +279,7 @@
       "slug": "customer-support",
       "label": "Customer Support",
       "bots": 48,
-      "use_cases": 15,
+      "use_cases": 16,
       "sub_use_cases": [
         {
           "slug": "ticket-fixing",

@@ -27,7 +27,8 @@
   "use_cases": [
     "https://moneywithai.net/use-cases/bookkeeping-cleanup-service/",
     "https://moneywithai.net/use-cases/quickbooks-migration-service/",
-    "https://moneywithai.net/use-cases/monthly-books-check/"
+    "https://moneywithai.net/use-cases/monthly-books-check/",
+    "https://moneywithai.net/use-cases/sort-receipts-for-the-bookkeeper/"
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
