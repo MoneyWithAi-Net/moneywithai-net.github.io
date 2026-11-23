@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T14:45:27.000Z",
+  "generated_at": "2026-11-23T06:34:15.000Z",
   "api_version": "v1",
   "schema_revision": 2,
   "status_url": "https://moneywithai.net/api/v1/status.json",
@@ -82,7 +82,7 @@
     {
       "slug": "content-and-marketing",
       "label": "Content and Marketing",
-      "bots": 164,
+      "bots": 166,
       "use_cases": 43,
       "sub_use_cases": [
         {
@@ -113,7 +113,7 @@
         {
           "slug": "brand-social",
           "label": "Brand social",
-          "bots": 25
+          "bots": 26
         },
         {
           "slug": "compliance-review",
@@ -133,7 +133,7 @@
         {
           "slug": "seo-and-ai-search",
           "label": "SEO and AI search",
-          "bots": 18
+          "bots": 19
         },
         {
           "slug": "newsletters-and-email",
@@ -322,7 +322,7 @@
     {
       "slug": "research-and-ops",
       "label": "Research and Ops",
-      "bots": 235,
+      "bots": 236,
       "use_cases": 27,
       "sub_use_cases": [
         {
@@ -373,7 +373,7 @@
         {
           "slug": "planning-and-projects",
           "label": "Planning and projects",
-          "bots": 36
+          "bots": 37
         },
         {
           "slug": "product-and-engineering",

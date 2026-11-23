@@ -1,10 +1,49 @@
 {
-  "generated_at": "2026-11-19T14:45:27.000Z",
+  "generated_at": "2026-11-23T06:34:15.000Z",
   "api_version": "v1",
   "schema_revision": 2,
   "status_url": "https://moneywithai.net/api/v1/status.json",
-  "count": 874,
+  "count": 877,
   "items": [
+    {
+      "type": "bot",
+      "slug": "chief-of-agents",
+      "title": "Chief of Agents",
+      "category": "Research and Ops",
+      "sub_use_case": "Planning and projects",
+      "summary": "Orchestrates a roster of specialist Grok Bots. Routes work, packages attention briefs, and only pulls you in for judgment, money, publishing, or a blocked bot.",
+      "creator": "Andrew Kittridge",
+      "url": "https://moneywithai.net/bots/chief-of-agents/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/chief-of-agents.json",
+      "official_share_url": "https://x.ai/bot/N92u9t1nHlL_gtgk2nAeN",
+      "added_at": "2026-11-23T10:00:00.000Z"
+    },
+    {
+      "type": "bot",
+      "slug": "grok-bot-polish",
+      "title": "Grok Bot Polish",
+      "category": "Content and Marketing",
+      "sub_use_case": "SEO and AI search",
+      "summary": "For bot and app makers: paste your listing's name, one-liner and description, get one rewrite whose first line uses search words.",
+      "creator": "GrokBotGod God",
+      "url": "https://moneywithai.net/bots/grok-bot-polish/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/grok-bot-polish.json",
+      "official_share_url": "https://x.ai/bot/EN9N53oqx8y1kvHP4BAh4",
+      "added_at": "2026-11-23T10:00:00.000Z"
+    },
+    {
+      "type": "bot",
+      "slug": "list-my-grok-bot",
+      "title": "List My Grok Bot",
+      "category": "Content and Marketing",
+      "sub_use_case": "Brand social",
+      "summary": "For Grok Bot makers: paste your x.ai/bot link, get copy-ready listing fields and step-by-step submit links for several Grok Bot directories, plus a ready X post. You press Submit.",
+      "creator": "GrokBotGod God",
+      "url": "https://moneywithai.net/bots/list-my-grok-bot/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/list-my-grok-bot.json",
+      "official_share_url": "https://x.ai/bot/Wm9Jb-e72U06wdzPB6CmS",
+      "added_at": "2026-11-23T10:00:00.000Z"
+    },
     {
       "type": "bot",
       "slug": "shop-phone-line-bot-gsepac",

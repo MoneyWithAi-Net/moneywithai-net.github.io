@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "grok-bot-polish",
+    "name": "Grok Bot Polish",
+    "category": "Content and Marketing",
+    "sub_use_case": "SEO and AI search",
+    "summary": "For bot and app makers: paste your listing's name, one-liner and description, get one rewrite whose first line uses search words.",
+    "tools": [
+      "Grok Bot"
+    ],
+    "creator": {
+      "handle": "GrokBotGod God",
+      "url": "https://x.com/GrokBotGod"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/GrokBotGod"
+    },
+    "official_share_url": "https://x.ai/bot/EN9N53oqx8y1kvHP4BAh4",
+    "found_via": null,
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-11-23",
+    "url": "https://moneywithai.net/bots/grok-bot-polish/",
+    "json_url": "https://moneywithai.net/api/bots/grok-bot-polish.json"
+  }
+}

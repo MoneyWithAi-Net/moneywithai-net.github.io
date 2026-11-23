@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "chief-of-agents",
+  "name": "Chief of Agents",
+  "category": "Research and Ops",
+  "sub_use_case": "Planning and projects",
+  "summary": "Orchestrates a roster of specialist Grok Bots. Routes work, packages attention briefs, and only pulls you in for judgment, money, publishing, or a blocked bot.",
+  "tools": [
+    "Grok Bot"
+  ],
+  "creator": {
+    "handle": "Andrew Kittridge",
+    "url": "https://x.com/andrewkittridge"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/andrewkittridge"
+  },
+  "official_share_url": "https://x.ai/bot/N92u9t1nHlL_gtgk2nAeN",
+  "found_via": null,
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-11-23",
+  "url": "https://moneywithai.net/bots/chief-of-agents/",
+  "json_url": "https://moneywithai.net/api/v1/bots/chief-of-agents.json",
+  "use_cases": [],
+  "added_at": "2026-11-23T10:00:00.000Z",
+  "featured": {
+    "rank": 376,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

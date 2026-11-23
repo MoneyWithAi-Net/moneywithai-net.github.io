@@ -971,6 +971,18 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
+## Chief of Agents
+
+- URL: https://moneywithai.net/bots/chief-of-agents/
+- Category: Research and Ops
+- Summary (Money With AI's words): Orchestrates a roster of specialist Grok Bots. Routes work, packages attention briefs, and only pulls you in for judgment, money, publishing, or a blocked bot.
+- Tools: Grok Bot
+- Creator: @Andrew Kittridge (https://x.com/andrewkittridge)
+- Original source: https://x.com/andrewkittridge
+- Official share link: https://x.ai/bot/N92u9t1nHlL_gtgk2nAeN
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
 ## Chief of Staff
 
 - URL: https://moneywithai.net/bots/chief-of-staff/
@@ -3027,6 +3039,18 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
+## Grok Bot Polish
+
+- URL: https://moneywithai.net/bots/grok-bot-polish/
+- Category: Content and Marketing
+- Summary (Money With AI's words): For bot and app makers: paste your listing's name, one-liner and description, get one rewrite whose first line uses search words.
+- Tools: Grok Bot
+- Creator: @GrokBotGod God (https://x.com/GrokBotGod)
+- Original source: https://x.com/GrokBotGod
+- Official share link: https://x.ai/bot/EN9N53oqx8y1kvHP4BAh4
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
 ## Grok Bot Text & Voicemail
 
 - URL: https://moneywithai.net/bots/grok-bot-text-and-voicemail/
@@ -4057,6 +4081,18 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Tools: LinkedIn, Notion, Slack
 - Creator: @ericzakariasson (https://x.com/ericzakariasson)
 - Original source: https://x.com/ericzakariasson/status/2087258914060664902
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## List My Grok Bot
+
+- URL: https://moneywithai.net/bots/list-my-grok-bot/
+- Category: Content and Marketing
+- Summary (Money With AI's words): For Grok Bot makers: paste your x.ai/bot link, get copy-ready listing fields and step-by-step submit links for several Grok Bot directories, plus a ready X post. You press Submit.
+- Tools: Grok Bot
+- Creator: @GrokBotGod God (https://x.com/GrokBotGod)
+- Original source: https://x.com/GrokBotGod
+- Official share link: https://x.ai/bot/Wm9Jb-e72U06wdzPB6CmS
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 

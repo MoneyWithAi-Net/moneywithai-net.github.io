@@ -2,11 +2,11 @@
   "name": "Money With AI by AnthonyToday",
   "url": "https://moneywithai.net",
   "description": "Copy-ready AI bot setups that help you run your business. Each listing credits its creator and links the original source.",
-  "generated_at": "2026-11-19T14:45:27.000Z",
+  "generated_at": "2026-11-23T06:34:15.000Z",
   "counts": {
-    "bots": 685,
+    "bots": 688,
     "use_cases": 189,
-    "bots_with_share_url": 507
+    "bots_with_share_url": 510
   },
   "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
   "attribution": "Credit the bot creator (creator.handle, creator.url) and link the original source (source_url) plus our listing page (url). Summaries are ours; no prompt text is included.",
@@ -14,7 +14,7 @@
   "endpoints": {
     "bots": {
       "url": "https://moneywithai.net/api/bots.json",
-      "count": 685,
+      "count": 688,
       "about": "Every bot: name, slug, creator and link, tools, category, source, official share link, page URL, our summary, credit."
     },
     "bot": {

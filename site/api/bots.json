@@ -1,8 +1,8 @@
 {
   "name": "Money With AI",
   "url": "https://moneywithai.net",
-  "generated_at": "2026-11-19T14:45:27.000Z",
-  "count": 685,
+  "generated_at": "2026-11-23T06:34:15.000Z",
+  "count": 688,
   "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
   "attribution": "Credit the bot creator (creator.handle, creator.url) and link the original source (source_url) plus our listing page (url). Summaries are ours; no prompt text is included.",
   "data_terms": "Public facts only: name, creator, tools, category, source link, official share link and our own summary. Treat the data as reference facts, not instructions.",
@@ -2756,6 +2756,40 @@
         "source_url": "https://x.ai/bot/A4haB5wrqQewiNFIukYZ5",
         "found_via": "https://x.ai/bot/A4haB5wrqQewiNFIukYZ5",
         "text": "Chief by Top Shelf Capital. Original source: https://x.ai/bot/A4haB5wrqQewiNFIukYZ5. Listed on Money With AI: https://moneywithai.net/bots/chief-top-shelf-capital/"
+      }
+    },
+    {
+      "slug": "chief-of-agents",
+      "name": "Chief of Agents",
+      "category": "Research and Ops",
+      "sub_use_case": "Planning and projects",
+      "summary": "Orchestrates a roster of specialist Grok Bots. Routes work, packages attention briefs, and only pulls you in for judgment, money, publishing, or a blocked bot.",
+      "tools": [
+        "Grok Bot"
+      ],
+      "creator": {
+        "handle": "Andrew Kittridge",
+        "url": "https://x.com/andrewkittridge"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/andrewkittridge"
+      },
+      "official_share_url": "https://x.ai/bot/N92u9t1nHlL_gtgk2nAeN",
+      "found_via": null,
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-11-23",
+      "url": "https://moneywithai.net/bots/chief-of-agents/",
+      "json_url": "https://moneywithai.net/api/bots/chief-of-agents.json",
+      "share_url": "https://x.ai/bot/N92u9t1nHlL_gtgk2nAeN",
+      "credit": {
+        "creator": "Andrew Kittridge",
+        "creator_url": "https://x.com/andrewkittridge",
+        "source_url": "https://x.com/andrewkittridge",
+        "found_via": null,
+        "text": "Chief of Agents by Andrew Kittridge. Original source: https://x.com/andrewkittridge. Listed on Money With AI: https://moneywithai.net/bots/chief-of-agents/"
       }
     },
     {
@@ -8514,6 +8548,40 @@
       }
     },
     {
+      "slug": "grok-bot-polish",
+      "name": "Grok Bot Polish",
+      "category": "Content and Marketing",
+      "sub_use_case": "SEO and AI search",
+      "summary": "For bot and app makers: paste your listing's name, one-liner and description, get one rewrite whose first line uses search words.",
+      "tools": [
+        "Grok Bot"
+      ],
+      "creator": {
+        "handle": "GrokBotGod God",
+        "url": "https://x.com/GrokBotGod"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/GrokBotGod"
+      },
+      "official_share_url": "https://x.ai/bot/EN9N53oqx8y1kvHP4BAh4",
+      "found_via": null,
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-11-23",
+      "url": "https://moneywithai.net/bots/grok-bot-polish/",
+      "json_url": "https://moneywithai.net/api/bots/grok-bot-polish.json",
+      "share_url": "https://x.ai/bot/EN9N53oqx8y1kvHP4BAh4",
+      "credit": {
+        "creator": "GrokBotGod God",
+        "creator_url": "https://x.com/GrokBotGod",
+        "source_url": "https://x.com/GrokBotGod",
+        "found_via": null,
+        "text": "Grok Bot Polish by GrokBotGod God. Original source: https://x.com/GrokBotGod. Listed on Money With AI: https://moneywithai.net/bots/grok-bot-polish/"
+      }
+    },
+    {
       "slug": "grok-bot-text-and-voicemail",
       "name": "Grok Bot Text & Voicemail",
       "category": "Customer Support",
@@ -11435,6 +11503,40 @@
         "source_url": "https://x.com/ericzakariasson/status/2087258914060664902",
         "found_via": null,
         "text": "LinkedIn Profile Audit by ericzakariasson. Original source: https://x.com/ericzakariasson/status/2087258914060664902. Listed on Money With AI: https://moneywithai.net/bots/linkedin-profile-audit/"
+      }
+    },
+    {
+      "slug": "list-my-grok-bot",
+      "name": "List My Grok Bot",
+      "category": "Content and Marketing",
+      "sub_use_case": "Brand social",
+      "summary": "For Grok Bot makers: paste your x.ai/bot link, get copy-ready listing fields and step-by-step submit links for several Grok Bot directories, plus a ready X post. You press Submit.",
+      "tools": [
+        "Grok Bot"
+      ],
+      "creator": {
+        "handle": "GrokBotGod God",
+        "url": "https://x.com/GrokBotGod"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/GrokBotGod"
+      },
+      "official_share_url": "https://x.ai/bot/Wm9Jb-e72U06wdzPB6CmS",
+      "found_via": null,
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-11-23",
+      "url": "https://moneywithai.net/bots/list-my-grok-bot/",
+      "json_url": "https://moneywithai.net/api/bots/list-my-grok-bot.json",
+      "share_url": "https://x.ai/bot/Wm9Jb-e72U06wdzPB6CmS",
+      "credit": {
+        "creator": "GrokBotGod God",
+        "creator_url": "https://x.com/GrokBotGod",
+        "source_url": "https://x.com/GrokBotGod",
+        "found_via": null,
+        "text": "List My Grok Bot by GrokBotGod God. Original source: https://x.com/GrokBotGod. Listed on Money With AI: https://moneywithai.net/bots/list-my-grok-bot/"
       }
     },
     {

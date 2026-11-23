@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "list-my-grok-bot",
+    "name": "List My Grok Bot",
+    "category": "Content and Marketing",
+    "sub_use_case": "Brand social",
+    "summary": "For Grok Bot makers: paste your x.ai/bot link, get copy-ready listing fields and step-by-step submit links for several Grok Bot directories, plus a ready X post. You press Submit.",
+    "tools": [
+      "Grok Bot"
+    ],
+    "creator": {
+      "handle": "GrokBotGod God",
+      "url": "https://x.com/GrokBotGod"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/GrokBotGod"
+    },
+    "official_share_url": "https://x.ai/bot/Wm9Jb-e72U06wdzPB6CmS",
+    "found_via": null,
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-11-23",
+    "url": "https://moneywithai.net/bots/list-my-grok-bot/",
+    "json_url": "https://moneywithai.net/api/bots/list-my-grok-bot.json"
+  }
+}

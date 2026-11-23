@@ -1,0 +1,39 @@
+{
+  "type": "bot",
+  "slug": "grok-bot-polish",
+  "name": "Grok Bot Polish",
+  "category": "Content and Marketing",
+  "sub_use_case": "SEO and AI search",
+  "summary": "For bot and app makers: paste your listing's name, one-liner and description, get one rewrite whose first line uses search words.",
+  "tools": [
+    "Grok Bot"
+  ],
+  "creator": {
+    "handle": "GrokBotGod God",
+    "url": "https://x.com/GrokBotGod"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/GrokBotGod"
+  },
+  "official_share_url": "https://x.ai/bot/EN9N53oqx8y1kvHP4BAh4",
+  "found_via": null,
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-11-23",
+  "url": "https://moneywithai.net/bots/grok-bot-polish/",
+  "json_url": "https://moneywithai.net/api/v1/bots/grok-bot-polish.json",
+  "use_cases": [],
+  "added_at": "2026-11-23T10:00:00.000Z",
+  "featured": {
+    "rank": 465,
+    "score": 40,
+    "money": 0,
+    "profile": 30,
+    "visuals": 10,
+    "difficulty": 0,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}
