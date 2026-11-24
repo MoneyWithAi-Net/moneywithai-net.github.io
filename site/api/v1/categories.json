@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T07:10:37.000Z",
+  "generated_at": "2026-11-24T03:13:24.000Z",
   "api_version": "v1",
   "schema_revision": 2,
   "status_url": "https://moneywithai.net/api/v1/status.json",
@@ -322,8 +322,8 @@
     {
       "slug": "research-and-ops",
       "label": "Research and Ops",
-      "bots": 236,
-      "use_cases": 27,
+      "bots": 241,
+      "use_cases": 32,
       "sub_use_cases": [
         {
           "slug": "competitor-intel",
@@ -333,7 +333,7 @@
         {
           "slug": "market-notes",
           "label": "Market notes",
-          "bots": 19
+          "bots": 24
         },
         {
           "slug": "opportunity-scouting",

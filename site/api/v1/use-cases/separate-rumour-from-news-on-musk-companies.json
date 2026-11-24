@@ -1,0 +1,114 @@
+{
+  "type": "use-case",
+  "slug": "separate-rumour-from-news-on-musk-companies",
+  "title": "Separate Rumour from News on Musk Companies",
+  "category": "Research and Ops",
+  "category_slug": "research-and-ops",
+  "money_model": "Save time",
+  "difficulty": "Beginner",
+  "summary": "Track news on the Musk-affiliated companies with each claim tagged as rumour or confirmed.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you follow these topics regularly; the value is less time scanning sources.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Fewer decisions made on unconfirmed claims."
+  ],
+  "who_its_for": [
+    "Investors and analysts who follow these companies."
+  ],
+  "stack": [
+    {
+      "bot": "elon-ecosystem-desk",
+      "name": "Elon Ecosystem Desk",
+      "role": "Weekday stories with rumour and confirmed tags.",
+      "creator": "cvey15",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/elon-ecosystem-desk/",
+      "official_share_url": "https://x.ai/bot/j8Znml_qB4leZhOgihZ-p"
+    },
+    {
+      "bot": "market-researcher",
+      "name": "Market Researcher",
+      "role": "Market Researcher: Checks the tagged claims against other sources.",
+      "creator": "Josh Kim",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/market-researcher/",
+      "official_share_url": "https://x.ai/bot/xzkXiUbdYfPd7g30OhLGf"
+    }
+  ],
+  "tools": [
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Your topics or tools",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "elon-ecosystem-desk",
+        "name": "Elon Ecosystem Desk",
+        "does": "Collects and checks the news",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "market-researcher",
+        "name": "Market Researcher",
+        "does": "Adds context for your use",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Approves each result",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A result you review before it is used"
+    ]
+  },
+  "steps": [
+    "Add the bots from their share links.",
+    "Set the topics or tools to follow.",
+    "Read the first output and check one claim.",
+    "Approve each result before you use it."
+  ],
+  "guardrails": [
+    "Check every claim against its source before you act on it.",
+    "The bots do not publish or spend money on their own."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-11-24T03:30:00.000Z",
+  "featured": {
+    "rank": 68,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/separate-rumour-from-news-on-musk-companies/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/separate-rumour-from-news-on-musk-companies.json"
+}

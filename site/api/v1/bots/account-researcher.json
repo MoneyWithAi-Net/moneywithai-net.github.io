@@ -26,16 +26,17 @@
   "url": "https://moneywithai.net/bots/account-researcher/",
   "json_url": "https://moneywithai.net/api/v1/bots/account-researcher.json",
   "use_cases": [
-    "https://moneywithai.net/use-cases/linkedin-intent-outbound/"
+    "https://moneywithai.net/use-cases/linkedin-intent-outbound/",
+    "https://moneywithai.net/use-cases/follow-ai-funding-for-sales-targets/"
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 212,
-    "score": 79,
+    "rank": 138,
+    "score": 83,
     "money": 27,
     "profile": 26,
     "visuals": 20,
-    "difficulty": 6,
+    "difficulty": 10,
     "override": null,
     "rules": "https://moneywithai.net/llms.txt"
   }

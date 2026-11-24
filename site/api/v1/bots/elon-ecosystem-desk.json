@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "elon-ecosystem-desk",
+  "name": "Elon Ecosystem Desk",
+  "category": "Research and Ops",
+  "sub_use_case": "Market notes",
+  "summary": "A weekday news desk for the Musk-affiliated companies, tagging each claim as rumour or confirmed.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "cvey15",
+    "url": "https://x.com/cvey15"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/cvey15"
+  },
+  "official_share_url": "https://x.ai/bot/j8Znml_qB4leZhOgihZ-p",
+  "found_via": null,
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-11-24",
+  "url": "https://moneywithai.net/bots/elon-ecosystem-desk/",
+  "json_url": "https://moneywithai.net/api/v1/bots/elon-ecosystem-desk.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/separate-rumour-from-news-on-musk-companies/"
+  ],
+  "added_at": "2026-11-24T03:30:00.000Z",
+  "featured": {
+    "rank": 92,
+    "score": 87,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

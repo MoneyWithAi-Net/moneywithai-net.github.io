@@ -1,10 +1,75 @@
 {
-  "generated_at": "2026-11-23T07:10:37.000Z",
+  "generated_at": "2026-11-24T03:13:24.000Z",
   "api_version": "v1",
   "schema_revision": 2,
   "status_url": "https://moneywithai.net/api/v1/status.json",
-  "count": 883,
+  "count": 893,
   "items": [
+    {
+      "type": "bot",
+      "slug": "ai-daily-radar",
+      "title": "AI Daily Radar",
+      "category": "Research and Ops",
+      "sub_use_case": "Market notes",
+      "summary": "Sends a morning brief of the last day in AI, limited to the tools you actually use, with each claim labelled by source.",
+      "creator": "MichaelGannotti",
+      "url": "https://moneywithai.net/bots/ai-daily-radar/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/ai-daily-radar.json",
+      "official_share_url": "https://x.ai/bot/EZ8RChmm9gSGmK3SXv-3M",
+      "added_at": "2026-11-24T03:30:00.000Z"
+    },
+    {
+      "type": "bot",
+      "slug": "ai-official-account-radar",
+      "title": "AI Official Account Radar",
+      "category": "Research and Ops",
+      "sub_use_case": "Market notes",
+      "summary": "Alerts you when major AI labs ship a model, free credits or change API pricing or terms, plus a twice-daily recap.",
+      "creator": "Chaosai0",
+      "url": "https://moneywithai.net/bots/ai-official-account-radar/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/ai-official-account-radar.json",
+      "official_share_url": "https://x.ai/bot/zXPuJgqq5fxIsqCmPHAsF",
+      "added_at": "2026-11-24T03:30:00.000Z"
+    },
+    {
+      "type": "bot",
+      "slug": "elon-ecosystem-desk",
+      "title": "Elon Ecosystem Desk",
+      "category": "Research and Ops",
+      "sub_use_case": "Market notes",
+      "summary": "A weekday news desk for the Musk-affiliated companies, tagging each claim as rumour or confirmed.",
+      "creator": "cvey15",
+      "url": "https://moneywithai.net/bots/elon-ecosystem-desk/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/elon-ecosystem-desk.json",
+      "official_share_url": "https://x.ai/bot/j8Znml_qB4leZhOgihZ-p",
+      "added_at": "2026-11-24T03:30:00.000Z"
+    },
+    {
+      "type": "bot",
+      "slug": "runtimewire",
+      "title": "RuntimeWire",
+      "category": "Research and Ops",
+      "sub_use_case": "Market notes",
+      "summary": "Keeps you current on AI funding, launches and founder moves, with each claim checked to its original source.",
+      "creator": "merket",
+      "url": "https://moneywithai.net/bots/runtimewire/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/runtimewire.json",
+      "official_share_url": "https://x.ai/bot/k4iwGejDGoy-oT7qohxXb",
+      "added_at": "2026-11-24T03:30:00.000Z"
+    },
+    {
+      "type": "bot",
+      "slug": "yc-podcast-notes",
+      "title": "YC Podcast Notes",
+      "category": "Research and Ops",
+      "sub_use_case": "Market notes",
+      "summary": "Flags each new Y Combinator podcast episode and writes short notes for someone building a company.",
+      "creator": "buuxbt",
+      "url": "https://moneywithai.net/bots/yc-podcast-notes/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/yc-podcast-notes.json",
+      "official_share_url": "https://x.ai/bot/0y-dcpVFqFkjibKs2M48D",
+      "added_at": "2026-11-24T03:30:00.000Z"
+    },
     {
       "type": "bot",
       "slug": "chief-of-agents",
@@ -9888,6 +9953,20 @@
     },
     {
       "type": "use-case",
+      "slug": "follow-ai-funding-for-sales-targets",
+      "title": "Follow Ai Funding for Sales Targets",
+      "category": "Research and Ops",
+      "summary": "Find companies that just raised money or hired leaders, to use as sales targets.",
+      "bots": [
+        "runtimewire",
+        "account-researcher"
+      ],
+      "url": "https://moneywithai.net/use-cases/follow-ai-funding-for-sales-targets/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/follow-ai-funding-for-sales-targets.json",
+      "added_at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "type": "use-case",
       "slug": "founder-chief-of-staff-stack",
       "title": "Give a Founder a Chief-of-Staff Stack",
       "category": "Research and Ops",
@@ -11270,6 +11349,20 @@
     },
     {
       "type": "use-case",
+      "slug": "separate-rumour-from-news-on-musk-companies",
+      "title": "Separate Rumour from News on Musk Companies",
+      "category": "Research and Ops",
+      "summary": "Track news on the Musk-affiliated companies with each claim tagged as rumour or confirmed.",
+      "bots": [
+        "elon-ecosystem-desk",
+        "market-researcher"
+      ],
+      "url": "https://moneywithai.net/use-cases/separate-rumour-from-news-on-musk-companies/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/separate-rumour-from-news-on-musk-companies.json",
+      "added_at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "type": "use-case",
       "slug": "shopify-ops-roster",
       "title": "Run a Shopify Store with an Ops Roster",
       "category": "E-Commerce",
@@ -11406,6 +11499,20 @@
       ],
       "url": "https://moneywithai.net/use-cases/sort-receipts-for-the-bookkeeper/",
       "detail_url": "https://moneywithai.net/api/v1/use-cases/sort-receipts-for-the-bookkeeper.json",
+      "added_at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "type": "use-case",
+      "slug": "start-the-day-with-an-ai-brief",
+      "title": "Start the Day with an Ai Brief",
+      "category": "Research and Ops",
+      "summary": "Read one morning brief on the AI news that touches the tools your team uses.",
+      "bots": [
+        "ai-daily-radar",
+        "morning-brief"
+      ],
+      "url": "https://moneywithai.net/use-cases/start-the-day-with-an-ai-brief/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/start-the-day-with-an-ai-brief.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {
@@ -11639,6 +11746,20 @@
     },
     {
       "type": "use-case",
+      "slug": "track-ai-lab-changes-for-your-team",
+      "title": "Track Ai Lab Changes for Your Team",
+      "category": "Research and Ops",
+      "summary": "Get an alert when a major AI lab changes a model, credits or prices, before your budget is hit.",
+      "bots": [
+        "ai-official-account-radar",
+        "market-researcher"
+      ],
+      "url": "https://moneywithai.net/use-cases/track-ai-lab-changes-for-your-team/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/track-ai-lab-changes-for-your-team.json",
+      "added_at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "type": "use-case",
       "slug": "trade-bid-desk",
       "title": "Find and Price Public Bids for a Trade",
       "category": "Research and Ops",
@@ -11722,6 +11843,20 @@
       ],
       "url": "https://moneywithai.net/use-cases/turn-sales-calls-into-next-steps/",
       "detail_url": "https://moneywithai.net/api/v1/use-cases/turn-sales-calls-into-next-steps.json",
+      "added_at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "type": "use-case",
+      "slug": "turn-startup-podcasts-into-founder-notes",
+      "title": "Turn Startup Podcasts into Founder Notes",
+      "category": "Research and Ops",
+      "summary": "Get short notes from each new startup podcast episode, with ideas you can test.",
+      "bots": [
+        "yc-podcast-notes",
+        "article-and-newsletter-writer"
+      ],
+      "url": "https://moneywithai.net/use-cases/turn-startup-podcasts-into-founder-notes/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/turn-startup-podcasts-into-founder-notes.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {

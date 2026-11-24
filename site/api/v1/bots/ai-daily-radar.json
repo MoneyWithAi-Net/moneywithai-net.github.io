@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "ai-daily-radar",
+  "name": "AI Daily Radar",
+  "category": "Research and Ops",
+  "sub_use_case": "Market notes",
+  "summary": "Sends a morning brief of the last day in AI, limited to the tools you actually use, with each claim labelled by source.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "MichaelGannotti",
+    "url": "https://x.com/MichaelGannotti"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/MichaelGannotti"
+  },
+  "official_share_url": "https://x.ai/bot/EZ8RChmm9gSGmK3SXv-3M",
+  "found_via": null,
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-11-24",
+  "url": "https://moneywithai.net/bots/ai-daily-radar/",
+  "json_url": "https://moneywithai.net/api/v1/bots/ai-daily-radar.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/start-the-day-with-an-ai-brief/"
+  ],
+  "added_at": "2026-11-24T03:30:00.000Z",
+  "featured": {
+    "rank": 75,
+    "score": 87,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

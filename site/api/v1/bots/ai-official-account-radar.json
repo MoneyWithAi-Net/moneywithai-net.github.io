@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "ai-official-account-radar",
+  "name": "AI Official Account Radar",
+  "category": "Research and Ops",
+  "sub_use_case": "Market notes",
+  "summary": "Alerts you when major AI labs ship a model, free credits or change API pricing or terms, plus a twice-daily recap.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Chaosai0",
+    "url": "https://x.com/Chaosai0"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/Chaosai0"
+  },
+  "official_share_url": "https://x.ai/bot/zXPuJgqq5fxIsqCmPHAsF",
+  "found_via": null,
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-11-24",
+  "url": "https://moneywithai.net/bots/ai-official-account-radar/",
+  "json_url": "https://moneywithai.net/api/v1/bots/ai-official-account-radar.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/track-ai-lab-changes-for-your-team/"
+  ],
+  "added_at": "2026-11-24T03:30:00.000Z",
+  "featured": {
+    "rank": 76,
+    "score": 87,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

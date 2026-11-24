@@ -171,6 +171,18 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
+## AI Daily Radar
+
+- URL: https://moneywithai.net/bots/ai-daily-radar/
+- Category: Research and Ops
+- Summary (Money With AI's words): Sends a morning brief of the last day in AI, limited to the tools you actually use, with each claim labelled by source.
+- Tools: Grok
+- Creator: @MichaelGannotti (https://x.com/MichaelGannotti)
+- Original source: https://x.com/MichaelGannotti
+- Official share link: https://x.ai/bot/EZ8RChmm9gSGmK3SXv-3M
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
 ## AI Faceless Shorts Factory
 
 - URL: https://moneywithai.net/bots/ai-faceless-shorts-factory/
@@ -191,6 +203,18 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Original source: https://x.ai/bot/Mr87JZkXHwpJQRknVuZcr
 - Official share link: https://x.ai/bot/Mr87JZkXHwpJQRknVuZcr
 - Found via: https://x.ai/bot/Mr87JZkXHwpJQRknVuZcr
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## AI Official Account Radar
+
+- URL: https://moneywithai.net/bots/ai-official-account-radar/
+- Category: Research and Ops
+- Summary (Money With AI's words): Alerts you when major AI labs ship a model, free credits or change API pricing or terms, plus a twice-daily recap.
+- Tools: Grok
+- Creator: @Chaosai0 (https://x.com/Chaosai0)
+- Original source: https://x.com/Chaosai0
+- Official share link: https://x.ai/bot/zXPuJgqq5fxIsqCmPHAsF
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
@@ -2332,6 +2356,18 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Original source: https://x.ai/bot/niWUVSbAnXTTcZAK87iKl
 - Official share link: https://x.ai/bot/niWUVSbAnXTTcZAK87iKl
 - Found via: https://x.ai/bot/niWUVSbAnXTTcZAK87iKl
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Elon Ecosystem Desk
+
+- URL: https://moneywithai.net/bots/elon-ecosystem-desk/
+- Category: Research and Ops
+- Summary (Money With AI's words): A weekday news desk for the Musk-affiliated companies, tagging each claim as rumour or confirmed.
+- Tools: Grok
+- Creator: @cvey15 (https://x.com/cvey15)
+- Original source: https://x.com/cvey15
+- Official share link: https://x.ai/bot/j8Znml_qB4leZhOgihZ-p
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
@@ -6049,6 +6085,18 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
+## RuntimeWire
+
+- URL: https://moneywithai.net/bots/runtimewire/
+- Category: Research and Ops
+- Summary (Money With AI's words): Keeps you current on AI funding, launches and founder moves, with each claim checked to its original source.
+- Tools: Grok
+- Creator: @merket (https://x.com/merket)
+- Original source: https://x.com/merket
+- Official share link: https://x.ai/bot/k4iwGejDGoy-oT7qohxXb
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
 ## SaaS CFO Monitor
 
 - URL: https://moneywithai.net/bots/saas-cfo-monitor/
@@ -8346,6 +8394,18 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Original source: https://x.ai/bot/UUsZRoInD7OHp4sjrZ-we
 - Official share link: https://x.ai/bot/UUsZRoInD7OHp4sjrZ-we
 - Found via: https://x.ai/bot/UUsZRoInD7OHp4sjrZ-we
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## YC Podcast Notes
+
+- URL: https://moneywithai.net/bots/yc-podcast-notes/
+- Category: Research and Ops
+- Summary (Money With AI's words): Flags each new Y Combinator podcast episode and writes short notes for someone building a company.
+- Tools: Grok
+- Creator: @buuxbt (https://x.com/buuxbt)
+- Original source: https://x.com/buuxbt
+- Official share link: https://x.ai/bot/0y-dcpVFqFkjibKs2M48D
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 

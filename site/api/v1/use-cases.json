@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-23T07:10:37.000Z",
+  "generated_at": "2026-11-24T03:13:24.000Z",
   "api_version": "v1",
   "schema_revision": 2,
   "status_url": "https://moneywithai.net/api/v1/status.json",
-  "count": 194,
+  "count": 199,
   "items": [
     {
       "type": "use-case",
@@ -239,7 +239,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T08:00:00.000Z",
       "featured": {
-        "rank": 127,
+        "rank": 132,
         "score": 77,
         "money": 27,
         "profile": 20,
@@ -367,7 +367,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 99,
+        "rank": 104,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -487,7 +487,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 149,
+        "rank": 154,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -933,7 +933,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 54,
+        "rank": 55,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -1061,7 +1061,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T08:00:00.000Z",
       "featured": {
-        "rank": 141,
+        "rank": 146,
         "score": 76,
         "money": 27,
         "profile": 26,
@@ -1188,7 +1188,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 107,
+        "rank": 112,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -1328,7 +1328,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 154,
+        "rank": 159,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -1429,7 +1429,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 126,
+        "rank": 131,
         "score": 77,
         "money": 27,
         "profile": 20,
@@ -1670,7 +1670,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 193,
+        "rank": 198,
         "score": 63,
         "money": 13,
         "profile": 20,
@@ -1795,7 +1795,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 183,
+        "rank": 188,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -1937,7 +1937,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 165,
+        "rank": 170,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -2056,7 +2056,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 55,
+        "rank": 56,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -2544,7 +2544,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 132,
+        "rank": 137,
         "score": 76,
         "money": 27,
         "profile": 26,
@@ -2664,7 +2664,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 155,
+        "rank": 160,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -2762,7 +2762,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 192,
+        "rank": 197,
         "score": 63,
         "money": 13,
         "profile": 20,
@@ -2888,7 +2888,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T08:00:00.000Z",
       "featured": {
-        "rank": 191,
+        "rank": 196,
         "score": 65,
         "money": 13,
         "profile": 26,
@@ -3018,7 +3018,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 102,
+        "rank": 107,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -3177,7 +3177,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T08:00:00.000Z",
       "featured": {
-        "rank": 140,
+        "rank": 145,
         "score": 76,
         "money": 27,
         "profile": 26,
@@ -3425,7 +3425,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 176,
+        "rank": 181,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -3544,7 +3544,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 156,
+        "rank": 161,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -3664,7 +3664,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 136,
+        "rank": 141,
         "score": 76,
         "money": 27,
         "profile": 26,
@@ -3816,7 +3816,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T09:30:00.000Z",
       "featured": {
-        "rank": 85,
+        "rank": 90,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -4309,7 +4309,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 71,
+        "rank": 76,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -4659,7 +4659,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 106,
+        "rank": 111,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -4840,7 +4840,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 124,
+        "rank": 129,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -5006,7 +5006,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 58,
+        "rank": 59,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -5205,7 +5205,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 44,
+        "rank": 45,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -5570,7 +5570,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 84,
+        "rank": 89,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -5920,7 +5920,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 133,
+        "rank": 138,
         "score": 76,
         "money": 27,
         "profile": 26,
@@ -6085,7 +6085,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 98,
+        "rank": 103,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -6264,7 +6264,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 95,
+        "rank": 100,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -6597,7 +6597,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 168,
+        "rank": 173,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -6774,7 +6774,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 131,
+        "rank": 136,
         "score": 76,
         "money": 27,
         "profile": 26,
@@ -6951,7 +6951,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 94,
+        "rank": 99,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -7317,7 +7317,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 121,
+        "rank": 126,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -7483,7 +7483,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 63,
+        "rank": 64,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -7651,7 +7651,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 169,
+        "rank": 174,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -7858,7 +7858,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 134,
+        "rank": 139,
         "score": 76,
         "money": 27,
         "profile": 26,
@@ -8063,7 +8063,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 77,
+        "rank": 82,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -8251,7 +8251,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 120,
+        "rank": 125,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -8610,7 +8610,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 125,
+        "rank": 130,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -8811,7 +8811,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 93,
+        "rank": 98,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -9181,7 +9181,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 100,
+        "rank": 105,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -9375,7 +9375,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 46,
+        "rank": 47,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -9761,7 +9761,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 187,
+        "rank": 192,
         "score": 65,
         "money": 13,
         "profile": 26,
@@ -9946,7 +9946,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 62,
+        "rank": 63,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -10127,7 +10127,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 119,
+        "rank": 124,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -10326,7 +10326,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 162,
+        "rank": 167,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -10500,7 +10500,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 147,
+        "rank": 152,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -10666,7 +10666,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 88,
+        "rank": 93,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -10848,7 +10848,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 68,
+        "rank": 72,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -11036,7 +11036,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 76,
+        "rank": 81,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -11428,7 +11428,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 109,
+        "rank": 114,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -11590,7 +11590,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 138,
+        "rank": 143,
         "score": 76,
         "money": 27,
         "profile": 26,
@@ -11752,7 +11752,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 164,
+        "rank": 169,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -11956,7 +11956,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 101,
+        "rank": 106,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -12163,7 +12163,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 143,
+        "rank": 148,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -12325,7 +12325,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 110,
+        "rank": 115,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -12505,7 +12505,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 70,
+        "rank": 75,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -12693,7 +12693,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 122,
+        "rank": 127,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -12862,7 +12862,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 163,
+        "rank": 168,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -13055,7 +13055,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 97,
+        "rank": 102,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -13228,7 +13228,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 113,
+        "rank": 118,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -13408,7 +13408,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 194,
+        "rank": 199,
         "score": 62,
         "money": 13,
         "profile": 26,
@@ -13578,7 +13578,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 47,
+        "rank": 48,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -13751,7 +13751,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 167,
+        "rank": 172,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -13941,7 +13941,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 92,
+        "rank": 97,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -14344,7 +14344,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 78,
+        "rank": 83,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -14534,7 +14534,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 59,
+        "rank": 60,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -14739,7 +14739,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 45,
+        "rank": 46,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -15093,7 +15093,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 111,
+        "rank": 116,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -15263,7 +15263,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 135,
+        "rank": 140,
         "score": 76,
         "money": 27,
         "profile": 26,
@@ -15432,7 +15432,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 103,
+        "rank": 108,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -15597,7 +15597,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 158,
+        "rank": 163,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -15796,7 +15796,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 82,
+        "rank": 87,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -16172,7 +16172,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 56,
+        "rank": 57,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -16548,7 +16548,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 74,
+        "rank": 79,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -17092,7 +17092,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 90,
+        "rank": 95,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -17264,7 +17264,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 137,
+        "rank": 142,
         "score": 76,
         "money": 27,
         "profile": 26,
@@ -17438,7 +17438,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 153,
+        "rank": 158,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -17600,7 +17600,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 105,
+        "rank": 110,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -17775,7 +17775,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 161,
+        "rank": 166,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -17941,7 +17941,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 177,
+        "rank": 182,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -18112,7 +18112,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 104,
+        "rank": 109,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -18284,7 +18284,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 80,
+        "rank": 85,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -18461,7 +18461,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 129,
+        "rank": 134,
         "score": 76,
         "money": 27,
         "profile": 26,
@@ -18633,7 +18633,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 117,
+        "rank": 122,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -18818,7 +18818,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 91,
+        "rank": 96,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -18980,7 +18980,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 61,
+        "rank": 62,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -19167,7 +19167,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 81,
+        "rank": 86,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -19344,7 +19344,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 166,
+        "rank": 171,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -19526,7 +19526,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 182,
+        "rank": 187,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -19715,7 +19715,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 108,
+        "rank": 113,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -20109,7 +20109,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 96,
+        "rank": 101,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -20301,7 +20301,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 128,
+        "rank": 133,
         "score": 76,
         "money": 27,
         "profile": 26,
@@ -20489,7 +20489,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 86,
+        "rank": 91,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -20658,7 +20658,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 172,
+        "rank": 177,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -20826,7 +20826,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 146,
+        "rank": 151,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -20988,7 +20988,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 190,
+        "rank": 195,
         "score": 65,
         "money": 13,
         "profile": 26,
@@ -21189,7 +21189,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 139,
+        "rank": 144,
         "score": 76,
         "money": 27,
         "profile": 26,
@@ -21354,7 +21354,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 130,
+        "rank": 135,
         "score": 76,
         "money": 27,
         "profile": 26,
@@ -21541,7 +21541,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 188,
+        "rank": 193,
         "score": 65,
         "money": 13,
         "profile": 26,
@@ -21707,7 +21707,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 180,
+        "rank": 185,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -21902,7 +21902,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 89,
+        "rank": 94,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -22078,7 +22078,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 123,
+        "rank": 128,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -22188,7 +22188,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 142,
+        "rank": 147,
         "score": 73,
         "money": 27,
         "profile": 20,
@@ -22330,7 +22330,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 148,
+        "rank": 153,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -22458,7 +22458,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-29T10:00:00.000Z",
       "featured": {
-        "rank": 65,
+        "rank": 66,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -22599,7 +22599,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-29T10:00:00.000Z",
       "featured": {
-        "rank": 75,
+        "rank": 80,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -22749,7 +22749,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-29T10:00:00.000Z",
       "featured": {
-        "rank": 189,
+        "rank": 194,
         "score": 65,
         "money": 13,
         "profile": 26,
@@ -23005,7 +23005,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-29T10:00:00.000Z",
       "featured": {
-        "rank": 52,
+        "rank": 53,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -23142,7 +23142,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-30T10:00:00.000Z",
       "featured": {
-        "rank": 151,
+        "rank": 156,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -23273,7 +23273,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-30T10:00:00.000Z",
       "featured": {
-        "rank": 114,
+        "rank": 119,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -23531,7 +23531,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-30T10:00:00.000Z",
       "featured": {
-        "rank": 186,
+        "rank": 191,
         "score": 65,
         "money": 13,
         "profile": 26,
@@ -23680,7 +23680,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-30T10:00:00.000Z",
       "featured": {
-        "rank": 157,
+        "rank": 162,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -23964,7 +23964,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-31T10:00:00.000Z",
       "featured": {
-        "rank": 66,
+        "rank": 67,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -24115,7 +24115,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-31T10:00:00.000Z",
       "featured": {
-        "rank": 57,
+        "rank": 58,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -24262,7 +24262,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-31T10:00:00.000Z",
       "featured": {
-        "rank": 185,
+        "rank": 190,
         "score": 65,
         "money": 13,
         "profile": 26,
@@ -24399,7 +24399,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-31T10:00:00.000Z",
       "featured": {
-        "rank": 69,
+        "rank": 74,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -24776,7 +24776,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-31T15:00:00.000Z",
       "featured": {
-        "rank": 51,
+        "rank": 52,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -24900,7 +24900,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-31T15:00:00.000Z",
       "featured": {
-        "rank": 50,
+        "rank": 51,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -25017,7 +25017,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-31T15:00:00.000Z",
       "featured": {
-        "rank": 67,
+        "rank": 69,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -25301,7 +25301,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-11-01T10:00:00.000Z",
       "featured": {
-        "rank": 53,
+        "rank": 54,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -25422,7 +25422,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-11-01T10:00:00.000Z",
       "featured": {
-        "rank": 48,
+        "rank": 49,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -25701,7 +25701,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-11-01T10:00:00.000Z",
       "featured": {
-        "rank": 173,
+        "rank": 178,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -25838,7 +25838,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-11-01T10:00:00.000Z",
       "featured": {
-        "rank": 184,
+        "rank": 189,
         "score": 65,
         "money": 13,
         "profile": 26,
@@ -25985,7 +25985,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-11-07T10:00:00.000Z",
       "featured": {
-        "rank": 73,
+        "rank": 78,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -26139,7 +26139,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-11-07T10:00:00.000Z",
       "featured": {
-        "rank": 178,
+        "rank": 183,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -26582,7 +26582,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-11-07T10:00:00.000Z",
       "featured": {
-        "rank": 160,
+        "rank": 165,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -26733,7 +26733,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-11-08T10:00:00.000Z",
       "featured": {
-        "rank": 152,
+        "rank": 157,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -27023,7 +27023,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-11-08T10:00:00.000Z",
       "featured": {
-        "rank": 83,
+        "rank": 88,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -27174,7 +27174,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-11-08T10:00:00.000Z",
       "featured": {
-        "rank": 159,
+        "rank": 164,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -27320,7 +27320,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-11-08T10:00:00.000Z",
       "featured": {
-        "rank": 145,
+        "rank": 150,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -27562,7 +27562,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-11-11T08:07:15.000Z",
       "featured": {
-        "rank": 150,
+        "rank": 155,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -27693,7 +27693,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-11-11T08:07:15.000Z",
       "featured": {
-        "rank": 49,
+        "rank": 50,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -27838,7 +27838,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-11-11T08:07:15.000Z",
       "featured": {
-        "rank": 115,
+        "rank": 120,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -28224,7 +28224,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-11-13T10:00:00.000Z",
       "featured": {
-        "rank": 174,
+        "rank": 179,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -28353,7 +28353,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 72,
+        "rank": 77,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -28487,7 +28487,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 87,
+        "rank": 92,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -28743,7 +28743,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-11-15T10:00:00.000Z",
       "featured": {
-        "rank": 64,
+        "rank": 65,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -28868,7 +28868,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-11-15T10:00:00.000Z",
       "featured": {
-        "rank": 43,
+        "rank": 44,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -28999,7 +28999,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-11-15T10:00:00.000Z",
       "featured": {
-        "rank": 79,
+        "rank": 84,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -29125,7 +29125,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-11-15T10:00:00.000Z",
       "featured": {
-        "rank": 112,
+        "rank": 117,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -29251,7 +29251,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-11-15T10:00:00.000Z",
       "featured": {
-        "rank": 116,
+        "rank": 121,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -29487,7 +29487,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-11-19T06:00:00.000Z",
       "featured": {
-        "rank": 60,
+        "rank": 61,
         "score": 83,
         "money": 27,
         "profile": 26,
@@ -29609,7 +29609,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 144,
+        "rank": 149,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -29840,7 +29840,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T08:00:00.000Z",
       "featured": {
-        "rank": 118,
+        "rank": 123,
         "score": 79,
         "money": 27,
         "profile": 26,
@@ -29962,7 +29962,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-11-23T07:00:00.000Z",
       "featured": {
-        "rank": 175,
+        "rank": 180,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -30089,7 +30089,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 170,
+        "rank": 175,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -30205,7 +30205,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-31T16:00:00.000Z",
       "featured": {
-        "rank": 181,
+        "rank": 186,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -30323,7 +30323,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-25T06:00:00.000Z",
       "featured": {
-        "rank": 171,
+        "rank": 176,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -30448,7 +30448,7 @@
       "claims": [],
       "latest_bot_added_at": "2026-10-24T08:00:00.000Z",
       "featured": {
-        "rank": 179,
+        "rank": 184,
         "score": 69,
         "money": 13,
         "profile": 26,
@@ -30459,6 +30459,590 @@
       },
       "url": "https://moneywithai.net/use-cases/triage-the-shared-inbox/",
       "json_url": "https://moneywithai.net/api/v1/use-cases/triage-the-shared-inbox.json"
+    },
+    {
+      "type": "use-case",
+      "slug": "track-ai-lab-changes-for-your-team",
+      "title": "Track Ai Lab Changes for Your Team",
+      "category": "Research and Ops",
+      "category_slug": "research-and-ops",
+      "money_model": "Save time",
+      "difficulty": "Beginner",
+      "summary": "Get an alert when a major AI lab changes a model, credits or prices, before your budget is hit.",
+      "money_potential": {
+        "tier": 2,
+        "symbol": "$$",
+        "label": "Medium",
+        "basis": "Assumes you follow these topics regularly; the value is less time scanning sources.",
+        "claim_label": "E",
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+      },
+      "how_it_makes_money": [
+        "Fewer surprise cost changes and less time reading lab posts."
+      ],
+      "who_its_for": [
+        "Operators and developers who pay for AI APIs."
+      ],
+      "stack": [
+        {
+          "bot": "ai-official-account-radar",
+          "name": "AI Official Account Radar",
+          "role": "Alerts when a lab ships a model or changes pricing.",
+          "creator": "Chaosai0",
+          "tools": [
+            "Grok"
+          ],
+          "url": "https://moneywithai.net/bots/ai-official-account-radar/",
+          "official_share_url": "https://x.ai/bot/zXPuJgqq5fxIsqCmPHAsF"
+        },
+        {
+          "bot": "market-researcher",
+          "name": "Market Researcher",
+          "role": "Market Researcher: Compares the change with what you already use.",
+          "creator": "Josh Kim",
+          "tools": [
+            "Grok"
+          ],
+          "url": "https://moneywithai.net/bots/market-researcher/",
+          "official_share_url": "https://x.ai/bot/xzkXiUbdYfPd7g30OhLGf"
+        }
+      ],
+      "tools": [
+        "Grok"
+      ],
+      "diagram": {
+        "engine": "Grok Bot",
+        "inputs": [
+          {
+            "label": "Your topics or tools",
+            "tool": null
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "by": "ai-official-account-radar",
+            "name": "AI Official Account Radar",
+            "does": "Collects and checks the news",
+            "tools": [
+              "Grok"
+            ]
+          },
+          {
+            "order": 2,
+            "by": "market-researcher",
+            "name": "Market Researcher",
+            "does": "Adds context for your use",
+            "tools": [
+              "Grok"
+            ]
+          },
+          {
+            "order": 3,
+            "by": "you",
+            "name": "You",
+            "does": "Approves each result",
+            "tools": []
+          }
+        ],
+        "outputs": [
+          "A result you review before it is used"
+        ]
+      },
+      "steps": [
+        "Add the bots from their share links.",
+        "Set the topics or tools to follow.",
+        "Read the first output and check one claim.",
+        "Approve each result before you use it."
+      ],
+      "guardrails": [
+        "Check every claim against its source before you act on it.",
+        "The bots do not publish or spend money on their own."
+      ],
+      "claims": [],
+      "latest_bot_added_at": "2026-11-24T03:30:00.000Z",
+      "featured": {
+        "rank": 71,
+        "score": 83,
+        "money": 27,
+        "profile": 26,
+        "visuals": 20,
+        "difficulty": 10,
+        "override": null,
+        "rules": "https://moneywithai.net/llms.txt"
+      },
+      "url": "https://moneywithai.net/use-cases/track-ai-lab-changes-for-your-team/",
+      "json_url": "https://moneywithai.net/api/v1/use-cases/track-ai-lab-changes-for-your-team.json"
+    },
+    {
+      "type": "use-case",
+      "slug": "start-the-day-with-an-ai-brief",
+      "title": "Start the Day with an Ai Brief",
+      "category": "Research and Ops",
+      "category_slug": "research-and-ops",
+      "money_model": "Save time",
+      "difficulty": "Beginner",
+      "summary": "Read one morning brief on the AI news that touches the tools your team uses.",
+      "money_potential": {
+        "tier": 2,
+        "symbol": "$$",
+        "label": "Medium",
+        "basis": "Assumes you follow these topics regularly; the value is less time scanning sources.",
+        "claim_label": "E",
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+      },
+      "how_it_makes_money": [
+        "Less time scanning feeds, and fewer missed tool changes."
+      ],
+      "who_its_for": [
+        "Team leads who want a daily AI update."
+      ],
+      "stack": [
+        {
+          "bot": "ai-daily-radar",
+          "name": "AI Daily Radar",
+          "role": "Morning brief limited to your tools, with each claim labelled.",
+          "creator": "MichaelGannotti",
+          "tools": [
+            "Grok"
+          ],
+          "url": "https://moneywithai.net/bots/ai-daily-radar/",
+          "official_share_url": "https://x.ai/bot/EZ8RChmm9gSGmK3SXv-3M"
+        },
+        {
+          "bot": "morning-brief",
+          "name": "Morning Brief",
+          "role": "Morning Brief: Puts the brief into one page for the team.",
+          "creator": "Parker Smith",
+          "tools": [
+            "Grok",
+            "X"
+          ],
+          "url": "https://moneywithai.net/bots/morning-brief/",
+          "official_share_url": "https://x.ai/bot/xYZX2g2H3MEIvGgWEDc1T"
+        }
+      ],
+      "tools": [
+        "Grok",
+        "X"
+      ],
+      "diagram": {
+        "engine": "Grok Bot",
+        "inputs": [
+          {
+            "label": "Your topics or tools",
+            "tool": null
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "by": "ai-daily-radar",
+            "name": "AI Daily Radar",
+            "does": "Collects and checks the news",
+            "tools": [
+              "Grok"
+            ]
+          },
+          {
+            "order": 2,
+            "by": "morning-brief",
+            "name": "Morning Brief",
+            "does": "Adds context for your use",
+            "tools": [
+              "Grok",
+              "X"
+            ]
+          },
+          {
+            "order": 3,
+            "by": "you",
+            "name": "You",
+            "does": "Approves each result",
+            "tools": []
+          }
+        ],
+        "outputs": [
+          "A result you review before it is used"
+        ]
+      },
+      "steps": [
+        "Add the bots from their share links.",
+        "Set the topics or tools to follow.",
+        "Read the first output and check one claim.",
+        "Approve each result before you use it."
+      ],
+      "guardrails": [
+        "Check every claim against its source before you act on it.",
+        "The bots do not publish or spend money on their own."
+      ],
+      "claims": [],
+      "latest_bot_added_at": "2026-11-24T03:30:00.000Z",
+      "featured": {
+        "rank": 70,
+        "score": 83,
+        "money": 27,
+        "profile": 26,
+        "visuals": 20,
+        "difficulty": 10,
+        "override": null,
+        "rules": "https://moneywithai.net/llms.txt"
+      },
+      "url": "https://moneywithai.net/use-cases/start-the-day-with-an-ai-brief/",
+      "json_url": "https://moneywithai.net/api/v1/use-cases/start-the-day-with-an-ai-brief.json"
+    },
+    {
+      "type": "use-case",
+      "slug": "follow-ai-funding-for-sales-targets",
+      "title": "Follow Ai Funding for Sales Targets",
+      "category": "Research and Ops",
+      "category_slug": "research-and-ops",
+      "money_model": "Save time",
+      "difficulty": "Beginner",
+      "summary": "Find companies that just raised money or hired leaders, to use as sales targets.",
+      "money_potential": {
+        "tier": 2,
+        "symbol": "$$",
+        "label": "Medium",
+        "basis": "Assumes you follow these topics regularly; the value is less time scanning sources.",
+        "claim_label": "E",
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+      },
+      "how_it_makes_money": [
+        "Better timing for outreach and a shorter target list."
+      ],
+      "who_its_for": [
+        "Sales and partnership teams building target lists."
+      ],
+      "stack": [
+        {
+          "bot": "runtimewire",
+          "name": "RuntimeWire",
+          "role": "Sourced list of funding rounds and leadership moves.",
+          "creator": "merket",
+          "tools": [
+            "Grok"
+          ],
+          "url": "https://moneywithai.net/bots/runtimewire/",
+          "official_share_url": "https://x.ai/bot/k4iwGejDGoy-oT7qohxXb"
+        },
+        {
+          "bot": "account-researcher",
+          "name": "Account Researcher",
+          "role": "Account Researcher: Checks each company before it goes on the list.",
+          "creator": "romanbuildsaas",
+          "tools": [
+            "Gojiberry AI",
+            "LinkedIn"
+          ],
+          "url": "https://moneywithai.net/bots/account-researcher/",
+          "official_share_url": null
+        }
+      ],
+      "tools": [
+        "Grok",
+        "Gojiberry AI",
+        "LinkedIn"
+      ],
+      "diagram": {
+        "engine": "Grok Bot",
+        "inputs": [
+          {
+            "label": "Your topics or tools",
+            "tool": null
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "by": "runtimewire",
+            "name": "RuntimeWire",
+            "does": "Collects and checks the news",
+            "tools": [
+              "Grok"
+            ]
+          },
+          {
+            "order": 2,
+            "by": "account-researcher",
+            "name": "Account Researcher",
+            "does": "Adds context for your use",
+            "tools": [
+              "Gojiberry AI",
+              "LinkedIn"
+            ]
+          },
+          {
+            "order": 3,
+            "by": "you",
+            "name": "You",
+            "does": "Approves each result",
+            "tools": []
+          }
+        ],
+        "outputs": [
+          "A result you review before it is used"
+        ]
+      },
+      "steps": [
+        "Add the bots from their share links.",
+        "Set the topics or tools to follow.",
+        "Read the first output and check one claim.",
+        "Approve each result before you use it."
+      ],
+      "guardrails": [
+        "Check every claim against its source before you act on it.",
+        "The bots do not publish or spend money on their own."
+      ],
+      "claims": [],
+      "latest_bot_added_at": "2026-11-24T03:30:00.000Z",
+      "featured": {
+        "rank": 43,
+        "score": 83,
+        "money": 27,
+        "profile": 26,
+        "visuals": 20,
+        "difficulty": 10,
+        "override": null,
+        "rules": "https://moneywithai.net/llms.txt"
+      },
+      "url": "https://moneywithai.net/use-cases/follow-ai-funding-for-sales-targets/",
+      "json_url": "https://moneywithai.net/api/v1/use-cases/follow-ai-funding-for-sales-targets.json"
+    },
+    {
+      "type": "use-case",
+      "slug": "turn-startup-podcasts-into-founder-notes",
+      "title": "Turn Startup Podcasts into Founder Notes",
+      "category": "Research and Ops",
+      "category_slug": "research-and-ops",
+      "money_model": "Save time",
+      "difficulty": "Beginner",
+      "summary": "Get short notes from each new startup podcast episode, with ideas you can test.",
+      "money_potential": {
+        "tier": 2,
+        "symbol": "$$",
+        "label": "Medium",
+        "basis": "Assumes you follow these topics regularly; the value is less time scanning sources.",
+        "claim_label": "E",
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+      },
+      "how_it_makes_money": [
+        "Faster learning from startup podcasts and ideas to test."
+      ],
+      "who_its_for": [
+        "Founders and early-stage builders."
+      ],
+      "stack": [
+        {
+          "bot": "yc-podcast-notes",
+          "name": "YC Podcast Notes",
+          "role": "Notes on each new episode with startup-idea angles.",
+          "creator": "buuxbt",
+          "tools": [
+            "Grok"
+          ],
+          "url": "https://moneywithai.net/bots/yc-podcast-notes/",
+          "official_share_url": "https://x.ai/bot/0y-dcpVFqFkjibKs2M48D"
+        },
+        {
+          "bot": "article-and-newsletter-writer",
+          "name": "Article and Newsletter Writer",
+          "role": "Article and Newsletter Writer: Turns the notes into a short post you review.",
+          "creator": "farzyness",
+          "tools": [
+            "Google Docs",
+            "Gmail",
+            "Squarespace"
+          ],
+          "url": "https://moneywithai.net/bots/article-and-newsletter-writer/",
+          "official_share_url": null
+        }
+      ],
+      "tools": [
+        "Grok",
+        "Google Docs",
+        "Gmail",
+        "Squarespace"
+      ],
+      "diagram": {
+        "engine": "Grok Bot",
+        "inputs": [
+          {
+            "label": "Your topics or tools",
+            "tool": null
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "by": "yc-podcast-notes",
+            "name": "YC Podcast Notes",
+            "does": "Collects and checks the news",
+            "tools": [
+              "Grok"
+            ]
+          },
+          {
+            "order": 2,
+            "by": "article-and-newsletter-writer",
+            "name": "Article and Newsletter Writer",
+            "does": "Adds context for your use",
+            "tools": [
+              "Google Docs",
+              "Gmail",
+              "Squarespace"
+            ]
+          },
+          {
+            "order": 3,
+            "by": "you",
+            "name": "You",
+            "does": "Approves each result",
+            "tools": []
+          }
+        ],
+        "outputs": [
+          "A result you review before it is used"
+        ]
+      },
+      "steps": [
+        "Add the bots from their share links.",
+        "Set the topics or tools to follow.",
+        "Read the first output and check one claim.",
+        "Approve each result before you use it."
+      ],
+      "guardrails": [
+        "Check every claim against its source before you act on it.",
+        "The bots do not publish or spend money on their own."
+      ],
+      "claims": [],
+      "latest_bot_added_at": "2026-11-24T03:30:00.000Z",
+      "featured": {
+        "rank": 73,
+        "score": 83,
+        "money": 27,
+        "profile": 26,
+        "visuals": 20,
+        "difficulty": 10,
+        "override": null,
+        "rules": "https://moneywithai.net/llms.txt"
+      },
+      "url": "https://moneywithai.net/use-cases/turn-startup-podcasts-into-founder-notes/",
+      "json_url": "https://moneywithai.net/api/v1/use-cases/turn-startup-podcasts-into-founder-notes.json"
+    },
+    {
+      "type": "use-case",
+      "slug": "separate-rumour-from-news-on-musk-companies",
+      "title": "Separate Rumour from News on Musk Companies",
+      "category": "Research and Ops",
+      "category_slug": "research-and-ops",
+      "money_model": "Save time",
+      "difficulty": "Beginner",
+      "summary": "Track news on the Musk-affiliated companies with each claim tagged as rumour or confirmed.",
+      "money_potential": {
+        "tier": 2,
+        "symbol": "$$",
+        "label": "Medium",
+        "basis": "Assumes you follow these topics regularly; the value is less time scanning sources.",
+        "claim_label": "E",
+        "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+      },
+      "how_it_makes_money": [
+        "Fewer decisions made on unconfirmed claims."
+      ],
+      "who_its_for": [
+        "Investors and analysts who follow these companies."
+      ],
+      "stack": [
+        {
+          "bot": "elon-ecosystem-desk",
+          "name": "Elon Ecosystem Desk",
+          "role": "Weekday stories with rumour and confirmed tags.",
+          "creator": "cvey15",
+          "tools": [
+            "Grok"
+          ],
+          "url": "https://moneywithai.net/bots/elon-ecosystem-desk/",
+          "official_share_url": "https://x.ai/bot/j8Znml_qB4leZhOgihZ-p"
+        },
+        {
+          "bot": "market-researcher",
+          "name": "Market Researcher",
+          "role": "Market Researcher: Checks the tagged claims against other sources.",
+          "creator": "Josh Kim",
+          "tools": [
+            "Grok"
+          ],
+          "url": "https://moneywithai.net/bots/market-researcher/",
+          "official_share_url": "https://x.ai/bot/xzkXiUbdYfPd7g30OhLGf"
+        }
+      ],
+      "tools": [
+        "Grok"
+      ],
+      "diagram": {
+        "engine": "Grok Bot",
+        "inputs": [
+          {
+            "label": "Your topics or tools",
+            "tool": null
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "by": "elon-ecosystem-desk",
+            "name": "Elon Ecosystem Desk",
+            "does": "Collects and checks the news",
+            "tools": [
+              "Grok"
+            ]
+          },
+          {
+            "order": 2,
+            "by": "market-researcher",
+            "name": "Market Researcher",
+            "does": "Adds context for your use",
+            "tools": [
+              "Grok"
+            ]
+          },
+          {
+            "order": 3,
+            "by": "you",
+            "name": "You",
+            "does": "Approves each result",
+            "tools": []
+          }
+        ],
+        "outputs": [
+          "A result you review before it is used"
+        ]
+      },
+      "steps": [
+        "Add the bots from their share links.",
+        "Set the topics or tools to follow.",
+        "Read the first output and check one claim.",
+        "Approve each result before you use it."
+      ],
+      "guardrails": [
+        "Check every claim against its source before you act on it.",
+        "The bots do not publish or spend money on their own."
+      ],
+      "claims": [],
+      "latest_bot_added_at": "2026-11-24T03:30:00.000Z",
+      "featured": {
+        "rank": 68,
+        "score": 83,
+        "money": 27,
+        "profile": 26,
+        "visuals": 20,
+        "difficulty": 10,
+        "override": null,
+        "rules": "https://moneywithai.net/llms.txt"
+      },
+      "url": "https://moneywithai.net/use-cases/separate-rumour-from-news-on-musk-companies/",
+      "json_url": "https://moneywithai.net/api/v1/use-cases/separate-rumour-from-news-on-musk-companies.json"
     }
   ]
 }

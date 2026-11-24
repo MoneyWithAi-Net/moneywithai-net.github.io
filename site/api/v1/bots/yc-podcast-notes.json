@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "yc-podcast-notes",
+  "name": "YC Podcast Notes",
+  "category": "Research and Ops",
+  "sub_use_case": "Market notes",
+  "summary": "Flags each new Y Combinator podcast episode and writes short notes for someone building a company.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "buuxbt",
+    "url": "https://x.com/buuxbt"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/buuxbt"
+  },
+  "official_share_url": "https://x.ai/bot/0y-dcpVFqFkjibKs2M48D",
+  "found_via": null,
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-11-24",
+  "url": "https://moneywithai.net/bots/yc-podcast-notes/",
+  "json_url": "https://moneywithai.net/api/v1/bots/yc-podcast-notes.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/turn-startup-podcasts-into-founder-notes/"
+  ],
+  "added_at": "2026-11-24T03:30:00.000Z",
+  "featured": {
+    "rank": 136,
+    "score": 87,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

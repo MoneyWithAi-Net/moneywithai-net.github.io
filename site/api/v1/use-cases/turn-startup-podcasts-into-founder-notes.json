@@ -1,0 +1,121 @@
+{
+  "type": "use-case",
+  "slug": "turn-startup-podcasts-into-founder-notes",
+  "title": "Turn Startup Podcasts into Founder Notes",
+  "category": "Research and Ops",
+  "category_slug": "research-and-ops",
+  "money_model": "Save time",
+  "difficulty": "Beginner",
+  "summary": "Get short notes from each new startup podcast episode, with ideas you can test.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you follow these topics regularly; the value is less time scanning sources.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Faster learning from startup podcasts and ideas to test."
+  ],
+  "who_its_for": [
+    "Founders and early-stage builders."
+  ],
+  "stack": [
+    {
+      "bot": "yc-podcast-notes",
+      "name": "YC Podcast Notes",
+      "role": "Notes on each new episode with startup-idea angles.",
+      "creator": "buuxbt",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/yc-podcast-notes/",
+      "official_share_url": "https://x.ai/bot/0y-dcpVFqFkjibKs2M48D"
+    },
+    {
+      "bot": "article-and-newsletter-writer",
+      "name": "Article and Newsletter Writer",
+      "role": "Article and Newsletter Writer: Turns the notes into a short post you review.",
+      "creator": "farzyness",
+      "tools": [
+        "Google Docs",
+        "Gmail",
+        "Squarespace"
+      ],
+      "url": "https://moneywithai.net/bots/article-and-newsletter-writer/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Grok",
+    "Google Docs",
+    "Gmail",
+    "Squarespace"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Your topics or tools",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "yc-podcast-notes",
+        "name": "YC Podcast Notes",
+        "does": "Collects and checks the news",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "article-and-newsletter-writer",
+        "name": "Article and Newsletter Writer",
+        "does": "Adds context for your use",
+        "tools": [
+          "Google Docs",
+          "Gmail",
+          "Squarespace"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Approves each result",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A result you review before it is used"
+    ]
+  },
+  "steps": [
+    "Add the bots from their share links.",
+    "Set the topics or tools to follow.",
+    "Read the first output and check one claim.",
+    "Approve each result before you use it."
+  ],
+  "guardrails": [
+    "Check every claim against its source before you act on it.",
+    "The bots do not publish or spend money on their own."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-11-24T03:30:00.000Z",
+  "featured": {
+    "rank": 73,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/turn-startup-podcasts-into-founder-notes/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/turn-startup-podcasts-into-founder-notes.json"
+}

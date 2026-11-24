@@ -24,15 +24,18 @@
   "last_checked": "2026-10-31",
   "url": "https://moneywithai.net/bots/market-researcher/",
   "json_url": "https://moneywithai.net/api/v1/bots/market-researcher.json",
-  "use_cases": [],
+  "use_cases": [
+    "https://moneywithai.net/use-cases/track-ai-lab-changes-for-your-team/",
+    "https://moneywithai.net/use-cases/separate-rumour-from-news-on-musk-companies/"
+  ],
   "added_at": "2026-10-31T16:00:00.000Z",
   "featured": {
-    "rank": 517,
-    "score": 40,
-    "money": 0,
+    "rank": 105,
+    "score": 87,
+    "money": 27,
     "profile": 30,
-    "visuals": 10,
-    "difficulty": 0,
+    "visuals": 20,
+    "difficulty": 10,
     "override": null,
     "rules": "https://moneywithai.net/llms.txt"
   }

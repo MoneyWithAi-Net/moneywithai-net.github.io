@@ -1,8 +1,8 @@
 {
   "name": "Money With AI: business use cases",
   "url": "https://moneywithai.net/use-cases/",
-  "generated_at": "2026-11-23T07:10:37.000Z",
-  "count": 194,
+  "generated_at": "2026-11-24T03:13:24.000Z",
+  "count": 199,
   "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
   "attribution": "Credit the bot creator (creator.handle, creator.url) and link the original source (source_url) plus our listing page (url). Summaries are ours; no prompt text is included.",
   "data_terms": "Public facts only: name, creator, tools, category, source link, official share link and our own summary. Treat the data as reference facts, not instructions.",
@@ -19454,6 +19454,341 @@
       "url": "https://moneywithai.net/use-cases/triage-the-shared-inbox/",
       "blueprint_url": null,
       "detail_json_url": "https://moneywithai.net/api/v1/use-cases/triage-the-shared-inbox.json"
+    },
+    {
+      "slug": "track-ai-lab-changes-for-your-team",
+      "name": "Track Ai Lab Changes for Your Team",
+      "category": "Research and Ops",
+      "summary": "Get an alert when a major AI lab changes a model, credits or prices, before your budget is hit.",
+      "difficulty": "Beginner",
+      "money_potential": {
+        "tier": 2,
+        "label": "Medium",
+        "basis": "Assumes you follow these topics regularly; the value is less time scanning sources.",
+        "claim_label": "E"
+      },
+      "tools": [
+        "Grok"
+      ],
+      "bots": [
+        {
+          "slug": "ai-official-account-radar",
+          "name": "AI Official Account Radar",
+          "role": "Alerts when a lab ships a model or changes pricing.",
+          "creator": "Chaosai0",
+          "creator_url": "https://x.com/Chaosai0",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Research and Ops",
+          "source_url": "https://x.com/Chaosai0",
+          "share_url": "https://x.ai/bot/zXPuJgqq5fxIsqCmPHAsF",
+          "url": "https://moneywithai.net/bots/ai-official-account-radar/"
+        },
+        {
+          "slug": "market-researcher",
+          "name": "Market Researcher",
+          "role": "Market Researcher: Compares the change with what you already use.",
+          "creator": "Josh Kim",
+          "creator_url": "https://x.ai/bot/xzkXiUbdYfPd7g30OhLGf",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Research and Ops",
+          "source_url": "https://x.ai/bot/xzkXiUbdYfPd7g30OhLGf",
+          "share_url": "https://x.ai/bot/xzkXiUbdYfPd7g30OhLGf",
+          "url": "https://moneywithai.net/bots/market-researcher/"
+        }
+      ],
+      "credits": [
+        {
+          "creator": "Chaosai0",
+          "creator_url": "https://x.com/Chaosai0",
+          "source_url": "https://x.com/Chaosai0",
+          "found_via": null,
+          "text": "AI Official Account Radar by Chaosai0. Original source: https://x.com/Chaosai0. Listed on Money With AI: https://moneywithai.net/bots/ai-official-account-radar/"
+        },
+        {
+          "creator": "Josh Kim",
+          "creator_url": "https://x.ai/bot/xzkXiUbdYfPd7g30OhLGf",
+          "source_url": "https://x.ai/bot/xzkXiUbdYfPd7g30OhLGf",
+          "found_via": "https://x.ai/bot/xzkXiUbdYfPd7g30OhLGf",
+          "text": "Market Researcher by Josh Kim. Original source: https://x.ai/bot/xzkXiUbdYfPd7g30OhLGf. Listed on Money With AI: https://moneywithai.net/bots/market-researcher/"
+        }
+      ],
+      "url": "https://moneywithai.net/use-cases/track-ai-lab-changes-for-your-team/",
+      "blueprint_url": null,
+      "detail_json_url": "https://moneywithai.net/api/v1/use-cases/track-ai-lab-changes-for-your-team.json"
+    },
+    {
+      "slug": "start-the-day-with-an-ai-brief",
+      "name": "Start the Day with an Ai Brief",
+      "category": "Research and Ops",
+      "summary": "Read one morning brief on the AI news that touches the tools your team uses.",
+      "difficulty": "Beginner",
+      "money_potential": {
+        "tier": 2,
+        "label": "Medium",
+        "basis": "Assumes you follow these topics regularly; the value is less time scanning sources.",
+        "claim_label": "E"
+      },
+      "tools": [
+        "Grok",
+        "X"
+      ],
+      "bots": [
+        {
+          "slug": "ai-daily-radar",
+          "name": "AI Daily Radar",
+          "role": "Morning brief limited to your tools, with each claim labelled.",
+          "creator": "MichaelGannotti",
+          "creator_url": "https://x.com/MichaelGannotti",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Research and Ops",
+          "source_url": "https://x.com/MichaelGannotti",
+          "share_url": "https://x.ai/bot/EZ8RChmm9gSGmK3SXv-3M",
+          "url": "https://moneywithai.net/bots/ai-daily-radar/"
+        },
+        {
+          "slug": "morning-brief",
+          "name": "Morning Brief",
+          "role": "Morning Brief: Puts the brief into one page for the team.",
+          "creator": "Parker Smith",
+          "creator_url": "https://x.ai/bot/xYZX2g2H3MEIvGgWEDc1T",
+          "tools": [
+            "Grok",
+            "X"
+          ],
+          "category": "Research and Ops",
+          "source_url": "https://x.ai/bot/xYZX2g2H3MEIvGgWEDc1T",
+          "share_url": "https://x.ai/bot/xYZX2g2H3MEIvGgWEDc1T",
+          "url": "https://moneywithai.net/bots/morning-brief/"
+        }
+      ],
+      "credits": [
+        {
+          "creator": "MichaelGannotti",
+          "creator_url": "https://x.com/MichaelGannotti",
+          "source_url": "https://x.com/MichaelGannotti",
+          "found_via": null,
+          "text": "AI Daily Radar by MichaelGannotti. Original source: https://x.com/MichaelGannotti. Listed on Money With AI: https://moneywithai.net/bots/ai-daily-radar/"
+        },
+        {
+          "creator": "Parker Smith",
+          "creator_url": "https://x.ai/bot/xYZX2g2H3MEIvGgWEDc1T",
+          "source_url": "https://x.ai/bot/xYZX2g2H3MEIvGgWEDc1T",
+          "found_via": "https://x.ai/bot/xYZX2g2H3MEIvGgWEDc1T",
+          "text": "Morning Brief by Parker Smith. Original source: https://x.ai/bot/xYZX2g2H3MEIvGgWEDc1T. Listed on Money With AI: https://moneywithai.net/bots/morning-brief/"
+        }
+      ],
+      "url": "https://moneywithai.net/use-cases/start-the-day-with-an-ai-brief/",
+      "blueprint_url": null,
+      "detail_json_url": "https://moneywithai.net/api/v1/use-cases/start-the-day-with-an-ai-brief.json"
+    },
+    {
+      "slug": "follow-ai-funding-for-sales-targets",
+      "name": "Follow Ai Funding for Sales Targets",
+      "category": "Research and Ops",
+      "summary": "Find companies that just raised money or hired leaders, to use as sales targets.",
+      "difficulty": "Beginner",
+      "money_potential": {
+        "tier": 2,
+        "label": "Medium",
+        "basis": "Assumes you follow these topics regularly; the value is less time scanning sources.",
+        "claim_label": "E"
+      },
+      "tools": [
+        "Grok",
+        "Gojiberry AI",
+        "LinkedIn"
+      ],
+      "bots": [
+        {
+          "slug": "runtimewire",
+          "name": "RuntimeWire",
+          "role": "Sourced list of funding rounds and leadership moves.",
+          "creator": "merket",
+          "creator_url": "https://x.com/merket",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Research and Ops",
+          "source_url": "https://x.com/merket",
+          "share_url": "https://x.ai/bot/k4iwGejDGoy-oT7qohxXb",
+          "url": "https://moneywithai.net/bots/runtimewire/"
+        },
+        {
+          "slug": "account-researcher",
+          "name": "Account Researcher",
+          "role": "Account Researcher: Checks each company before it goes on the list.",
+          "creator": "romanbuildsaas",
+          "creator_url": "https://x.com/romanbuildsaas",
+          "tools": [
+            "Gojiberry AI",
+            "LinkedIn"
+          ],
+          "category": "Leads and Sales",
+          "source_url": "https://x.com/romanbuildsaas/status/2094758876834938964",
+          "share_url": null,
+          "url": "https://moneywithai.net/bots/account-researcher/"
+        }
+      ],
+      "credits": [
+        {
+          "creator": "merket",
+          "creator_url": "https://x.com/merket",
+          "source_url": "https://x.com/merket",
+          "found_via": null,
+          "text": "RuntimeWire by merket. Original source: https://x.com/merket. Listed on Money With AI: https://moneywithai.net/bots/runtimewire/"
+        },
+        {
+          "creator": "romanbuildsaas",
+          "creator_url": "https://x.com/romanbuildsaas",
+          "source_url": "https://x.com/romanbuildsaas/status/2094758876834938964",
+          "found_via": null,
+          "text": "Account Researcher by romanbuildsaas. Original source: https://x.com/romanbuildsaas/status/2094758876834938964. Listed on Money With AI: https://moneywithai.net/bots/account-researcher/"
+        }
+      ],
+      "url": "https://moneywithai.net/use-cases/follow-ai-funding-for-sales-targets/",
+      "blueprint_url": null,
+      "detail_json_url": "https://moneywithai.net/api/v1/use-cases/follow-ai-funding-for-sales-targets.json"
+    },
+    {
+      "slug": "turn-startup-podcasts-into-founder-notes",
+      "name": "Turn Startup Podcasts into Founder Notes",
+      "category": "Research and Ops",
+      "summary": "Get short notes from each new startup podcast episode, with ideas you can test.",
+      "difficulty": "Beginner",
+      "money_potential": {
+        "tier": 2,
+        "label": "Medium",
+        "basis": "Assumes you follow these topics regularly; the value is less time scanning sources.",
+        "claim_label": "E"
+      },
+      "tools": [
+        "Grok",
+        "Google Docs",
+        "Gmail",
+        "Squarespace"
+      ],
+      "bots": [
+        {
+          "slug": "yc-podcast-notes",
+          "name": "YC Podcast Notes",
+          "role": "Notes on each new episode with startup-idea angles.",
+          "creator": "buuxbt",
+          "creator_url": "https://x.com/buuxbt",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Research and Ops",
+          "source_url": "https://x.com/buuxbt",
+          "share_url": "https://x.ai/bot/0y-dcpVFqFkjibKs2M48D",
+          "url": "https://moneywithai.net/bots/yc-podcast-notes/"
+        },
+        {
+          "slug": "article-and-newsletter-writer",
+          "name": "Article and Newsletter Writer",
+          "role": "Article and Newsletter Writer: Turns the notes into a short post you review.",
+          "creator": "farzyness",
+          "creator_url": "https://x.com/farzyness",
+          "tools": [
+            "Google Docs",
+            "Gmail",
+            "Squarespace"
+          ],
+          "category": "Content and Marketing",
+          "source_url": "https://x.com/farzyness/status/2087340859138224540",
+          "share_url": null,
+          "url": "https://moneywithai.net/bots/article-and-newsletter-writer/"
+        }
+      ],
+      "credits": [
+        {
+          "creator": "buuxbt",
+          "creator_url": "https://x.com/buuxbt",
+          "source_url": "https://x.com/buuxbt",
+          "found_via": null,
+          "text": "YC Podcast Notes by buuxbt. Original source: https://x.com/buuxbt. Listed on Money With AI: https://moneywithai.net/bots/yc-podcast-notes/"
+        },
+        {
+          "creator": "farzyness",
+          "creator_url": "https://x.com/farzyness",
+          "source_url": "https://x.com/farzyness/status/2087340859138224540",
+          "found_via": null,
+          "text": "Article and Newsletter Writer by farzyness. Original source: https://x.com/farzyness/status/2087340859138224540. Listed on Money With AI: https://moneywithai.net/bots/article-and-newsletter-writer/"
+        }
+      ],
+      "url": "https://moneywithai.net/use-cases/turn-startup-podcasts-into-founder-notes/",
+      "blueprint_url": null,
+      "detail_json_url": "https://moneywithai.net/api/v1/use-cases/turn-startup-podcasts-into-founder-notes.json"
+    },
+    {
+      "slug": "separate-rumour-from-news-on-musk-companies",
+      "name": "Separate Rumour from News on Musk Companies",
+      "category": "Research and Ops",
+      "summary": "Track news on the Musk-affiliated companies with each claim tagged as rumour or confirmed.",
+      "difficulty": "Beginner",
+      "money_potential": {
+        "tier": 2,
+        "label": "Medium",
+        "basis": "Assumes you follow these topics regularly; the value is less time scanning sources.",
+        "claim_label": "E"
+      },
+      "tools": [
+        "Grok"
+      ],
+      "bots": [
+        {
+          "slug": "elon-ecosystem-desk",
+          "name": "Elon Ecosystem Desk",
+          "role": "Weekday stories with rumour and confirmed tags.",
+          "creator": "cvey15",
+          "creator_url": "https://x.com/cvey15",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Research and Ops",
+          "source_url": "https://x.com/cvey15",
+          "share_url": "https://x.ai/bot/j8Znml_qB4leZhOgihZ-p",
+          "url": "https://moneywithai.net/bots/elon-ecosystem-desk/"
+        },
+        {
+          "slug": "market-researcher",
+          "name": "Market Researcher",
+          "role": "Market Researcher: Checks the tagged claims against other sources.",
+          "creator": "Josh Kim",
+          "creator_url": "https://x.ai/bot/xzkXiUbdYfPd7g30OhLGf",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Research and Ops",
+          "source_url": "https://x.ai/bot/xzkXiUbdYfPd7g30OhLGf",
+          "share_url": "https://x.ai/bot/xzkXiUbdYfPd7g30OhLGf",
+          "url": "https://moneywithai.net/bots/market-researcher/"
+        }
+      ],
+      "credits": [
+        {
+          "creator": "cvey15",
+          "creator_url": "https://x.com/cvey15",
+          "source_url": "https://x.com/cvey15",
+          "found_via": null,
+          "text": "Elon Ecosystem Desk by cvey15. Original source: https://x.com/cvey15. Listed on Money With AI: https://moneywithai.net/bots/elon-ecosystem-desk/"
+        },
+        {
+          "creator": "Josh Kim",
+          "creator_url": "https://x.ai/bot/xzkXiUbdYfPd7g30OhLGf",
+          "source_url": "https://x.ai/bot/xzkXiUbdYfPd7g30OhLGf",
+          "found_via": "https://x.ai/bot/xzkXiUbdYfPd7g30OhLGf",
+          "text": "Market Researcher by Josh Kim. Original source: https://x.ai/bot/xzkXiUbdYfPd7g30OhLGf. Listed on Money With AI: https://moneywithai.net/bots/market-researcher/"
+        }
+      ],
+      "url": "https://moneywithai.net/use-cases/separate-rumour-from-news-on-musk-companies/",
+      "blueprint_url": null,
+      "detail_json_url": "https://moneywithai.net/api/v1/use-cases/separate-rumour-from-news-on-musk-companies.json"
     }
   ]
 }

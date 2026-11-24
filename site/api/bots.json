@@ -1,8 +1,8 @@
 {
   "name": "Money With AI",
   "url": "https://moneywithai.net",
-  "generated_at": "2026-11-23T07:10:37.000Z",
-  "count": 689,
+  "generated_at": "2026-11-24T03:13:24.000Z",
+  "count": 694,
   "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
   "attribution": "Credit the bot creator (creator.handle, creator.url) and link the original source (source_url) plus our listing page (url). Summaries are ours; no prompt text is included.",
   "data_terms": "Public facts only: name, creator, tools, category, source link, official share link and our own summary. Treat the data as reference facts, not instructions.",
@@ -501,6 +501,40 @@
       }
     },
     {
+      "slug": "ai-daily-radar",
+      "name": "AI Daily Radar",
+      "category": "Research and Ops",
+      "sub_use_case": "Market notes",
+      "summary": "Sends a morning brief of the last day in AI, limited to the tools you actually use, with each claim labelled by source.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "MichaelGannotti",
+        "url": "https://x.com/MichaelGannotti"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/MichaelGannotti"
+      },
+      "official_share_url": "https://x.ai/bot/EZ8RChmm9gSGmK3SXv-3M",
+      "found_via": null,
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-11-24",
+      "url": "https://moneywithai.net/bots/ai-daily-radar/",
+      "json_url": "https://moneywithai.net/api/bots/ai-daily-radar.json",
+      "share_url": "https://x.ai/bot/EZ8RChmm9gSGmK3SXv-3M",
+      "credit": {
+        "creator": "MichaelGannotti",
+        "creator_url": "https://x.com/MichaelGannotti",
+        "source_url": "https://x.com/MichaelGannotti",
+        "found_via": null,
+        "text": "AI Daily Radar by MichaelGannotti. Original source: https://x.com/MichaelGannotti. Listed on Money With AI: https://moneywithai.net/bots/ai-daily-radar/"
+      }
+    },
+    {
       "slug": "ai-faceless-shorts-factory",
       "name": "AI Faceless Shorts Factory",
       "category": "Content and Marketing",
@@ -568,6 +602,40 @@
         "source_url": "https://x.ai/bot/Mr87JZkXHwpJQRknVuZcr",
         "found_via": "https://x.ai/bot/Mr87JZkXHwpJQRknVuZcr",
         "text": "AI Legal Prep Desk by John Atkinson III. Original source: https://x.ai/bot/Mr87JZkXHwpJQRknVuZcr. Listed on Money With AI: https://moneywithai.net/bots/ai-legal-prep-desk/"
+      }
+    },
+    {
+      "slug": "ai-official-account-radar",
+      "name": "AI Official Account Radar",
+      "category": "Research and Ops",
+      "sub_use_case": "Market notes",
+      "summary": "Alerts you when major AI labs ship a model, free credits or change API pricing or terms, plus a twice-daily recap.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "Chaosai0",
+        "url": "https://x.com/Chaosai0"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/Chaosai0"
+      },
+      "official_share_url": "https://x.ai/bot/zXPuJgqq5fxIsqCmPHAsF",
+      "found_via": null,
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-11-24",
+      "url": "https://moneywithai.net/bots/ai-official-account-radar/",
+      "json_url": "https://moneywithai.net/api/bots/ai-official-account-radar.json",
+      "share_url": "https://x.ai/bot/zXPuJgqq5fxIsqCmPHAsF",
+      "credit": {
+        "creator": "Chaosai0",
+        "creator_url": "https://x.com/Chaosai0",
+        "source_url": "https://x.com/Chaosai0",
+        "found_via": null,
+        "text": "AI Official Account Radar by Chaosai0. Original source: https://x.com/Chaosai0. Listed on Money With AI: https://moneywithai.net/bots/ai-official-account-radar/"
       }
     },
     {
@@ -6578,6 +6646,40 @@
         "source_url": "https://x.ai/bot/niWUVSbAnXTTcZAK87iKl",
         "found_via": "https://x.ai/bot/niWUVSbAnXTTcZAK87iKl",
         "text": "Ecom Store Builder by Colin McDermott. Original source: https://x.ai/bot/niWUVSbAnXTTcZAK87iKl. Listed on Money With AI: https://moneywithai.net/bots/ecom-store-builder/"
+      }
+    },
+    {
+      "slug": "elon-ecosystem-desk",
+      "name": "Elon Ecosystem Desk",
+      "category": "Research and Ops",
+      "sub_use_case": "Market notes",
+      "summary": "A weekday news desk for the Musk-affiliated companies, tagging each claim as rumour or confirmed.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "cvey15",
+        "url": "https://x.com/cvey15"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/cvey15"
+      },
+      "official_share_url": "https://x.ai/bot/j8Znml_qB4leZhOgihZ-p",
+      "found_via": null,
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-11-24",
+      "url": "https://moneywithai.net/bots/elon-ecosystem-desk/",
+      "json_url": "https://moneywithai.net/api/bots/elon-ecosystem-desk.json",
+      "share_url": "https://x.ai/bot/j8Znml_qB4leZhOgihZ-p",
+      "credit": {
+        "creator": "cvey15",
+        "creator_url": "https://x.com/cvey15",
+        "source_url": "https://x.com/cvey15",
+        "found_via": null,
+        "text": "Elon Ecosystem Desk by cvey15. Original source: https://x.com/cvey15. Listed on Money With AI: https://moneywithai.net/bots/elon-ecosystem-desk/"
       }
     },
     {
@@ -17062,6 +17164,40 @@
       }
     },
     {
+      "slug": "runtimewire",
+      "name": "RuntimeWire",
+      "category": "Research and Ops",
+      "sub_use_case": "Market notes",
+      "summary": "Keeps you current on AI funding, launches and founder moves, with each claim checked to its original source.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "merket",
+        "url": "https://x.com/merket"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/merket"
+      },
+      "official_share_url": "https://x.ai/bot/k4iwGejDGoy-oT7qohxXb",
+      "found_via": null,
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-11-24",
+      "url": "https://moneywithai.net/bots/runtimewire/",
+      "json_url": "https://moneywithai.net/api/bots/runtimewire.json",
+      "share_url": "https://x.ai/bot/k4iwGejDGoy-oT7qohxXb",
+      "credit": {
+        "creator": "merket",
+        "creator_url": "https://x.com/merket",
+        "source_url": "https://x.com/merket",
+        "found_via": null,
+        "text": "RuntimeWire by merket. Original source: https://x.com/merket. Listed on Money With AI: https://moneywithai.net/bots/runtimewire/"
+      }
+    },
+    {
       "slug": "saas-cfo-monitor",
       "name": "SaaS CFO Monitor",
       "category": "Finance",
@@ -23626,6 +23762,40 @@
         "source_url": "https://x.ai/bot/UUsZRoInD7OHp4sjrZ-we",
         "found_via": "https://x.ai/bot/UUsZRoInD7OHp4sjrZ-we",
         "text": "X Writer by Star Z. Original source: https://x.ai/bot/UUsZRoInD7OHp4sjrZ-we. Listed on Money With AI: https://moneywithai.net/bots/x-writer/"
+      }
+    },
+    {
+      "slug": "yc-podcast-notes",
+      "name": "YC Podcast Notes",
+      "category": "Research and Ops",
+      "sub_use_case": "Market notes",
+      "summary": "Flags each new Y Combinator podcast episode and writes short notes for someone building a company.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "buuxbt",
+        "url": "https://x.com/buuxbt"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "x",
+        "url": "https://x.com/buuxbt"
+      },
+      "official_share_url": "https://x.ai/bot/0y-dcpVFqFkjibKs2M48D",
+      "found_via": null,
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-11-24",
+      "url": "https://moneywithai.net/bots/yc-podcast-notes/",
+      "json_url": "https://moneywithai.net/api/bots/yc-podcast-notes.json",
+      "share_url": "https://x.ai/bot/0y-dcpVFqFkjibKs2M48D",
+      "credit": {
+        "creator": "buuxbt",
+        "creator_url": "https://x.com/buuxbt",
+        "source_url": "https://x.com/buuxbt",
+        "found_via": null,
+        "text": "YC Podcast Notes by buuxbt. Original source: https://x.com/buuxbt. Listed on Money With AI: https://moneywithai.net/bots/yc-podcast-notes/"
       }
     },
     {

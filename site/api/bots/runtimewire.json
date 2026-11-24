@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "runtimewire",
+    "name": "RuntimeWire",
+    "category": "Research and Ops",
+    "sub_use_case": "Market notes",
+    "summary": "Keeps you current on AI funding, launches and founder moves, with each claim checked to its original source.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "merket",
+      "url": "https://x.com/merket"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "x",
+      "url": "https://x.com/merket"
+    },
+    "official_share_url": "https://x.ai/bot/k4iwGejDGoy-oT7qohxXb",
+    "found_via": null,
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-11-24",
+    "url": "https://moneywithai.net/bots/runtimewire/",
+    "json_url": "https://moneywithai.net/api/bots/runtimewire.json"
+  }
+}

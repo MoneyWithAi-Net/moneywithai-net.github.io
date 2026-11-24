@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "runtimewire",
+  "name": "RuntimeWire",
+  "category": "Research and Ops",
+  "sub_use_case": "Market notes",
+  "summary": "Keeps you current on AI funding, launches and founder moves, with each claim checked to its original source.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "merket",
+    "url": "https://x.com/merket"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "x",
+    "url": "https://x.com/merket"
+  },
+  "official_share_url": "https://x.ai/bot/k4iwGejDGoy-oT7qohxXb",
+  "found_via": null,
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-11-24",
+  "url": "https://moneywithai.net/bots/runtimewire/",
+  "json_url": "https://moneywithai.net/api/v1/bots/runtimewire.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/follow-ai-funding-for-sales-targets/"
+  ],
+  "added_at": "2026-11-24T03:30:00.000Z",
+  "featured": {
+    "rank": 123,
+    "score": 87,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}
