@@ -1,0 +1,119 @@
+{
+  "type": "use-case",
+  "slug": "check-the-workbook-before-it-goes-out",
+  "title": "Check a Workbook Before It Goes Out",
+  "category": "Research and Ops",
+  "category_slug": "research-and-ops",
+  "money_model": "Save time",
+  "difficulty": "Beginner",
+  "summary": "Test a spreadsheet against your pass bar and see the blockers first, before a client or manager opens it.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you send workbooks to others; the value is fewer errors reaching them.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Fewer errors reach clients or managers.",
+    "Reviewers spend time on real problems, not hunting for them."
+  ],
+  "who_its_for": [
+    "Finance and operations staff who send workbooks out."
+  ],
+  "stack": [
+    {
+      "bot": "gridlock",
+      "name": "Gridlock",
+      "role": "Tests the workbook against your pass bar and ranks each defect.",
+      "creator": "cu30rry_",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/gridlock/",
+      "official_share_url": "https://x.ai/bot/wLGRmIN1v-L8Hlz_BWQd2"
+    },
+    {
+      "bot": "sales-pipeline-analyst",
+      "name": "Sales Pipeline Analyst",
+      "role": "Checks pipeline figures and flags numbers that do not add up.",
+      "creator": "romanbuildsaas",
+      "tools": [
+        "Gojiberry AI",
+        "LinkedIn"
+      ],
+      "url": "https://moneywithai.net/bots/sales-pipeline-analyst/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Grok",
+    "Gojiberry AI",
+    "LinkedIn"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Your workbook and pass bar",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "gridlock",
+        "name": "Gridlock",
+        "does": "Ranks each defect by severity",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "sales-pipeline-analyst",
+        "name": "Sales Pipeline Analyst",
+        "does": "Flags figures that do not add up",
+        "tools": [
+          "Gojiberry AI",
+          "LinkedIn"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Approves each result",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A result you review before it is used"
+    ]
+  },
+  "steps": [
+    "Write the pass bar in a few plain lines.",
+    "Run Gridlock on a copy of the workbook.",
+    "Fix the blockers first, then the major problems.",
+    "Run the pipeline check on the sales figures and review the flags."
+  ],
+  "guardrails": [
+    "Check every blocker by hand before you change the file.",
+    "The bots report only. The file stays as it was."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-11-25T10:00:00.000Z",
+  "featured": {
+    "rank": 40,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/check-the-workbook-before-it-goes-out/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/check-the-workbook-before-it-goes-out.json"
+}

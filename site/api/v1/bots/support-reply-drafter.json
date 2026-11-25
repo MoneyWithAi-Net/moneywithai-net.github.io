@@ -26,11 +26,12 @@
   "json_url": "https://moneywithai.net/api/v1/bots/support-reply-drafter.json",
   "use_cases": [
     "https://moneywithai.net/use-cases/multilingual-support-desk/",
-    "https://moneywithai.net/use-cases/churn-save-program/"
+    "https://moneywithai.net/use-cases/churn-save-program/",
+    "https://moneywithai.net/use-cases/answer-line-customers-with-approval/"
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 173,
+    "rank": 179,
     "score": 83,
     "money": 27,
     "profile": 26,

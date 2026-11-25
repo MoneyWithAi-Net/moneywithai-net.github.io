@@ -1,8 +1,8 @@
 {
   "name": "Money With AI: business use cases",
   "url": "https://moneywithai.net/use-cases/",
-  "generated_at": "2026-11-24T03:13:24.000Z",
-  "count": 199,
+  "generated_at": "2026-11-25T10:06:10.000Z",
+  "count": 204,
   "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
   "attribution": "Credit the bot creator (creator.handle, creator.url) and link the original source (source_url) plus our listing page (url). Summaries are ours; no prompt text is included.",
   "data_terms": "Public facts only: name, creator, tools, category, source link, official share link and our own summary. Treat the data as reference facts, not instructions.",
@@ -19789,6 +19789,343 @@
       "url": "https://moneywithai.net/use-cases/separate-rumour-from-news-on-musk-companies/",
       "blueprint_url": null,
       "detail_json_url": "https://moneywithai.net/api/v1/use-cases/separate-rumour-from-news-on-musk-companies.json"
+    },
+    {
+      "slug": "answer-line-customers-with-approval",
+      "name": "Answer LINE Customers with Your Approval",
+      "category": "Customer Support",
+      "summary": "Keep up with customer messages on a LINE account, with every reply drafted and checked by you before it goes out.",
+      "difficulty": "Beginner",
+      "money_potential": {
+        "tier": 2,
+        "label": "Medium",
+        "basis": "Assumes you take customer questions on LINE; the value is fewer messages left waiting.",
+        "claim_label": "E"
+      },
+      "tools": [
+        "Grok",
+        "Gmail"
+      ],
+      "bots": [
+        {
+          "slug": "desk-for-line",
+          "name": "Desk for LINE",
+          "role": "Summarizes each LINE message and drafts the reply for your OK.",
+          "creator": "kevin_ai_cp",
+          "creator_url": "https://x.com/kevin_ai_cp",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Customer Support",
+          "source_url": "https://x.ai/bot/rcz99db1XPeP3Ldmc_887",
+          "share_url": "https://x.ai/bot/rcz99db1XPeP3Ldmc_887",
+          "url": "https://moneywithai.net/bots/desk-for-line/"
+        },
+        {
+          "slug": "support-reply-drafter",
+          "name": "Support Reply Drafter",
+          "role": "Drafts a longer answer from your own help notes when a question needs detail.",
+          "creator": "lennysan",
+          "creator_url": "https://x.com/lennysan",
+          "tools": [
+            "Gmail"
+          ],
+          "category": "Customer Support",
+          "source_url": "https://x.com/lennysan/status/2087241423792087518",
+          "share_url": null,
+          "url": "https://moneywithai.net/bots/support-reply-drafter/"
+        }
+      ],
+      "credits": [
+        {
+          "creator": "kevin_ai_cp",
+          "creator_url": "https://x.com/kevin_ai_cp",
+          "source_url": "https://x.ai/bot/rcz99db1XPeP3Ldmc_887",
+          "found_via": null,
+          "text": "Desk for LINE by kevin_ai_cp. Original source: https://x.ai/bot/rcz99db1XPeP3Ldmc_887. Listed on Money With AI: https://moneywithai.net/bots/desk-for-line/"
+        },
+        {
+          "creator": "lennysan",
+          "creator_url": "https://x.com/lennysan",
+          "source_url": "https://x.com/lennysan/status/2087241423792087518",
+          "found_via": null,
+          "text": "Support Reply Drafter by lennysan. Original source: https://x.com/lennysan/status/2087241423792087518. Listed on Money With AI: https://moneywithai.net/bots/support-reply-drafter/"
+        }
+      ],
+      "url": "https://moneywithai.net/use-cases/answer-line-customers-with-approval/",
+      "blueprint_url": null,
+      "detail_json_url": "https://moneywithai.net/api/v1/use-cases/answer-line-customers-with-approval.json"
+    },
+    {
+      "slug": "win-back-quiet-sales-leads",
+      "name": "Win Back Quiet Sales Leads",
+      "category": "Leads and Sales",
+      "summary": "Find the leads and threads that stopped replying, and get a follow-up drafted for each one you choose to send.",
+      "difficulty": "Beginner",
+      "money_potential": {
+        "tier": 2,
+        "label": "Medium",
+        "basis": "Assumes you have sales threads that go quiet; the value is fewer open loops left unanswered.",
+        "claim_label": "E"
+      },
+      "tools": [
+        "Grok",
+        "Gmail",
+        "Slack"
+      ],
+      "bots": [
+        {
+          "slug": "rematch",
+          "name": "Rematch",
+          "role": "Finds quiet threads and drafts a follow-up for each one.",
+          "creator": "0xarthurzs",
+          "creator_url": "https://x.com/0xarthurzs",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Leads and Sales",
+          "source_url": "https://x.ai/bot/_abcO9nWji9H9yX1r9XGV",
+          "share_url": "https://x.ai/bot/_abcO9nWji9H9yX1r9XGV",
+          "url": "https://moneywithai.net/bots/rematch/"
+        },
+        {
+          "slug": "lead-desk",
+          "name": "Lead Desk",
+          "role": "Sorts new leads so quiet ones are not lost in the list.",
+          "creator": "Calix",
+          "creator_url": "https://x.com/CaliLumberJack",
+          "tools": [
+            "Grok",
+            "Gmail",
+            "Slack"
+          ],
+          "category": "Leads and Sales",
+          "source_url": "https://x.com/CaliLumberJack/status/2117515872596000998",
+          "share_url": "https://x.ai/bot/zqCY7u_VOCpgNSzOwpfNz",
+          "url": "https://moneywithai.net/bots/lead-desk/"
+        }
+      ],
+      "credits": [
+        {
+          "creator": "0xarthurzs",
+          "creator_url": "https://x.com/0xarthurzs",
+          "source_url": "https://x.ai/bot/_abcO9nWji9H9yX1r9XGV",
+          "found_via": null,
+          "text": "Rematch by 0xarthurzs. Original source: https://x.ai/bot/_abcO9nWji9H9yX1r9XGV. Listed on Money With AI: https://moneywithai.net/bots/rematch/"
+        },
+        {
+          "creator": "Calix",
+          "creator_url": "https://x.com/CaliLumberJack",
+          "source_url": "https://x.com/CaliLumberJack/status/2117515872596000998",
+          "found_via": "https://x.com/CaliLumberJack/status/2117515872596000998",
+          "text": "Lead Desk by Calix. Original source: https://x.com/CaliLumberJack/status/2117515872596000998. Listed on Money With AI: https://moneywithai.net/bots/lead-desk/"
+        }
+      ],
+      "url": "https://moneywithai.net/use-cases/win-back-quiet-sales-leads/",
+      "blueprint_url": null,
+      "detail_json_url": "https://moneywithai.net/api/v1/use-cases/win-back-quiet-sales-leads.json"
+    },
+    {
+      "slug": "check-the-workbook-before-it-goes-out",
+      "name": "Check a Workbook Before It Goes Out",
+      "category": "Research and Ops",
+      "summary": "Test a spreadsheet against your pass bar and see the blockers first, before a client or manager opens it.",
+      "difficulty": "Beginner",
+      "money_potential": {
+        "tier": 2,
+        "label": "Medium",
+        "basis": "Assumes you send workbooks to others; the value is fewer errors reaching them.",
+        "claim_label": "E"
+      },
+      "tools": [
+        "Grok",
+        "Gojiberry AI",
+        "LinkedIn"
+      ],
+      "bots": [
+        {
+          "slug": "gridlock",
+          "name": "Gridlock",
+          "role": "Tests the workbook against your pass bar and ranks each defect.",
+          "creator": "cu30rry_",
+          "creator_url": "https://x.com/cu30rry_",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Research and Ops",
+          "source_url": "https://x.ai/bot/wLGRmIN1v-L8Hlz_BWQd2",
+          "share_url": "https://x.ai/bot/wLGRmIN1v-L8Hlz_BWQd2",
+          "url": "https://moneywithai.net/bots/gridlock/"
+        },
+        {
+          "slug": "sales-pipeline-analyst",
+          "name": "Sales Pipeline Analyst",
+          "role": "Checks pipeline figures and flags numbers that do not add up.",
+          "creator": "romanbuildsaas",
+          "creator_url": "https://x.com/romanbuildsaas",
+          "tools": [
+            "Gojiberry AI",
+            "LinkedIn"
+          ],
+          "category": "Leads and Sales",
+          "source_url": "https://x.com/romanbuildsaas/status/2094758876834938964",
+          "share_url": null,
+          "url": "https://moneywithai.net/bots/sales-pipeline-analyst/"
+        }
+      ],
+      "credits": [
+        {
+          "creator": "cu30rry_",
+          "creator_url": "https://x.com/cu30rry_",
+          "source_url": "https://x.ai/bot/wLGRmIN1v-L8Hlz_BWQd2",
+          "found_via": null,
+          "text": "Gridlock by cu30rry_. Original source: https://x.ai/bot/wLGRmIN1v-L8Hlz_BWQd2. Listed on Money With AI: https://moneywithai.net/bots/gridlock/"
+        },
+        {
+          "creator": "romanbuildsaas",
+          "creator_url": "https://x.com/romanbuildsaas",
+          "source_url": "https://x.com/romanbuildsaas/status/2094758876834938964",
+          "found_via": null,
+          "text": "Sales Pipeline Analyst by romanbuildsaas. Original source: https://x.com/romanbuildsaas/status/2094758876834938964. Listed on Money With AI: https://moneywithai.net/bots/sales-pipeline-analyst/"
+        }
+      ],
+      "url": "https://moneywithai.net/use-cases/check-the-workbook-before-it-goes-out/",
+      "blueprint_url": null,
+      "detail_json_url": "https://moneywithai.net/api/v1/use-cases/check-the-workbook-before-it-goes-out.json"
+    },
+    {
+      "slug": "find-sponsors-for-your-channel",
+      "name": "Find Sponsors for Your Channel",
+      "category": "Leads and Sales",
+      "summary": "Build a list of brands that already sponsor creators like you, then draft a pitch and a negotiation plan for each reply.",
+      "difficulty": "Beginner",
+      "money_potential": {
+        "tier": 2,
+        "label": "Medium",
+        "basis": "Assumes you take or seek sponsors; the value is a shorter target list and faster replies.",
+        "claim_label": "E"
+      },
+      "tools": [
+        "Grok",
+        "Gmail"
+      ],
+      "bots": [
+        {
+          "slug": "sponsor-scout",
+          "name": "Sponsor Scout",
+          "role": "Finds brands already sponsoring creators in your space and drafts a pitch for each.",
+          "creator": "MichaelHeckert",
+          "creator_url": "https://x.com/MichaelHeckert",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Leads and Sales",
+          "source_url": "https://x.ai/bot/HK7rbeEuMNDD3_RbYyvx6",
+          "share_url": "https://x.ai/bot/HK7rbeEuMNDD3_RbYyvx6",
+          "url": "https://moneywithai.net/bots/sponsor-scout/"
+        },
+        {
+          "slug": "sponsorship-negotiator",
+          "name": "Sponsorship Negotiator",
+          "role": "Helps you prepare replies and terms when a brand answers.",
+          "creator": "AlexFinn",
+          "creator_url": "https://x.com/AlexFinn",
+          "tools": [
+            "Gmail"
+          ],
+          "category": "Leads and Sales",
+          "source_url": "https://x.com/AlexFinn/status/2090939211159650633",
+          "share_url": null,
+          "url": "https://moneywithai.net/bots/sponsorship-negotiator/"
+        }
+      ],
+      "credits": [
+        {
+          "creator": "MichaelHeckert",
+          "creator_url": "https://x.com/MichaelHeckert",
+          "source_url": "https://x.ai/bot/HK7rbeEuMNDD3_RbYyvx6",
+          "found_via": null,
+          "text": "Sponsor Scout by MichaelHeckert. Original source: https://x.ai/bot/HK7rbeEuMNDD3_RbYyvx6. Listed on Money With AI: https://moneywithai.net/bots/sponsor-scout/"
+        },
+        {
+          "creator": "AlexFinn",
+          "creator_url": "https://x.com/AlexFinn",
+          "source_url": "https://x.com/AlexFinn/status/2090939211159650633",
+          "found_via": null,
+          "text": "Sponsorship Negotiator by AlexFinn. Original source: https://x.com/AlexFinn/status/2090939211159650633. Listed on Money With AI: https://moneywithai.net/bots/sponsorship-negotiator/"
+        }
+      ],
+      "url": "https://moneywithai.net/use-cases/find-sponsors-for-your-channel/",
+      "blueprint_url": null,
+      "detail_json_url": "https://moneywithai.net/api/v1/use-cases/find-sponsors-for-your-channel.json"
+    },
+    {
+      "slug": "turn-your-app-into-promo-cuts",
+      "name": "Turn Your App into Promo Cuts",
+      "category": "Content and Marketing",
+      "summary": "Cut your app or site into short vertical promos, then test which opening hook your audience responds to.",
+      "difficulty": "Beginner",
+      "money_potential": {
+        "tier": 2,
+        "label": "Medium",
+        "basis": "Assumes you run short promos on social platforms; the value is hooks tested before spend.",
+        "claim_label": "E"
+      },
+      "tools": [
+        "Grok",
+        "Gmail",
+        "Google Sheets"
+      ],
+      "bots": [
+        {
+          "slug": "promo-studio",
+          "name": "Promo Studio",
+          "role": "Cuts the app or site into vertical promos with several opening hooks.",
+          "creator": "iamjeevanvj",
+          "creator_url": "https://x.com/iamjeevanvj",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Content and Marketing",
+          "source_url": "https://x.ai/bot/ybXMrluMLTr7EU0ohttgX",
+          "share_url": "https://x.ai/bot/ybXMrluMLTr7EU0ohttgX",
+          "url": "https://moneywithai.net/bots/promo-studio/"
+        },
+        {
+          "slug": "voc-ad-angle-generator",
+          "name": "VOC Ad Angle Generator",
+          "role": "Suggests ad angles from customer language to test against the hooks.",
+          "creator": "Community submission",
+          "creator_url": null,
+          "tools": [
+            "Gmail",
+            "Google Sheets"
+          ],
+          "category": "Content and Marketing",
+          "source_url": "https://moneywithai.net/bots/voc-ad-angle-generator/",
+          "share_url": null,
+          "url": "https://moneywithai.net/bots/voc-ad-angle-generator/"
+        }
+      ],
+      "credits": [
+        {
+          "creator": "iamjeevanvj",
+          "creator_url": "https://x.com/iamjeevanvj",
+          "source_url": "https://x.ai/bot/ybXMrluMLTr7EU0ohttgX",
+          "found_via": null,
+          "text": "Promo Studio by iamjeevanvj. Original source: https://x.ai/bot/ybXMrluMLTr7EU0ohttgX. Listed on Money With AI: https://moneywithai.net/bots/promo-studio/"
+        },
+        {
+          "creator": "Community submission",
+          "creator_url": null,
+          "source_url": "https://moneywithai.net/bots/voc-ad-angle-generator/",
+          "found_via": null,
+          "text": "VOC Ad Angle Generator by Community submission. Listed on Money With AI: https://moneywithai.net/bots/voc-ad-angle-generator/"
+        }
+      ],
+      "url": "https://moneywithai.net/use-cases/turn-your-app-into-promo-cuts/",
+      "blueprint_url": null,
+      "detail_json_url": "https://moneywithai.net/api/v1/use-cases/turn-your-app-into-promo-cuts.json"
     }
   ]
 }

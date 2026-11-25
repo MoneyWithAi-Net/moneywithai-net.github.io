@@ -1,0 +1,119 @@
+{
+  "type": "use-case",
+  "slug": "turn-your-app-into-promo-cuts",
+  "title": "Turn Your App into Promo Cuts",
+  "category": "Content and Marketing",
+  "category_slug": "content-and-marketing",
+  "money_model": "Grow sales",
+  "difficulty": "Beginner",
+  "summary": "Cut your app or site into short vertical promos, then test which opening hook your audience responds to.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you run short promos on social platforms; the value is hooks tested before spend.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Short promo videos without a video editor on the team.",
+    "Hooks tested before you spend on paid placement."
+  ],
+  "who_its_for": [
+    "App and site owners who need short promos for social platforms."
+  ],
+  "stack": [
+    {
+      "bot": "promo-studio",
+      "name": "Promo Studio",
+      "role": "Cuts the app or site into vertical promos with several opening hooks.",
+      "creator": "iamjeevanvj",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/promo-studio/",
+      "official_share_url": "https://x.ai/bot/ybXMrluMLTr7EU0ohttgX"
+    },
+    {
+      "bot": "voc-ad-angle-generator",
+      "name": "VOC Ad Angle Generator",
+      "role": "Suggests ad angles from customer language to test against the hooks.",
+      "creator": "Community submission",
+      "tools": [
+        "Gmail",
+        "Google Sheets"
+      ],
+      "url": "https://moneywithai.net/bots/voc-ad-angle-generator/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Grok",
+    "Gmail",
+    "Google Sheets"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Your app or site link",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "promo-studio",
+        "name": "Promo Studio",
+        "does": "Cuts vertical promos with hooks",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "voc-ad-angle-generator",
+        "name": "VOC Ad Angle Generator",
+        "does": "Suggests ad angles to test",
+        "tools": [
+          "Gmail",
+          "Google Sheets"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Approves each result",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A result you review before it is used"
+    ]
+  },
+  "steps": [
+    "Give Promo Studio your app or site link and the claims you can prove.",
+    "Pick the cut you want to test.",
+    "Pair the hooks with the angles from the generator.",
+    "Post two or three hooks and compare the results."
+  ],
+  "guardrails": [
+    "Check every claim in a cut against what the product does.",
+    "Use only audio and footage you have the rights to use."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-11-25T10:00:00.000Z",
+  "featured": {
+    "rank": 77,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/turn-your-app-into-promo-cuts/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/turn-your-app-into-promo-cuts.json"
+}

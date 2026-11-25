@@ -2054,6 +2054,18 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
+## Desk for LINE
+
+- URL: https://moneywithai.net/bots/desk-for-line/
+- Category: Customer Support
+- Summary (Money With AI's words): Front desk for a LINE business account. Drafts every customer reply and sends only after you approve it.
+- Tools: Grok
+- Creator: @kevin_ai_cp (https://x.com/kevin_ai_cp)
+- Original source: https://x.ai/bot/rcz99db1XPeP3Ldmc_887
+- Official share link: https://x.ai/bot/rcz99db1XPeP3Ldmc_887
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
 ## Devil's Advocate
 
 - URL: https://moneywithai.net/bots/devil-s-advocate/
@@ -3072,6 +3084,18 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Tools: Canva, Google Drive
 - Creator: @shubgaur (https://x.com/shubgaur)
 - Original source: https://x.com/shubgaur/status/2092375056089563604
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Gridlock
+
+- URL: https://moneywithai.net/bots/gridlock/
+- Category: Research and Ops
+- Summary (Money With AI's words): Stress-tests a spreadsheet against your pass bar and ranks every defect as a blocker, major problem or minor nit.
+- Tools: Grok
+- Creator: @cu30rry_ (https://x.com/cu30rry_)
+- Original source: https://x.ai/bot/wLGRmIN1v-L8Hlz_BWQd2
+- Official share link: https://x.ai/bot/wLGRmIN1v-L8Hlz_BWQd2
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
@@ -5482,6 +5506,18 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
+## Promo Studio
+
+- URL: https://moneywithai.net/bots/promo-studio/
+- Category: Content and Marketing
+- Summary (Money With AI's words): Cuts an app or website into short vertical promo videos from real product footage, each with several opening hooks to test.
+- Tools: Grok
+- Creator: @iamjeevanvj (https://x.com/iamjeevanvj)
+- Original source: https://x.ai/bot/ybXMrluMLTr7EU0ohttgX
+- Official share link: https://x.ai/bot/ybXMrluMLTr7EU0ohttgX
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
 ## Property Decision OS
 
 - URL: https://moneywithai.net/bots/property-decision-os/
@@ -5797,6 +5833,18 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Creator: Community submission
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included
+
+## Rematch
+
+- URL: https://moneywithai.net/bots/rematch/
+- Category: Leads and Sales
+- Summary (Money With AI's words): Finds conversations that went quiet and drafts follow-ups for you to edit. Nothing is sent until you say go.
+- Tools: Grok
+- Creator: @0xarthurzs (https://x.com/0xarthurzs)
+- Original source: https://x.ai/bot/_abcO9nWji9H9yX1r9XGV
+- Official share link: https://x.ai/bot/_abcO9nWji9H9yX1r9XGV
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
 
 ## Rental Desk
 
@@ -6999,6 +7047,18 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Tools: Gmail
 - Creator: @startupideaspod (https://x.com/startupideaspod)
 - Original source: https://x.com/startupideaspod/status/2091213765203435772
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Sponsor Scout
+
+- URL: https://moneywithai.net/bots/sponsor-scout/
+- Category: Leads and Sales
+- Summary (Money With AI's words): Finds brands that already sponsor creators in your space, then drafts a pitch for each one. You send every pitch yourself.
+- Tools: Grok
+- Creator: @MichaelHeckert (https://x.com/MichaelHeckert)
+- Original source: https://x.ai/bot/HK7rbeEuMNDD3_RbYyvx6
+- Official share link: https://x.ai/bot/HK7rbeEuMNDD3_RbYyvx6
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 

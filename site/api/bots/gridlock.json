@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "gridlock",
+    "name": "Gridlock",
+    "category": "Research and Ops",
+    "sub_use_case": "Compliance and admin",
+    "summary": "Stress-tests a spreadsheet against your pass bar and ranks every defect as a blocker, major problem or minor nit.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "cu30rry_",
+      "url": "https://x.com/cu30rry_"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/wLGRmIN1v-L8Hlz_BWQd2"
+    },
+    "official_share_url": "https://x.ai/bot/wLGRmIN1v-L8Hlz_BWQd2",
+    "found_via": null,
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-11-25",
+    "url": "https://moneywithai.net/bots/gridlock/",
+    "json_url": "https://moneywithai.net/api/bots/gridlock.json"
+  }
+}

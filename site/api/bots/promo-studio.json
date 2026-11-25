@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "promo-studio",
+    "name": "Promo Studio",
+    "category": "Content and Marketing",
+    "sub_use_case": "Video production",
+    "summary": "Cuts an app or website into short vertical promo videos from real product footage, each with several opening hooks to test.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "iamjeevanvj",
+      "url": "https://x.com/iamjeevanvj"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/ybXMrluMLTr7EU0ohttgX"
+    },
+    "official_share_url": "https://x.ai/bot/ybXMrluMLTr7EU0ohttgX",
+    "found_via": null,
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-11-25",
+    "url": "https://moneywithai.net/bots/promo-studio/",
+    "json_url": "https://moneywithai.net/api/bots/promo-studio.json"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "type": "use-case",
+  "slug": "answer-line-customers-with-approval",
+  "title": "Answer LINE Customers with Your Approval",
+  "category": "Customer Support",
+  "category_slug": "customer-support",
+  "money_model": "Save time",
+  "difficulty": "Beginner",
+  "summary": "Keep up with customer messages on a LINE account, with every reply drafted and checked by you before it goes out.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you take customer questions on LINE; the value is fewer messages left waiting.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Fewer customer messages left waiting overnight.",
+    "You approve replies instead of writing each one from scratch."
+  ],
+  "who_its_for": [
+    "Shops and service businesses that take customer questions on LINE."
+  ],
+  "stack": [
+    {
+      "bot": "desk-for-line",
+      "name": "Desk for LINE",
+      "role": "Summarizes each LINE message and drafts the reply for your OK.",
+      "creator": "kevin_ai_cp",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/desk-for-line/",
+      "official_share_url": "https://x.ai/bot/rcz99db1XPeP3Ldmc_887"
+    },
+    {
+      "bot": "support-reply-drafter",
+      "name": "Support Reply Drafter",
+      "role": "Drafts a longer answer from your own help notes when a question needs detail.",
+      "creator": "lennysan",
+      "tools": [
+        "Gmail"
+      ],
+      "url": "https://moneywithai.net/bots/support-reply-drafter/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Grok",
+    "Gmail"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "LINE customer messages",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "desk-for-line",
+        "name": "Desk for LINE",
+        "does": "Summarizes each message and drafts a reply",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "support-reply-drafter",
+        "name": "Support Reply Drafter",
+        "does": "Adds detail from your help notes",
+        "tools": [
+          "Gmail"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Approves each result",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A result you review before it is used"
+    ]
+  },
+  "steps": [
+    "Connect your LINE official account to the desk.",
+    "Give the drafter your opening hours, prices and policies.",
+    "Read each draft and approve or edit it.",
+    "Turn on auto-reply only for questions you have approved many times."
+  ],
+  "guardrails": [
+    "Review every draft that mentions prices, dates or refunds.",
+    "The bots do not send replies without your approval."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-11-25T10:00:00.000Z",
+  "featured": {
+    "rank": 30,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/answer-line-customers-with-approval/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/answer-line-customers-with-approval.json"
+}

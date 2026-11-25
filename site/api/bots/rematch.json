@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "rematch",
+    "name": "Rematch",
+    "category": "Leads and Sales",
+    "sub_use_case": "Speed-to-lead and quotes",
+    "summary": "Finds conversations that went quiet and drafts follow-ups for you to edit. Nothing is sent until you say go.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "0xarthurzs",
+      "url": "https://x.com/0xarthurzs"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/_abcO9nWji9H9yX1r9XGV"
+    },
+    "official_share_url": "https://x.ai/bot/_abcO9nWji9H9yX1r9XGV",
+    "found_via": null,
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-11-25",
+    "url": "https://moneywithai.net/bots/rematch/",
+    "json_url": "https://moneywithai.net/api/bots/rematch.json"
+  }
+}

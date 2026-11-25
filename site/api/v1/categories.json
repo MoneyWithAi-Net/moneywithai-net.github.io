@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T03:13:24.000Z",
+  "generated_at": "2026-11-25T10:06:10.000Z",
   "api_version": "v1",
   "schema_revision": 2,
   "status_url": "https://moneywithai.net/api/v1/status.json",
@@ -8,8 +8,8 @@
     {
       "slug": "leads-and-sales",
       "label": "Leads and Sales",
-      "bots": 122,
-      "use_cases": 41,
+      "bots": 124,
+      "use_cases": 43,
       "sub_use_cases": [
         {
           "slug": "local-seo-prospect-lists",
@@ -44,7 +44,7 @@
         {
           "slug": "speed-to-lead-and-quotes",
           "label": "Speed-to-lead and quotes",
-          "bots": 10
+          "bots": 11
         },
         {
           "slug": "crm-hygiene",
@@ -74,7 +74,7 @@
         {
           "slug": "partnerships-and-sponsors",
           "label": "Partnerships and sponsors",
-          "bots": 10
+          "bots": 11
         }
       ],
       "url": "https://moneywithai.net/?category=leads-and-sales"
@@ -82,8 +82,8 @@
     {
       "slug": "content-and-marketing",
       "label": "Content and Marketing",
-      "bots": 166,
-      "use_cases": 43,
+      "bots": 167,
+      "use_cases": 44,
       "sub_use_cases": [
         {
           "slug": "x-posting",
@@ -148,7 +148,7 @@
         {
           "slug": "video-production",
           "label": "Video production",
-          "bots": 24
+          "bots": 25
         },
         {
           "slug": "podcasts",
@@ -278,8 +278,8 @@
     {
       "slug": "customer-support",
       "label": "Customer Support",
-      "bots": 48,
-      "use_cases": 16,
+      "bots": 49,
+      "use_cases": 17,
       "sub_use_cases": [
         {
           "slug": "ticket-fixing",
@@ -314,7 +314,7 @@
         {
           "slug": "chat-and-messaging-support",
           "label": "Chat and messaging support",
-          "bots": 9
+          "bots": 10
         }
       ],
       "url": "https://moneywithai.net/?category=customer-support"
@@ -322,8 +322,8 @@
     {
       "slug": "research-and-ops",
       "label": "Research and Ops",
-      "bots": 241,
-      "use_cases": 32,
+      "bots": 242,
+      "use_cases": 33,
       "sub_use_cases": [
         {
           "slug": "competitor-intel",
@@ -383,7 +383,7 @@
         {
           "slug": "compliance-and-admin",
           "label": "Compliance and admin",
-          "bots": 16
+          "bots": 17
         },
         {
           "slug": "real-estate-analysis",

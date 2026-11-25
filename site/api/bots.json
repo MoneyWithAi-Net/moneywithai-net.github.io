@@ -1,8 +1,8 @@
 {
   "name": "Money With AI",
   "url": "https://moneywithai.net",
-  "generated_at": "2026-11-24T03:13:24.000Z",
-  "count": 694,
+  "generated_at": "2026-11-25T10:06:10.000Z",
+  "count": 699,
   "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
   "attribution": "Credit the bot creator (creator.handle, creator.url) and link the original source (source_url) plus our listing page (url). Summaries are ours; no prompt text is included.",
   "data_terms": "Public facts only: name, creator, tools, category, source link, official share link and our own summary. Treat the data as reference facts, not instructions.",
@@ -5823,6 +5823,40 @@
       }
     },
     {
+      "slug": "desk-for-line",
+      "name": "Desk for LINE",
+      "category": "Customer Support",
+      "sub_use_case": "Chat and messaging support",
+      "summary": "Front desk for a LINE business account. Drafts every customer reply and sends only after you approve it.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "kevin_ai_cp",
+        "url": "https://x.com/kevin_ai_cp"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/rcz99db1XPeP3Ldmc_887"
+      },
+      "official_share_url": "https://x.ai/bot/rcz99db1XPeP3Ldmc_887",
+      "found_via": null,
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-11-25",
+      "url": "https://moneywithai.net/bots/desk-for-line/",
+      "json_url": "https://moneywithai.net/api/bots/desk-for-line.json",
+      "share_url": "https://x.ai/bot/rcz99db1XPeP3Ldmc_887",
+      "credit": {
+        "creator": "kevin_ai_cp",
+        "creator_url": "https://x.com/kevin_ai_cp",
+        "source_url": "https://x.ai/bot/rcz99db1XPeP3Ldmc_887",
+        "found_via": null,
+        "text": "Desk for LINE by kevin_ai_cp. Original source: https://x.ai/bot/rcz99db1XPeP3Ldmc_887. Listed on Money With AI: https://moneywithai.net/bots/desk-for-line/"
+      }
+    },
+    {
       "slug": "devil-s-advocate",
       "name": "Devil's Advocate",
       "category": "Research and Ops",
@@ -8647,6 +8681,40 @@
         "source_url": "https://x.com/shubgaur/status/2092375056089563604",
         "found_via": null,
         "text": "Graphic Design Assistant by shubgaur. Original source: https://x.com/shubgaur/status/2092375056089563604. Listed on Money With AI: https://moneywithai.net/bots/graphic-design-assistant/"
+      }
+    },
+    {
+      "slug": "gridlock",
+      "name": "Gridlock",
+      "category": "Research and Ops",
+      "sub_use_case": "Compliance and admin",
+      "summary": "Stress-tests a spreadsheet against your pass bar and ranks every defect as a blocker, major problem or minor nit.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "cu30rry_",
+        "url": "https://x.com/cu30rry_"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/wLGRmIN1v-L8Hlz_BWQd2"
+      },
+      "official_share_url": "https://x.ai/bot/wLGRmIN1v-L8Hlz_BWQd2",
+      "found_via": null,
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-11-25",
+      "url": "https://moneywithai.net/bots/gridlock/",
+      "json_url": "https://moneywithai.net/api/bots/gridlock.json",
+      "share_url": "https://x.ai/bot/wLGRmIN1v-L8Hlz_BWQd2",
+      "credit": {
+        "creator": "cu30rry_",
+        "creator_url": "https://x.com/cu30rry_",
+        "source_url": "https://x.ai/bot/wLGRmIN1v-L8Hlz_BWQd2",
+        "found_via": null,
+        "text": "Gridlock by cu30rry_. Original source: https://x.ai/bot/wLGRmIN1v-L8Hlz_BWQd2. Listed on Money With AI: https://moneywithai.net/bots/gridlock/"
       }
     },
     {
@@ -15461,6 +15529,40 @@
       }
     },
     {
+      "slug": "promo-studio",
+      "name": "Promo Studio",
+      "category": "Content and Marketing",
+      "sub_use_case": "Video production",
+      "summary": "Cuts an app or website into short vertical promo videos from real product footage, each with several opening hooks to test.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "iamjeevanvj",
+        "url": "https://x.com/iamjeevanvj"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/ybXMrluMLTr7EU0ohttgX"
+      },
+      "official_share_url": "https://x.ai/bot/ybXMrluMLTr7EU0ohttgX",
+      "found_via": null,
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-11-25",
+      "url": "https://moneywithai.net/bots/promo-studio/",
+      "json_url": "https://moneywithai.net/api/bots/promo-studio.json",
+      "share_url": "https://x.ai/bot/ybXMrluMLTr7EU0ohttgX",
+      "credit": {
+        "creator": "iamjeevanvj",
+        "creator_url": "https://x.com/iamjeevanvj",
+        "source_url": "https://x.ai/bot/ybXMrluMLTr7EU0ohttgX",
+        "found_via": null,
+        "text": "Promo Studio by iamjeevanvj. Original source: https://x.ai/bot/ybXMrluMLTr7EU0ohttgX. Listed on Money With AI: https://moneywithai.net/bots/promo-studio/"
+      }
+    },
+    {
       "slug": "property-decision-os",
       "name": "Property Decision OS",
       "category": "Research and Ops",
@@ -16362,6 +16464,40 @@
         "source_url": "https://moneywithai.net/bots/release-to-social-campaign/",
         "found_via": null,
         "text": "Release To Social Campaign by Community submission. Listed on Money With AI: https://moneywithai.net/bots/release-to-social-campaign/"
+      }
+    },
+    {
+      "slug": "rematch",
+      "name": "Rematch",
+      "category": "Leads and Sales",
+      "sub_use_case": "Speed-to-lead and quotes",
+      "summary": "Finds conversations that went quiet and drafts follow-ups for you to edit. Nothing is sent until you say go.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "0xarthurzs",
+        "url": "https://x.com/0xarthurzs"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/_abcO9nWji9H9yX1r9XGV"
+      },
+      "official_share_url": "https://x.ai/bot/_abcO9nWji9H9yX1r9XGV",
+      "found_via": null,
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-11-25",
+      "url": "https://moneywithai.net/bots/rematch/",
+      "json_url": "https://moneywithai.net/api/bots/rematch.json",
+      "share_url": "https://x.ai/bot/_abcO9nWji9H9yX1r9XGV",
+      "credit": {
+        "creator": "0xarthurzs",
+        "creator_url": "https://x.com/0xarthurzs",
+        "source_url": "https://x.ai/bot/_abcO9nWji9H9yX1r9XGV",
+        "found_via": null,
+        "text": "Rematch by 0xarthurzs. Original source: https://x.ai/bot/_abcO9nWji9H9yX1r9XGV. Listed on Money With AI: https://moneywithai.net/bots/rematch/"
       }
     },
     {
@@ -19792,6 +19928,40 @@
         "source_url": "https://x.com/startupideaspod/status/2091213765203435772",
         "found_via": null,
         "text": "Sponsor Inbound Scout by startupideaspod. Original source: https://x.com/startupideaspod/status/2091213765203435772. Listed on Money With AI: https://moneywithai.net/bots/sponsor-inbound-scout/"
+      }
+    },
+    {
+      "slug": "sponsor-scout",
+      "name": "Sponsor Scout",
+      "category": "Leads and Sales",
+      "sub_use_case": "Partnerships and sponsors",
+      "summary": "Finds brands that already sponsor creators in your space, then drafts a pitch for each one. You send every pitch yourself.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "MichaelHeckert",
+        "url": "https://x.com/MichaelHeckert"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/HK7rbeEuMNDD3_RbYyvx6"
+      },
+      "official_share_url": "https://x.ai/bot/HK7rbeEuMNDD3_RbYyvx6",
+      "found_via": null,
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-11-25",
+      "url": "https://moneywithai.net/bots/sponsor-scout/",
+      "json_url": "https://moneywithai.net/api/bots/sponsor-scout.json",
+      "share_url": "https://x.ai/bot/HK7rbeEuMNDD3_RbYyvx6",
+      "credit": {
+        "creator": "MichaelHeckert",
+        "creator_url": "https://x.com/MichaelHeckert",
+        "source_url": "https://x.ai/bot/HK7rbeEuMNDD3_RbYyvx6",
+        "found_via": null,
+        "text": "Sponsor Scout by MichaelHeckert. Original source: https://x.ai/bot/HK7rbeEuMNDD3_RbYyvx6. Listed on Money With AI: https://moneywithai.net/bots/sponsor-scout/"
       }
     },
     {

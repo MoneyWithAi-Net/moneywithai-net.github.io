@@ -1,10 +1,75 @@
 {
-  "generated_at": "2026-11-24T03:13:24.000Z",
+  "generated_at": "2026-11-25T10:06:10.000Z",
   "api_version": "v1",
   "schema_revision": 2,
   "status_url": "https://moneywithai.net/api/v1/status.json",
-  "count": 893,
+  "count": 903,
   "items": [
+    {
+      "type": "bot",
+      "slug": "desk-for-line",
+      "title": "Desk for LINE",
+      "category": "Customer Support",
+      "sub_use_case": "Chat and messaging support",
+      "summary": "Front desk for a LINE business account. Drafts every customer reply and sends only after you approve it.",
+      "creator": "kevin_ai_cp",
+      "url": "https://moneywithai.net/bots/desk-for-line/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/desk-for-line.json",
+      "official_share_url": "https://x.ai/bot/rcz99db1XPeP3Ldmc_887",
+      "added_at": "2026-11-25T10:00:00.000Z"
+    },
+    {
+      "type": "bot",
+      "slug": "gridlock",
+      "title": "Gridlock",
+      "category": "Research and Ops",
+      "sub_use_case": "Compliance and admin",
+      "summary": "Stress-tests a spreadsheet against your pass bar and ranks every defect as a blocker, major problem or minor nit.",
+      "creator": "cu30rry_",
+      "url": "https://moneywithai.net/bots/gridlock/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/gridlock.json",
+      "official_share_url": "https://x.ai/bot/wLGRmIN1v-L8Hlz_BWQd2",
+      "added_at": "2026-11-25T10:00:00.000Z"
+    },
+    {
+      "type": "bot",
+      "slug": "promo-studio",
+      "title": "Promo Studio",
+      "category": "Content and Marketing",
+      "sub_use_case": "Video production",
+      "summary": "Cuts an app or website into short vertical promo videos from real product footage, each with several opening hooks to test.",
+      "creator": "iamjeevanvj",
+      "url": "https://moneywithai.net/bots/promo-studio/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/promo-studio.json",
+      "official_share_url": "https://x.ai/bot/ybXMrluMLTr7EU0ohttgX",
+      "added_at": "2026-11-25T10:00:00.000Z"
+    },
+    {
+      "type": "bot",
+      "slug": "rematch",
+      "title": "Rematch",
+      "category": "Leads and Sales",
+      "sub_use_case": "Speed-to-lead and quotes",
+      "summary": "Finds conversations that went quiet and drafts follow-ups for you to edit. Nothing is sent until you say go.",
+      "creator": "0xarthurzs",
+      "url": "https://moneywithai.net/bots/rematch/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/rematch.json",
+      "official_share_url": "https://x.ai/bot/_abcO9nWji9H9yX1r9XGV",
+      "added_at": "2026-11-25T10:00:00.000Z"
+    },
+    {
+      "type": "bot",
+      "slug": "sponsor-scout",
+      "title": "Sponsor Scout",
+      "category": "Leads and Sales",
+      "sub_use_case": "Partnerships and sponsors",
+      "summary": "Finds brands that already sponsor creators in your space, then drafts a pitch for each one. You send every pitch yourself.",
+      "creator": "MichaelHeckert",
+      "url": "https://moneywithai.net/bots/sponsor-scout/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/sponsor-scout.json",
+      "official_share_url": "https://x.ai/bot/HK7rbeEuMNDD3_RbYyvx6",
+      "added_at": "2026-11-25T10:00:00.000Z"
+    },
     {
       "type": "bot",
       "slug": "ai-daily-radar",
@@ -9219,6 +9284,20 @@
     },
     {
       "type": "use-case",
+      "slug": "answer-line-customers-with-approval",
+      "title": "Answer LINE Customers with Your Approval",
+      "category": "Customer Support",
+      "summary": "Keep up with customer messages on a LINE account, with every reply drafted and checked by you before it goes out.",
+      "bots": [
+        "desk-for-line",
+        "support-reply-drafter"
+      ],
+      "url": "https://moneywithai.net/use-cases/answer-line-customers-with-approval/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/answer-line-customers-with-approval.json",
+      "added_at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "type": "use-case",
       "slug": "answer-order-calls-after-hours",
       "title": "Answer Order Calls After Hours",
       "category": "Customer Support",
@@ -9497,6 +9576,20 @@
       ],
       "url": "https://moneywithai.net/use-cases/check-a-video-before-it-goes-live/",
       "detail_url": "https://moneywithai.net/api/v1/use-cases/check-a-video-before-it-goes-live.json",
+      "added_at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "type": "use-case",
+      "slug": "check-the-workbook-before-it-goes-out",
+      "title": "Check a Workbook Before It Goes Out",
+      "category": "Research and Ops",
+      "summary": "Test a spreadsheet against your pass bar and see the blockers first, before a client or manager opens it.",
+      "bots": [
+        "gridlock",
+        "sales-pipeline-analyst"
+      ],
+      "url": "https://moneywithai.net/use-cases/check-the-workbook-before-it-goes-out/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/check-the-workbook-before-it-goes-out.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {
@@ -9920,6 +10013,20 @@
       ],
       "url": "https://moneywithai.net/use-cases/find-short-video-hooks-that-already-win/",
       "detail_url": "https://moneywithai.net/api/v1/use-cases/find-short-video-hooks-that-already-win.json",
+      "added_at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "type": "use-case",
+      "slug": "find-sponsors-for-your-channel",
+      "title": "Find Sponsors for Your Channel",
+      "category": "Leads and Sales",
+      "summary": "Build a list of brands that already sponsor creators like you, then draft a pitch and a negotiation plan for each reply.",
+      "bots": [
+        "sponsor-scout",
+        "sponsorship-negotiator"
+      ],
+      "url": "https://moneywithai.net/use-cases/find-sponsors-for-your-channel/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/find-sponsors-for-your-channel.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {
@@ -11861,6 +11968,20 @@
     },
     {
       "type": "use-case",
+      "slug": "turn-your-app-into-promo-cuts",
+      "title": "Turn Your App into Promo Cuts",
+      "category": "Content and Marketing",
+      "summary": "Cut your app or site into short vertical promos, then test which opening hook your audience responds to.",
+      "bots": [
+        "promo-studio",
+        "voc-ad-angle-generator"
+      ],
+      "url": "https://moneywithai.net/use-cases/turn-your-app-into-promo-cuts/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/turn-your-app-into-promo-cuts.json",
+      "added_at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "type": "use-case",
       "slug": "turn-your-footage-into-promo-videos",
       "title": "Turn Your Footage into Promo Videos",
       "category": "Content and Marketing",
@@ -11971,6 +12092,20 @@
       ],
       "url": "https://moneywithai.net/use-cases/whatsapp-support-bot-service/",
       "detail_url": "https://moneywithai.net/api/v1/use-cases/whatsapp-support-bot-service.json",
+      "added_at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "type": "use-case",
+      "slug": "win-back-quiet-sales-leads",
+      "title": "Win Back Quiet Sales Leads",
+      "category": "Leads and Sales",
+      "summary": "Find the leads and threads that stopped replying, and get a follow-up drafted for each one you choose to send.",
+      "bots": [
+        "rematch",
+        "lead-desk"
+      ],
+      "url": "https://moneywithai.net/use-cases/win-back-quiet-sales-leads/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/win-back-quiet-sales-leads.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {
