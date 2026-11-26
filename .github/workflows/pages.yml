@@ -2,6 +2,8 @@
 # the private repo's mirror-publish workflow). Deploys site/ to GitHub Pages. Settings > Pages > Source must be
 # "GitHub Actions". The licensed General Sans font is fetched here at deploy time (self-hosting is allowed by
 # its licence, committing it to a repository is not) and checked against a pinned sha256.
+# deploy-pages fails now and then on GitHub's side ("Deployment failed, try again later", "Fetching artifact
+# metadata failed", 23 and 25 Nov 2026) while the next run works, so it gets one retry after 30 s.
 name: Pages
 on:
   push:
@@ -18,7 +20,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url || steps.deployment_retry.outputs.page_url }}
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -35,4 +37,11 @@ jobs:
         with:
           path: site
       - id: deployment
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+      - name: Wait before retrying the deploy
+        if: steps.deployment.outcome == 'failure'
+        run: sleep 30
+      - id: deployment_retry
+        if: steps.deployment.outcome == 'failure'
         uses: actions/deploy-pages@v4
