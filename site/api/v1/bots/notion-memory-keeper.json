@@ -27,11 +27,12 @@
   "use_cases": [
     "https://moneywithai.net/use-cases/construction-office-chief-of-staff/",
     "https://moneywithai.net/use-cases/founder-chief-of-staff-stack/",
-    "https://moneywithai.net/use-cases/company-knowledge-base/"
+    "https://moneywithai.net/use-cases/company-knowledge-base/",
+    "https://moneywithai.net/use-cases/keep-the-workspace-consistent/"
   ],
   "added_at": "2026-10-24T08:00:00.000Z",
   "featured": {
-    "rank": 162,
+    "rank": 166,
     "score": 83,
     "money": 27,
     "profile": 26,

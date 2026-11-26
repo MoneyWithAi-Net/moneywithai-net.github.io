@@ -1,0 +1,118 @@
+{
+  "type": "use-case",
+  "slug": "cut-idle-cloud-and-software-costs",
+  "title": "Cut Idle Cloud and Software Costs",
+  "category": "Finance",
+  "category_slug": "finance",
+  "money_model": "Save costs",
+  "difficulty": "Beginner",
+  "summary": "Find unused hosting, domains and subscriptions in your bills and emails, then approve each cancellation yourself.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Assumes you pay for hosting or subscriptions; the value is fewer idle charges.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Idle services are found in one review, not by chance.",
+    "Cancellations are approved by you, so nothing is cut by surprise."
+  ],
+  "who_its_for": [
+    "Small businesses paying for hosting, cloud services and software subscriptions."
+  ],
+  "stack": [
+    {
+      "bot": "cloud-spend-desk",
+      "name": "Cloud Spend Desk",
+      "role": "Reads hosting and cloud invoices and ranks likely waste by savings.",
+      "creator": "Av1dlive",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/cloud-spend-desk/",
+      "official_share_url": "https://x.ai/bot/TAzgDpkrgwiVaFjaSbCe6"
+    },
+    {
+      "bot": "dead-sub-collector",
+      "name": "Dead Sub Collector",
+      "role": "Finds paid plans in your email and stops trials before they bill, with your OK.",
+      "creator": "gabe_onchain",
+      "tools": [
+        "Grok",
+        "Email"
+      ],
+      "url": "https://moneywithai.net/bots/dead-sub-collector/",
+      "official_share_url": "https://x.ai/bot/P7RkT4hBvTqjKccyfyyiR"
+    }
+  ],
+  "tools": [
+    "Grok",
+    "Email"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Your invoices and subscription emails",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "cloud-spend-desk",
+        "name": "Cloud Spend Desk",
+        "does": "Ranks likely waste",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "dead-sub-collector",
+        "name": "Dead Sub Collector",
+        "does": "Finds unused plans",
+        "tools": [
+          "Grok",
+          "Email"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Approves each cancellation",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A result you review before it is used"
+    ]
+  },
+  "steps": [
+    "Send the latest hosting invoices to Cloud Spend Desk.",
+    "Connect your email to Dead Sub Collector.",
+    "Review both reports side by side.",
+    "Approve each cancellation you agree with."
+  ],
+  "guardrails": [
+    "Check each finding in the provider's own console before cancelling.",
+    "Both bots report. Nothing changes without your approval."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-11-26T10:00:00.000Z",
+  "featured": {
+    "rank": 162,
+    "score": 69,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/cut-idle-cloud-and-software-costs/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/cut-idle-cloud-and-software-costs.json"
+}

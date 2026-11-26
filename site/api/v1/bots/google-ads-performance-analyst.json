@@ -27,16 +27,17 @@
   "use_cases": [
     "https://moneywithai.net/use-cases/customer-voice-ad-engine/",
     "https://moneywithai.net/use-cases/ads-and-tracking-audit-service/",
-    "https://moneywithai.net/use-cases/audit-google-ads-before-you-change/"
+    "https://moneywithai.net/use-cases/audit-google-ads-before-you-change/",
+    "https://moneywithai.net/use-cases/stop-ad-budget-leaking/"
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 241,
-    "score": 79,
+    "rank": 157,
+    "score": 83,
     "money": 27,
     "profile": 26,
     "visuals": 20,
-    "difficulty": 6,
+    "difficulty": 10,
     "override": null,
     "rules": "https://moneywithai.net/llms.txt"
   }

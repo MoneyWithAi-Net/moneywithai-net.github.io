@@ -1,0 +1,115 @@
+{
+  "type": "use-case",
+  "slug": "answer-data-questions-without-an-analyst",
+  "title": "Answer Data Questions Without Waiting for an Analyst",
+  "category": "Research and Ops",
+  "category_slug": "research-and-ops",
+  "money_model": "Save time",
+  "difficulty": "Intermediate",
+  "summary": "Ask plain-English questions of your warehouse and turn the answer into a chart for a client update or deck.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you keep business data in a warehouse; the value is faster answers to routine questions.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Questions get answered the same day, not in a queue.",
+    "Charts are ready to drop into updates and decks."
+  ],
+  "who_its_for": [
+    "Teams that keep sales, customer or spend data in a warehouse."
+  ],
+  "stack": [
+    {
+      "bot": "snowflake-analyst",
+      "name": "Snowflake Analyst",
+      "role": "Answers warehouse questions in English and shows the query behind each figure.",
+      "creator": "cu30rry_",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/snowflake-analyst/",
+      "official_share_url": "https://x.ai/bot/LI4x0WdC_saRljwVwno4X"
+    },
+    {
+      "bot": "data-viz-bot",
+      "name": "Data Viz Bot",
+      "role": "Turns a report or table into one clear chart with a plain headline.",
+      "creator": "ArthurMacwaters",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/data-viz-bot/",
+      "official_share_url": "https://x.ai/bot/X1u9J-wW3i4eHLyixnLqM"
+    }
+  ],
+  "tools": [
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "A read-only warehouse role",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "snowflake-analyst",
+        "name": "Snowflake Analyst",
+        "does": "Answers the question with its SQL",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "data-viz-bot",
+        "name": "Data Viz Bot",
+        "does": "Makes one chart",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Approves each result",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A result you review before it is used"
+    ]
+  },
+  "steps": [
+    "Set up a read-only warehouse role.",
+    "Ask Snowflake Analyst the question.",
+    "Check the query and source table.",
+    "Send the result to Data Viz Bot for a chart."
+  ],
+  "guardrails": [
+    "Use a read-only role.",
+    "Check early answers against a report you already trust."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-11-26T10:00:00.000Z",
+  "featured": {
+    "rank": 85,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/answer-data-questions-without-an-analyst/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/answer-data-questions-without-an-analyst.json"
+}

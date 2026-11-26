@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T10:06:10.000Z",
+  "generated_at": "2026-11-26T10:09:07.000Z",
   "api_version": "v1",
   "schema_revision": 2,
   "status_url": "https://moneywithai.net/api/v1/status.json",
@@ -82,8 +82,8 @@
     {
       "slug": "content-and-marketing",
       "label": "Content and Marketing",
-      "bots": 167,
-      "use_cases": 44,
+      "bots": 168,
+      "use_cases": 45,
       "sub_use_cases": [
         {
           "slug": "x-posting",
@@ -128,7 +128,7 @@
         {
           "slug": "paid-ads",
           "label": "Paid ads",
-          "bots": 14
+          "bots": 15
         },
         {
           "slug": "seo-and-ai-search",
@@ -234,8 +234,8 @@
     {
       "slug": "finance",
       "label": "Finance",
-      "bots": 41,
-      "use_cases": 20,
+      "bots": 42,
+      "use_cases": 21,
       "sub_use_cases": [
         {
           "slug": "invoices",
@@ -265,7 +265,7 @@
         {
           "slug": "saas-spend",
           "label": "SaaS spend",
-          "bots": 14
+          "bots": 15
         },
         {
           "slug": "bookkeeping-and-reporting",
@@ -322,8 +322,8 @@
     {
       "slug": "research-and-ops",
       "label": "Research and Ops",
-      "bots": 242,
-      "use_cases": 33,
+      "bots": 245,
+      "use_cases": 36,
       "sub_use_cases": [
         {
           "slug": "competitor-intel",
@@ -348,7 +348,7 @@
         {
           "slug": "team-memory",
           "label": "Team memory",
-          "bots": 22
+          "bots": 23
         },
         {
           "slug": "property-maintenance",
@@ -378,7 +378,7 @@
         {
           "slug": "product-and-engineering",
           "label": "Product and engineering",
-          "bots": 53
+          "bots": 55
         },
         {
           "slug": "compliance-and-admin",

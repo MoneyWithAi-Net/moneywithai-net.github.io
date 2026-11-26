@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "ad-spend-desk",
+  "name": "Ad Spend Desk",
+  "category": "Content and Marketing",
+  "sub_use_case": "Paid ads",
+  "summary": "Finds ad campaigns, ad sets and creatives that keep spending without converting, and landing pages that lose visitors. It pauses nothing without your OK.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Av1dlive",
+    "url": "https://x.com/Av1dlive"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/MQLGGf9tlc1LITK3ixesd"
+  },
+  "official_share_url": "https://x.ai/bot/MQLGGf9tlc1LITK3ixesd",
+  "found_via": null,
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-11-26",
+  "url": "https://moneywithai.net/bots/ad-spend-desk/",
+  "json_url": "https://moneywithai.net/api/v1/bots/ad-spend-desk.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/stop-ad-budget-leaking/"
+  ],
+  "added_at": "2026-11-26T10:00:00.000Z",
+  "featured": {
+    "rank": 74,
+    "score": 87,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "type": "use-case",
+  "slug": "catch-outages-before-customers-do",
+  "title": "Catch an Outage Before Customers Do",
+  "category": "Research and Ops",
+  "category_slug": "research-and-ops",
+  "money_model": "Save time",
+  "difficulty": "Beginner",
+  "summary": "Get the right owner paged the moment a system or part fails, then keep the issue in view until it is closed.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you run a live service or scheduled jobs; the value is faster owner response.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Problems reach the owner in minutes, not after a customer complains.",
+    "Fewer issues slip through because nobody confirmed they were closed."
+  ],
+  "who_its_for": [
+    "Small teams that run a live service, shop or job board."
+  ],
+  "stack": [
+    {
+      "bot": "urgenta",
+      "name": "Urgenta",
+      "role": "Watches your channels and mail for signs of an outage and pages the owner on call.",
+      "creator": "0xarthurzs",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/urgenta/",
+      "official_share_url": "https://x.ai/bot/y7DRih96Sk_Y6qHddWfID"
+    },
+    {
+      "bot": "bot-ops-monitor",
+      "name": "Bot Ops Monitor",
+      "role": "Watches your bots and scheduled jobs and nudges any that stall or fail.",
+      "creator": "Right Wing Inkorporated",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/bot-ops-monitor/",
+      "official_share_url": "https://x.ai/bot/kd0J340FaLqQLq81oTYnd"
+    }
+  ],
+  "tools": [
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Your channels and on-call list",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "urgenta",
+        "name": "Urgenta",
+        "does": "Pages the owner on call",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "bot-ops-monitor",
+        "name": "Bot Ops Monitor",
+        "does": "Flags stalled jobs",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Approves each result",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A result you review before it is used"
+    ]
+  },
+  "steps": [
+    "List who is on call for each area.",
+    "Connect Urgenta to the channels and mail it should watch.",
+    "Add Bot Ops Monitor to your scheduled jobs.",
+    "Review the first week of pages and adjust the on-call list."
+  ],
+  "guardrails": [
+    "Keep the on-call list current.",
+    "The bots alert and follow up. Your team does the fixing."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-11-26T10:00:00.000Z",
+  "featured": {
+    "rank": 35,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/catch-outages-before-customers-do/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/catch-outages-before-customers-do.json"
+}

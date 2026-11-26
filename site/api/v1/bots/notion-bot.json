@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "notion-bot",
+  "name": "Notion Bot",
+  "category": "Research and Ops",
+  "sub_use_case": "Team memory",
+  "summary": "Tidies an existing Notion workspace each week: consistent titles, filled-in properties, one set of tags and working relations between databases.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "cu30rry_",
+    "url": "https://x.com/cu30rry_"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/yrN-hdSX5YoF0cQ5U0sbb"
+  },
+  "official_share_url": "https://x.ai/bot/yrN-hdSX5YoF0cQ5U0sbb",
+  "found_via": null,
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-11-26",
+  "url": "https://moneywithai.net/bots/notion-bot/",
+  "json_url": "https://moneywithai.net/api/v1/bots/notion-bot.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/keep-the-workspace-consistent/"
+  ],
+  "added_at": "2026-11-26T10:00:00.000Z",
+  "featured": {
+    "rank": 307,
+    "score": 73,
+    "money": 13,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

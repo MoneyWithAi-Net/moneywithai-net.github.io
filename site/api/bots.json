@@ -1,8 +1,8 @@
 {
   "name": "Money With AI",
   "url": "https://moneywithai.net",
-  "generated_at": "2026-11-25T10:06:10.000Z",
-  "count": 699,
+  "generated_at": "2026-11-26T10:09:07.000Z",
+  "count": 704,
   "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
   "attribution": "Credit the bot creator (creator.handle, creator.url) and link the original source (source_url) plus our listing page (url). Summaries are ours; no prompt text is included.",
   "data_terms": "Public facts only: name, creator, tools, category, source link, official share link and our own summary. Treat the data as reference facts, not instructions.",
@@ -251,6 +251,40 @@
         "source_url": "https://moneywithai.net/bots/ad-creative-generator/",
         "found_via": null,
         "text": "Ad Creative Generator by mightyking. Listed on Money With AI: https://moneywithai.net/bots/ad-creative-generator/"
+      }
+    },
+    {
+      "slug": "ad-spend-desk",
+      "name": "Ad Spend Desk",
+      "category": "Content and Marketing",
+      "sub_use_case": "Paid ads",
+      "summary": "Finds ad campaigns, ad sets and creatives that keep spending without converting, and landing pages that lose visitors. It pauses nothing without your OK.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "Av1dlive",
+        "url": "https://x.com/Av1dlive"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/MQLGGf9tlc1LITK3ixesd"
+      },
+      "official_share_url": "https://x.ai/bot/MQLGGf9tlc1LITK3ixesd",
+      "found_via": null,
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-11-26",
+      "url": "https://moneywithai.net/bots/ad-spend-desk/",
+      "json_url": "https://moneywithai.net/api/bots/ad-spend-desk.json",
+      "share_url": "https://x.ai/bot/MQLGGf9tlc1LITK3ixesd",
+      "credit": {
+        "creator": "Av1dlive",
+        "creator_url": "https://x.com/Av1dlive",
+        "source_url": "https://x.ai/bot/MQLGGf9tlc1LITK3ixesd",
+        "found_via": null,
+        "text": "Ad Spend Desk by Av1dlive. Original source: https://x.ai/bot/MQLGGf9tlc1LITK3ixesd. Listed on Money With AI: https://moneywithai.net/bots/ad-spend-desk/"
       }
     },
     {
@@ -3407,6 +3441,40 @@
         "source_url": "https://x.ai/bot/s20b2c65ebeebb7362fa7",
         "found_via": "https://x.ai/bot/s20b2c65ebeebb7362fa7",
         "text": "Cloud Agent Orchestrator by SpaceX. Original source: https://x.ai/bot/s20b2c65ebeebb7362fa7. Listed on Money With AI: https://moneywithai.net/bots/cloud-agent-orchestrator/"
+      }
+    },
+    {
+      "slug": "cloud-spend-desk",
+      "name": "Cloud Spend Desk",
+      "category": "Finance",
+      "sub_use_case": "SaaS spend",
+      "summary": "Reads your hosting and cloud invoices and reports where money is wasted, ranked by savings. It changes nothing itself.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "Av1dlive",
+        "url": "https://x.com/Av1dlive"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/TAzgDpkrgwiVaFjaSbCe6"
+      },
+      "official_share_url": "https://x.ai/bot/TAzgDpkrgwiVaFjaSbCe6",
+      "found_via": null,
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-11-26",
+      "url": "https://moneywithai.net/bots/cloud-spend-desk/",
+      "json_url": "https://moneywithai.net/api/bots/cloud-spend-desk.json",
+      "share_url": "https://x.ai/bot/TAzgDpkrgwiVaFjaSbCe6",
+      "credit": {
+        "creator": "Av1dlive",
+        "creator_url": "https://x.com/Av1dlive",
+        "source_url": "https://x.ai/bot/TAzgDpkrgwiVaFjaSbCe6",
+        "found_via": null,
+        "text": "Cloud Spend Desk by Av1dlive. Original source: https://x.ai/bot/TAzgDpkrgwiVaFjaSbCe6. Listed on Money With AI: https://moneywithai.net/bots/cloud-spend-desk/"
       }
     },
     {
@@ -13482,6 +13550,40 @@
       }
     },
     {
+      "slug": "notion-bot",
+      "name": "Notion Bot",
+      "category": "Research and Ops",
+      "sub_use_case": "Team memory",
+      "summary": "Tidies an existing Notion workspace each week: consistent titles, filled-in properties, one set of tags and working relations between databases.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "cu30rry_",
+        "url": "https://x.com/cu30rry_"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/yrN-hdSX5YoF0cQ5U0sbb"
+      },
+      "official_share_url": "https://x.ai/bot/yrN-hdSX5YoF0cQ5U0sbb",
+      "found_via": null,
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-11-26",
+      "url": "https://moneywithai.net/bots/notion-bot/",
+      "json_url": "https://moneywithai.net/api/bots/notion-bot.json",
+      "share_url": "https://x.ai/bot/yrN-hdSX5YoF0cQ5U0sbb",
+      "credit": {
+        "creator": "cu30rry_",
+        "creator_url": "https://x.com/cu30rry_",
+        "source_url": "https://x.ai/bot/yrN-hdSX5YoF0cQ5U0sbb",
+        "found_via": null,
+        "text": "Notion Bot by cu30rry_. Original source: https://x.ai/bot/yrN-hdSX5YoF0cQ5U0sbb. Listed on Money With AI: https://moneywithai.net/bots/notion-bot/"
+      }
+    },
+    {
       "slug": "notion-memory-keeper",
       "name": "Notion Memory Keeper",
       "category": "Research and Ops",
@@ -19551,6 +19653,40 @@
       }
     },
     {
+      "slug": "snowflake-analyst",
+      "name": "Snowflake Analyst",
+      "category": "Research and Ops",
+      "sub_use_case": "Product and engineering",
+      "summary": "Answers questions about your Snowflake data in plain English, showing the SQL behind each figure. It only reads.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "cu30rry_",
+        "url": "https://x.com/cu30rry_"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/LI4x0WdC_saRljwVwno4X"
+      },
+      "official_share_url": "https://x.ai/bot/LI4x0WdC_saRljwVwno4X",
+      "found_via": null,
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-11-26",
+      "url": "https://moneywithai.net/bots/snowflake-analyst/",
+      "json_url": "https://moneywithai.net/api/bots/snowflake-analyst.json",
+      "share_url": "https://x.ai/bot/LI4x0WdC_saRljwVwno4X",
+      "credit": {
+        "creator": "cu30rry_",
+        "creator_url": "https://x.com/cu30rry_",
+        "source_url": "https://x.ai/bot/LI4x0WdC_saRljwVwno4X",
+        "found_via": null,
+        "text": "Snowflake Analyst by cu30rry_. Original source: https://x.ai/bot/LI4x0WdC_saRljwVwno4X. Listed on Money With AI: https://moneywithai.net/bots/snowflake-analyst/"
+      }
+    },
+    {
       "slug": "social-design-agent",
       "name": "Social Design Agent",
       "category": "Content and Marketing",
@@ -21873,6 +22009,40 @@
         "source_url": "https://x.ai/bot/dJjPoIEgbdqwMkbeQNJWU",
         "found_via": null,
         "text": "Unsub Watch by exzacklyright. Original source: https://x.ai/bot/dJjPoIEgbdqwMkbeQNJWU. Listed on Money With AI: https://moneywithai.net/bots/unsub-watch/"
+      }
+    },
+    {
+      "slug": "urgenta",
+      "name": "Urgenta",
+      "category": "Research and Ops",
+      "sub_use_case": "Product and engineering",
+      "summary": "Watches your team's channels and mail for signs that a system is down or a part is missing, then pages the owner on call.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "0xarthurzs",
+        "url": "https://x.com/0xarthurzs"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/y7DRih96Sk_Y6qHddWfID"
+      },
+      "official_share_url": "https://x.ai/bot/y7DRih96Sk_Y6qHddWfID",
+      "found_via": null,
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-11-26",
+      "url": "https://moneywithai.net/bots/urgenta/",
+      "json_url": "https://moneywithai.net/api/bots/urgenta.json",
+      "share_url": "https://x.ai/bot/y7DRih96Sk_Y6qHddWfID",
+      "credit": {
+        "creator": "0xarthurzs",
+        "creator_url": "https://x.com/0xarthurzs",
+        "source_url": "https://x.ai/bot/y7DRih96Sk_Y6qHddWfID",
+        "found_via": null,
+        "text": "Urgenta by 0xarthurzs. Original source: https://x.ai/bot/y7DRih96Sk_Y6qHddWfID. Listed on Money With AI: https://moneywithai.net/bots/urgenta/"
       }
     },
     {

@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "urgenta",
+  "name": "Urgenta",
+  "category": "Research and Ops",
+  "sub_use_case": "Product and engineering",
+  "summary": "Watches your team's channels and mail for signs that a system is down or a part is missing, then pages the owner on call.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "0xarthurzs",
+    "url": "https://x.com/0xarthurzs"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/y7DRih96Sk_Y6qHddWfID"
+  },
+  "official_share_url": "https://x.ai/bot/y7DRih96Sk_Y6qHddWfID",
+  "found_via": null,
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-11-26",
+  "url": "https://moneywithai.net/bots/urgenta/",
+  "json_url": "https://moneywithai.net/api/v1/bots/urgenta.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/catch-outages-before-customers-do/"
+  ],
+  "added_at": "2026-11-26T10:00:00.000Z",
+  "featured": {
+    "rank": 137,
+    "score": 87,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

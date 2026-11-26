@@ -1,0 +1,116 @@
+{
+  "type": "use-case",
+  "slug": "keep-the-workspace-consistent",
+  "title": "Keep the Shared Notion Workspace Consistent",
+  "category": "Research and Ops",
+  "category_slug": "research-and-ops",
+  "money_model": "Save time",
+  "difficulty": "Beginner",
+  "summary": "Tidy titles, tags and database links each week, and keep one page of decisions and context up to date.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Assumes your team works from Notion pages; the value is less time spent searching.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Pages are easier to find, so less time goes on searching.",
+    "Decisions stay in one place for the whole team."
+  ],
+  "who_its_for": [
+    "Teams that run projects, clients or tasks in Notion."
+  ],
+  "stack": [
+    {
+      "bot": "notion-bot",
+      "name": "Notion Bot",
+      "role": "Makes titles, properties, tags and database links consistent each week.",
+      "creator": "cu30rry_",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/notion-bot/",
+      "official_share_url": "https://x.ai/bot/yrN-hdSX5YoF0cQ5U0sbb"
+    },
+    {
+      "bot": "notion-memory-keeper",
+      "name": "Notion Memory Keeper",
+      "role": "Keeps one Notion page current with the notes and decisions you give it.",
+      "creator": "benln",
+      "tools": [
+        "Notion"
+      ],
+      "url": "https://moneywithai.net/bots/notion-memory-keeper/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Grok",
+    "Notion"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Your Notion databases",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "notion-bot",
+        "name": "Notion Bot",
+        "does": "Tidies titles, tags and links",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "notion-memory-keeper",
+        "name": "Notion Memory Keeper",
+        "does": "Keeps the decisions page current",
+        "tools": [
+          "Notion"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Approves each result",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A result you review before it is used"
+    ]
+  },
+  "steps": [
+    "Pick two or three databases for the first run.",
+    "Run Notion Bot's weekly tidy.",
+    "Give Notion Memory Keeper the decisions to record.",
+    "Check the change log each week."
+  ],
+  "guardrails": [
+    "Check the change log after each pass.",
+    "Start with a few databases, not the whole workspace."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-11-26T10:00:00.000Z",
+  "featured": {
+    "rank": 170,
+    "score": 69,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/keep-the-workspace-consistent/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/keep-the-workspace-consistent.json"
+}

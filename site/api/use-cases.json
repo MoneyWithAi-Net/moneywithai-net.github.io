@@ -1,8 +1,8 @@
 {
   "name": "Money With AI: business use cases",
   "url": "https://moneywithai.net/use-cases/",
-  "generated_at": "2026-11-25T10:06:10.000Z",
-  "count": 204,
+  "generated_at": "2026-11-26T10:09:07.000Z",
+  "count": 209,
   "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
   "attribution": "Credit the bot creator (creator.handle, creator.url) and link the original source (source_url) plus our listing page (url). Summaries are ours; no prompt text is included.",
   "data_terms": "Public facts only: name, creator, tools, category, source link, official share link and our own summary. Treat the data as reference facts, not instructions.",
@@ -20126,6 +20126,335 @@
       "url": "https://moneywithai.net/use-cases/turn-your-app-into-promo-cuts/",
       "blueprint_url": null,
       "detail_json_url": "https://moneywithai.net/api/v1/use-cases/turn-your-app-into-promo-cuts.json"
+    },
+    {
+      "slug": "catch-outages-before-customers-do",
+      "name": "Catch an Outage Before Customers Do",
+      "category": "Research and Ops",
+      "summary": "Get the right owner paged the moment a system or part fails, then keep the issue in view until it is closed.",
+      "difficulty": "Beginner",
+      "money_potential": {
+        "tier": 2,
+        "label": "Medium",
+        "basis": "Assumes you run a live service or scheduled jobs; the value is faster owner response.",
+        "claim_label": "E"
+      },
+      "tools": [
+        "Grok"
+      ],
+      "bots": [
+        {
+          "slug": "urgenta",
+          "name": "Urgenta",
+          "role": "Watches your channels and mail for signs of an outage and pages the owner on call.",
+          "creator": "0xarthurzs",
+          "creator_url": "https://x.com/0xarthurzs",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Research and Ops",
+          "source_url": "https://x.ai/bot/y7DRih96Sk_Y6qHddWfID",
+          "share_url": "https://x.ai/bot/y7DRih96Sk_Y6qHddWfID",
+          "url": "https://moneywithai.net/bots/urgenta/"
+        },
+        {
+          "slug": "bot-ops-monitor",
+          "name": "Bot Ops Monitor",
+          "role": "Watches your bots and scheduled jobs and nudges any that stall or fail.",
+          "creator": "Right Wing Inkorporated",
+          "creator_url": "https://x.ai/bot/kd0J340FaLqQLq81oTYnd",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Research and Ops",
+          "source_url": "https://x.ai/bot/kd0J340FaLqQLq81oTYnd",
+          "share_url": "https://x.ai/bot/kd0J340FaLqQLq81oTYnd",
+          "url": "https://moneywithai.net/bots/bot-ops-monitor/"
+        }
+      ],
+      "credits": [
+        {
+          "creator": "0xarthurzs",
+          "creator_url": "https://x.com/0xarthurzs",
+          "source_url": "https://x.ai/bot/y7DRih96Sk_Y6qHddWfID",
+          "found_via": null,
+          "text": "Urgenta by 0xarthurzs. Original source: https://x.ai/bot/y7DRih96Sk_Y6qHddWfID. Listed on Money With AI: https://moneywithai.net/bots/urgenta/"
+        },
+        {
+          "creator": "Right Wing Inkorporated",
+          "creator_url": "https://x.ai/bot/kd0J340FaLqQLq81oTYnd",
+          "source_url": "https://x.ai/bot/kd0J340FaLqQLq81oTYnd",
+          "found_via": "https://x.ai/bot/kd0J340FaLqQLq81oTYnd",
+          "text": "Bot Ops Monitor by Right Wing Inkorporated. Original source: https://x.ai/bot/kd0J340FaLqQLq81oTYnd. Listed on Money With AI: https://moneywithai.net/bots/bot-ops-monitor/"
+        }
+      ],
+      "url": "https://moneywithai.net/use-cases/catch-outages-before-customers-do/",
+      "blueprint_url": null,
+      "detail_json_url": "https://moneywithai.net/api/v1/use-cases/catch-outages-before-customers-do.json"
+    },
+    {
+      "slug": "cut-idle-cloud-and-software-costs",
+      "name": "Cut Idle Cloud and Software Costs",
+      "category": "Finance",
+      "summary": "Find unused hosting, domains and subscriptions in your bills and emails, then approve each cancellation yourself.",
+      "difficulty": "Beginner",
+      "money_potential": {
+        "tier": 1,
+        "label": "Low",
+        "basis": "Assumes you pay for hosting or subscriptions; the value is fewer idle charges.",
+        "claim_label": "E"
+      },
+      "tools": [
+        "Grok",
+        "Email"
+      ],
+      "bots": [
+        {
+          "slug": "cloud-spend-desk",
+          "name": "Cloud Spend Desk",
+          "role": "Reads hosting and cloud invoices and ranks likely waste by savings.",
+          "creator": "Av1dlive",
+          "creator_url": "https://x.com/Av1dlive",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Finance",
+          "source_url": "https://x.ai/bot/TAzgDpkrgwiVaFjaSbCe6",
+          "share_url": "https://x.ai/bot/TAzgDpkrgwiVaFjaSbCe6",
+          "url": "https://moneywithai.net/bots/cloud-spend-desk/"
+        },
+        {
+          "slug": "dead-sub-collector",
+          "name": "Dead Sub Collector",
+          "role": "Finds paid plans in your email and stops trials before they bill, with your OK.",
+          "creator": "gabe_onchain",
+          "creator_url": "https://x.com/gabe_onchain",
+          "tools": [
+            "Grok",
+            "Email"
+          ],
+          "category": "Finance",
+          "source_url": "https://x.com/gabe_onchain/status/2115860971499520184",
+          "share_url": "https://x.ai/bot/P7RkT4hBvTqjKccyfyyiR",
+          "url": "https://moneywithai.net/bots/dead-sub-collector/"
+        }
+      ],
+      "credits": [
+        {
+          "creator": "Av1dlive",
+          "creator_url": "https://x.com/Av1dlive",
+          "source_url": "https://x.ai/bot/TAzgDpkrgwiVaFjaSbCe6",
+          "found_via": null,
+          "text": "Cloud Spend Desk by Av1dlive. Original source: https://x.ai/bot/TAzgDpkrgwiVaFjaSbCe6. Listed on Money With AI: https://moneywithai.net/bots/cloud-spend-desk/"
+        },
+        {
+          "creator": "gabe_onchain",
+          "creator_url": "https://x.com/gabe_onchain",
+          "source_url": "https://x.com/gabe_onchain/status/2115860971499520184",
+          "found_via": null,
+          "text": "Dead Sub Collector by gabe_onchain. Original source: https://x.com/gabe_onchain/status/2115860971499520184. Listed on Money With AI: https://moneywithai.net/bots/dead-sub-collector/"
+        }
+      ],
+      "url": "https://moneywithai.net/use-cases/cut-idle-cloud-and-software-costs/",
+      "blueprint_url": null,
+      "detail_json_url": "https://moneywithai.net/api/v1/use-cases/cut-idle-cloud-and-software-costs.json"
+    },
+    {
+      "slug": "stop-ad-budget-leaking",
+      "name": "Stop Ad Budget Leaking into Dead Campaigns",
+      "category": "Content and Marketing",
+      "summary": "Spot ad campaigns and landing pages that spend without converting, then decide what to pause.",
+      "difficulty": "Beginner",
+      "money_potential": {
+        "tier": 2,
+        "label": "Medium",
+        "basis": "Assumes you run paid campaigns; the value is less budget spent on campaigns that do not convert.",
+        "claim_label": "E"
+      },
+      "tools": [
+        "Grok",
+        "Google Ads"
+      ],
+      "bots": [
+        {
+          "slug": "ad-spend-desk",
+          "name": "Ad Spend Desk",
+          "role": "Flags spend with no conversions and landing pages that lose visitors.",
+          "creator": "Av1dlive",
+          "creator_url": "https://x.com/Av1dlive",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Content and Marketing",
+          "source_url": "https://x.ai/bot/MQLGGf9tlc1LITK3ixesd",
+          "share_url": "https://x.ai/bot/MQLGGf9tlc1LITK3ixesd",
+          "url": "https://moneywithai.net/bots/ad-spend-desk/"
+        },
+        {
+          "slug": "google-ads-performance-analyst",
+          "name": "Google Ads Performance Analyst",
+          "role": "Reviews Google Ads campaigns and reports wasted spend and next fixes.",
+          "creator": "benln",
+          "creator_url": "https://x.com/benln",
+          "tools": [
+            "Google Ads"
+          ],
+          "category": "Content and Marketing",
+          "source_url": "https://x.com/benln/status/2090058746491756677",
+          "share_url": null,
+          "url": "https://moneywithai.net/bots/google-ads-performance-analyst/"
+        }
+      ],
+      "credits": [
+        {
+          "creator": "Av1dlive",
+          "creator_url": "https://x.com/Av1dlive",
+          "source_url": "https://x.ai/bot/MQLGGf9tlc1LITK3ixesd",
+          "found_via": null,
+          "text": "Ad Spend Desk by Av1dlive. Original source: https://x.ai/bot/MQLGGf9tlc1LITK3ixesd. Listed on Money With AI: https://moneywithai.net/bots/ad-spend-desk/"
+        },
+        {
+          "creator": "benln",
+          "creator_url": "https://x.com/benln",
+          "source_url": "https://x.com/benln/status/2090058746491756677",
+          "found_via": null,
+          "text": "Google Ads Performance Analyst by benln. Original source: https://x.com/benln/status/2090058746491756677. Listed on Money With AI: https://moneywithai.net/bots/google-ads-performance-analyst/"
+        }
+      ],
+      "url": "https://moneywithai.net/use-cases/stop-ad-budget-leaking/",
+      "blueprint_url": null,
+      "detail_json_url": "https://moneywithai.net/api/v1/use-cases/stop-ad-budget-leaking.json"
+    },
+    {
+      "slug": "answer-data-questions-without-an-analyst",
+      "name": "Answer Data Questions Without Waiting for an Analyst",
+      "category": "Research and Ops",
+      "summary": "Ask plain-English questions of your warehouse and turn the answer into a chart for a client update or deck.",
+      "difficulty": "Intermediate",
+      "money_potential": {
+        "tier": 2,
+        "label": "Medium",
+        "basis": "Assumes you keep business data in a warehouse; the value is faster answers to routine questions.",
+        "claim_label": "E"
+      },
+      "tools": [
+        "Grok"
+      ],
+      "bots": [
+        {
+          "slug": "snowflake-analyst",
+          "name": "Snowflake Analyst",
+          "role": "Answers warehouse questions in English and shows the query behind each figure.",
+          "creator": "cu30rry_",
+          "creator_url": "https://x.com/cu30rry_",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Research and Ops",
+          "source_url": "https://x.ai/bot/LI4x0WdC_saRljwVwno4X",
+          "share_url": "https://x.ai/bot/LI4x0WdC_saRljwVwno4X",
+          "url": "https://moneywithai.net/bots/snowflake-analyst/"
+        },
+        {
+          "slug": "data-viz-bot",
+          "name": "Data Viz Bot",
+          "role": "Turns a report or table into one clear chart with a plain headline.",
+          "creator": "ArthurMacwaters",
+          "creator_url": "https://x.com/ArthurMacwaters",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Research and Ops",
+          "source_url": "https://x.com/ArthurMacwaters/status/2116304629676019981",
+          "share_url": "https://x.ai/bot/X1u9J-wW3i4eHLyixnLqM",
+          "url": "https://moneywithai.net/bots/data-viz-bot/"
+        }
+      ],
+      "credits": [
+        {
+          "creator": "cu30rry_",
+          "creator_url": "https://x.com/cu30rry_",
+          "source_url": "https://x.ai/bot/LI4x0WdC_saRljwVwno4X",
+          "found_via": null,
+          "text": "Snowflake Analyst by cu30rry_. Original source: https://x.ai/bot/LI4x0WdC_saRljwVwno4X. Listed on Money With AI: https://moneywithai.net/bots/snowflake-analyst/"
+        },
+        {
+          "creator": "ArthurMacwaters",
+          "creator_url": "https://x.com/ArthurMacwaters",
+          "source_url": "https://x.com/ArthurMacwaters/status/2116304629676019981",
+          "found_via": "https://x.com/ArthurMacwaters/status/2116304629676019981",
+          "text": "Data Viz Bot by ArthurMacwaters. Original source: https://x.com/ArthurMacwaters/status/2116304629676019981. Listed on Money With AI: https://moneywithai.net/bots/data-viz-bot/"
+        }
+      ],
+      "url": "https://moneywithai.net/use-cases/answer-data-questions-without-an-analyst/",
+      "blueprint_url": null,
+      "detail_json_url": "https://moneywithai.net/api/v1/use-cases/answer-data-questions-without-an-analyst.json"
+    },
+    {
+      "slug": "keep-the-workspace-consistent",
+      "name": "Keep the Shared Notion Workspace Consistent",
+      "category": "Research and Ops",
+      "summary": "Tidy titles, tags and database links each week, and keep one page of decisions and context up to date.",
+      "difficulty": "Beginner",
+      "money_potential": {
+        "tier": 1,
+        "label": "Low",
+        "basis": "Assumes your team works from Notion pages; the value is less time spent searching.",
+        "claim_label": "E"
+      },
+      "tools": [
+        "Grok",
+        "Notion"
+      ],
+      "bots": [
+        {
+          "slug": "notion-bot",
+          "name": "Notion Bot",
+          "role": "Makes titles, properties, tags and database links consistent each week.",
+          "creator": "cu30rry_",
+          "creator_url": "https://x.com/cu30rry_",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Research and Ops",
+          "source_url": "https://x.ai/bot/yrN-hdSX5YoF0cQ5U0sbb",
+          "share_url": "https://x.ai/bot/yrN-hdSX5YoF0cQ5U0sbb",
+          "url": "https://moneywithai.net/bots/notion-bot/"
+        },
+        {
+          "slug": "notion-memory-keeper",
+          "name": "Notion Memory Keeper",
+          "role": "Keeps one Notion page current with the notes and decisions you give it.",
+          "creator": "benln",
+          "creator_url": "https://x.com/benln",
+          "tools": [
+            "Notion"
+          ],
+          "category": "Research and Ops",
+          "source_url": "https://x.com/benln/status/2089699901567340808",
+          "share_url": null,
+          "url": "https://moneywithai.net/bots/notion-memory-keeper/"
+        }
+      ],
+      "credits": [
+        {
+          "creator": "cu30rry_",
+          "creator_url": "https://x.com/cu30rry_",
+          "source_url": "https://x.ai/bot/yrN-hdSX5YoF0cQ5U0sbb",
+          "found_via": null,
+          "text": "Notion Bot by cu30rry_. Original source: https://x.ai/bot/yrN-hdSX5YoF0cQ5U0sbb. Listed on Money With AI: https://moneywithai.net/bots/notion-bot/"
+        },
+        {
+          "creator": "benln",
+          "creator_url": "https://x.com/benln",
+          "source_url": "https://x.com/benln/status/2089699901567340808",
+          "found_via": null,
+          "text": "Notion Memory Keeper by benln. Original source: https://x.com/benln/status/2089699901567340808. Listed on Money With AI: https://moneywithai.net/bots/notion-memory-keeper/"
+        }
+      ],
+      "url": "https://moneywithai.net/use-cases/keep-the-workspace-consistent/",
+      "blueprint_url": null,
+      "detail_json_url": "https://moneywithai.net/api/v1/use-cases/keep-the-workspace-consistent.json"
     }
   ]
 }

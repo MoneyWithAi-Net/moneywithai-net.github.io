@@ -1,0 +1,116 @@
+{
+  "type": "use-case",
+  "slug": "stop-ad-budget-leaking",
+  "title": "Stop Ad Budget Leaking into Dead Campaigns",
+  "category": "Content and Marketing",
+  "category_slug": "content-and-marketing",
+  "money_model": "Save costs",
+  "difficulty": "Beginner",
+  "summary": "Spot ad campaigns and landing pages that spend without converting, then decide what to pause.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you run paid campaigns; the value is less budget spent on campaigns that do not convert.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Budget is moved from campaigns that do not convert.",
+    "Landing pages that lose visitors are found early."
+  ],
+  "who_its_for": [
+    "Businesses that run paid search or social ads."
+  ],
+  "stack": [
+    {
+      "bot": "ad-spend-desk",
+      "name": "Ad Spend Desk",
+      "role": "Flags spend with no conversions and landing pages that lose visitors.",
+      "creator": "Av1dlive",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/ad-spend-desk/",
+      "official_share_url": "https://x.ai/bot/MQLGGf9tlc1LITK3ixesd"
+    },
+    {
+      "bot": "google-ads-performance-analyst",
+      "name": "Google Ads Performance Analyst",
+      "role": "Reviews Google Ads campaigns and reports wasted spend and next fixes.",
+      "creator": "benln",
+      "tools": [
+        "Google Ads"
+      ],
+      "url": "https://moneywithai.net/bots/google-ads-performance-analyst/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Grok",
+    "Google Ads"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Read-only ad account access",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "ad-spend-desk",
+        "name": "Ad Spend Desk",
+        "does": "Flags non-converting spend",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "google-ads-performance-analyst",
+        "name": "Google Ads Performance Analyst",
+        "does": "Reports wasted spend",
+        "tools": [
+          "Google Ads"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Approves each result",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A result you review before it is used"
+    ]
+  },
+  "steps": [
+    "Grant read-only access to the ad accounts.",
+    "Run Ad Spend Desk for the flagged campaigns.",
+    "Ask the Google Ads analyst to confirm the wasted spend.",
+    "Pause only the campaigns you agree with."
+  ],
+  "guardrails": [
+    "Check each dollar estimate against your own data.",
+    "Neither bot pauses campaigns. You do."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-11-26T10:00:00.000Z",
+  "featured": {
+    "rank": 75,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/stop-ad-budget-leaking/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/stop-ad-budget-leaking.json"
+}

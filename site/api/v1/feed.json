@@ -1,10 +1,75 @@
 {
-  "generated_at": "2026-11-25T10:06:10.000Z",
+  "generated_at": "2026-11-26T10:09:07.000Z",
   "api_version": "v1",
   "schema_revision": 2,
   "status_url": "https://moneywithai.net/api/v1/status.json",
-  "count": 903,
+  "count": 913,
   "items": [
+    {
+      "type": "bot",
+      "slug": "ad-spend-desk",
+      "title": "Ad Spend Desk",
+      "category": "Content and Marketing",
+      "sub_use_case": "Paid ads",
+      "summary": "Finds ad campaigns, ad sets and creatives that keep spending without converting, and landing pages that lose visitors. It pauses nothing without your OK.",
+      "creator": "Av1dlive",
+      "url": "https://moneywithai.net/bots/ad-spend-desk/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/ad-spend-desk.json",
+      "official_share_url": "https://x.ai/bot/MQLGGf9tlc1LITK3ixesd",
+      "added_at": "2026-11-26T10:00:00.000Z"
+    },
+    {
+      "type": "bot",
+      "slug": "cloud-spend-desk",
+      "title": "Cloud Spend Desk",
+      "category": "Finance",
+      "sub_use_case": "SaaS spend",
+      "summary": "Reads your hosting and cloud invoices and reports where money is wasted, ranked by savings. It changes nothing itself.",
+      "creator": "Av1dlive",
+      "url": "https://moneywithai.net/bots/cloud-spend-desk/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/cloud-spend-desk.json",
+      "official_share_url": "https://x.ai/bot/TAzgDpkrgwiVaFjaSbCe6",
+      "added_at": "2026-11-26T10:00:00.000Z"
+    },
+    {
+      "type": "bot",
+      "slug": "notion-bot",
+      "title": "Notion Bot",
+      "category": "Research and Ops",
+      "sub_use_case": "Team memory",
+      "summary": "Tidies an existing Notion workspace each week: consistent titles, filled-in properties, one set of tags and working relations between databases.",
+      "creator": "cu30rry_",
+      "url": "https://moneywithai.net/bots/notion-bot/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/notion-bot.json",
+      "official_share_url": "https://x.ai/bot/yrN-hdSX5YoF0cQ5U0sbb",
+      "added_at": "2026-11-26T10:00:00.000Z"
+    },
+    {
+      "type": "bot",
+      "slug": "snowflake-analyst",
+      "title": "Snowflake Analyst",
+      "category": "Research and Ops",
+      "sub_use_case": "Product and engineering",
+      "summary": "Answers questions about your Snowflake data in plain English, showing the SQL behind each figure. It only reads.",
+      "creator": "cu30rry_",
+      "url": "https://moneywithai.net/bots/snowflake-analyst/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/snowflake-analyst.json",
+      "official_share_url": "https://x.ai/bot/LI4x0WdC_saRljwVwno4X",
+      "added_at": "2026-11-26T10:00:00.000Z"
+    },
+    {
+      "type": "bot",
+      "slug": "urgenta",
+      "title": "Urgenta",
+      "category": "Research and Ops",
+      "sub_use_case": "Product and engineering",
+      "summary": "Watches your team's channels and mail for signs that a system is down or a part is missing, then pages the owner on call.",
+      "creator": "0xarthurzs",
+      "url": "https://moneywithai.net/bots/urgenta/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/urgenta.json",
+      "official_share_url": "https://x.ai/bot/y7DRih96Sk_Y6qHddWfID",
+      "added_at": "2026-11-26T10:00:00.000Z"
+    },
     {
       "type": "bot",
       "slug": "desk-for-line",
@@ -9284,6 +9349,20 @@
     },
     {
       "type": "use-case",
+      "slug": "answer-data-questions-without-an-analyst",
+      "title": "Answer Data Questions Without Waiting for an Analyst",
+      "category": "Research and Ops",
+      "summary": "Ask plain-English questions of your warehouse and turn the answer into a chart for a client update or deck.",
+      "bots": [
+        "snowflake-analyst",
+        "data-viz-bot"
+      ],
+      "url": "https://moneywithai.net/use-cases/answer-data-questions-without-an-analyst/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/answer-data-questions-without-an-analyst.json",
+      "added_at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "type": "use-case",
       "slug": "answer-line-customers-with-approval",
       "title": "Answer LINE Customers with Your Approval",
       "category": "Customer Support",
@@ -9518,6 +9597,20 @@
       ],
       "url": "https://moneywithai.net/use-cases/catch-every-new-lead-in-one-sweep/",
       "detail_url": "https://moneywithai.net/api/v1/use-cases/catch-every-new-lead-in-one-sweep.json",
+      "added_at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "type": "use-case",
+      "slug": "catch-outages-before-customers-do",
+      "title": "Catch an Outage Before Customers Do",
+      "category": "Research and Ops",
+      "summary": "Get the right owner paged the moment a system or part fails, then keep the issue in view until it is closed.",
+      "bots": [
+        "urgenta",
+        "bot-ops-monitor"
+      ],
+      "url": "https://moneywithai.net/use-cases/catch-outages-before-customers-do/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/catch-outages-before-customers-do.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {
@@ -9831,6 +9924,20 @@
       ],
       "url": "https://moneywithai.net/use-cases/customer-voice-ad-engine/",
       "detail_url": "https://moneywithai.net/api/v1/use-cases/customer-voice-ad-engine.json",
+      "added_at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "type": "use-case",
+      "slug": "cut-idle-cloud-and-software-costs",
+      "title": "Cut Idle Cloud and Software Costs",
+      "category": "Finance",
+      "summary": "Find unused hosting, domains and subscriptions in your bills and emails, then approve each cancellation yourself.",
+      "bots": [
+        "cloud-spend-desk",
+        "dead-sub-collector"
+      ],
+      "url": "https://moneywithai.net/use-cases/cut-idle-cloud-and-software-costs/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/cut-idle-cloud-and-software-costs.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {
@@ -10274,6 +10381,20 @@
       ],
       "url": "https://moneywithai.net/use-cases/keep-bot-work-running-past-usage-limits/",
       "detail_url": "https://moneywithai.net/api/v1/use-cases/keep-bot-work-running-past-usage-limits.json",
+      "added_at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "type": "use-case",
+      "slug": "keep-the-workspace-consistent",
+      "title": "Keep the Shared Notion Workspace Consistent",
+      "category": "Research and Ops",
+      "summary": "Tidy titles, tags and database links each week, and keep one page of decisions and context up to date.",
+      "bots": [
+        "notion-bot",
+        "notion-memory-keeper"
+      ],
+      "url": "https://moneywithai.net/use-cases/keep-the-workspace-consistent/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/keep-the-workspace-consistent.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {
@@ -11620,6 +11741,20 @@
       ],
       "url": "https://moneywithai.net/use-cases/start-the-day-with-an-ai-brief/",
       "detail_url": "https://moneywithai.net/api/v1/use-cases/start-the-day-with-an-ai-brief.json",
+      "added_at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "type": "use-case",
+      "slug": "stop-ad-budget-leaking",
+      "title": "Stop Ad Budget Leaking into Dead Campaigns",
+      "category": "Content and Marketing",
+      "summary": "Spot ad campaigns and landing pages that spend without converting, then decide what to pause.",
+      "bots": [
+        "ad-spend-desk",
+        "google-ads-performance-analyst"
+      ],
+      "url": "https://moneywithai.net/use-cases/stop-ad-budget-leaking/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/stop-ad-budget-leaking.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {

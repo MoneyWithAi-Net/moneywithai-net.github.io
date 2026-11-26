@@ -25,11 +25,12 @@
   "url": "https://moneywithai.net/bots/data-viz-bot/",
   "json_url": "https://moneywithai.net/api/v1/bots/data-viz-bot.json",
   "use_cases": [
-    "https://moneywithai.net/use-cases/send-client-updates-with-clear-charts/"
+    "https://moneywithai.net/use-cases/send-client-updates-with-clear-charts/",
+    "https://moneywithai.net/use-cases/answer-data-questions-without-an-analyst/"
   ],
   "added_at": "2026-10-31T10:00:00.000Z",
   "featured": {
-    "rank": 87,
+    "rank": 89,
     "score": 87,
     "money": 27,
     "profile": 30,

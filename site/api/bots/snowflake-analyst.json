@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "snowflake-analyst",
+    "name": "Snowflake Analyst",
+    "category": "Research and Ops",
+    "sub_use_case": "Product and engineering",
+    "summary": "Answers questions about your Snowflake data in plain English, showing the SQL behind each figure. It only reads.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "cu30rry_",
+      "url": "https://x.com/cu30rry_"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/LI4x0WdC_saRljwVwno4X"
+    },
+    "official_share_url": "https://x.ai/bot/LI4x0WdC_saRljwVwno4X",
+    "found_via": null,
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-11-26",
+    "url": "https://moneywithai.net/bots/snowflake-analyst/",
+    "json_url": "https://moneywithai.net/api/bots/snowflake-analyst.json"
+  }
+}

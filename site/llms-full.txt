@@ -87,6 +87,18 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included
 
+## Ad Spend Desk
+
+- URL: https://moneywithai.net/bots/ad-spend-desk/
+- Category: Content and Marketing
+- Summary (Money With AI's words): Finds ad campaigns, ad sets and creatives that keep spending without converting, and landing pages that lose visitors. It pauses nothing without your OK.
+- Tools: Grok
+- Creator: @Av1dlive (https://x.com/Av1dlive)
+- Original source: https://x.ai/bot/MQLGGf9tlc1LITK3ixesd
+- Official share link: https://x.ai/bot/MQLGGf9tlc1LITK3ixesd
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
 ## Ad Spend Watch
 
 - URL: https://moneywithai.net/bots/ad-spend-watch/
@@ -1207,6 +1219,18 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Original source: https://x.ai/bot/s20b2c65ebeebb7362fa7
 - Official share link: https://x.ai/bot/s20b2c65ebeebb7362fa7
 - Found via: https://x.ai/bot/s20b2c65ebeebb7362fa7
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Cloud Spend Desk
+
+- URL: https://moneywithai.net/bots/cloud-spend-desk/
+- Category: Finance
+- Summary (Money With AI's words): Reads your hosting and cloud invoices and reports where money is wasted, ranked by savings. It changes nothing itself.
+- Tools: Grok
+- Creator: @Av1dlive (https://x.com/Av1dlive)
+- Original source: https://x.ai/bot/TAzgDpkrgwiVaFjaSbCe6
+- Official share link: https://x.ai/bot/TAzgDpkrgwiVaFjaSbCe6
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
@@ -4788,6 +4812,18 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
+## Notion Bot
+
+- URL: https://moneywithai.net/bots/notion-bot/
+- Category: Research and Ops
+- Summary (Money With AI's words): Tidies an existing Notion workspace each week: consistent titles, filled-in properties, one set of tags and working relations between databases.
+- Tools: Grok
+- Creator: @cu30rry_ (https://x.com/cu30rry_)
+- Original source: https://x.ai/bot/yrN-hdSX5YoF0cQ5U0sbb
+- Official share link: https://x.ai/bot/yrN-hdSX5YoF0cQ5U0sbb
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
 ## Notion Memory Keeper
 
 - URL: https://moneywithai.net/bots/notion-memory-keeper/
@@ -6919,6 +6955,18 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
+## Snowflake Analyst
+
+- URL: https://moneywithai.net/bots/snowflake-analyst/
+- Category: Research and Ops
+- Summary (Money With AI's words): Answers questions about your Snowflake data in plain English, showing the SQL behind each figure. It only reads.
+- Tools: Grok
+- Creator: @cu30rry_ (https://x.com/cu30rry_)
+- Original source: https://x.ai/bot/LI4x0WdC_saRljwVwno4X
+- Official share link: https://x.ai/bot/LI4x0WdC_saRljwVwno4X
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
 ## Social Design Agent
 
 - URL: https://moneywithai.net/bots/social-design-agent/
@@ -7724,6 +7772,18 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Creator: @exzacklyright (https://x.com/exzacklyright)
 - Original source: https://x.ai/bot/dJjPoIEgbdqwMkbeQNJWU
 - Official share link: https://x.ai/bot/dJjPoIEgbdqwMkbeQNJWU
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Urgenta
+
+- URL: https://moneywithai.net/bots/urgenta/
+- Category: Research and Ops
+- Summary (Money With AI's words): Watches your team's channels and mail for signs that a system is down or a part is missing, then pages the owner on call.
+- Tools: Grok
+- Creator: @0xarthurzs (https://x.com/0xarthurzs)
+- Original source: https://x.ai/bot/y7DRih96Sk_Y6qHddWfID
+- Official share link: https://x.ai/bot/y7DRih96Sk_Y6qHddWfID
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 

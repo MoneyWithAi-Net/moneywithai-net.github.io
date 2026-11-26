@@ -156,7 +156,7 @@
               "type": "string",
               "pattern": "^[a-z0-9-]+$"
             },
-            "example": "desk-for-line"
+            "example": "ad-spend-desk"
           }
         ],
         "responses": {
