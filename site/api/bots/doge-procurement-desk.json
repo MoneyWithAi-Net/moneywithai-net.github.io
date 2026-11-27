@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "doge-procurement-desk",
+    "name": "DOGE Procurement Desk",
+    "category": "Finance",
+    "sub_use_case": "SaaS spend",
+    "summary": "Looks for software seats nobody uses, overlapping tools and renewals worth a second look, then drafts the cancellation or counteroffer message. Nothing is sent until you agree.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "Av1dlive",
+      "url": "https://x.com/Av1dlive"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/Tp-pBgcS3F_8Oc1bEygxw"
+    },
+    "official_share_url": "https://x.ai/bot/Tp-pBgcS3F_8Oc1bEygxw",
+    "found_via": null,
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-11-27",
+    "url": "https://moneywithai.net/bots/doge-procurement-desk/",
+    "json_url": "https://moneywithai.net/api/bots/doge-procurement-desk.json"
+  }
+}

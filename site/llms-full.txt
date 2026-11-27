@@ -243,6 +243,18 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
+## AI Price Watch
+
+- URL: https://moneywithai.net/bots/ai-price-watch/
+- Category: Finance
+- Summary (Money With AI's words): Tell it which AI models you rely on and how heavily. Each Monday it flags where a cheaper tier would do the same job and links to the providers' own pricing pages.
+- Tools: Grok
+- Creator: @McLeodAgency (https://x.com/McLeodAgency)
+- Original source: https://x.ai/bot/LVV6rcMxNBUKHPX5QFKP-
+- Official share link: https://x.ai/bot/LVV6rcMxNBUKHPX5QFKP-
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
 ## AI Radar
 
 - URL: https://moneywithai.net/bots/ai-radar/
@@ -1966,6 +1978,18 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
+## DartzDabz Crew Builder
+
+- URL: https://moneywithai.net/bots/dartzdabz-crew-builder/
+- Category: Content and Marketing
+- Summary (Money With AI's words): Asks about your online business, then proposes a small crew of helpers for web work, search visibility, research, social posts and newsletters. Nothing goes live or gets posted until you approve it.
+- Tools: Grok
+- Creator: @420milehighgolf (https://x.com/420milehighgolf)
+- Original source: https://x.ai/bot/6WerbputYt61R-bzRXzYX
+- Official share link: https://x.ai/bot/6WerbputYt61R-bzRXzYX
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
 ## Data Contract Guard
 
 - URL: https://moneywithai.net/bots/data-contract-guard/
@@ -2215,6 +2239,18 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Creator: Alex Gurinovich (https://n8n.io/creators/alexg/)
 - Original source: https://n8n.io/workflows/5046/
 - Found via: https://n8n.io/workflows/
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## DOGE Procurement Desk
+
+- URL: https://moneywithai.net/bots/doge-procurement-desk/
+- Category: Finance
+- Summary (Money With AI's words): Looks for software seats nobody uses, overlapping tools and renewals worth a second look, then drafts the cancellation or counteroffer message. Nothing is sent until you agree.
+- Tools: Grok
+- Creator: @Av1dlive (https://x.com/Av1dlive)
+- Original source: https://x.ai/bot/Tp-pBgcS3F_8Oc1bEygxw
+- Official share link: https://x.ai/bot/Tp-pBgcS3F_8Oc1bEygxw
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
@@ -4553,6 +4589,18 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
+## MEL preguntas
+
+- URL: https://moneywithai.net/bots/mel-preguntas/
+- Category: E-Commerce
+- Summary (Money With AI's words): Answers Mercado Libre buyer questions and post-sale chats in your store's voice. It reads your past replies, sorts each message and checks stock before it promises anything.
+- Tools: Grok
+- Creator: @maarmapa (https://x.com/maarmapa)
+- Original source: https://x.ai/bot/YvxsAro5SITkzr5x6TsWg
+- Official share link: https://x.ai/bot/YvxsAro5SITkzr5x6TsWg
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
 ## Merchy
 
 - URL: https://moneywithai.net/bots/merchy/
@@ -6115,6 +6163,18 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Original source: https://x.ai/bot/XftMzXd6cq-DT_ZLvdoy5
 - Official share link: https://x.ai/bot/XftMzXd6cq-DT_ZLvdoy5
 - Found via: https://x.ai/bot/XftMzXd6cq-DT_ZLvdoy5
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Rideshare Fleet Manager LITE
+
+- URL: https://moneywithai.net/bots/rideshare-fleet-manager-lite/
+- Category: Finance
+- Summary (Money With AI's words): Upload the weekly Uber and Bolt earnings exports and get one summary per driver across both platforms, plus a watchlist for insurance and licence expiry. It never pays or messages anyone by itself.
+- Tools: Grok
+- Creator: @ClaudiuBalaciv (https://x.com/ClaudiuBalaciv)
+- Original source: https://x.ai/bot/Eo4ij-wrng2-c9qFmrTd_
+- Official share link: https://x.ai/bot/Eo4ij-wrng2-c9qFmrTd_
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 

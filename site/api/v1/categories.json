@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T12:00:25.000Z",
+  "generated_at": "2026-11-27T03:59:33.000Z",
   "api_version": "v1",
   "schema_revision": 2,
   "status_url": "https://moneywithai.net/api/v1/status.json",
@@ -82,8 +82,8 @@
     {
       "slug": "content-and-marketing",
       "label": "Content and Marketing",
-      "bots": 168,
-      "use_cases": 45,
+      "bots": 169,
+      "use_cases": 46,
       "sub_use_cases": [
         {
           "slug": "x-posting",
@@ -133,7 +133,7 @@
         {
           "slug": "seo-and-ai-search",
           "label": "SEO and AI search",
-          "bots": 19
+          "bots": 20
         },
         {
           "slug": "newsletters-and-email",
@@ -166,13 +166,13 @@
     {
       "slug": "e-commerce",
       "label": "E-Commerce",
-      "bots": 35,
-      "use_cases": 22,
+      "bots": 36,
+      "use_cases": 23,
       "sub_use_cases": [
         {
           "slug": "store-operations",
           "label": "Store operations",
-          "bots": 18
+          "bots": 19
         },
         {
           "slug": "store-chief-of-staff",
@@ -234,8 +234,8 @@
     {
       "slug": "finance",
       "label": "Finance",
-      "bots": 42,
-      "use_cases": 21,
+      "bots": 45,
+      "use_cases": 23,
       "sub_use_cases": [
         {
           "slug": "invoices",
@@ -255,7 +255,7 @@
         {
           "slug": "expense-reports",
           "label": "Expense reports",
-          "bots": 3
+          "bots": 4
         },
         {
           "slug": "revenue-recovery",
@@ -265,7 +265,7 @@
         {
           "slug": "saas-spend",
           "label": "SaaS spend",
-          "bots": 15
+          "bots": 17
         },
         {
           "slug": "bookkeeping-and-reporting",
@@ -323,7 +323,7 @@
       "slug": "research-and-ops",
       "label": "Research and Ops",
       "bots": 245,
-      "use_cases": 36,
+      "use_cases": 37,
       "sub_use_cases": [
         {
           "slug": "competitor-intel",

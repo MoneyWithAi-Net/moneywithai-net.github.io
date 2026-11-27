@@ -1,0 +1,116 @@
+{
+  "type": "use-case",
+  "slug": "review-driver-earnings-each-week",
+  "title": "Review Driver Earnings Each Week",
+  "category": "Research and Ops",
+  "category_slug": "research-and-ops",
+  "money_model": "Save time",
+  "difficulty": "Beginner",
+  "summary": "Combine the weekly Uber and Bolt exports into one summary per driver, and keep a list of documents due to expire.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you run a small fleet on Uber and Bolt; the value is less time spent combining exports.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "One summary replaces two platform exports to check.",
+    "Expiring licences and insurance are caught early."
+  ],
+  "who_its_for": [
+    "Operators running a small rideshare fleet."
+  ],
+  "stack": [
+    {
+      "bot": "rideshare-fleet-manager-lite",
+      "name": "Rideshare Fleet Manager LITE",
+      "role": "Builds one weekly summary per driver across Uber and Bolt.",
+      "creator": "ClaudiuBalaciv",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/rideshare-fleet-manager-lite/",
+      "official_share_url": "https://x.ai/bot/Eo4ij-wrng2-c9qFmrTd_"
+    },
+    {
+      "bot": "small-business-bookkeeper",
+      "name": "Small Business Bookkeeper",
+      "role": "Keeps the weekly totals in your books.",
+      "creator": "MarsHomestead",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/small-business-bookkeeper/",
+      "official_share_url": "https://x.ai/bot/GsgpmqqJ4aUMtHBYZlDgJ"
+    }
+  ],
+  "tools": [
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Weekly Uber and Bolt exports",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "rideshare-fleet-manager-lite",
+        "name": "Rideshare Fleet Manager LITE",
+        "does": "Builds driver summaries and expiry list",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "small-business-bookkeeper",
+        "name": "Small Business Bookkeeper",
+        "does": "Records weekly totals",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Checks the summary against the platform",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A weekly summary per driver",
+      "An expiry watchlist"
+    ]
+  },
+  "steps": [
+    "Add the bots from their share links.",
+    "Upload the weekly exports.",
+    "Check two drivers against the platform totals.",
+    "Act on the expiry watchlist."
+  ],
+  "guardrails": [
+    "Check totals against the platform before you rely on them.",
+    "The bot never pays or messages drivers by itself."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-11-27T04:00:00.000Z",
+  "featured": {
+    "rank": 62,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/review-driver-earnings-each-week/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/review-driver-earnings-each-week.json"
+}

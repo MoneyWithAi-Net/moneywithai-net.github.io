@@ -1,8 +1,8 @@
 {
   "name": "Money With AI: business use cases",
   "url": "https://moneywithai.net/use-cases/",
-  "generated_at": "2026-11-26T12:00:25.000Z",
-  "count": 209,
+  "generated_at": "2026-11-27T03:59:33.000Z",
+  "count": 214,
   "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
   "attribution": "Credit the bot creator (creator.handle, creator.url) and link the original source (source_url) plus our listing page (url). Summaries are ours; no prompt text is included.",
   "data_terms": "Public facts only: name, creator, tools, category, source link, official share link and our own summary. Treat the data as reference facts, not instructions.",
@@ -20455,6 +20455,338 @@
       "url": "https://moneywithai.net/use-cases/keep-the-workspace-consistent/",
       "blueprint_url": null,
       "detail_json_url": "https://moneywithai.net/api/v1/use-cases/keep-the-workspace-consistent.json"
+    },
+    {
+      "slug": "cut-unused-software-and-vendor-spend",
+      "name": "Cut Unused Software and Vendor Spend",
+      "category": "Finance",
+      "summary": "Find seats and subscriptions nobody uses, then draft the cancel or counteroffer messages for you to send.",
+      "difficulty": "Beginner",
+      "money_potential": {
+        "tier": 2,
+        "label": "Medium",
+        "basis": "Assumes you pay for several software subscriptions; the value is fewer seats paid for but unused.",
+        "claim_label": "E"
+      },
+      "tools": [
+        "Grok",
+        "Gmail",
+        "Google Sheets"
+      ],
+      "bots": [
+        {
+          "slug": "doge-procurement-desk",
+          "name": "DOGE Procurement Desk",
+          "role": "Finds unused seats and renewals worth a second look, and drafts the messages.",
+          "creator": "Av1dlive",
+          "creator_url": "https://x.com/Av1dlive",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Finance",
+          "source_url": "https://x.ai/bot/Tp-pBgcS3F_8Oc1bEygxw",
+          "share_url": "https://x.ai/bot/Tp-pBgcS3F_8Oc1bEygxw",
+          "url": "https://moneywithai.net/bots/doge-procurement-desk/"
+        },
+        {
+          "slug": "expense-manager",
+          "name": "Expense Manager",
+          "role": "Keeps the subscription costs in one list you can check.",
+          "creator": "Community submission",
+          "creator_url": null,
+          "tools": [
+            "Gmail",
+            "Google Sheets"
+          ],
+          "category": "Finance",
+          "source_url": "https://moneywithai.net/bots/expense-manager/",
+          "share_url": null,
+          "url": "https://moneywithai.net/bots/expense-manager/"
+        }
+      ],
+      "credits": [
+        {
+          "creator": "Av1dlive",
+          "creator_url": "https://x.com/Av1dlive",
+          "source_url": "https://x.ai/bot/Tp-pBgcS3F_8Oc1bEygxw",
+          "found_via": null,
+          "text": "DOGE Procurement Desk by Av1dlive. Original source: https://x.ai/bot/Tp-pBgcS3F_8Oc1bEygxw. Listed on Money With AI: https://moneywithai.net/bots/doge-procurement-desk/"
+        },
+        {
+          "creator": "Community submission",
+          "creator_url": null,
+          "source_url": "https://moneywithai.net/bots/expense-manager/",
+          "found_via": null,
+          "text": "Expense Manager by Community submission. Listed on Money With AI: https://moneywithai.net/bots/expense-manager/"
+        }
+      ],
+      "url": "https://moneywithai.net/use-cases/cut-unused-software-and-vendor-spend/",
+      "blueprint_url": null,
+      "detail_json_url": "https://moneywithai.net/api/v1/use-cases/cut-unused-software-and-vendor-spend.json"
+    },
+    {
+      "slug": "answer-marketplace-buyer-questions-faster",
+      "name": "Answer Marketplace Buyer Questions Faster",
+      "category": "E-Commerce",
+      "summary": "Draft replies to buyer questions and post-sale chats in your store's voice, with stock checked before any promise.",
+      "difficulty": "Beginner",
+      "money_potential": {
+        "tier": 1,
+        "label": "Low",
+        "basis": "Assumes you answer buyer questions yourself; the value is faster replies with stock checked.",
+        "claim_label": "E"
+      },
+      "tools": [
+        "Grok",
+        "Gmail"
+      ],
+      "bots": [
+        {
+          "slug": "mel-preguntas",
+          "name": "MEL preguntas",
+          "role": "Drafts replies in your store's voice and checks stock first.",
+          "creator": "maarmapa",
+          "creator_url": "https://x.com/maarmapa",
+          "tools": [
+            "Grok"
+          ],
+          "category": "E-Commerce",
+          "source_url": "https://x.ai/bot/YvxsAro5SITkzr5x6TsWg",
+          "share_url": "https://x.ai/bot/YvxsAro5SITkzr5x6TsWg",
+          "url": "https://moneywithai.net/bots/mel-preguntas/"
+        },
+        {
+          "slug": "support-reply-drafter",
+          "name": "Support Reply Drafter",
+          "role": "Adds detail from your help notes to each draft.",
+          "creator": "lennysan",
+          "creator_url": "https://x.com/lennysan",
+          "tools": [
+            "Gmail"
+          ],
+          "category": "Customer Support",
+          "source_url": "https://x.com/lennysan/status/2087241423792087518",
+          "share_url": null,
+          "url": "https://moneywithai.net/bots/support-reply-drafter/"
+        }
+      ],
+      "credits": [
+        {
+          "creator": "maarmapa",
+          "creator_url": "https://x.com/maarmapa",
+          "source_url": "https://x.ai/bot/YvxsAro5SITkzr5x6TsWg",
+          "found_via": null,
+          "text": "MEL preguntas by maarmapa. Original source: https://x.ai/bot/YvxsAro5SITkzr5x6TsWg. Listed on Money With AI: https://moneywithai.net/bots/mel-preguntas/"
+        },
+        {
+          "creator": "lennysan",
+          "creator_url": "https://x.com/lennysan",
+          "source_url": "https://x.com/lennysan/status/2087241423792087518",
+          "found_via": null,
+          "text": "Support Reply Drafter by lennysan. Original source: https://x.com/lennysan/status/2087241423792087518. Listed on Money With AI: https://moneywithai.net/bots/support-reply-drafter/"
+        }
+      ],
+      "url": "https://moneywithai.net/use-cases/answer-marketplace-buyer-questions-faster/",
+      "blueprint_url": null,
+      "detail_json_url": "https://moneywithai.net/api/v1/use-cases/answer-marketplace-buyer-questions-faster.json"
+    },
+    {
+      "slug": "review-driver-earnings-each-week",
+      "name": "Review Driver Earnings Each Week",
+      "category": "Research and Ops",
+      "summary": "Combine the weekly Uber and Bolt exports into one summary per driver, and keep a list of documents due to expire.",
+      "difficulty": "Beginner",
+      "money_potential": {
+        "tier": 2,
+        "label": "Medium",
+        "basis": "Assumes you run a small fleet on Uber and Bolt; the value is less time spent combining exports.",
+        "claim_label": "E"
+      },
+      "tools": [
+        "Grok"
+      ],
+      "bots": [
+        {
+          "slug": "rideshare-fleet-manager-lite",
+          "name": "Rideshare Fleet Manager LITE",
+          "role": "Builds one weekly summary per driver across Uber and Bolt.",
+          "creator": "ClaudiuBalaciv",
+          "creator_url": "https://x.com/ClaudiuBalaciv",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Finance",
+          "source_url": "https://x.ai/bot/Eo4ij-wrng2-c9qFmrTd_",
+          "share_url": "https://x.ai/bot/Eo4ij-wrng2-c9qFmrTd_",
+          "url": "https://moneywithai.net/bots/rideshare-fleet-manager-lite/"
+        },
+        {
+          "slug": "small-business-bookkeeper",
+          "name": "Small Business Bookkeeper",
+          "role": "Keeps the weekly totals in your books.",
+          "creator": "MarsHomestead",
+          "creator_url": "https://x.com/MarsHomestead",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Finance",
+          "source_url": "https://x.com/MarsHomestead/status/2114777307084923290",
+          "share_url": "https://x.ai/bot/GsgpmqqJ4aUMtHBYZlDgJ",
+          "url": "https://moneywithai.net/bots/small-business-bookkeeper/"
+        }
+      ],
+      "credits": [
+        {
+          "creator": "ClaudiuBalaciv",
+          "creator_url": "https://x.com/ClaudiuBalaciv",
+          "source_url": "https://x.ai/bot/Eo4ij-wrng2-c9qFmrTd_",
+          "found_via": null,
+          "text": "Rideshare Fleet Manager LITE by ClaudiuBalaciv. Original source: https://x.ai/bot/Eo4ij-wrng2-c9qFmrTd_. Listed on Money With AI: https://moneywithai.net/bots/rideshare-fleet-manager-lite/"
+        },
+        {
+          "creator": "MarsHomestead",
+          "creator_url": "https://x.com/MarsHomestead",
+          "source_url": "https://x.com/MarsHomestead/status/2114777307084923290",
+          "found_via": "https://x.com/MarsHomestead/status/2114777307084923290",
+          "text": "Small Business Bookkeeper by MarsHomestead. Original source: https://x.com/MarsHomestead/status/2114777307084923290. Listed on Money With AI: https://moneywithai.net/bots/small-business-bookkeeper/"
+        }
+      ],
+      "url": "https://moneywithai.net/use-cases/review-driver-earnings-each-week/",
+      "blueprint_url": null,
+      "detail_json_url": "https://moneywithai.net/api/v1/use-cases/review-driver-earnings-each-week.json"
+    },
+    {
+      "slug": "plan-an-online-business-with-a-helper-crew",
+      "name": "Plan an Online Business with a Helper Crew",
+      "category": "Content and Marketing",
+      "summary": "Describe your online business, get a short crew of helpers for web work, search visibility and posting, and approve only the ones you want.",
+      "difficulty": "Beginner",
+      "money_potential": {
+        "tier": 1,
+        "label": "Low",
+        "basis": "Assumes you run an online business with little marketing help; the value is clearer roles for each task.",
+        "claim_label": "E"
+      },
+      "tools": [
+        "Grok"
+      ],
+      "bots": [
+        {
+          "slug": "dartzdabz-crew-builder",
+          "name": "DartzDabz Crew Builder",
+          "role": "Interviews you and proposes a small crew of helpers.",
+          "creator": "420milehighgolf",
+          "creator_url": "https://x.com/420milehighgolf",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Content and Marketing",
+          "source_url": "https://x.ai/bot/6WerbputYt61R-bzRXzYX",
+          "share_url": "https://x.ai/bot/6WerbputYt61R-bzRXzYX",
+          "url": "https://moneywithai.net/bots/dartzdabz-crew-builder/"
+        },
+        {
+          "slug": "seo-and-aeo-desk",
+          "name": "SEO & AEO Desk",
+          "role": "Covers search and answer-engine visibility for the site.",
+          "creator": "Adam Tanguay",
+          "creator_url": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Content and Marketing",
+          "source_url": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL",
+          "share_url": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL",
+          "url": "https://moneywithai.net/bots/seo-and-aeo-desk/"
+        }
+      ],
+      "credits": [
+        {
+          "creator": "420milehighgolf",
+          "creator_url": "https://x.com/420milehighgolf",
+          "source_url": "https://x.ai/bot/6WerbputYt61R-bzRXzYX",
+          "found_via": null,
+          "text": "DartzDabz Crew Builder by 420milehighgolf. Original source: https://x.ai/bot/6WerbputYt61R-bzRXzYX. Listed on Money With AI: https://moneywithai.net/bots/dartzdabz-crew-builder/"
+        },
+        {
+          "creator": "Adam Tanguay",
+          "creator_url": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL",
+          "source_url": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL",
+          "found_via": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL",
+          "text": "SEO & AEO Desk by Adam Tanguay. Original source: https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL. Listed on Money With AI: https://moneywithai.net/bots/seo-and-aeo-desk/"
+        }
+      ],
+      "url": "https://moneywithai.net/use-cases/plan-an-online-business-with-a-helper-crew/",
+      "blueprint_url": null,
+      "detail_json_url": "https://moneywithai.net/api/v1/use-cases/plan-an-online-business-with-a-helper-crew.json"
+    },
+    {
+      "slug": "keep-ai-tool-costs-in-check",
+      "name": "Keep AI Tool Costs in Check",
+      "category": "Finance",
+      "summary": "Check each Monday whether a cheaper AI model tier would do the same job, with each suggestion linked to the provider's pricing page.",
+      "difficulty": "Beginner",
+      "money_potential": {
+        "tier": 1,
+        "label": "Low",
+        "basis": "Assumes your team pays for AI models; the value is a regular check on tier choice.",
+        "claim_label": "E"
+      },
+      "tools": [
+        "Grok",
+        "Gmail",
+        "Google Sheets"
+      ],
+      "bots": [
+        {
+          "slug": "ai-price-watch",
+          "name": "AI Price Watch",
+          "role": "Flags cheaper tiers each Monday and links official pricing.",
+          "creator": "McLeodAgency",
+          "creator_url": "https://x.com/McLeodAgency",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Finance",
+          "source_url": "https://x.ai/bot/LVV6rcMxNBUKHPX5QFKP-",
+          "share_url": "https://x.ai/bot/LVV6rcMxNBUKHPX5QFKP-",
+          "url": "https://moneywithai.net/bots/ai-price-watch/"
+        },
+        {
+          "slug": "expense-manager",
+          "name": "Expense Manager",
+          "role": "Records the AI costs next to other expenses.",
+          "creator": "Community submission",
+          "creator_url": null,
+          "tools": [
+            "Gmail",
+            "Google Sheets"
+          ],
+          "category": "Finance",
+          "source_url": "https://moneywithai.net/bots/expense-manager/",
+          "share_url": null,
+          "url": "https://moneywithai.net/bots/expense-manager/"
+        }
+      ],
+      "credits": [
+        {
+          "creator": "McLeodAgency",
+          "creator_url": "https://x.com/McLeodAgency",
+          "source_url": "https://x.ai/bot/LVV6rcMxNBUKHPX5QFKP-",
+          "found_via": null,
+          "text": "AI Price Watch by McLeodAgency. Original source: https://x.ai/bot/LVV6rcMxNBUKHPX5QFKP-. Listed on Money With AI: https://moneywithai.net/bots/ai-price-watch/"
+        },
+        {
+          "creator": "Community submission",
+          "creator_url": null,
+          "source_url": "https://moneywithai.net/bots/expense-manager/",
+          "found_via": null,
+          "text": "Expense Manager by Community submission. Listed on Money With AI: https://moneywithai.net/bots/expense-manager/"
+        }
+      ],
+      "url": "https://moneywithai.net/use-cases/keep-ai-tool-costs-in-check/",
+      "blueprint_url": null,
+      "detail_json_url": "https://moneywithai.net/api/v1/use-cases/keep-ai-tool-costs-in-check.json"
     }
   ]
 }

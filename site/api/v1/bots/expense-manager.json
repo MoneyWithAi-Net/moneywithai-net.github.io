@@ -27,11 +27,13 @@
   "json_url": "https://moneywithai.net/api/v1/bots/expense-manager.json",
   "use_cases": [
     "https://moneywithai.net/use-cases/vendor-and-contractor-negotiation/",
-    "https://moneywithai.net/use-cases/team-expense-reconcile/"
+    "https://moneywithai.net/use-cases/team-expense-reconcile/",
+    "https://moneywithai.net/use-cases/cut-unused-software-and-vendor-spend/",
+    "https://moneywithai.net/use-cases/keep-ai-tool-costs-in-check/"
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 155,
+    "rank": 158,
     "score": 83,
     "money": 27,
     "profile": 26,

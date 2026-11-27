@@ -25,16 +25,17 @@
   "url": "https://moneywithai.net/bots/small-business-bookkeeper/",
   "json_url": "https://moneywithai.net/api/v1/bots/small-business-bookkeeper.json",
   "use_cases": [
-    "https://moneywithai.net/use-cases/tax-ready-books-all-year/"
+    "https://moneywithai.net/use-cases/tax-ready-books-all-year/",
+    "https://moneywithai.net/use-cases/review-driver-earnings-each-week/"
   ],
   "added_at": "2026-10-29T10:00:00.000Z",
   "featured": {
-    "rank": 216,
-    "score": 83,
+    "rank": 135,
+    "score": 87,
     "money": 27,
     "profile": 30,
     "visuals": 20,
-    "difficulty": 6,
+    "difficulty": 10,
     "override": null,
     "rules": "https://moneywithai.net/llms.txt"
   }

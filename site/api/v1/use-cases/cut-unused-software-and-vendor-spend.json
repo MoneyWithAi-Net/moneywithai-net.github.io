@@ -1,0 +1,120 @@
+{
+  "type": "use-case",
+  "slug": "cut-unused-software-and-vendor-spend",
+  "title": "Cut Unused Software and Vendor Spend",
+  "category": "Finance",
+  "category_slug": "finance",
+  "money_model": "Save costs",
+  "difficulty": "Beginner",
+  "summary": "Find seats and subscriptions nobody uses, then draft the cancel or counteroffer messages for you to send.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you pay for several software subscriptions; the value is fewer seats paid for but unused.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Less money goes on seats nobody logs into.",
+    "Renewals get a second look before they auto-renew."
+  ],
+  "who_its_for": [
+    "Small businesses with many software subscriptions."
+  ],
+  "stack": [
+    {
+      "bot": "doge-procurement-desk",
+      "name": "DOGE Procurement Desk",
+      "role": "Finds unused seats and renewals worth a second look, and drafts the messages.",
+      "creator": "Av1dlive",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/doge-procurement-desk/",
+      "official_share_url": "https://x.ai/bot/Tp-pBgcS3F_8Oc1bEygxw"
+    },
+    {
+      "bot": "expense-manager",
+      "name": "Expense Manager",
+      "role": "Keeps the subscription costs in one list you can check.",
+      "creator": "Community submission",
+      "tools": [
+        "Gmail",
+        "Google Sheets"
+      ],
+      "url": "https://moneywithai.net/bots/expense-manager/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Grok",
+    "Gmail",
+    "Google Sheets"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Vendor list and seat counts",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "doge-procurement-desk",
+        "name": "DOGE Procurement Desk",
+        "does": "Flags unused seats and drafts messages",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "expense-manager",
+        "name": "Expense Manager",
+        "does": "Keeps one cost list",
+        "tools": [
+          "Gmail",
+          "Google Sheets"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Approves each message",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A findings list",
+      "Draft messages you approve before sending"
+    ]
+  },
+  "steps": [
+    "Add the bots from their share links.",
+    "List your vendors, plans and seat counts.",
+    "Review the flagged seats with your team.",
+    "Send only the messages you approve."
+  ],
+  "guardrails": [
+    "Confirm seat use with your team before you cancel.",
+    "The bots do not cancel or pay on their own."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-11-27T04:00:00.000Z",
+  "featured": {
+    "rank": 43,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/cut-unused-software-and-vendor-spend/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/cut-unused-software-and-vendor-spend.json"
+}

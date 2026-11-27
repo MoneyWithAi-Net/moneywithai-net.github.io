@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "rideshare-fleet-manager-lite",
+  "name": "Rideshare Fleet Manager LITE",
+  "category": "Finance",
+  "sub_use_case": "Expense reports",
+  "summary": "Upload the weekly Uber and Bolt earnings exports and get one summary per driver across both platforms, plus a watchlist for insurance and licence expiry. It never pays or messages anyone by itself.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "ClaudiuBalaciv",
+    "url": "https://x.com/ClaudiuBalaciv"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/Eo4ij-wrng2-c9qFmrTd_"
+  },
+  "official_share_url": "https://x.ai/bot/Eo4ij-wrng2-c9qFmrTd_",
+  "found_via": null,
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-11-27",
+  "url": "https://moneywithai.net/bots/rideshare-fleet-manager-lite/",
+  "json_url": "https://moneywithai.net/api/v1/bots/rideshare-fleet-manager-lite.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/review-driver-earnings-each-week/"
+  ],
+  "added_at": "2026-11-27T04:00:00.000Z",
+  "featured": {
+    "rank": 130,
+    "score": 87,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

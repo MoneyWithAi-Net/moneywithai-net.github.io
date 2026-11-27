@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "doge-procurement-desk",
+  "name": "DOGE Procurement Desk",
+  "category": "Finance",
+  "sub_use_case": "SaaS spend",
+  "summary": "Looks for software seats nobody uses, overlapping tools and renewals worth a second look, then drafts the cancellation or counteroffer message. Nothing is sent until you agree.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "Av1dlive",
+    "url": "https://x.com/Av1dlive"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/Tp-pBgcS3F_8Oc1bEygxw"
+  },
+  "official_share_url": "https://x.ai/bot/Tp-pBgcS3F_8Oc1bEygxw",
+  "found_via": null,
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-11-27",
+  "url": "https://moneywithai.net/bots/doge-procurement-desk/",
+  "json_url": "https://moneywithai.net/api/v1/bots/doge-procurement-desk.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/cut-unused-software-and-vendor-spend/"
+  ],
+  "added_at": "2026-11-27T04:00:00.000Z",
+  "featured": {
+    "rank": 93,
+    "score": 87,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

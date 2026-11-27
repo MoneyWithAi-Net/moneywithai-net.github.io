@@ -1,0 +1,116 @@
+{
+  "type": "use-case",
+  "slug": "plan-an-online-business-with-a-helper-crew",
+  "title": "Plan an Online Business with a Helper Crew",
+  "category": "Content and Marketing",
+  "category_slug": "content-and-marketing",
+  "money_model": "Grow sales",
+  "difficulty": "Beginner",
+  "summary": "Describe your online business, get a short crew of helpers for web work, search visibility and posting, and approve only the ones you want.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Assumes you run an online business with little marketing help; the value is clearer roles for each task.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "A clear plan for who does what in marketing.",
+    "Search visibility work gets a named owner."
+  ],
+  "who_its_for": [
+    "Solo founders and small teams running an online business."
+  ],
+  "stack": [
+    {
+      "bot": "dartzdabz-crew-builder",
+      "name": "DartzDabz Crew Builder",
+      "role": "Interviews you and proposes a small crew of helpers.",
+      "creator": "420milehighgolf",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/dartzdabz-crew-builder/",
+      "official_share_url": "https://x.ai/bot/6WerbputYt61R-bzRXzYX"
+    },
+    {
+      "bot": "seo-and-aeo-desk",
+      "name": "SEO & AEO Desk",
+      "role": "Covers search and answer-engine visibility for the site.",
+      "creator": "Adam Tanguay",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/seo-and-aeo-desk/",
+      "official_share_url": "https://x.ai/bot/0IhyZWxwbf2cFmsmroZQL"
+    }
+  ],
+  "tools": [
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Business answers and goals",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "dartzdabz-crew-builder",
+        "name": "DartzDabz Crew Builder",
+        "does": "Proposes a helper crew",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "seo-and-aeo-desk",
+        "name": "SEO & AEO Desk",
+        "does": "Drafts search visibility tasks",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Approves each helper and draft",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A crew plan you approve",
+      "Draft tasks you review"
+    ]
+  },
+  "steps": [
+    "Add the bots from their share links.",
+    "Answer the crew builder's questions.",
+    "Approve the helpers you want.",
+    "Review the first drafts before anything goes live."
+  ],
+  "guardrails": [
+    "Nothing goes live, gets posted or spends until you approve it.",
+    "Check every draft for accuracy."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-11-27T04:00:00.000Z",
+  "featured": {
+    "rank": 179,
+    "score": 69,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/plan-an-online-business-with-a-helper-crew/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/plan-an-online-business-with-a-helper-crew.json"
+}

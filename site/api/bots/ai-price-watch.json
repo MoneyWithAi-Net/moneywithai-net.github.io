@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "ai-price-watch",
+    "name": "AI Price Watch",
+    "category": "Finance",
+    "sub_use_case": "SaaS spend",
+    "summary": "Tell it which AI models you rely on and how heavily. Each Monday it flags where a cheaper tier would do the same job and links to the providers' own pricing pages.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "McLeodAgency",
+      "url": "https://x.com/McLeodAgency"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/LVV6rcMxNBUKHPX5QFKP-"
+    },
+    "official_share_url": "https://x.ai/bot/LVV6rcMxNBUKHPX5QFKP-",
+    "found_via": null,
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-11-27",
+    "url": "https://moneywithai.net/bots/ai-price-watch/",
+    "json_url": "https://moneywithai.net/api/bots/ai-price-watch.json"
+  }
+}

@@ -27,11 +27,12 @@
   "use_cases": [
     "https://moneywithai.net/use-cases/multilingual-support-desk/",
     "https://moneywithai.net/use-cases/churn-save-program/",
-    "https://moneywithai.net/use-cases/answer-line-customers-with-approval/"
+    "https://moneywithai.net/use-cases/answer-line-customers-with-approval/",
+    "https://moneywithai.net/use-cases/answer-marketplace-buyer-questions-faster/"
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 183,
+    "rank": 186,
     "score": 83,
     "money": 27,
     "profile": 26,

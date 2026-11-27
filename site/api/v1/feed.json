@@ -1,10 +1,75 @@
 {
-  "generated_at": "2026-11-26T12:00:25.000Z",
+  "generated_at": "2026-11-27T03:59:33.000Z",
   "api_version": "v1",
   "schema_revision": 2,
   "status_url": "https://moneywithai.net/api/v1/status.json",
-  "count": 913,
+  "count": 923,
   "items": [
+    {
+      "type": "bot",
+      "slug": "ai-price-watch",
+      "title": "AI Price Watch",
+      "category": "Finance",
+      "sub_use_case": "SaaS spend",
+      "summary": "Tell it which AI models you rely on and how heavily. Each Monday it flags where a cheaper tier would do the same job and links to the providers' own pricing pages.",
+      "creator": "McLeodAgency",
+      "url": "https://moneywithai.net/bots/ai-price-watch/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/ai-price-watch.json",
+      "official_share_url": "https://x.ai/bot/LVV6rcMxNBUKHPX5QFKP-",
+      "added_at": "2026-11-27T04:00:00.000Z"
+    },
+    {
+      "type": "bot",
+      "slug": "dartzdabz-crew-builder",
+      "title": "DartzDabz Crew Builder",
+      "category": "Content and Marketing",
+      "sub_use_case": "SEO and AI search",
+      "summary": "Asks about your online business, then proposes a small crew of helpers for web work, search visibility, research, social posts and newsletters. Nothing goes live or gets posted until you approve it.",
+      "creator": "420milehighgolf",
+      "url": "https://moneywithai.net/bots/dartzdabz-crew-builder/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/dartzdabz-crew-builder.json",
+      "official_share_url": "https://x.ai/bot/6WerbputYt61R-bzRXzYX",
+      "added_at": "2026-11-27T04:00:00.000Z"
+    },
+    {
+      "type": "bot",
+      "slug": "doge-procurement-desk",
+      "title": "DOGE Procurement Desk",
+      "category": "Finance",
+      "sub_use_case": "SaaS spend",
+      "summary": "Looks for software seats nobody uses, overlapping tools and renewals worth a second look, then drafts the cancellation or counteroffer message. Nothing is sent until you agree.",
+      "creator": "Av1dlive",
+      "url": "https://moneywithai.net/bots/doge-procurement-desk/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/doge-procurement-desk.json",
+      "official_share_url": "https://x.ai/bot/Tp-pBgcS3F_8Oc1bEygxw",
+      "added_at": "2026-11-27T04:00:00.000Z"
+    },
+    {
+      "type": "bot",
+      "slug": "mel-preguntas",
+      "title": "MEL preguntas",
+      "category": "E-Commerce",
+      "sub_use_case": "Store operations",
+      "summary": "Answers Mercado Libre buyer questions and post-sale chats in your store's voice. It reads your past replies, sorts each message and checks stock before it promises anything.",
+      "creator": "maarmapa",
+      "url": "https://moneywithai.net/bots/mel-preguntas/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/mel-preguntas.json",
+      "official_share_url": "https://x.ai/bot/YvxsAro5SITkzr5x6TsWg",
+      "added_at": "2026-11-27T04:00:00.000Z"
+    },
+    {
+      "type": "bot",
+      "slug": "rideshare-fleet-manager-lite",
+      "title": "Rideshare Fleet Manager LITE",
+      "category": "Finance",
+      "sub_use_case": "Expense reports",
+      "summary": "Upload the weekly Uber and Bolt earnings exports and get one summary per driver across both platforms, plus a watchlist for insurance and licence expiry. It never pays or messages anyone by itself.",
+      "creator": "ClaudiuBalaciv",
+      "url": "https://moneywithai.net/bots/rideshare-fleet-manager-lite/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/rideshare-fleet-manager-lite.json",
+      "official_share_url": "https://x.ai/bot/Eo4ij-wrng2-c9qFmrTd_",
+      "added_at": "2026-11-27T04:00:00.000Z"
+    },
     {
       "type": "bot",
       "slug": "ad-spend-desk",
@@ -9377,6 +9442,20 @@
     },
     {
       "type": "use-case",
+      "slug": "answer-marketplace-buyer-questions-faster",
+      "title": "Answer Marketplace Buyer Questions Faster",
+      "category": "E-Commerce",
+      "summary": "Draft replies to buyer questions and post-sale chats in your store's voice, with stock checked before any promise.",
+      "bots": [
+        "mel-preguntas",
+        "support-reply-drafter"
+      ],
+      "url": "https://moneywithai.net/use-cases/answer-marketplace-buyer-questions-faster/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/answer-marketplace-buyer-questions-faster.json",
+      "added_at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "type": "use-case",
       "slug": "answer-order-calls-after-hours",
       "title": "Answer Order Calls After Hours",
       "category": "Customer Support",
@@ -9942,6 +10021,20 @@
     },
     {
       "type": "use-case",
+      "slug": "cut-unused-software-and-vendor-spend",
+      "title": "Cut Unused Software and Vendor Spend",
+      "category": "Finance",
+      "summary": "Find seats and subscriptions nobody uses, then draft the cancel or counteroffer messages for you to send.",
+      "bots": [
+        "doge-procurement-desk",
+        "expense-manager"
+      ],
+      "url": "https://moneywithai.net/use-cases/cut-unused-software-and-vendor-spend/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/cut-unused-software-and-vendor-spend.json",
+      "added_at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "type": "use-case",
       "slug": "document-code-upgrades-for-insurance-supplements",
       "title": "Document Code Upgrades for Insurance Supplements",
       "category": "Client Services",
@@ -10366,6 +10459,20 @@
       ],
       "url": "https://moneywithai.net/use-cases/instagram-trend-to-sales/",
       "detail_url": "https://moneywithai.net/api/v1/use-cases/instagram-trend-to-sales.json",
+      "added_at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "type": "use-case",
+      "slug": "keep-ai-tool-costs-in-check",
+      "title": "Keep AI Tool Costs in Check",
+      "category": "Finance",
+      "summary": "Check each Monday whether a cheaper AI model tier would do the same job, with each suggestion linked to the provider's pricing page.",
+      "bots": [
+        "ai-price-watch",
+        "expense-manager"
+      ],
+      "url": "https://moneywithai.net/use-cases/keep-ai-tool-costs-in-check/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/keep-ai-tool-costs-in-check.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {
@@ -10983,6 +11090,20 @@
     },
     {
       "type": "use-case",
+      "slug": "plan-an-online-business-with-a-helper-crew",
+      "title": "Plan an Online Business with a Helper Crew",
+      "category": "Content and Marketing",
+      "summary": "Describe your online business, get a short crew of helpers for web work, search visibility and posting, and approve only the ones you want.",
+      "bots": [
+        "dartzdabz-crew-builder",
+        "seo-and-aeo-desk"
+      ],
+      "url": "https://moneywithai.net/use-cases/plan-an-online-business-with-a-helper-crew/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/plan-an-online-business-with-a-helper-crew.json",
+      "added_at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "type": "use-case",
       "slug": "podcast-everywhere-pipeline",
       "title": "Publish Each Podcast Episode Everywhere",
       "category": "Content and Marketing",
@@ -11330,6 +11451,20 @@
       ],
       "url": "https://moneywithai.net/use-cases/restaurant-orders-calls-recovery/",
       "detail_url": "https://moneywithai.net/api/v1/use-cases/restaurant-orders-calls-recovery.json",
+      "added_at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "type": "use-case",
+      "slug": "review-driver-earnings-each-week",
+      "title": "Review Driver Earnings Each Week",
+      "category": "Research and Ops",
+      "summary": "Combine the weekly Uber and Bolt exports into one summary per driver, and keep a list of documents due to expire.",
+      "bots": [
+        "rideshare-fleet-manager-lite",
+        "small-business-bookkeeper"
+      ],
+      "url": "https://moneywithai.net/use-cases/review-driver-earnings-each-week/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/review-driver-earnings-each-week.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {

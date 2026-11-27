@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "dartzdabz-crew-builder",
+    "name": "DartzDabz Crew Builder",
+    "category": "Content and Marketing",
+    "sub_use_case": "SEO and AI search",
+    "summary": "Asks about your online business, then proposes a small crew of helpers for web work, search visibility, research, social posts and newsletters. Nothing goes live or gets posted until you approve it.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "420milehighgolf",
+      "url": "https://x.com/420milehighgolf"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/6WerbputYt61R-bzRXzYX"
+    },
+    "official_share_url": "https://x.ai/bot/6WerbputYt61R-bzRXzYX",
+    "found_via": null,
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-11-27",
+    "url": "https://moneywithai.net/bots/dartzdabz-crew-builder/",
+    "json_url": "https://moneywithai.net/api/bots/dartzdabz-crew-builder.json"
+  }
+}

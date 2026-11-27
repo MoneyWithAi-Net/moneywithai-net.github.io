@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "rideshare-fleet-manager-lite",
+    "name": "Rideshare Fleet Manager LITE",
+    "category": "Finance",
+    "sub_use_case": "Expense reports",
+    "summary": "Upload the weekly Uber and Bolt earnings exports and get one summary per driver across both platforms, plus a watchlist for insurance and licence expiry. It never pays or messages anyone by itself.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "ClaudiuBalaciv",
+      "url": "https://x.com/ClaudiuBalaciv"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/Eo4ij-wrng2-c9qFmrTd_"
+    },
+    "official_share_url": "https://x.ai/bot/Eo4ij-wrng2-c9qFmrTd_",
+    "found_via": null,
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-11-27",
+    "url": "https://moneywithai.net/bots/rideshare-fleet-manager-lite/",
+    "json_url": "https://moneywithai.net/api/bots/rideshare-fleet-manager-lite.json"
+  }
+}

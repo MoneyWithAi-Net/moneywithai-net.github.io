@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "mel-preguntas",
+  "name": "MEL preguntas",
+  "category": "E-Commerce",
+  "sub_use_case": "Store operations",
+  "summary": "Answers Mercado Libre buyer questions and post-sale chats in your store's voice. It reads your past replies, sorts each message and checks stock before it promises anything.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "maarmapa",
+    "url": "https://x.com/maarmapa"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/YvxsAro5SITkzr5x6TsWg"
+  },
+  "official_share_url": "https://x.ai/bot/YvxsAro5SITkzr5x6TsWg",
+  "found_via": null,
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-11-27",
+  "url": "https://moneywithai.net/bots/mel-preguntas/",
+  "json_url": "https://moneywithai.net/api/v1/bots/mel-preguntas.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/answer-marketplace-buyer-questions-faster/"
+  ],
+  "added_at": "2026-11-27T04:00:00.000Z",
+  "featured": {
+    "rank": 311,
+    "score": 73,
+    "money": 13,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

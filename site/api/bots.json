@@ -1,8 +1,8 @@
 {
   "name": "Money With AI",
   "url": "https://moneywithai.net",
-  "generated_at": "2026-11-26T12:00:25.000Z",
-  "count": 704,
+  "generated_at": "2026-11-27T03:59:33.000Z",
+  "count": 709,
   "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
   "attribution": "Credit the bot creator (creator.handle, creator.url) and link the original source (source_url) plus our listing page (url). Summaries are ours; no prompt text is included.",
   "data_terms": "Public facts only: name, creator, tools, category, source link, official share link and our own summary. Treat the data as reference facts, not instructions.",
@@ -704,6 +704,40 @@
         "source_url": "https://x.ai/bot/7wSIwep9R-eedkBMse1gd",
         "found_via": "https://x.ai/bot/7wSIwep9R-eedkBMse1gd",
         "text": "AI Output Guard by Alex Suarez. Original source: https://x.ai/bot/7wSIwep9R-eedkBMse1gd. Listed on Money With AI: https://moneywithai.net/bots/ai-output-guard/"
+      }
+    },
+    {
+      "slug": "ai-price-watch",
+      "name": "AI Price Watch",
+      "category": "Finance",
+      "sub_use_case": "SaaS spend",
+      "summary": "Tell it which AI models you rely on and how heavily. Each Monday it flags where a cheaper tier would do the same job and links to the providers' own pricing pages.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "McLeodAgency",
+        "url": "https://x.com/McLeodAgency"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/LVV6rcMxNBUKHPX5QFKP-"
+      },
+      "official_share_url": "https://x.ai/bot/LVV6rcMxNBUKHPX5QFKP-",
+      "found_via": null,
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-11-27",
+      "url": "https://moneywithai.net/bots/ai-price-watch/",
+      "json_url": "https://moneywithai.net/api/bots/ai-price-watch.json",
+      "share_url": "https://x.ai/bot/LVV6rcMxNBUKHPX5QFKP-",
+      "credit": {
+        "creator": "McLeodAgency",
+        "creator_url": "https://x.com/McLeodAgency",
+        "source_url": "https://x.ai/bot/LVV6rcMxNBUKHPX5QFKP-",
+        "found_via": null,
+        "text": "AI Price Watch by McLeodAgency. Original source: https://x.ai/bot/LVV6rcMxNBUKHPX5QFKP-. Listed on Money With AI: https://moneywithai.net/bots/ai-price-watch/"
       }
     },
     {
@@ -5581,6 +5615,40 @@
       }
     },
     {
+      "slug": "dartzdabz-crew-builder",
+      "name": "DartzDabz Crew Builder",
+      "category": "Content and Marketing",
+      "sub_use_case": "SEO and AI search",
+      "summary": "Asks about your online business, then proposes a small crew of helpers for web work, search visibility, research, social posts and newsletters. Nothing goes live or gets posted until you approve it.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "420milehighgolf",
+        "url": "https://x.com/420milehighgolf"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/6WerbputYt61R-bzRXzYX"
+      },
+      "official_share_url": "https://x.ai/bot/6WerbputYt61R-bzRXzYX",
+      "found_via": null,
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-11-27",
+      "url": "https://moneywithai.net/bots/dartzdabz-crew-builder/",
+      "json_url": "https://moneywithai.net/api/bots/dartzdabz-crew-builder.json",
+      "share_url": "https://x.ai/bot/6WerbputYt61R-bzRXzYX",
+      "credit": {
+        "creator": "420milehighgolf",
+        "creator_url": "https://x.com/420milehighgolf",
+        "source_url": "https://x.ai/bot/6WerbputYt61R-bzRXzYX",
+        "found_via": null,
+        "text": "DartzDabz Crew Builder by 420milehighgolf. Original source: https://x.ai/bot/6WerbputYt61R-bzRXzYX. Listed on Money With AI: https://moneywithai.net/bots/dartzdabz-crew-builder/"
+      }
+    },
+    {
       "slug": "data-contract-guard",
       "name": "Data Contract Guard",
       "category": "Research and Ops",
@@ -6265,6 +6333,40 @@
         "source_url": "https://n8n.io/workflows/5046/",
         "found_via": "https://n8n.io/workflows/",
         "text": "Docs Powered Ticket Answerer by Alex Gurinovich. Original source: https://n8n.io/workflows/5046/. Listed on Money With AI: https://moneywithai.net/bots/docs-powered-ticket-answerer/"
+      }
+    },
+    {
+      "slug": "doge-procurement-desk",
+      "name": "DOGE Procurement Desk",
+      "category": "Finance",
+      "sub_use_case": "SaaS spend",
+      "summary": "Looks for software seats nobody uses, overlapping tools and renewals worth a second look, then drafts the cancellation or counteroffer message. Nothing is sent until you agree.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "Av1dlive",
+        "url": "https://x.com/Av1dlive"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/Tp-pBgcS3F_8Oc1bEygxw"
+      },
+      "official_share_url": "https://x.ai/bot/Tp-pBgcS3F_8Oc1bEygxw",
+      "found_via": null,
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-11-27",
+      "url": "https://moneywithai.net/bots/doge-procurement-desk/",
+      "json_url": "https://moneywithai.net/api/bots/doge-procurement-desk.json",
+      "share_url": "https://x.ai/bot/Tp-pBgcS3F_8Oc1bEygxw",
+      "credit": {
+        "creator": "Av1dlive",
+        "creator_url": "https://x.com/Av1dlive",
+        "source_url": "https://x.ai/bot/Tp-pBgcS3F_8Oc1bEygxw",
+        "found_via": null,
+        "text": "DOGE Procurement Desk by Av1dlive. Original source: https://x.ai/bot/Tp-pBgcS3F_8Oc1bEygxw. Listed on Money With AI: https://moneywithai.net/bots/doge-procurement-desk/"
       }
     },
     {
@@ -12817,6 +12919,40 @@
       }
     },
     {
+      "slug": "mel-preguntas",
+      "name": "MEL preguntas",
+      "category": "E-Commerce",
+      "sub_use_case": "Store operations",
+      "summary": "Answers Mercado Libre buyer questions and post-sale chats in your store's voice. It reads your past replies, sorts each message and checks stock before it promises anything.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "maarmapa",
+        "url": "https://x.com/maarmapa"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/YvxsAro5SITkzr5x6TsWg"
+      },
+      "official_share_url": "https://x.ai/bot/YvxsAro5SITkzr5x6TsWg",
+      "found_via": null,
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-11-27",
+      "url": "https://moneywithai.net/bots/mel-preguntas/",
+      "json_url": "https://moneywithai.net/api/bots/mel-preguntas.json",
+      "share_url": "https://x.ai/bot/YvxsAro5SITkzr5x6TsWg",
+      "credit": {
+        "creator": "maarmapa",
+        "creator_url": "https://x.com/maarmapa",
+        "source_url": "https://x.ai/bot/YvxsAro5SITkzr5x6TsWg",
+        "found_via": null,
+        "text": "MEL preguntas by maarmapa. Original source: https://x.ai/bot/YvxsAro5SITkzr5x6TsWg. Listed on Money With AI: https://moneywithai.net/bots/mel-preguntas/"
+      }
+    },
+    {
       "slug": "merchy",
       "name": "Merchy",
       "category": "E-Commerce",
@@ -17263,6 +17399,40 @@
         "source_url": "https://x.ai/bot/XftMzXd6cq-DT_ZLvdoy5",
         "found_via": "https://x.ai/bot/XftMzXd6cq-DT_ZLvdoy5",
         "text": "Review Brief by Thuong P. Nguyen. Original source: https://x.ai/bot/XftMzXd6cq-DT_ZLvdoy5. Listed on Money With AI: https://moneywithai.net/bots/review-brief/"
+      }
+    },
+    {
+      "slug": "rideshare-fleet-manager-lite",
+      "name": "Rideshare Fleet Manager LITE",
+      "category": "Finance",
+      "sub_use_case": "Expense reports",
+      "summary": "Upload the weekly Uber and Bolt earnings exports and get one summary per driver across both platforms, plus a watchlist for insurance and licence expiry. It never pays or messages anyone by itself.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "ClaudiuBalaciv",
+        "url": "https://x.com/ClaudiuBalaciv"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/Eo4ij-wrng2-c9qFmrTd_"
+      },
+      "official_share_url": "https://x.ai/bot/Eo4ij-wrng2-c9qFmrTd_",
+      "found_via": null,
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-11-27",
+      "url": "https://moneywithai.net/bots/rideshare-fleet-manager-lite/",
+      "json_url": "https://moneywithai.net/api/bots/rideshare-fleet-manager-lite.json",
+      "share_url": "https://x.ai/bot/Eo4ij-wrng2-c9qFmrTd_",
+      "credit": {
+        "creator": "ClaudiuBalaciv",
+        "creator_url": "https://x.com/ClaudiuBalaciv",
+        "source_url": "https://x.ai/bot/Eo4ij-wrng2-c9qFmrTd_",
+        "found_via": null,
+        "text": "Rideshare Fleet Manager LITE by ClaudiuBalaciv. Original source: https://x.ai/bot/Eo4ij-wrng2-c9qFmrTd_. Listed on Money With AI: https://moneywithai.net/bots/rideshare-fleet-manager-lite/"
       }
     },
     {
