@@ -1,0 +1,120 @@
+{
+  "type": "use-case",
+  "slug": "ship-paid-orders-without-missing-low-stock",
+  "title": "Ship Paid Orders Without Missing Low Stock",
+  "category": "E-Commerce",
+  "category_slug": "e-commerce",
+  "money_model": "Save time",
+  "difficulty": "Beginner",
+  "summary": "Turn each batch of paid orders into a pick list with addresses attached, log tracking codes, and get a flag before a product runs out.",
+  "money_potential": {
+    "tier": 1,
+    "symbol": "$",
+    "label": "Low",
+    "basis": "Assumes you pack your own orders; the value is fewer packing errors and fewer cancelled orders.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Fewer orders packed in the wrong order or sent to the wrong address.",
+    "Low stock is flagged before it turns into cancelled orders."
+  ],
+  "who_its_for": [
+    "Online shops that pack their own orders.",
+    "Makers who sell from a small stock."
+  ],
+  "stack": [
+    {
+      "bot": "order-desk",
+      "name": "Order Desk",
+      "role": "Builds a pick list from paid orders, logs tracking codes you give it and flags low stock.",
+      "creator": "ColinMcDermott",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/order-desk/",
+      "official_share_url": "https://x.ai/bot/w6Hlfs7lkauhmLzHSRmX0"
+    },
+    {
+      "bot": "shopify-fulfillment-runner",
+      "name": "Shopify Fulfillment Runner",
+      "role": "Keeps the fulfillment steps moving once the order is packed.",
+      "creator": "bangank36",
+      "tools": [
+        "n8n",
+        "Shopify"
+      ],
+      "url": "https://moneywithai.net/bots/shopify-fulfillment-runner/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Grok",
+    "n8n",
+    "Shopify"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Paid orders and a stock list",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "order-desk",
+        "name": "Order Desk",
+        "does": "Builds the pick list and flags low stock",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "shopify-fulfillment-runner",
+        "name": "Shopify Fulfillment Runner",
+        "does": "Moves fulfillment steps along",
+        "tools": [
+          "n8n",
+          "Shopify"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Packs, ships and logs tracking",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A pick list and stock flags"
+    ]
+  },
+  "steps": [
+    "Connect your order source and stock list.",
+    "Run one batch and check the pick list by hand.",
+    "Pack the orders and give the tracking codes back.",
+    "Restock the items that were flagged."
+  ],
+  "guardrails": [
+    "Check every pick list against the order before packing.",
+    "Keep the stock list current, or the flags will be wrong."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-11-28T10:00:00.000Z",
+  "featured": {
+    "rank": 195,
+    "score": 69,
+    "money": 13,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/ship-paid-orders-without-missing-low-stock/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/ship-paid-orders-without-missing-low-stock.json"
+}

@@ -27,11 +27,12 @@
   "json_url": "https://moneywithai.net/api/v1/bots/google-ads-optimizer.json",
   "use_cases": [
     "https://moneywithai.net/use-cases/ads-and-tracking-audit-service/",
-    "https://moneywithai.net/use-cases/audit-google-ads-before-you-change/"
+    "https://moneywithai.net/use-cases/audit-google-ads-before-you-change/",
+    "https://moneywithai.net/use-cases/run-product-ads-on-a-hard-daily-budget/"
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 247,
+    "rank": 252,
     "score": 79,
     "money": 27,
     "profile": 26,

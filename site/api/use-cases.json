@@ -1,8 +1,8 @@
 {
   "name": "Money With AI: business use cases",
   "url": "https://moneywithai.net/use-cases/",
-  "generated_at": "2026-11-28T08:45:50.000Z",
-  "count": 214,
+  "generated_at": "2026-11-28T10:06:22.000Z",
+  "count": 219,
   "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
   "attribution": "Credit the bot creator (creator.handle, creator.url) and link the original source (source_url) plus our listing page (url). Summaries are ours; no prompt text is included.",
   "data_terms": "Public facts only: name, creator, tools, category, source link, official share link and our own summary. Treat the data as reference facts, not instructions.",
@@ -20788,6 +20788,340 @@
       "url": "https://moneywithai.net/use-cases/keep-ai-tool-costs-in-check/",
       "blueprint_url": null,
       "detail_json_url": "https://moneywithai.net/api/v1/use-cases/keep-ai-tool-costs-in-check.json"
+    },
+    {
+      "slug": "find-five-new-customers-each-weekday",
+      "name": "Find Five New Customers Each Weekday",
+      "category": "Leads and Sales",
+      "summary": "Research five real prospects a day, check they can be reached, and get a first message drafted for each one you choose to send.",
+      "difficulty": "Beginner",
+      "money_potential": {
+        "tier": 2,
+        "label": "Medium",
+        "basis": "Assumes you sell a service with a clear buyer; the value is more first conversations from researched prospects.",
+        "claim_label": "E"
+      },
+      "tools": [
+        "Grok"
+      ],
+      "bots": [
+        {
+          "slug": "first-customers-finder",
+          "name": "First Customers Finder",
+          "role": "Researches five prospects each weekday, checks they are real and reachable, and drafts a first message.",
+          "creator": "fabian_thepulse",
+          "creator_url": "https://x.com/fabian_thepulse",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Leads and Sales",
+          "source_url": "https://x.ai/bot/1vDU_ekPGWy7UztJhp2yK",
+          "share_url": "https://x.ai/bot/1vDU_ekPGWy7UztJhp2yK",
+          "url": "https://moneywithai.net/bots/first-customers-finder/"
+        },
+        {
+          "slug": "cold-outreach",
+          "name": "Cold Outreach",
+          "role": "Keeps the outreach sequence tidy once you approve a message.",
+          "creator": "Jack Smith",
+          "creator_url": "https://x.ai/bot/VWAXuVB5VI6ScHdO97Bh0",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Leads and Sales",
+          "source_url": "https://x.ai/bot/VWAXuVB5VI6ScHdO97Bh0",
+          "share_url": "https://x.ai/bot/VWAXuVB5VI6ScHdO97Bh0",
+          "url": "https://moneywithai.net/bots/cold-outreach/"
+        }
+      ],
+      "credits": [
+        {
+          "creator": "fabian_thepulse",
+          "creator_url": "https://x.com/fabian_thepulse",
+          "source_url": "https://x.ai/bot/1vDU_ekPGWy7UztJhp2yK",
+          "found_via": null,
+          "text": "First Customers Finder by fabian_thepulse. Original source: https://x.ai/bot/1vDU_ekPGWy7UztJhp2yK. Listed on Money With AI: https://moneywithai.net/bots/first-customers-finder/"
+        },
+        {
+          "creator": "Jack Smith",
+          "creator_url": "https://x.ai/bot/VWAXuVB5VI6ScHdO97Bh0",
+          "source_url": "https://x.ai/bot/VWAXuVB5VI6ScHdO97Bh0",
+          "found_via": "https://x.ai/bot/VWAXuVB5VI6ScHdO97Bh0",
+          "text": "Cold Outreach by Jack Smith. Original source: https://x.ai/bot/VWAXuVB5VI6ScHdO97Bh0. Listed on Money With AI: https://moneywithai.net/bots/cold-outreach/"
+        }
+      ],
+      "url": "https://moneywithai.net/use-cases/find-five-new-customers-each-weekday/",
+      "blueprint_url": null,
+      "detail_json_url": "https://moneywithai.net/api/v1/use-cases/find-five-new-customers-each-weekday.json"
+    },
+    {
+      "slug": "keep-the-ledger-current-from-the-inbox",
+      "name": "Keep the Ledger Current from the Business Inbox",
+      "category": "Finance",
+      "summary": "Log payments in and bills out from a read-only business mailbox into a running ledger, with a month-end profit draft to check.",
+      "difficulty": "Intermediate",
+      "money_potential": {
+        "tier": 2,
+        "label": "Medium",
+        "basis": "Assumes you receive payments and bills by email; the value is a current ledger without a month-end rebuild.",
+        "claim_label": "E"
+      },
+      "tools": [
+        "Grok",
+        "Google Sheets"
+      ],
+      "bots": [
+        {
+          "slug": "finance-bot",
+          "name": "Finance Bot",
+          "role": "Reads the business mailbox without write access and adds a row for each money movement to a Google Sheets ledger.",
+          "creator": "johnboyle",
+          "creator_url": "https://x.com/johnboyle",
+          "tools": [
+            "Grok",
+            "Google Sheets"
+          ],
+          "category": "Finance",
+          "source_url": "https://x.ai/bot/n-LVavRHTPJnFnBS50XTk",
+          "share_url": "https://x.ai/bot/n-LVavRHTPJnFnBS50XTk",
+          "url": "https://moneywithai.net/bots/finance-bot/"
+        },
+        {
+          "slug": "small-business-bookkeeper",
+          "name": "Small Business Bookkeeper",
+          "role": "Checks the ledger rows and keeps your books tidy for your accountant.",
+          "creator": "MarsHomestead",
+          "creator_url": "https://x.com/MarsHomestead",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Finance",
+          "source_url": "https://x.com/MarsHomestead/status/2114777307084923290",
+          "share_url": "https://x.ai/bot/GsgpmqqJ4aUMtHBYZlDgJ",
+          "url": "https://moneywithai.net/bots/small-business-bookkeeper/"
+        }
+      ],
+      "credits": [
+        {
+          "creator": "johnboyle",
+          "creator_url": "https://x.com/johnboyle",
+          "source_url": "https://x.ai/bot/n-LVavRHTPJnFnBS50XTk",
+          "found_via": null,
+          "text": "Finance Bot by johnboyle. Original source: https://x.ai/bot/n-LVavRHTPJnFnBS50XTk. Listed on Money With AI: https://moneywithai.net/bots/finance-bot/"
+        },
+        {
+          "creator": "MarsHomestead",
+          "creator_url": "https://x.com/MarsHomestead",
+          "source_url": "https://x.com/MarsHomestead/status/2114777307084923290",
+          "found_via": "https://x.com/MarsHomestead/status/2114777307084923290",
+          "text": "Small Business Bookkeeper by MarsHomestead. Original source: https://x.com/MarsHomestead/status/2114777307084923290. Listed on Money With AI: https://moneywithai.net/bots/small-business-bookkeeper/"
+        }
+      ],
+      "url": "https://moneywithai.net/use-cases/keep-the-ledger-current-from-the-inbox/",
+      "blueprint_url": null,
+      "detail_json_url": "https://moneywithai.net/api/v1/use-cases/keep-the-ledger-current-from-the-inbox.json"
+    },
+    {
+      "slug": "ship-paid-orders-without-missing-low-stock",
+      "name": "Ship Paid Orders Without Missing Low Stock",
+      "category": "E-Commerce",
+      "summary": "Turn each batch of paid orders into a pick list with addresses attached, log tracking codes, and get a flag before a product runs out.",
+      "difficulty": "Beginner",
+      "money_potential": {
+        "tier": 1,
+        "label": "Low",
+        "basis": "Assumes you pack your own orders; the value is fewer packing errors and fewer cancelled orders.",
+        "claim_label": "E"
+      },
+      "tools": [
+        "Grok",
+        "n8n",
+        "Shopify"
+      ],
+      "bots": [
+        {
+          "slug": "order-desk",
+          "name": "Order Desk",
+          "role": "Builds a pick list from paid orders, logs tracking codes you give it and flags low stock.",
+          "creator": "ColinMcDermott",
+          "creator_url": "https://x.com/ColinMcDermott",
+          "tools": [
+            "Grok"
+          ],
+          "category": "E-Commerce",
+          "source_url": "https://x.ai/bot/w6Hlfs7lkauhmLzHSRmX0",
+          "share_url": "https://x.ai/bot/w6Hlfs7lkauhmLzHSRmX0",
+          "url": "https://moneywithai.net/bots/order-desk/"
+        },
+        {
+          "slug": "shopify-fulfillment-runner",
+          "name": "Shopify Fulfillment Runner",
+          "role": "Keeps the fulfillment steps moving once the order is packed.",
+          "creator": "bangank36",
+          "creator_url": "https://n8n.io/creators/bangank36/",
+          "tools": [
+            "n8n",
+            "Shopify"
+          ],
+          "category": "E-Commerce",
+          "source_url": "https://n8n.io/workflows/3296/",
+          "share_url": null,
+          "url": "https://moneywithai.net/bots/shopify-fulfillment-runner/"
+        }
+      ],
+      "credits": [
+        {
+          "creator": "ColinMcDermott",
+          "creator_url": "https://x.com/ColinMcDermott",
+          "source_url": "https://x.ai/bot/w6Hlfs7lkauhmLzHSRmX0",
+          "found_via": null,
+          "text": "Order Desk by ColinMcDermott. Original source: https://x.ai/bot/w6Hlfs7lkauhmLzHSRmX0. Listed on Money With AI: https://moneywithai.net/bots/order-desk/"
+        },
+        {
+          "creator": "bangank36",
+          "creator_url": "https://n8n.io/creators/bangank36/",
+          "source_url": "https://n8n.io/workflows/3296/",
+          "found_via": "https://n8n.io/workflows/",
+          "text": "Shopify Fulfillment Runner by bangank36. Original source: https://n8n.io/workflows/3296/. Listed on Money With AI: https://moneywithai.net/bots/shopify-fulfillment-runner/"
+        }
+      ],
+      "url": "https://moneywithai.net/use-cases/ship-paid-orders-without-missing-low-stock/",
+      "blueprint_url": null,
+      "detail_json_url": "https://moneywithai.net/api/v1/use-cases/ship-paid-orders-without-missing-low-stock.json"
+    },
+    {
+      "slug": "answer-refunds-and-disputes-against-your-policy",
+      "name": "Answer Refunds and Disputes Against Your Policy",
+      "category": "Customer Support",
+      "summary": "Apply your written refund and dispute policy to each case, with drafts that wait for your approval and a weekly view of the rates.",
+      "difficulty": "Intermediate",
+      "money_potential": {
+        "tier": 2,
+        "label": "Medium",
+        "basis": "Assumes you handle refunds and disputes yourself; the value is consistent replies that you approve.",
+        "claim_label": "E"
+      },
+      "tools": [
+        "Grok",
+        "Plain"
+      ],
+      "bots": [
+        {
+          "slug": "customer-care",
+          "name": "Customer Care",
+          "role": "Applies your written policy, drafts dispute responses and prepares refund drafts for approval.",
+          "creator": "ColinMcDermott",
+          "creator_url": "https://x.com/ColinMcDermott",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Customer Support",
+          "source_url": "https://x.ai/bot/NIjIeUSpzESYUiJTmrAvm",
+          "share_url": "https://x.ai/bot/NIjIeUSpzESYUiJTmrAvm",
+          "url": "https://moneywithai.net/bots/customer-care/"
+        },
+        {
+          "slug": "refund-resolution-desk",
+          "name": "Refund Resolution Desk",
+          "role": "Works through open refund cases and keeps each one on track.",
+          "creator": "Community submission",
+          "creator_url": null,
+          "tools": [
+            "Plain"
+          ],
+          "category": "Customer Support",
+          "source_url": "https://moneywithai.net/bots/refund-resolution-desk/",
+          "share_url": null,
+          "url": "https://moneywithai.net/bots/refund-resolution-desk/"
+        }
+      ],
+      "credits": [
+        {
+          "creator": "ColinMcDermott",
+          "creator_url": "https://x.com/ColinMcDermott",
+          "source_url": "https://x.ai/bot/NIjIeUSpzESYUiJTmrAvm",
+          "found_via": null,
+          "text": "Customer Care by ColinMcDermott. Original source: https://x.ai/bot/NIjIeUSpzESYUiJTmrAvm. Listed on Money With AI: https://moneywithai.net/bots/customer-care/"
+        },
+        {
+          "creator": "Community submission",
+          "creator_url": null,
+          "source_url": "https://moneywithai.net/bots/refund-resolution-desk/",
+          "found_via": null,
+          "text": "Refund Resolution Desk by Community submission. Listed on Money With AI: https://moneywithai.net/bots/refund-resolution-desk/"
+        }
+      ],
+      "url": "https://moneywithai.net/use-cases/answer-refunds-and-disputes-against-your-policy/",
+      "blueprint_url": null,
+      "detail_json_url": "https://moneywithai.net/api/v1/use-cases/answer-refunds-and-disputes-against-your-policy.json"
+    },
+    {
+      "slug": "run-product-ads-on-a-hard-daily-budget",
+      "name": "Run Product Ads on a Hard Daily Budget",
+      "category": "Content and Marketing",
+      "summary": "Build product ad drafts from your photos and details, keep spend inside a daily cap you set, and apply pause and scale rules agreed in advance.",
+      "difficulty": "Advanced",
+      "money_potential": {
+        "tier": 2,
+        "label": "Medium",
+        "basis": "Assumes you run your own product ads; the value is spend that stays inside a daily cap you set.",
+        "claim_label": "E"
+      },
+      "tools": [
+        "Grok",
+        "Cursor",
+        "Google Ads"
+      ],
+      "bots": [
+        {
+          "slug": "product-ads",
+          "name": "Product Ads",
+          "role": "Builds campaign drafts, keeps spend inside the daily budget and pauses or scales ads under your rules.",
+          "creator": "ColinMcDermott",
+          "creator_url": "https://x.com/ColinMcDermott",
+          "tools": [
+            "Grok"
+          ],
+          "category": "Content and Marketing",
+          "source_url": "https://x.ai/bot/1DFKnMzjYNPZyFFajRbUr",
+          "share_url": "https://x.ai/bot/1DFKnMzjYNPZyFFajRbUr",
+          "url": "https://moneywithai.net/bots/product-ads/"
+        },
+        {
+          "slug": "google-ads-optimizer",
+          "name": "Google Ads Optimizer",
+          "role": "Reviews the campaign results and suggests changes for your approval.",
+          "creator": "codyschneider",
+          "creator_url": "https://x.com/codyschneider",
+          "tools": [
+            "Cursor",
+            "Google Ads"
+          ],
+          "category": "Content and Marketing",
+          "source_url": "https://x.com/codyschneider/status/2089729039158088042",
+          "share_url": null,
+          "url": "https://moneywithai.net/bots/google-ads-optimizer/"
+        }
+      ],
+      "credits": [
+        {
+          "creator": "ColinMcDermott",
+          "creator_url": "https://x.com/ColinMcDermott",
+          "source_url": "https://x.ai/bot/1DFKnMzjYNPZyFFajRbUr",
+          "found_via": null,
+          "text": "Product Ads by ColinMcDermott. Original source: https://x.ai/bot/1DFKnMzjYNPZyFFajRbUr. Listed on Money With AI: https://moneywithai.net/bots/product-ads/"
+        },
+        {
+          "creator": "codyschneider",
+          "creator_url": "https://x.com/codyschneider",
+          "source_url": "https://x.com/codyschneider/status/2089729039158088042",
+          "found_via": null,
+          "text": "Google Ads Optimizer by codyschneider. Original source: https://x.com/codyschneider/status/2089729039158088042. Listed on Money With AI: https://moneywithai.net/bots/google-ads-optimizer/"
+        }
+      ],
+      "url": "https://moneywithai.net/use-cases/run-product-ads-on-a-hard-daily-budget/",
+      "blueprint_url": null,
+      "detail_json_url": "https://moneywithai.net/api/v1/use-cases/run-product-ads-on-a-hard-daily-budget.json"
     }
   ]
 }

@@ -1,10 +1,75 @@
 {
-  "generated_at": "2026-11-28T08:45:50.000Z",
+  "generated_at": "2026-11-28T10:06:22.000Z",
   "api_version": "v1",
   "schema_revision": 2,
   "status_url": "https://moneywithai.net/api/v1/status.json",
-  "count": 923,
+  "count": 933,
   "items": [
+    {
+      "type": "bot",
+      "slug": "customer-care",
+      "title": "Customer Care",
+      "category": "Customer Support",
+      "sub_use_case": "Support triage",
+      "summary": "Handles refunds and payment disputes against the written policy you give it. Every reply is a draft that waits for your approval, and a weekly summary tracks refund and dispute rates.",
+      "creator": "ColinMcDermott",
+      "url": "https://moneywithai.net/bots/customer-care/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/customer-care.json",
+      "official_share_url": "https://x.ai/bot/NIjIeUSpzESYUiJTmrAvm",
+      "added_at": "2026-11-28T10:00:00.000Z"
+    },
+    {
+      "type": "bot",
+      "slug": "finance-bot",
+      "title": "Finance Bot",
+      "category": "Finance",
+      "sub_use_case": "Bookkeeping and reporting",
+      "summary": "Reads a business mailbox without write access, logs money in and out as rows in a Google Sheets ledger, and builds a month-end profit and loss statement from those rows.",
+      "creator": "johnboyle",
+      "url": "https://moneywithai.net/bots/finance-bot/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/finance-bot.json",
+      "official_share_url": "https://x.ai/bot/n-LVavRHTPJnFnBS50XTk",
+      "added_at": "2026-11-28T10:00:00.000Z"
+    },
+    {
+      "type": "bot",
+      "slug": "first-customers-finder",
+      "title": "First Customers Finder",
+      "category": "Leads and Sales",
+      "sub_use_case": "Outbound prospecting",
+      "summary": "Researches five people or companies each weekday that fit what you sell, checks they are real and reachable, and drafts a first message for each. You send.",
+      "creator": "fabian_thepulse",
+      "url": "https://moneywithai.net/bots/first-customers-finder/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/first-customers-finder.json",
+      "official_share_url": "https://x.ai/bot/1vDU_ekPGWy7UztJhp2yK",
+      "added_at": "2026-11-28T10:00:00.000Z"
+    },
+    {
+      "type": "bot",
+      "slug": "order-desk",
+      "title": "Order Desk",
+      "category": "E-Commerce",
+      "sub_use_case": "Store operations",
+      "summary": "Gathers paid orders into a pick list with shipping addresses, logs tracking codes you give it, follows deliveries and flags stock that is running low.",
+      "creator": "ColinMcDermott",
+      "url": "https://moneywithai.net/bots/order-desk/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/order-desk.json",
+      "official_share_url": "https://x.ai/bot/w6Hlfs7lkauhmLzHSRmX0",
+      "added_at": "2026-11-28T10:00:00.000Z"
+    },
+    {
+      "type": "bot",
+      "slug": "product-ads",
+      "title": "Product Ads",
+      "category": "Content and Marketing",
+      "sub_use_case": "Paid ads",
+      "summary": "Builds product ad drafts from your photos and details, runs them inside a daily budget you set, pauses ads that underperform and scales the ones that convert, using rules you agree in advance.",
+      "creator": "ColinMcDermott",
+      "url": "https://moneywithai.net/bots/product-ads/",
+      "detail_url": "https://moneywithai.net/api/v1/bots/product-ads.json",
+      "official_share_url": "https://x.ai/bot/1DFKnMzjYNPZyFFajRbUr",
+      "added_at": "2026-11-28T10:00:00.000Z"
+    },
     {
       "type": "bot",
       "slug": "ai-price-watch",
@@ -9484,6 +9549,20 @@
     },
     {
       "type": "use-case",
+      "slug": "answer-refunds-and-disputes-against-your-policy",
+      "title": "Answer Refunds and Disputes Against Your Policy",
+      "category": "Customer Support",
+      "summary": "Apply your written refund and dispute policy to each case, with drafts that wait for your approval and a weekly view of the rates.",
+      "bots": [
+        "customer-care",
+        "refund-resolution-desk"
+      ],
+      "url": "https://moneywithai.net/use-cases/answer-refunds-and-disputes-against-your-policy/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/answer-refunds-and-disputes-against-your-policy.json",
+      "added_at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "type": "use-case",
       "slug": "answer-repeat-product-questions-faster",
       "title": "Answer Repeat Product Questions Faster",
       "category": "Customer Support",
@@ -10203,6 +10282,20 @@
     },
     {
       "type": "use-case",
+      "slug": "find-five-new-customers-each-weekday",
+      "title": "Find Five New Customers Each Weekday",
+      "category": "Leads and Sales",
+      "summary": "Research five real prospects a day, check they can be reached, and get a first message drafted for each one you choose to send.",
+      "bots": [
+        "first-customers-finder",
+        "cold-outreach"
+      ],
+      "url": "https://moneywithai.net/use-cases/find-five-new-customers-each-weekday/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/find-five-new-customers-each-weekday.json",
+      "added_at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "type": "use-case",
       "slug": "find-short-video-hooks-that-already-win",
       "title": "Find Short-Video Hooks That Already Win",
       "category": "Content and Marketing",
@@ -10488,6 +10581,20 @@
       ],
       "url": "https://moneywithai.net/use-cases/keep-bot-work-running-past-usage-limits/",
       "detail_url": "https://moneywithai.net/api/v1/use-cases/keep-bot-work-running-past-usage-limits.json",
+      "added_at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "type": "use-case",
+      "slug": "keep-the-ledger-current-from-the-inbox",
+      "title": "Keep the Ledger Current from the Business Inbox",
+      "category": "Finance",
+      "summary": "Log payments in and bills out from a read-only business mailbox into a running ledger, with a month-end profit draft to check.",
+      "bots": [
+        "finance-bot",
+        "small-business-bookkeeper"
+      ],
+      "url": "https://moneywithai.net/use-cases/keep-the-ledger-current-from-the-inbox/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/keep-the-ledger-current-from-the-inbox.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {
@@ -11484,6 +11591,20 @@
     },
     {
       "type": "use-case",
+      "slug": "run-product-ads-on-a-hard-daily-budget",
+      "title": "Run Product Ads on a Hard Daily Budget",
+      "category": "Content and Marketing",
+      "summary": "Build product ad drafts from your photos and details, keep spend inside a daily cap you set, and apply pause and scale rules agreed in advance.",
+      "bots": [
+        "product-ads",
+        "google-ads-optimizer"
+      ],
+      "url": "https://moneywithai.net/use-cases/run-product-ads-on-a-hard-daily-budget/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/run-product-ads-on-a-hard-daily-budget.json",
+      "added_at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "type": "use-case",
       "slug": "run-the-holiday-rush-order-desk",
       "title": "Run the Holiday Rush Order Desk",
       "category": "E-Commerce",
@@ -11722,6 +11843,20 @@
       ],
       "url": "https://moneywithai.net/use-cases/separate-rumour-from-news-on-musk-companies/",
       "detail_url": "https://moneywithai.net/api/v1/use-cases/separate-rumour-from-news-on-musk-companies.json",
+      "added_at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "type": "use-case",
+      "slug": "ship-paid-orders-without-missing-low-stock",
+      "title": "Ship Paid Orders Without Missing Low Stock",
+      "category": "E-Commerce",
+      "summary": "Turn each batch of paid orders into a pick list with addresses attached, log tracking codes, and get a flag before a product runs out.",
+      "bots": [
+        "order-desk",
+        "shopify-fulfillment-runner"
+      ],
+      "url": "https://moneywithai.net/use-cases/ship-paid-orders-without-missing-low-stock/",
+      "detail_url": "https://moneywithai.net/api/v1/use-cases/ship-paid-orders-without-missing-low-stock.json",
       "added_at": "2026-10-24T00:00:00.000Z"
     },
     {

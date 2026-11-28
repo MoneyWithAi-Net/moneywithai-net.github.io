@@ -1,8 +1,8 @@
 {
   "name": "Money With AI",
   "url": "https://moneywithai.net",
-  "generated_at": "2026-11-28T08:45:50.000Z",
-  "count": 709,
+  "generated_at": "2026-11-28T10:06:22.000Z",
+  "count": 714,
   "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
   "attribution": "Credit the bot creator (creator.handle, creator.url) and link the original source (source_url) plus our listing page (url). Summaries are ours; no prompt text is included.",
   "data_terms": "Public facts only: name, creator, tools, category, source link, official share link and our own summary. Treat the data as reference facts, not instructions.",
@@ -5406,6 +5406,40 @@
       }
     },
     {
+      "slug": "customer-care",
+      "name": "Customer Care",
+      "category": "Customer Support",
+      "sub_use_case": "Support triage",
+      "summary": "Handles refunds and payment disputes against the written policy you give it. Every reply is a draft that waits for your approval, and a weekly summary tracks refund and dispute rates.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "ColinMcDermott",
+        "url": "https://x.com/ColinMcDermott"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/NIjIeUSpzESYUiJTmrAvm"
+      },
+      "official_share_url": "https://x.ai/bot/NIjIeUSpzESYUiJTmrAvm",
+      "found_via": null,
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-11-28",
+      "url": "https://moneywithai.net/bots/customer-care/",
+      "json_url": "https://moneywithai.net/api/bots/customer-care.json",
+      "share_url": "https://x.ai/bot/NIjIeUSpzESYUiJTmrAvm",
+      "credit": {
+        "creator": "ColinMcDermott",
+        "creator_url": "https://x.com/ColinMcDermott",
+        "source_url": "https://x.ai/bot/NIjIeUSpzESYUiJTmrAvm",
+        "found_via": null,
+        "text": "Customer Care by ColinMcDermott. Original source: https://x.ai/bot/NIjIeUSpzESYUiJTmrAvm. Listed on Money With AI: https://moneywithai.net/bots/customer-care/"
+      }
+    },
+    {
       "slug": "customer-feedback-theme-analyst",
       "name": "Customer Feedback Theme Analyst",
       "category": "Customer Support",
@@ -7818,6 +7852,41 @@
       }
     },
     {
+      "slug": "finance-bot",
+      "name": "Finance Bot",
+      "category": "Finance",
+      "sub_use_case": "Bookkeeping and reporting",
+      "summary": "Reads a business mailbox without write access, logs money in and out as rows in a Google Sheets ledger, and builds a month-end profit and loss statement from those rows.",
+      "tools": [
+        "Grok",
+        "Google Sheets"
+      ],
+      "creator": {
+        "handle": "johnboyle",
+        "url": "https://x.com/johnboyle"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/n-LVavRHTPJnFnBS50XTk"
+      },
+      "official_share_url": "https://x.ai/bot/n-LVavRHTPJnFnBS50XTk",
+      "found_via": null,
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-11-28",
+      "url": "https://moneywithai.net/bots/finance-bot/",
+      "json_url": "https://moneywithai.net/api/bots/finance-bot.json",
+      "share_url": "https://x.ai/bot/n-LVavRHTPJnFnBS50XTk",
+      "credit": {
+        "creator": "johnboyle",
+        "creator_url": "https://x.com/johnboyle",
+        "source_url": "https://x.ai/bot/n-LVavRHTPJnFnBS50XTk",
+        "found_via": null,
+        "text": "Finance Bot by johnboyle. Original source: https://x.ai/bot/n-LVavRHTPJnFnBS50XTk. Listed on Money With AI: https://moneywithai.net/bots/finance-bot/"
+      }
+    },
+    {
       "slug": "financial-document-analyst",
       "name": "Financial Document Analyst",
       "category": "Finance",
@@ -7850,6 +7919,40 @@
         "source_url": "https://moneywithai.net/bots/financial-document-analyst/",
         "found_via": null,
         "text": "Financial Document Analyst by Community submission. Listed on Money With AI: https://moneywithai.net/bots/financial-document-analyst/"
+      }
+    },
+    {
+      "slug": "first-customers-finder",
+      "name": "First Customers Finder",
+      "category": "Leads and Sales",
+      "sub_use_case": "Outbound prospecting",
+      "summary": "Researches five people or companies each weekday that fit what you sell, checks they are real and reachable, and drafts a first message for each. You send.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "fabian_thepulse",
+        "url": "https://x.com/fabian_thepulse"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/1vDU_ekPGWy7UztJhp2yK"
+      },
+      "official_share_url": "https://x.ai/bot/1vDU_ekPGWy7UztJhp2yK",
+      "found_via": null,
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-11-28",
+      "url": "https://moneywithai.net/bots/first-customers-finder/",
+      "json_url": "https://moneywithai.net/api/bots/first-customers-finder.json",
+      "share_url": "https://x.ai/bot/1vDU_ekPGWy7UztJhp2yK",
+      "credit": {
+        "creator": "fabian_thepulse",
+        "creator_url": "https://x.com/fabian_thepulse",
+        "source_url": "https://x.ai/bot/1vDU_ekPGWy7UztJhp2yK",
+        "found_via": null,
+        "text": "First Customers Finder by fabian_thepulse. Original source: https://x.ai/bot/1vDU_ekPGWy7UztJhp2yK. Listed on Money With AI: https://moneywithai.net/bots/first-customers-finder/"
       }
     },
     {
@@ -13994,6 +14097,40 @@
       }
     },
     {
+      "slug": "order-desk",
+      "name": "Order Desk",
+      "category": "E-Commerce",
+      "sub_use_case": "Store operations",
+      "summary": "Gathers paid orders into a pick list with shipping addresses, logs tracking codes you give it, follows deliveries and flags stock that is running low.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "ColinMcDermott",
+        "url": "https://x.com/ColinMcDermott"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/w6Hlfs7lkauhmLzHSRmX0"
+      },
+      "official_share_url": "https://x.ai/bot/w6Hlfs7lkauhmLzHSRmX0",
+      "found_via": null,
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-11-28",
+      "url": "https://moneywithai.net/bots/order-desk/",
+      "json_url": "https://moneywithai.net/api/bots/order-desk.json",
+      "share_url": "https://x.ai/bot/w6Hlfs7lkauhmLzHSRmX0",
+      "credit": {
+        "creator": "ColinMcDermott",
+        "creator_url": "https://x.com/ColinMcDermott",
+        "source_url": "https://x.ai/bot/w6Hlfs7lkauhmLzHSRmX0",
+        "found_via": null,
+        "text": "Order Desk by ColinMcDermott. Original source: https://x.ai/bot/w6Hlfs7lkauhmLzHSRmX0. Listed on Money With AI: https://moneywithai.net/bots/order-desk/"
+      }
+    },
+    {
       "slug": "os-reviewer",
       "name": "OS Reviewer",
       "category": "Research and Ops",
@@ -15455,6 +15592,40 @@
         "source_url": "https://x.ai/bot/3P03grqfP1E5PjeOSW-xO",
         "found_via": null,
         "text": "Product by andrewkittridge. Original source: https://x.ai/bot/3P03grqfP1E5PjeOSW-xO. Listed on Money With AI: https://moneywithai.net/bots/product-andrewkittridge/"
+      }
+    },
+    {
+      "slug": "product-ads",
+      "name": "Product Ads",
+      "category": "Content and Marketing",
+      "sub_use_case": "Paid ads",
+      "summary": "Builds product ad drafts from your photos and details, runs them inside a daily budget you set, pauses ads that underperform and scales the ones that convert, using rules you agree in advance.",
+      "tools": [
+        "Grok"
+      ],
+      "creator": {
+        "handle": "ColinMcDermott",
+        "url": "https://x.com/ColinMcDermott"
+      },
+      "scouted_by": null,
+      "source": {
+        "kind": "web",
+        "url": "https://x.ai/bot/1DFKnMzjYNPZyFFajRbUr"
+      },
+      "official_share_url": "https://x.ai/bot/1DFKnMzjYNPZyFFajRbUr",
+      "found_via": null,
+      "prompt_included": false,
+      "proof_level": "source_verified",
+      "last_checked": "2026-11-28",
+      "url": "https://moneywithai.net/bots/product-ads/",
+      "json_url": "https://moneywithai.net/api/bots/product-ads.json",
+      "share_url": "https://x.ai/bot/1DFKnMzjYNPZyFFajRbUr",
+      "credit": {
+        "creator": "ColinMcDermott",
+        "creator_url": "https://x.com/ColinMcDermott",
+        "source_url": "https://x.ai/bot/1DFKnMzjYNPZyFFajRbUr",
+        "found_via": null,
+        "text": "Product Ads by ColinMcDermott. Original source: https://x.ai/bot/1DFKnMzjYNPZyFFajRbUr. Listed on Money With AI: https://moneywithai.net/bots/product-ads/"
       }
     },
     {

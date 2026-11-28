@@ -1,0 +1,29 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "order-desk",
+    "name": "Order Desk",
+    "category": "E-Commerce",
+    "sub_use_case": "Store operations",
+    "summary": "Gathers paid orders into a pick list with shipping addresses, logs tracking codes you give it, follows deliveries and flags stock that is running low.",
+    "tools": [
+      "Grok"
+    ],
+    "creator": {
+      "handle": "ColinMcDermott",
+      "url": "https://x.com/ColinMcDermott"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/w6Hlfs7lkauhmLzHSRmX0"
+    },
+    "official_share_url": "https://x.ai/bot/w6Hlfs7lkauhmLzHSRmX0",
+    "found_via": null,
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-11-28",
+    "url": "https://moneywithai.net/bots/order-desk/",
+    "json_url": "https://moneywithai.net/api/bots/order-desk.json"
+  }
+}

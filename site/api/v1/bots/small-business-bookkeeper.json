@@ -26,11 +26,12 @@
   "json_url": "https://moneywithai.net/api/v1/bots/small-business-bookkeeper.json",
   "use_cases": [
     "https://moneywithai.net/use-cases/tax-ready-books-all-year/",
-    "https://moneywithai.net/use-cases/review-driver-earnings-each-week/"
+    "https://moneywithai.net/use-cases/review-driver-earnings-each-week/",
+    "https://moneywithai.net/use-cases/keep-the-ledger-current-from-the-inbox/"
   ],
   "added_at": "2026-10-29T10:00:00.000Z",
   "featured": {
-    "rank": 135,
+    "rank": 137,
     "score": 87,
     "money": 27,
     "profile": 30,

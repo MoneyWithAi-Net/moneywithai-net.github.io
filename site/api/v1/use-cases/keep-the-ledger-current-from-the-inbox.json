@@ -1,0 +1,119 @@
+{
+  "type": "use-case",
+  "slug": "keep-the-ledger-current-from-the-inbox",
+  "title": "Keep the Ledger Current from the Business Inbox",
+  "category": "Finance",
+  "category_slug": "finance",
+  "money_model": "Save costs",
+  "difficulty": "Intermediate",
+  "summary": "Log payments in and bills out from a read-only business mailbox into a running ledger, with a month-end profit draft to check.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you receive payments and bills by email; the value is a current ledger without a month-end rebuild.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "No month-end scramble to rebuild the figures.",
+    "Missed payments and bills show up in the ledger sooner."
+  ],
+  "who_its_for": [
+    "Owner-run small businesses.",
+    "Freelancers who invoice clients."
+  ],
+  "stack": [
+    {
+      "bot": "finance-bot",
+      "name": "Finance Bot",
+      "role": "Reads the business mailbox without write access and adds a row for each money movement to a Google Sheets ledger.",
+      "creator": "johnboyle",
+      "tools": [
+        "Grok",
+        "Google Sheets"
+      ],
+      "url": "https://moneywithai.net/bots/finance-bot/",
+      "official_share_url": "https://x.ai/bot/n-LVavRHTPJnFnBS50XTk"
+    },
+    {
+      "bot": "small-business-bookkeeper",
+      "name": "Small Business Bookkeeper",
+      "role": "Checks the ledger rows and keeps your books tidy for your accountant.",
+      "creator": "MarsHomestead",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/small-business-bookkeeper/",
+      "official_share_url": "https://x.ai/bot/GsgpmqqJ4aUMtHBYZlDgJ"
+    }
+  ],
+  "tools": [
+    "Grok",
+    "Google Sheets"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Read-only business mailbox",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "finance-bot",
+        "name": "Finance Bot",
+        "does": "Adds a ledger row for each money movement",
+        "tools": [
+          "Grok",
+          "Google Sheets"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "small-business-bookkeeper",
+        "name": "Small Business Bookkeeper",
+        "does": "Keeps the books tidy",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Checks the month-end draft against the bank",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "A running ledger and a month-end draft to review"
+    ]
+  },
+  "steps": [
+    "Pick the business mailbox that receives payments and bills.",
+    "Set up the Google Sheets ledger with clear columns.",
+    "Check the first month of rows against the bank.",
+    "Review the month-end profit draft with your accountant."
+  ],
+  "guardrails": [
+    "Check every row against the bank before you rely on it.",
+    "This is admin help, not tax or financial advice."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-11-28T10:00:00.000Z",
+  "featured": {
+    "rank": 104,
+    "score": 79,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/keep-the-ledger-current-from-the-inbox/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/keep-the-ledger-current-from-the-inbox.json"
+}

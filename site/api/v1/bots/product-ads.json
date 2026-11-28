@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "product-ads",
+  "name": "Product Ads",
+  "category": "Content and Marketing",
+  "sub_use_case": "Paid ads",
+  "summary": "Builds product ad drafts from your photos and details, runs them inside a daily budget you set, pauses ads that underperform and scales the ones that convert, using rules you agree in advance.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "ColinMcDermott",
+    "url": "https://x.com/ColinMcDermott"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/1DFKnMzjYNPZyFFajRbUr"
+  },
+  "official_share_url": "https://x.ai/bot/1DFKnMzjYNPZyFFajRbUr",
+  "found_via": null,
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-11-28",
+  "url": "https://moneywithai.net/bots/product-ads/",
+  "json_url": "https://moneywithai.net/api/v1/bots/product-ads.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/run-product-ads-on-a-hard-daily-budget/"
+  ],
+  "added_at": "2026-11-28T10:00:00.000Z",
+  "featured": {
+    "rank": 237,
+    "score": 80,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 3,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}

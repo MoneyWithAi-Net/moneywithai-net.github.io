@@ -1,0 +1,116 @@
+{
+  "type": "use-case",
+  "slug": "find-five-new-customers-each-weekday",
+  "title": "Find Five New Customers Each Weekday",
+  "category": "Leads and Sales",
+  "category_slug": "leads-and-sales",
+  "money_model": "Grow sales",
+  "difficulty": "Beginner",
+  "summary": "Research five real prospects a day, check they can be reached, and get a first message drafted for each one you choose to send.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you sell a service with a clear buyer; the value is more first conversations from researched prospects.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "More first conversations each week, from people who fit what you sell.",
+    "Your time goes to the messages you send, not to the research behind them."
+  ],
+  "who_its_for": [
+    "Freelancers and small firms that need new clients.",
+    "Founders doing their own outbound sales."
+  ],
+  "stack": [
+    {
+      "bot": "first-customers-finder",
+      "name": "First Customers Finder",
+      "role": "Researches five prospects each weekday, checks they are real and reachable, and drafts a first message.",
+      "creator": "fabian_thepulse",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/first-customers-finder/",
+      "official_share_url": "https://x.ai/bot/1vDU_ekPGWy7UztJhp2yK"
+    },
+    {
+      "bot": "cold-outreach",
+      "name": "Cold Outreach",
+      "role": "Keeps the outreach sequence tidy once you approve a message.",
+      "creator": "Jack Smith",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/cold-outreach/",
+      "official_share_url": "https://x.ai/bot/VWAXuVB5VI6ScHdO97Bh0"
+    }
+  ],
+  "tools": [
+    "Grok"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Your offer and buyer description",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "first-customers-finder",
+        "name": "First Customers Finder",
+        "does": "Researches and drafts five prospects",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "cold-outreach",
+        "name": "Cold Outreach",
+        "does": "Keeps approved messages organized",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Edits and sends each approved message",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Five prospects with drafted openers"
+    ]
+  },
+  "steps": [
+    "Describe what you sell and who should buy it.",
+    "Review the five prospects each weekday and drop any that do not fit.",
+    "Edit the drafted openers in your own voice.",
+    "Send only the messages you approve and log the replies."
+  ],
+  "guardrails": [
+    "Nothing is sent without your approval.",
+    "Follow anti-spam and do-not-contact rules in every market you reach."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-11-28T10:00:00.000Z",
+  "featured": {
+    "rank": 47,
+    "score": 83,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 10,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/find-five-new-customers-each-weekday/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/find-five-new-customers-each-weekday.json"
+}

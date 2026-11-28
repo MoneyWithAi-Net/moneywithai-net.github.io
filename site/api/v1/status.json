@@ -1,7 +1,7 @@
 {
   "service": "Money With AI API",
   "site": "https://moneywithai.net",
-  "generated_at": "2026-11-28T08:45:50.000Z",
+  "generated_at": "2026-11-28T10:06:22.000Z",
   "api_version": "v1",
   "schema_revision": 2,
   "capabilities": [
@@ -12,8 +12,8 @@
     "mcp"
   ],
   "counts": {
-    "bots": 709,
-    "use_cases": 214,
+    "bots": 714,
+    "use_cases": 219,
     "categories": 7
   },
   "notices": [

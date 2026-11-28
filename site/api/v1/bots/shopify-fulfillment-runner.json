@@ -28,11 +28,12 @@
   "use_cases": [
     "https://moneywithai.net/use-cases/shopify-ops-roster/",
     "https://moneywithai.net/use-cases/run-the-holiday-rush-order-desk/",
-    "https://moneywithai.net/use-cases/alert-the-team-on-big-orders/"
+    "https://moneywithai.net/use-cases/alert-the-team-on-big-orders/",
+    "https://moneywithai.net/use-cases/ship-paid-orders-without-missing-low-stock/"
   ],
   "added_at": "2026-10-25T06:00:00.000Z",
   "featured": {
-    "rank": 179,
+    "rank": 181,
     "score": 83,
     "money": 27,
     "profile": 26,

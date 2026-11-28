@@ -156,7 +156,7 @@
               "type": "string",
               "pattern": "^[a-z0-9-]+$"
             },
-            "example": "ai-price-watch"
+            "example": "customer-care"
           }
         ],
         "responses": {

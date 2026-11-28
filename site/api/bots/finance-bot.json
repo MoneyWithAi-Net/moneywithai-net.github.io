@@ -1,0 +1,30 @@
+{
+  "license_note": "Listings are public facts (name, creator, tools, category, source link) with credit to each creator. Summaries are written by Money With AI. Creator prompts are not included unless the creator opted in. Quote freely with a link back to the listing and the original source. Site code: MIT License; the full notice is at https://moneywithai.net/LICENSE.txt.",
+  "bot": {
+    "slug": "finance-bot",
+    "name": "Finance Bot",
+    "category": "Finance",
+    "sub_use_case": "Bookkeeping and reporting",
+    "summary": "Reads a business mailbox without write access, logs money in and out as rows in a Google Sheets ledger, and builds a month-end profit and loss statement from those rows.",
+    "tools": [
+      "Grok",
+      "Google Sheets"
+    ],
+    "creator": {
+      "handle": "johnboyle",
+      "url": "https://x.com/johnboyle"
+    },
+    "scouted_by": null,
+    "source": {
+      "kind": "web",
+      "url": "https://x.ai/bot/n-LVavRHTPJnFnBS50XTk"
+    },
+    "official_share_url": "https://x.ai/bot/n-LVavRHTPJnFnBS50XTk",
+    "found_via": null,
+    "prompt_included": false,
+    "proof_level": "source_verified",
+    "last_checked": "2026-11-28",
+    "url": "https://moneywithai.net/bots/finance-bot/",
+    "json_url": "https://moneywithai.net/api/bots/finance-bot.json"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T08:45:50.000Z",
+  "generated_at": "2026-11-28T10:06:22.000Z",
   "api_version": "v1",
   "schema_revision": 2,
   "status_url": "https://moneywithai.net/api/v1/status.json",
@@ -8,8 +8,8 @@
     {
       "slug": "leads-and-sales",
       "label": "Leads and Sales",
-      "bots": 124,
-      "use_cases": 43,
+      "bots": 125,
+      "use_cases": 44,
       "sub_use_cases": [
         {
           "slug": "local-seo-prospect-lists",
@@ -64,7 +64,7 @@
         {
           "slug": "outbound-prospecting",
           "label": "Outbound prospecting",
-          "bots": 35
+          "bots": 36
         },
         {
           "slug": "real-estate-leads",
@@ -82,8 +82,8 @@
     {
       "slug": "content-and-marketing",
       "label": "Content and Marketing",
-      "bots": 169,
-      "use_cases": 46,
+      "bots": 170,
+      "use_cases": 47,
       "sub_use_cases": [
         {
           "slug": "x-posting",
@@ -128,7 +128,7 @@
         {
           "slug": "paid-ads",
           "label": "Paid ads",
-          "bots": 15
+          "bots": 16
         },
         {
           "slug": "seo-and-ai-search",
@@ -166,13 +166,13 @@
     {
       "slug": "e-commerce",
       "label": "E-Commerce",
-      "bots": 36,
-      "use_cases": 23,
+      "bots": 37,
+      "use_cases": 24,
       "sub_use_cases": [
         {
           "slug": "store-operations",
           "label": "Store operations",
-          "bots": 19
+          "bots": 20
         },
         {
           "slug": "store-chief-of-staff",
@@ -234,8 +234,8 @@
     {
       "slug": "finance",
       "label": "Finance",
-      "bots": 45,
-      "use_cases": 23,
+      "bots": 46,
+      "use_cases": 24,
       "sub_use_cases": [
         {
           "slug": "invoices",
@@ -270,7 +270,7 @@
         {
           "slug": "bookkeeping-and-reporting",
           "label": "Bookkeeping and reporting",
-          "bots": 11
+          "bots": 12
         }
       ],
       "url": "https://moneywithai.net/?category=finance"
@@ -278,8 +278,8 @@
     {
       "slug": "customer-support",
       "label": "Customer Support",
-      "bots": 49,
-      "use_cases": 17,
+      "bots": 50,
+      "use_cases": 18,
       "sub_use_cases": [
         {
           "slug": "ticket-fixing",
@@ -309,7 +309,7 @@
         {
           "slug": "support-triage",
           "label": "Support triage",
-          "bots": 9
+          "bots": 10
         },
         {
           "slug": "chat-and-messaging-support",

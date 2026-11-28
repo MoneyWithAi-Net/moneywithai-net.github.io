@@ -1,0 +1,120 @@
+{
+  "type": "use-case",
+  "slug": "run-product-ads-on-a-hard-daily-budget",
+  "title": "Run Product Ads on a Hard Daily Budget",
+  "category": "Content and Marketing",
+  "category_slug": "content-and-marketing",
+  "money_model": "Save costs",
+  "difficulty": "Advanced",
+  "summary": "Build product ad drafts from your photos and details, keep spend inside a daily cap you set, and apply pause and scale rules agreed in advance.",
+  "money_potential": {
+    "tier": 2,
+    "symbol": "$$",
+    "label": "Medium",
+    "basis": "Assumes you run your own product ads; the value is spend that stays inside a daily cap you set.",
+    "claim_label": "E",
+    "note": "Value tiers are our rough estimates (labeled Estimate) of relative value to the business, each with its assumption. They are not promises, income claims or advice. Results depend on your market, offer and effort."
+  },
+  "how_it_makes_money": [
+    "Ad spend cannot run past the daily cap you set.",
+    "Winning ads get more budget under the rules you wrote."
+  ],
+  "who_its_for": [
+    "Online sellers who run their own product ads.",
+    "Small shops with a fixed ad budget."
+  ],
+  "stack": [
+    {
+      "bot": "product-ads",
+      "name": "Product Ads",
+      "role": "Builds campaign drafts, keeps spend inside the daily budget and pauses or scales ads under your rules.",
+      "creator": "ColinMcDermott",
+      "tools": [
+        "Grok"
+      ],
+      "url": "https://moneywithai.net/bots/product-ads/",
+      "official_share_url": "https://x.ai/bot/1DFKnMzjYNPZyFFajRbUr"
+    },
+    {
+      "bot": "google-ads-optimizer",
+      "name": "Google Ads Optimizer",
+      "role": "Reviews the campaign results and suggests changes for your approval.",
+      "creator": "codyschneider",
+      "tools": [
+        "Cursor",
+        "Google Ads"
+      ],
+      "url": "https://moneywithai.net/bots/google-ads-optimizer/",
+      "official_share_url": null
+    }
+  ],
+  "tools": [
+    "Grok",
+    "Cursor",
+    "Google Ads"
+  ],
+  "diagram": {
+    "engine": "Grok Bot",
+    "inputs": [
+      {
+        "label": "Product photos, details and the daily budget",
+        "tool": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "by": "product-ads",
+        "name": "Product Ads",
+        "does": "Builds drafts and keeps spend inside the cap",
+        "tools": [
+          "Grok"
+        ]
+      },
+      {
+        "order": 2,
+        "by": "google-ads-optimizer",
+        "name": "Google Ads Optimizer",
+        "does": "Suggests changes from the results",
+        "tools": [
+          "Cursor",
+          "Google Ads"
+        ]
+      },
+      {
+        "order": 3,
+        "by": "you",
+        "name": "You",
+        "does": "Approves each change",
+        "tools": []
+      }
+    ],
+    "outputs": [
+      "Ads running inside the cap"
+    ]
+  },
+  "steps": [
+    "Set the daily budget and write the pause and scale rules.",
+    "Approve the first campaign drafts before they run.",
+    "Review spend reports from live figures each week.",
+    "Change the rules only after you review a full week."
+  ],
+  "guardrails": [
+    "Set the daily budget before anything runs.",
+    "Write the rules before launch, not after."
+  ],
+  "claims": [],
+  "latest_bot_added_at": "2026-11-28T10:00:00.000Z",
+  "featured": {
+    "rank": 154,
+    "score": 76,
+    "money": 27,
+    "profile": 26,
+    "visuals": 20,
+    "difficulty": 3,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  },
+  "url": "https://moneywithai.net/use-cases/run-product-ads-on-a-hard-daily-budget/",
+  "json_url": "https://moneywithai.net/api/v1/use-cases/run-product-ads-on-a-hard-daily-budget.json"
+}

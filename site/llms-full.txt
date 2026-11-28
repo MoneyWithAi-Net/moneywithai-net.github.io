@@ -1909,6 +1909,18 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
+## Customer Care
+
+- URL: https://moneywithai.net/bots/customer-care/
+- Category: Customer Support
+- Summary (Money With AI's words): Handles refunds and payment disputes against the written policy you give it. Every reply is a draft that waits for your approval, and a weekly summary tracks refund and dispute rates.
+- Tools: Grok
+- Creator: @ColinMcDermott (https://x.com/ColinMcDermott)
+- Original source: https://x.ai/bot/NIjIeUSpzESYUiJTmrAvm
+- Official share link: https://x.ai/bot/NIjIeUSpzESYUiJTmrAvm
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
 ## Customer Feedback Theme Analyst
 
 - URL: https://moneywithai.net/bots/customer-feedback-theme-analyst/
@@ -2780,6 +2792,18 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
+## Finance Bot
+
+- URL: https://moneywithai.net/bots/finance-bot/
+- Category: Finance
+- Summary (Money With AI's words): Reads a business mailbox without write access, logs money in and out as rows in a Google Sheets ledger, and builds a month-end profit and loss statement from those rows.
+- Tools: Grok, Google Sheets
+- Creator: @johnboyle (https://x.com/johnboyle)
+- Original source: https://x.ai/bot/n-LVavRHTPJnFnBS50XTk
+- Official share link: https://x.ai/bot/n-LVavRHTPJnFnBS50XTk
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
 ## Financial Document Analyst
 
 - URL: https://moneywithai.net/bots/financial-document-analyst/
@@ -2789,6 +2813,18 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Creator: Community submission
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included
+
+## First Customers Finder
+
+- URL: https://moneywithai.net/bots/first-customers-finder/
+- Category: Leads and Sales
+- Summary (Money With AI's words): Researches five people or companies each weekday that fit what you sell, checks they are real and reachable, and drafts a first message for each. You send.
+- Tools: Grok
+- Creator: @fabian_thepulse (https://x.com/fabian_thepulse)
+- Original source: https://x.ai/bot/1vDU_ekPGWy7UztJhp2yK
+- Official share link: https://x.ai/bot/1vDU_ekPGWy7UztJhp2yK
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
 
 ## Fleet Doctor
 
@@ -4967,6 +5003,18 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 
+## Order Desk
+
+- URL: https://moneywithai.net/bots/order-desk/
+- Category: E-Commerce
+- Summary (Money With AI's words): Gathers paid orders into a pick list with shipping addresses, logs tracking codes you give it, follows deliveries and flags stock that is running low.
+- Tools: Grok
+- Creator: @ColinMcDermott (https://x.com/ColinMcDermott)
+- Original source: https://x.ai/bot/w6Hlfs7lkauhmLzHSRmX0
+- Official share link: https://x.ai/bot/w6Hlfs7lkauhmLzHSRmX0
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
 ## OS Reviewer
 
 - URL: https://moneywithai.net/bots/os-reviewer/
@@ -5475,6 +5523,18 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 - Creator: @andrewkittridge (https://x.com/andrewkittridge)
 - Original source: https://x.ai/bot/3P03grqfP1E5PjeOSW-xO
 - Official share link: https://x.ai/bot/3P03grqfP1E5PjeOSW-xO
+- Proof level: Source verified: the original post exists and is by the named creator.
+- Prompt: not included; read it at the original source
+
+## Product Ads
+
+- URL: https://moneywithai.net/bots/product-ads/
+- Category: Content and Marketing
+- Summary (Money With AI's words): Builds product ad drafts from your photos and details, runs them inside a daily budget you set, pauses ads that underperform and scales the ones that convert, using rules you agree in advance.
+- Tools: Grok
+- Creator: @ColinMcDermott (https://x.com/ColinMcDermott)
+- Original source: https://x.ai/bot/1DFKnMzjYNPZyFFajRbUr
+- Official share link: https://x.ai/bot/1DFKnMzjYNPZyFFajRbUr
 - Proof level: Source verified: the original post exists and is by the named creator.
 - Prompt: not included; read it at the original source
 

@@ -1,0 +1,41 @@
+{
+  "type": "bot",
+  "slug": "customer-care",
+  "name": "Customer Care",
+  "category": "Customer Support",
+  "sub_use_case": "Support triage",
+  "summary": "Handles refunds and payment disputes against the written policy you give it. Every reply is a draft that waits for your approval, and a weekly summary tracks refund and dispute rates.",
+  "tools": [
+    "Grok"
+  ],
+  "creator": {
+    "handle": "ColinMcDermott",
+    "url": "https://x.com/ColinMcDermott"
+  },
+  "scouted_by": null,
+  "source": {
+    "kind": "web",
+    "url": "https://x.ai/bot/NIjIeUSpzESYUiJTmrAvm"
+  },
+  "official_share_url": "https://x.ai/bot/NIjIeUSpzESYUiJTmrAvm",
+  "found_via": null,
+  "prompt_included": false,
+  "proof_level": "source_verified",
+  "last_checked": "2026-11-28",
+  "url": "https://moneywithai.net/bots/customer-care/",
+  "json_url": "https://moneywithai.net/api/v1/bots/customer-care.json",
+  "use_cases": [
+    "https://moneywithai.net/use-cases/answer-refunds-and-disputes-against-your-policy/"
+  ],
+  "added_at": "2026-11-28T10:00:00.000Z",
+  "featured": {
+    "rank": 205,
+    "score": 83,
+    "money": 27,
+    "profile": 30,
+    "visuals": 20,
+    "difficulty": 6,
+    "override": null,
+    "rules": "https://moneywithai.net/llms.txt"
+  }
+}
