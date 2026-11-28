@@ -8,13 +8,13 @@ License and credit: Listings are public facts (name, creator, tools, category, s
 
 ## Start here
 
-- [Services: Run It With Us](https://moneywithai.net/services/): we set up and run the bot stack for your business with you. $1,500 founding price for the first 3 setups (normally $2,500). [Book a free 20-min call](https://cal.com/anthonytoday/qualification)
+- [Services: AI Done for You](https://moneywithai.net/services/): we set up one AI bot on your own accounts, test it with you and hand it over. $1,500 one-time setup fee; AI usage (tokens) and tool subscriptions are billed to the client directly. [Book a free 20-min call](https://cal.com/anthonytoday/qualification)
 - [Bot Blueprint Pack](https://anthonytoday.gumroad.com/l/cdklac): $39 on Gumroad. Five of our operating plans as a 32-page PDF plus a cost sheet, for owners who want to set it up themselves
-- [Grok Bot setup for clinics and practices](https://moneywithai.net/services/clinics/): We set up one Grok Bot for your clinic or dental practice: after-hours calls, review replies or marketing checks. $1,500 founding price. Free call.
-- [Grok Bot setup for real estate agents and offices](https://moneywithai.net/services/real-estate/): We set up one Grok Bot for your real estate office: lead replies, listing marketing or showings, approved by you. $1,500 founding price. Free call.
-- [Grok Bot setup for accounting and bookkeeping firms](https://moneywithai.net/services/accounting-firms/): We set up one Grok Bot for your accounting or bookkeeping firm: client replies, document chasing or books checks. $1,500 founding price. Free call.
-- [Grok Bot setup for marketing, web and automation agencies](https://moneywithai.net/services/agencies/): We set up one Grok Bot for your agency: inbox to tasks, call to proposal or client delivery. Your team approves. $1,500 founding price. Free call.
-- [Grok Bot setup for e-commerce and Shopify stores](https://moneywithai.net/services/ecommerce/): We set up one Grok Bot for your online store: customer replies, order alerts, win-back emails or price watch. $1,500 founding price. Free 20-min call.
+- [Grok Bot setup for clinics and practices](https://moneywithai.net/services/clinics/): We set up one Grok Bot for your clinic or dental practice: after-hours calls, review replies or marketing checks. $1,500 one-time setup. Free call.
+- [Grok Bot setup for real estate agents and offices](https://moneywithai.net/services/real-estate/): We set up one Grok Bot for your real estate office: lead replies, listing marketing or showings, approved by you. $1,500 one-time setup. Free call.
+- [Grok Bot setup for accounting and bookkeeping firms](https://moneywithai.net/services/accounting-firms/): We set up one Grok Bot for your accounting or bookkeeping firm: client replies, document chasing or books checks. $1,500 one-time setup. Free call.
+- [Grok Bot setup for marketing, web and automation agencies](https://moneywithai.net/services/agencies/): We set up one Grok Bot for your agency: inbox to tasks, call to proposal or client delivery. Your team approves. $1,500 one-time setup. Free call.
+- [Grok Bot setup for e-commerce and Shopify stores](https://moneywithai.net/services/ecommerce/): We set up one Grok Bot for your online store: customer replies, order alerts, win-back emails or price watch. $1,500 one-time setup. Free 20-min call.
 - [Security reviews](https://moneywithai.net/security/): desk security reviews of 25 popular Grok Bot setups, graded A to D with a published method by Anthony Kieffer (CISSP, CISM, AIGP). Not live tests
 - [Bots](https://moneywithai.net/): every listed bot with creator credit, tools and the original source
 - [Use cases](https://moneywithai.net/use-cases/): common business problems and the bot stack that handles each
@@ -98,7 +98,7 @@ If a fetch fails or the JSON has no envelope, change nothing and try next run.
 - [Grok Bot for Small Business](https://moneywithai.net/grok-bots/small-business/): 125 Grok Bot setups for small and local businesses: what each one handles, the first steps and the checks to keep a human in charge.
 - [Grok Bots That Support Your Business](https://moneywithai.net/grok-bots/make-money/): 6 ways business owners use Grok Bot to win customers, save time and catch billing errors, with real setups. Educational only; results vary.
 - [Sitemap](https://moneywithai.net/sitemap.xml): every public page with its last-modified date
-- [Services](https://moneywithai.net/services/): Run It With Us done-for-you setup ($1,500 founding price for the first 3 setups, normally $2,500), the Bot Blueprint Pack ($39 PDF on Gumroad) and Consulting and Custom Bots from the Money With AI team (inquiry form, no email shown)
+- [Services](https://moneywithai.net/services/): AI Done for You setup ($1,500 one-time setup fee), the Bot Blueprint Pack ($39 PDF on Gumroad) and Consulting and Custom Bots from the Money With AI team (inquiry form, no email shown)
 
 ## Blueprints
 
@@ -135,7 +135,7 @@ If a fetch fails or the JSON has no envelope, change nothing and try next run.
 
 ## Outcome pages
 
-- [By business type](https://moneywithai.net/for/) and [Problems solved](https://moneywithai.net/solved/): the business result first, then the setup, matching use cases and bots, blueprints with their checked costs, and Run It With Us. For businesses that already run. No income promises.
+- [By business type](https://moneywithai.net/for/) and [Problems solved](https://moneywithai.net/solved/): the business result first, then the setup, matching use cases and bots, blueprints with their checked costs, and AI Done for You. For businesses that already run. No income promises.
 - [For Contractors: Answer Every Lead Before the Next Quote Does](https://moneywithai.net/for/contractors/): For roofers, plumbers, electricians and other trades: answer the phone while you are on a job, reply to every inquiry fast and follow up every quote. Built from listed bots and checked prices. Use cases: contractor-speed-to-lead, home-services-speed-to-quote, local-business-reviews-and-calls, chase-unpaid-invoices, vendor-and-contractor-negotiation.
 - [For Construction Firms: A Back Office That Keeps Up With the Site](https://moneywithai.net/for/construction-firms/): For general contractors and construction companies: site photos become issue lists, daily notes get logged, bids and tenders move on time and the office inbox stays sorted. Use cases: construction-field-office, construction-office-chief-of-staff, trade-bid-desk, win-public-tenders, vendor-and-contractor-negotiation.
 - [For Clinics and Practices: Every Caller Answered, Every Review Replied To](https://moneywithai.net/for/clinics/): For clinics, dental offices and health practices: answer and book calls after hours, reply to reviews, and run marketing with a compliance check before anything goes out. Use cases: after-hours-phone-and-chat, local-business-reviews-and-calls, practice-marketing-team, compliant-content-for-regulated-firms.

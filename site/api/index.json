@@ -2,7 +2,7 @@
   "name": "Money With AI by AnthonyToday",
   "url": "https://moneywithai.net",
   "description": "Copy-ready AI bot setups that help you run your business. Each listing credits its creator and links the original source.",
-  "generated_at": "2026-11-27T07:25:34.000Z",
+  "generated_at": "2026-11-28T04:57:57.000Z",
   "counts": {
     "bots": 709,
     "use_cases": 214,
@@ -61,9 +61,10 @@
     "connect_your_bot": "https://moneywithai.net/connect/"
   },
   "get_help": {
-    "name": "Run It With Us",
-    "what": "We set up and run the bot stack for your business with you.",
-    "price": "$1,500 founding price for the first 3 setups (normally $2,500)",
+    "name": "AI Done for You",
+    "what": "We set up one AI bot on your own accounts, test it with you and hand it over working.",
+    "price": "$1,500 one-time setup fee",
+    "not_included": "AI usage (tokens) and tool subscriptions, billed to the client directly by each provider",
     "services_url": "https://moneywithai.net/services/",
     "fit_call_url": "https://cal.com/anthonytoday/qualification",
     "next_step": "Book a free 20-min call",
